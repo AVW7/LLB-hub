@@ -1,0 +1,11 @@
+Chapter 4: Parliament
+
+- (i) the Bill as passed by the Assembly;
+- (ii) the amended Bill as passed by the Council; or
+- (iii) another version of the Bill.(e) If the Mediation Committee is unable to agree within 30 days of the Bill's referral to it, the Bill lapses unless the Assembly again passes the Bill, but with a supporting vote of at least two thirds of its members.(f) If the Mediation Committee agrees on the Bill as passed by the Assembly, the Bill must be referred to the Council, and if passes the Bill, the Bill must be submitted to the President for assent.(g) If the Mediation Committee agrees on the amended Bill as passed by the Council, the Bill must be referred to the Assembly, and if it is passed by the Assembly, it must be submitted to the President for assent.(h) If the Mediation Committee agrees on another version of the Bill, that version of the Bill must be referred to both the Assembly and the Council, and if it is passed by the Assembly and the Council, it must be submitted to the President for assent.(i) If a Bill referred to the Council in terms of paragraph (f) or (h) is not passed by the Council, the Bill lapses unless the Assembly passes the Bill with a supporting vote of at least two thirds of its members.(j) If a Bill referred to the Assembly in terms of paragraph (g) or (h) is not passed by the Assembly, that Bill lapses, but the Bill as originally passed by the Assembly may again be passed by the Assembly, but with a supporting vote of at least two thirds of its members.(k) A Bill passed by the Assembly in terms of paragraph (e), (i) or (j) must be submitted to the President for assent.(2) When the National Council of Provinces passes a Bill referred to in subsection (3), the Bill must be referred to the National Assembly and dealt with in accordance with the following procedure:- (a) The Assembly must—
+  - (i) pass the Bill;
+  - (ii) pass an amended Bill; or
+  - (iii) reject the Bill.
+- (b) A Bill passed by the Assembly in terms of paragraph (a)(i) must be submitted to the President for assent.
+
+41

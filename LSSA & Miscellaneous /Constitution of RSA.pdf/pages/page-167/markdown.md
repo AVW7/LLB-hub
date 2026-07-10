@@ -1,0 +1,10 @@
+Annexure B
+
+- (b) the exercise of a power referred to in paragraph (b), (d)(i) or (e) of that subsection affecting a person who is not a member of the President's party, the decision of the leader of the party of which that person is a member prevails; and
+- (c) the exercise of a power referred to in paragraph (b) or (e) of that subsection affecting a person who is a member of the President's party, the President's decision prevails.(12) If any determination of portfolio allocations is varied under subsection (10) (c), the affected Ministers must vacate their portfolios but are eligible, where applicable, for reappointment to other portfolios allocated to their respective parties in terms of the varied determination.(13) The President—- (a) in consultation with the Executive Deputy Presidents and the leaders of the participating parties, must—
+  - (i) determine a specific portfolio for a Minister referred to in subsection (1) (b) should it become necessary pursuant to a decision of the President under that subsection;
+  - (ii) appoint in respect of that portfolio a person who is not a member of the National Assembly, as the Minister responsible for that portfolio; and
+  - (iii) fill, if necessary, a vacancy in respect of that portfolio; or
+- (b) after consultation with the Executive Deputy Presidents and the leaders of the participating parties, must terminate any appointment under paragraph (a) if it becomes necessary for the purposes of the Constitution or in the interest of good government.(14) Meetings of the Cabinet must be presided over by the President, or, if the President so instructs, by an Executive Deputy President: Provided that the Executive Deputy Presidents preside over meetings of the Cabinet in turn unless the exigencies of government and the spirit embodied in the concept of a government of national unity otherwise demand.(15) The Cabinet must function in a manner which gives consideration to the consensus-seeking spirit embodied in the concept of a government of national unity as well as the need for effective government.”.
+
+163

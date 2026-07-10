@@ -1,0 +1,4267 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-07-10",
+  "count": 222,
+  "subjects": {
+    "CCP": "Criminal Court Practice (Module 1)",
+    "CLP": "Constitutional Practice (Module 1)",
+    "COS": "Legal Costs (Module 2.1)",
+    "FBE": "Forms of Business Enterprise (Module 3.x)",
+    "HCP": "High Court Practice (Module 2.1)",
+    "MCP": "Magistrate's Court Practice (Module 2.1)",
+    "PCT": "Professional Conduct (Module 1)",
+    "PLE": "Professional Legal Ethics (Module 4)",
+    "LDR": "Labour Dispute Resolution (Module 3.2)",
+    "IPM": "Introduction to Practice Management (Module 4)",
+    "ICP": "Introduction to Conveyancing Practice (Module 3.2)",
+    "BBST": "Broad Based Skills Test (Integrated Practical Exam)",
+    "Attorneys Exam": "Attorneys Admission Examination (Board Exam)",
+    "LSSA": "LSSA Reference Materials and Miscellaneous"
+  },
+  "entries": [
+    {
+      "path": "./Attorneys Exam/AttExam14Feb2017A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 254042,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/AttExam14Feb2017Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 418426,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/AttExam15Feb2017A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 137180,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/AttExam15Feb2017Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 153570,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/AttExam16Aug2016A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 166665,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/AttExam16Aug2016Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 205314,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/AttExam17Aug2016A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 120595,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/AttExam17Aug2016Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 88074,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/AttExam9Feb2016A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 170860,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/AttExam9Feb2016Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 1512960,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./BBST/BBST2013(1)Q&A.doc",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "appeal",
+        "vat",
+        "close-corporation",
+        "trust"
+      ],
+      "description": "Broad Based Skills Test — marking memorandum / model answers",
+      "size_bytes": 86016,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/BBST2013(1)Q.doc",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "question",
+      "type": "assignment",
+      "topics": [
+        "plea",
+        "vat",
+        "close-corporation",
+        "constitution"
+      ],
+      "description": "Broad Based Skills Test — exam question paper",
+      "size_bytes": 82432,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/BBST2013(1)SuppQ&A.doc",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "partnership",
+        "trust",
+        "constitution"
+      ],
+      "description": "Broad Based Skills Test — marking memorandum / model answers",
+      "size_bytes": 69632,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/BBST2013(1)SuppQ.doc",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "question",
+      "type": "assignment",
+      "topics": [
+        "plea",
+        "constitution"
+      ],
+      "description": "Broad Based Skills Test — exam question paper",
+      "size_bytes": 56832,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/BBST2013(2)A.doc",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Broad Based Skills Test — marking memorandum / model answers",
+      "size_bytes": 94720,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/BBST2013(2)FinalQ.doc",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "question",
+      "type": "assignment",
+      "topics": [
+        "constitution"
+      ],
+      "description": "Broad Based Skills Test — exam question paper",
+      "size_bytes": 38400,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/BBST2013(2)Q&A.doc",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "vat",
+        "close-corporation",
+        "partnership",
+        "trust",
+        "bill-of-rights",
+        "constitution"
+      ],
+      "description": "Broad Based Skills Test — marking memorandum / model answers",
+      "size_bytes": 141824,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/BBST2013(2)Q.doc",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "question",
+      "type": "assignment",
+      "topics": [
+        "constitution"
+      ],
+      "description": "Broad Based Skills Test — exam question paper",
+      "size_bytes": 56320,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/BBST2013(2)Statement of Facts.doc",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "party-and-party-costs",
+        "partnership",
+        "constitution"
+      ],
+      "description": "Broad Based Skills Test — document",
+      "size_bytes": 78336,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/BBST2013(2)SuppStatement of Facts.doc",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "Broad Based Skills Test — document",
+      "size_bytes": 73216,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/BBST2014(1)FinalQ&A.doc",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "bill-of-costs",
+        "vat",
+        "taxation",
+        "party-and-party-costs",
+        "close-corporation",
+        "partnership",
+        "trust"
+      ],
+      "description": "Broad Based Skills Test — marking memorandum / model answers",
+      "size_bytes": 144384,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/BBST2014(1)FinalQ.doc",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "question",
+      "type": "assignment",
+      "topics": [
+        "plea",
+        "partnership",
+        "constitution"
+      ],
+      "description": "Broad Based Skills Test — exam question paper",
+      "size_bytes": 43008,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/BBST2014(1)Statement of Facts.doc",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "vat"
+      ],
+      "description": "Broad Based Skills Test — document",
+      "size_bytes": 74752,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/BBST2014(2) Supp Statement of Facts.doc",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "vat",
+        "close-corporation",
+        "constitution"
+      ],
+      "description": "Broad Based Skills Test — document",
+      "size_bytes": 73216,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/BBST2014(2)Q&A.doc",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "appeal",
+        "trust",
+        "locus-standi"
+      ],
+      "description": "Broad Based Skills Test — marking memorandum / model answers",
+      "size_bytes": 113664,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/BBST2014(2)Q.doc",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Broad Based Skills Test — exam question paper",
+      "size_bytes": 38912,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/BBST2014(2)Statement of Facts.doc",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "trust"
+      ],
+      "description": "Broad Based Skills Test — document",
+      "size_bytes": 84992,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/BBST2014(2)SuppAssQ.doc",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "question",
+      "type": "assignment",
+      "topics": [
+        "plea",
+        "vat",
+        "constitution"
+      ],
+      "description": "Broad Based Skills Test — exam question paper",
+      "size_bytes": 68608,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/BBST2014(2)SuppQ&A.doc",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "appeal",
+        "vat",
+        "close-corporation",
+        "trust"
+      ],
+      "description": "Broad Based Skills Test — marking memorandum / model answers",
+      "size_bytes": 87040,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/BBST2015(1)Statement of Facts.doc",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea",
+        "vat",
+        "close-corporation"
+      ],
+      "description": "Broad Based Skills Test — document",
+      "size_bytes": 80896,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/BBST2016(1)A.doc",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "bill-of-costs",
+        "vat",
+        "party-and-party-costs",
+        "close-corporation",
+        "locus-standi"
+      ],
+      "description": "Broad Based Skills Test — marking memorandum / model answers",
+      "size_bytes": 74240,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/BBST2016(1)Q.doc",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Broad Based Skills Test — exam question paper",
+      "size_bytes": 52224,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/BBST2017 Guideline writing BBST.docx",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea"
+      ],
+      "description": "Broad Based Skills Test — document",
+      "size_bytes": 14992,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/BBST2017Final Statement of Facts.doc",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea",
+        "vat",
+        "close-corporation",
+        "sole-proprietorship",
+        "trust"
+      ],
+      "description": "Broad Based Skills Test — document",
+      "size_bytes": 41549,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/BBST2018(2) Statement of Facts.pdf",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "vat",
+        "sole-proprietorship"
+      ],
+      "description": "Broad Based Skills Test — document",
+      "size_bytes": 107129,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/BBST20Apr2010Q.doc",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat"
+      ],
+      "description": "Broad Based Skills Test — exam question paper",
+      "size_bytes": 17296,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/BBST28Sep2017 Statement of Facts.docx",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "vat",
+        "sole-proprietorship",
+        "trust"
+      ],
+      "description": "Broad Based Skills Test — document",
+      "size_bytes": 26986,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/BBST9Jun2012A.doc",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "trust"
+      ],
+      "description": "Broad Based Skills Test — marking memorandum / model answers",
+      "size_bytes": 25215,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/BBST9Jun2012Q.doc",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat",
+        "sole-proprietorship"
+      ],
+      "description": "Broad Based Skills Test — exam question paper",
+      "size_bytes": 28259,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/BBSTDec2010Q.doc",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "vat"
+      ],
+      "description": "Broad Based Skills Test — exam question paper",
+      "size_bytes": 38902,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CCP/CCP2012(2)SuppA.doc",
+      "subject": "Criminal Court Practice (Module 1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "criminal-court-practice",
+        "bail",
+        "s115-statement",
+        "plea",
+        "appeal",
+        "vat",
+        "criminal-procedure-act",
+        "private-defence"
+      ],
+      "description": "Criminal Court Practice — marking memorandum / model answers",
+      "size_bytes": 24740,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CCP/CCP2019AssQ.doc",
+      "subject": "Criminal Court Practice (Module 1)",
+      "role": "question",
+      "type": "assignment",
+      "topics": [
+        "criminal-court-practice",
+        "bail",
+        "plea",
+        "leave-to-appeal",
+        "appeal",
+        "vat",
+        "police-docket"
+      ],
+      "description": "Criminal Court Practice — exam question paper",
+      "size_bytes": 45056,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CCP/CCP25Jul2015A.doc",
+      "subject": "Criminal Court Practice (Module 1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "criminal-court-practice",
+        "bail",
+        "s115-statement",
+        "plea",
+        "appeal",
+        "vat",
+        "criminal-procedure-act",
+        "private-defence"
+      ],
+      "description": "Criminal Court Practice — marking memorandum / model answers",
+      "size_bytes": 27016,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CCP/CCP25Jul2015Q.doc",
+      "subject": "Criminal Court Practice (Module 1)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "criminal-court-practice",
+        "bail",
+        "s115-statement",
+        "plea",
+        "appeal",
+        "vat",
+        "culpable-homicide",
+        "police-docket"
+      ],
+      "description": "Criminal Court Practice — exam question paper",
+      "size_bytes": 26960,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CCP/CCP26Jan2013A.doc",
+      "subject": "Criminal Court Practice (Module 1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "criminal-court-practice",
+        "bail",
+        "s112-statement",
+        "plea",
+        "vat"
+      ],
+      "description": "Criminal Court Practice — marking memorandum / model answers",
+      "size_bytes": 22821,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CCP/CCP26Jan2013Q.doc",
+      "subject": "Criminal Court Practice (Module 1)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "criminal-court-practice",
+        "bail",
+        "plea",
+        "vat",
+        "criminal-procedure-act"
+      ],
+      "description": "Criminal Court Practice — exam question paper",
+      "size_bytes": 18638,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CCP/CCP26Jul2014A.doc",
+      "subject": "Criminal Court Practice (Module 1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "criminal-court-practice",
+        "bail",
+        "s115-statement",
+        "plea",
+        "appeal",
+        "criminal-procedure-act",
+        "culpable-homicide",
+        "police-docket"
+      ],
+      "description": "Criminal Court Practice — marking memorandum / model answers",
+      "size_bytes": 21847,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CCP/CCP26Jul2014Q.doc",
+      "subject": "Criminal Court Practice (Module 1)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "criminal-court-practice",
+        "bail",
+        "plea",
+        "appeal",
+        "criminal-procedure-act",
+        "culpable-homicide",
+        "police-docket"
+      ],
+      "description": "Criminal Court Practice — exam question paper",
+      "size_bytes": 19794,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CCP/CCP26Jun2012A.doc",
+      "subject": "Criminal Court Practice (Module 1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "criminal-court-practice",
+        "bail",
+        "s115-statement",
+        "plea",
+        "appeal",
+        "criminal-procedure-act"
+      ],
+      "description": "Criminal Court Practice — marking memorandum / model answers",
+      "size_bytes": 23620,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CCP/CCP26Jun2012Q.doc",
+      "subject": "Criminal Court Practice (Module 1)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "criminal-court-practice",
+        "bail",
+        "s115-statement",
+        "plea",
+        "appeal",
+        "vat",
+        "criminal-procedure-act",
+        "private-defence"
+      ],
+      "description": "Criminal Court Practice — exam question paper",
+      "size_bytes": 18969,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CCP/CCP28Jan2012A.doc",
+      "subject": "Criminal Court Practice (Module 1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "criminal-court-practice",
+        "bail",
+        "s115-statement",
+        "plea",
+        "appeal",
+        "vat",
+        "constitution",
+        "criminal-procedure-act"
+      ],
+      "description": "Criminal Court Practice — marking memorandum / model answers",
+      "size_bytes": 21776,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CCP/CCP28Jan2012Q.doc",
+      "subject": "Criminal Court Practice (Module 1)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "criminal-court-practice",
+        "bail",
+        "s115-statement",
+        "plea",
+        "appeal",
+        "criminal-procedure-act",
+        "culpable-homicide",
+        "police-docket"
+      ],
+      "description": "Criminal Court Practice — exam question paper",
+      "size_bytes": 20585,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CCP/CCP30Jan2010A.doc",
+      "subject": "Criminal Court Practice (Module 1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "criminal-court-practice",
+        "bail",
+        "s115-statement",
+        "s112-statement",
+        "plea",
+        "appeal",
+        "criminal-procedure-act"
+      ],
+      "description": "Criminal Court Practice — marking memorandum / model answers",
+      "size_bytes": 26368,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CCP/CCP30Jan2010Q.doc",
+      "subject": "Criminal Court Practice (Module 1)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "criminal-court-practice",
+        "bail",
+        "plea",
+        "appeal",
+        "criminal-procedure-act",
+        "police-docket"
+      ],
+      "description": "Criminal Court Practice — exam question paper",
+      "size_bytes": 22746,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CCP/CCPDec2010A.doc",
+      "subject": "Criminal Court Practice (Module 1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "criminal-court-practice",
+        "bail",
+        "s112-statement",
+        "plea",
+        "leave-to-appeal",
+        "appeal",
+        "criminal-procedure-act",
+        "culpable-homicide"
+      ],
+      "description": "Criminal Court Practice — marking memorandum / model answers",
+      "size_bytes": 18929,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CCP/CCPDec2010Q.doc",
+      "subject": "Criminal Court Practice (Module 1)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "criminal-court-practice",
+        "bail",
+        "s112-statement",
+        "plea",
+        "appeal",
+        "vat",
+        "criminal-procedure-act",
+        "police-docket"
+      ],
+      "description": "Criminal Court Practice — exam question paper",
+      "size_bytes": 19732,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CCP/CCPExampleAppLeaveToAppeal.doc",
+      "subject": "Criminal Court Practice (Module 1)",
+      "role": "template",
+      "type": "template",
+      "topics": [
+        "criminal-court-practice",
+        "leave-to-appeal",
+        "appeal"
+      ],
+      "description": "Criminal Court Practice — precedent/template document",
+      "size_bytes": 35328,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CCP/CCPHighCourtAppLeavetoAppeal.pdf",
+      "subject": "Criminal Court Practice (Module 1)",
+      "role": "template",
+      "type": "template",
+      "topics": [
+        "criminal-court-practice"
+      ],
+      "description": "Criminal Court Practice — precedent/template document",
+      "size_bytes": 2278502,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./CCP/CCPModule1A.doc",
+      "subject": "Criminal Court Practice (Module 1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "criminal-court-practice",
+        "bail",
+        "s115-statement",
+        "plea",
+        "appeal",
+        "vat",
+        "criminal-procedure-act",
+        "private-defence"
+      ],
+      "description": "Criminal Court Practice — marking memorandum / model answers",
+      "size_bytes": 24823,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CCP/CCPModule1Q.doc",
+      "subject": "Criminal Court Practice (Module 1)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "criminal-court-practice",
+        "bail",
+        "s115-statement",
+        "plea",
+        "appeal",
+        "vat",
+        "police-docket"
+      ],
+      "description": "Criminal Court Practice — exam question paper",
+      "size_bytes": 15622,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CCP/CCPWebinar2019Slides.pdf",
+      "subject": "Criminal Court Practice (Module 1)",
+      "role": "slides",
+      "type": "slides",
+      "topics": [
+        "criminal-court-practice"
+      ],
+      "description": "Criminal Court Practice — webinar/lecture slide deck",
+      "size_bytes": 3204325,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./CLP/CLP 2012.2 SUPP ENG - only for appeal students.doc",
+      "subject": "Constitutional Practice (Module 1)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "constitutional-practice",
+        "appeal",
+        "bill-of-rights",
+        "locus-standi",
+        "constitution"
+      ],
+      "description": "Constitutional Practice — document",
+      "size_bytes": 16889,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CLP/CLP21Jul2012A.doc",
+      "subject": "Constitutional Practice (Module 1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "constitutional-practice",
+        "appeal",
+        "vat",
+        "bill-of-rights",
+        "locus-standi",
+        "constitution"
+      ],
+      "description": "Constitutional Practice — marking memorandum / model answers",
+      "size_bytes": 25330,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CLP/CLP21Jul2012Q.doc",
+      "subject": "Constitutional Practice (Module 1)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "constitutional-practice",
+        "vat",
+        "bill-of-rights",
+        "locus-standi",
+        "constitution"
+      ],
+      "description": "Constitutional Practice — exam question paper",
+      "size_bytes": 19254,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CLP/CLP24Jul2010A.doc",
+      "subject": "Constitutional Practice (Module 1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "constitutional-practice",
+        "bill-of-rights",
+        "locus-standi",
+        "constitution"
+      ],
+      "description": "Constitutional Practice — marking memorandum / model answers",
+      "size_bytes": 26608,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CLP/CLP24Jul2010Q.doc",
+      "subject": "Constitutional Practice (Module 1)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "constitutional-practice",
+        "bill-of-rights",
+        "locus-standi",
+        "constitution"
+      ],
+      "description": "Constitutional Practice — exam question paper",
+      "size_bytes": 20927,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CLP/CLP26Jun2012A.doc",
+      "subject": "Constitutional Practice (Module 1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "constitutional-practice",
+        "locus-standi",
+        "constitution"
+      ],
+      "description": "Constitutional Practice — marking memorandum / model answers",
+      "size_bytes": 21680,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CLP/CLP26Jun2012Q.doc",
+      "subject": "Constitutional Practice (Module 1)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "constitutional-practice",
+        "bill-of-rights",
+        "locus-standi",
+        "constitution"
+      ],
+      "description": "Constitutional Practice — exam question paper",
+      "size_bytes": 19323,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CLP/CLP2Aug2012A.doc",
+      "subject": "Constitutional Practice (Module 1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "constitutional-practice",
+        "leave-to-appeal",
+        "appeal",
+        "bill-of-rights",
+        "constitution"
+      ],
+      "description": "Constitutional Practice — marking memorandum / model answers",
+      "size_bytes": 19888,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CLP/CLP30Jan2010A.doc",
+      "subject": "Constitutional Practice (Module 1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "constitutional-practice",
+        "plea",
+        "appeal",
+        "vat",
+        "costs-de-bonis-propriis",
+        "bill-of-rights",
+        "constitution"
+      ],
+      "description": "Constitutional Practice — marking memorandum / model answers",
+      "size_bytes": 77100,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CLP/CLP30Jan2010Q.doc",
+      "subject": "Constitutional Practice (Module 1)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "constitutional-practice",
+        "plea",
+        "vat",
+        "constitution"
+      ],
+      "description": "Constitutional Practice — exam question paper",
+      "size_bytes": 20545,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CLP/CLP30Jan2019AssA.docx",
+      "subject": "Constitutional Practice (Module 1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "constitutional-practice",
+        "vat",
+        "bill-of-rights",
+        "constitution"
+      ],
+      "description": "Constitutional Practice — marking memorandum / model answers",
+      "size_bytes": 17877,
+      "quality_score": 2.7,
+      "gaps": []
+    },
+    {
+      "path": "./CLP/CLP30Jan2019AssQ.docx",
+      "subject": "Constitutional Practice (Module 1)",
+      "role": "question",
+      "type": "assignment",
+      "topics": [
+        "constitutional-practice",
+        "vat",
+        "bill-of-rights"
+      ],
+      "description": "Constitutional Practice — exam question paper",
+      "size_bytes": 17424,
+      "quality_score": 2.7,
+      "gaps": []
+    },
+    {
+      "path": "./CLP/CLPDec2010Q.doc",
+      "subject": "Constitutional Practice (Module 1)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "constitutional-practice",
+        "constitution"
+      ],
+      "description": "Constitutional Practice — exam question paper",
+      "size_bytes": 15171,
+      "quality_score": 2.7,
+      "gaps": []
+    },
+    {
+      "path": "./CLP/CLPJul2012A.doc",
+      "subject": "Constitutional Practice (Module 1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "constitutional-practice",
+        "appeal",
+        "vat",
+        "bill-of-rights",
+        "constitution"
+      ],
+      "description": "Constitutional Practice — marking memorandum / model answers",
+      "size_bytes": 33808,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CLP/CLPJul2012Q.doc",
+      "subject": "Constitutional Practice (Module 1)",
+      "role": "question",
+      "type": "assignment",
+      "topics": [
+        "constitutional-practice",
+        "bail",
+        "appeal",
+        "vat",
+        "bill-of-rights",
+        "constitution"
+      ],
+      "description": "Constitutional Practice — exam question paper",
+      "size_bytes": 22670,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CLP/CLPLecture2019Q&A.pdf",
+      "subject": "Constitutional Practice (Module 1)",
+      "role": "lecture",
+      "type": "lecture_qa",
+      "topics": [
+        "constitutional-practice"
+      ],
+      "description": "Constitutional Practice — lecture Q&A",
+      "size_bytes": 281296,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./CLP/CLPWebinar2019Slides.ppt",
+      "subject": "Constitutional Practice (Module 1)",
+      "role": "slides",
+      "type": "slides",
+      "topics": [
+        "constitutional-practice",
+        "appeal",
+        "vat",
+        "bill-of-rights",
+        "constitution"
+      ],
+      "description": "Constitutional Practice — webinar/lecture slide deck",
+      "size_bytes": 3547136,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./COS/COS18Mar2010A.doc",
+      "subject": "Legal Costs (Module 2.1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "legal-costs",
+        "plea",
+        "allocatur",
+        "vat",
+        "party-and-party-costs"
+      ],
+      "description": "Legal Costs — marking memorandum / model answers",
+      "size_bytes": 18726,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./COS/COS18Mar2010Q.doc",
+      "subject": "Legal Costs (Module 2.1)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "legal-costs",
+        "plea",
+        "bill-of-costs",
+        "allocatur",
+        "vat"
+      ],
+      "description": "Legal Costs — exam question paper",
+      "size_bytes": 17118,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./COS/COS2012(1)A.doc",
+      "subject": "Legal Costs (Module 2.1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "legal-costs",
+        "allocatur",
+        "vat",
+        "taxation",
+        "costs-de-bonis-propriis",
+        "trust"
+      ],
+      "description": "Legal Costs — marking memorandum / model answers",
+      "size_bytes": 18256,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./COS/COS2012(1)Q.doc",
+      "subject": "Legal Costs (Module 2.1)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "legal-costs",
+        "plea",
+        "bill-of-costs",
+        "allocatur",
+        "vat",
+        "taxation"
+      ],
+      "description": "Legal Costs — exam question paper",
+      "size_bytes": 17882,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./COS/COS30Aug2012A.doc",
+      "subject": "Legal Costs (Module 2.1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "legal-costs",
+        "bill-of-costs",
+        "vat",
+        "taxation",
+        "party-and-party-costs",
+        "costs-de-bonis-propriis",
+        "police-docket"
+      ],
+      "description": "Legal Costs — marking memorandum / model answers",
+      "size_bytes": 21717,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./COS/COS30Aug2012A.docx",
+      "subject": "Legal Costs (Module 2.1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "legal-costs",
+        "bill-of-costs",
+        "vat",
+        "taxation",
+        "party-and-party-costs",
+        "costs-de-bonis-propriis",
+        "police-docket"
+      ],
+      "description": "Legal Costs — marking memorandum / model answers",
+      "size_bytes": 13158,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./COS/COS30Aug2012Q.doc",
+      "subject": "Legal Costs (Module 2.1)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "legal-costs",
+        "plea",
+        "bill-of-costs",
+        "allocatur",
+        "vat",
+        "party-and-party-costs",
+        "costs-de-bonis-propriis",
+        "criminal-procedure-act"
+      ],
+      "description": "Legal Costs — exam question paper",
+      "size_bytes": 19029,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./COS/COS6Mar2010A.doc",
+      "subject": "Legal Costs (Module 2.1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "legal-costs",
+        "vat",
+        "taxation",
+        "party-and-party-costs",
+        "costs-de-bonis-propriis",
+        "trust"
+      ],
+      "description": "Legal Costs — marking memorandum / model answers",
+      "size_bytes": 19055,
+      "quality_score": 2.7,
+      "gaps": []
+    },
+    {
+      "path": "./COS/COS6Mar2010Q.doc",
+      "subject": "Legal Costs (Module 2.1)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "legal-costs",
+        "plea",
+        "appeal",
+        "bill-of-costs",
+        "allocatur",
+        "vat",
+        "taxation",
+        "party-and-party-costs"
+      ],
+      "description": "Legal Costs — exam question paper",
+      "size_bytes": 17803,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./COS/COS7Sep2010A.DOC",
+      "subject": "Legal Costs (Module 2.1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "legal-costs",
+        "bill-of-costs",
+        "vat",
+        "taxation",
+        "party-and-party-costs",
+        "costs-de-bonis-propriis",
+        "police-docket"
+      ],
+      "description": "Legal Costs — marking memorandum / model answers",
+      "size_bytes": 21054,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./COS/COS7Sep2010Q.DOC",
+      "subject": "Legal Costs (Module 2.1)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "legal-costs",
+        "plea",
+        "bill-of-costs",
+        "allocatur",
+        "vat",
+        "taxation",
+        "party-and-party-costs",
+        "costs-de-bonis-propriis"
+      ],
+      "description": "Legal Costs — exam question paper",
+      "size_bytes": 17410,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./COS/COSMod2.1A.doc",
+      "subject": "Legal Costs (Module 2.1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "legal-costs",
+        "plea",
+        "bill-of-costs",
+        "vat",
+        "taxation",
+        "party-and-party-costs",
+        "costs-de-bonis-propriis",
+        "trust"
+      ],
+      "description": "Legal Costs — marking memorandum / model answers",
+      "size_bytes": 22073,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./COS/COSMod2.1Q.doc",
+      "subject": "Legal Costs (Module 2.1)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "legal-costs",
+        "plea",
+        "vat",
+        "party-and-party-costs",
+        "costs-de-bonis-propriis",
+        "criminal-procedure-act",
+        "police-docket"
+      ],
+      "description": "Legal Costs — exam question paper",
+      "size_bytes": 17673,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./FBE/FBE16May2012A.doc",
+      "subject": "Forms of Business Enterprise (Module 3.x)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "forms-of-business-enterprise",
+        "close-corporation",
+        "trust",
+        "judicial-management",
+        "constitution"
+      ],
+      "description": "Forms of Business Enterprise — marking memorandum / model answers",
+      "size_bytes": 16586,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./FBE/FBE16May2012Q.doc",
+      "subject": "Forms of Business Enterprise (Module 3.x)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "forms-of-business-enterprise",
+        "vat",
+        "close-corporation",
+        "partnership",
+        "sole-proprietorship",
+        "trust",
+        "judicial-management"
+      ],
+      "description": "Forms of Business Enterprise — exam question paper",
+      "size_bytes": 15890,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./FBE/FBE16Nov2010A.doc",
+      "subject": "Forms of Business Enterprise (Module 3.x)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "forms-of-business-enterprise",
+        "vat",
+        "close-corporation",
+        "partnership",
+        "trust"
+      ],
+      "description": "Forms of Business Enterprise — marking memorandum / model answers",
+      "size_bytes": 15533,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./FBE/FBE16Nov2010Q.doc",
+      "subject": "Forms of Business Enterprise (Module 3.x)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "forms-of-business-enterprise",
+        "vat",
+        "close-corporation",
+        "partnership",
+        "sole-proprietorship",
+        "trust"
+      ],
+      "description": "Forms of Business Enterprise — exam question paper",
+      "size_bytes": 15371,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./FBE/FBE22May2010A.doc",
+      "subject": "Forms of Business Enterprise (Module 3.x)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "forms-of-business-enterprise",
+        "vat",
+        "close-corporation",
+        "partnership",
+        "trust"
+      ],
+      "description": "Forms of Business Enterprise — marking memorandum / model answers",
+      "size_bytes": 17988,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./FBE/FBE22May2010Q.doc",
+      "subject": "Forms of Business Enterprise (Module 3.x)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "forms-of-business-enterprise",
+        "vat",
+        "close-corporation",
+        "partnership",
+        "trust"
+      ],
+      "description": "Forms of Business Enterprise — exam question paper",
+      "size_bytes": 16656,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./FBE/FBE28Jun2012A.doc",
+      "subject": "Forms of Business Enterprise (Module 3.x)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "forms-of-business-enterprise",
+        "vat",
+        "close-corporation",
+        "partnership",
+        "trust"
+      ],
+      "description": "Forms of Business Enterprise — marking memorandum / model answers",
+      "size_bytes": 22133,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./FBE/FBE28Jun2012Q.doc",
+      "subject": "Forms of Business Enterprise (Module 3.x)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "forms-of-business-enterprise",
+        "vat",
+        "partnership",
+        "sole-proprietorship",
+        "trust"
+      ],
+      "description": "Forms of Business Enterprise — exam question paper",
+      "size_bytes": 21991,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./FBE/FBE3Dec2009A.doc",
+      "subject": "Forms of Business Enterprise (Module 3.x)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "forms-of-business-enterprise",
+        "vat",
+        "close-corporation",
+        "partnership",
+        "pre-incorporation-contract",
+        "trust"
+      ],
+      "description": "Forms of Business Enterprise — marking memorandum / model answers",
+      "size_bytes": 15725,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./FBE/FBE3Dec2009Q.doc",
+      "subject": "Forms of Business Enterprise (Module 3.x)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "forms-of-business-enterprise",
+        "vat",
+        "close-corporation",
+        "partnership",
+        "sole-proprietorship",
+        "pre-incorporation-contract",
+        "trust"
+      ],
+      "description": "Forms of Business Enterprise — exam question paper",
+      "size_bytes": 13527,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./FBE/FBE3Jun2010A.doc",
+      "subject": "Forms of Business Enterprise (Module 3.x)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "forms-of-business-enterprise",
+        "partnership",
+        "sole-proprietorship",
+        "trust"
+      ],
+      "description": "Forms of Business Enterprise — marking memorandum / model answers",
+      "size_bytes": 15763,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./FBE/FBE3Jun2010Q.doc",
+      "subject": "Forms of Business Enterprise (Module 3.x)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "forms-of-business-enterprise",
+        "close-corporation",
+        "partnership",
+        "sole-proprietorship",
+        "trust",
+        "judicial-management"
+      ],
+      "description": "Forms of Business Enterprise — exam question paper",
+      "size_bytes": 16908,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./FBE/FBE5May2012A.doc",
+      "subject": "Forms of Business Enterprise (Module 3.x)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "forms-of-business-enterprise",
+        "vat",
+        "trust"
+      ],
+      "description": "Forms of Business Enterprise — marking memorandum / model answers",
+      "size_bytes": 19463,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./FBE/FBE5May2012Q.doc",
+      "subject": "Forms of Business Enterprise (Module 3.x)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "forms-of-business-enterprise",
+        "vat",
+        "partnership",
+        "sole-proprietorship",
+        "pre-incorporation-contract",
+        "trust"
+      ],
+      "description": "Forms of Business Enterprise — exam question paper",
+      "size_bytes": 18814,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/HCP Example - Heads of argument.pdf",
+      "subject": "High Court Practice (Module 2.1)",
+      "role": "template",
+      "type": "template",
+      "topics": [
+        "plea",
+        "leave-to-appeal",
+        "appeal",
+        "constitution"
+      ],
+      "description": "High Court Practice — precedent/template document",
+      "size_bytes": 26826,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/HCP NoticeofAppeal.doc",
+      "subject": "High Court Practice (Module 2.1)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea",
+        "leave-to-appeal",
+        "appeal"
+      ],
+      "description": "High Court Practice — document",
+      "size_bytes": 41472,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/HCP18Mar2010A.doc",
+      "subject": "High Court Practice (Module 2.1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "close-corporation"
+      ],
+      "description": "High Court Practice — marking memorandum / model answers",
+      "size_bytes": 19570,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/HCP18Mar2010Q.doc",
+      "subject": "High Court Practice (Module 2.1)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "close-corporation"
+      ],
+      "description": "High Court Practice — exam question paper",
+      "size_bytes": 17401,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/HCP19Mar2008A.doc",
+      "subject": "High Court Practice (Module 2.1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "appeal"
+      ],
+      "description": "High Court Practice — marking memorandum / model answers",
+      "size_bytes": 18393,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/HCP1Mar2014A.doc",
+      "subject": "High Court Practice (Module 2.1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "appeal"
+      ],
+      "description": "High Court Practice — marking memorandum / model answers",
+      "size_bytes": 45056,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/HCP1Mar2014Q.doc",
+      "subject": "High Court Practice (Module 2.1)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "appeal",
+        "partnership",
+        "trust"
+      ],
+      "description": "High Court Practice — exam question paper",
+      "size_bytes": 37376,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/HCP2012(1)A.doc",
+      "subject": "High Court Practice (Module 2.1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea"
+      ],
+      "description": "High Court Practice — marking memorandum / model answers",
+      "size_bytes": 23785,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/HCP2012(1)Q.doc",
+      "subject": "High Court Practice (Module 2.1)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea"
+      ],
+      "description": "High Court Practice — exam question paper",
+      "size_bytes": 23466,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/HCP2015Slides.pdf",
+      "subject": "High Court Practice (Module 2.1)",
+      "role": "slides",
+      "type": "slides",
+      "topics": [
+        "plea",
+        "leave-to-appeal",
+        "appeal",
+        "vat",
+        "close-corporation",
+        "partnership",
+        "trust",
+        "locus-standi"
+      ],
+      "description": "High Court Practice — webinar/lecture slide deck",
+      "size_bytes": 3201363,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/HCP20Aug2011A.doc",
+      "subject": "High Court Practice (Module 2.1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea"
+      ],
+      "description": "High Court Practice — marking memorandum / model answers",
+      "size_bytes": 41472,
+      "quality_score": 2.7,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/HCP20Aug2011Q.doc",
+      "subject": "High Court Practice (Module 2.1)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea"
+      ],
+      "description": "High Court Practice — exam question paper",
+      "size_bytes": 41984,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/HCP30Aug2012A.doc",
+      "subject": "High Court Practice (Module 2.1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "trust"
+      ],
+      "description": "High Court Practice — marking memorandum / model answers",
+      "size_bytes": 36864,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/HCP30Aug2012Q.doc",
+      "subject": "High Court Practice (Module 2.1)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "trust"
+      ],
+      "description": "High Court Practice — exam question paper",
+      "size_bytes": 31232,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/HCP3Mar2012A.doc",
+      "subject": "High Court Practice (Module 2.1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea"
+      ],
+      "description": "High Court Practice — marking memorandum / model answers",
+      "size_bytes": 38400,
+      "quality_score": 2.7,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/HCP5Mar2011A.doc",
+      "subject": "High Court Practice (Module 2.1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "locus-standi"
+      ],
+      "description": "High Court Practice — marking memorandum / model answers",
+      "size_bytes": 29184,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/HCP5Mar2011Q.doc",
+      "subject": "High Court Practice (Module 2.1)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "constitution"
+      ],
+      "description": "High Court Practice — exam question paper",
+      "size_bytes": 45056,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/HCP6Mar2010A.doc",
+      "subject": "High Court Practice (Module 2.1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "locus-standi"
+      ],
+      "description": "High Court Practice — marking memorandum / model answers",
+      "size_bytes": 23993,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/HCP6Mar2010Q.doc",
+      "subject": "High Court Practice (Module 2.1)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "partnership"
+      ],
+      "description": "High Court Practice — exam question paper",
+      "size_bytes": 22587,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/HCP6Sep2013A.doc",
+      "subject": "High Court Practice (Module 2.1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "locus-standi"
+      ],
+      "description": "High Court Practice — marking memorandum / model answers",
+      "size_bytes": 37888,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/HCP6Sep2013Q.docx",
+      "subject": "High Court Practice (Module 2.1)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat"
+      ],
+      "description": "High Court Practice — exam question paper",
+      "size_bytes": 23455,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/HCP7Mar2019AssQ.docx",
+      "subject": "High Court Practice (Module 2.1)",
+      "role": "question",
+      "type": "assignment",
+      "topics": [
+        "plea",
+        "trust"
+      ],
+      "description": "High Court Practice — exam question paper",
+      "size_bytes": 25844,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/HCP7Sep2010A.DOC",
+      "subject": "High Court Practice (Module 2.1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "trust"
+      ],
+      "description": "High Court Practice — marking memorandum / model answers",
+      "size_bytes": 17527,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/HCP7Sep2010Q.DOC",
+      "subject": "High Court Practice (Module 2.1)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "trust"
+      ],
+      "description": "High Court Practice — exam question paper",
+      "size_bytes": 17393,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./ICP/ICP16May2012A.doc",
+      "subject": "Introduction to Conveyancing Practice (Module 3.2)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "vat",
+        "trust"
+      ],
+      "description": "Introduction to Conveyancing Practice — marking memorandum / model answers",
+      "size_bytes": 38912,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./ICP/ICP16May2012Q.doc",
+      "subject": "Introduction to Conveyancing Practice (Module 3.2)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "vat",
+        "trust"
+      ],
+      "description": "Introduction to Conveyancing Practice — exam question paper",
+      "size_bytes": 41472,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./ICP/ICP19May2016A.doc",
+      "subject": "Introduction to Conveyancing Practice (Module 3.2)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "vat"
+      ],
+      "description": "Introduction to Conveyancing Practice — marking memorandum / model answers",
+      "size_bytes": 37376,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./ICP/ICP24Oct2015A.doc",
+      "subject": "Introduction to Conveyancing Practice (Module 3.2)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "trust"
+      ],
+      "description": "Introduction to Conveyancing Practice — marking memorandum / model answers",
+      "size_bytes": 48128,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./ICP/ICP28Jun2012A.doc",
+      "subject": "Introduction to Conveyancing Practice (Module 3.2)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "trust"
+      ],
+      "description": "Introduction to Conveyancing Practice — marking memorandum / model answers",
+      "size_bytes": 52736,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./ICP/ICP28Jun2012Q.doc",
+      "subject": "Introduction to Conveyancing Practice (Module 3.2)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "close-corporation"
+      ],
+      "description": "Introduction to Conveyancing Practice — exam question paper",
+      "size_bytes": 47104,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./ICP/ICP29Jun2016A.doc",
+      "subject": "Introduction to Conveyancing Practice (Module 3.2)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "vat",
+        "trust"
+      ],
+      "description": "Introduction to Conveyancing Practice — marking memorandum / model answers",
+      "size_bytes": 39424,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./ICP/ICP3Dec2015A.doc",
+      "subject": "Introduction to Conveyancing Practice (Module 3.2)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "vat"
+      ],
+      "description": "Introduction to Conveyancing Practice — marking memorandum / model answers",
+      "size_bytes": 36864,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./ICP/ICP5May2012A.doc",
+      "subject": "Introduction to Conveyancing Practice (Module 3.2)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "vat",
+        "trust"
+      ],
+      "description": "Introduction to Conveyancing Practice — marking memorandum / model answers",
+      "size_bytes": 40960,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./ICP/ICP5May2012Q.doc",
+      "subject": "Introduction to Conveyancing Practice (Module 3.2)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "partnership"
+      ],
+      "description": "Introduction to Conveyancing Practice — exam question paper",
+      "size_bytes": 50688,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./ICP/ICP7May2016A.doc",
+      "subject": "Introduction to Conveyancing Practice (Module 3.2)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "vat",
+        "trust"
+      ],
+      "description": "Introduction to Conveyancing Practice — marking memorandum / model answers",
+      "size_bytes": 48640,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./ICP/ICPDec2010A.doc",
+      "subject": "Introduction to Conveyancing Practice (Module 3.2)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "trust"
+      ],
+      "description": "Introduction to Conveyancing Practice — marking memorandum / model answers",
+      "size_bytes": 26624,
+      "quality_score": 2.7,
+      "gaps": []
+    },
+    {
+      "path": "./ICP/ICPDec2010Q.doc",
+      "subject": "Introduction to Conveyancing Practice (Module 3.2)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "partnership",
+        "trust"
+      ],
+      "description": "Introduction to Conveyancing Practice — exam question paper",
+      "size_bytes": 27648,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./IPM/IPM19May2012Q.doc",
+      "subject": "Introduction to Practice Management (Module 4)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Introduction to Practice Management — exam question paper",
+      "size_bytes": 31744,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./IPM/IPM19May2014A.doc",
+      "subject": "Introduction to Practice Management (Module 4)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "vat"
+      ],
+      "description": "Introduction to Practice Management — marking memorandum / model answers",
+      "size_bytes": 29696,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./IPM/IPM1Jun2012A.doc",
+      "subject": "Introduction to Practice Management (Module 4)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "vat",
+        "trust"
+      ],
+      "description": "Introduction to Practice Management — marking memorandum / model answers",
+      "size_bytes": 35328,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./IPM/IPM1Jun2012Q.doc",
+      "subject": "Introduction to Practice Management (Module 4)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Introduction to Practice Management — exam question paper",
+      "size_bytes": 25600,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./IPM/IPM2012AssA.doc",
+      "subject": "Introduction to Practice Management (Module 4)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Introduction to Practice Management — marking memorandum / model answers",
+      "size_bytes": 31232,
+      "quality_score": 2.7,
+      "gaps": []
+    },
+    {
+      "path": "./IPM/IPM2012AssQ.doc",
+      "subject": "Introduction to Practice Management (Module 4)",
+      "role": "question",
+      "type": "assignment",
+      "topics": [],
+      "description": "Introduction to Practice Management — exam question paper",
+      "size_bytes": 30208,
+      "quality_score": 2.7,
+      "gaps": []
+    },
+    {
+      "path": "./IPM/IPM2015AssA.doc",
+      "subject": "Introduction to Practice Management (Module 4)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Introduction to Practice Management — marking memorandum / model answers",
+      "size_bytes": 28672,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./IPM/IPM2015AssQ.doc",
+      "subject": "Introduction to Practice Management (Module 4)",
+      "role": "question",
+      "type": "assignment",
+      "topics": [
+        "plea",
+        "sole-proprietorship"
+      ],
+      "description": "Introduction to Practice Management — exam question paper",
+      "size_bytes": 26624,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./IPM/IPM2016AssA.doc",
+      "subject": "Introduction to Practice Management (Module 4)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "vat"
+      ],
+      "description": "Introduction to Practice Management — marking memorandum / model answers",
+      "size_bytes": 28672,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./IPM/IPM2016AssQ.doc",
+      "subject": "Introduction to Practice Management (Module 4)",
+      "role": "question",
+      "type": "assignment",
+      "topics": [],
+      "description": "Introduction to Practice Management — exam question paper",
+      "size_bytes": 25600,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./IPM/IPM2019AssQ.docx",
+      "subject": "Introduction to Practice Management (Module 4)",
+      "role": "question",
+      "type": "assignment",
+      "topics": [
+        "vat",
+        "trust"
+      ],
+      "description": "Introduction to Practice Management — exam question paper",
+      "size_bytes": 19525,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./IPM/IPM27Jun2012A.doc",
+      "subject": "Introduction to Practice Management (Module 4)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "trust"
+      ],
+      "description": "Introduction to Practice Management — marking memorandum / model answers",
+      "size_bytes": 33280,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./IPM/IPM27Jun2012Q.doc",
+      "subject": "Introduction to Practice Management (Module 4)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "trust"
+      ],
+      "description": "Introduction to Practice Management — exam question paper",
+      "size_bytes": 34304,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LDR/LDR16May2012A.doc",
+      "subject": "Labour Dispute Resolution (Module 3.2)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "vat"
+      ],
+      "description": "Labour Dispute Resolution — marking memorandum / model answers",
+      "size_bytes": 29263,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LDR/LDR16May2012Q.doc",
+      "subject": "Labour Dispute Resolution (Module 3.2)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat"
+      ],
+      "description": "Labour Dispute Resolution — exam question paper",
+      "size_bytes": 19249,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LDR/LDR16Nov2010A.doc",
+      "subject": "Labour Dispute Resolution (Module 3.2)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Labour Dispute Resolution — marking memorandum / model answers",
+      "size_bytes": 19755,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LDR/LDR16Nov2010Q.doc",
+      "subject": "Labour Dispute Resolution (Module 3.2)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "vat"
+      ],
+      "description": "Labour Dispute Resolution — exam question paper",
+      "size_bytes": 20170,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LDR/LDR22May2010A.doc",
+      "subject": "Labour Dispute Resolution (Module 3.2)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "vat"
+      ],
+      "description": "Labour Dispute Resolution — marking memorandum / model answers",
+      "size_bytes": 24270,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LDR/LDR22May2010Q.doc",
+      "subject": "Labour Dispute Resolution (Module 3.2)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "vat",
+        "sole-proprietorship"
+      ],
+      "description": "Labour Dispute Resolution — exam question paper",
+      "size_bytes": 22208,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LDR/LDR28Jun2012A.doc",
+      "subject": "Labour Dispute Resolution (Module 3.2)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Labour Dispute Resolution — marking memorandum / model answers",
+      "size_bytes": 24644,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LDR/LDR28Jun2012Q.doc",
+      "subject": "Labour Dispute Resolution (Module 3.2)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "vat"
+      ],
+      "description": "Labour Dispute Resolution — exam question paper",
+      "size_bytes": 18981,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LDR/LDR3Dec2009A.doc",
+      "subject": "Labour Dispute Resolution (Module 3.2)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Labour Dispute Resolution — marking memorandum / model answers",
+      "size_bytes": 16056,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LDR/LDR3Dec2009Q.doc",
+      "subject": "Labour Dispute Resolution (Module 3.2)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "vat"
+      ],
+      "description": "Labour Dispute Resolution — exam question paper",
+      "size_bytes": 15406,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LDR/LDR3Jun2010A.doc",
+      "subject": "Labour Dispute Resolution (Module 3.2)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Labour Dispute Resolution — marking memorandum / model answers",
+      "size_bytes": 18469,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LDR/LDR3Jun2010Q.doc",
+      "subject": "Labour Dispute Resolution (Module 3.2)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Labour Dispute Resolution — exam question paper",
+      "size_bytes": 17782,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LDR/LDR5May2012A.doc",
+      "subject": "Labour Dispute Resolution (Module 3.2)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Labour Dispute Resolution — marking memorandum / model answers",
+      "size_bytes": 24656,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LDR/LDR5May2012Q.doc",
+      "subject": "Labour Dispute Resolution (Module 3.2)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "vat",
+        "close-corporation"
+      ],
+      "description": "Labour Dispute Resolution — exam question paper",
+      "size_bytes": 22611,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LDR/LDRDec2010A.doc",
+      "subject": "Labour Dispute Resolution (Module 3.2)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Labour Dispute Resolution — marking memorandum / model answers",
+      "size_bytes": 21130,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LDR/LDRDec2010Q.doc",
+      "subject": "Labour Dispute Resolution (Module 3.2)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Labour Dispute Resolution — exam question paper",
+      "size_bytes": 16334,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LSSA & Miscellaneous /Constitution of RSA.pdf/markdown.md",
+      "subject": "LSSA Reference Materials and Miscellaneous",
+      "role": "general",
+      "type": "reference",
+      "topics": [
+        "plea",
+        "leave-to-appeal",
+        "appeal",
+        "vat",
+        "trust",
+        "bill-of-rights",
+        "constitution"
+      ],
+      "description": "LSSA Reference Materials and Miscellaneous — document",
+      "size_bytes": 310287,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LSSA & Miscellaneous /Legal Practice Act 28 of 2014.pdf/markdown.md",
+      "subject": "LSSA Reference Materials and Miscellaneous",
+      "role": "general",
+      "type": "reference",
+      "topics": [
+        "appeal",
+        "bill-of-costs",
+        "vat",
+        "partnership",
+        "trust",
+        "bill-of-rights",
+        "constitution",
+        "criminal-procedure-act"
+      ],
+      "description": "LSSA Reference Materials and Miscellaneous — document",
+      "size_bytes": 442983,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LSSA & Miscellaneous /Legal Practice Act Rules.pdf/markdown.md",
+      "subject": "LSSA Reference Materials and Miscellaneous",
+      "role": "general",
+      "type": "reference",
+      "topics": [
+        "s112-statement",
+        "plea",
+        "appeal",
+        "vat",
+        "partnership",
+        "trust",
+        "constitution"
+      ],
+      "description": "LSSA Reference Materials and Miscellaneous — document",
+      "size_bytes": 323286,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./MCP/MCP18Mar2010A.doc",
+      "subject": "Magistrate's Court Practice (Module 2.1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "close-corporation"
+      ],
+      "description": "Magistrate's Court Practice — marking memorandum / model answers",
+      "size_bytes": 19922,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./MCP/MCP18Mar2010Q.doc",
+      "subject": "Magistrate's Court Practice (Module 2.1)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat",
+        "close-corporation"
+      ],
+      "description": "Magistrate's Court Practice — exam question paper",
+      "size_bytes": 18285,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./MCP/MCP2012(1)A.doc",
+      "subject": "Magistrate's Court Practice (Module 2.1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea"
+      ],
+      "description": "Magistrate's Court Practice — marking memorandum / model answers",
+      "size_bytes": 21360,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./MCP/MCP2012(1)Q.doc",
+      "subject": "Magistrate's Court Practice (Module 2.1)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Magistrate's Court Practice — exam question paper",
+      "size_bytes": 18450,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./MCP/MCP30Aug2012A.doc",
+      "subject": "Magistrate's Court Practice (Module 2.1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "close-corporation"
+      ],
+      "description": "Magistrate's Court Practice — marking memorandum / model answers",
+      "size_bytes": 20407,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./MCP/MCP30Aug2012Q.doc",
+      "subject": "Magistrate's Court Practice (Module 2.1)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "party-and-party-costs"
+      ],
+      "description": "Magistrate's Court Practice — exam question paper",
+      "size_bytes": 18137,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./MCP/MCP6Mar2010A.doc",
+      "subject": "Magistrate's Court Practice (Module 2.1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea"
+      ],
+      "description": "Magistrate's Court Practice — marking memorandum / model answers",
+      "size_bytes": 19064,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./MCP/MCP6Mar2010Q.doc",
+      "subject": "Magistrate's Court Practice (Module 2.1)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Magistrate's Court Practice — exam question paper",
+      "size_bytes": 17982,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./MCP/MCP7Sep2010A.DOC",
+      "subject": "Magistrate's Court Practice (Module 2.1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "close-corporation"
+      ],
+      "description": "Magistrate's Court Practice — marking memorandum / model answers",
+      "size_bytes": 19420,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./MCP/MCP7Sep2010Q.DOC",
+      "subject": "Magistrate's Court Practice (Module 2.1)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "party-and-party-costs"
+      ],
+      "description": "Magistrate's Court Practice — exam question paper",
+      "size_bytes": 18116,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./MCP/MCPDec2010A.doc",
+      "subject": "Magistrate's Court Practice (Module 2.1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "close-corporation"
+      ],
+      "description": "Magistrate's Court Practice — marking memorandum / model answers",
+      "size_bytes": 16780,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./MCP/MCPDec2010Q.doc",
+      "subject": "Magistrate's Court Practice (Module 2.1)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat",
+        "close-corporation"
+      ],
+      "description": "Magistrate's Court Practice — exam question paper",
+      "size_bytes": 16316,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./MCP/MCPMagCourtRules.pdf",
+      "subject": "Magistrate's Court Practice (Module 2.1)",
+      "role": "general",
+      "type": "marking_memo",
+      "topics": [
+        "bail",
+        "plea",
+        "leave-to-appeal",
+        "appeal",
+        "bill-of-costs",
+        "vat",
+        "taxation",
+        "party-and-party-costs"
+      ],
+      "description": "Magistrate's Court Practice — document",
+      "size_bytes": 942138,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./MCP/MCPWebinar2019Word.docx",
+      "subject": "Magistrate's Court Practice (Module 2.1)",
+      "role": "slides",
+      "type": "slides",
+      "topics": [
+        "plea",
+        "appeal",
+        "close-corporation",
+        "partnership",
+        "trust",
+        "locus-standi"
+      ],
+      "description": "Magistrate's Court Practice — webinar/lecture slide deck",
+      "size_bytes": 27501,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PCT/PCT18May2013A.doc",
+      "subject": "Professional Conduct (Module 1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "appeal"
+      ],
+      "description": "Professional Conduct — marking memorandum / model answers",
+      "size_bytes": 26624,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PCT/PCT18May2013Q.doc",
+      "subject": "Professional Conduct (Module 1)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Professional Conduct — exam question paper",
+      "size_bytes": 26112,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PCT/PCT19May2012A.doc",
+      "subject": "Professional Conduct (Module 1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "trust"
+      ],
+      "description": "Professional Conduct — marking memorandum / model answers",
+      "size_bytes": 32256,
+      "quality_score": 2.7,
+      "gaps": []
+    },
+    {
+      "path": "./PCT/PCT19May2012Q.doc",
+      "subject": "Professional Conduct (Module 1)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "trust"
+      ],
+      "description": "Professional Conduct — exam question paper",
+      "size_bytes": 30208,
+      "quality_score": 2.7,
+      "gaps": []
+    },
+    {
+      "path": "./PCT/PCT1Jun2012A.doc",
+      "subject": "Professional Conduct (Module 1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "partnership",
+        "trust"
+      ],
+      "description": "Professional Conduct — marking memorandum / model answers",
+      "size_bytes": 18459,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PCT/PCT1Jun2012Q.doc",
+      "subject": "Professional Conduct (Module 1)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Professional Conduct — exam question paper",
+      "size_bytes": 17710,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PCT/PCT24Jul2010A.doc",
+      "subject": "Professional Conduct (Module 1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "trust"
+      ],
+      "description": "Professional Conduct — marking memorandum / model answers",
+      "size_bytes": 26831,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PCT/PCT24Jul2010Q.doc",
+      "subject": "Professional Conduct (Module 1)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "trust"
+      ],
+      "description": "Professional Conduct — exam question paper",
+      "size_bytes": 18866,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PCT/PCT27Jun2012Q.doc",
+      "subject": "Professional Conduct (Module 1)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "trust"
+      ],
+      "description": "Professional Conduct — exam question paper",
+      "size_bytes": 18587,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PCT/PCT30Jan2010A.doc",
+      "subject": "Professional Conduct (Module 1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "appeal",
+        "trust"
+      ],
+      "description": "Professional Conduct — marking memorandum / model answers",
+      "size_bytes": 19008,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PCT/PCT30Jan2010Q.doc",
+      "subject": "Professional Conduct (Module 1)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "trust"
+      ],
+      "description": "Professional Conduct — exam question paper",
+      "size_bytes": 18776,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PCT/PCT31May2014A.doc",
+      "subject": "Professional Conduct (Module 1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "trust"
+      ],
+      "description": "Professional Conduct — marking memorandum / model answers",
+      "size_bytes": 41472,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PCT/PCT31May2014Q.doc",
+      "subject": "Professional Conduct (Module 1)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "trust"
+      ],
+      "description": "Professional Conduct — exam question paper",
+      "size_bytes": 36864,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PCT/PCT3Dec2009Q.doc",
+      "subject": "Professional Conduct (Module 1)",
+      "role": "question",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Professional Conduct — exam question paper",
+      "size_bytes": 15391,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PCT/PCTDec2010A.doc",
+      "subject": "Professional Conduct (Module 1)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "bill-of-costs",
+        "taxation",
+        "trust"
+      ],
+      "description": "Professional Conduct — marking memorandum / model answers",
+      "size_bytes": 36876,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PCT/PCTDec2010Q.doc",
+      "subject": "Professional Conduct (Module 1)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "trust"
+      ],
+      "description": "Professional Conduct — exam question paper",
+      "size_bytes": 35871,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PLE/PLE11Jun2015A.doc",
+      "subject": "Professional Legal Ethics (Module 4)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "trust"
+      ],
+      "description": "Professional Legal Ethics — marking memorandum / model answers",
+      "size_bytes": 35328,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PLE/PLE11Jun2015Q.doc",
+      "subject": "Professional Legal Ethics (Module 4)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Professional Legal Ethics — exam question paper",
+      "size_bytes": 27648,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PLE/PLE14Nov2015A.doc",
+      "subject": "Professional Legal Ethics (Module 4)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "appeal"
+      ],
+      "description": "Professional Legal Ethics — marking memorandum / model answers",
+      "size_bytes": 27648,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PLE/PLE14Nov2015Q.doc",
+      "subject": "Professional Legal Ethics (Module 4)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "vat"
+      ],
+      "description": "Professional Legal Ethics — exam question paper",
+      "size_bytes": 27648,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PLE/PLE15Jun2016A.doc",
+      "subject": "Professional Legal Ethics (Module 4)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "trust"
+      ],
+      "description": "Professional Legal Ethics — marking memorandum / model answers",
+      "size_bytes": 28160,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PLE/PLE15Jun2016Q.doc",
+      "subject": "Professional Legal Ethics (Module 4)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "trust"
+      ],
+      "description": "Professional Legal Ethics — exam question paper",
+      "size_bytes": 27648,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PLE/PLE2019Intro.pdf",
+      "subject": "Professional Legal Ethics (Module 4)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea",
+        "vat"
+      ],
+      "description": "Professional Legal Ethics — document",
+      "size_bytes": 960298,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PLE/PLE26Nov2015A.doc",
+      "subject": "Professional Legal Ethics (Module 4)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Professional Legal Ethics — marking memorandum / model answers",
+      "size_bytes": 30720,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PLE/PLE26Nov2015A.docx",
+      "subject": "Professional Legal Ethics (Module 4)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Professional Legal Ethics — marking memorandum / model answers",
+      "size_bytes": 9822,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PLE/PLE26Nov2015Q.doc",
+      "subject": "Professional Legal Ethics (Module 4)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "trust"
+      ],
+      "description": "Professional Legal Ethics — exam question paper",
+      "size_bytes": 28672,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PLE/PLE28Jun2016A.doc",
+      "subject": "Professional Legal Ethics (Module 4)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "trust"
+      ],
+      "description": "Professional Legal Ethics — marking memorandum / model answers",
+      "size_bytes": 33280,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PLE/PLE28Jun2016Q.doc",
+      "subject": "Professional Legal Ethics (Module 4)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "vat",
+        "trust"
+      ],
+      "description": "Professional Legal Ethics — exam question paper",
+      "size_bytes": 33792,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PLE/PLE28May2016A.doc",
+      "subject": "Professional Legal Ethics (Module 4)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "trust"
+      ],
+      "description": "Professional Legal Ethics — marking memorandum / model answers",
+      "size_bytes": 26624,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PLE/PLE28May2016Q.doc",
+      "subject": "Professional Legal Ethics (Module 4)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea"
+      ],
+      "description": "Professional Legal Ethics — exam question paper",
+      "size_bytes": 25600,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PLE/PLE2Dec2015Q.doc",
+      "subject": "Professional Legal Ethics (Module 4)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "trust"
+      ],
+      "description": "Professional Legal Ethics — exam question paper",
+      "size_bytes": 41472,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PLE/PLE30May2015A.doc",
+      "subject": "Professional Legal Ethics (Module 4)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "trust"
+      ],
+      "description": "Professional Legal Ethics — marking memorandum / model answers",
+      "size_bytes": 25600,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PLE/PLE30May2015Q.doc",
+      "subject": "Professional Legal Ethics (Module 4)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "trust"
+      ],
+      "description": "Professional Legal Ethics — exam question paper",
+      "size_bytes": 27136,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PLE/PLE3Feb2019AssQ.docx",
+      "subject": "Professional Legal Ethics (Module 4)",
+      "role": "question",
+      "type": "assignment",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Professional Legal Ethics — exam question paper",
+      "size_bytes": 25066,
+      "quality_score": 3.0,
+      "gaps": []
+    }
+  ],
+  "topicIndex": {
+    "allocatur": [
+      "./COS/COS18Mar2010A.doc",
+      "./COS/COS18Mar2010Q.doc",
+      "./COS/COS2012(1)A.doc",
+      "./COS/COS2012(1)Q.doc",
+      "./COS/COS30Aug2012Q.doc",
+      "./COS/COS6Mar2010Q.doc",
+      "./COS/COS7Sep2010Q.DOC"
+    ],
+    "appeal": [
+      "./BBST/BBST2013(1)Q&A.doc",
+      "./BBST/BBST2014(2)Q&A.doc",
+      "./BBST/BBST2014(2)SuppQ&A.doc",
+      "./CCP/CCP2012(2)SuppA.doc",
+      "./CCP/CCP2019AssQ.doc",
+      "./CCP/CCP25Jul2015A.doc",
+      "./CCP/CCP25Jul2015Q.doc",
+      "./CCP/CCP26Jul2014A.doc",
+      "./CCP/CCP26Jul2014Q.doc",
+      "./CCP/CCP26Jun2012A.doc",
+      "./CCP/CCP26Jun2012Q.doc",
+      "./CCP/CCP28Jan2012A.doc",
+      "./CCP/CCP28Jan2012Q.doc",
+      "./CCP/CCP30Jan2010A.doc",
+      "./CCP/CCP30Jan2010Q.doc",
+      "./CCP/CCPDec2010A.doc",
+      "./CCP/CCPDec2010Q.doc",
+      "./CCP/CCPExampleAppLeaveToAppeal.doc",
+      "./CCP/CCPModule1A.doc",
+      "./CCP/CCPModule1Q.doc",
+      "./CLP/CLP 2012.2 SUPP ENG - only for appeal students.doc",
+      "./CLP/CLP21Jul2012A.doc",
+      "./CLP/CLP2Aug2012A.doc",
+      "./CLP/CLP30Jan2010A.doc",
+      "./CLP/CLPJul2012A.doc",
+      "./CLP/CLPJul2012Q.doc",
+      "./CLP/CLPWebinar2019Slides.ppt",
+      "./COS/COS6Mar2010Q.doc",
+      "./HCP/HCP Example - Heads of argument.pdf",
+      "./HCP/HCP NoticeofAppeal.doc",
+      "./HCP/HCP19Mar2008A.doc",
+      "./HCP/HCP1Mar2014A.doc",
+      "./HCP/HCP1Mar2014Q.doc",
+      "./HCP/HCP2015Slides.pdf",
+      "./LSSA & Miscellaneous /Constitution of RSA.pdf/markdown.md",
+      "./LSSA & Miscellaneous /Legal Practice Act 28 of 2014.pdf/markdown.md",
+      "./LSSA & Miscellaneous /Legal Practice Act Rules.pdf/markdown.md",
+      "./MCP/MCPMagCourtRules.pdf",
+      "./MCP/MCPWebinar2019Word.docx",
+      "./PCT/PCT18May2013A.doc",
+      "./PCT/PCT30Jan2010A.doc",
+      "./PLE/PLE14Nov2015A.doc"
+    ],
+    "bail": [
+      "./CCP/CCP2012(2)SuppA.doc",
+      "./CCP/CCP2019AssQ.doc",
+      "./CCP/CCP25Jul2015A.doc",
+      "./CCP/CCP25Jul2015Q.doc",
+      "./CCP/CCP26Jan2013A.doc",
+      "./CCP/CCP26Jan2013Q.doc",
+      "./CCP/CCP26Jul2014A.doc",
+      "./CCP/CCP26Jul2014Q.doc",
+      "./CCP/CCP26Jun2012A.doc",
+      "./CCP/CCP26Jun2012Q.doc",
+      "./CCP/CCP28Jan2012A.doc",
+      "./CCP/CCP28Jan2012Q.doc",
+      "./CCP/CCP30Jan2010A.doc",
+      "./CCP/CCP30Jan2010Q.doc",
+      "./CCP/CCPDec2010A.doc",
+      "./CCP/CCPDec2010Q.doc",
+      "./CCP/CCPModule1A.doc",
+      "./CCP/CCPModule1Q.doc",
+      "./CLP/CLPJul2012Q.doc",
+      "./MCP/MCPMagCourtRules.pdf"
+    ],
+    "bill-of-costs": [
+      "./BBST/BBST2014(1)FinalQ&A.doc",
+      "./BBST/BBST2016(1)A.doc",
+      "./COS/COS18Mar2010Q.doc",
+      "./COS/COS2012(1)Q.doc",
+      "./COS/COS30Aug2012A.doc",
+      "./COS/COS30Aug2012A.docx",
+      "./COS/COS30Aug2012Q.doc",
+      "./COS/COS6Mar2010Q.doc",
+      "./COS/COS7Sep2010A.DOC",
+      "./COS/COS7Sep2010Q.DOC",
+      "./COS/COSMod2.1A.doc",
+      "./LSSA & Miscellaneous /Legal Practice Act 28 of 2014.pdf/markdown.md",
+      "./MCP/MCPMagCourtRules.pdf",
+      "./PCT/PCTDec2010A.doc"
+    ],
+    "bill-of-rights": [
+      "./BBST/BBST2013(2)Q&A.doc",
+      "./CLP/CLP 2012.2 SUPP ENG - only for appeal students.doc",
+      "./CLP/CLP21Jul2012A.doc",
+      "./CLP/CLP21Jul2012Q.doc",
+      "./CLP/CLP24Jul2010A.doc",
+      "./CLP/CLP24Jul2010Q.doc",
+      "./CLP/CLP26Jun2012Q.doc",
+      "./CLP/CLP2Aug2012A.doc",
+      "./CLP/CLP30Jan2010A.doc",
+      "./CLP/CLP30Jan2019AssA.docx",
+      "./CLP/CLP30Jan2019AssQ.docx",
+      "./CLP/CLPJul2012A.doc",
+      "./CLP/CLPJul2012Q.doc",
+      "./CLP/CLPWebinar2019Slides.ppt",
+      "./LSSA & Miscellaneous /Constitution of RSA.pdf/markdown.md",
+      "./LSSA & Miscellaneous /Legal Practice Act 28 of 2014.pdf/markdown.md"
+    ],
+    "close-corporation": [
+      "./BBST/BBST2013(1)Q&A.doc",
+      "./BBST/BBST2013(1)Q.doc",
+      "./BBST/BBST2013(2)Q&A.doc",
+      "./BBST/BBST2014(1)FinalQ&A.doc",
+      "./BBST/BBST2014(2) Supp Statement of Facts.doc",
+      "./BBST/BBST2014(2)SuppQ&A.doc",
+      "./BBST/BBST2015(1)Statement of Facts.doc",
+      "./BBST/BBST2016(1)A.doc",
+      "./BBST/BBST2017Final Statement of Facts.doc",
+      "./FBE/FBE16May2012A.doc",
+      "./FBE/FBE16May2012Q.doc",
+      "./FBE/FBE16Nov2010A.doc",
+      "./FBE/FBE16Nov2010Q.doc",
+      "./FBE/FBE22May2010A.doc",
+      "./FBE/FBE22May2010Q.doc",
+      "./FBE/FBE28Jun2012A.doc",
+      "./FBE/FBE3Dec2009A.doc",
+      "./FBE/FBE3Dec2009Q.doc",
+      "./FBE/FBE3Jun2010Q.doc",
+      "./HCP/HCP18Mar2010A.doc",
+      "./HCP/HCP18Mar2010Q.doc",
+      "./HCP/HCP2015Slides.pdf",
+      "./ICP/ICP28Jun2012Q.doc",
+      "./LDR/LDR5May2012Q.doc",
+      "./MCP/MCP18Mar2010A.doc",
+      "./MCP/MCP18Mar2010Q.doc",
+      "./MCP/MCP30Aug2012A.doc",
+      "./MCP/MCP7Sep2010A.DOC",
+      "./MCP/MCPDec2010A.doc",
+      "./MCP/MCPDec2010Q.doc",
+      "./MCP/MCPWebinar2019Word.docx"
+    ],
+    "constitution": [
+      "./BBST/BBST2013(1)Q.doc",
+      "./BBST/BBST2013(1)SuppQ&A.doc",
+      "./BBST/BBST2013(1)SuppQ.doc",
+      "./BBST/BBST2013(2)FinalQ.doc",
+      "./BBST/BBST2013(2)Q&A.doc",
+      "./BBST/BBST2013(2)Q.doc",
+      "./BBST/BBST2013(2)Statement of Facts.doc",
+      "./BBST/BBST2014(1)FinalQ.doc",
+      "./BBST/BBST2014(2) Supp Statement of Facts.doc",
+      "./BBST/BBST2014(2)SuppAssQ.doc",
+      "./CCP/CCP28Jan2012A.doc",
+      "./CLP/CLP 2012.2 SUPP ENG - only for appeal students.doc",
+      "./CLP/CLP21Jul2012A.doc",
+      "./CLP/CLP21Jul2012Q.doc",
+      "./CLP/CLP24Jul2010A.doc",
+      "./CLP/CLP24Jul2010Q.doc",
+      "./CLP/CLP26Jun2012A.doc",
+      "./CLP/CLP26Jun2012Q.doc",
+      "./CLP/CLP2Aug2012A.doc",
+      "./CLP/CLP30Jan2010A.doc",
+      "./CLP/CLP30Jan2010Q.doc",
+      "./CLP/CLP30Jan2019AssA.docx",
+      "./CLP/CLPDec2010Q.doc",
+      "./CLP/CLPJul2012A.doc",
+      "./CLP/CLPJul2012Q.doc",
+      "./CLP/CLPWebinar2019Slides.ppt",
+      "./FBE/FBE16May2012A.doc",
+      "./HCP/HCP Example - Heads of argument.pdf",
+      "./HCP/HCP5Mar2011Q.doc",
+      "./LSSA & Miscellaneous /Constitution of RSA.pdf/markdown.md",
+      "./LSSA & Miscellaneous /Legal Practice Act 28 of 2014.pdf/markdown.md",
+      "./LSSA & Miscellaneous /Legal Practice Act Rules.pdf/markdown.md"
+    ],
+    "constitutional-practice": [
+      "./CLP/CLP 2012.2 SUPP ENG - only for appeal students.doc",
+      "./CLP/CLP21Jul2012A.doc",
+      "./CLP/CLP21Jul2012Q.doc",
+      "./CLP/CLP24Jul2010A.doc",
+      "./CLP/CLP24Jul2010Q.doc",
+      "./CLP/CLP26Jun2012A.doc",
+      "./CLP/CLP26Jun2012Q.doc",
+      "./CLP/CLP2Aug2012A.doc",
+      "./CLP/CLP30Jan2010A.doc",
+      "./CLP/CLP30Jan2010Q.doc",
+      "./CLP/CLP30Jan2019AssA.docx",
+      "./CLP/CLP30Jan2019AssQ.docx",
+      "./CLP/CLPDec2010Q.doc",
+      "./CLP/CLPJul2012A.doc",
+      "./CLP/CLPJul2012Q.doc",
+      "./CLP/CLPLecture2019Q&A.pdf",
+      "./CLP/CLPWebinar2019Slides.ppt"
+    ],
+    "costs-de-bonis-propriis": [
+      "./CLP/CLP30Jan2010A.doc",
+      "./COS/COS2012(1)A.doc",
+      "./COS/COS30Aug2012A.doc",
+      "./COS/COS30Aug2012A.docx",
+      "./COS/COS30Aug2012Q.doc",
+      "./COS/COS6Mar2010A.doc",
+      "./COS/COS7Sep2010A.DOC",
+      "./COS/COS7Sep2010Q.DOC",
+      "./COS/COSMod2.1A.doc",
+      "./COS/COSMod2.1Q.doc"
+    ],
+    "criminal-court-practice": [
+      "./CCP/CCP2012(2)SuppA.doc",
+      "./CCP/CCP2019AssQ.doc",
+      "./CCP/CCP25Jul2015A.doc",
+      "./CCP/CCP25Jul2015Q.doc",
+      "./CCP/CCP26Jan2013A.doc",
+      "./CCP/CCP26Jan2013Q.doc",
+      "./CCP/CCP26Jul2014A.doc",
+      "./CCP/CCP26Jul2014Q.doc",
+      "./CCP/CCP26Jun2012A.doc",
+      "./CCP/CCP26Jun2012Q.doc",
+      "./CCP/CCP28Jan2012A.doc",
+      "./CCP/CCP28Jan2012Q.doc",
+      "./CCP/CCP30Jan2010A.doc",
+      "./CCP/CCP30Jan2010Q.doc",
+      "./CCP/CCPDec2010A.doc",
+      "./CCP/CCPDec2010Q.doc",
+      "./CCP/CCPExampleAppLeaveToAppeal.doc",
+      "./CCP/CCPHighCourtAppLeavetoAppeal.pdf",
+      "./CCP/CCPModule1A.doc",
+      "./CCP/CCPModule1Q.doc",
+      "./CCP/CCPWebinar2019Slides.pdf"
+    ],
+    "criminal-procedure-act": [
+      "./CCP/CCP2012(2)SuppA.doc",
+      "./CCP/CCP25Jul2015A.doc",
+      "./CCP/CCP26Jan2013Q.doc",
+      "./CCP/CCP26Jul2014A.doc",
+      "./CCP/CCP26Jul2014Q.doc",
+      "./CCP/CCP26Jun2012A.doc",
+      "./CCP/CCP26Jun2012Q.doc",
+      "./CCP/CCP28Jan2012A.doc",
+      "./CCP/CCP28Jan2012Q.doc",
+      "./CCP/CCP30Jan2010A.doc",
+      "./CCP/CCP30Jan2010Q.doc",
+      "./CCP/CCPDec2010A.doc",
+      "./CCP/CCPDec2010Q.doc",
+      "./CCP/CCPModule1A.doc",
+      "./COS/COS30Aug2012Q.doc",
+      "./COS/COSMod2.1Q.doc",
+      "./LSSA & Miscellaneous /Legal Practice Act 28 of 2014.pdf/markdown.md"
+    ],
+    "culpable-homicide": [
+      "./CCP/CCP25Jul2015Q.doc",
+      "./CCP/CCP26Jul2014A.doc",
+      "./CCP/CCP26Jul2014Q.doc",
+      "./CCP/CCP28Jan2012Q.doc",
+      "./CCP/CCPDec2010A.doc"
+    ],
+    "forms-of-business-enterprise": [
+      "./FBE/FBE16May2012A.doc",
+      "./FBE/FBE16May2012Q.doc",
+      "./FBE/FBE16Nov2010A.doc",
+      "./FBE/FBE16Nov2010Q.doc",
+      "./FBE/FBE22May2010A.doc",
+      "./FBE/FBE22May2010Q.doc",
+      "./FBE/FBE28Jun2012A.doc",
+      "./FBE/FBE28Jun2012Q.doc",
+      "./FBE/FBE3Dec2009A.doc",
+      "./FBE/FBE3Dec2009Q.doc",
+      "./FBE/FBE3Jun2010A.doc",
+      "./FBE/FBE3Jun2010Q.doc",
+      "./FBE/FBE5May2012A.doc",
+      "./FBE/FBE5May2012Q.doc"
+    ],
+    "judicial-management": [
+      "./FBE/FBE16May2012A.doc",
+      "./FBE/FBE16May2012Q.doc",
+      "./FBE/FBE3Jun2010Q.doc"
+    ],
+    "leave-to-appeal": [
+      "./CCP/CCP2019AssQ.doc",
+      "./CCP/CCPDec2010A.doc",
+      "./CCP/CCPExampleAppLeaveToAppeal.doc",
+      "./CLP/CLP2Aug2012A.doc",
+      "./HCP/HCP Example - Heads of argument.pdf",
+      "./HCP/HCP NoticeofAppeal.doc",
+      "./HCP/HCP2015Slides.pdf",
+      "./LSSA & Miscellaneous /Constitution of RSA.pdf/markdown.md",
+      "./MCP/MCPMagCourtRules.pdf"
+    ],
+    "legal-costs": [
+      "./COS/COS18Mar2010A.doc",
+      "./COS/COS18Mar2010Q.doc",
+      "./COS/COS2012(1)A.doc",
+      "./COS/COS2012(1)Q.doc",
+      "./COS/COS30Aug2012A.doc",
+      "./COS/COS30Aug2012A.docx",
+      "./COS/COS30Aug2012Q.doc",
+      "./COS/COS6Mar2010A.doc",
+      "./COS/COS6Mar2010Q.doc",
+      "./COS/COS7Sep2010A.DOC",
+      "./COS/COS7Sep2010Q.DOC",
+      "./COS/COSMod2.1A.doc",
+      "./COS/COSMod2.1Q.doc"
+    ],
+    "locus-standi": [
+      "./BBST/BBST2014(2)Q&A.doc",
+      "./BBST/BBST2016(1)A.doc",
+      "./CLP/CLP 2012.2 SUPP ENG - only for appeal students.doc",
+      "./CLP/CLP21Jul2012A.doc",
+      "./CLP/CLP21Jul2012Q.doc",
+      "./CLP/CLP24Jul2010A.doc",
+      "./CLP/CLP24Jul2010Q.doc",
+      "./CLP/CLP26Jun2012A.doc",
+      "./CLP/CLP26Jun2012Q.doc",
+      "./HCP/HCP2015Slides.pdf",
+      "./HCP/HCP5Mar2011A.doc",
+      "./HCP/HCP6Mar2010A.doc",
+      "./HCP/HCP6Sep2013A.doc",
+      "./MCP/MCPWebinar2019Word.docx"
+    ],
+    "partnership": [
+      "./BBST/BBST2013(1)SuppQ&A.doc",
+      "./BBST/BBST2013(2)Q&A.doc",
+      "./BBST/BBST2013(2)Statement of Facts.doc",
+      "./BBST/BBST2014(1)FinalQ&A.doc",
+      "./BBST/BBST2014(1)FinalQ.doc",
+      "./FBE/FBE16May2012Q.doc",
+      "./FBE/FBE16Nov2010A.doc",
+      "./FBE/FBE16Nov2010Q.doc",
+      "./FBE/FBE22May2010A.doc",
+      "./FBE/FBE22May2010Q.doc",
+      "./FBE/FBE28Jun2012A.doc",
+      "./FBE/FBE28Jun2012Q.doc",
+      "./FBE/FBE3Dec2009A.doc",
+      "./FBE/FBE3Dec2009Q.doc",
+      "./FBE/FBE3Jun2010A.doc",
+      "./FBE/FBE3Jun2010Q.doc",
+      "./FBE/FBE5May2012Q.doc",
+      "./HCP/HCP1Mar2014Q.doc",
+      "./HCP/HCP2015Slides.pdf",
+      "./HCP/HCP6Mar2010Q.doc",
+      "./ICP/ICP5May2012Q.doc",
+      "./ICP/ICPDec2010Q.doc",
+      "./LSSA & Miscellaneous /Legal Practice Act 28 of 2014.pdf/markdown.md",
+      "./LSSA & Miscellaneous /Legal Practice Act Rules.pdf/markdown.md",
+      "./MCP/MCPWebinar2019Word.docx",
+      "./PCT/PCT1Jun2012A.doc"
+    ],
+    "party-and-party-costs": [
+      "./BBST/BBST2013(2)Statement of Facts.doc",
+      "./BBST/BBST2014(1)FinalQ&A.doc",
+      "./BBST/BBST2016(1)A.doc",
+      "./COS/COS18Mar2010A.doc",
+      "./COS/COS30Aug2012A.doc",
+      "./COS/COS30Aug2012A.docx",
+      "./COS/COS30Aug2012Q.doc",
+      "./COS/COS6Mar2010A.doc",
+      "./COS/COS6Mar2010Q.doc",
+      "./COS/COS7Sep2010A.DOC",
+      "./COS/COS7Sep2010Q.DOC",
+      "./COS/COSMod2.1A.doc",
+      "./COS/COSMod2.1Q.doc",
+      "./MCP/MCP30Aug2012Q.doc",
+      "./MCP/MCP7Sep2010Q.DOC",
+      "./MCP/MCPMagCourtRules.pdf"
+    ],
+    "plea": [
+      "./BBST/BBST2013(1)Q&A.doc",
+      "./BBST/BBST2013(1)Q.doc",
+      "./BBST/BBST2013(1)SuppQ&A.doc",
+      "./BBST/BBST2013(1)SuppQ.doc",
+      "./BBST/BBST2014(1)FinalQ&A.doc",
+      "./BBST/BBST2014(1)FinalQ.doc",
+      "./BBST/BBST2014(2)Q&A.doc",
+      "./BBST/BBST2014(2)SuppAssQ.doc",
+      "./BBST/BBST2014(2)SuppQ&A.doc",
+      "./BBST/BBST2015(1)Statement of Facts.doc",
+      "./BBST/BBST2016(1)A.doc",
+      "./BBST/BBST2017 Guideline writing BBST.docx",
+      "./BBST/BBST2017Final Statement of Facts.doc",
+      "./BBST/BBST20Apr2010Q.doc",
+      "./BBST/BBST9Jun2012Q.doc",
+      "./CCP/CCP2012(2)SuppA.doc",
+      "./CCP/CCP2019AssQ.doc",
+      "./CCP/CCP25Jul2015A.doc",
+      "./CCP/CCP25Jul2015Q.doc",
+      "./CCP/CCP26Jan2013A.doc",
+      "./CCP/CCP26Jan2013Q.doc",
+      "./CCP/CCP26Jul2014A.doc",
+      "./CCP/CCP26Jul2014Q.doc",
+      "./CCP/CCP26Jun2012A.doc",
+      "./CCP/CCP26Jun2012Q.doc",
+      "./CCP/CCP28Jan2012A.doc",
+      "./CCP/CCP28Jan2012Q.doc",
+      "./CCP/CCP30Jan2010A.doc",
+      "./CCP/CCP30Jan2010Q.doc",
+      "./CCP/CCPDec2010A.doc",
+      "./CCP/CCPDec2010Q.doc",
+      "./CCP/CCPModule1A.doc",
+      "./CCP/CCPModule1Q.doc",
+      "./CLP/CLP30Jan2010A.doc",
+      "./CLP/CLP30Jan2010Q.doc",
+      "./COS/COS18Mar2010A.doc",
+      "./COS/COS18Mar2010Q.doc",
+      "./COS/COS2012(1)Q.doc",
+      "./COS/COS30Aug2012Q.doc",
+      "./COS/COS6Mar2010Q.doc",
+      "./COS/COS7Sep2010Q.DOC",
+      "./COS/COSMod2.1A.doc",
+      "./COS/COSMod2.1Q.doc",
+      "./HCP/HCP Example - Heads of argument.pdf",
+      "./HCP/HCP NoticeofAppeal.doc",
+      "./HCP/HCP18Mar2010A.doc",
+      "./HCP/HCP18Mar2010Q.doc",
+      "./HCP/HCP19Mar2008A.doc",
+      "./HCP/HCP1Mar2014A.doc",
+      "./HCP/HCP1Mar2014Q.doc",
+      "./HCP/HCP2012(1)A.doc",
+      "./HCP/HCP2012(1)Q.doc",
+      "./HCP/HCP2015Slides.pdf",
+      "./HCP/HCP20Aug2011A.doc",
+      "./HCP/HCP20Aug2011Q.doc",
+      "./HCP/HCP30Aug2012A.doc",
+      "./HCP/HCP30Aug2012Q.doc",
+      "./HCP/HCP3Mar2012A.doc",
+      "./HCP/HCP5Mar2011A.doc",
+      "./HCP/HCP5Mar2011Q.doc",
+      "./HCP/HCP6Mar2010A.doc",
+      "./HCP/HCP6Mar2010Q.doc",
+      "./HCP/HCP6Sep2013A.doc",
+      "./HCP/HCP6Sep2013Q.docx",
+      "./HCP/HCP7Mar2019AssQ.docx",
+      "./HCP/HCP7Sep2010A.DOC",
+      "./HCP/HCP7Sep2010Q.DOC",
+      "./ICP/ICP28Jun2012A.doc",
+      "./IPM/IPM2015AssQ.doc",
+      "./IPM/IPM2016AssA.doc",
+      "./LDR/LDR16May2012A.doc",
+      "./LDR/LDR16May2012Q.doc",
+      "./LSSA & Miscellaneous /Constitution of RSA.pdf/markdown.md",
+      "./LSSA & Miscellaneous /Legal Practice Act Rules.pdf/markdown.md",
+      "./MCP/MCP18Mar2010A.doc",
+      "./MCP/MCP18Mar2010Q.doc",
+      "./MCP/MCP2012(1)A.doc",
+      "./MCP/MCP30Aug2012Q.doc",
+      "./MCP/MCP6Mar2010A.doc",
+      "./MCP/MCP7Sep2010Q.DOC",
+      "./MCP/MCPDec2010A.doc",
+      "./MCP/MCPDec2010Q.doc",
+      "./MCP/MCPMagCourtRules.pdf",
+      "./MCP/MCPWebinar2019Word.docx",
+      "./PCT/PCT19May2012A.doc",
+      "./PCT/PCT24Jul2010Q.doc",
+      "./PCT/PCT30Jan2010A.doc",
+      "./PCT/PCTDec2010A.doc",
+      "./PCT/PCTDec2010Q.doc",
+      "./PLE/PLE2019Intro.pdf",
+      "./PLE/PLE28May2016Q.doc",
+      "./PLE/PLE30May2015Q.doc",
+      "./PLE/PLE3Feb2019AssQ.docx"
+    ],
+    "police-docket": [
+      "./CCP/CCP2019AssQ.doc",
+      "./CCP/CCP25Jul2015Q.doc",
+      "./CCP/CCP26Jul2014A.doc",
+      "./CCP/CCP26Jul2014Q.doc",
+      "./CCP/CCP28Jan2012Q.doc",
+      "./CCP/CCP30Jan2010Q.doc",
+      "./CCP/CCPDec2010Q.doc",
+      "./CCP/CCPModule1Q.doc",
+      "./COS/COS30Aug2012A.doc",
+      "./COS/COS30Aug2012A.docx",
+      "./COS/COS7Sep2010A.DOC",
+      "./COS/COSMod2.1Q.doc"
+    ],
+    "pre-incorporation-contract": [
+      "./FBE/FBE3Dec2009A.doc",
+      "./FBE/FBE3Dec2009Q.doc",
+      "./FBE/FBE5May2012Q.doc"
+    ],
+    "private-defence": [
+      "./CCP/CCP2012(2)SuppA.doc",
+      "./CCP/CCP25Jul2015A.doc",
+      "./CCP/CCP26Jun2012Q.doc",
+      "./CCP/CCPModule1A.doc"
+    ],
+    "s112-statement": [
+      "./CCP/CCP26Jan2013A.doc",
+      "./CCP/CCP30Jan2010A.doc",
+      "./CCP/CCPDec2010A.doc",
+      "./CCP/CCPDec2010Q.doc",
+      "./LSSA & Miscellaneous /Legal Practice Act Rules.pdf/markdown.md"
+    ],
+    "s115-statement": [
+      "./CCP/CCP2012(2)SuppA.doc",
+      "./CCP/CCP25Jul2015A.doc",
+      "./CCP/CCP25Jul2015Q.doc",
+      "./CCP/CCP26Jul2014A.doc",
+      "./CCP/CCP26Jun2012A.doc",
+      "./CCP/CCP26Jun2012Q.doc",
+      "./CCP/CCP28Jan2012A.doc",
+      "./CCP/CCP28Jan2012Q.doc",
+      "./CCP/CCP30Jan2010A.doc",
+      "./CCP/CCPModule1A.doc",
+      "./CCP/CCPModule1Q.doc"
+    ],
+    "sole-proprietorship": [
+      "./BBST/BBST2017Final Statement of Facts.doc",
+      "./BBST/BBST2018(2) Statement of Facts.pdf",
+      "./BBST/BBST28Sep2017 Statement of Facts.docx",
+      "./BBST/BBST9Jun2012Q.doc",
+      "./FBE/FBE16May2012Q.doc",
+      "./FBE/FBE16Nov2010Q.doc",
+      "./FBE/FBE28Jun2012Q.doc",
+      "./FBE/FBE3Dec2009Q.doc",
+      "./FBE/FBE3Jun2010A.doc",
+      "./FBE/FBE3Jun2010Q.doc",
+      "./FBE/FBE5May2012Q.doc",
+      "./IPM/IPM2015AssQ.doc",
+      "./LDR/LDR22May2010Q.doc"
+    ],
+    "taxation": [
+      "./BBST/BBST2014(1)FinalQ&A.doc",
+      "./COS/COS2012(1)A.doc",
+      "./COS/COS2012(1)Q.doc",
+      "./COS/COS30Aug2012A.doc",
+      "./COS/COS30Aug2012A.docx",
+      "./COS/COS6Mar2010A.doc",
+      "./COS/COS6Mar2010Q.doc",
+      "./COS/COS7Sep2010A.DOC",
+      "./COS/COS7Sep2010Q.DOC",
+      "./COS/COSMod2.1A.doc",
+      "./MCP/MCPMagCourtRules.pdf",
+      "./PCT/PCTDec2010A.doc"
+    ],
+    "trust": [
+      "./BBST/BBST2013(1)Q&A.doc",
+      "./BBST/BBST2013(1)SuppQ&A.doc",
+      "./BBST/BBST2013(2)Q&A.doc",
+      "./BBST/BBST2014(1)FinalQ&A.doc",
+      "./BBST/BBST2014(2)Q&A.doc",
+      "./BBST/BBST2014(2)Statement of Facts.doc",
+      "./BBST/BBST2014(2)SuppQ&A.doc",
+      "./BBST/BBST2017Final Statement of Facts.doc",
+      "./BBST/BBST28Sep2017 Statement of Facts.docx",
+      "./BBST/BBST9Jun2012A.doc",
+      "./COS/COS2012(1)A.doc",
+      "./COS/COS6Mar2010A.doc",
+      "./COS/COSMod2.1A.doc",
+      "./FBE/FBE16May2012A.doc",
+      "./FBE/FBE16May2012Q.doc",
+      "./FBE/FBE16Nov2010A.doc",
+      "./FBE/FBE16Nov2010Q.doc",
+      "./FBE/FBE22May2010A.doc",
+      "./FBE/FBE22May2010Q.doc",
+      "./FBE/FBE28Jun2012A.doc",
+      "./FBE/FBE28Jun2012Q.doc",
+      "./FBE/FBE3Dec2009A.doc",
+      "./FBE/FBE3Dec2009Q.doc",
+      "./FBE/FBE3Jun2010A.doc",
+      "./FBE/FBE3Jun2010Q.doc",
+      "./FBE/FBE5May2012A.doc",
+      "./FBE/FBE5May2012Q.doc",
+      "./HCP/HCP1Mar2014Q.doc",
+      "./HCP/HCP2015Slides.pdf",
+      "./HCP/HCP30Aug2012A.doc",
+      "./HCP/HCP30Aug2012Q.doc",
+      "./HCP/HCP7Mar2019AssQ.docx",
+      "./HCP/HCP7Sep2010A.DOC",
+      "./HCP/HCP7Sep2010Q.DOC",
+      "./ICP/ICP16May2012A.doc",
+      "./ICP/ICP16May2012Q.doc",
+      "./ICP/ICP24Oct2015A.doc",
+      "./ICP/ICP28Jun2012A.doc",
+      "./ICP/ICP29Jun2016A.doc",
+      "./ICP/ICP5May2012A.doc",
+      "./ICP/ICP7May2016A.doc",
+      "./ICP/ICPDec2010A.doc",
+      "./ICP/ICPDec2010Q.doc",
+      "./IPM/IPM1Jun2012A.doc",
+      "./IPM/IPM2019AssQ.docx",
+      "./IPM/IPM27Jun2012A.doc",
+      "./IPM/IPM27Jun2012Q.doc",
+      "./LSSA & Miscellaneous /Constitution of RSA.pdf/markdown.md",
+      "./LSSA & Miscellaneous /Legal Practice Act 28 of 2014.pdf/markdown.md",
+      "./LSSA & Miscellaneous /Legal Practice Act Rules.pdf/markdown.md",
+      "./MCP/MCPWebinar2019Word.docx",
+      "./PCT/PCT19May2012A.doc",
+      "./PCT/PCT19May2012Q.doc",
+      "./PCT/PCT1Jun2012A.doc",
+      "./PCT/PCT24Jul2010A.doc",
+      "./PCT/PCT24Jul2010Q.doc",
+      "./PCT/PCT27Jun2012Q.doc",
+      "./PCT/PCT30Jan2010A.doc",
+      "./PCT/PCT30Jan2010Q.doc",
+      "./PCT/PCT31May2014A.doc",
+      "./PCT/PCT31May2014Q.doc",
+      "./PCT/PCTDec2010A.doc",
+      "./PCT/PCTDec2010Q.doc",
+      "./PLE/PLE11Jun2015A.doc",
+      "./PLE/PLE15Jun2016A.doc",
+      "./PLE/PLE15Jun2016Q.doc",
+      "./PLE/PLE26Nov2015Q.doc",
+      "./PLE/PLE28Jun2016A.doc",
+      "./PLE/PLE28Jun2016Q.doc",
+      "./PLE/PLE28May2016A.doc",
+      "./PLE/PLE2Dec2015Q.doc",
+      "./PLE/PLE30May2015A.doc",
+      "./PLE/PLE30May2015Q.doc",
+      "./PLE/PLE3Feb2019AssQ.docx"
+    ],
+    "vat": [
+      "./BBST/BBST2013(1)Q&A.doc",
+      "./BBST/BBST2013(1)Q.doc",
+      "./BBST/BBST2013(2)Q&A.doc",
+      "./BBST/BBST2014(1)FinalQ&A.doc",
+      "./BBST/BBST2014(1)Statement of Facts.doc",
+      "./BBST/BBST2014(2) Supp Statement of Facts.doc",
+      "./BBST/BBST2014(2)SuppAssQ.doc",
+      "./BBST/BBST2014(2)SuppQ&A.doc",
+      "./BBST/BBST2015(1)Statement of Facts.doc",
+      "./BBST/BBST2016(1)A.doc",
+      "./BBST/BBST2017Final Statement of Facts.doc",
+      "./BBST/BBST2018(2) Statement of Facts.pdf",
+      "./BBST/BBST20Apr2010Q.doc",
+      "./BBST/BBST28Sep2017 Statement of Facts.docx",
+      "./BBST/BBST9Jun2012Q.doc",
+      "./BBST/BBSTDec2010Q.doc",
+      "./CCP/CCP2012(2)SuppA.doc",
+      "./CCP/CCP2019AssQ.doc",
+      "./CCP/CCP25Jul2015A.doc",
+      "./CCP/CCP25Jul2015Q.doc",
+      "./CCP/CCP26Jan2013A.doc",
+      "./CCP/CCP26Jan2013Q.doc",
+      "./CCP/CCP26Jun2012Q.doc",
+      "./CCP/CCP28Jan2012A.doc",
+      "./CCP/CCPDec2010Q.doc",
+      "./CCP/CCPModule1A.doc",
+      "./CCP/CCPModule1Q.doc",
+      "./CLP/CLP21Jul2012A.doc",
+      "./CLP/CLP21Jul2012Q.doc",
+      "./CLP/CLP30Jan2010A.doc",
+      "./CLP/CLP30Jan2010Q.doc",
+      "./CLP/CLP30Jan2019AssA.docx",
+      "./CLP/CLP30Jan2019AssQ.docx",
+      "./CLP/CLPJul2012A.doc",
+      "./CLP/CLPJul2012Q.doc",
+      "./CLP/CLPWebinar2019Slides.ppt",
+      "./COS/COS18Mar2010A.doc",
+      "./COS/COS18Mar2010Q.doc",
+      "./COS/COS2012(1)A.doc",
+      "./COS/COS2012(1)Q.doc",
+      "./COS/COS30Aug2012A.doc",
+      "./COS/COS30Aug2012A.docx",
+      "./COS/COS30Aug2012Q.doc",
+      "./COS/COS6Mar2010A.doc",
+      "./COS/COS6Mar2010Q.doc",
+      "./COS/COS7Sep2010A.DOC",
+      "./COS/COS7Sep2010Q.DOC",
+      "./COS/COSMod2.1A.doc",
+      "./COS/COSMod2.1Q.doc",
+      "./FBE/FBE16May2012Q.doc",
+      "./FBE/FBE16Nov2010A.doc",
+      "./FBE/FBE16Nov2010Q.doc",
+      "./FBE/FBE22May2010A.doc",
+      "./FBE/FBE22May2010Q.doc",
+      "./FBE/FBE28Jun2012A.doc",
+      "./FBE/FBE28Jun2012Q.doc",
+      "./FBE/FBE3Dec2009A.doc",
+      "./FBE/FBE3Dec2009Q.doc",
+      "./FBE/FBE5May2012A.doc",
+      "./FBE/FBE5May2012Q.doc",
+      "./HCP/HCP2015Slides.pdf",
+      "./HCP/HCP6Sep2013Q.docx",
+      "./ICP/ICP16May2012A.doc",
+      "./ICP/ICP16May2012Q.doc",
+      "./ICP/ICP19May2016A.doc",
+      "./ICP/ICP29Jun2016A.doc",
+      "./ICP/ICP3Dec2015A.doc",
+      "./ICP/ICP5May2012A.doc",
+      "./ICP/ICP7May2016A.doc",
+      "./IPM/IPM19May2014A.doc",
+      "./IPM/IPM1Jun2012A.doc",
+      "./IPM/IPM2016AssA.doc",
+      "./IPM/IPM2019AssQ.docx",
+      "./LDR/LDR16May2012A.doc",
+      "./LDR/LDR16May2012Q.doc",
+      "./LDR/LDR16Nov2010Q.doc",
+      "./LDR/LDR22May2010A.doc",
+      "./LDR/LDR22May2010Q.doc",
+      "./LDR/LDR28Jun2012Q.doc",
+      "./LDR/LDR3Dec2009Q.doc",
+      "./LDR/LDR5May2012Q.doc",
+      "./LSSA & Miscellaneous /Constitution of RSA.pdf/markdown.md",
+      "./LSSA & Miscellaneous /Legal Practice Act 28 of 2014.pdf/markdown.md",
+      "./LSSA & Miscellaneous /Legal Practice Act Rules.pdf/markdown.md",
+      "./MCP/MCP18Mar2010Q.doc",
+      "./MCP/MCPDec2010Q.doc",
+      "./MCP/MCPMagCourtRules.pdf",
+      "./PLE/PLE14Nov2015Q.doc",
+      "./PLE/PLE2019Intro.pdf",
+      "./PLE/PLE28Jun2016Q.doc",
+      "./PLE/PLE3Feb2019AssQ.docx"
+    ]
+  },
+  "typeIndex": {
+    "assignment": [
+      "./BBST/BBST2013(1)Q.doc",
+      "./BBST/BBST2013(1)SuppQ.doc",
+      "./BBST/BBST2013(2)FinalQ.doc",
+      "./BBST/BBST2013(2)Q.doc",
+      "./BBST/BBST2014(1)FinalQ.doc",
+      "./BBST/BBST2014(2)SuppAssQ.doc",
+      "./CCP/CCP2019AssQ.doc",
+      "./CLP/CLP30Jan2019AssQ.docx",
+      "./CLP/CLPJul2012Q.doc",
+      "./HCP/HCP7Mar2019AssQ.docx",
+      "./IPM/IPM2012AssQ.doc",
+      "./IPM/IPM2015AssQ.doc",
+      "./IPM/IPM2016AssQ.doc",
+      "./IPM/IPM2019AssQ.docx",
+      "./PLE/PLE3Feb2019AssQ.docx"
+    ],
+    "exam_question": [
+      "./Attorneys Exam/AttExam14Feb2017Q.pdf",
+      "./Attorneys Exam/AttExam15Feb2017Q.pdf",
+      "./Attorneys Exam/AttExam16Aug2016Q.pdf",
+      "./Attorneys Exam/AttExam17Aug2016Q.pdf",
+      "./Attorneys Exam/AttExam9Feb2016Q.pdf",
+      "./BBST/BBST2014(2)Q.doc",
+      "./BBST/BBST2016(1)Q.doc",
+      "./BBST/BBST20Apr2010Q.doc",
+      "./BBST/BBST9Jun2012Q.doc",
+      "./BBST/BBSTDec2010Q.doc",
+      "./CCP/CCP25Jul2015Q.doc",
+      "./CCP/CCP26Jan2013Q.doc",
+      "./CCP/CCP26Jul2014Q.doc",
+      "./CCP/CCP26Jun2012Q.doc",
+      "./CCP/CCP28Jan2012Q.doc",
+      "./CCP/CCP30Jan2010Q.doc",
+      "./CCP/CCPDec2010Q.doc",
+      "./CCP/CCPModule1Q.doc",
+      "./CLP/CLP21Jul2012Q.doc",
+      "./CLP/CLP24Jul2010Q.doc",
+      "./CLP/CLP26Jun2012Q.doc",
+      "./CLP/CLP30Jan2010Q.doc",
+      "./CLP/CLPDec2010Q.doc",
+      "./COS/COS18Mar2010Q.doc",
+      "./COS/COS2012(1)Q.doc",
+      "./COS/COS30Aug2012Q.doc",
+      "./COS/COS6Mar2010Q.doc",
+      "./COS/COS7Sep2010Q.DOC",
+      "./COS/COSMod2.1Q.doc",
+      "./FBE/FBE16May2012Q.doc",
+      "./FBE/FBE16Nov2010Q.doc",
+      "./FBE/FBE22May2010Q.doc",
+      "./FBE/FBE28Jun2012Q.doc",
+      "./FBE/FBE3Dec2009Q.doc",
+      "./FBE/FBE3Jun2010Q.doc",
+      "./FBE/FBE5May2012Q.doc",
+      "./HCP/HCP18Mar2010Q.doc",
+      "./HCP/HCP1Mar2014Q.doc",
+      "./HCP/HCP2012(1)Q.doc",
+      "./HCP/HCP20Aug2011Q.doc",
+      "./HCP/HCP30Aug2012Q.doc",
+      "./HCP/HCP5Mar2011Q.doc",
+      "./HCP/HCP6Mar2010Q.doc",
+      "./HCP/HCP6Sep2013Q.docx",
+      "./HCP/HCP7Sep2010Q.DOC",
+      "./ICP/ICP16May2012Q.doc",
+      "./ICP/ICP28Jun2012Q.doc",
+      "./ICP/ICP5May2012Q.doc",
+      "./ICP/ICPDec2010Q.doc",
+      "./IPM/IPM19May2012Q.doc",
+      "./IPM/IPM1Jun2012Q.doc",
+      "./IPM/IPM27Jun2012Q.doc",
+      "./LDR/LDR16May2012Q.doc",
+      "./LDR/LDR16Nov2010Q.doc",
+      "./LDR/LDR22May2010Q.doc",
+      "./LDR/LDR28Jun2012Q.doc",
+      "./LDR/LDR3Dec2009Q.doc",
+      "./LDR/LDR3Jun2010Q.doc",
+      "./LDR/LDR5May2012Q.doc",
+      "./LDR/LDRDec2010Q.doc",
+      "./MCP/MCP18Mar2010Q.doc",
+      "./MCP/MCP2012(1)Q.doc",
+      "./MCP/MCP30Aug2012Q.doc",
+      "./MCP/MCP6Mar2010Q.doc",
+      "./MCP/MCP7Sep2010Q.DOC",
+      "./MCP/MCPDec2010Q.doc",
+      "./PCT/PCT18May2013Q.doc",
+      "./PCT/PCT19May2012Q.doc",
+      "./PCT/PCT1Jun2012Q.doc",
+      "./PCT/PCT24Jul2010Q.doc",
+      "./PCT/PCT27Jun2012Q.doc",
+      "./PCT/PCT30Jan2010Q.doc",
+      "./PCT/PCT31May2014Q.doc",
+      "./PCT/PCTDec2010Q.doc",
+      "./PLE/PLE11Jun2015Q.doc",
+      "./PLE/PLE14Nov2015Q.doc",
+      "./PLE/PLE15Jun2016Q.doc",
+      "./PLE/PLE26Nov2015Q.doc",
+      "./PLE/PLE28Jun2016Q.doc",
+      "./PLE/PLE28May2016Q.doc",
+      "./PLE/PLE2Dec2015Q.doc",
+      "./PLE/PLE30May2015Q.doc"
+    ],
+    "general": [
+      "./BBST/BBST2013(2)Statement of Facts.doc",
+      "./BBST/BBST2013(2)SuppStatement of Facts.doc",
+      "./BBST/BBST2014(1)Statement of Facts.doc",
+      "./BBST/BBST2014(2) Supp Statement of Facts.doc",
+      "./BBST/BBST2014(2)Statement of Facts.doc",
+      "./BBST/BBST2015(1)Statement of Facts.doc",
+      "./BBST/BBST2017 Guideline writing BBST.docx",
+      "./BBST/BBST2017Final Statement of Facts.doc",
+      "./BBST/BBST2018(2) Statement of Facts.pdf",
+      "./BBST/BBST28Sep2017 Statement of Facts.docx",
+      "./CLP/CLP 2012.2 SUPP ENG - only for appeal students.doc",
+      "./HCP/HCP NoticeofAppeal.doc",
+      "./PLE/PLE2019Intro.pdf"
+    ],
+    "lecture_qa": [
+      "./CLP/CLPLecture2019Q&A.pdf"
+    ],
+    "marking_memo": [
+      "./Attorneys Exam/AttExam14Feb2017A.pdf",
+      "./Attorneys Exam/AttExam15Feb2017A.pdf",
+      "./Attorneys Exam/AttExam16Aug2016A.pdf",
+      "./Attorneys Exam/AttExam17Aug2016A.pdf",
+      "./Attorneys Exam/AttExam9Feb2016A.pdf",
+      "./BBST/BBST2013(1)Q&A.doc",
+      "./BBST/BBST2013(1)SuppQ&A.doc",
+      "./BBST/BBST2013(2)A.doc",
+      "./BBST/BBST2013(2)Q&A.doc",
+      "./BBST/BBST2014(1)FinalQ&A.doc",
+      "./BBST/BBST2014(2)Q&A.doc",
+      "./BBST/BBST2014(2)SuppQ&A.doc",
+      "./BBST/BBST2016(1)A.doc",
+      "./BBST/BBST9Jun2012A.doc",
+      "./CCP/CCP2012(2)SuppA.doc",
+      "./CCP/CCP25Jul2015A.doc",
+      "./CCP/CCP26Jan2013A.doc",
+      "./CCP/CCP26Jul2014A.doc",
+      "./CCP/CCP26Jun2012A.doc",
+      "./CCP/CCP28Jan2012A.doc",
+      "./CCP/CCP30Jan2010A.doc",
+      "./CCP/CCPDec2010A.doc",
+      "./CCP/CCPModule1A.doc",
+      "./CLP/CLP21Jul2012A.doc",
+      "./CLP/CLP24Jul2010A.doc",
+      "./CLP/CLP26Jun2012A.doc",
+      "./CLP/CLP2Aug2012A.doc",
+      "./CLP/CLP30Jan2010A.doc",
+      "./CLP/CLP30Jan2019AssA.docx",
+      "./CLP/CLPJul2012A.doc",
+      "./COS/COS18Mar2010A.doc",
+      "./COS/COS2012(1)A.doc",
+      "./COS/COS30Aug2012A.doc",
+      "./COS/COS30Aug2012A.docx",
+      "./COS/COS6Mar2010A.doc",
+      "./COS/COS7Sep2010A.DOC",
+      "./COS/COSMod2.1A.doc",
+      "./FBE/FBE16May2012A.doc",
+      "./FBE/FBE16Nov2010A.doc",
+      "./FBE/FBE22May2010A.doc",
+      "./FBE/FBE28Jun2012A.doc",
+      "./FBE/FBE3Dec2009A.doc",
+      "./FBE/FBE3Jun2010A.doc",
+      "./FBE/FBE5May2012A.doc",
+      "./HCP/HCP18Mar2010A.doc",
+      "./HCP/HCP19Mar2008A.doc",
+      "./HCP/HCP1Mar2014A.doc",
+      "./HCP/HCP2012(1)A.doc",
+      "./HCP/HCP20Aug2011A.doc",
+      "./HCP/HCP30Aug2012A.doc",
+      "./HCP/HCP3Mar2012A.doc",
+      "./HCP/HCP5Mar2011A.doc",
+      "./HCP/HCP6Mar2010A.doc",
+      "./HCP/HCP6Sep2013A.doc",
+      "./HCP/HCP7Sep2010A.DOC",
+      "./ICP/ICP16May2012A.doc",
+      "./ICP/ICP19May2016A.doc",
+      "./ICP/ICP24Oct2015A.doc",
+      "./ICP/ICP28Jun2012A.doc",
+      "./ICP/ICP29Jun2016A.doc",
+      "./ICP/ICP3Dec2015A.doc",
+      "./ICP/ICP5May2012A.doc",
+      "./ICP/ICP7May2016A.doc",
+      "./ICP/ICPDec2010A.doc",
+      "./IPM/IPM19May2014A.doc",
+      "./IPM/IPM1Jun2012A.doc",
+      "./IPM/IPM2012AssA.doc",
+      "./IPM/IPM2015AssA.doc",
+      "./IPM/IPM2016AssA.doc",
+      "./IPM/IPM27Jun2012A.doc",
+      "./LDR/LDR16May2012A.doc",
+      "./LDR/LDR16Nov2010A.doc",
+      "./LDR/LDR22May2010A.doc",
+      "./LDR/LDR28Jun2012A.doc",
+      "./LDR/LDR3Dec2009A.doc",
+      "./LDR/LDR3Jun2010A.doc",
+      "./LDR/LDR5May2012A.doc",
+      "./LDR/LDRDec2010A.doc",
+      "./MCP/MCP18Mar2010A.doc",
+      "./MCP/MCP2012(1)A.doc",
+      "./MCP/MCP30Aug2012A.doc",
+      "./MCP/MCP6Mar2010A.doc",
+      "./MCP/MCP7Sep2010A.DOC",
+      "./MCP/MCPDec2010A.doc",
+      "./MCP/MCPMagCourtRules.pdf",
+      "./PCT/PCT18May2013A.doc",
+      "./PCT/PCT19May2012A.doc",
+      "./PCT/PCT1Jun2012A.doc",
+      "./PCT/PCT24Jul2010A.doc",
+      "./PCT/PCT30Jan2010A.doc",
+      "./PCT/PCT31May2014A.doc",
+      "./PCT/PCT3Dec2009Q.doc",
+      "./PCT/PCTDec2010A.doc",
+      "./PLE/PLE11Jun2015A.doc",
+      "./PLE/PLE14Nov2015A.doc",
+      "./PLE/PLE15Jun2016A.doc",
+      "./PLE/PLE26Nov2015A.doc",
+      "./PLE/PLE26Nov2015A.docx",
+      "./PLE/PLE28Jun2016A.doc",
+      "./PLE/PLE28May2016A.doc",
+      "./PLE/PLE30May2015A.doc"
+    ],
+    "reference": [
+      "./LSSA & Miscellaneous /Constitution of RSA.pdf/markdown.md",
+      "./LSSA & Miscellaneous /Legal Practice Act 28 of 2014.pdf/markdown.md",
+      "./LSSA & Miscellaneous /Legal Practice Act Rules.pdf/markdown.md"
+    ],
+    "slides": [
+      "./CCP/CCPWebinar2019Slides.pdf",
+      "./CLP/CLPWebinar2019Slides.ppt",
+      "./HCP/HCP2015Slides.pdf",
+      "./MCP/MCPWebinar2019Word.docx"
+    ],
+    "template": [
+      "./CCP/CCPExampleAppLeaveToAppeal.doc",
+      "./CCP/CCPHighCourtAppLeavetoAppeal.pdf",
+      "./HCP/HCP Example - Heads of argument.pdf"
+    ]
+  }
+}

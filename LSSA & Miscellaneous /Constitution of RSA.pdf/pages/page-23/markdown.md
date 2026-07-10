@@ -1,0 +1,12 @@
+Chapter 2: Bill of Rights
+
+- (a) An adult family member or friend of the detainee must be contacted as soon as reasonably possible, and informed that the person has been detained.
+- (b) A notice must be published in the national Government Gazette within five days of the person being detained, stating the detainee's name and place of detention and referring to the emergency measure in terms of which that person has been detained.
+- (c) The detainee must be allowed to choose, and be visited at any reasonable time by, a medical practitioner.
+- (d) The detainee must be allowed to choose, and be visited at any reasonable time by, a legal representative.
+- (e) A court must review the detention as soon as reasonably possible, but no later than 10 days after the date the person was detained, and the court must release the detainee unless it is necessary to continue the detention to restore peace and order.
+- (f) A detainee who is not released in terms of a review under paragraph (e), or who is not released in terms of a review under this paragraph, may apply to a court for a further review of the detention at any time after 10 days have passed since the previous review, and the court must release the detainee unless it is still necessary to continue the detention to restore peace and order.
+- (g) The detainee must be allowed to appear in person before any court considering the detention, to be represented by a legal practitioner at those hearings, and to make representations against continued detention.
+- (h) The state must present written reasons to the court to justify the continued detention of the detainee, and must give a copy of those reasons to the detainee at least two days before the court reviews the detention.(7) If a court releases a detainee, that person may not be detained again on the same grounds unless the state first shows a court good cause for re-detaining that person.(8) Subsections (6) and (7) do not apply to persons who are not South African citizens and who are detained in consequence of an international armed conflict. Instead, the state must comply with the standards binding on the Republic under international humanitarian law in respect of the detention of such persons.
+
+19

@@ -1,0 +1,15 @@
+STAATSKOERANT, 20 JULIE 2018
+
+No. 41781 95
+
+23
+
+16.14 The Council shall despatch separate notices to attorneys and advocates for purposes of any election in terms of this rule, and all notifications shall distinguish clearly as to whether they are intended for the election of an attorney or for the election of an advocate. Only attorneys may elect attorneys and only advocates may elect advocates.
+
+16.15 Within 7 days after the last date on which nominations were required to be lodged in terms of rule 16.6 the chairperson of the Council, or in his or her absence or inability to act, any member of the Council nominated for that purpose by the Council (the person who is to fulfil the functions of the chairperson of the Council for purposes of rule 16 being referred to in this rule as "the chairperson") shall in writing appoint a legal practitioner of more than fifteen years standing as a referee for the purpose of performing the duties assigned to a referee under these rules. The referee shall not be a candidate for office or a legal practitioner who has nominated a candidate, or a member of the Council or of a Provincial Council, as the case may be.
+
+16.16 On each day on which envelopes marked "voting papers" despatched to the Provincial Council are received by the Council, or if it is not practicable on that day, as soon as practicable thereafter, the chairperson or a member of the Council nominated by him or her in writing shall, in the presence of the referee, open each such envelope and remove its contents. The chairperson or the nominated member of the Council and the referee shall then together examine each declaration form, shall verify, to such extent as may appear necessary, the information contained therein against the records of the Council and shall satisfy themselves that the declaration form has been duly completed and signed by the legal practitioner, failing which it will be regarded as invalid. In the event of a disagreement between the chairperson or the nominated member of the Council and the referee as to the validity or otherwise of any form of declaration, the view of the referee shall prevail and his or her judgment on the matter shall be final. The referee shall endorse with his or her signature each form of declaration found to be invalid, with the reason for the invalidity. The chairperson or the nominated member of the Council and the referee shall together note the name and surname of each legal practitioner who has submitted a declaration and envelope marked "ballot papers", as well as whether that legal practitioner is an attorney or an advocate, in a voting register kept by the referee.
+
+16.17 The chairperson or the nominated member of the Council shall, in the presence of the referee, in respect of each declaration form found to be valid, place its
+
+This gazette is also available free online at www.gpwonline.co.za
