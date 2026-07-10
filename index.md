@@ -1,6 +1,6 @@
 # LLB Hub — Index
 
-**Scanned:** 222 files across 14 subject folders  
+**Scanned:** 316 files across 14 subject folders  
 **Last updated:** 2026-07-10  
 **Source:** LSSA / School for Legal Practice past exam papers, memoranda, assignments, webinar slides and precedents.
 
@@ -10,16 +10,16 @@
 
 | Code | Subject | Files |
 |------|---------|-------|
-| CCP | Criminal Court Practice (Module 1) | 21 |
+| CCP | Criminal Court Practice (Module 1) | 32 |
 | CLP | Constitutional Practice (Module 1) | 17 |
-| COS | Legal Costs (Module 2.1) | 13 |
-| FBE | Forms of Business Enterprise (Module 3.x) | 14 |
+| COS | Legal Costs (Module 2.1) | 14 |
+| FBE | Forms of Business Enterprise (Module 3.x) | 17 |
 | HCP | High Court Practice (Module 2.1) | 24 |
 | MCP | Magistrate's Court Practice (Module 2.1) | 14 |
-| PCT | Professional Conduct (Module 1) | 16 |
-| PLE | Professional Legal Ethics (Module 4) | 18 |
+| PCT | Professional Conduct (Module 1) | 27 |
+| PLE | Professional Legal Ethics (Module 4) | 19 |
 | LDR | Labour Dispute Resolution (Module 3.2) | 16 |
-| IPM | Introduction to Practice Management (Module 4) | 13 |
+| IPM | Introduction to Practice Management (Module 4) | 20 |
 | ICP | Introduction to Conveyancing Practice (Module 3.2) | 13 |
 | BBST | Broad Based Skills Test (Integrated Practical Exam) | 30 |
 | Attorneys Exam | Attorneys Admission Examination (Board Exam) | 10 |
@@ -29,22 +29,16 @@
 
 | Path | Type | Quality | Gaps |
 |------|------|---------|------|
-| ./Attorneys Exam/AttExam14Feb2017A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
-| ./Attorneys Exam/AttExam14Feb2017Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
-| ./Attorneys Exam/AttExam15Feb2017A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
-| ./Attorneys Exam/AttExam15Feb2017Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
-| ./Attorneys Exam/AttExam16Aug2016A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
-| ./Attorneys Exam/AttExam16Aug2016Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
-| ./Attorneys Exam/AttExam17Aug2016A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
-| ./Attorneys Exam/AttExam17Aug2016Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
-| ./Attorneys Exam/AttExam9Feb2016A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
-| ./Attorneys Exam/AttExam9Feb2016Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./CCP/CCP.base | general | 0.5 | empty or near-empty |
 | ./CCP/CCPHighCourtAppLeavetoAppeal.pdf | template | 1.0 | scanned/no extractable text (OCR needed) |
 | ./CCP/CCPWebinar2019Slides.pdf | slides | 1.0 | scanned/no extractable text (OCR needed) |
 | ./CLP/CLPLecture2019Q&A.pdf | lecture_qa | 1.0 | scanned/no extractable text (OCR needed) |
+| ./PCT/PCT.base | general | 0.5 | empty or near-empty |
 
 ## CCP/ — Criminal Court Practice (Module 1)
 
+- **[CCP Dashboard.md](./CCP/CCP Dashboard.md)** *(general, topics: criminal-court-practice, bail, plea, appeal, vat)* — Criminal Court Practice — document
+- **[CCP.base](./CCP/CCP.base)** *(general, topics: criminal-court-practice)* — Criminal Court Practice — document  ⚠️ empty or near-empty
 - **[CCP2012(2)SuppA.doc](./CCP/CCP2012(2)SuppA.doc)** *(marking_memo, topics: criminal-court-practice, bail, s115-statement, plea, appeal)* — Criminal Court Practice — marking memorandum / model answers
 - **[CCP2019AssQ.doc](./CCP/CCP2019AssQ.doc)** *(assignment, topics: criminal-court-practice, bail, plea, leave-to-appeal, appeal)* — Criminal Court Practice — exam question paper
 - **[CCP25Jul2015A.doc](./CCP/CCP25Jul2015A.doc)** *(marking_memo, topics: criminal-court-practice, bail, s115-statement, plea, appeal)* — Criminal Court Practice — marking memorandum / model answers
@@ -66,6 +60,15 @@
 - **[CCPModule1A.doc](./CCP/CCPModule1A.doc)** *(marking_memo, topics: criminal-court-practice, bail, s115-statement, plea, appeal)* — Criminal Court Practice — marking memorandum / model answers
 - **[CCPModule1Q.doc](./CCP/CCPModule1Q.doc)** *(exam_question, topics: criminal-court-practice, bail, s115-statement, plea, appeal)* — Criminal Court Practice — exam question paper
 - **[CCPWebinar2019Slides.pdf](./CCP/CCPWebinar2019Slides.pdf)** *(slides, topics: criminal-court-practice)* — Criminal Court Practice — webinar/lecture slide deck  ⚠️ scanned/no extractable text (OCR needed)
+- **[CCP 2010-01-30.md](./CCP/notes/qa/CCP 2010-01-30.md)** *(general, topics: criminal-court-practice, bail, s115-statement, s112-statement, plea)* — Criminal Court Practice — document
+- **[CCP 2010-12-15 Supp.md](./CCP/notes/qa/CCP 2010-12-15 Supp.md)** *(general, topics: criminal-court-practice, bail, s112-statement, plea, leave-to-appeal)* — Criminal Court Practice — document
+- **[CCP 2012-01-28.md](./CCP/notes/qa/CCP 2012-01-28.md)** *(general, topics: criminal-court-practice, bail, s115-statement, plea, appeal)* — Criminal Court Practice — document
+- **[CCP 2012-06-26 Supp.md](./CCP/notes/qa/CCP 2012-06-26 Supp.md)** *(general, topics: criminal-court-practice, bail, s115-statement, plea, appeal)* — Criminal Court Practice — document
+- **[CCP 2012-08-02 Supp.md](./CCP/notes/qa/CCP 2012-08-02 Supp.md)** *(general, topics: criminal-court-practice, bail, s115-statement, plea, appeal)* — Criminal Court Practice — document
+- **[CCP 2013-01-26.md](./CCP/notes/qa/CCP 2013-01-26.md)** *(general, topics: criminal-court-practice, bail, plea, appeal, vat)* — Criminal Court Practice — document
+- **[CCP 2014-07-26.md](./CCP/notes/qa/CCP 2014-07-26.md)** *(general, topics: criminal-court-practice, bail, plea, appeal, culpable-homicide)* — Criminal Court Practice — document
+- **[CCP 2015-07-25.md](./CCP/notes/qa/CCP 2015-07-25.md)** *(general, topics: criminal-court-practice, bail, plea, appeal, vat)* — Criminal Court Practice — document
+- **[CCP 2019-03 Assignment.md](./CCP/notes/qa/CCP 2019-03 Assignment.md)** *(general, topics: criminal-court-practice, bail, plea, leave-to-appeal, appeal)* — Criminal Court Practice — document
 
 ## CLP/ — Constitutional Practice (Module 1)
 
@@ -102,6 +105,7 @@
 - **[COS7Sep2010Q.DOC](./COS/COS7Sep2010Q.DOC)** *(exam_question, topics: legal-costs, plea, bill-of-costs, allocatur, vat)* — Legal Costs — exam question paper
 - **[COSMod2.1A.doc](./COS/COSMod2.1A.doc)** *(marking_memo, topics: legal-costs, plea, bill-of-costs, vat, taxation)* — Legal Costs — marking memorandum / model answers
 - **[COSMod2.1Q.doc](./COS/COSMod2.1Q.doc)** *(exam_question, topics: legal-costs, plea, vat, party-and-party-costs, costs-de-bonis-propriis)* — Legal Costs — exam question paper
+- **[Costs Terminology.md](./COS/notes/topics/Costs Terminology.md)** *(general, topics: legal-costs, bill-of-costs, allocatur, vat, taxation)* — Legal Costs — document
 
 ## FBE/ — Forms of Business Enterprise (Module 3.x)
 
@@ -119,6 +123,9 @@
 - **[FBE3Jun2010Q.doc](./FBE/FBE3Jun2010Q.doc)** *(exam_question, topics: forms-of-business-enterprise, close-corporation, partnership, sole-proprietorship, trust)* — Forms of Business Enterprise — exam question paper
 - **[FBE5May2012A.doc](./FBE/FBE5May2012A.doc)** *(marking_memo, topics: forms-of-business-enterprise, vat, trust)* — Forms of Business Enterprise — marking memorandum / model answers
 - **[FBE5May2012Q.doc](./FBE/FBE5May2012Q.doc)** *(exam_question, topics: forms-of-business-enterprise, vat, partnership, sole-proprietorship, pre-incorporation-contract)* — Forms of Business Enterprise — exam question paper
+- **[FBE 2009-12-03 Special Supp.md](./FBE/notes/qa/FBE 2009-12-03 Special Supp.md)** *(marking_memo, topics: forms-of-business-enterprise, vat, close-corporation, partnership, sole-proprietorship)* — Forms of Business Enterprise — document
+- **[FBE 2010-05-22.md](./FBE/notes/qa/FBE 2010-05-22.md)** *(marking_memo, topics: forms-of-business-enterprise, vat, close-corporation, partnership, trust)* — Forms of Business Enterprise — document
+- **[FBE 2010-06-03 Supp.md](./FBE/notes/qa/FBE 2010-06-03 Supp.md)** *(marking_memo, topics: forms-of-business-enterprise, vat, close-corporation, partnership, sole-proprietorship)* — Forms of Business Enterprise — document
 
 ## HCP/ — High Court Practice (Module 2.1)
 
@@ -166,6 +173,8 @@
 
 ## PCT/ — Professional Conduct (Module 1)
 
+- **[PCT Dashboard.md](./PCT/PCT Dashboard.md)** *(marking_memo, topics: plea, trust)* — Professional Conduct — document
+- **[PCT.base](./PCT/PCT.base)** *(general)* — Professional Conduct — document  ⚠️ empty or near-empty
 - **[PCT18May2013A.doc](./PCT/PCT18May2013A.doc)** *(marking_memo, topics: appeal)* — Professional Conduct — marking memorandum / model answers
 - **[PCT18May2013Q.doc](./PCT/PCT18May2013Q.doc)** *(exam_question)* — Professional Conduct — exam question paper
 - **[PCT19May2012A.doc](./PCT/PCT19May2012A.doc)** *(marking_memo, topics: plea, trust)* — Professional Conduct — marking memorandum / model answers
@@ -182,9 +191,19 @@
 - **[PCT3Dec2009Q.doc](./PCT/PCT3Dec2009Q.doc)** *(marking_memo)* — Professional Conduct — exam question paper
 - **[PCTDec2010A.doc](./PCT/PCTDec2010A.doc)** *(marking_memo, topics: plea, bill-of-costs, taxation, trust)* — Professional Conduct — marking memorandum / model answers
 - **[PCTDec2010Q.doc](./PCT/PCTDec2010Q.doc)** *(exam_question, topics: plea, trust)* — Professional Conduct — exam question paper
+- **[PCT 2009-12-03 Special Supp.md](./PCT/notes/qa/PCT 2009-12-03 Special Supp.md)** *(marking_memo, topics: trust)* — Professional Conduct — document
+- **[PCT 2010-01-30.md](./PCT/notes/qa/PCT 2010-01-30.md)** *(general, topics: appeal, trust)* — Professional Conduct — document
+- **[PCT 2010-07-24.md](./PCT/notes/qa/PCT 2010-07-24.md)** *(general, topics: plea, trust)* — Professional Conduct — document
+- **[PCT 2010-12-15 Special Supp.md](./PCT/notes/qa/PCT 2010-12-15 Special Supp.md)** *(general, topics: plea, bill-of-costs, taxation, trust)* — Professional Conduct — document
+- **[PCT 2012-05-19.md](./PCT/notes/qa/PCT 2012-05-19.md)** *(general, topics: plea, trust)* — Professional Conduct — document
+- **[PCT 2012-06-01 Supp.md](./PCT/notes/qa/PCT 2012-06-01 Supp.md)** *(marking_memo, topics: partnership, trust)* — Professional Conduct — document
+- **[PCT 2012-06-27 Special Supp.md](./PCT/notes/qa/PCT 2012-06-27 Special Supp.md)** *(marking_memo, topics: trust)* — Professional Conduct — document
+- **[PCT 2013-05-18.md](./PCT/notes/qa/PCT 2013-05-18.md)** *(general, topics: appeal)* — Professional Conduct — document
+- **[PCT 2014-05-31.md](./PCT/notes/qa/PCT 2014-05-31.md)** *(general, topics: trust)* — Professional Conduct — document
 
 ## PLE/ — Professional Legal Ethics (Module 4)
 
+- **[Plea Procedure.md](./CCP/notes/topics/Plea Procedure.md)** *(general, topics: s112-statement, plea, vat, criminal-procedure-act, private-defence)* — Professional Legal Ethics — document
 - **[PLE11Jun2015A.doc](./PLE/PLE11Jun2015A.doc)** *(marking_memo, topics: trust)* — Professional Legal Ethics — marking memorandum / model answers
 - **[PLE11Jun2015Q.doc](./PLE/PLE11Jun2015Q.doc)** *(exam_question)* — Professional Legal Ethics — exam question paper
 - **[PLE14Nov2015A.doc](./PLE/PLE14Nov2015A.doc)** *(marking_memo, topics: appeal)* — Professional Legal Ethics — marking memorandum / model answers
@@ -238,6 +257,13 @@
 - **[IPM2019AssQ.docx](./IPM/IPM2019AssQ.docx)** *(assignment, topics: vat, trust)* — Introduction to Practice Management — exam question paper
 - **[IPM27Jun2012A.doc](./IPM/IPM27Jun2012A.doc)** *(marking_memo, topics: trust)* — Introduction to Practice Management — marking memorandum / model answers
 - **[IPM27Jun2012Q.doc](./IPM/IPM27Jun2012Q.doc)** *(exam_question, topics: trust)* — Introduction to Practice Management — exam question paper
+- **[IPM 2012 Assignment.md](./IPM/notes/qa/IPM 2012 Assignment.md)** *(general)* — Introduction to Practice Management — document
+- **[IPM 2012-05-19.md](./IPM/notes/qa/IPM 2012-05-19.md)** *(general, topics: vat)* — Introduction to Practice Management — document
+- **[IPM 2012-06-01 Supp.md](./IPM/notes/qa/IPM 2012-06-01 Supp.md)** *(general, topics: vat, trust)* — Introduction to Practice Management — document
+- **[IPM 2012-06-27 Special Supp.md](./IPM/notes/qa/IPM 2012-06-27 Special Supp.md)** *(general, topics: trust)* — Introduction to Practice Management — document
+- **[IPM 2015-11 Assignment.md](./IPM/notes/qa/IPM 2015-11 Assignment.md)** *(general, topics: sole-proprietorship)* — Introduction to Practice Management — document
+- **[IPM 2016 Assignment.md](./IPM/notes/qa/IPM 2016 Assignment.md)** *(general, topics: vat)* — Introduction to Practice Management — document
+- **[IPM 2019-05 Assignment.md](./IPM/notes/qa/IPM 2019-05 Assignment.md)** *(general, topics: vat, trust)* — Introduction to Practice Management — document
 
 ## ICP/ — Introduction to Conveyancing Practice (Module 3.2)
 
@@ -290,20 +316,20 @@
 
 ## Attorneys Exam/ — Attorneys Admission Examination (Board Exam)
 
-- **[AttExam14Feb2017A.pdf](./Attorneys Exam/AttExam14Feb2017A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
-- **[AttExam14Feb2017Q.pdf](./Attorneys Exam/AttExam14Feb2017Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
-- **[AttExam15Feb2017A.pdf](./Attorneys Exam/AttExam15Feb2017A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
-- **[AttExam15Feb2017Q.pdf](./Attorneys Exam/AttExam15Feb2017Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
-- **[AttExam16Aug2016A.pdf](./Attorneys Exam/AttExam16Aug2016A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
-- **[AttExam16Aug2016Q.pdf](./Attorneys Exam/AttExam16Aug2016Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
-- **[AttExam17Aug2016A.pdf](./Attorneys Exam/AttExam17Aug2016A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
-- **[AttExam17Aug2016Q.pdf](./Attorneys Exam/AttExam17Aug2016Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
-- **[AttExam9Feb2016A.pdf](./Attorneys Exam/AttExam9Feb2016A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
-- **[AttExam9Feb2016Q.pdf](./Attorneys Exam/AttExam9Feb2016Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam14Feb2017A/markdown.md](./Attorneys Exam/AttExam14Feb2017A.pdf/markdown.md)** *(marking_memo, topics: bail, plea, leave-to-appeal, appeal, close-corporation)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam14Feb2017Q/markdown.md](./Attorneys Exam/AttExam14Feb2017Q.pdf/markdown.md)** *(exam_question, topics: bail, s112-statement, plea, leave-to-appeal, appeal)* — Attorneys Admission Examination — exam question paper
+- **[AttExam15Feb2017A/markdown.md](./Attorneys Exam/AttExam15Feb2017A.pdf/markdown.md)** *(marking_memo, topics: plea, appeal, vat, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam15Feb2017Q/markdown.md](./Attorneys Exam/AttExam15Feb2017Q.pdf/markdown.md)** *(exam_question, topics: plea, vat, partnership)* — Attorneys Admission Examination — exam question paper
+- **[AttExam16Aug2016A/markdown.md](./Attorneys Exam/AttExam16Aug2016A.pdf/markdown.md)** *(marking_memo, topics: s115-statement, plea, vat)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam16Aug2016Q/markdown.md](./Attorneys Exam/AttExam16Aug2016Q.pdf/markdown.md)** *(exam_question, topics: bail, s115-statement, plea, appeal, vat)* — Attorneys Admission Examination — exam question paper
+- **[AttExam17Aug2016A/markdown.md](./Attorneys Exam/AttExam17Aug2016A.pdf/markdown.md)** *(marking_memo, topics: plea, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam17Aug2016Q/markdown.md](./Attorneys Exam/AttExam17Aug2016Q.pdf/markdown.md)** *(exam_question, topics: plea, vat, trust, constitution)* — Attorneys Admission Examination — exam question paper
+- **[AttExam9Feb2016A/markdown.md](./Attorneys Exam/AttExam9Feb2016A.pdf/markdown.md)** *(marking_memo, topics: bail, s115-statement, s112-statement, plea, appeal)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam9Feb2016Q/markdown.md](./Attorneys Exam/AttExam9Feb2016Q.pdf/markdown.md)** *(exam_question, topics: bail, s115-statement, s112-statement, plea, appeal)* — Attorneys Admission Examination — exam question paper
 
 ## LSSA/ — LSSA Reference Materials and Miscellaneous
 
-- **[markdown.md](./LSSA & Miscellaneous /Constitution of RSA.pdf/markdown.md)** *(reference, topics: plea, leave-to-appeal, appeal, vat, trust)* — LSSA Reference Materials and Miscellaneous — document
-- **[markdown.md](./LSSA & Miscellaneous /Legal Practice Act 28 of 2014.pdf/markdown.md)** *(reference, topics: appeal, bill-of-costs, vat, partnership, trust)* — LSSA Reference Materials and Miscellaneous — document
-- **[markdown.md](./LSSA & Miscellaneous /Legal Practice Act Rules.pdf/markdown.md)** *(reference, topics: s112-statement, plea, appeal, vat, partnership)* — LSSA Reference Materials and Miscellaneous — document
+- **[Constitution of RSA/markdown.md](./LSSA & Miscellaneous /Constitution of RSA.pdf/markdown.md)** *(marking_memo, topics: plea, leave-to-appeal, appeal, vat, trust)* — LSSA Reference Materials and Miscellaneous — marking memorandum / model answers
+- **[Legal Practice Act 28 of 2014/markdown.md](./LSSA & Miscellaneous /Legal Practice Act 28 of 2014.pdf/markdown.md)** *(reference, topics: appeal, bill-of-costs, vat, partnership, trust)* — LSSA Reference Materials and Miscellaneous — document
+- **[Legal Practice Act Rules/markdown.md](./LSSA & Miscellaneous /Legal Practice Act Rules.pdf/markdown.md)** *(reference, topics: s112-statement, plea, appeal, vat, partnership)* — LSSA Reference Materials and Miscellaneous — document
 

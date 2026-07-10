@@ -62,7 +62,7 @@ def extract(path):
     return ""
 
 
-def parse_name(fname):
+def parse_name(fname, rel_path=""):
     """Return (subject, date_label, role) from the naming convention."""
     stem = os.path.splitext(fname)[0]
     subj = None
@@ -82,24 +82,41 @@ def parse_name(fname):
             subj = "LSSA"
         elif up.startswith("LEGAL PRACTICE") or up.startswith("CONSTITUTION"):
             subj = "LSSA"
+    # Check parent folder for extracted PDF content (e.g., AttExam9Feb2016Q.pdf/markdown.md)
+    pdf_parent = None
+    if ".pdf/" in rel_path:
+        pdf_parent = rel_path.split(".pdf/")[0].split("/")[-1]
+        parent_up = pdf_parent.upper()
+        if not subj:
+            if parent_up.startswith("ATTEXAM"):
+                subj = "Attorneys Exam"
+            elif parent_up.startswith("ATTORNEY"):
+                subj = "Attorneys Exam"
+    # Use parent folder name for role detection when dealing with extracted PDF markdown files
+    role_stem = pdf_parent if pdf_parent else stem
+    role_up = role_stem.upper()
     role = "general"
-    if up.endswith("Q") or "ASSQ" in up or "Q&A" in up.replace(" ", ""):
+    if role_up.endswith("Q") or "ASSQ" in role_up or "Q&A" in role_up.replace(" ", ""):
         role = "question"
-    if up.endswith("A") or "ASSA" in up or up.endswith("SUPPA"):
+    if role_up.endswith("A") or "ASSA" in role_up or role_up.endswith("SUPPA"):
         role = "answer"
-    if "SLIDE" in up or "WEBINAR" in up:
+    if "SLIDE" in role_up or "WEBINAR" in role_up:
         role = "slides"
-    if "LECTURE" in up:
+    if "LECTURE" in role_up:
         role = "lecture"
-    if "EXAMPLE" in up or "APPLEAVE" in up or "APPLEAVETOAPPEAL" in up:
+    if "EXAMPLE" in role_up or "APPLEAVE" in role_up or "APPLEAVETOAPPEAL" in role_up:
         role = "template"
     return subj, role
 
 
 def detect_type(text, role, fname):
     t = text.lower()
-    # Handle markdown.md files (PDF extractions) as reference materials
+    # Handle markdown.md files based on role (PDF extractions from Attorneys Exam, etc.)
     if fname.lower() == "markdown.md":
+        if role == "question":
+            return "exam_question"
+        if role == "answer":
+            return "marking_memo"
         return "reference"
     if role == "slides":
         return "slides"
@@ -287,7 +304,12 @@ def generate_subdir_readmes(entries, subjects):
                 lines.append("")
                 for dt, fname, ftype, path in items:
                     date_str = dt.strftime("%d %b")
-                    lines.append(f"- **{fname}** — {ftype} ({date_str})")
+                    # Show extracted PDF source folder for markdown files
+                    display_name = fname
+                    if fname == "markdown.md" and ".pdf/" in path:
+                        pdf_name = path.split(".pdf/")[0].split("/")[-1] + ".pdf"
+                        display_name = f"{pdf_name}/markdown.md"
+                    lines.append(f"- **{display_name}** — {ftype} ({date_str})")
                 lines.append("")
 
         # Undated files
@@ -338,7 +360,7 @@ def main():
             if "/pages/" in rel:
                 continue
             ext = f.lower().rsplit(".", 1)[-1]
-            subj, role = parse_name(f)
+            subj, role = parse_name(f, rel)
             # Check folder path for subject assignment (handles LSSA & Miscellaneous / with trailing space)
             if not subj:
                 if "LSSA & Miscellaneous" in rel or rel.startswith("./LSSA"):
@@ -419,7 +441,12 @@ def main():
         lines.append("")
         for e in subset:
             tp = ", ".join(e["topics"][:5])
-            lines.append(f"- **[{os.path.basename(e['path'])}]({e['path']})** "
+            # Show PDF source folder for extracted markdown files
+            display_name = os.path.basename(e['path'])
+            if display_name == "markdown.md" and ".pdf/" in e['path']:
+                pdf_folder = e['path'].split(".pdf/")[0].rsplit("/", 1)[-1]
+                display_name = f"{pdf_folder}/markdown.md"
+            lines.append(f"- **[{display_name}]({e['path']})** "
                          f"*({e['type']}"
                          + (f", topics: {tp}" if tp else "") + ")* — "
                          + e["description"]

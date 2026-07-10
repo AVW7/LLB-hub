@@ -1,7 +1,7 @@
 # PLE — Contents Overview
 
 **Module:** Professional Legal Ethics (Module 4)
-**Total files:** 18
+**Total files:** 20
 
 **Years covered:** 2015 – 2019
 **Missing years:** 2017, 2018
@@ -34,6 +34,11 @@
 - **PLE26Nov2015A.docx** — marking_memo (26 Nov)
 - **PLE26Nov2015Q.doc** — exam_question (26 Nov)
 - **PLE2Dec2015Q.doc** — exam_question (02 Dec)
+
+## Undated / Special Files
+
+- **topics/Defending a Guilty Client.md** — general
+- **topics/Mandate Acceptance, Refusal and Withdrawal.md** — general
 
 ## Question/Memo Pairs
 

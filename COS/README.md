@@ -1,7 +1,7 @@
 # COS — Contents Overview
 
 **Module:** Legal Costs (Module 2.1)
-**Total files:** 13
+**Total files:** 17
 
 **Years covered:** 2010 – 2012
 **Missing years:** 2011
@@ -27,8 +27,12 @@
 
 ## Undated / Special Files
 
+- **topics/Allocatur Completion.md** — general
 - **COSMod2.1A.doc** — marking_memo
 - **COSMod2.1Q.doc** — exam_question
+- **topics/Costs Terminology.md** — general
+- **topics/Drawing Fee and Attendance Fee Scale.md** — general
+- **topics/VAT on Fees and Disbursements.md** — general
 
 ## Question/Memo Pairs
 

@@ -1,7 +1,7 @@
 # ICP — Contents Overview
 
 **Module:** Introduction to Conveyancing Practice (Module 3.2)
-**Total files:** 13
+**Total files:** 17
 
 **Years covered:** 2010 – 2016
 **Missing years:** 2011, 2013, 2014
@@ -32,6 +32,13 @@
 
 - **ICPDec2010A.doc** — marking_memo (15 Dec)
 - **ICPDec2010Q.doc** — exam_question (15 Dec)
+
+## Undated / Special Files
+
+- **topics/Body Corporate — Management and Conduct Rules.md** — general
+- **topics/Exclusive Use Areas.md** — general
+- **topics/Mortgage Bonds — Registration and Cancellation.md** — general
+- **topics/Sectional Title Schemes.md** — general
 
 ## Question/Memo Pairs
 
