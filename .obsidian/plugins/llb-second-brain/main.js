@@ -105294,13 +105294,59 @@ ${pendingAction.action.content}` : pendingAction.action.content;
     const copyButton = container.createEl("button", { cls: className || "copy-button" });
     (0, import_obsidian9.setIcon)(copyButton, "copy");
     copyButton.setAttribute("aria-label", "Copy response");
-    copyButton.addEventListener("click", () => {
-      void navigator.clipboard.writeText(text).then(() => {
+    copyButton.setAttribute("title", "Copy response");
+    copyButton.addEventListener("click", async () => {
+      try {
+        await this.copyTextToClipboard(text);
+        copyButton.addClass("is-copied");
+        copyButton.setAttribute("aria-label", "Copied to clipboard");
+        copyButton.setAttribute("title", "Copied to clipboard");
+        (0, import_obsidian9.setIcon)(copyButton, "check");
         new import_obsidian9.Notice("Copied to clipboard");
-      }).catch(() => {
-        new import_obsidian9.Notice("Could not copy to clipboard");
-      });
+        window.setTimeout(() => {
+          if (!copyButton.isConnected) return;
+          copyButton.removeClass("is-copied");
+          copyButton.setAttribute("aria-label", "Copy response");
+          copyButton.setAttribute("title", "Copy response");
+          (0, import_obsidian9.setIcon)(copyButton, "copy");
+        }, 1200);
+      } catch (error) {
+        console.error("Clipboard copy failed:", error);
+        new import_obsidian9.Notice("Could not copy to clipboard. Check clipboard permissions.");
+      }
     });
+  }
+  async copyTextToClipboard(text) {
+    if (navigator.clipboard && typeof navigator.clipboard.writeText === "function") {
+      try {
+        await navigator.clipboard.writeText(text);
+        return;
+      } catch (error) {
+        console.warn("Clipboard API copy failed; trying the document fallback.", error);
+      }
+    }
+    const previousFocus = document.activeElement;
+    const fallback = document.createElement("textarea");
+    fallback.value = text;
+    fallback.setAttribute("readonly", "");
+    fallback.style.position = "fixed";
+    fallback.style.left = "-9999px";
+    fallback.style.top = "0";
+    fallback.style.opacity = "0";
+    try {
+      document.body.appendChild(fallback);
+      fallback.focus();
+      fallback.select();
+      fallback.setSelectionRange(0, fallback.value.length);
+      if (!document.execCommand("copy")) {
+        throw new Error("The document clipboard fallback was rejected.");
+      }
+    } finally {
+      fallback.remove();
+      if (previousFocus instanceof HTMLElement) {
+        previousFocus.focus({ preventScroll: true });
+      }
+    }
   }
   appendStatusMessage(container, message, status) {
     const statusEl = container.createDiv({ cls: "vault-action-status" });
@@ -106086,6 +106132,14 @@ var ChatView = class extends import_obsidian12.ItemView {
     const inputContainer = contentEl.createDiv({ cls: "llm-helper-chat-input-container" });
     const composerMeta = inputContainer.createDiv({ cls: "llm-helper-chat-composer-meta" });
     this.targetChipEl = composerMeta.createSpan({ cls: "llm-helper-chat-target-chip" });
+    const pasteButton = composerMeta.createEl("button", {
+      cls: "llm-helper-chat-paste-btn",
+      attr: { type: "button", "aria-label": "Paste from clipboard", title: "Paste from clipboard" }
+    });
+    (0, import_obsidian12.setIcon)(pasteButton, "clipboard-paste");
+    pasteButton.addEventListener("click", () => {
+      void this.pasteFromClipboard();
+    });
     this.statusBannerEl = inputContainer.createDiv({ cls: "llm-helper-chat-status-banner is-hidden" });
     const inputRow = inputContainer.createDiv({ cls: "llm-helper-chat-input-row" });
     this.textInput = inputRow.createEl("textarea", {
@@ -106162,6 +106216,33 @@ var ChatView = class extends import_obsidian12.ItemView {
       text: "LLM Helper can make mistakes. Verify important output.",
       cls: "llm-helper-chat-disclaimer"
     });
+  }
+  async pasteFromClipboard() {
+    const input = this.textInput;
+    if (!input || input.disabled) return;
+    const selectionStart = input.selectionStart ?? input.value.length;
+    const selectionEnd = input.selectionEnd ?? selectionStart;
+    try {
+      if (!navigator.clipboard || typeof navigator.clipboard.readText !== "function") {
+        throw new Error("Clipboard reading is unavailable.");
+      }
+      const clipboardText = await navigator.clipboard.readText();
+      if (!clipboardText) {
+        input.focus();
+        new import_obsidian12.Notice("No text found on the clipboard.");
+        return;
+      }
+      input.setRangeText(clipboardText, selectionStart, selectionEnd, "end");
+      this.result = input.value;
+      this.resizeComposer();
+      this.updateSubmitButtonState();
+      input.focus();
+      new import_obsidian12.Notice("Pasted from clipboard.");
+    } catch (error) {
+      console.warn("Clipboard paste failed:", error);
+      input.focus();
+      new import_obsidian12.Notice("Clipboard access was blocked. Use your system paste shortcut.");
+    }
   }
   renderModeControls() {
     this.modeGeneralBtn.toggleClass("is-active", this.mode === "general");

@@ -2610,3 +2610,85 @@
         max-height: none;
     }
 }
+
+/* Clipboard controls remain available without hover and on touch screens. */
+.llm-helper-chat-composer-meta {
+    min-width: 0;
+}
+
+.llm-helper-chat-target-chip {
+    max-width: calc(100% - 36px);
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.llm-helper-chat-paste-btn {
+    display: inline-flex;
+    flex: 0 0 30px;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 8px;
+    background: var(--background-secondary);
+    color: var(--text-muted);
+    cursor: pointer;
+    transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.llm-helper-chat-paste-btn:hover {
+    border-color: var(--text-muted);
+    background: var(--background-modifier-hover);
+    color: var(--text-normal);
+}
+
+.llm-helper-chat-paste-btn svg {
+    width: 15px;
+    height: 15px;
+}
+
+.rag-chat-copy-btn.is-copied {
+    opacity: 1;
+    color: var(--text-normal);
+}
+
+@media (hover: none), (pointer: coarse) {
+    .rag-chat-message-ai .rag-chat-copy-btn,
+    .rag-chat-message-ai .copy-button {
+        opacity: 1;
+        width: 30px;
+        height: 30px;
+    }
+
+    .rag-chat-message-ai {
+        padding-top: 40px;
+    }
+
+    .llm-helper-chat-paste-btn {
+        width: 32px;
+        height: 32px;
+        flex-basis: 32px;
+    }
+}
+
+@container llb-chat (max-width: 420px) {
+    .rag-chat-message-ai .rag-chat-copy-btn {
+        opacity: 1;
+        width: 30px;
+        height: 30px;
+    }
+
+    .rag-chat-message-ai {
+        padding-top: 40px;
+    }
+
+    .llm-helper-chat-paste-btn {
+        width: 32px;
+        height: 32px;
+        flex-basis: 32px;
+    }
+}
