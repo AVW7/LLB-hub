@@ -1,0 +1,296 @@
+[
+  {
+    "target": "/Users/ajad/Desktop/LLB hub/Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2016P4Q.md",
+    "candidate": "/private/tmp/llb-ocr-corrections/AttExam10Feb2016P4Q.md",
+    "baseline_sha256": "fa002de747d278f0e7b622e9e9d79d034733d38af0381230bea2ae096e19c1bf",
+    "candidate_sha256": "87aa9e25280b22f952236c47497f1f0bbb1496c2772b3d0444a4b6cd97ab5fd6",
+    "pdf_sha256": "ef7229f69a07fe1790c0bbc256ccd1dbd1e4b19b3c842a9fe7dee6c902299c57",
+    "before": {
+      "words": 1185,
+      "characters": 6977,
+      "replacement_characters": 0,
+      "artifact_runs": 2,
+      "has_end_marker": true
+    },
+    "after": {
+      "words": 1186,
+      "characters": 6963,
+      "replacement_characters": 0,
+      "artifact_runs": 0,
+      "has_end_marker": true
+    }
+  },
+  {
+    "target": "/Users/ajad/Desktop/LLB hub/Attorneys Exam/Official Previous Papers 2015-2023/AttExam11Feb2015P3Q.md",
+    "candidate": "/private/tmp/llb-ocr-corrections/AttExam11Feb2015P3Q.md",
+    "baseline_sha256": "e82d34f5b28175ba33a2ad5d0d0c6c7e66d91abd9e633c4b450c366040014706",
+    "candidate_sha256": "ea2c02a8acb77cff6958ff522f7624fb90c046896f7318c706e4f3f7b8e15b1b",
+    "pdf_sha256": "6728f2b356072995bc6bb227c835e5f13dd370f8bb6970641610a40daa774549",
+    "before": {
+      "words": 1883,
+      "characters": 11213,
+      "replacement_characters": 1,
+      "artifact_runs": 1,
+      "has_end_marker": true
+    },
+    "after": {
+      "words": 1882,
+      "characters": 11213,
+      "replacement_characters": 0,
+      "artifact_runs": 0,
+      "has_end_marker": true
+    }
+  },
+  {
+    "target": "/Users/ajad/Desktop/LLB hub/Attorneys Exam/Official Previous Papers 2015-2023/AttExam11Feb2015P4Q.md",
+    "candidate": "/private/tmp/llb-ocr-corrections/AttExam11Feb2015P4Q.md",
+    "baseline_sha256": "080c838ed9bccd6c7abbfe6b56ef67c732499574c97921e02879de8231c10940",
+    "candidate_sha256": "10fdf206af4d89924c3b6ab0301298473a09ebffad42d07178f5bacd9c89c91f",
+    "pdf_sha256": "a759aad64eddbe638f47cc19dfc4b6fed82f755e4aa0f1884128bc9a6b8593b8",
+    "before": {
+      "words": 1646,
+      "characters": 9686,
+      "replacement_characters": 5,
+      "artifact_runs": 5,
+      "has_end_marker": true
+    },
+    "after": {
+      "words": 1642,
+      "characters": 9676,
+      "replacement_characters": 0,
+      "artifact_runs": 0,
+      "has_end_marker": true
+    }
+  },
+  {
+    "target": "/Users/ajad/Desktop/LLB hub/Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Feb2017P4Q.md",
+    "candidate": "/private/tmp/llb-ocr-corrections/AttExam15Feb2017P4Q.md",
+    "baseline_sha256": "109c384f9e53628572f99055b666e10ff8e4fb0b3862a50aa7e67ec8eb70e9f7",
+    "candidate_sha256": "2bf64f839d0eb2a6f4bf2548635bf3ca8f69171c0d73cfbd8605c81043adb89d",
+    "pdf_sha256": "07ffcb346f39a32af7ec61bed7216678c9bb38933558feee160e8f8630fc474e",
+    "before": {
+      "words": 1948,
+      "characters": 10958,
+      "replacement_characters": 4,
+      "artifact_runs": 5,
+      "has_end_marker": true
+    },
+    "after": {
+      "words": 1943,
+      "characters": 10961,
+      "replacement_characters": 0,
+      "artifact_runs": 0,
+      "has_end_marker": true
+    }
+  },
+  {
+    "target": "/Users/ajad/Desktop/LLB hub/Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Oct2018P4Q.md",
+    "candidate": "/private/tmp/llb-ocr-corrections/AttExam16Oct2018P4Q.md",
+    "baseline_sha256": "e9104caa4cd3f3776345c5c4f1d90af83d7a0310493baf73d99c9b32926519ac",
+    "candidate_sha256": "5a26634bc57ebf27657d6fcd6f0938e72838b2684b1f9407526de34f52664683",
+    "pdf_sha256": "570996e43b0eed5c0196b4bd9e4f1090a5b96f9de23c680385f901b9a7aadb6d",
+    "before": {
+      "words": 1569,
+      "characters": 9061,
+      "replacement_characters": 5,
+      "artifact_runs": 5,
+      "has_end_marker": true
+    },
+    "after": {
+      "words": 1565,
+      "characters": 9065,
+      "replacement_characters": 0,
+      "artifact_runs": 0,
+      "has_end_marker": true
+    }
+  },
+  {
+    "target": "/Users/ajad/Desktop/LLB hub/Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Aug2016P4Q.md",
+    "candidate": "/private/tmp/llb-ocr-corrections/AttExam17Aug2016P4Q.md",
+    "baseline_sha256": "c18435a2cddb38c03747490ae8d49c8c1fd72fe62f86977aa915e36b4c97c20d",
+    "candidate_sha256": "e4d66eadcb43e10a54543f94dec3ecb120fd51d8d4ca8460a9bf67acdafda8e0",
+    "pdf_sha256": "2f9eefc64d09b8218e16a0b00ef2f07bafca18a7caa82ab2ff1f00f0b0817a60",
+    "before": {
+      "words": 1569,
+      "characters": 9385,
+      "replacement_characters": 0,
+      "artifact_runs": 1,
+      "has_end_marker": true
+    },
+    "after": {
+      "words": 1565,
+      "characters": 9371,
+      "replacement_characters": 0,
+      "artifact_runs": 0,
+      "has_end_marker": true
+    }
+  },
+  {
+    "target": "/Users/ajad/Desktop/LLB hub/Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Aug2015P1Q.md",
+    "candidate": "/private/tmp/llb-ocr-corrections/AttExam18Aug2015P1Q.md",
+    "baseline_sha256": "0fef2839868123cdacad8f1a157e9551e316550ce835605d355501b23ea47a10",
+    "candidate_sha256": "926db57a3929a0ec155e1206ccc6fd4f03452b1a28074cc19077a49a436c7547",
+    "pdf_sha256": "9a0c8aee25460724f265efc584a24347ef76153eacf9e3af0ad2f6cdb8f48ad7",
+    "before": {
+      "words": 4265,
+      "characters": 25083,
+      "replacement_characters": 4,
+      "artifact_runs": 7,
+      "has_end_marker": true
+    },
+    "after": {
+      "words": 4283,
+      "characters": 25061,
+      "replacement_characters": 0,
+      "artifact_runs": 0,
+      "has_end_marker": true
+    }
+  },
+  {
+    "target": "/Users/ajad/Desktop/LLB hub/Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Aug2015P2Q.md",
+    "candidate": "/private/tmp/llb-ocr-corrections/AttExam18Aug2015P2Q.md",
+    "baseline_sha256": "2521f11d0d0674b3823dc7cfd95a7b81822d83334b36397147860b1b9f17c6e8",
+    "candidate_sha256": "a2c7fa95292c80afa13bcca7ac6d357159593ef4e63625d40f2758867bf4ca80",
+    "pdf_sha256": "237c054f4162c7f97271ef8512e021f00044c451a1064d4b9419ea3164d1909c",
+    "before": {
+      "words": 1780,
+      "characters": 10231,
+      "replacement_characters": 14,
+      "artifact_runs": 14,
+      "has_end_marker": true
+    },
+    "after": {
+      "words": 1780,
+      "characters": 10213,
+      "replacement_characters": 0,
+      "artifact_runs": 0,
+      "has_end_marker": true
+    }
+  },
+  {
+    "target": "/Users/ajad/Desktop/LLB hub/Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Aug2015P3Q.md",
+    "candidate": "/private/tmp/llb-ocr-corrections/AttExam19Aug2015P3Q.md",
+    "baseline_sha256": "320c432cc0fd0be21c53df60d84b1d19b4cd318337552e9321daa76423591c43",
+    "candidate_sha256": "9fd25898fe8bb592be3d7f60b83d0d725ebacc06984fbbe98bb2cfb6af5cb8f3",
+    "pdf_sha256": "2d0106fb9a275c9e2f66c60ef2b69ee2e9d6d211badd00731c050d344c4cc03a",
+    "before": {
+      "words": 1882,
+      "characters": 11013,
+      "replacement_characters": 2,
+      "artifact_runs": 2,
+      "has_end_marker": true
+    },
+    "after": {
+      "words": 1876,
+      "characters": 10959,
+      "replacement_characters": 0,
+      "artifact_runs": 0,
+      "has_end_marker": true
+    }
+  },
+  {
+    "target": "/Users/ajad/Desktop/LLB hub/Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Aug2015P4Q.md",
+    "candidate": "/private/tmp/llb-ocr-corrections/AttExam19Aug2015P4Q.md",
+    "baseline_sha256": "ebd22a8c6c8121ef0049799caceb4d998492858134ec702d26bb7441f5bef0dd",
+    "candidate_sha256": "ad82e72c6e7f555b5e14bd149c1ac9296019746b0861cf87eb69f3f37c63b1ab",
+    "pdf_sha256": "e8e2d3150827873d5987d9dc1ea87e2c05bb114ee6fe904e0890a7aad1a70634",
+    "before": {
+      "words": 1541,
+      "characters": 8844,
+      "replacement_characters": 1,
+      "artifact_runs": 1,
+      "has_end_marker": true
+    },
+    "after": {
+      "words": 1541,
+      "characters": 8837,
+      "replacement_characters": 0,
+      "artifact_runs": 0,
+      "has_end_marker": true
+    }
+  },
+  {
+    "target": "/Users/ajad/Desktop/LLB hub/Attorneys Exam/Official Previous Papers 2015-2023/AttExam23Aug2017P4Q.md",
+    "candidate": "/private/tmp/llb-ocr-corrections/AttExam23Aug2017P4Q.md",
+    "baseline_sha256": "354251f158e951d2f7bbc58474b056363e21ca2c8344f60e6dc632b355f1551a",
+    "candidate_sha256": "09807a593904119cb5b44d8fb31de77cd43d03731ccd707ff94ef2d96f88af84",
+    "pdf_sha256": "756116032db2bd42f509c6992252a5943bc2199541f14c04ee1893dc825ee410",
+    "before": {
+      "words": 1493,
+      "characters": 8636,
+      "replacement_characters": 2,
+      "artifact_runs": 5,
+      "has_end_marker": true
+    },
+    "after": {
+      "words": 1495,
+      "characters": 8632,
+      "replacement_characters": 0,
+      "artifact_runs": 0,
+      "has_end_marker": true
+    }
+  },
+  {
+    "target": "/Users/ajad/Desktop/LLB hub/Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Feb2018P2Q.md",
+    "candidate": "/private/tmp/llb-ocr-corrections/AttExam6Feb2018P2Q.md",
+    "baseline_sha256": "ecbe27c9e5040b91e197344eb82eb784267ffb9f67a23f91d7779ceff465736d",
+    "candidate_sha256": "675c32a4831961da8eb99e502c103360158a2fbb790144ccd52aa5882c21d0bd",
+    "pdf_sha256": "1586968c10e1d22bc7dd1578591df98d632084e89ff07e9e86423c48c6b66714",
+    "before": {
+      "words": 2106,
+      "characters": 12223,
+      "replacement_characters": 0,
+      "artifact_runs": 2,
+      "has_end_marker": true
+    },
+    "after": {
+      "words": 2108,
+      "characters": 12207,
+      "replacement_characters": 0,
+      "artifact_runs": 0,
+      "has_end_marker": true
+    }
+  },
+  {
+    "target": "/Users/ajad/Desktop/LLB hub/Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Feb2018P4Q.md",
+    "candidate": "/private/tmp/llb-ocr-corrections/AttExam7Feb2018P4Q.md",
+    "baseline_sha256": "cf30d307ba0d387557f161100e3710f6a03b2bef2d880bed33b0a4870bb836a3",
+    "candidate_sha256": "f10115aded218ba8aff249a254a54ba10de823a5fbea21c3201c56bb72f8a549",
+    "pdf_sha256": "5f6c8b20e502e041b9c4df76f6cb5eb6207c71aa327a6e6cd375caf7871cdffa",
+    "before": {
+      "words": 2039,
+      "characters": 11838,
+      "replacement_characters": 5,
+      "artifact_runs": 5,
+      "has_end_marker": true
+    },
+    "after": {
+      "words": 2034,
+      "characters": 11818,
+      "replacement_characters": 0,
+      "artifact_runs": 0,
+      "has_end_marker": true
+    }
+  },
+  {
+    "target": "/Users/ajad/Desktop/LLB hub/Attorneys Exam/Official Previous Papers 2015-2023/AttExam9Feb2016P2Q.md",
+    "candidate": "/private/tmp/llb-ocr-corrections/AttExam9Feb2016P2Q.md",
+    "baseline_sha256": "b980f8e3ca8ba5d7ac811ca82d6303f152eb20173964d909f219f5afd6390a84",
+    "candidate_sha256": "b14b938cab0912b3b5328a5d3c6f8f1c2014b9b6767c4897e998c0e652fc601e",
+    "pdf_sha256": "a781d7954ab41a33c765752b4052ac7d8e33f12ace1cc732928e5cef14324017",
+    "before": {
+      "words": 1846,
+      "characters": 10648,
+      "replacement_characters": 0,
+      "artifact_runs": 1,
+      "has_end_marker": true
+    },
+    "after": {
+      "words": 1847,
+      "characters": 10637,
+      "replacement_characters": 0,
+      "artifact_runs": 0,
+      "has_end_marker": true
+    }
+  }
+]

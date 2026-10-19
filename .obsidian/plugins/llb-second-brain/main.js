@@ -102237,42 +102237,8 @@ var DiagnosticsModal = class extends import_obsidian.Modal {
   }
 };
 
-// src/chatRenderScope.ts
+// src/voiceHelper.ts
 var import_obsidian2 = require("obsidian");
-var ChatRenderScope = class {
-  constructor() {
-    this.current = null;
-  }
-  reset() {
-    this.dispose();
-    this.current = { component: new import_obsidian2.Component(), pending: 0 };
-    this.current.component.load();
-  }
-  dispose() {
-    const previous = this.current;
-    this.current = null;
-    if ((previous == null ? void 0 : previous.pending) === 0) previous.component.unload();
-  }
-  render(app, text, container, sourcePath, onRendered, onError) {
-    const current = this.current;
-    if (!current) return;
-    current.pending++;
-    void import_obsidian2.MarkdownRenderer.render(app, text, container, sourcePath, current.component).then(() => {
-      if (this.current === current) onRendered == null ? void 0 : onRendered();
-    }).catch((error) => {
-      if (this.current === current) onError == null ? void 0 : onError(error);
-    }).finally(() => {
-      current.pending--;
-      if (this.current !== current && current.pending === 0) current.component.unload();
-    });
-  }
-};
-
-// main.ts
-var import_obsidian20 = require("obsidian");
-
-// src/autoTagger.ts
-var import_obsidian3 = require("obsidian");
 
 // src/providerSettings.ts
 function normalizeServerAddress(address) {
@@ -102282,6 +102248,14 @@ function normalizeServerAddress(address) {
     return "http://" + trimmed;
   }
   return trimmed.replace(/\/+$/, "");
+}
+function isLocalHttpServerAddress(address) {
+  try {
+    const endpoint = new URL(normalizeServerAddress(address));
+    return ["127.0.0.1", "localhost", "[::1]"].includes(endpoint.hostname) && endpoint.protocol === "http:" && !endpoint.username && !endpoint.password;
+  } catch (e) {
+    return false;
+  }
 }
 function normalizeOptionalServerAddress(address) {
   return normalizeServerAddress(address || "");
@@ -102329,6 +102303,340 @@ function getChatModelsUrl(settings) {
 function getEmbeddingModelsUrl(settings) {
   return buildOpenAIUrl(getEffectiveEmbeddingServerAddress(settings), "models");
 }
+
+// src/voiceHelper.ts
+var VoiceHelper = class {
+  constructor() {
+    this.currentAudio = null;
+    this.currentBlobUrl = null;
+    this.mediaRecorder = null;
+    this.recordedChunks = [];
+    this.activeButton = null;
+    this.transcriptionController = null;
+    this.recordingRequestId = 0;
+    this.speechRequestId = 0;
+    this.isRecording = false;
+    this.isStartingRecording = false;
+    this.isTranscribing = false;
+  }
+  cleanTextForSpeech(text) {
+    return text.replace(/```[\s\S]*?```/g, "Code block omitted.").replace(/`([^`]+)`/g, "$1").replace(/\[\[(?:[^|\]]*\|)?([^\]]+)\]\]/g, "$1").replace(/\[([^\]]+)\]\([^)]+\)/g, "$1").replace(/[*_~#]/g, "").replace(/>\s*/g, "").replace(/[-+*]\s+/g, "").replace(/\n+/g, " ").trim();
+  }
+  stopSpeaking() {
+    this.speechRequestId++;
+    if (this.currentAudio) {
+      this.currentAudio.pause();
+      this.currentAudio.currentTime = 0;
+      this.currentAudio = null;
+    }
+    if (this.currentBlobUrl) {
+      URL.revokeObjectURL(this.currentBlobUrl);
+      this.currentBlobUrl = null;
+    }
+    if (this.activeButton) {
+      this.activeButton.removeClass("is-playing");
+      (0, import_obsidian2.setIcon)(this.activeButton, "volume-2");
+      this.activeButton.setAttribute("aria-label", "Read aloud");
+      this.activeButton = null;
+    }
+  }
+  async speak(text, serverUrl = "http://127.0.0.1:8880", model = "kokoro", voice = "af_heart", speed = 1, buttonEl) {
+    if (buttonEl && this.activeButton === buttonEl) {
+      this.stopSpeaking();
+      return;
+    }
+    if (!isLocalHttpServerAddress(serverUrl)) {
+      new import_obsidian2.Notice("Voice synthesis is restricted to a local service on this device.");
+      return;
+    }
+    const serviceUrl = normalizeServerAddress(serverUrl).replace(/\/+$/, "");
+    this.stopSpeaking();
+    const requestId = this.speechRequestId;
+    const cleanText2 = this.cleanTextForSpeech(text);
+    if (!cleanText2) {
+      new import_obsidian2.Notice("No readable text to speak.");
+      return;
+    }
+    if (buttonEl) {
+      this.activeButton = buttonEl;
+      buttonEl.addClass("is-playing");
+      (0, import_obsidian2.setIcon)(buttonEl, "loader");
+      buttonEl.setAttribute("aria-label", "Synthesizing audio...");
+    }
+    try {
+      const response = await (0, import_obsidian2.requestUrl)({
+        url: `${serviceUrl}/v1/audio/speech`,
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          model,
+          input: cleanText2,
+          voice,
+          speed,
+          response_format: "wav"
+        }),
+        throw: false
+      });
+      if (requestId !== this.speechRequestId) {
+        return;
+      }
+      if (response.status >= 400) {
+        throw new Error(`Voice server error (${response.status}): ${response.text}`);
+      }
+      const blob = new Blob([response.arrayBuffer], {
+        type: response.headers["content-type"] || "audio/wav"
+      });
+      if (requestId !== this.speechRequestId) {
+        return;
+      }
+      this.currentBlobUrl = URL.createObjectURL(blob);
+      this.currentAudio = new Audio(this.currentBlobUrl);
+      if (buttonEl) {
+        (0, import_obsidian2.setIcon)(buttonEl, "square");
+        buttonEl.setAttribute("aria-label", "Stop speaking");
+      }
+      this.currentAudio.onended = () => {
+        if (requestId === this.speechRequestId) {
+          this.stopSpeaking();
+        }
+      };
+      this.currentAudio.onerror = (e) => {
+        if (requestId !== this.speechRequestId) {
+          return;
+        }
+        console.error("Audio playback error:", e);
+        new import_obsidian2.Notice("Audio playback failed.");
+        this.stopSpeaking();
+      };
+      await this.currentAudio.play();
+    } catch (error) {
+      if (requestId !== this.speechRequestId) {
+        return;
+      }
+      console.error("Speech synthesis failed:", error);
+      new import_obsidian2.Notice(error instanceof Error ? error.message : "Voice synthesis failed. Ensure local-tts is running.");
+      this.stopSpeaking();
+    }
+  }
+  cancelRecording() {
+    var _a3;
+    this.recordingRequestId++;
+    (_a3 = this.transcriptionController) == null ? void 0 : _a3.abort();
+    this.transcriptionController = null;
+    const recorder = this.mediaRecorder;
+    this.mediaRecorder = null;
+    this.isStartingRecording = false;
+    this.isRecording = false;
+    this.isTranscribing = false;
+    this.recordedChunks = [];
+    if (recorder) {
+      try {
+        if (recorder.state !== "inactive") {
+          recorder.stop();
+        }
+      } catch (error) {
+        console.error("Could not stop microphone recorder cleanly:", error);
+      } finally {
+        recorder.stream.getTracks().forEach((track) => track.stop());
+      }
+    }
+  }
+  async startRecording() {
+    if (this.isRecording) return true;
+    if (this.isStartingRecording || this.isTranscribing) return false;
+    const requestId = ++this.recordingRequestId;
+    this.isStartingRecording = true;
+    let stream = null;
+    try {
+      stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      if (requestId !== this.recordingRequestId) {
+        stream.getTracks().forEach((track) => track.stop());
+        return false;
+      }
+      const chunks = [];
+      this.recordedChunks = chunks;
+      const recorder = new MediaRecorder(stream);
+      this.mediaRecorder = recorder;
+      recorder.ondataavailable = (event) => {
+        if (event.data.size > 0) {
+          chunks.push(event.data);
+        }
+      };
+      recorder.start();
+      this.isRecording = true;
+      return true;
+    } catch (error) {
+      stream == null ? void 0 : stream.getTracks().forEach((track) => track.stop());
+      this.mediaRecorder = null;
+      this.isRecording = false;
+      this.recordedChunks = [];
+      if (requestId !== this.recordingRequestId) {
+        return false;
+      }
+      console.error("Microphone access failed:", error);
+      throw new Error("Could not access microphone. Check system permissions.");
+    } finally {
+      if (requestId === this.recordingRequestId) {
+        this.isStartingRecording = false;
+      }
+    }
+  }
+  async stopRecordingAndTranscribe(serverUrl = "http://127.0.0.1:8880", model = "mlx-community/whisper-tiny") {
+    if (!this.isRecording || !this.mediaRecorder) {
+      return "";
+    }
+    if (!isLocalHttpServerAddress(serverUrl)) {
+      this.cancelRecording();
+      throw new Error("Voice transcription is restricted to a local service on this Mac.");
+    }
+    const recorder = this.mediaRecorder;
+    const serviceUrl = normalizeServerAddress(serverUrl).replace(/\/+$/, "");
+    const chunks = this.recordedChunks;
+    const requestId = this.recordingRequestId;
+    const controller = new AbortController();
+    this.transcriptionController = controller;
+    this.recordedChunks = [];
+    this.isRecording = false;
+    this.isTranscribing = true;
+    return new Promise((resolve, reject) => {
+      recorder.onstop = () => {
+        if (this.mediaRecorder === recorder) {
+          this.mediaRecorder = null;
+        }
+        recorder.stream.getTracks().forEach((track) => track.stop());
+        void (async () => {
+          try {
+            const blob = new Blob(chunks, { type: "audio/webm" });
+            if (blob.size === 0) {
+              resolve("");
+              return;
+            }
+            const boundary = `----LLBHelper-${Date.now()}-${Math.random().toString(16).slice(2)}`;
+            const requestBody = await new Blob([
+              `--${boundary}\r
+Content-Disposition: form-data; name="model"\r
+\r
+${model}\r
+`,
+              `--${boundary}\r
+Content-Disposition: form-data; name="file"; filename="recording.webm"\r
+Content-Type: audio/webm\r
+\r
+`,
+              blob,
+              `\r
+--${boundary}--\r
+`
+            ], { type: `multipart/form-data; boundary=${boundary}` }).arrayBuffer();
+            if (controller.signal.aborted || requestId !== this.recordingRequestId) {
+              throw createAbortError("Transcription cancelled.");
+            }
+            const request = (0, import_obsidian2.requestUrl)({
+              url: `${serviceUrl}/v1/audio/transcriptions`,
+              method: "POST",
+              headers: { "Content-Type": `multipart/form-data; boundary=${boundary}` },
+              body: requestBody,
+              throw: false
+            });
+            const response = await awaitWithAbort(request, controller.signal);
+            if (response.status >= 400) {
+              throw new Error(`Transcription failed (${response.status}): ${response.text}`);
+            }
+            const data = response.json;
+            resolve((data.text || "").trim());
+          } catch (error) {
+            reject(error instanceof Error ? error : new Error("Voice transcription failed."));
+          } finally {
+            if (this.transcriptionController === controller) {
+              this.transcriptionController = null;
+              this.isTranscribing = false;
+            }
+            if (requestId === this.recordingRequestId) {
+              this.recordedChunks = [];
+            }
+          }
+        })();
+      };
+      try {
+        recorder.stop();
+      } catch (error) {
+        if (this.transcriptionController === controller) {
+          this.transcriptionController = null;
+          this.isTranscribing = false;
+        }
+        this.mediaRecorder = null;
+        recorder.stream.getTracks().forEach((track) => track.stop());
+        reject(error instanceof Error ? error : new Error("Could not finish microphone recording."));
+      }
+    });
+  }
+};
+function awaitWithAbort(promise, signal) {
+  if (signal.aborted) {
+    return Promise.reject(createAbortError("Request cancelled."));
+  }
+  return new Promise((resolve, reject) => {
+    const cleanup = () => signal.removeEventListener("abort", onAbort);
+    const onAbort = () => {
+      cleanup();
+      reject(createAbortError("Request cancelled."));
+    };
+    signal.addEventListener("abort", onAbort, { once: true });
+    promise.then(
+      (value) => {
+        cleanup();
+        resolve(value);
+      },
+      (error) => {
+        cleanup();
+        reject(error instanceof Error ? error : new Error(String(error)));
+      }
+    );
+  });
+}
+function createAbortError(message) {
+  const error = new Error(message);
+  error.name = "AbortError";
+  return error;
+}
+var voiceHelper = new VoiceHelper();
+
+// src/chatRenderScope.ts
+var import_obsidian3 = require("obsidian");
+var ChatRenderScope = class {
+  constructor() {
+    this.current = null;
+  }
+  reset() {
+    this.dispose();
+    this.current = { component: new import_obsidian3.Component(), pending: 0 };
+    this.current.component.load();
+  }
+  dispose() {
+    const previous = this.current;
+    this.current = null;
+    if ((previous == null ? void 0 : previous.pending) === 0) previous.component.unload();
+  }
+  render(app, text, container, sourcePath, onRendered, onError) {
+    const current = this.current;
+    if (!current) return;
+    current.pending++;
+    void import_obsidian3.MarkdownRenderer.render(app, text, container, sourcePath, current.component).then(() => {
+      if (this.current === current) onRendered == null ? void 0 : onRendered();
+    }).catch((error) => {
+      if (this.current === current) onError == null ? void 0 : onError(error);
+    }).finally(() => {
+      current.pending--;
+      if (this.current !== current && current.pending === 0) current.component.unload();
+    });
+  }
+};
+
+// main.ts
+var import_obsidian20 = require("obsidian");
+
+// src/autoTagger.ts
+var import_obsidian4 = require("obsidian");
 
 // src/llmClient.ts
 var LLMClientError = class extends Error {
@@ -102638,13 +102946,7 @@ var OpenAICompatibleClient = class {
     return "The model server did not return its model list within 15 seconds.";
   }
   requireServer(serverAddress, operation) {
-    let endpoint;
-    try {
-      endpoint = new URL(buildOpenAIUrl(serverAddress, ""));
-    } catch (e) {
-      throw new LLMClientError("configuration", operation, "Configure a local Ollama endpoint.");
-    }
-    if (!["127.0.0.1", "localhost", "[::1]"].includes(endpoint.hostname) || endpoint.protocol !== "http:" || endpoint.username || endpoint.password) {
+    if (!isLocalHttpServerAddress(serverAddress)) {
       throw new LLMClientError("configuration", operation, "LLB Second Brain permits HTTP model endpoints on this Mac only.");
     }
     if (!serverAddress.trim()) {
@@ -103040,9 +103342,9 @@ function getWorkflowRequirements(recipeId) {
 
 // src/autoTagger.ts
 async function generateAndAppendTags(app, settings, llmClient) {
-  const view = app.workspace.getActiveViewOfType(import_obsidian3.MarkdownView);
+  const view = app.workspace.getActiveViewOfType(import_obsidian4.MarkdownView);
   if (!view) {
-    new import_obsidian3.Notice("No active Markdown view");
+    new import_obsidian4.Notice("No active Markdown view");
     return;
   }
   const editor = view.editor;
@@ -103052,14 +103354,14 @@ async function generateAndAppendTags(app, settings, llmClient) {
   try {
     const tags = await generateTags(textToProcess, fullText, settings, llmClient);
     if (tags.length === 0) {
-      new import_obsidian3.Notice("No valid tags were generated. Try again or adjust the text.");
+      new import_obsidian4.Notice("No valid tags were generated. Try again or adjust the text.");
       return;
     }
     appendTags(editor, tags);
-    new import_obsidian3.Notice("Tags generated and appended");
+    new import_obsidian4.Notice("Tags generated and appended");
   } catch (error) {
     console.error("Error generating tags:", error);
-    new import_obsidian3.Notice(error instanceof LLMClientError ? error.message : "Error generating tags. Check the console for details.");
+    new import_obsidian4.Notice(error instanceof LLMClientError ? error.message : "Error generating tags. Check the console for details.");
   }
 }
 async function generateTags(text, fullNoteText, settings, llmClient) {
@@ -103104,7 +103406,7 @@ function appendTags(editor, tags) {
 }
 
 // src/updateNoticeModal.ts
-var import_obsidian4 = require("obsidian");
+var import_obsidian5 = require("obsidian");
 var CHANGELOGS = [
   {
     version: "2.6.2",
@@ -103360,11 +103662,11 @@ var CHANGELOGS = [
 `
   }
 ];
-var UpdateNoticeModal = class extends import_obsidian4.Modal {
+var UpdateNoticeModal = class extends import_obsidian5.Modal {
   constructor(app, version) {
     super(app);
     this.version = version;
-    this.component = new import_obsidian4.Component();
+    this.component = new import_obsidian5.Component();
   }
   onOpen() {
     const { contentEl } = this;
@@ -103374,7 +103676,7 @@ var UpdateNoticeModal = class extends import_obsidian4.Modal {
     const currentChangelog = CHANGELOGS.find((c) => c.version === this.version);
     if (currentChangelog) {
       const currentSection = contentEl.createDiv({ cls: "llm-changelog-current" });
-      void import_obsidian4.MarkdownRenderer.render(
+      void import_obsidian5.MarkdownRenderer.render(
         this.app,
         currentChangelog.changes,
         currentSection,
@@ -103389,7 +103691,7 @@ var UpdateNoticeModal = class extends import_obsidian4.Modal {
       for (const changelog of previousVersions) {
         const versionSection = detailsEl.createDiv({ cls: "llm-changelog-version" });
         versionSection.createEl("h4", { text: `v${changelog.version}` });
-        void import_obsidian4.MarkdownRenderer.render(
+        void import_obsidian5.MarkdownRenderer.render(
           this.app,
           changelog.changes,
           versionSection,
@@ -103399,7 +103701,7 @@ var UpdateNoticeModal = class extends import_obsidian4.Modal {
       }
     }
     const footer = contentEl.createDiv({ cls: "llm-changelog-footer" });
-    new import_obsidian4.Setting(footer).addButton((btn) => btn.setButtonText("View on GitHub").onClick(() => {
+    new import_obsidian5.Setting(footer).addButton((btn) => btn.setButtonText("View on GitHub").onClick(() => {
       window.open("https://github.com/manimohans/obsidian-local-llm-helper/releases", "_blank");
     })).addButton((btn) => btn.setButtonText("Got it").setCta().onClick(() => {
       this.close();
@@ -103412,7 +103714,7 @@ var UpdateNoticeModal = class extends import_obsidian4.Modal {
 };
 
 // src/rag.ts
-var import_obsidian6 = require("obsidian");
+var import_obsidian7 = require("obsidian");
 
 // src/debug.ts
 var debugLoggingEnabled = false;
@@ -103506,7 +103808,7 @@ Try reloading the embedding model on the server and re-indexing.`
 };
 
 // src/attachmentExtractor.ts
-var import_obsidian5 = require("obsidian");
+var import_obsidian6 = require("obsidian");
 var import_node_child_process = require("node:child_process");
 var import_node_util = require("node:util");
 var extractDocument = (0, import_node_util.promisify)(import_node_child_process.execFile);
@@ -103568,7 +103870,7 @@ var AttachmentExtractor = class {
   async extractAttachment(file) {
     if (this.disposed) throw new Error("Attachment extraction stopped because the plugin was unloaded.");
     if (DOCUMENT_EXTENSIONS.has(file.extension.toLowerCase())) {
-      if (!(this.vault.adapter instanceof import_obsidian5.FileSystemAdapter)) throw new Error("Word extraction requires a local desktop vault.");
+      if (!(this.vault.adapter instanceof import_obsidian6.FileSystemAdapter)) throw new Error("Word extraction requires a local desktop vault.");
       const { stdout } = await extractDocument("/usr/bin/textutil", ["-convert", "txt", "-stdout", this.vault.adapter.getFullPath(file.path)], { encoding: "utf8", timeout: 9e4, maxBuffer: 16 * 1024 * 1024 });
       return stdout.trim() ? [{ text: stdout, sourceType: "document", extractionMethod: "textutil" }] : [];
     }
@@ -103957,7 +104259,7 @@ var RAGManager = class {
     }
     const app = this.plugin.app;
     const file = app.vault.getAbstractFileByPath(sourcePath);
-    if (!(file instanceof import_obsidian6.TFile)) {
+    if (!(file instanceof import_obsidian7.TFile)) {
       return false;
     }
     const cache = app.metadataCache.getFileCache(file);
@@ -104510,7 +104812,7 @@ var RAGManager = class {
         return;
       }
       if (this.embeddingSourceChanged(data.settings)) {
-        new import_obsidian6.Notice(
+        new import_obsidian7.Notice(
           "LLM Helper: saved note index was built with a different embedding model or server. Please re-index your notes."
         );
         return;
@@ -104696,7 +104998,7 @@ var RAGManager = class {
 };
 
 // src/backlinkGenerator.ts
-var import_obsidian7 = require("obsidian");
+var import_obsidian8 = require("obsidian");
 var BacklinkGenerator = class {
   constructor(ragManager, vault) {
     this.ragManager = ragManager;
@@ -104707,7 +105009,7 @@ var BacklinkGenerator = class {
     const backlinks = [];
     for (const note of relatedNotes) {
       const file = this.vault.getAbstractFileByPath(note.path);
-      if (file instanceof import_obsidian7.TFile) {
+      if (file instanceof import_obsidian8.TFile) {
         backlinks.push(`[[${file.path}|${file.basename}]]`);
       }
     }
@@ -104718,147 +105020,120 @@ var BacklinkGenerator = class {
 // src/ragChatModal.ts
 var import_obsidian11 = require("obsidian");
 
-// src/voiceHelper.ts
-var import_obsidian8 = require("obsidian");
-var VoiceHelper = class {
-  constructor() {
-    this.currentAudio = null;
-    this.currentBlobUrl = null;
-    this.mediaRecorder = null;
-    this.recordedChunks = [];
-    this.activeButton = null;
-    this.isRecording = false;
-  }
-  cleanTextForSpeech(text) {
-    return text.replace(/```[\s\S]*?```/g, "Code block omitted.").replace(/`([^`]+)`/g, "$1").replace(/\[\[(?:[^|\]]*\|)?([^\]]+)\]\]/g, "$1").replace(/\[([^\]]+)\]\([^)]+\)/g, "$1").replace(/[*_~#]/g, "").replace(/>\s*/g, "").replace(/[-+*]\s+/g, "").replace(/\n+/g, " ").trim();
-  }
-  stopSpeaking() {
-    if (this.currentAudio) {
-      this.currentAudio.pause();
-      this.currentAudio.currentTime = 0;
-      this.currentAudio = null;
-    }
-    if (this.currentBlobUrl) {
-      URL.revokeObjectURL(this.currentBlobUrl);
-      this.currentBlobUrl = null;
-    }
-    if (this.activeButton) {
-      this.activeButton.removeClass("is-playing");
-      (0, import_obsidian8.setIcon)(this.activeButton, "volume-2");
-      this.activeButton.setAttribute("aria-label", "Read aloud");
-      this.activeButton = null;
-    }
-  }
-  async speak(text, serverUrl = "http://127.0.0.1:8880", model = "kokoro", voice = "af_heart", speed = 1, buttonEl) {
-    if (this.currentAudio && this.activeButton === buttonEl) {
-      this.stopSpeaking();
-      return;
-    }
-    this.stopSpeaking();
-    const cleanText2 = this.cleanTextForSpeech(text);
-    if (!cleanText2) {
-      new import_obsidian8.Notice("No readable text to speak.");
-      return;
-    }
-    if (buttonEl) {
-      this.activeButton = buttonEl;
-      buttonEl.addClass("is-playing");
-      (0, import_obsidian8.setIcon)(buttonEl, "loader");
-      buttonEl.setAttribute("aria-label", "Synthesizing audio...");
-    }
-    try {
-      const res = await fetch(`${serverUrl}/v1/audio/speech`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          model,
-          input: cleanText2,
-          voice,
-          speed,
-          response_format: "wav"
-        })
-      });
-      if (!res.ok) {
-        const errText = await res.text();
-        throw new Error(`Voice server error (${res.status}): ${errText}`);
+// src/animatedIcons.ts
+var shapes = {
+  "mic": [
+    [
+      "path",
+      {
+        "d": "M12 19v3"
       }
-      const blob = await res.blob();
-      this.currentBlobUrl = URL.createObjectURL(blob);
-      this.currentAudio = new Audio(this.currentBlobUrl);
-      if (buttonEl) {
-        (0, import_obsidian8.setIcon)(buttonEl, "square");
-        buttonEl.setAttribute("aria-label", "Stop speaking");
+    ],
+    [
+      "path",
+      {
+        "d": "M19 10v2a7 7 0 0 1-14 0v-2"
       }
-      this.currentAudio.onended = () => {
-        this.stopSpeaking();
-      };
-      this.currentAudio.onerror = (e) => {
-        console.error("Audio playback error:", e);
-        new import_obsidian8.Notice("Audio playback failed.");
-        this.stopSpeaking();
-      };
-      await this.currentAudio.play();
-    } catch (error) {
-      console.error("Speech synthesis failed:", error);
-      new import_obsidian8.Notice(error instanceof Error ? error.message : "Voice synthesis failed. Ensure local-tts is running.");
-      this.stopSpeaking();
-    }
-  }
-  async startRecording() {
-    if (this.isRecording) return;
-    try {
-      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-      this.recordedChunks = [];
-      this.mediaRecorder = new MediaRecorder(stream);
-      this.mediaRecorder.ondataavailable = (event) => {
-        if (event.data.size > 0) {
-          this.recordedChunks.push(event.data);
-        }
-      };
-      this.mediaRecorder.start();
-      this.isRecording = true;
-    } catch (error) {
-      console.error("Microphone access failed:", error);
-      throw new Error("Could not access microphone. Check system permissions.");
-    }
-  }
-  async stopRecordingAndTranscribe(serverUrl = "http://127.0.0.1:8880", model = "mlx-community/whisper-tiny") {
-    if (!this.isRecording || !this.mediaRecorder) {
-      return "";
-    }
-    return new Promise((resolve, reject) => {
-      this.mediaRecorder.onstop = async () => {
-        var _a3;
-        this.isRecording = false;
-        (_a3 = this.mediaRecorder) == null ? void 0 : _a3.stream.getTracks().forEach((track) => track.stop());
-        try {
-          const blob = new Blob(this.recordedChunks, { type: "audio/webm" });
-          if (blob.size === 0) {
-            resolve("");
-            return;
-          }
-          const formData = new FormData();
-          formData.append("file", blob, "recording.webm");
-          formData.append("model", model);
-          const res = await fetch(`${serverUrl}/v1/audio/transcriptions`, {
-            method: "POST",
-            body: formData
-          });
-          if (!res.ok) {
-            const err = await res.text();
-            throw new Error(`Transcription failed: ${err}`);
-          }
-          const data = await res.json();
-          resolve((data.text || "").trim());
-        } catch (error) {
-          reject(error);
-        }
-      };
-      this.mediaRecorder.stop();
-    });
-  }
+    ],
+    [
+      "rect",
+      {
+        "height": "13",
+        "rx": "3",
+        "width": "6",
+        "x": "9",
+        "y": "2"
+      }
+    ]
+  ],
+  "copy": [
+    [
+      "rect",
+      {
+        "height": "14",
+        "rx": "2",
+        "ry": "2",
+        "width": "14",
+        "x": "8",
+        "y": "8"
+      }
+    ],
+    [
+      "path",
+      {
+        "d": "M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"
+      }
+    ]
+  ],
+  "sparkles": [
+    [
+      "path",
+      {
+        "d": "M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"
+      }
+    ],
+    [
+      "path",
+      {
+        "d": "M20 3v4"
+      }
+    ],
+    [
+      "path",
+      {
+        "d": "M22 5h-4"
+      }
+    ],
+    [
+      "path",
+      {
+        "d": "M4 17v2"
+      }
+    ],
+    [
+      "path",
+      {
+        "d": "M5 18H3"
+      }
+    ]
+  ],
+  "send": [
+    [
+      "path",
+      {
+        "d": "M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"
+      }
+    ],
+    [
+      "path",
+      {
+        "d": "m21.854 2.147-10.94 10.939"
+      }
+    ],
+    [
+      "path",
+      {
+        "d": "M -3 28 C -0.5 26.8 1.6 24.6 3.3 22 C 4.8 19.7 5.2 17.6 4.2 16.1 C 3.2 14.7 1.4 14.5 0.3 15.8 C -0.9 17.2 -0.6 19.4 1.2 20.4 C 3.4 21.5 6.4 19.4 9 15.8",
+        "stroke-dasharray": "2 2",
+        "stroke-width": "1"
+      }
+    ]
+  ]
 };
-var voiceHelper = new VoiceHelper();
+function setAnimatedIcon(container, name) {
+  container.replaceChildren();
+  container.dataset.animatedIcon = name;
+  const svg = createSvg("svg");
+  for (const [key, value] of Object.entries({ viewBox: "0 0 24 24", width: "18", height: "18", fill: "none", stroke: "currentColor", "stroke-width": "1.7", "stroke-linecap": "round", "stroke-linejoin": "round", "aria-hidden": "true", focusable: "false" })) {
+    svg.setAttribute(key, value);
+  }
+  for (const [tag, attributes] of shapes[name]) {
+    const element = createSvg(tag);
+    for (const [key, value] of Object.entries(attributes)) element.setAttribute(key, value);
+    svg.appendChild(element);
+  }
+  container.appendChild(svg);
+}
 
 // src/vaultAgent.ts
 var import_obsidian9 = require("obsidian");
@@ -105292,61 +105567,15 @@ ${pendingAction.action.content}` : pendingAction.action.content;
   }
   appendCopyButton(container, text, className) {
     const copyButton = container.createEl("button", { cls: className || "copy-button" });
-    (0, import_obsidian9.setIcon)(copyButton, "copy");
+    setAnimatedIcon(copyButton, "copy");
     copyButton.setAttribute("aria-label", "Copy response");
-    copyButton.setAttribute("title", "Copy response");
-    copyButton.addEventListener("click", async () => {
-      try {
-        await this.copyTextToClipboard(text);
-        copyButton.addClass("is-copied");
-        copyButton.setAttribute("aria-label", "Copied to clipboard");
-        copyButton.setAttribute("title", "Copied to clipboard");
-        (0, import_obsidian9.setIcon)(copyButton, "check");
+    copyButton.addEventListener("click", () => {
+      void navigator.clipboard.writeText(text).then(() => {
         new import_obsidian9.Notice("Copied to clipboard");
-        window.setTimeout(() => {
-          if (!copyButton.isConnected) return;
-          copyButton.removeClass("is-copied");
-          copyButton.setAttribute("aria-label", "Copy response");
-          copyButton.setAttribute("title", "Copy response");
-          (0, import_obsidian9.setIcon)(copyButton, "copy");
-        }, 1200);
-      } catch (error) {
-        console.error("Clipboard copy failed:", error);
-        new import_obsidian9.Notice("Could not copy to clipboard. Check clipboard permissions.");
-      }
+      }).catch(() => {
+        new import_obsidian9.Notice("Could not copy to clipboard");
+      });
     });
-  }
-  async copyTextToClipboard(text) {
-    if (navigator.clipboard && typeof navigator.clipboard.writeText === "function") {
-      try {
-        await navigator.clipboard.writeText(text);
-        return;
-      } catch (error) {
-        console.warn("Clipboard API copy failed; trying the document fallback.", error);
-      }
-    }
-    const previousFocus = document.activeElement;
-    const fallback = document.createElement("textarea");
-    fallback.value = text;
-    fallback.setAttribute("readonly", "");
-    fallback.style.position = "fixed";
-    fallback.style.left = "-9999px";
-    fallback.style.top = "0";
-    fallback.style.opacity = "0";
-    try {
-      document.body.appendChild(fallback);
-      fallback.focus();
-      fallback.select();
-      fallback.setSelectionRange(0, fallback.value.length);
-      if (!document.execCommand("copy")) {
-        throw new Error("The document clipboard fallback was rejected.");
-      }
-    } finally {
-      fallback.remove();
-      if (previousFocus instanceof HTMLElement) {
-        previousFocus.focus({ preventScroll: true });
-      }
-    }
   }
   appendStatusMessage(container, message, status) {
     const statusEl = container.createDiv({ cls: "vault-action-status" });
@@ -105680,6 +105909,9 @@ var RAGScopeSelector = class {
       const hint2 = this.scopeMetaEl.createDiv({ cls: "rag-chat-scope-hint" });
       const tags = parseScopeTags(this.scopeDraftValue);
       hint2.setText(tags.length > 0 ? `Filtering indexed notes with ${tags.map((tag) => `#${tag}`).join(", ")}` : "Type one or more tags separated by commas");
+      return;
+    }
+    if (this.scopeOption === "vault" || this.scopeOption === "pinned-paths") {
       return;
     }
     const hint = this.scopeMetaEl.createDiv({ cls: "rag-chat-scope-hint" });
@@ -106029,9 +106261,11 @@ var ChatView = class extends import_obsidian12.ItemView {
     this.mode = "general";
     this.result = "";
     this.conversationHistory = [];
+    this.conversationContextKey = null;
     this.welcomeEl = null;
     this.scopeSelector = null;
     this.isGenerating = false;
+    this.discardActiveResponse = false;
     this.activeRequestId = 0;
     this.activeThinkingEl = null;
     this.plugin = plugin;
@@ -106044,7 +106278,7 @@ var ChatView = class extends import_obsidian12.ItemView {
     return "LLM Chat";
   }
   getIcon() {
-    return "messages-square";
+    return "llb-helper-brain-notes";
   }
   async onOpen() {
     this.renderScope.reset();
@@ -106054,15 +106288,22 @@ var ChatView = class extends import_obsidian12.ItemView {
     this.registerEvent(this.app.workspace.on("active-leaf-change", (leaf) => {
       if ((leaf == null ? void 0 : leaf.view) instanceof import_obsidian12.MarkdownView) {
         this.initialChatContext = getActiveChatContext(this.app);
+        this.syncConversationContext();
         this.renderHeaderStatus();
         this.renderTargetChip();
       }
     }));
     this.applyOpenOptions({ mode: this.mode, initialScope: this.pendingInitialScope });
+    if (this.isGenerating && this.discardActiveResponse) {
+      this.submitButton.setButtonText("Finishing\u2026");
+      this.submitButton.setDisabled(true);
+      this.setStatusBanner("The previous local request is still finishing; its reply will be ignored.", "info");
+    }
   }
   async onClose() {
-    this.activeRequestId++;
-    this.isGenerating = false;
+    this.discardActiveResponse = true;
+    voiceHelper.cancelRecording();
+    voiceHelper.stopSpeaking();
     this.activeThinkingEl = null;
     this.result = "";
     this.renderScope.dispose();
@@ -106093,6 +106334,7 @@ var ChatView = class extends import_obsidian12.ItemView {
     this.renderWelcomeState();
     this.updateInputPlaceholder();
     this.updateSubmitButtonState();
+    this.syncConversationContext();
     if (options.focusInput !== false) {
       this.textInput.focus();
     }
@@ -106103,11 +106345,12 @@ var ChatView = class extends import_obsidian12.ItemView {
     const headerEl = contentEl.createDiv({ cls: "llm-helper-chat-header" });
     const titleWrap = headerEl.createDiv({ cls: "llm-helper-chat-title-wrap" });
     const iconEl = titleWrap.createSpan({ cls: "llm-helper-chat-icon" });
-    (0, import_obsidian12.setIcon)(iconEl, "messages-square");
+    (0, import_obsidian12.setIcon)(iconEl, "llb-helper-brain-notes");
     const titleText = titleWrap.createDiv({ cls: "llm-helper-chat-title-text" });
     titleText.createEl("h2", { text: "LLB Second Brain" });
     this.headerStatusEl = titleText.createDiv({ cls: "llm-helper-chat-status" });
-    this.markdownRenderBtn = headerEl.createEl("button", {
+    const headerActions = headerEl.createDiv({ cls: "llm-helper-chat-header-actions" });
+    this.markdownRenderBtn = headerActions.createEl("button", {
       cls: "clickable-icon llm-helper-chat-header-action"
     });
     (0, import_obsidian12.setIcon)(this.markdownRenderBtn, "pilcrow");
@@ -106115,7 +106358,7 @@ var ChatView = class extends import_obsidian12.ItemView {
       void this.toggleMarkdownRendering();
     });
     this.renderMarkdownToggle();
-    const clearBtn = headerEl.createEl("button", {
+    const clearBtn = headerActions.createEl("button", {
       cls: "clickable-icon llm-helper-chat-header-action",
       attr: { "aria-label": "Clear chat" }
     });
@@ -106132,15 +106375,10 @@ var ChatView = class extends import_obsidian12.ItemView {
     const inputContainer = contentEl.createDiv({ cls: "llm-helper-chat-input-container" });
     const composerMeta = inputContainer.createDiv({ cls: "llm-helper-chat-composer-meta" });
     this.targetChipEl = composerMeta.createSpan({ cls: "llm-helper-chat-target-chip" });
-    const pasteButton = composerMeta.createEl("button", {
-      cls: "llm-helper-chat-paste-btn",
-      attr: { type: "button", "aria-label": "Paste from clipboard", title: "Paste from clipboard" }
+    this.statusBannerEl = inputContainer.createDiv({
+      cls: "llm-helper-chat-status-banner is-hidden",
+      attr: { role: "status", "aria-live": "polite", "aria-atomic": "true" }
     });
-    (0, import_obsidian12.setIcon)(pasteButton, "clipboard-paste");
-    pasteButton.addEventListener("click", () => {
-      void this.pasteFromClipboard();
-    });
-    this.statusBannerEl = inputContainer.createDiv({ cls: "llm-helper-chat-status-banner is-hidden" });
     const inputRow = inputContainer.createDiv({ cls: "llm-helper-chat-input-row" });
     this.textInput = inputRow.createEl("textarea", {
       cls: "llm-helper-chat-input rag-chat-input",
@@ -106163,46 +106401,83 @@ var ChatView = class extends import_obsidian12.ItemView {
     const micButton = inputRow.createEl("button", {
       cls: "llb-helper-chat-mic-btn",
       attr: {
-        "aria-label": "Voice input (Dictate)",
+        "aria-label": "Start voice dictation",
+        "aria-pressed": "false",
         type: "button"
       }
     });
-    (0, import_obsidian12.setIcon)(micButton, "mic");
-    micButton.addEventListener("click", async () => {
-      if (voiceHelper.isRecording) {
-        (0, import_obsidian12.setIcon)(micButton, "loader");
-        micButton.removeClass("is-recording");
-        this.setStatusBanner("Transcribing voice...", "info");
-        try {
-          const text = await voiceHelper.stopRecordingAndTranscribe(
-            this.plugin.settings.voiceServerAddress
-          );
-          this.clearStatusBanner();
-          if (text) {
-            this.textInput.value = (this.textInput.value + " " + text).trim();
-            this.result = this.textInput.value;
-            this.resizeComposer();
-            this.updateSubmitButtonState();
-            this.textInput.focus();
-          } else {
-            new import_obsidian12.Notice("No speech detected.");
+    const setMicState = (state) => {
+      const labels = {
+        idle: "Start voice dictation",
+        starting: "Requesting microphone access",
+        recording: "Stop recording and transcribe",
+        transcribing: "Transcribing voice input"
+      };
+      micButton.setAttribute("aria-label", labels[state]);
+      micButton.setAttribute("title", labels[state]);
+      micButton.setAttribute("aria-pressed", String(state === "recording"));
+    };
+    setAnimatedIcon(micButton, "mic");
+    micButton.addEventListener("click", () => {
+      void (async () => {
+        if (voiceHelper.isStartingRecording || voiceHelper.isTranscribing) return;
+        if (voiceHelper.isRecording) {
+          micButton.disabled = true;
+          setMicState("transcribing");
+          delete micButton.dataset.animatedIcon;
+          (0, import_obsidian12.setIcon)(micButton, "loader");
+          micButton.removeClass("is-recording");
+          this.setStatusBanner("Transcribing voice...", "info");
+          try {
+            const text = await voiceHelper.stopRecordingAndTranscribe(
+              this.plugin.settings.voiceServerAddress
+            );
+            this.clearStatusBanner();
+            if (text) {
+              this.textInput.value = (this.textInput.value + " " + text).trim();
+              this.result = this.textInput.value;
+              this.resizeComposer();
+              this.updateSubmitButtonState();
+              this.textInput.focus();
+            } else {
+              new import_obsidian12.Notice("No speech detected.");
+            }
+          } catch (err) {
+            if (err instanceof Error && err.name === "AbortError") return;
+            this.clearStatusBanner();
+            new import_obsidian12.Notice(err instanceof Error ? err.message : "Voice transcription failed.");
+          } finally {
+            setMicState("idle");
+            setAnimatedIcon(micButton, "mic");
+            micButton.disabled = voiceHelper.isStartingRecording || voiceHelper.isTranscribing;
           }
-        } catch (err) {
-          this.clearStatusBanner();
-          new import_obsidian12.Notice(err instanceof Error ? err.message : "Voice transcription failed.");
-        } finally {
-          (0, import_obsidian12.setIcon)(micButton, "mic");
+        } else {
+          micButton.disabled = true;
+          setMicState("starting");
+          delete micButton.dataset.animatedIcon;
+          (0, import_obsidian12.setIcon)(micButton, "loader");
+          this.setStatusBanner("Requesting microphone access...", "info");
+          try {
+            const started = await voiceHelper.startRecording();
+            if (!started) return;
+            micButton.addClass("is-recording");
+            setMicState("recording");
+            delete micButton.dataset.animatedIcon;
+            (0, import_obsidian12.setIcon)(micButton, "square");
+            micButton.disabled = false;
+            this.setStatusBanner("Listening... Click mic again when done.", "info");
+          } catch (err) {
+            this.clearStatusBanner();
+            new import_obsidian12.Notice(err instanceof Error ? err.message : "Could not start microphone.");
+          } finally {
+            if (!voiceHelper.isRecording) {
+              setMicState("idle");
+              setAnimatedIcon(micButton, "mic");
+              micButton.disabled = voiceHelper.isStartingRecording || voiceHelper.isTranscribing;
+            }
+          }
         }
-      } else {
-        try {
-          await voiceHelper.startRecording();
-          micButton.addClass("is-recording");
-          (0, import_obsidian12.setIcon)(micButton, "square");
-          this.setStatusBanner("Listening... Click mic again when done.", "info");
-        } catch (err) {
-          new import_obsidian12.Notice(err instanceof Error ? err.message : "Could not start microphone.");
-        }
-      }
+      })();
     });
     this.submitButton = new import_obsidian12.ButtonComponent(inputRow).setButtonText("Send").setCta().onClick(() => {
       if (this.isGenerating) {
@@ -106212,37 +106487,15 @@ var ChatView = class extends import_obsidian12.ItemView {
       void this.handleSubmit();
     });
     this.submitButton.buttonEl.addClass("llm-helper-chat-submit", "rag-chat-submit-btn");
+    this.renderSendIcon();
     inputContainer.createDiv({
       text: "LLM Helper can make mistakes. Verify important output.",
       cls: "llm-helper-chat-disclaimer"
     });
   }
-  async pasteFromClipboard() {
-    const input = this.textInput;
-    if (!input || input.disabled) return;
-    const selectionStart = input.selectionStart ?? input.value.length;
-    const selectionEnd = input.selectionEnd ?? selectionStart;
-    try {
-      if (!navigator.clipboard || typeof navigator.clipboard.readText !== "function") {
-        throw new Error("Clipboard reading is unavailable.");
-      }
-      const clipboardText = await navigator.clipboard.readText();
-      if (!clipboardText) {
-        input.focus();
-        new import_obsidian12.Notice("No text found on the clipboard.");
-        return;
-      }
-      input.setRangeText(clipboardText, selectionStart, selectionEnd, "end");
-      this.result = input.value;
-      this.resizeComposer();
-      this.updateSubmitButtonState();
-      input.focus();
-      new import_obsidian12.Notice("Pasted from clipboard.");
-    } catch (error) {
-      console.warn("Clipboard paste failed:", error);
-      input.focus();
-      new import_obsidian12.Notice("Clipboard access was blocked. Use your system paste shortcut.");
-    }
+  renderSendIcon() {
+    const icon = this.submitButton.buttonEl.createSpan();
+    setAnimatedIcon(icon, "send");
   }
   renderModeControls() {
     this.modeGeneralBtn.toggleClass("is-active", this.mode === "general");
@@ -106274,7 +106527,8 @@ var ChatView = class extends import_obsidian12.ItemView {
     }
     this.scopeSelector = new RAGScopeSelector(this.app, this.scopeContainerEl, {
       initialScope: this.pendingInitialScope,
-      onChange: () => {
+      onChange: (scope) => {
+        this.syncConversationContext(scope);
         this.renderHeaderStatus();
         this.renderTargetChip();
       }
@@ -106282,7 +106536,11 @@ var ChatView = class extends import_obsidian12.ItemView {
   }
   renderHeaderStatus() {
     this.headerStatusEl.empty();
-    this.headerStatusEl.createSpan({ cls: "kinetik-status-dot" });
+    const modeIcon = this.headerStatusEl.createSpan({
+      cls: "llm-helper-chat-status-icon",
+      attr: { "aria-hidden": "true" }
+    });
+    (0, import_obsidian12.setIcon)(modeIcon, this.mode === "general" ? "messages-square" : "book-open");
     const textSpan = this.headerStatusEl.createSpan({ cls: "kinetik-status-text" });
     if (this.mode === "general") {
       const currentPersona = this.plugin.personasDict[this.plugin.settings.personas];
@@ -106294,28 +106552,26 @@ var ChatView = class extends import_obsidian12.ItemView {
       textSpan.setText("Index notes to chat across vault");
       return;
     }
-    const scopeText = this.scopeSelector ? describeRAGScope(this.scopeSelector.getScope()) : "entire vault";
-    textSpan.setText(`${indexedCount} indexed files \xB7 ${scopeText}`);
+    textSpan.setText(`${indexedCount} indexed files`);
   }
   renderTargetChip() {
     var _a3;
     this.targetChipEl.empty();
-    this.targetChipEl.createSpan({ cls: "kinetik-chip-dot" });
-    const textSpan = this.targetChipEl.createSpan({ cls: "kinetik-chip-text" });
+    (_a3 = this.targetChipEl.parentElement) == null ? void 0 : _a3.toggleClass("is-hidden", this.mode === "notes");
     if (this.mode === "notes") {
-      const scope = ((_a3 = this.scopeSelector) == null ? void 0 : _a3.getScope()) || { mode: "vault", label: "Entire vault" };
-      textSpan.setText(describeRAGScope(scope));
       return;
     }
+    this.targetChipEl.createSpan({ cls: "kinetik-chip-dot" });
+    const textSpan = this.targetChipEl.createSpan({ cls: "kinetik-chip-text" });
     if (this.initialChatContext.selectedText && this.initialChatContext.activeNoteTitle) {
-      textSpan.setText(`Selection in ${this.initialChatContext.activeNoteTitle}`);
+      textSpan.setText(`Selected text from ${this.initialChatContext.activeNoteTitle}`);
       return;
     }
     if (this.initialChatContext.activeNoteTitle) {
-      textSpan.setText(`Active note: ${this.initialChatContext.activeNoteTitle}`);
+      textSpan.setText(`Note reference only: ${this.initialChatContext.activeNoteTitle}`);
       return;
     }
-    textSpan.setText("General chat");
+    textSpan.setText("General chat \xB7 no note content");
   }
   renderReadinessBanner() {
     if (this.mode === "notes" && this.plugin.ragManager.getIndexedFilesCount() === 0) {
@@ -106347,7 +106603,7 @@ var ChatView = class extends import_obsidian12.ItemView {
     this.chatHistoryEl.empty();
     this.welcomeEl = this.chatHistoryEl.createDiv({ cls: "llm-helper-chat-empty kinetik-hero-card" });
     const iconBadge = this.welcomeEl.createDiv({ cls: "kinetik-hero-icon" });
-    (0, import_obsidian12.setIcon)(iconBadge, "sparkles");
+    setAnimatedIcon(iconBadge, "sparkles");
     this.welcomeEl.createDiv({ cls: "kinetik-hero-title", text: "LLB Second Brain" });
     const isNotes = this.mode === "notes";
     const indexedCount = this.plugin.ragManager.getIndexedFilesCount();
@@ -106366,7 +106622,10 @@ var ChatView = class extends import_obsidian12.ItemView {
       { label: "Practice exam questions", desc: "Test issue-spotting and practical drafting against model memos", icon: "check-circle" }
     ];
     for (const item of suggestions) {
-      const chip = chipsContainer.createDiv({ cls: "kinetik-chip" });
+      const chip = chipsContainer.createEl("button", {
+        cls: "kinetik-chip",
+        attr: { type: "button" }
+      });
       const chipIcon = chip.createSpan({ cls: "kinetik-chip-icon" });
       (0, import_obsidian12.setIcon)(chipIcon, item.icon);
       const textWrap = chip.createDiv({ cls: "kinetik-chip-text-wrap" });
@@ -106377,6 +106636,20 @@ var ChatView = class extends import_obsidian12.ItemView {
       const arrow = chip.createSpan({ cls: "kinetik-chip-arrow" });
       arrow.setText("\u2192");
       chip.addEventListener("click", () => {
+        if (this.mode === "general") {
+          if (!this.initialChatContext.activeFilePath) {
+            new import_obsidian12.Notice("Open a note first to use a note-grounded suggestion.");
+            return;
+          }
+          this.applyOpenOptions({
+            mode: "notes",
+            initialScope: {
+              mode: "paths",
+              paths: [this.initialChatContext.activeFilePath],
+              label: this.initialChatContext.activeNoteTitle || this.initialChatContext.activeFilePath
+            }
+          });
+        }
         this.textInput.value = item.label;
         this.result = item.label;
         this.resizeComposer();
@@ -106398,6 +106671,8 @@ var ChatView = class extends import_obsidian12.ItemView {
     this.hideWelcomeMessage();
     this.clearStatusBanner();
     const rawMessage = this.result;
+    const scopeOverride = this.mode === "notes" ? parseRAGScopeOverride(this.app, rawMessage).scope : void 0;
+    this.syncConversationContext(scopeOverride);
     const userMsg = this.chatHistoryEl.createDiv({ cls: "rag-chat-message rag-chat-message-user" });
     userMsg.createSpan({ text: rawMessage });
     this.result = "";
@@ -106405,13 +106680,14 @@ var ChatView = class extends import_obsidian12.ItemView {
     this.resizeComposer();
     this.updateSubmitButtonState();
     const requestId = ++this.activeRequestId;
+    this.discardActiveResponse = false;
     this.setGenerating(true);
     const thinkingEl = this.chatHistoryEl.createDiv({ cls: "rag-chat-thinking" });
     this.activeThinkingEl = thinkingEl;
     this.scrollToBottom();
     try {
       const result = this.mode === "notes" ? await this.submitNotesMessage(rawMessage, thinkingEl) : await this.submitGeneralMessage(rawMessage, thinkingEl);
-      if (requestId !== this.activeRequestId) {
+      if (requestId !== this.activeRequestId || this.discardActiveResponse) {
         return;
       }
       thinkingEl.remove();
@@ -106437,7 +106713,7 @@ var ChatView = class extends import_obsidian12.ItemView {
       );
       this.scrollToBottom();
     } catch (error) {
-      if (requestId !== this.activeRequestId) {
+      if (requestId !== this.activeRequestId || this.discardActiveResponse) {
         return;
       }
       thinkingEl.remove();
@@ -106453,7 +106729,12 @@ var ChatView = class extends import_obsidian12.ItemView {
       this.scrollToBottom();
     } finally {
       if (requestId === this.activeRequestId) {
+        const discarded = this.discardActiveResponse;
         this.setGenerating(false);
+        if (discarded) {
+          this.discardActiveResponse = false;
+          this.setStatusBanner("Reply discarded. The local request has finished.", "info");
+        }
       }
     }
   }
@@ -106473,39 +106754,98 @@ var ChatView = class extends import_obsidian12.ItemView {
     appendThinkingDots(thinkingEl);
     return submitNotesChat(this.plugin, query, this.conversationHistory, this.initialChatContext, scope, badgeText);
   }
+  syncConversationContext(scopeOverride) {
+    var _a3;
+    const nextContextKey = this.getConversationContextKey(scopeOverride);
+    if (nextContextKey === this.conversationContextKey) {
+      return;
+    }
+    const hadPreviousContext = this.conversationContextKey !== null;
+    this.conversationContextKey = nextContextKey;
+    if (!hadPreviousContext) {
+      return;
+    }
+    const hasConversationContent = this.conversationHistory.length > 0 || this.isGenerating || Boolean((_a3 = this.chatHistoryEl) == null ? void 0 : _a3.querySelector(".rag-chat-message"));
+    if (!hasConversationContent) {
+      return;
+    }
+    this.clearConversation();
+    this.setStatusBanner("Conversation cleared because its note or chat scope changed.", "info");
+  }
+  getConversationContextKey(scopeOverride) {
+    var _a3;
+    const scope = this.mode === "notes" ? scopeOverride || ((_a3 = this.scopeSelector) == null ? void 0 : _a3.getScope()) || this.pendingInitialScope || { mode: "vault" } : void 0;
+    const normalizedScope = scope ? this.normalizeScopeForContextKey(scope) : void 0;
+    return JSON.stringify({
+      mode: this.mode,
+      scope: normalizedScope,
+      activeFilePath: this.initialChatContext.activeFilePath || null,
+      selectionFilePath: this.initialChatContext.selectionFilePath || null,
+      selectedText: this.initialChatContext.selectedText || null
+    });
+  }
+  normalizeScopeForContextKey(scope) {
+    switch (scope.mode) {
+      case "paths":
+        return { mode: scope.mode, paths: [...new Set(scope.paths || [])].sort() };
+      case "folder":
+        return { mode: scope.mode, folder: scope.folder || "" };
+      case "tags":
+        return {
+          mode: scope.mode,
+          tags: [...new Set((scope.tags || []).map((tag) => tag.replace(/^#/, "").toLowerCase()))].sort()
+        };
+      default:
+        return { mode: scope.mode };
+    }
+  }
   clearConversation() {
-    this.activeRequestId++;
+    const wasGenerating = this.isGenerating;
+    if (wasGenerating) {
+      this.discardActiveResponse = true;
+    }
     this.activeThinkingEl = null;
-    this.setGenerating(false);
+    if (!wasGenerating) {
+      this.setGenerating(false);
+    }
     this.renderScope.reset();
     this.conversationHistory = [];
     this.chatHistoryEl.empty();
     this.showWelcomeMessage();
     this.textInput.focus();
     this.renderReadinessBanner();
+    if (wasGenerating) {
+      this.submitButton.setButtonText("Finishing\u2026");
+      this.submitButton.setDisabled(true);
+      this.setStatusBanner("Chat cleared. The local model is still finishing; its reply will be ignored.", "info");
+    }
   }
   updateInputPlaceholder() {
-    const placeholder = this.mode === "notes" ? "Ask about your notes..." : "Ask about the active note or selection...";
+    const placeholder = this.mode === "notes" ? "Ask about your notes..." : "Ask a general question...";
     this.textInput.setAttribute("placeholder", placeholder);
   }
   updateSubmitButtonState() {
     const isEmpty = this.result.trim() === "";
-    this.submitButton.setDisabled(!this.isGenerating && isEmpty);
-    this.submitButton.buttonEl.toggleClass("rag-chat-submit-disabled", !this.isGenerating && isEmpty);
+    const isFinishingDiscardedRequest = this.isGenerating && this.discardActiveResponse;
+    const isDisabled = isFinishingDiscardedRequest || !this.isGenerating && isEmpty;
+    this.submitButton.setDisabled(isDisabled);
+    this.submitButton.buttonEl.toggleClass("rag-chat-submit-disabled", isDisabled);
   }
   setGenerating(isGenerating) {
     this.isGenerating = isGenerating;
-    this.submitButton.setButtonText(isGenerating ? "Stop" : "Send");
+    this.submitButton.setButtonText(isGenerating ? "Discard reply" : "Send");
+    if (!isGenerating) this.renderSendIcon();
     this.submitButton.buttonEl.toggleClass("is-generating", isGenerating);
     this.updateSubmitButtonState();
   }
   stopGeneration() {
     var _a3;
-    this.activeRequestId += 1;
-    this.setGenerating(false);
+    this.discardActiveResponse = true;
     (_a3 = this.activeThinkingEl) == null ? void 0 : _a3.remove();
     this.activeThinkingEl = null;
-    this.setStatusBanner("Response stopped.", "info");
+    this.submitButton.setButtonText("Finishing\u2026");
+    this.submitButton.setDisabled(true);
+    this.setStatusBanner("The reply will be ignored; the local model may continue until this request finishes.", "info");
     this.textInput.focus();
   }
   resizeComposer() {
@@ -106867,10 +107207,10 @@ var RelatedNotesView = class extends import_obsidian15.ItemView {
 var import_obsidian16 = require("obsidian");
 var VAULT_RADAR_VIEW_TYPE = "llm-helper-vault-radar";
 var KIND_CONFIG = {
-  commitment: { label: "Commitment", icon: "clock", cls: "is-commitment" },
-  stalled_project: { label: "Stalled Topic", icon: "alert-triangle", cls: "is-stalled" },
-  connection: { label: "Legal Connection", icon: "git-branch", cls: "is-connection" },
-  next_action: { label: "Next Action", icon: "zap", cls: "is-action" }
+  commitment: { label: "Commitment", icon: "calendar-clock", cls: "is-commitment" },
+  stalled_project: { label: "Needs attention", icon: "circle-pause", cls: "is-stalled" },
+  connection: { label: "Connection", icon: "git-branch", cls: "is-connection" },
+  next_action: { label: "Next step", icon: "arrow-right", cls: "is-action" }
 };
 var VaultRadarView = class extends import_obsidian16.ItemView {
   constructor(leaf, plugin) {
@@ -106919,12 +107259,15 @@ var VaultRadarView = class extends import_obsidian16.ItemView {
     }
     const snapshot = this.plugin.getVaultRadarSnapshot();
     this.contentEl.toggleClass("is-running", snapshot.isRunning);
+    this.statusDotEl.removeClass("is-idle", "is-running", "is-ready", "is-error");
+    this.statusDotEl.addClass(snapshot.isRunning ? "is-running" : snapshot.error ? "is-error" : snapshot.state.lastSuccessfulRunAt ? "is-ready" : "is-idle");
     this.runButton.disabled = snapshot.isRunning;
     this.runButton.empty();
     const btnIcon = this.runButton.createSpan({ cls: "kinetik-btn-icon" });
-    (0, import_obsidian16.setIcon)(btnIcon, snapshot.isRunning ? "loader-2" : "sparkles");
-    this.runButton.createSpan({ text: snapshot.isRunning ? "Scanning Vault\u2026" : "Scan Vault Now" });
-    this.updateStatus(snapshot.state.lastSuccessfulRunAt, snapshot.isRunning);
+    if (snapshot.isRunning) (0, import_obsidian16.setIcon)(btnIcon, "loader-2");
+    else setAnimatedIcon(btnIcon, "sparkles");
+    this.runButton.createSpan({ text: snapshot.isRunning ? "Scanning\u2026" : "Scan vault" });
+    this.updateStatus(snapshot.state.lastSuccessfulRunAt, snapshot.isRunning, Boolean(snapshot.error));
     this.renderFilterTabs(snapshot.cards);
     this.resultsEl.empty();
     if (snapshot.error) {
@@ -106990,10 +107333,10 @@ var VaultRadarView = class extends import_obsidian16.ItemView {
   renderFilterTabs(cards) {
     this.tabsContainerEl.empty();
     if (cards.length === 0) {
-      this.tabsContainerEl.style.display = "none";
+      this.tabsContainerEl.addClass("is-hidden");
       return;
     }
-    this.tabsContainerEl.style.display = "flex";
+    this.tabsContainerEl.removeClass("is-hidden");
     const counts = {
       all: cards.length,
       commitment: 0,
@@ -107005,18 +107348,22 @@ var VaultRadarView = class extends import_obsidian16.ItemView {
       if (counts[c.kind] !== void 0) counts[c.kind]++;
     }
     const tabDefs = [
-      { id: "all", label: "All", icon: "layout-grid" },
-      { id: "commitment", label: "Commitments", icon: "clock" },
-      { id: "stalled_project", label: "Stalled", icon: "alert-triangle" },
-      { id: "connection", label: "Connections", icon: "git-branch" },
-      { id: "next_action", label: "Actions", icon: "zap" }
+      { id: "all", label: "All", icon: "scan-eye" },
+      { id: "commitment", label: "Commitments", icon: "calendar-clock" },
+      { id: "stalled_project", label: "Stalled", icon: "circle-alert" },
+      { id: "connection", label: "Connections", icon: "network" },
+      { id: "next_action", label: "Actions", icon: "list-checks" }
     ];
     for (const def of tabDefs) {
       const count = counts[def.id] || 0;
       const isActive = this.currentFilter === def.id;
       const tab = this.tabsContainerEl.createEl("button", {
         cls: `kinetik-radar-tab ${isActive ? "is-active" : ""}`,
-        attr: { type: "button" }
+        attr: {
+          type: "button",
+          "aria-pressed": String(isActive),
+          "aria-label": `${def.label}, ${count} insight${count === 1 ? "" : "s"}`
+        }
       });
       const iconSpan = tab.createSpan({ cls: "kinetik-radar-tab-icon" });
       (0, import_obsidian16.setIcon)(iconSpan, def.icon);
@@ -107032,11 +107379,11 @@ var VaultRadarView = class extends import_obsidian16.ItemView {
     const empty = this.resultsEl.createDiv({ cls: "llm-helper-radar-empty kinetik-radar-hero" });
     const heroIcon = empty.createDiv({ cls: "kinetik-radar-hero-icon" });
     (0, import_obsidian16.setIcon)(heroIcon, "radar");
-    empty.createDiv({ cls: "kinetik-radar-hero-title", text: "LLB Vault Radar" });
+    empty.createDiv({ cls: "kinetik-radar-hero-title", text: "A clearer next step" });
     if (snapshot.state.lastSuccessfulRunAt) {
       empty.createDiv({
         cls: "kinetik-radar-hero-desc",
-        text: snapshot.message || "All legal notes and study materials are up to date. No new unresolved signals."
+        text: snapshot.message || "No new insights from the notes checked in the last scan."
       });
       empty.createEl("small", {
         text: "Radar checks for newly changed study notes, filing deadlines, and doctrine connections."
@@ -107044,14 +107391,14 @@ var VaultRadarView = class extends import_obsidian16.ItemView {
     } else {
       empty.createDiv({
         cls: "kinetik-radar-hero-desc",
-        text: "Transform study notes, exam questions, and legal memos into an actionable, cited study brief."
+        text: "Find connections, commitments, and next steps in your changed notes. Every insight links to its sources."
       });
       const featurePills = empty.createDiv({ cls: "kinetik-hero-chips" });
       const features = [
-        { label: "Cross-Module Legal Connections", icon: "git-branch" },
-        { label: "Procedural Deadlines & Commitments", icon: "clock" },
-        { label: "Practical Drafting Next Actions", icon: "zap" },
-        { label: "Evidence Canvas Node Maps", icon: "layout-grid" }
+        { label: "Connections across subjects", icon: "git-branch" },
+        { label: "Deadlines and commitments", icon: "clock" },
+        { label: "Practical next steps", icon: "zap" },
+        { label: "Evidence you can explore", icon: "layout-grid" }
       ];
       for (const f of features) {
         const pill = featurePills.createDiv({ cls: "kinetik-chip" });
@@ -107065,8 +107412,9 @@ var VaultRadarView = class extends import_obsidian16.ItemView {
       attr: { type: "button" }
     });
     const ctaIcon = cta.createSpan({ cls: "kinetik-btn-icon" });
-    (0, import_obsidian16.setIcon)(ctaIcon, "sparkles");
-    cta.createSpan({ text: "Scan Vault Now" });
+    setAnimatedIcon(ctaIcon, "sparkles");
+    cta.createSpan({ text: "Scan vault" });
+    cta.disabled = snapshot.isRunning;
     cta.addEventListener("click", () => {
       void this.plugin.runVaultRadar("manual");
     });
@@ -107079,30 +107427,35 @@ var VaultRadarView = class extends import_obsidian16.ItemView {
     });
     const heading = cardEl.createDiv({ cls: "llm-helper-radar-card-heading kinetik-card-header" });
     const headingLeft = heading.createDiv({ cls: "kinetik-card-title-group" });
-    const kindBadge = headingLeft.createSpan({ cls: `kinetik-kind-badge kinetik-kind-${card.kind}` });
+    const metadata = headingLeft.createDiv({ cls: "llb-radar-card-metadata" });
+    const kindBadge = metadata.createSpan({ cls: `kinetik-kind-badge kinetik-kind-${card.kind}` });
     const kindIcon = kindBadge.createSpan({ cls: "kinetik-kind-icon" });
     (0, import_obsidian16.setIcon)(kindIcon, cfg.icon);
     kindBadge.createSpan({ text: cfg.label });
     headingLeft.createEl("h3", { text: card.title, cls: "kinetik-card-title" });
-    const confMeter = heading.createDiv({
+    const confMeter = metadata.createDiv({
       cls: `kinetik-confidence-meter is-${card.confidence}`,
-      attr: { title: `${card.confidence} confidence` }
+      attr: {
+        role: "img",
+        title: `Model-estimated confidence: ${card.confidence}. Verify the cited notes.`,
+        "aria-label": `Model estimate: ${card.confidence} confidence`
+      }
     });
     const dotCount = card.confidence === "high" ? 3 : card.confidence === "medium" ? 2 : 1;
     for (let i = 0; i < 3; i++) {
       confMeter.createSpan({ cls: `kinetik-meter-dot ${i < dotCount ? "is-filled" : ""}` });
     }
-    confMeter.createSpan({ cls: "kinetik-meter-label", text: card.confidence });
+    confMeter.createSpan({ cls: "kinetik-meter-label", text: `Model \xB7 ${card.confidence}` });
     cardEl.createDiv({ text: card.insight, cls: "llm-helper-radar-card-body kinetik-card-body" });
     if (card.action) {
       const actionBox = cardEl.createDiv({ cls: "llm-helper-radar-next-action kinetik-action-box" });
       const actionHeader = actionBox.createDiv({ cls: "kinetik-action-header" });
       const actIcon = actionHeader.createSpan({ cls: "kinetik-action-icon" });
       (0, import_obsidian16.setIcon)(actIcon, "arrow-right");
-      actionHeader.createEl("strong", { text: "Recommended Next Action" });
+      actionHeader.createEl("strong", { text: "Recommended next action" });
       actionBox.createDiv({ text: card.action, cls: "kinetik-action-text" });
     }
-    cardEl.createDiv({ text: "Cited Sources", cls: "llm-helper-radar-card-meta kinetik-sources-heading" });
+    cardEl.createDiv({ text: `Sources \xB7 ${card.sourcePaths.length}`, cls: "llm-helper-radar-card-meta kinetik-sources-heading" });
     const sources = cardEl.createDiv({ cls: "llm-helper-radar-sources kinetik-sources-wrap" });
     for (const path of card.sourcePaths) {
       const source = sources.createEl("button", {
@@ -107110,6 +107463,8 @@ var VaultRadarView = class extends import_obsidian16.ItemView {
         attr: { type: "button", title: path }
       });
       source.disabled = disabled;
+      const sourceIcon = source.createSpan({ cls: "kinetik-btn-icon" });
+      (0, import_obsidian16.setIcon)(sourceIcon, "file-text");
       const moduleCode = this.extractModuleCode(path);
       if (moduleCode) {
         source.createSpan({ cls: "kinetik-module-tag", text: moduleCode });
@@ -107120,14 +107475,18 @@ var VaultRadarView = class extends import_obsidian16.ItemView {
       });
     }
     const feedback = cardEl.createDiv({ cls: "llm-helper-radar-feedback kinetik-card-actions" });
-    const map = feedback.createEl("button", {
+    const primaryActions = feedback.createDiv({ cls: "kinetik-primary-actions" });
+    const map = primaryActions.createEl("button", {
       cls: "mod-cta kinetik-action-btn is-primary",
-      attr: { type: "button", title: "Create an interactive Obsidian canvas from this insight" }
+      attr: {
+        type: "button",
+        "aria-label": "Map this insight on an Obsidian canvas"
+      }
     });
     map.disabled = disabled;
     const mapIcon = map.createSpan({ cls: "kinetik-btn-icon" });
-    (0, import_obsidian16.setIcon)(mapIcon, "layout-grid");
-    map.createSpan({ text: "Map it" });
+    (0, import_obsidian16.setIcon)(mapIcon, "workflow");
+    map.createSpan({ text: "Create map" });
     map.addEventListener("click", () => {
       map.disabled = true;
       this.plugin.openInsightCanvasModal(card, (state) => {
@@ -107136,14 +107495,14 @@ var VaultRadarView = class extends import_obsidian16.ItemView {
         }
       });
     });
-    const chat = feedback.createEl("button", {
+    const chat = primaryActions.createEl("button", {
       cls: "mod-muted kinetik-action-btn",
-      attr: { type: "button", title: "Open RAG chat scoped to cited sources" }
+      attr: { type: "button", "aria-label": "Chat with cited sources" }
     });
     chat.disabled = disabled;
     const chatIcon = chat.createSpan({ cls: "kinetik-btn-icon" });
-    (0, import_obsidian16.setIcon)(chatIcon, "messages-square");
-    chat.createSpan({ text: "Chat sources" });
+    (0, import_obsidian16.setIcon)(chatIcon, "message-circle");
+    chat.createSpan({ text: "Ask sources" });
     chat.addEventListener("click", () => {
       this.plugin.openRAGChat({
         mode: "paths",
@@ -107151,13 +107510,22 @@ var VaultRadarView = class extends import_obsidian16.ItemView {
         label: `${card.sourcePaths.length} Radar source${card.sourcePaths.length === 1 ? "" : "s"}`
       });
     });
-    this.addFeedbackButton(feedback, card, "Helpful", "thumbs-up", "helpful", disabled);
-    this.addFeedbackButton(feedback, card, "Wrong", "thumbs-down", "wrong", disabled);
-    this.addCardActionButton(feedback, card.id, "Snooze 7d", "clock", disabled, () => ({
+    const secondaryRow = feedback.createDiv({ cls: "llb-radar-secondary-row" });
+    const responseActions = secondaryRow.createDiv({ cls: "kinetik-response-actions" });
+    responseActions.createSpan({ text: "Was this useful?", cls: "kinetik-response-label" });
+    this.addFeedbackButton(responseActions, card, "Helpful", "thumbs-up", "helpful", disabled);
+    this.addFeedbackButton(responseActions, card, "Wrong", "thumbs-down", "wrong", disabled);
+    const moreActions = secondaryRow.createEl("details", { cls: "kinetik-more-actions" });
+    const moreSummary = moreActions.createEl("summary");
+    const moreIcon = moreSummary.createSpan({ cls: "kinetik-btn-icon" });
+    (0, import_obsidian16.setIcon)(moreIcon, "ellipsis");
+    moreSummary.createSpan({ text: "More" });
+    const secondaryActions = moreActions.createDiv({ cls: "kinetik-secondary-actions" });
+    this.addCardActionButton(secondaryActions, card.id, "Snooze for 7 days", "calendar-clock", disabled, () => ({
       type: "snooze",
       until: Date.now() + 7 * 24 * 60 * 60 * 1e3
     }), "Insight snoozed for seven days.");
-    this.addCardActionButton(feedback, card.id, "Dismiss", "x", disabled, () => ({
+    this.addCardActionButton(secondaryActions, card.id, "Dismiss insight", "archive-x", disabled, () => ({
       type: "dismiss",
       at: Date.now()
     }), "Insight dismissed.");
@@ -107169,12 +107537,13 @@ var VaultRadarView = class extends import_obsidian16.ItemView {
       attr: {
         type: "button",
         "aria-pressed": String(isPressed),
-        title: `Mark this insight ${label}`
+        "aria-label": `Mark this insight ${label}`
       }
     });
     button.disabled = disabled;
     const icon = button.createSpan({ cls: "kinetik-btn-icon" });
     (0, import_obsidian16.setIcon)(icon, iconName);
+    button.createSpan({ text: label });
     button.addEventListener("click", () => {
       void this.plugin.recordVaultRadarCardAction(card.id, {
         type: "feedback",
@@ -107185,11 +107554,12 @@ var VaultRadarView = class extends import_obsidian16.ItemView {
   addCardActionButton(container, cardId, label, iconName, disabled, createAction, notice) {
     const button = container.createEl("button", {
       cls: "mod-muted kinetik-micro-btn",
-      attr: { type: "button", title: label }
+      attr: { type: "button", "aria-label": label }
     });
     button.disabled = disabled;
     const icon = button.createSpan({ cls: "kinetik-btn-icon" });
     (0, import_obsidian16.setIcon)(icon, iconName);
+    button.createSpan({ text: label });
     button.addEventListener("click", () => {
       button.disabled = true;
       void this.plugin.recordVaultRadarCardAction(cardId, createAction()).then((saved) => {
@@ -107202,9 +107572,13 @@ var VaultRadarView = class extends import_obsidian16.ItemView {
       });
     });
   }
-  updateStatus(lastSuccessfulRunAt, isRunning) {
+  updateStatus(lastSuccessfulRunAt, isRunning, hasError) {
     if (isRunning) {
       this.statusEl.setText("Scanning changed notes & analyzing legal signals\u2026");
+      return;
+    }
+    if (hasError) {
+      this.statusEl.setText("The latest scan needs attention");
       return;
     }
     if (!lastSuccessfulRunAt) {
@@ -108873,6 +109247,13 @@ var TEXT_ACTIONS = {
     mode: "request"
   }
 };
+var LLB_HELPER_ICON = "llb-helper-brain-notes";
+var LLB_HELPER_ICON_SVG = `
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 7.5C9 5.5 5.5 5.5 2.5 6.5v13c3-1 6.5-1 9.5 1 3-2 6.5-2 9.5-1V12" />
+    <path d="M12 7.5v13" />
+    <path d="m18.5 2 .9 3.1 3.1.9-3.1.9-.9 3.1-.9-3.1-3.1-.9 3.1-.9Z" />
+</svg>`;
 var OLocalLLMPlugin = class extends import_obsidian20.Plugin {
   constructor() {
     super(...arguments);
@@ -109154,7 +109535,8 @@ var OLocalLLMPlugin = class extends import_obsidian20.Plugin {
         }
       }
     });
-    this.addRibbonIcon("brain-cog", "LLM Helper", (event) => {
+    (0, import_obsidian20.addIcon)(LLB_HELPER_ICON, LLB_HELPER_ICON_SVG);
+    this.addRibbonIcon(LLB_HELPER_ICON, "LLM Helper", (event) => {
       const menu = new import_obsidian20.Menu();
       menu.addItem(
         (item) => item.setTitle("Vault Radar").setIcon("radar").onClick(() => {
@@ -109678,6 +110060,8 @@ var OLocalLLMPlugin = class extends import_obsidian20.Plugin {
       window.clearTimeout(this.relatedNotesRefreshTimer);
       this.relatedNotesRefreshTimer = null;
     }
+    voiceHelper.cancelRecording();
+    voiceHelper.stopSpeaking();
     if (this.storageNotificationTimer !== null) {
       window.clearTimeout(this.storageNotificationTimer);
       this.storageNotificationTimer = null;
@@ -110585,6 +110969,80 @@ var OLLMSettingTab = class extends import_obsidian20.PluginSettingTab {
         new import_obsidian20.Notice("Reasoning markers saved");
       }));
     }
+    this.renderVoiceSettings(containerEl);
+  }
+  renderVoiceSettings(containerEl) {
+    this.addHeading(containerEl, "Voice");
+    new import_obsidian20.Setting(containerEl).setName("Local voice service").setDesc("Address of the local-tts service used for speech and transcription.").addText(
+      (text) => text.setPlaceholder("http://127.0.0.1:8880").setValue(this.plugin.settings.voiceServerAddress).onChange((value) => {
+        this.plugin.settings.voiceServerAddress = value.trim().replace(/\/+$/, "");
+        this.debouncedSave();
+      })
+    );
+    new import_obsidian20.Setting(containerEl).setName("Speech model").setDesc("Model ID exposed by the local voice service.").addText(
+      (text) => text.setValue(this.plugin.settings.voiceModel).onChange((value) => {
+        this.plugin.settings.voiceModel = value.trim();
+        this.debouncedSave();
+      })
+    );
+    new import_obsidian20.Setting(containerEl).setName("Voice").setDesc("Voice ID supported by the selected speech model.").addText(
+      (text) => text.setValue(this.plugin.settings.voiceSpeaker).onChange((value) => {
+        this.plugin.settings.voiceSpeaker = value.trim();
+        this.debouncedSave();
+      })
+    );
+    new import_obsidian20.Setting(containerEl).setName("Speech speed").setDesc("Playback generation speed; supported range depends on the voice model.").addText((text) => {
+      text.inputEl.type = "number";
+      text.inputEl.min = "0.5";
+      text.inputEl.max = "2";
+      text.inputEl.step = "0.1";
+      text.setValue(String(this.plugin.settings.voiceSpeed)).onChange((value) => {
+        const speed = Number(value);
+        if (Number.isFinite(speed) && speed >= 0.5 && speed <= 2) {
+          this.plugin.settings.voiceSpeed = speed;
+          this.debouncedSave();
+        }
+      });
+    });
+    new import_obsidian20.Setting(containerEl).setName("Read responses aloud").setDesc("Automatically play each assistant reply when local speech synthesis is available.").addToggle(
+      (toggle) => toggle.setValue(this.plugin.settings.autoSpeakResponse).onChange(async (value) => {
+        this.plugin.settings.autoSpeakResponse = value;
+        await this.plugin.saveSettings();
+      })
+    );
+    new import_obsidian20.Setting(containerEl).setName("Check voice service").setDesc("Check that the configured local voice service is reachable.").addButton(
+      (button) => button.setButtonText("Check").onClick(async () => {
+        button.setDisabled(true);
+        try {
+          if (!isLocalHttpServerAddress(this.plugin.settings.voiceServerAddress)) {
+            throw new Error("Use an HTTP voice service on this device (localhost or 127.0.0.1).");
+          }
+          const baseUrl = this.plugin.settings.voiceServerAddress.trim().replace(/\/+$/, "");
+          const request = (0, import_obsidian20.requestUrl)({
+            url: `${baseUrl}/v1/models`,
+            method: "GET",
+            throw: false
+          });
+          let timeoutId = null;
+          const timeoutRequest = new Promise((_resolve, reject) => {
+            timeoutId = window.setTimeout(() => reject(new Error("Voice service check timed out.")), 5e3);
+          });
+          const response = await Promise.race([request, timeoutRequest]).finally(() => {
+            if (timeoutId !== null) {
+              window.clearTimeout(timeoutId);
+            }
+          });
+          if (response.status >= 400) {
+            throw new Error(`Service returned HTTP ${response.status}`);
+          }
+          new import_obsidian20.Notice("Local voice service is reachable.");
+        } catch (error) {
+          new import_obsidian20.Notice(error instanceof Error ? error.message : "Could not reach the local voice service.");
+        } finally {
+          button.setDisabled(false);
+        }
+      })
+    );
   }
   renderCustomPromptSettings(containerEl) {
     new import_obsidian20.Setting(containerEl).setName("Your prompt").setDesc("Used by 'text: Run custom prompt' command").addText(

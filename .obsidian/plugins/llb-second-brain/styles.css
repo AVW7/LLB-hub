@@ -995,13 +995,13 @@
 
 @keyframes pulse-beam {
     0% {
-        box-shadow: 0 0 0 0 rgba(132, 132, 132, 0.45), 0 0 12px rgba(132, 132, 132, 0.4);
+        box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.45), 0 0 12px rgba(239, 68, 68, 0.4);
     }
     70% {
-        box-shadow: 0 0 0 8px rgba(132, 132, 132, 0), 0 0 20px rgba(132, 132, 132, 0.6);
+        box-shadow: 0 0 0 8px rgba(239, 68, 68, 0), 0 0 20px rgba(239, 68, 68, 0.6);
     }
     100% {
-        box-shadow: 0 0 0 0 rgba(132, 132, 132, 0), 0 0 12px rgba(132, 132, 132, 0.4);
+        box-shadow: 0 0 0 0 rgba(239, 68, 68, 0), 0 0 12px rgba(239, 68, 68, 0.4);
     }
 }
 
@@ -1022,11 +1022,8 @@
     justify-content: space-between;
     gap: 12px;
     padding: 12px 14px;
-    background: rgba(18, 18, 18, 0.75);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    background: var(--background-secondary);
+    border-bottom: 1px solid var(--background-modifier-border);
 }
 
 .llm-helper-chat-title-wrap {
@@ -1043,10 +1040,9 @@
     width: 32px;
     height: 32px;
     border-radius: 10px;
-    background: linear-gradient(135deg, rgba(119, 119, 119, 0.2), rgba(128, 128, 128, 0.25));
-    border: 1px solid rgba(128, 128, 128, 0.35);
-    box-shadow: 0 0 16px rgba(123, 123, 123, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.2);
-    color: #9f9f9f;
+    background: var(--background-modifier-hover);
+    border: 1px solid var(--background-modifier-border);
+    color: var(--text-accent);
     flex-shrink: 0;
     transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -1082,15 +1078,39 @@
     line-height: 1.3;
 }
 
+.llm-helper-chat-status-icon {
+    display: inline-flex;
+    align-items: center;
+    color: var(--text-accent);
+    flex-shrink: 0;
+}
+
+.llm-helper-chat-status-icon svg {
+    width: 12px;
+    height: 12px;
+}
+
 .kinetik-status-dot {
-    width: 6px;
-    height: 6px;
+    width: 7px;
+    height: 7px;
     border-radius: 50%;
-    background-color: #a3a3a3;
-    box-shadow: 0 0 8px #a3a3a3;
+    background-color: var(--text-faint);
     display: inline-block;
     flex-shrink: 0;
-    animation: pulse-glow 2.5s infinite ease-in-out;
+}
+
+.kinetik-status-dot.is-running {
+    background-color: var(--interactive-accent);
+    box-shadow: 0 0 8px var(--interactive-accent);
+    animation: pulse-glow 1.5s infinite ease-in-out;
+}
+
+.kinetik-status-dot.is-ready {
+    background-color: var(--color-green, #10b981);
+}
+
+.kinetik-status-dot.is-error {
+    background-color: var(--text-error);
 }
 
 .llm-helper-chat-header-action {
@@ -1100,25 +1120,32 @@
     width: 30px;
     height: 30px;
     border-radius: 8px;
-    border: 1px solid rgba(255, 255, 255, 0.06);
-    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--background-modifier-border);
+    background: var(--background-primary);
     color: var(--text-muted);
     cursor: pointer;
     transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .llm-helper-chat-header-action:hover {
-    background: rgba(255, 255, 255, 0.08);
+    background: var(--background-modifier-hover);
     color: var(--text-normal);
     transform: translateY(-1px);
-    border-color: rgba(255, 255, 255, 0.12);
+    border-color: var(--background-modifier-border-hover, var(--background-modifier-border));
 }
 
 .llm-helper-chat-header-action.is-active {
-    color: #9f9f9f;
-    background: rgba(128, 128, 128, 0.15);
-    border-color: rgba(128, 128, 128, 0.35);
-    box-shadow: 0 0 10px rgba(128, 128, 128, 0.2);
+    color: var(--text-accent);
+    background: var(--background-modifier-hover);
+    border-color: var(--interactive-accent);
+}
+
+.llm-helper-chat-header-action:focus-visible,
+.llm-helper-chat-mode-toggle button:focus-visible,
+.llb-helper-chat-mic-btn:focus-visible,
+.llm-helper-chat-submit:focus-visible {
+    outline: 2px solid var(--interactive-accent);
+    outline-offset: 2px;
 }
 
 /* Liquid Segment Bar (Mode Switcher) */
@@ -1128,10 +1155,8 @@
     margin: 10px 12px;
     padding: 3px;
     border-radius: 9999px;
-    background: rgba(255, 255, 255, 0.035);
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    backdrop-filter: blur(10px);
-    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+    background: var(--background-secondary);
+    border: 1px solid var(--background-modifier-border);
 }
 
 .llm-helper-chat-mode-toggle button {
@@ -1150,15 +1175,15 @@
 
 .llm-helper-chat-mode-toggle button:hover {
     color: var(--text-normal);
-    background: rgba(255, 255, 255, 0.04);
+    background: var(--background-modifier-hover);
 }
 
 .llm-helper-chat-mode-toggle button.is-active {
-    background: linear-gradient(135deg, rgba(119, 119, 119, 0.3), rgba(128, 128, 128, 0.35));
-    border: 1px solid rgba(128, 128, 128, 0.45);
-    color: #ffffff;
+    background: var(--interactive-accent);
+    border: 1px solid var(--interactive-accent);
+    color: var(--text-on-accent);
     font-weight: 600;
-    box-shadow: 0 2px 12px rgba(119, 119, 119, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
 }
 
 /* Scope Bar */
@@ -1170,8 +1195,8 @@
     padding: 8px 12px;
     margin: 0 12px 6px;
     border-radius: 10px;
-    background: rgba(255, 255, 255, 0.025);
-    border: 1px solid rgba(255, 255, 255, 0.06);
+    background: var(--background-secondary);
+    border: 1px solid var(--background-modifier-border);
 }
 
 .llm-helper-chat-scope.is-hidden {
@@ -1206,11 +1231,10 @@
 .llm-helper-chat-empty.kinetik-hero-card {
     margin: auto 4px;
     padding: 24px 18px;
-    border: 1px solid rgba(255, 255, 255, 0.09);
+    border: 1px solid var(--background-modifier-border);
     border-radius: 20px;
-    background: radial-gradient(circle at 50% 15%, rgba(123, 123, 123, 0.12) 0%, rgba(20, 20, 20, 0.8) 70%);
-    backdrop-filter: blur(20px);
-    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    background: var(--background-secondary);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
     text-align: center;
 }
 
@@ -1219,10 +1243,9 @@
     height: 46px;
     margin: 0 auto 12px;
     border-radius: 14px;
-    background: linear-gradient(135deg, rgba(119, 119, 119, 0.25), rgba(138, 138, 138, 0.25));
-    border: 1px solid rgba(128, 128, 128, 0.4);
-    box-shadow: 0 0 20px rgba(128, 128, 128, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.25);
-    color: #9f9f9f;
+    background: var(--background-primary);
+    border: 1px solid var(--interactive-accent);
+    color: var(--text-accent);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1263,27 +1286,44 @@
     align-items: center;
     gap: 8px;
     padding: 8px 12px;
-    background: rgba(255, 255, 255, 0.035);
-    border: 1px solid rgba(255, 255, 255, 0.07);
+    background: var(--background-primary);
+    border: 1px solid var(--background-modifier-border);
     border-radius: 10px;
     font-size: 12px;
     color: var(--text-muted);
     cursor: pointer;
     transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
     text-align: left;
+    width: 100%;
+    font-family: inherit;
+    line-height: inherit;
+    appearance: none;
+}
+
+.kinetik-chip:focus-visible {
+    outline: 2px solid var(--interactive-accent);
+    outline-offset: 2px;
 }
 
 .kinetik-chip:hover {
-    background: rgba(119, 119, 119, 0.12);
-    border-color: rgba(128, 128, 128, 0.45);
-    color: #ffffff;
-    transform: translateY(-1px);
-    box-shadow: 0 4px 14px rgba(119, 119, 119, 0.2);
+    background: var(--background-modifier-hover);
+    border-color: var(--interactive-accent);
+    color: var(--text-normal);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .llm-helper-chat-content *,
+    .llm-helper-radar-content * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
+    }
 }
 
 .kinetik-chip-icon {
     display: inline-flex;
-    color: #808080;
+    color: var(--text-accent);
     flex-shrink: 0;
 }
 
@@ -1312,18 +1352,16 @@
 
 .rag-chat-message-user {
     align-self: flex-end;
-    background: linear-gradient(135deg, #606060 0%, #676767 100%);
-    color: #ffffff;
+    background: var(--interactive-accent);
+    color: var(--text-on-accent);
     border-bottom-right-radius: 4px;
-    box-shadow: 0 4px 14px rgba(96, 96, 96, 0.25);
-    border: 1px solid rgba(255, 255, 255, 0.15);
+    border: 1px solid var(--interactive-accent);
 }
 
 .rag-chat-message-ai {
     align-self: flex-start;
-    background: rgba(255, 255, 255, 0.035);
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    backdrop-filter: blur(12px);
+    background: var(--background-secondary);
+    border: 1px solid var(--background-modifier-border);
     border-bottom-left-radius: 4px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
     color: var(--text-normal);
@@ -1331,8 +1369,8 @@
 
 .rag-chat-message-error {
     align-self: flex-start;
-    background: rgba(132, 132, 132, 0.1);
-    border: 1px solid rgba(132, 132, 132, 0.3);
+    background: rgba(239, 68, 68, 0.1);
+    border: 1px solid rgba(239, 68, 68, 0.3);
     border-bottom-left-radius: 4px;
     color: var(--text-error);
 }
@@ -1361,7 +1399,7 @@
     width: 4px;
     height: 4px;
     border-radius: 50%;
-    background: linear-gradient(135deg, #959595, #9f9f9f);
+    background: linear-gradient(135deg, #818cf8, #c084fc);
     animation: kinetik-dot-wave 1.4s infinite ease-in-out;
 }
 
@@ -1373,17 +1411,15 @@
     margin: 8px 12px 14px;
     padding: 10px 12px;
     border-radius: 18px;
-    background: rgba(20, 20, 20, 0.85);
-    backdrop-filter: blur(24px);
-    -webkit-backdrop-filter: blur(24px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    background: var(--background-secondary);
+    border: 1px solid var(--background-modifier-border);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
     transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .llm-helper-chat-input-container:focus-within {
-    border-color: rgba(128, 128, 128, 0.5);
-    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(128, 128, 128, 0.3);
+    border-color: var(--interactive-accent);
+    box-shadow: 0 0 0 1px var(--interactive-accent);
 }
 
 .llm-helper-chat-composer-meta {
@@ -1400,9 +1436,9 @@
     gap: 6px;
     padding: 3px 10px;
     border-radius: 9999px;
-    background: rgba(119, 119, 119, 0.12);
-    border: 1px solid rgba(119, 119, 119, 0.28);
-    color: #d3d3d3;
+    background: var(--background-modifier-hover);
+    border: 1px solid var(--background-modifier-border);
+    color: var(--text-accent);
     font-size: 11px;
     font-weight: 500;
 }
@@ -1411,8 +1447,7 @@
     width: 5px;
     height: 5px;
     border-radius: 50%;
-    background-color: #959595;
-    box-shadow: 0 0 6px #959595;
+    background-color: var(--interactive-accent);
 }
 
 .llm-helper-chat-input-row {
@@ -1452,8 +1487,8 @@
     width: 34px;
     height: 34px;
     border-radius: 9px;
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid var(--background-modifier-border);
+    background: var(--background-primary);
     color: var(--text-muted);
     cursor: pointer;
     flex-shrink: 0;
@@ -1461,16 +1496,21 @@
 }
 
 .llb-helper-chat-mic-btn:hover {
-    background: rgba(255, 255, 255, 0.09);
+    background: var(--background-modifier-hover);
     color: var(--text-normal);
     transform: translateY(-1px);
 }
 
 .llb-helper-chat-mic-btn.is-recording {
-    background: rgba(132, 132, 132, 0.2);
-    border-color: rgba(132, 132, 132, 0.6);
-    color: #848484;
+    background: rgba(239, 68, 68, 0.2);
+    border-color: rgba(239, 68, 68, 0.6);
+    color: #ef4444;
     animation: pulse-beam 1.2s infinite ease-in-out;
+}
+
+.llb-helper-chat-mic-btn:disabled {
+    opacity: 0.72;
+    cursor: wait;
 }
 
 .llb-helper-chat-mic-btn svg {
@@ -1488,21 +1528,20 @@
     padding: 0 16px;
     border-radius: 9px;
     border: none;
-    background: linear-gradient(135deg, #777777 0%, #7b7b7b 50%, #8a8a8a 100%);
-    color: #ffffff;
+    background: var(--interactive-accent);
+    color: var(--text-on-accent);
     font-size: 12.5px;
     font-weight: 600;
     letter-spacing: 0.2px;
     cursor: pointer;
     flex-shrink: 0;
     transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
-    box-shadow: 0 4px 14px rgba(123, 123, 123, 0.35);
+    border: 1px solid var(--interactive-accent);
 }
 
 .llm-helper-chat-submit.rag-chat-submit-btn:hover:not(:disabled) {
     transform: translateY(-1px);
-    box-shadow: 0 6px 20px rgba(123, 123, 123, 0.5);
-    background: linear-gradient(135deg, #606060 0%, #676767 50%, #737373 100%);
+    background: var(--interactive-accent-hover);
 }
 
 .llm-helper-chat-submit.rag-chat-submit-btn:active:not(:disabled) {
@@ -1518,8 +1557,9 @@
 }
 
 .llm-helper-chat-submit.is-generating {
-    background: linear-gradient(135deg, #848484, #858585);
-    box-shadow: 0 4px 14px rgba(132, 132, 132, 0.35);
+    background: var(--text-error);
+    border-color: var(--text-error);
+    color: var(--text-on-accent);
 }
 
 /* Speak & Copy Buttons */
@@ -1535,7 +1575,7 @@
     padding: 0;
     border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 7px;
-    background: rgba(20, 20, 20, 0.7);
+    background: rgba(20, 20, 24, 0.7);
     backdrop-filter: blur(8px);
     color: var(--text-muted);
     cursor: pointer;
@@ -1561,9 +1601,9 @@
 
 .rag-chat-speak-btn.is-playing {
     opacity: 1;
-    color: #9f9f9f;
-    border-color: rgba(128, 128, 128, 0.5);
-    box-shadow: 0 0 10px rgba(128, 128, 128, 0.3);
+    color: #c084fc;
+    border-color: rgba(168, 85, 247, 0.5);
+    box-shadow: 0 0 10px rgba(168, 85, 247, 0.3);
 }
 
 .rag-chat-copy-btn svg,
@@ -1586,21 +1626,21 @@
 }
 
 .llm-helper-chat-status-banner.is-warning {
-    background: rgba(187, 187, 187, 0.15);
-    border-color: rgba(187, 187, 187, 0.35);
-    color: #d1d1d1;
+    background: var(--background-secondary);
+    border-color: var(--text-warning, #ca8a04);
+    color: var(--text-warning, #ca8a04);
 }
 
 .llm-helper-chat-status-banner.is-error {
-    background: rgba(132, 132, 132, 0.15);
-    border-color: rgba(132, 132, 132, 0.35);
-    color: #9b9b9b;
+    background: var(--background-secondary);
+    border-color: var(--text-error);
+    color: var(--text-error);
 }
 
 .llm-helper-chat-status-banner.is-info {
-    background: rgba(119, 119, 119, 0.12);
-    border-color: rgba(119, 119, 119, 0.3);
-    color: #b8b8b8;
+    background: var(--background-secondary);
+    border-color: var(--interactive-accent);
+    color: var(--text-accent);
 }
 
 .llm-helper-chat-disclaimer {
@@ -1632,7 +1672,7 @@
     gap: 10px;
     margin-bottom: 12px;
     padding-bottom: 10px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    border-bottom: 1px solid var(--background-modifier-border);
 }
 
 .kinetik-radar-title-wrap {
@@ -1655,7 +1695,7 @@
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    border: 1.5px solid rgba(128, 128, 128, 0.4);
+    border: 1.5px solid var(--interactive-accent);
     pointer-events: none;
 }
 
@@ -1667,12 +1707,12 @@
     0% {
         transform: scale(0.85);
         opacity: 0.9;
-        border-color: rgba(128, 128, 128, 0.8);
+        border-color: var(--interactive-accent);
     }
     100% {
         transform: scale(1.45);
         opacity: 0;
-        border-color: rgba(119, 119, 119, 0);
+        border-color: transparent;
     }
 }
 
@@ -1680,13 +1720,12 @@
     width: 34px;
     height: 34px;
     border-radius: 10px;
-    background: linear-gradient(135deg, rgba(128, 128, 128, 0.2), rgba(119, 119, 119, 0.2));
-    border: 1px solid rgba(128, 128, 128, 0.35);
+    background: var(--background-secondary);
+    border: 1px solid var(--background-modifier-border);
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #9f9f9f;
-    box-shadow: 0 0 12px rgba(128, 128, 128, 0.2);
+    color: var(--text-accent);
 }
 
 .kinetik-radar-icon svg {
@@ -1717,10 +1756,9 @@
     border-radius: 9px;
     font-size: 12px;
     font-weight: 500;
-    background: linear-gradient(135deg, #676767, #606060);
-    color: #ffffff !important;
-    border: none;
-    box-shadow: 0 3px 12px rgba(103, 103, 103, 0.35);
+    background: var(--interactive-accent);
+    color: var(--text-on-accent) !important;
+    border: 1px solid var(--interactive-accent);
     cursor: pointer;
     transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
     white-space: nowrap;
@@ -1728,14 +1766,24 @@
 
 .kinetik-radar-run-btn:hover:not(:disabled) {
     transform: translateY(-1px);
-    box-shadow: 0 5px 18px rgba(103, 103, 103, 0.5);
-    filter: brightness(1.1);
+    background: var(--interactive-accent-hover);
 }
 
 .kinetik-radar-run-btn:disabled {
     opacity: 0.65;
     cursor: not-allowed;
-    filter: grayscale(0.2);
+    filter: none;
+}
+
+.kinetik-radar-run-btn:focus-visible,
+.kinetik-radar-tab:focus-visible,
+.kinetik-source-pill:focus-visible,
+.kinetik-action-btn:focus-visible,
+.kinetik-feedback-btn:focus-visible,
+.kinetik-micro-btn:focus-visible,
+.kinetik-more-actions summary:focus-visible {
+    outline: 2px solid var(--interactive-accent);
+    outline-offset: 2px;
 }
 
 /* Kinetik Liquid / Segmented Tabs */
@@ -1743,9 +1791,9 @@
     display: flex;
     gap: 4px;
     padding: 4px;
-    background: rgba(0, 0, 0, 0.25);
+    background: var(--background-secondary);
     border-radius: 11px;
-    border: 1px solid rgba(255, 255, 255, 0.06);
+    border: 1px solid var(--background-modifier-border);
     margin-bottom: 12px;
     overflow-x: auto;
     scrollbar-width: none;
@@ -1773,13 +1821,13 @@
 
 .kinetik-radar-tab:hover {
     color: var(--text-normal);
-    background: rgba(255, 255, 255, 0.05);
+    background: var(--background-modifier-hover);
 }
 
 .kinetik-radar-tab.is-active {
-    color: #ffffff;
-    background: rgba(255, 255, 255, 0.12);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    color: var(--text-normal);
+    background: var(--background-modifier-hover);
+    box-shadow: inset 0 0 0 1px var(--interactive-accent);
 }
 
 .kinetik-radar-tab-icon svg {
@@ -1791,13 +1839,13 @@
     padding: 1px 5px;
     border-radius: 9999px;
     font-size: 10px;
-    background: rgba(255, 255, 255, 0.1);
-    color: var(--text-faint);
+    background: var(--background-primary);
+    color: var(--text-muted);
 }
 
 .kinetik-radar-tab.is-active .kinetik-radar-tab-badge {
-    background: rgba(255, 255, 255, 0.22);
-    color: #ffffff;
+    background: var(--interactive-accent);
+    color: var(--text-on-accent);
 }
 
 /* Results & Card Styling */
@@ -1814,35 +1862,33 @@
 .kinetik-radar-card {
     padding: 14px;
     border-radius: 14px;
-    background: rgba(255, 255, 255, 0.025);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: var(--background-secondary);
+    border: 1px solid var(--background-modifier-border);
     border-left: 4px solid var(--interactive-accent);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
     transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .kinetik-radar-card:hover {
     transform: translateY(-1.5px);
-    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.38);
-    border-color: rgba(255, 255, 255, 0.14);
+    border-color: var(--background-modifier-border-hover, var(--background-modifier-border));
+    box-shadow: 0 7px 18px rgba(0, 0, 0, 0.16);
 }
 
 .kinetik-radar-card.is-commitment {
-    border-left-color: #b1b1b1;
+    border-left-color: #f59e0b;
 }
 
 .kinetik-radar-card.is-stalled {
-    border-left-color: #858585;
+    border-left-color: #f43f5e;
 }
 
 .kinetik-radar-card.is-connection {
-    border-left-color: #b1b1b1;
+    border-left-color: #38bdf8;
 }
 
 .kinetik-radar-card.is-action {
-    border-left-color: #a3a3a3;
+    border-left-color: #10b981;
 }
 
 .kinetik-card-header {
@@ -1877,27 +1923,43 @@
 }
 
 .kinetik-kind-badge.kinetik-kind-commitment {
-    background: rgba(177, 177, 177, 0.15);
-    color: #c8c8c8;
-    border: 1px solid rgba(177, 177, 177, 0.3);
+    background: var(--background-primary);
+    color: var(--text-normal);
+    border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
+.kinetik-kind-badge.kinetik-kind-commitment .kinetik-kind-icon {
+    color: #f59e0b;
 }
 
 .kinetik-kind-badge.kinetik-kind-stalled_project {
-    background: rgba(133, 133, 133, 0.15);
-    color: #9e9e9e;
-    border: 1px solid rgba(133, 133, 133, 0.3);
+    background: var(--background-primary);
+    color: var(--text-normal);
+    border: 1px solid rgba(244, 63, 94, 0.3);
+}
+
+.kinetik-kind-badge.kinetik-kind-stalled_project .kinetik-kind-icon {
+    color: #f43f5e;
 }
 
 .kinetik-kind-badge.kinetik-kind-connection {
-    background: rgba(177, 177, 177, 0.15);
-    color: #b1b1b1;
-    border: 1px solid rgba(177, 177, 177, 0.3);
+    background: var(--background-primary);
+    color: var(--text-normal);
+    border: 1px solid rgba(56, 189, 248, 0.3);
+}
+
+.kinetik-kind-badge.kinetik-kind-connection .kinetik-kind-icon {
+    color: #38bdf8;
 }
 
 .kinetik-kind-badge.kinetik-kind-next_action {
-    background: rgba(163, 163, 163, 0.15);
-    color: #bbbbbb;
-    border: 1px solid rgba(163, 163, 163, 0.3);
+    background: var(--background-primary);
+    color: var(--text-normal);
+    border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.kinetik-kind-badge.kinetik-kind-next_action .kinetik-kind-icon {
+    color: #10b981;
 }
 
 .kinetik-card-title {
@@ -1914,8 +1976,8 @@
     gap: 3px;
     padding: 2px 6px;
     border-radius: 6px;
-    background: rgba(255, 255, 255, 0.04);
-    border: 1px solid rgba(255, 255, 255, 0.06);
+    background: var(--background-primary);
+    border: 1px solid var(--background-modifier-border);
     flex-shrink: 0;
 }
 
@@ -1923,29 +1985,29 @@
     width: 4px;
     height: 4px;
     border-radius: 50%;
-    background: rgba(255, 255, 255, 0.18);
+    background: var(--background-modifier-border);
 }
 
 .kinetik-meter-dot.is-filled {
-    background: #a3a3a3;
-    box-shadow: 0 0 5px #a3a3a3;
+    background: #10b981;
+    box-shadow: 0 0 5px #10b981;
 }
 
 .kinetik-confidence-meter.is-medium .kinetik-meter-dot.is-filled {
-    background: #b1b1b1;
-    box-shadow: 0 0 5px #b1b1b1;
+    background: #38bdf8;
+    box-shadow: 0 0 5px #38bdf8;
 }
 
 .kinetik-confidence-meter.is-low .kinetik-meter-dot.is-filled {
-    background: #b1b1b1;
-    box-shadow: 0 0 5px #b1b1b1;
+    background: #f59e0b;
+    box-shadow: 0 0 5px #f59e0b;
 }
 
 .kinetik-meter-label {
     font-size: 10px;
     color: var(--text-muted);
     margin-left: 3px;
-    text-transform: capitalize;
+    white-space: nowrap;
 }
 
 .kinetik-card-body {
@@ -1958,8 +2020,8 @@
 .kinetik-action-box {
     padding: 8px 10px;
     border-radius: 8px;
-    background: rgba(163, 163, 163, 0.08);
-    border: 1px solid rgba(163, 163, 163, 0.22);
+    background: var(--background-primary);
+    border: 1px solid var(--background-modifier-border);
     margin-bottom: 10px;
 }
 
@@ -1968,7 +2030,7 @@
     align-items: center;
     gap: 5px;
     font-size: 11.5px;
-    color: #bbbbbb;
+    color: var(--text-accent);
     margin-bottom: 3px;
 }
 
@@ -2006,18 +2068,17 @@
     padding: 3px 8px;
     border-radius: 7px;
     font-size: 11px;
-    background: rgba(255, 255, 255, 0.04);
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    color: var(--text-muted);
+    background: var(--background-primary);
+    border: 1px solid var(--background-modifier-border);
+    color: var(--text-normal);
     cursor: pointer;
     transition: all 0.15s ease;
 }
 
 .kinetik-source-pill:hover {
-    background: rgba(255, 255, 255, 0.09);
+    background: var(--background-modifier-hover);
     color: var(--text-normal);
-    border-color: rgba(255, 255, 255, 0.18);
-    transform: translateY(-0.5px);
+    border-color: var(--interactive-accent);
 }
 
 .kinetik-module-tag {
@@ -2025,17 +2086,76 @@
     border-radius: 4px;
     font-size: 9px;
     font-weight: 700;
-    background: rgba(103, 103, 103, 0.22);
-    color: #9f9f9f;
+    background: var(--background-modifier-hover);
+    color: var(--text-accent);
 }
 
 .kinetik-card-actions {
     display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+    border-top: 1px solid var(--background-modifier-border);
+    padding-top: 9px;
+}
+
+.kinetik-primary-actions,
+.kinetik-response-actions,
+.kinetik-secondary-actions {
+    display: flex;
     align-items: center;
     flex-wrap: wrap;
     gap: 6px;
-    border-top: 1px solid rgba(255, 255, 255, 0.06);
-    padding-top: 10px;
+}
+
+.kinetik-response-actions {
+    color: var(--text-muted);
+    font-size: 11px;
+}
+
+.kinetik-response-label {
+    margin-right: 2px;
+}
+
+.kinetik-more-actions {
+    align-self: flex-start;
+    color: var(--text-muted);
+    font-size: 11px;
+}
+
+.kinetik-more-actions summary {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    min-height: 28px;
+    padding: 0 6px;
+    border-radius: 7px;
+    cursor: pointer;
+    list-style: none;
+}
+
+.kinetik-more-actions summary svg {
+    width: 12px;
+    height: 12px;
+    transition: transform 0.15s ease;
+}
+
+.kinetik-more-actions[open] summary svg {
+    transform: rotate(180deg);
+}
+
+.kinetik-more-actions summary::-webkit-details-marker {
+    display: none;
+}
+
+.kinetik-more-actions summary:hover,
+.kinetik-more-actions[open] summary {
+    color: var(--text-normal);
+    background: var(--background-modifier-hover);
+}
+
+.kinetik-secondary-actions {
+    padding-top: 5px;
 }
 
 .kinetik-action-btn {
@@ -2055,40 +2175,40 @@
 }
 
 .kinetik-action-btn.is-primary {
-    background: rgba(119, 119, 119, 0.16);
-    border: 1px solid rgba(119, 119, 119, 0.35);
-    color: #b8b8b8;
+    background: var(--interactive-accent);
+    border: 1px solid var(--interactive-accent);
+    color: var(--text-on-accent);
 }
 
 .kinetik-action-btn.is-primary:hover {
-    background: rgba(119, 119, 119, 0.28);
-    color: #ffffff;
-    box-shadow: 0 0 10px rgba(119, 119, 119, 0.3);
+    background: var(--interactive-accent-hover);
 }
 
 .kinetik-feedback-btn {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 28px;
+    min-height: 28px;
     height: 28px;
+    padding: 0 8px;
+    gap: 5px;
     border-radius: 7px;
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--background-modifier-border);
+    background: var(--background-primary);
     color: var(--text-muted);
     cursor: pointer;
     transition: all 0.15s ease;
 }
 
 .kinetik-feedback-btn:hover {
-    background: rgba(255, 255, 255, 0.08);
+    background: var(--background-modifier-hover);
     color: var(--text-normal);
 }
 
 .kinetik-feedback-btn.is-pressed {
-    background: rgba(163, 163, 163, 0.2);
-    border-color: rgba(163, 163, 163, 0.45);
-    color: #bbbbbb;
+    background: var(--background-modifier-hover);
+    border-color: var(--interactive-accent);
+    color: var(--text-accent);
 }
 
 .kinetik-feedback-btn svg {
@@ -2103,16 +2223,16 @@
     padding: 4px 8px;
     border-radius: 7px;
     font-size: 11px;
-    border: 1px solid rgba(255, 255, 255, 0.06);
-    background: transparent;
-    color: var(--text-faint);
+    border: 1px solid var(--background-modifier-border);
+    background: var(--background-primary);
+    color: var(--text-muted);
     cursor: pointer;
     transition: all 0.15s ease;
 }
 
 .kinetik-micro-btn:hover {
-    color: var(--text-muted);
-    background: rgba(255, 255, 255, 0.06);
+    color: var(--text-normal);
+    background: var(--background-modifier-hover);
 }
 
 .kinetik-micro-btn svg {
@@ -2127,8 +2247,8 @@
     align-items: center;
     text-align: center;
     padding: 28px 16px;
-    background: rgba(255, 255, 255, 0.02);
-    border: 1px solid rgba(255, 255, 255, 0.06);
+    background: var(--background-secondary);
+    border: 1px solid var(--background-modifier-border);
     border-radius: 16px;
     margin: 8px 0;
 }
@@ -2137,14 +2257,14 @@
     width: 52px;
     height: 52px;
     border-radius: 16px;
-    background: linear-gradient(135deg, rgba(128, 128, 128, 0.22), rgba(119, 119, 119, 0.22));
-    border: 1px solid rgba(128, 128, 128, 0.35);
+    background: var(--background-primary);
+    border: 1px solid var(--interactive-accent);
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #9f9f9f;
+    color: var(--text-accent);
     margin-bottom: 12px;
-    box-shadow: 0 0 20px rgba(128, 128, 128, 0.25);
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.12);
 }
 
 .kinetik-radar-hero-icon svg {
@@ -2184,17 +2304,17 @@
     border-radius: 10px;
     font-size: 13px;
     font-weight: 600;
-    background: linear-gradient(135deg, #676767, #606060);
+    background: linear-gradient(135deg, #7c3aed, #4f46e5);
     color: #ffffff !important;
     border: none;
-    box-shadow: 0 4px 16px rgba(103, 103, 103, 0.4);
+    box-shadow: 0 4px 16px rgba(124, 58, 237, 0.4);
     cursor: pointer;
     transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .kinetik-hero-cta:hover {
     transform: translateY(-1px);
-    box-shadow: 0 6px 22px rgba(103, 103, 103, 0.55);
+    box-shadow: 0 6px 22px rgba(124, 58, 237, 0.55);
     filter: brightness(1.1);
 }
 
@@ -2219,9 +2339,9 @@
 }
 
 .kinetik-glass-banner.is-error {
-    background: rgba(132, 132, 132, 0.15);
-    border: 1px solid rgba(132, 132, 132, 0.35);
-    color: #9b9b9b;
+    background: rgba(239, 68, 68, 0.15);
+    border: 1px solid rgba(239, 68, 68, 0.35);
+    color: #f87171;
 }
 
 .kinetik-banner-icon svg {
@@ -2229,466 +2349,1221 @@
     height: 15px;
 }
 
-/* Geist-inspired monochrome controls, scoped to the LLB Second Brain UI. */
-.llm-helper-chat-view,
+/* ==========================================================================
+   Dot Matrix — monochrome interface
+   Scoped to Local LLM Helper surfaces so the host theme stays unchanged.
+   ========================================================================== */
+
 .llm-helper-chat-content,
-.llm-helper-related-notes-view,
-.llm-helper-related-notes-content,
-.llm-helper-radar-view,
 .llm-helper-radar-content,
+.llm-helper-related-notes-content,
 .rag-chat-modal,
 .llm-chat-modal,
+.llm-helper-insight-canvas-modal,
 .llm-update-modal,
 .prompt-picker-modal,
-.llm-helper-insight-canvas-modal {
-    --interactive-accent: #d4d4d4;
-    --interactive-accent-hover: #f5f5f5;
-    --interactive-accent-rgb: 212, 212, 212;
-    --text-accent: #d4d4d4;
-    --text-on-accent: #111111;
-    --color-red-rgb: 212, 212, 212;
+.llm-helper-settings-section {
+    --interactive-accent: var(--text-normal);
+    --interactive-accent-hover: var(--text-normal);
+    --text-accent: var(--text-normal);
+    --text-on-accent: var(--background-primary);
+    --llb-dot: color-mix(in srgb, var(--text-normal) 18%, transparent);
+    --llb-soft: color-mix(in srgb, var(--background-primary) 94%, var(--text-normal));
+    --llb-border: color-mix(in srgb, var(--text-normal) 24%, var(--background-primary));
+    --llb-dots: radial-gradient(var(--llb-dot) 0.7px, transparent 0.8px);
+    color: var(--text-normal);
+    accent-color: var(--text-normal);
 }
 
-.llm-helper-chat-submit.rag-chat-submit-btn,
-.kinetik-radar-run-btn,
-.kinetik-hero-cta {
-    background: #e5e5e5 !important;
-    border: 1px solid #f5f5f5;
-    color: #111111 !important;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+.llm-helper-chat-content,
+.llm-helper-radar-content,
+.llm-helper-related-notes-content,
+.rag-chat-modal,
+.llm-chat-modal,
+.llm-helper-insight-canvas-modal,
+.llm-update-modal,
+.prompt-picker-modal,
+.llm-helper-settings-section {
+    background-color: var(--background-primary);
+    background-image: var(--llb-dots);
+    background-size: 8px 8px;
 }
 
-.llm-helper-chat-submit.rag-chat-submit-btn:hover:not(:disabled),
-.kinetik-radar-run-btn:hover:not(:disabled),
-.kinetik-hero-cta:hover {
-    background: #ffffff !important;
-    color: #111111 !important;
-    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.32);
+.llm-helper-chat-content .llm-helper-chat-header,
+.rag-chat-modal .rag-chat-header,
+.llm-helper-radar-content .kinetik-radar-header,
+.llm-helper-related-notes-content .llm-helper-related-notes-header {
+    background-color: var(--background-primary);
+    background-image: var(--llb-dots);
+    background-size: 8px 8px;
+    border-color: var(--llb-border);
 }
 
-/* Responsive layouts for narrow Obsidian panes and compact chat modals. */
-.llm-helper-chat-view,
-.llm-helper-radar-view,
-.rag-chat-modal {
-    container-type: inline-size;
+.llm-helper-chat-content .llm-helper-chat-icon,
+.rag-chat-modal .rag-chat-header-icon,
+.llm-helper-radar-content .kinetik-radar-icon,
+.llm-helper-related-notes-content .llm-helper-related-notes-icon,
+.llm-helper-chat-content .kinetik-hero-icon,
+.llm-helper-radar-content .kinetik-radar-hero-icon {
+    border: 1px solid var(--llb-border);
+    border-radius: 3px;
+    background-color: var(--background-secondary);
+    background-image: var(--llb-dots);
+    background-size: 6px 6px;
+    color: var(--text-normal);
+    box-shadow: none;
+    animation: none;
 }
 
-.llm-helper-chat-view {
-    container-name: llb-chat;
+.llm-helper-chat-content .llm-helper-chat-mode-toggle,
+.llm-helper-radar-content .kinetik-radar-tabs,
+.llm-helper-chat-content .llm-helper-chat-scope,
+.rag-chat-modal .rag-chat-scope-bar,
+.rag-chat-modal .workflow-runner-bar,
+.rag-chat-modal .workflow-runner-fields {
+    border-color: var(--llb-border);
+    border-radius: 3px;
+    background: var(--background-secondary);
+    box-shadow: none;
 }
 
-.llm-helper-radar-view {
-    container-name: llb-radar;
+.llm-helper-chat-content .llm-helper-chat-mode-toggle button,
+.llm-helper-radar-content .kinetik-radar-tab {
+    border-radius: 2px;
 }
 
-.rag-chat-modal {
-    container-name: llb-rag-modal;
+.llm-helper-chat-content .llm-helper-chat-mode-toggle button.is-active,
+.llm-helper-radar-content .kinetik-radar-tab.is-active {
+    background-color: var(--text-normal);
+    color: var(--background-primary);
+    box-shadow: none;
 }
 
-.kinetik-chip {
+.llm-helper-chat-content .kinetik-hero-card,
+.llm-helper-chat-content .llm-helper-chat-input-container,
+.rag-chat-modal .rag-chat-welcome-content,
+.llm-helper-radar-content .kinetik-radar-card,
+.llm-helper-radar-content .kinetik-radar-hero,
+.llm-helper-related-notes-content .llm-helper-related-note-card,
+.llm-helper-insight-canvas-modal .llm-helper-insight-canvas-summary,
+.llm-helper-settings-section .llm-helper-settings-section-content {
+    border: 1px solid var(--llb-border);
+    border-radius: 3px;
+    background-color: var(--background-primary);
+    background-image: var(--llb-dots);
+    background-size: 8px 8px;
+    box-shadow: none;
+}
+
+.llm-helper-chat-content .kinetik-hero-card,
+.llm-helper-radar-content .kinetik-radar-card {
+    padding: 14px;
+}
+
+.llm-helper-radar-content .kinetik-radar-card,
+.llm-helper-radar-content .kinetik-radar-card.is-commitment,
+.llm-helper-radar-content .kinetik-radar-card.is-stalled,
+.llm-helper-radar-content .kinetik-radar-card.is-connection,
+.llm-helper-radar-content .kinetik-radar-card.is-action {
+    border-left: 2px solid var(--text-normal);
+}
+
+.llm-helper-radar-content .kinetik-radar-card:hover {
+    transform: none;
+    border-color: var(--text-normal);
+    box-shadow: none;
+}
+
+.llm-helper-radar-content .kinetik-kind-badge,
+.llm-helper-radar-content .kinetik-kind-badge.kinetik-kind-commitment,
+.llm-helper-radar-content .kinetik-kind-badge.kinetik-kind-stalled_project,
+.llm-helper-radar-content .kinetik-kind-badge.kinetik-kind-connection,
+.llm-helper-radar-content .kinetik-kind-badge.kinetik-kind-next_action {
+    border: 1px solid var(--llb-border);
+    border-radius: 2px;
+    background: var(--background-secondary);
+    color: var(--text-normal);
+}
+
+.llm-helper-radar-content .kinetik-kind-icon,
+.llm-helper-radar-content .kinetik-kind-badge .kinetik-kind-icon,
+.llm-helper-radar-content .kinetik-meter-dot.is-filled,
+.llm-helper-radar-content .kinetik-confidence-meter.is-medium .kinetik-meter-dot.is-filled,
+.llm-helper-radar-content .kinetik-confidence-meter.is-low .kinetik-meter-dot.is-filled,
+.llm-helper-radar-content .kinetik-radar-status-badge .kinetik-status-dot,
+.llm-helper-radar-content .kinetik-status-dot.is-ready,
+.llm-helper-radar-content .kinetik-status-dot.is-error,
+.llm-helper-radar-content .kinetik-status-dot.is-running {
+    color: var(--text-normal);
+    background: var(--text-normal);
+    box-shadow: none;
+}
+
+.llm-helper-radar-content .kinetik-radar-beacon-ring {
+    border-color: var(--llb-border);
+}
+
+.llm-helper-radar-content .kinetik-radar-run-btn,
+.llm-helper-chat-content .llm-helper-chat-submit,
+.rag-chat-modal .rag-chat-submit-btn,
+.llm-helper-related-notes-content .mod-cta,
+.llm-helper-radar-content .kinetik-action-btn.is-primary,
+.llm-helper-radar-content .kinetik-hero-cta {
+    border: 1px solid var(--text-normal);
+    border-radius: 2px;
+    background: var(--text-normal);
+    color: var(--background-primary) !important;
+    box-shadow: none;
+}
+
+.llm-helper-radar-content .kinetik-hero-cta:hover,
+.llm-helper-radar-content .kinetik-radar-run-btn:hover:not(:disabled),
+.llm-helper-chat-content .llm-helper-chat-submit:hover:not(:disabled),
+.rag-chat-modal .rag-chat-submit-btn:hover:not(:disabled) {
+    filter: none;
+    transform: none;
+    background: var(--text-normal);
+    color: var(--background-primary);
+}
+
+.llm-helper-chat-content .llm-helper-chat-input-container:focus-within {
+    border-color: var(--text-normal);
+    box-shadow: 0 0 0 1px var(--text-normal);
+}
+
+.llm-helper-chat-content .llm-helper-chat-input,
+.rag-chat-modal .rag-chat-input,
+.rag-chat-modal .rag-chat-scope-select,
+.rag-chat-modal .rag-chat-scope-input,
+.prompt-picker-modal .prompt-custom-input {
+    border-radius: 2px;
+    border-color: var(--llb-border);
+}
+
+.llm-helper-chat-content .llm-helper-chat-input:focus,
+.rag-chat-modal .rag-chat-input:focus,
+.rag-chat-modal .rag-chat-scope-input:focus,
+.prompt-picker-modal .prompt-custom-input:focus {
+    border-color: var(--text-normal);
+    box-shadow: 0 0 0 1px var(--text-normal);
+}
+
+.llm-helper-chat-content .rag-chat-message-user,
+.rag-chat-modal .rag-chat-message-user {
+    border: 1px solid var(--text-normal);
+    border-radius: 3px;
+    background-color: var(--text-normal);
+    background-image: radial-gradient(color-mix(in srgb, var(--background-primary) 28%, transparent) 0.7px, transparent 0.8px);
+    background-size: 7px 7px;
+    color: var(--background-primary);
+    box-shadow: none;
+}
+
+.llm-helper-chat-content .rag-chat-message-ai,
+.rag-chat-modal .rag-chat-message-ai {
+    border: 1px solid var(--llb-border);
+    border-radius: 3px;
+    background-color: var(--background-secondary);
+    background-image: var(--llb-dots);
+    background-size: 8px 8px;
+    box-shadow: none;
+}
+
+.llm-helper-chat-content .rag-chat-message-error,
+.rag-chat-modal .rag-chat-message-error,
+.llm-helper-chat-content .llm-helper-chat-status-banner.is-warning,
+.llm-helper-chat-content .llm-helper-chat-status-banner.is-error,
+.llm-helper-chat-content .llm-helper-chat-status-banner.is-info,
+.llm-helper-radar-content .kinetik-glass-banner.is-error {
+    border: 1px solid var(--llb-border);
+    border-radius: 3px;
+    background: var(--llb-soft);
+    color: var(--text-normal);
+}
+
+.llm-helper-chat-content .rag-chat-thinking,
+.rag-chat-modal .rag-chat-thinking {
+    border: 1px solid var(--llb-border);
+    border-radius: 3px;
+    background: var(--background-secondary);
+}
+
+.llm-helper-chat-content .dot,
+.rag-chat-modal .dot {
+    background: var(--text-normal);
+}
+
+.llm-helper-chat-content .rag-chat-copy-btn,
+.llm-helper-chat-content .rag-chat-speak-btn,
+.rag-chat-modal .rag-chat-copy-btn,
+.rag-chat-modal .rag-chat-speak-btn {
+    border: 1px solid var(--llb-border);
+    border-radius: 2px;
+    background: var(--background-primary);
+    color: var(--text-normal);
+    backdrop-filter: none;
+    box-shadow: none;
+}
+
+.llm-helper-chat-content .llb-helper-chat-mic-btn.is-recording,
+.llm-helper-chat-content .rag-chat-speak-btn.is-playing {
+    border-color: var(--text-normal);
+    background: var(--background-secondary);
+    color: var(--text-normal);
+    box-shadow: none;
+    animation: none;
+}
+
+.llm-helper-chat-content .rag-chat-scope-select {
+    border-color: var(--llb-border);
+    background: var(--background-primary);
+}
+
+.llm-helper-radar-content .kinetik-source-pill,
+.llm-helper-radar-content .kinetik-action-btn,
+.llm-helper-radar-content .kinetik-feedback-btn,
+.llm-helper-radar-content .kinetik-micro-btn,
+.llm-helper-radar-content .kinetik-confidence-meter,
+.llm-helper-radar-content .kinetik-radar-tab-badge,
+.llm-helper-radar-content .kinetik-module-tag {
+    border-color: var(--llb-border);
+    border-radius: 2px;
+    background: var(--background-primary);
+    color: var(--text-normal);
+    box-shadow: none;
+}
+
+.llm-helper-radar-content .kinetik-radar-card,
+.llm-helper-radar-content .kinetik-radar-hero,
+.llm-helper-chat-content .kinetik-hero-card,
+.llm-helper-related-notes-content .llm-helper-related-note-card,
+.rag-chat-modal .rag-chat-welcome-content,
+.llm-helper-insight-canvas-modal .llm-helper-insight-canvas-summary,
+.llm-helper-settings-section .llm-helper-settings-section-content {
+    background-image: var(--llb-dots);
+    background-size: 8px 8px;
+}
+
+.llm-helper-chat-content .llm-helper-chat-history,
+.llm-helper-radar-content .kinetik-radar-results,
+.llm-helper-related-notes-content .llm-helper-related-notes-results,
+.rag-chat-modal .rag-chat-history {
+    scrollbar-color: var(--text-muted) transparent;
+}
+
+.llm-helper-related-notes-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    min-height: 0;
+    padding: 14px;
+    color: var(--text-normal);
+}
+
+.llm-helper-related-notes-content .llm-helper-related-notes-header,
+.llm-helper-related-notes-content .llm-helper-related-notes-title-wrap,
+.llm-helper-related-notes-content .llm-helper-related-notes-actions,
+.llm-helper-related-notes-content .llm-helper-related-note-title-row,
+.llm-helper-related-notes-content .llm-helper-related-note-row-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.llm-helper-related-notes-content .llm-helper-related-notes-header {
+    justify-content: space-between;
+    padding: 10px 12px;
+    border: 1px solid var(--llb-border);
+}
+
+.llm-helper-related-notes-content .llm-helper-related-notes-title-text h2 {
+    margin: 0;
+    font-size: 14px;
+}
+
+.llm-helper-related-notes-content .llm-helper-related-notes-status,
+.llm-helper-related-notes-content .llm-helper-related-notes-helper,
+.llm-helper-related-notes-content .llm-helper-related-note-path,
+.llm-helper-related-notes-content .llm-helper-related-note-score {
+    color: var(--text-muted);
+    font-family: var(--font-monospace);
+    font-size: 10px;
+}
+
+.llm-helper-related-notes-content .llm-helper-related-notes-actions {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 9px 11px;
+    border: 1px solid var(--llb-border);
+    background: var(--background-secondary);
+}
+
+.llm-helper-related-notes-content .llm-helper-related-notes-results {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-height: 0;
+    overflow-y: auto;
+}
+
+.llm-helper-related-notes-content .llm-helper-related-note-card {
+    display: flex;
+    gap: 10px;
+    padding: 11px;
+}
+
+.llm-helper-related-notes-content .llm-helper-related-note-body {
+    flex: 1;
     min-width: 0;
 }
 
-.kinetik-chip-text-wrap {
+.llm-helper-related-notes-content .llm-helper-related-note-title-row {
+    justify-content: space-between;
+}
+
+.llm-helper-related-notes-content .llm-helper-related-note-open {
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: var(--text-normal);
+    font-weight: 600;
+    text-align: left;
+}
+
+.llm-helper-related-notes-content .llm-helper-related-note-preview {
+    margin-top: 7px;
+    color: var(--text-muted);
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.llm-helper-related-notes-content .llm-helper-related-note-row-actions {
+    margin-top: 8px;
+}
+
+.llm-helper-related-notes-content .llm-helper-related-notes-empty {
+    padding: 18px;
+    border: 1px dashed var(--llb-border);
+    color: var(--text-muted);
+    font-size: 12px;
+    text-align: center;
+}
+
+.llm-helper-settings-section .llm-helper-settings-section-content {
+    padding: 12px;
+}
+
+.prompt-picker-modal .prompt-preset-button:hover {
+    border-color: var(--text-normal);
+    background: var(--text-normal);
+    color: var(--background-primary);
+}
+
+.llm-helper-radar-content .kinetik-action-btn:focus-visible,
+.llm-helper-radar-content .kinetik-feedback-btn:focus-visible,
+.llm-helper-radar-content .kinetik-source-pill:focus-visible,
+.llm-helper-radar-content .kinetik-radar-tab:focus-visible,
+.llm-helper-chat-content :focus-visible,
+.rag-chat-modal :focus-visible,
+.llm-helper-related-notes-content :focus-visible,
+.llm-helper-insight-canvas-modal :focus-visible,
+.prompt-picker-modal :focus-visible {
+    outline-color: var(--text-normal);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .llm-helper-chat-content *,
+    .llm-helper-radar-content *,
+    .llm-helper-related-notes-content *,
+    .rag-chat-modal * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* Keep welcome suggestions readable as the Obsidian sidebar narrows. */
+.llm-helper-chat-content,
+.llm-helper-chat-content .llm-helper-chat-container,
+.llm-helper-chat-content .llm-helper-chat-history,
+.llm-helper-chat-content .kinetik-hero-card {
+    min-width: 0;
+}
+
+.llm-helper-chat-content .kinetik-hero-chips {
+    box-sizing: border-box;
+    width: min(100%, 320px);
+    min-width: 0;
+    margin: 0 auto 14px;
+}
+
+.llm-helper-chat-content .kinetik-chip {
+    box-sizing: border-box;
+    min-width: 0;
+    max-width: 100%;
+    height: auto;
+    min-height: 48px;
+    white-space: normal;
+    padding: 10px 12px;
+    box-shadow: none;
+}
+
+.llm-helper-chat-content .kinetik-chip-text-wrap {
     display: flex;
-    flex: 1 1 auto;
+    flex: 1 1 0%;
     flex-direction: column;
     gap: 2px;
     min-width: 0;
 }
 
-.kinetik-chip-label {
+.llm-helper-chat-content .kinetik-chip-label,
+.llm-helper-chat-content .kinetik-chip-desc {
     display: block;
     min-width: 0;
     overflow-wrap: anywhere;
-    text-overflow: clip;
+    white-space: normal;
+    line-height: 1.35;
+}
+
+.llm-helper-chat-content .kinetik-chip-label {
+    flex: initial;
+    overflow: visible;
+    font-weight: 600;
+}
+
+.llm-helper-chat-content .kinetik-chip-desc {
+    color: var(--text-muted);
+    font-size: 10.5px;
+}
+
+.llm-helper-chat-content .kinetik-chip-arrow {
+    flex: 0 0 auto;
+    margin-left: auto;
+}
+
+/* Quiet chat surfaces; sizing follows the pane rather than the app window. */
+.llm-helper-chat-content {
+    container-type: inline-size;
+    overflow: hidden;
+    background-image: none;
+}
+
+.llm-helper-chat-content .llm-helper-chat-header {
+    background-image: none;
+    flex-shrink: 0;
+}
+
+.llm-helper-chat-content .llm-helper-chat-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+}
+
+.llm-helper-chat-content .llm-helper-chat-history {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.llm-helper-chat-content .kinetik-hero-card {
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+    margin: auto 0;
+    padding: 20px 8px;
+}
+
+.llm-helper-chat-content .kinetik-chip {
+    border-color: transparent;
+    border-radius: 8px;
+    background: transparent;
+}
+
+.llm-helper-chat-content .kinetik-chip:hover {
+    background: var(--background-modifier-hover);
+    border-color: transparent;
+}
+
+.llm-helper-chat-content .llm-helper-chat-input-container {
+    flex-shrink: 0;
+    min-width: 0;
+    margin: 8px 12px 12px;
+    padding: 10px;
+    border: 1px solid color-mix(in srgb, var(--text-normal) 12%, transparent);
+    border-radius: 10px;
+    background: var(--background-secondary);
+    box-shadow: none;
+}
+
+.llm-helper-chat-content .llm-helper-chat-input-container:focus-within {
+    border-color: color-mix(in srgb, var(--text-normal) 28%, transparent);
+    box-shadow: none;
+}
+
+.llm-helper-chat-content .llm-helper-chat-input,
+.llm-helper-chat-content .llm-helper-chat-input:focus {
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+}
+
+.llm-helper-chat-content .llm-helper-chat-target-chip {
+    min-width: 0;
+    max-width: 100%;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    border: 0;
+    background: transparent;
+    padding: 2px 0;
+    color: var(--text-muted);
+}
+
+.llm-helper-chat-content .kinetik-chip-dot {
+    flex-shrink: 0;
+}
+
+@container (max-width: 360px) {
+    .llm-helper-chat-content .llm-helper-chat-header {
+        gap: 6px;
+        padding: 10px 8px;
+        flex-wrap: wrap;
+    }
+
+    .llm-helper-chat-content .llm-helper-chat-history {
+        padding: 8px;
+    }
+
+    .llm-helper-chat-content .llm-helper-chat-input-container {
+        margin: 6px 8px 8px;
+    }
+
+    .llm-helper-chat-content .llm-helper-chat-input-row {
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+
+    .llm-helper-chat-content .llm-helper-chat-input {
+        flex-basis: 100%;
+    }
+}
+
+/* Local adaptations of Lucide Animated; see LUCIDE-ANIMATED-LICENSE. */
+[data-animated-icon] {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+[data-animated-icon] svg {
+    flex-shrink: 0;
+    overflow: visible;
+}
+
+[data-animated-icon] svg > * {
+    transform-box: fill-box;
+    transform-origin: center;
+}
+
+.llm-helper-chat-content .kinetik-hero-icon {
+    border: 0;
+    background: transparent;
+    animation: none;
+}
+
+.llm-helper-chat-content .llm-helper-chat-submit {
+    gap: 7px;
+}
+
+[data-animated-icon="send"] svg > path:last-child {
+    opacity: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    [data-animated-icon="copy"] svg > * {
+        transition: transform 350ms cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    [data-animated-icon="copy"]:is(:hover, :focus-visible) svg > rect {
+        transform: translate(-3px, -3px);
+    }
+
+    [data-animated-icon="copy"]:is(:hover, :focus-visible) svg > path {
+        transform: translate(3px, 3px);
+    }
+
+    [data-animated-icon="mic"]:is(:hover, :focus-visible) svg > rect {
+        animation: llb-mic-capsule 600ms ease-in-out;
+    }
+
+    [data-animated-icon="sparkles"]:hover svg > path:first-child {
+        animation: llb-sparkle 1s ease-in-out;
+    }
+
+    [data-animated-icon="sparkles"]:hover svg > path:not(:first-child) {
+        animation: llb-star-blink 1200ms ease-in-out;
+    }
+
+    button:not(:disabled):is(:hover, :focus-visible) [data-animated-icon="send"] svg > path:not(:last-child) {
+        animation: llb-send-flight 500ms ease-in-out forwards;
+    }
+
+    button:not(:disabled):is(:hover, :focus-visible) [data-animated-icon="send"] svg > path:last-child {
+        animation: llb-send-trail 550ms 100ms ease-in-out forwards;
+    }
+}
+
+@keyframes llb-mic-capsule {
+    0%, 50%, 100% { transform: translateY(0); }
+    25% { transform: translateY(-3px); }
+    75% { transform: translateY(-2px); }
+}
+
+@keyframes llb-sparkle {
+    0%, 100% { transform: translateY(0); fill: none; }
+    40% { transform: translateY(-1px); fill: currentColor; }
+}
+
+@keyframes llb-star-blink {
+    0%, 100% { opacity: 1; }
+    30%, 65% { opacity: 0.2; }
+}
+
+@keyframes llb-send-flight {
+    to { transform: translate(3px, -3px) scale(0.8); }
+}
+
+@keyframes llb-send-trail {
+    from { opacity: 0; transform: translate(-3px, 3px); }
+    to { opacity: 1; transform: translate(0, 0); }
+}
+
+/* Shared pane rhythm and controls. */
+.llm-helper-chat-content,
+.llm-helper-radar-content,
+.llm-helper-related-notes-content {
+    --llb-pane-gutter: 12px;
+    --llb-control-radius: 6px;
+}
+
+.llm-helper-chat-content .llm-helper-chat-header {
+    gap: 8px;
+    padding: 12px var(--llb-pane-gutter);
+    flex-wrap: nowrap;
+}
+
+.llm-helper-chat-content .llm-helper-chat-title-wrap {
+    flex: 1;
+}
+
+.llm-helper-chat-content .llm-helper-chat-title-text h2,
+.llm-helper-chat-content .llm-helper-chat-status {
+    overflow-wrap: anywhere;
+    line-height: 1.4;
+}
+
+.llm-helper-chat-header-actions {
+    display: flex;
+    align-items: center;
+    flex: 0 0 auto;
+    gap: 4px;
+}
+
+.llm-helper-chat-content .llm-helper-chat-header-action,
+.llm-helper-chat-content .llb-helper-chat-mic-btn {
+    width: 32px;
+    height: 32px;
+    padding: 6px;
+    border-radius: var(--llb-control-radius);
+    box-shadow: none;
+    transform: none;
+}
+
+.llm-helper-chat-content .llm-helper-chat-mode-toggle {
+    flex-shrink: 0;
+    margin: 12px var(--llb-pane-gutter) 8px;
+    border-radius: 8px;
+}
+
+.llm-helper-chat-content .llm-helper-chat-mode-toggle button {
+    min-height: 30px;
+    border-radius: var(--llb-control-radius);
+}
+
+.llm-helper-chat-content .llm-helper-chat-scope {
+    flex-shrink: 0;
+    margin: 0 var(--llb-pane-gutter) 8px;
+    padding: 8px;
+    border-radius: 8px;
+    min-width: 0;
+}
+
+.llm-helper-chat-content .llm-helper-chat-scope input,
+.llm-helper-chat-content .llm-helper-chat-scope select {
+    min-width: 0;
+    max-width: 100%;
+}
+
+.llm-helper-chat-content .llm-helper-chat-history {
+    padding: 12px var(--llb-pane-gutter);
+    gap: 16px;
+    scrollbar-gutter: stable;
+}
+
+.llm-helper-chat-content .kinetik-hero-title {
+    font-size: 20px;
+    line-height: 1.3;
+    letter-spacing: -0.3px;
+}
+
+.llm-helper-chat-content .kinetik-hero-desc {
+    max-width: 32ch;
+    margin: 8px auto 20px;
+    line-height: 1.6;
+}
+
+.llm-helper-chat-content .kinetik-hero-chips {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.llm-helper-chat-content .kinetik-chip {
+    text-align: left;
+    gap: 10px;
+}
+
+.llm-helper-chat-content .kinetik-chip-desc {
+    font-size: 11px;
+    line-height: 1.5;
+}
+
+.llm-helper-chat-content .llm-helper-chat-input-container {
+    margin: 8px var(--llb-pane-gutter) 12px;
+    background-image: none;
+}
+
+.llm-helper-chat-content .llm-helper-chat-input-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 32px auto;
+    align-items: end;
+    gap: 8px;
+}
+
+.llm-helper-chat-content .llm-helper-chat-submit {
+    height: 32px;
+    min-height: 32px;
+    border-radius: var(--llb-control-radius);
+    padding: 0 12px;
+}
+
+.llm-helper-chat-content .rag-chat-message {
+    min-width: 0;
+    max-width: 100%;
+    overflow-wrap: anywhere;
+    border-radius: 8px;
+    background-image: none;
+    line-height: 1.6;
+}
+
+.llm-helper-radar-content .kinetik-radar-header,
+.llm-helper-related-notes-content .llm-helper-related-notes-header {
+    padding: 12px var(--llb-pane-gutter);
+    gap: 8px;
+}
+
+.llm-helper-radar-content .kinetik-radar-card,
+.llm-helper-related-notes-content .llm-helper-related-note-card {
+    border-radius: 8px;
+    padding: 12px;
+    background-image: none;
+}
+
+@container (max-width: 360px) {
+    .llm-helper-chat-content .llm-helper-chat-input-row {
+        grid-template-columns: minmax(0, 1fr) 32px auto;
+    }
+
+    .llm-helper-chat-content .llm-helper-chat-input {
+        grid-column: 1 / -1;
+    }
+
+    .llm-helper-chat-content .llb-helper-chat-mic-btn {
+        grid-column: 2;
+    }
+}
+
+/* Radar shares the quiet surfaces and spacing of chat. */
+.llm-helper-radar-content {
+    container-type: inline-size;
+    min-width: 0;
+    padding: 12px;
+    background-image: none;
+    overflow: hidden;
+}
+
+.llm-helper-radar-content .kinetik-radar-header {
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    padding: 0 0 12px;
+    background: transparent;
+    border: 0;
+}
+
+.llm-helper-radar-content .kinetik-radar-title-wrap {
+    flex: 1 1 140px;
+    min-width: 0;
+}
+
+.llm-helper-radar-content .kinetik-radar-icon,
+.llm-helper-radar-content .kinetik-radar-hero-icon {
+    border: 0;
+    background: transparent;
+}
+
+.llm-helper-radar-content .kinetik-radar-beacon-ring {
+    display: none;
+}
+
+.llm-helper-radar-content .kinetik-radar-tabs {
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    gap: 4px;
+    padding: 0 0 12px;
+    border: 0;
+    background: transparent;
+    overflow: visible;
+}
+
+.llm-helper-radar-content .kinetik-radar-tabs.is-hidden {
+    display: none;
+}
+
+.llm-helper-radar-content .kinetik-radar-tab {
+    border-radius: 6px;
+    min-height: 30px;
+    height: auto;
     white-space: normal;
 }
 
-.kinetik-chip-desc {
-    display: block;
-    color: var(--text-faint);
-    font-size: 10.5px;
-    line-height: 1.35;
-    overflow-wrap: anywhere;
-}
-
-.kinetik-chip-arrow {
-    flex: 0 0 auto;
-    margin-left: auto;
-    color: var(--text-faint);
-}
-
-.kinetik-radar-tab {
-    flex: 0 0 auto;
-}
-
-.kinetik-card-title,
-.kinetik-card-body,
-.kinetik-action-text {
-    overflow-wrap: anywhere;
-}
-
-.kinetik-source-pill {
-    max-width: 100%;
-    min-width: 0;
-}
-
-.kinetik-source-label {
-    min-width: 0;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
-
-.kinetik-module-tag {
-    flex: 0 0 auto;
-}
-
-@container llb-chat (max-width: 420px) {
-    .llm-helper-chat-header {
-        gap: 8px;
-        padding: 10px;
-    }
-
-    .llm-helper-chat-mode-toggle {
-        margin: 8px 10px;
-    }
-
-    .llm-helper-chat-mode-toggle button {
-        padding: 6px 9px;
-    }
-
-    .llm-helper-chat-scope {
-        margin-right: 10px;
-        margin-left: 10px;
-        padding: 7px 10px;
-    }
-
-    .llm-helper-chat-scope .rag-chat-scope-select {
-        max-width: 100%;
-        min-width: 0;
-    }
-
-    .llm-helper-chat-empty.kinetik-hero-card {
-        margin-right: 0;
-        margin-left: 0;
-        padding: 20px 14px;
-        border-radius: 16px;
-    }
-
-    .kinetik-chip {
-        gap: 7px;
-        padding: 8px 10px;
-    }
-
-    .llm-helper-chat-input-container {
-        margin: 6px 8px 10px;
-        padding: 8px 10px;
-        border-radius: 14px;
-    }
-
-    .llm-helper-chat-input-row {
-        gap: 4px;
-    }
-
-    .llb-helper-chat-mic-btn {
-        width: 32px;
-        height: 32px;
-    }
-
-    .llm-helper-chat-submit.rag-chat-submit-btn {
-        padding-right: 12px;
-        padding-left: 12px;
-    }
-}
-
-@container llb-chat (max-width: 320px) {
-    .llm-helper-chat-header {
-        gap: 5px;
-        padding: 8px 9px;
-    }
-
-    .llm-helper-chat-icon {
-        width: 28px;
-        height: 28px;
-    }
-
-    .llm-helper-chat-title-text h2 {
-        max-width: 112px;
-        overflow: hidden;
-        font-size: 13px;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-    }
-
-    .llm-helper-chat-header-action {
-        width: 27px;
-        height: 27px;
-    }
-
-    .llm-helper-chat-mode-toggle {
-        margin: 7px 8px;
-    }
-
-    .llm-helper-chat-mode-toggle button {
-        padding: 6px 7px;
-        font-size: 11px;
-    }
-
-    .llm-helper-chat-scope {
-        gap: 6px;
-        margin-right: 8px;
-        margin-left: 8px;
-        padding: 6px 8px;
-    }
-
-    .llm-helper-chat-empty.kinetik-hero-card {
-        padding: 16px 10px;
-    }
-
-    .kinetik-hero-desc {
-        font-size: 11.5px;
-    }
-
-    .kinetik-chip {
-        gap: 6px;
-        padding: 7px 8px;
-    }
-
-    .kinetik-chip-desc {
-        font-size: 10px;
-        -webkit-box-orient: vertical;
-        -webkit-line-clamp: 2;
-        display: -webkit-box;
-        overflow: hidden;
-    }
-
-    .llm-helper-chat-input-container {
-        margin: 5px 6px 8px;
-        padding: 7px 8px;
-    }
-
-    .llm-helper-chat-target-chip {
-        max-width: 100%;
-        min-width: 0;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-    }
-
-    .llb-helper-chat-mic-btn {
-        width: 30px;
-        height: 30px;
-    }
-
-    .llm-helper-chat-submit.rag-chat-submit-btn {
-        min-height: 32px;
-        height: 32px;
-        padding-right: 8px;
-        padding-left: 8px;
-        font-size: 11.5px;
-    }
-
-    .llm-helper-chat-disclaimer {
-        font-size: 9.5px;
-    }
-}
-
-@container llb-radar (max-width: 380px) {
-    .llm-helper-radar-content {
-        padding: 12px 10px;
-    }
-
-    .kinetik-radar-header {
-        gap: 8px;
-    }
-
-    .kinetik-radar-run-btn {
-        padding-right: 10px;
-        padding-left: 10px;
-    }
-
-    .kinetik-radar-tabs {
-        gap: 3px;
-        padding: 3px;
-    }
-
-    .kinetik-radar-tab {
-        gap: 4px;
-        padding: 5px 7px;
-        font-size: 10.5px;
-    }
-
-    .kinetik-radar-results {
-        gap: 10px;
-    }
-
-    .kinetik-radar-card {
-        padding: 12px;
-    }
-
-    .kinetik-card-header {
-        flex-wrap: wrap;
-    }
-
-    .kinetik-card-title-group {
-        flex: 1 1 140px;
-    }
-
-    .kinetik-confidence-meter {
-        margin-left: auto;
-    }
-}
-
-@container llb-radar (max-width: 320px) {
-    .kinetik-radar-header {
-        flex-wrap: wrap;
-    }
-
-    .kinetik-radar-title-wrap {
-        flex: 1 1 100%;
-        min-width: 0;
-    }
-
-    .kinetik-radar-run-btn {
-        justify-content: center;
-        width: 100%;
-    }
-
-    .kinetik-radar-tab {
-        gap: 3px;
-        padding: 5px 6px;
-        font-size: 10px;
-    }
-
-    .kinetik-radar-card {
-        padding: 10px;
-    }
-
-    .kinetik-confidence-meter {
-        padding: 2px 5px;
-    }
-}
-
-@container llb-rag-modal (max-width: 480px) {
-    .rag-chat-header {
-        gap: 8px;
-        padding: 12px;
-    }
-
-    .rag-chat-scope-bar,
-    .workflow-runner-bar,
-    .workflow-runner-fields {
-        padding-right: 12px;
-        padding-left: 12px;
-    }
-
-    .rag-chat-scope-meta,
-    .rag-chat-scope-input-wrap,
-    .workflow-runner-field-row .rag-chat-scope-input {
-        min-width: 0;
-    }
-
-    .workflow-runner-field-row .rag-chat-scope-label {
-        min-width: 0;
-    }
-
-    .rag-chat-input-container {
-        padding: 10px 12px;
-    }
-
-    .rag-chat-message {
-        max-width: 94%;
-        padding: 9px 11px;
-    }
-}
-
-@media (max-height: 560px) and (max-width: 600px) {
-    .rag-chat-modal {
-        height: calc(100dvh - 24px);
-        max-height: none;
-    }
-}
-
-/* Clipboard controls remain available without hover and on touch screens. */
-.llm-helper-chat-composer-meta {
-    min-width: 0;
-}
-
-.llm-helper-chat-target-chip {
-    max-width: calc(100% - 36px);
-    min-width: 0;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
-
-.llm-helper-chat-paste-btn {
-    display: inline-flex;
-    flex: 0 0 30px;
-    align-items: center;
-    justify-content: center;
-    width: 30px;
-    height: 30px;
-    padding: 0;
-    border: 1px solid var(--background-modifier-border);
-    border-radius: 8px;
-    background: var(--background-secondary);
-    color: var(--text-muted);
-    cursor: pointer;
-    transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
-}
-
-.llm-helper-chat-paste-btn:hover {
-    border-color: var(--text-muted);
+.llm-helper-radar-content .kinetik-radar-tab.is-active {
     background: var(--background-modifier-hover);
     color: var(--text-normal);
 }
 
-.llm-helper-chat-paste-btn svg {
-    width: 15px;
-    height: 15px;
+.llm-helper-radar-content .kinetik-radar-results {
+    min-width: 0;
+    gap: 12px;
+    padding: 0;
+    scrollbar-gutter: stable;
 }
 
-.rag-chat-copy-btn.is-copied {
-    opacity: 1;
+.llm-helper-radar-content .kinetik-radar-card {
+    flex-shrink: 0;
+    min-width: 0;
+    border: 1px solid color-mix(in srgb, var(--text-normal) 12%, transparent);
+    border-left-width: 1px;
+    border-radius: 10px;
+    padding: 16px;
+    background: var(--background-secondary);
+    box-shadow: none;
+}
+
+.llm-helper-radar-content .kinetik-card-header {
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.llm-helper-radar-content .kinetik-card-title-group {
+    min-width: 0;
+    flex: 1 1 180px;
+}
+
+.llm-helper-radar-content .kinetik-card-title,
+.llm-helper-radar-content .kinetik-card-body,
+.llm-helper-radar-content .kinetik-action-text {
+    overflow-wrap: anywhere;
+    line-height: 1.6;
+}
+
+.llm-helper-radar-content .kinetik-confidence-meter {
+    border: 0;
+    padding: 0;
+    background: transparent;
+    color: var(--text-muted);
+}
+
+.llm-helper-radar-content .kinetik-action-box {
+    background: transparent;
+    border: 0;
+    border-left: 2px solid var(--background-modifier-border);
+    border-radius: 0;
+    padding: 4px 0 4px 12px;
+}
+
+.llm-helper-radar-content .kinetik-source-pill,
+.llm-helper-radar-content .kinetik-action-btn,
+.llm-helper-radar-content .kinetik-feedback-btn,
+.llm-helper-radar-content .kinetik-micro-btn,
+.llm-helper-radar-content .kinetik-radar-run-btn,
+.llm-helper-radar-content .kinetik-hero-cta {
+    min-width: 0;
+    max-width: 100%;
+    height: auto;
+    min-height: 30px;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    border-radius: 6px;
+    box-shadow: none;
+}
+
+.llm-helper-radar-content .kinetik-source-label {
+    min-width: 0;
+    white-space: normal;
+    overflow-wrap: anywhere;
+}
+
+.llm-helper-radar-content .kinetik-card-actions {
+    border-top-color: color-mix(in srgb, var(--text-normal) 10%, transparent);
+    margin-top: 14px;
+    padding-top: 12px;
+}
+
+.llm-helper-radar-content .kinetik-radar-hero {
+    margin: auto 0;
+    border: 0;
+    background: transparent;
+    padding: 24px 8px;
+}
+
+.llm-helper-radar-content .kinetik-radar-hero-title {
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+.llm-helper-radar-content .kinetik-radar-hero-desc {
+    max-width: 34ch;
+    line-height: 1.6;
+}
+
+.llm-helper-radar-content .kinetik-hero-chips {
+    min-width: 0;
+    max-width: 100%;
+}
+
+.llm-helper-radar-content .kinetik-chip {
+    height: auto;
+    min-width: 0;
+    white-space: normal;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+    padding: 6px 0;
+    text-align: left;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .llm-helper-radar-content button:not(:disabled):is(:hover, :focus-visible) [data-animated-icon="sparkles"] svg > path:first-child {
+        animation: llb-sparkle 1s ease-in-out;
+    }
+}
+
+@container (max-width: 360px) {
+    .llm-helper-radar-content .kinetik-radar-card {
+        padding: 12px;
+    }
+
+    .llm-helper-radar-content .kinetik-primary-actions {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .llm-helper-radar-content .kinetik-action-btn {
+        justify-content: center;
+    }
+}
+
+.llm-helper-chat-composer-meta.is-hidden,
+.rag-chat-scope-meta:empty {
+    display: none;
+}
+
+/* Radar control hierarchy: actions first, feedback second. */
+.llm-helper-radar-content {
+    --llb-radar-line: color-mix(in srgb, var(--text-normal) 12%, transparent);
+    --llb-radar-hover: var(--background-modifier-hover);
+}
+
+.llm-helper-radar-content .kinetik-radar-results {
+    gap: 16px;
+}
+
+.llm-helper-radar-content .kinetik-radar-card {
+    padding: 18px;
+}
+
+.llm-helper-radar-content .kinetik-card-header {
+    margin-bottom: 12px;
+}
+
+.llb-radar-card-metadata {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px 12px;
+    margin-bottom: 8px;
+}
+
+.llm-helper-radar-content .kinetik-kind-badge {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: var(--text-muted);
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 11px;
+    font-weight: 500;
+    gap: 6px;
+}
+
+.llm-helper-radar-content .kinetik-card-title {
+    font-size: 15px;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.llm-helper-radar-content .kinetik-card-body {
+    font-size: 13px;
+    margin-bottom: 16px;
+}
+
+.llm-helper-radar-content .kinetik-action-box {
+    margin-bottom: 16px;
+}
+
+.llm-helper-radar-content .kinetik-sources-heading {
+    font-size: 11px;
+    text-transform: none;
+    letter-spacing: 0;
+    margin-bottom: 8px;
+    color: var(--text-muted);
+}
+
+.llm-helper-radar-content .kinetik-sources-wrap {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 4px;
+    margin-bottom: 0;
+}
+
+.llm-helper-radar-content .kinetik-source-pill {
+    justify-content: flex-start;
+    text-align: left;
+    padding: 7px 8px;
+    border: 1px solid transparent;
+    background: transparent;
+    gap: 8px;
+}
+
+.llm-helper-radar-content .kinetik-source-pill:hover:not(:disabled) {
+    border-color: transparent;
+    background: var(--llb-radar-hover);
+}
+
+.llm-helper-radar-content .kinetik-primary-actions {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+}
+
+.llm-helper-radar-content .kinetik-action-btn,
+.llm-helper-radar-content .kinetik-action-btn.is-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-height: 36px;
+    padding: 8px 10px;
+    border: 1px solid var(--llb-radar-line);
+    border-radius: 8px;
+    background: transparent;
+    color: var(--text-normal) !important;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.llm-helper-radar-content .kinetik-action-btn:hover:not(:disabled) {
+    background: var(--llb-radar-hover);
+    border-color: var(--background-modifier-border-hover);
+}
+
+.llb-radar-secondary-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 6px 12px;
+    min-width: 0;
+}
+
+.llm-helper-radar-content .kinetik-feedback-btn,
+.llm-helper-radar-content .kinetik-more-actions summary {
+    border: 1px solid transparent;
+    background: transparent;
+    padding: 5px 6px;
+    min-height: 30px;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: none;
+}
+
+.llm-helper-radar-content .kinetik-feedback-btn:hover:not(:disabled),
+.llm-helper-radar-content .kinetik-feedback-btn.is-pressed {
+    background: var(--llb-radar-hover);
+    border-color: var(--llb-radar-line);
     color: var(--text-normal);
 }
 
-@media (hover: none), (pointer: coarse) {
-    .rag-chat-message-ai .rag-chat-copy-btn,
-    .rag-chat-message-ai .copy-button {
-        opacity: 1;
-        width: 30px;
-        height: 30px;
-    }
-
-    .rag-chat-message-ai {
-        padding-top: 40px;
-    }
-
-    .llm-helper-chat-paste-btn {
-        width: 32px;
-        height: 32px;
-        flex-basis: 32px;
-    }
+.llm-helper-radar-content .kinetik-more-actions[open] summary svg {
+    transform: none;
 }
 
-@container llb-chat (max-width: 420px) {
-    .rag-chat-message-ai .rag-chat-copy-btn {
-        opacity: 1;
-        width: 30px;
-        height: 30px;
+.llm-helper-radar-content .kinetik-btn-icon,
+.llm-helper-radar-content .kinetik-kind-icon {
+    display: inline-flex;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+}
+
+.llm-helper-radar-content .kinetik-btn-icon svg,
+.llm-helper-radar-content .kinetik-kind-icon svg,
+.llm-helper-radar-content .kinetik-radar-tab-icon svg {
+    width: 15px;
+    height: 15px;
+    stroke-width: 1.7;
+}
+
+.llm-helper-radar-content button:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+}
+
+.llm-helper-radar-content :is(button, summary):focus-visible {
+    outline: 2px solid var(--text-normal);
+    outline-offset: 3px;
+}
+
+@container (max-width: 300px) {
+    .llm-helper-radar-content .kinetik-radar-card {
+        padding: 12px;
     }
 
-    .rag-chat-message-ai {
-        padding-top: 40px;
+    .llm-helper-radar-content .kinetik-primary-actions {
+        grid-template-columns: minmax(0, 1fr);
     }
 
-    .llm-helper-chat-paste-btn {
-        width: 32px;
-        height: 32px;
-        flex-basis: 32px;
+    .llm-helper-radar-content .kinetik-response-label {
+        flex-basis: 100%;
     }
 }

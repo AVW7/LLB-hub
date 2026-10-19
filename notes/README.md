@@ -1,14 +1,14 @@
----
-date: 2026-10-19
-type: index
-tags: [second-brain]
-ai-first: true
----
+# notes — Contents Overview
 
-# Notes
+**Module:** notes
+**Total files:** 2
 
-## For future agent
+## Undated / Special Files
 
-General topic notes; existing legal study notes stay in their subject folders.
+- **Board Exam Memo Coverage.md** — marking_memo
+- **Board Exam OCR Audit.md** — general
 
-Start at [[brain]]. Use one subject per note and include sources and dates.
+## Question/Memo Pairs
+
+- Exam question papers: 0
+- Marking memoranda: 1

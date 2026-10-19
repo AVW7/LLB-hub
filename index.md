@@ -1,6 +1,6 @@
 # LLB Hub — Index
 
-**Scanned:** 562 files across 14 subject folders  
+**Scanned:** 798 files across 14 subject folders  
 **Last updated:** 2026-10-19  
 **Source:** LSSA / School for Legal Practice past exam papers, memoranda, assignments, webinar slides and precedents.
 
@@ -22,7 +22,7 @@
 | IPM | Introduction to Practice Management (Module 4) | 22 |
 | ICP | Introduction to Conveyancing Practice (Module 3.2) | 24 |
 | BBST | Broad Based Skills Test (Integrated Practical Exam) | 46 |
-| Attorneys Exam | Attorneys Admission Examination (Board Exam) | 18 |
+| Attorneys Exam | Attorneys Admission Examination (Board Exam) | 250 |
 | LSSA | LSSA Reference Materials and Miscellaneous | 9 |
 
 ## Quality & Gaps
@@ -30,6 +30,122 @@
 | Path | Type | Quality | Gaps |
 |------|------|---------|------|
 | ./Attorneys Exam/Attorneys Exam.base | general | 0.5 | empty or near-empty |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2015P1A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2015P2A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2016P3A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2016P4A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam11Feb2015P3A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam11Feb2015P4A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam14Feb2017P2A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam15Feb2017P4A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam15Oct2018P1A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam15Oct2018P2A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam16Aug2016P2A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam16Oct2018P4A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam17Aug2016P4A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam17Mar2021P1A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam17Mar2021P2A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Aug2015P1A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Aug2015P2A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Mar2021P3A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Mar2021P4A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Aug2015P3A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Aug2015P4A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Feb2020P1A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Feb2020P2A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Oct2021P1A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Oct2021P2A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam20Feb2020P3A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam20Feb2020P4A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam20Oct2021P3A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam20Oct2021P4A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam21Aug2019P1A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam21Aug2019P2A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2017P1A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2017P2A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2019P3A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2019P4A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam23Aug2017P3A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam23Aug2017P4A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam4Nov2020P1A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam4Nov2020P2A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam5Nov2020P3A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam5Nov2020P4A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam6Feb2018P1A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam6Feb2018P2A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam6Mar2019P1A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam6Mar2019P2A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam7Feb2018P3A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam7Feb2018P4A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam7Mar2019P3A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam7Mar2019P4A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Memoranda 2015-2021/AttExam9Feb2016P2A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2015P1Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2015P2Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2016P3Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2016P4Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam11Feb2015P3Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam11Feb2015P4Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam14Feb2017P2Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Feb2017P4Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2022P1Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2022P2Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2023P1Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2023P2Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2023P3Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Oct2018P1Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Oct2018P2Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Aug2016P2Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Aug2022P1Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Aug2022P2Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Mar2022P3Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Mar2022P4Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Mar2023P4Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Oct2018P4Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Aug2016P4Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Aug2022P3Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Aug2022P4Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Mar2021P1Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Mar2021P2Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Aug2015P1Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Aug2015P2Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Mar2021P3Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Mar2021P4Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Aug2015P3Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Aug2015P4Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Feb2020P1Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Feb2020P2Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Oct2021P1Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Oct2021P2Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Feb2020P3Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Feb2020P4Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Oct2021P3Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Oct2021P4Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam21Aug2019P1Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam21Aug2019P2Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2017P1Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2017P2Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2019P3Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2019P4Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam23Aug2017P3Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam23Aug2017P4Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam23Aug2023P1Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam23Aug2023P2Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam24Aug2023P3Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam24Aug2023P4Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam4Nov2020P1Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam4Nov2020P2Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam5Nov2020P3Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam5Nov2020P4Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Feb2018P1Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Feb2018P2Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Mar2019P1Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Mar2019P2Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Feb2018P3Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Feb2018P4Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Mar2019P3Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Mar2019P4Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
+| ./Attorneys Exam/Official Previous Papers 2015-2023/AttExam9Feb2016P2Q.pdf | exam_question | 1.0 | scanned/no extractable text (OCR needed) |
 | ./BBST/BBST.base | general | 0.5 | empty or near-empty |
 | ./BBST/BBST2018(2) Statement of Facts.pdf | general | 1.0 | scanned/no extractable text (OCR needed) |
 | ./CCP/CCP.base | general | 0.5 | empty or near-empty |
@@ -445,6 +561,238 @@
 - **[AttExam9Feb2016Q/markdown.md](./Attorneys Exam/AttExam9Feb2016Q.pdf/markdown.md)** *(exam_question, topics: bail, s115-statement, s112-statement, plea, appeal)* — Attorneys Admission Examination — exam question paper
 - **[Attorneys Exam Dashboard.md](./Attorneys Exam/Attorneys Exam Dashboard.md)** *(general, topics: bail, plea, appeal, vat, close-corporation)* — Attorneys Admission Examination — document
 - **[Attorneys Exam.base](./Attorneys Exam/Attorneys Exam.base)** *(general)* — Attorneys Admission Examination — document  ⚠️ empty or near-empty
+- **[AttExam10Feb2015P1A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2015P1A.md)** *(marking_memo, topics: plea, leave-to-appeal, appeal, vat, close-corporation)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam10Feb2015P1A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2015P1A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam10Feb2015P2A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2015P2A.md)** *(marking_memo, topics: plea)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam10Feb2015P2A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2015P2A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam10Feb2016P3A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2016P3A.md)** *(marking_memo, topics: plea, vat, party-and-party-costs, costs-de-bonis-propriis, pre-incorporation-contract)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam10Feb2016P3A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2016P3A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam10Feb2016P4A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2016P4A.md)** *(marking_memo, topics: plea, vat, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam10Feb2016P4A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2016P4A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam11Feb2015P3A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam11Feb2015P3A.md)** *(marking_memo, topics: plea, partnership, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam11Feb2015P3A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam11Feb2015P3A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam11Feb2015P4A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam11Feb2015P4A.md)** *(marking_memo, topics: plea, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam11Feb2015P4A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam11Feb2015P4A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam14Feb2017P2A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam14Feb2017P2A.md)** *(marking_memo, topics: plea)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam14Feb2017P2A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam14Feb2017P2A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam15Feb2017P4A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam15Feb2017P4A.md)** *(marking_memo, topics: plea, vat, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam15Feb2017P4A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam15Feb2017P4A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam15Oct2018P1A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam15Oct2018P1A.md)** *(marking_memo, topics: plea, leave-to-appeal, appeal, vat, close-corporation)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam15Oct2018P1A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam15Oct2018P1A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam15Oct2018P2A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam15Oct2018P2A.md)** *(marking_memo, topics: plea, vat)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam15Oct2018P2A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam15Oct2018P2A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam16Aug2016P2A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam16Aug2016P2A.md)** *(marking_memo, topics: plea, vat, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam16Aug2016P2A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam16Aug2016P2A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam16Oct2018P4A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam16Oct2018P4A.md)** *(marking_memo, topics: plea, vat, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam16Oct2018P4A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam16Oct2018P4A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam17Aug2016P4A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam17Aug2016P4A.md)** *(marking_memo, topics: plea, vat, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam17Aug2016P4A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam17Aug2016P4A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam17Mar2021P1A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam17Mar2021P1A.md)** *(marking_memo, topics: s115-statement, s112-statement, plea, vat, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam17Mar2021P1A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam17Mar2021P1A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam17Mar2021P2A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam17Mar2021P2A.md)** *(marking_memo, topics: plea, vat, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam17Mar2021P2A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam17Mar2021P2A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam18Aug2015P1A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Aug2015P1A.md)** *(marking_memo, topics: s115-statement, s112-statement, plea, appeal, vat)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam18Aug2015P1A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Aug2015P1A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam18Aug2015P2A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Aug2015P2A.md)** *(marking_memo, topics: plea, vat)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam18Aug2015P2A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Aug2015P2A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam18Mar2021P3A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Mar2021P3A.md)** *(marking_memo, topics: plea, vat, partnership, sole-proprietorship, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam18Mar2021P3A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Mar2021P3A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam18Mar2021P4A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Mar2021P4A.md)** *(marking_memo, topics: plea, vat, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam18Mar2021P4A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Mar2021P4A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam19Aug2015P3A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Aug2015P3A.md)** *(marking_memo, topics: plea, vat, partnership, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam19Aug2015P3A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Aug2015P3A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam19Aug2015P4A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Aug2015P4A.md)** *(marking_memo, topics: plea, vat, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam19Aug2015P4A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Aug2015P4A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam19Feb2020P1A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Feb2020P1A.md)** *(marking_memo, topics: bail, plea, appeal, vat, locus-standi)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam19Feb2020P1A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Feb2020P1A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam19Feb2020P2A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Feb2020P2A.md)** *(marking_memo, topics: plea, vat)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam19Feb2020P2A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Feb2020P2A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam19Oct2021P1A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Oct2021P1A.md)** *(marking_memo, topics: plea, appeal, vat, locus-standi)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam19Oct2021P1A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Oct2021P1A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam19Oct2021P2A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Oct2021P2A.md)** *(marking_memo, topics: plea, vat)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam19Oct2021P2A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Oct2021P2A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam20Feb2020P3A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam20Feb2020P3A.md)** *(marking_memo, topics: plea, appeal, vat)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam20Feb2020P3A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam20Feb2020P3A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam20Feb2020P4A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam20Feb2020P4A.md)** *(marking_memo, topics: bail, plea, vat, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam20Feb2020P4A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam20Feb2020P4A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam20Oct2021P3A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam20Oct2021P3A.md)** *(marking_memo, topics: plea, vat, trust, constitution)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam20Oct2021P3A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam20Oct2021P3A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam20Oct2021P4A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam20Oct2021P4A.md)** *(marking_memo, topics: plea, vat, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam20Oct2021P4A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam20Oct2021P4A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam21Aug2019P1A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam21Aug2019P1A.md)** *(marking_memo, topics: bail, plea, leave-to-appeal, appeal, close-corporation)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam21Aug2019P1A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam21Aug2019P1A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam21Aug2019P2A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam21Aug2019P2A.md)** *(marking_memo, topics: plea, vat)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam21Aug2019P2A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam21Aug2019P2A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam22Aug2017P1A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2017P1A.md)** *(marking_memo, topics: bail, plea, appeal, vat, party-and-party-costs)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam22Aug2017P1A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2017P1A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam22Aug2017P2A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2017P2A.md)** *(marking_memo, topics: plea, vat, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam22Aug2017P2A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2017P2A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam22Aug2019P3A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2019P3A.md)** *(marking_memo, topics: plea, appeal, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam22Aug2019P3A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2019P3A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam22Aug2019P4A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2019P4A.md)** *(marking_memo, topics: plea, vat, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam22Aug2019P4A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2019P4A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam23Aug2017P3A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam23Aug2017P3A.md)** *(marking_memo, topics: plea, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam23Aug2017P3A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam23Aug2017P3A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam23Aug2017P4A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam23Aug2017P4A.md)** *(marking_memo, topics: plea, vat, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam23Aug2017P4A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam23Aug2017P4A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam4Nov2020P1A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam4Nov2020P1A.md)** *(marking_memo, topics: bail, s112-statement, plea, appeal)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam4Nov2020P1A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam4Nov2020P1A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam4Nov2020P2A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam4Nov2020P2A.md)** *(marking_memo, topics: plea)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam4Nov2020P2A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam4Nov2020P2A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam5Nov2020P3A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam5Nov2020P3A.md)** *(marking_memo, topics: plea, appeal, taxation, partnership, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam5Nov2020P3A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam5Nov2020P3A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam5Nov2020P4A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam5Nov2020P4A.md)** *(marking_memo, topics: plea, vat, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam5Nov2020P4A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam5Nov2020P4A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam6Feb2018P1A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam6Feb2018P1A.md)** *(marking_memo, topics: s112-statement, plea, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam6Feb2018P1A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam6Feb2018P1A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam6Feb2018P2A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam6Feb2018P2A.md)** *(marking_memo, topics: plea)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam6Feb2018P2A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam6Feb2018P2A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam6Mar2019P1A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam6Mar2019P1A.md)** *(marking_memo, topics: bail, plea, appeal, close-corporation, locus-standi)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam6Mar2019P1A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam6Mar2019P1A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam6Mar2019P2A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam6Mar2019P2A.md)** *(marking_memo, topics: plea)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam6Mar2019P2A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam6Mar2019P2A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam7Feb2018P3A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam7Feb2018P3A.md)** *(marking_memo, topics: plea, vat, pre-incorporation-contract, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam7Feb2018P3A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam7Feb2018P3A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam7Feb2018P4A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam7Feb2018P4A.md)** *(marking_memo, topics: plea, vat, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam7Feb2018P4A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam7Feb2018P4A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam7Mar2019P3A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam7Mar2019P3A.md)** *(marking_memo, topics: plea, vat, pre-incorporation-contract, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam7Mar2019P3A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam7Mar2019P3A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam7Mar2019P4A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam7Mar2019P4A.md)** *(marking_memo, topics: plea, vat, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam7Mar2019P4A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam7Mar2019P4A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam9Feb2016P2A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam9Feb2016P2A.md)** *(marking_memo, topics: plea, constitution)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam9Feb2016P2A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam9Feb2016P2A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam10Feb2015P1Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2015P1Q.md)** *(exam_question, topics: plea, leave-to-appeal, appeal, vat)* — Attorneys Admission Examination — exam question paper
+- **[AttExam10Feb2015P1Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2015P1Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam10Feb2015P2Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2015P2Q.md)** *(exam_question, topics: plea, vat, trust)* — Attorneys Admission Examination — exam question paper
+- **[AttExam10Feb2015P2Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2015P2Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam10Feb2016P3Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2016P3Q.md)** *(exam_question, topics: plea, vat, party-and-party-costs, trust)* — Attorneys Admission Examination — exam question paper
+- **[AttExam10Feb2016P3Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2016P3Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam10Feb2016P4Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2016P4Q.md)** *(exam_question, topics: plea, vat, trust)* — Attorneys Admission Examination — exam question paper
+- **[AttExam10Feb2016P4Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2016P4Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam11Feb2015P3Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam11Feb2015P3Q.md)** *(marking_memo, topics: plea, vat, partnership, trust)* — Attorneys Admission Examination — exam question paper
+- **[AttExam11Feb2015P3Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam11Feb2015P3Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam11Feb2015P4Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam11Feb2015P4Q.md)** *(exam_question, topics: plea, vat, trust)* — Attorneys Admission Examination — exam question paper
+- **[AttExam11Feb2015P4Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam11Feb2015P4Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam14Feb2017P2Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam14Feb2017P2Q.md)** *(exam_question, topics: plea, vat, trust)* — Attorneys Admission Examination — exam question paper
+- **[AttExam14Feb2017P2Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam14Feb2017P2Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam15Feb2017P4Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Feb2017P4Q.md)** *(exam_question, topics: plea, vat, trust)* — Attorneys Admission Examination — exam question paper
+- **[AttExam15Feb2017P4Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Feb2017P4Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam15Mar2022P1Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2022P1Q.md)** *(exam_question, topics: plea, trust, constitution, criminal-procedure-act)* — Attorneys Admission Examination — exam question paper
+- **[AttExam15Mar2022P1Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2022P1Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam15Mar2022P2Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2022P2Q.md)** *(exam_question, topics: plea, vat)* — Attorneys Admission Examination — exam question paper
+- **[AttExam15Mar2022P2Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2022P2Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam15Mar2023P1Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2023P1Q.md)** *(exam_question, topics: s112-statement, plea, vat, trust, locus-standi)* — Attorneys Admission Examination — exam question paper
+- **[AttExam15Mar2023P1Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2023P1Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam15Mar2023P2Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2023P2Q.md)** *(exam_question, topics: plea, vat, trust)* — Attorneys Admission Examination — exam question paper
+- **[AttExam15Mar2023P2Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2023P2Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam15Mar2023P3Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2023P3Q.md)** *(exam_question, topics: plea, bill-of-costs, vat, close-corporation, trust)* — Attorneys Admission Examination — exam question paper
+- **[AttExam15Mar2023P3Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2023P3Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam15Oct2018P1Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Oct2018P1Q.md)** *(exam_question, topics: plea, leave-to-appeal, appeal, vat, close-corporation)* — Attorneys Admission Examination — exam question paper
+- **[AttExam15Oct2018P1Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Oct2018P1Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam15Oct2018P2Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Oct2018P2Q.md)** *(exam_question, topics: plea, vat)* — Attorneys Admission Examination — exam question paper
+- **[AttExam15Oct2018P2Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Oct2018P2Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam16Aug2016P2Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Aug2016P2Q.md)** *(exam_question, topics: plea, vat, trust)* — Attorneys Admission Examination — exam question paper
+- **[AttExam16Aug2016P2Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Aug2016P2Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam16Aug2022P1Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Aug2022P1Q.md)** *(exam_question, topics: bail, plea, appeal, culpable-homicide, police-docket)* — Attorneys Admission Examination — exam question paper
+- **[AttExam16Aug2022P1Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Aug2022P1Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam16Aug2022P2Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Aug2022P2Q.md)** *(exam_question, topics: plea, vat)* — Attorneys Admission Examination — exam question paper
+- **[AttExam16Aug2022P2Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Aug2022P2Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam16Mar2022P3Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Mar2022P3Q.md)** *(exam_question, topics: plea, vat, sole-proprietorship)* — Attorneys Admission Examination — exam question paper
+- **[AttExam16Mar2022P3Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Mar2022P3Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam16Mar2022P4Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Mar2022P4Q.md)** *(exam_question, topics: plea, vat, trust)* — Attorneys Admission Examination — exam question paper
+- **[AttExam16Mar2022P4Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Mar2022P4Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam16Mar2023P4Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Mar2023P4Q.md)** *(exam_question, topics: plea, vat, trust)* — Attorneys Admission Examination — exam question paper
+- **[AttExam16Mar2023P4Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Mar2023P4Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam16Oct2018P4Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Oct2018P4Q.md)** *(exam_question, topics: plea, vat, trust)* — Attorneys Admission Examination — exam question paper
+- **[AttExam16Oct2018P4Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Oct2018P4Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam17Aug2016P4Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Aug2016P4Q.md)** *(exam_question, topics: plea, vat, trust)* — Attorneys Admission Examination — exam question paper
+- **[AttExam17Aug2016P4Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Aug2016P4Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam17Aug2022P3Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Aug2022P3Q.md)** *(exam_question, topics: plea, close-corporation, partnership, trust)* — Attorneys Admission Examination — exam question paper
+- **[AttExam17Aug2022P3Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Aug2022P3Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam17Aug2022P4Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Aug2022P4Q.md)** *(exam_question, topics: plea, vat, trust)* — Attorneys Admission Examination — exam question paper
+- **[AttExam17Aug2022P4Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Aug2022P4Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam17Mar2021P1Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Mar2021P1Q.md)** *(exam_question, topics: s112-statement, plea, vat, close-corporation, trust)* — Attorneys Admission Examination — exam question paper
+- **[AttExam17Mar2021P1Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Mar2021P1Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam17Mar2021P2Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Mar2021P2Q.md)** *(exam_question, topics: plea, vat, trust)* — Attorneys Admission Examination — exam question paper
+- **[AttExam17Mar2021P2Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Mar2021P2Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam18Aug2015P1Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Aug2015P1Q.md)** *(exam_question, topics: s115-statement, s112-statement, plea, vat, partnership)* — Attorneys Admission Examination — exam question paper
+- **[AttExam18Aug2015P1Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Aug2015P1Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam18Aug2015P2Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Aug2015P2Q.md)** *(exam_question, topics: plea, vat)* — Attorneys Admission Examination — exam question paper
+- **[AttExam18Aug2015P2Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Aug2015P2Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam18Mar2021P3Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Mar2021P3Q.md)** *(exam_question, topics: plea, vat, close-corporation, partnership, sole-proprietorship)* — Attorneys Admission Examination — exam question paper
+- **[AttExam18Mar2021P3Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Mar2021P3Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam18Mar2021P4Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Mar2021P4Q.md)** *(exam_question, topics: plea, vat, trust)* — Attorneys Admission Examination — exam question paper
+- **[AttExam18Mar2021P4Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Mar2021P4Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam19Aug2015P3Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Aug2015P3Q.md)** *(exam_question, topics: plea, partnership)* — Attorneys Admission Examination — exam question paper
+- **[AttExam19Aug2015P3Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Aug2015P3Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam19Aug2015P4Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Aug2015P4Q.md)** *(exam_question, topics: plea, vat, trust)* — Attorneys Admission Examination — exam question paper
+- **[AttExam19Aug2015P4Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Aug2015P4Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam19Feb2020P1Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Feb2020P1Q.md)** *(exam_question, topics: bail, plea, leave-to-appeal, appeal, vat)* — Attorneys Admission Examination — exam question paper
+- **[AttExam19Feb2020P1Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Feb2020P1Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam19Feb2020P2Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Feb2020P2Q.md)** *(exam_question, topics: plea, vat)* — Attorneys Admission Examination — exam question paper
+- **[AttExam19Feb2020P2Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Feb2020P2Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam19Oct2021P1Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Oct2021P1Q.md)** *(exam_question, topics: plea, appeal, close-corporation)* — Attorneys Admission Examination — exam question paper
+- **[AttExam19Oct2021P1Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Oct2021P1Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam19Oct2021P2Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Oct2021P2Q.md)** *(exam_question, topics: plea, vat)* — Attorneys Admission Examination — exam question paper
+- **[AttExam19Oct2021P2Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Oct2021P2Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam20Feb2020P3Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Feb2020P3Q.md)** *(exam_question, topics: plea, partnership, sole-proprietorship, trust, constitution)* — Attorneys Admission Examination — exam question paper
+- **[AttExam20Feb2020P3Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Feb2020P3Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam20Feb2020P4Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Feb2020P4Q.md)** *(exam_question, topics: bail, plea, vat, trust)* — Attorneys Admission Examination — exam question paper
+- **[AttExam20Feb2020P4Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Feb2020P4Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam20Oct2021P3Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Oct2021P3Q.md)** *(exam_question, topics: plea, vat, trust)* — Attorneys Admission Examination — exam question paper
+- **[AttExam20Oct2021P3Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Oct2021P3Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam20Oct2021P4Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Oct2021P4Q.md)** *(marking_memo, topics: bail, plea, vat, trust)* — Attorneys Admission Examination — exam question paper
+- **[AttExam20Oct2021P4Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Oct2021P4Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam21Aug2019P1Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam21Aug2019P1Q.md)** *(exam_question, topics: plea, appeal, vat, close-corporation)* — Attorneys Admission Examination — exam question paper
+- **[AttExam21Aug2019P1Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam21Aug2019P1Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam21Aug2019P2Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam21Aug2019P2Q.md)** *(exam_question, topics: plea, vat, trust)* — Attorneys Admission Examination — exam question paper
+- **[AttExam21Aug2019P2Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam21Aug2019P2Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam22Aug2017P1Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2017P1Q.md)** *(exam_question, topics: bail, plea, leave-to-appeal, appeal, vat)* — Attorneys Admission Examination — exam question paper
+- **[AttExam22Aug2017P1Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2017P1Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam22Aug2017P2Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2017P2Q.md)** *(exam_question, topics: plea, vat, trust)* — Attorneys Admission Examination — exam question paper
+- **[AttExam22Aug2017P2Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2017P2Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam22Aug2019P3Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2019P3Q.md)** *(exam_question, topics: plea, trust)* — Attorneys Admission Examination — exam question paper
+- **[AttExam22Aug2019P3Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2019P3Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam22Aug2019P4Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2019P4Q.md)** *(exam_question, topics: plea, vat, party-and-party-costs, trust)* — Attorneys Admission Examination — exam question paper
+- **[AttExam22Aug2019P4Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2019P4Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam23Aug2017P3Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam23Aug2017P3Q.md)** *(exam_question, topics: plea, trust)* — Attorneys Admission Examination — exam question paper
+- **[AttExam23Aug2017P3Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam23Aug2017P3Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam23Aug2017P4Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam23Aug2017P4Q.md)** *(exam_question, topics: plea, vat, trust)* — Attorneys Admission Examination — exam question paper
+- **[AttExam23Aug2017P4Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam23Aug2017P4Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam23Aug2023P1Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam23Aug2023P1Q.md)** *(exam_question, topics: bail, plea, appeal, vat)* — Attorneys Admission Examination — exam question paper
+- **[AttExam23Aug2023P1Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam23Aug2023P1Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam23Aug2023P2Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam23Aug2023P2Q.md)** *(exam_question, topics: plea, vat)* — Attorneys Admission Examination — exam question paper
+- **[AttExam23Aug2023P2Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam23Aug2023P2Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam24Aug2023P3Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam24Aug2023P3Q.md)** *(exam_question, topics: plea, vat, partnership, constitution)* — Attorneys Admission Examination — exam question paper
+- **[AttExam24Aug2023P3Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam24Aug2023P3Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam24Aug2023P4Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam24Aug2023P4Q.md)** *(exam_question, topics: plea, vat, trust)* — Attorneys Admission Examination — exam question paper
+- **[AttExam24Aug2023P4Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam24Aug2023P4Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam4Nov2020P1Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam4Nov2020P1Q.md)** *(exam_question, topics: bail, plea, police-docket)* — Attorneys Admission Examination — exam question paper
+- **[AttExam4Nov2020P1Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam4Nov2020P1Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam4Nov2020P2Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam4Nov2020P2Q.md)** *(exam_question, topics: plea, vat)* — Attorneys Admission Examination — exam question paper
+- **[AttExam4Nov2020P2Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam4Nov2020P2Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam5Nov2020P3Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam5Nov2020P3Q.md)** *(exam_question, topics: plea, allocatur, vat, partnership, trust)* — Attorneys Admission Examination — exam question paper
+- **[AttExam5Nov2020P3Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam5Nov2020P3Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam5Nov2020P4Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam5Nov2020P4Q.md)** *(exam_question, topics: plea, vat, trust)* — Attorneys Admission Examination — exam question paper
+- **[AttExam5Nov2020P4Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam5Nov2020P4Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam6Feb2018P1Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Feb2018P1Q.md)** *(exam_question, topics: s112-statement, plea, vat, trust, criminal-procedure-act)* — Attorneys Admission Examination — exam question paper
+- **[AttExam6Feb2018P1Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Feb2018P1Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam6Feb2018P2Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Feb2018P2Q.md)** *(exam_question, topics: plea, vat, trust)* — Attorneys Admission Examination — exam question paper
+- **[AttExam6Feb2018P2Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Feb2018P2Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam6Mar2019P1Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Mar2019P1Q.md)** *(exam_question, topics: bail, plea, appeal, vat, sole-proprietorship)* — Attorneys Admission Examination — exam question paper
+- **[AttExam6Mar2019P1Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Mar2019P1Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam6Mar2019P2Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Mar2019P2Q.md)** *(exam_question, topics: plea, vat)* — Attorneys Admission Examination — exam question paper
+- **[AttExam6Mar2019P2Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Mar2019P2Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam7Feb2018P3Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Feb2018P3Q.md)** *(exam_question, topics: plea, vat, trust)* — Attorneys Admission Examination — exam question paper
+- **[AttExam7Feb2018P3Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Feb2018P3Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam7Feb2018P4Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Feb2018P4Q.md)** *(exam_question, topics: plea, bill-of-costs, vat, taxation, party-and-party-costs)* — Attorneys Admission Examination — exam question paper
+- **[AttExam7Feb2018P4Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Feb2018P4Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam7Mar2019P3Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Mar2019P3Q.md)** *(exam_question, topics: plea, vat, trust)* — Attorneys Admission Examination — exam question paper
+- **[AttExam7Mar2019P3Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Mar2019P3Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam7Mar2019P4Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Mar2019P4Q.md)** *(exam_question, topics: plea, vat, trust)* — Attorneys Admission Examination — exam question paper
+- **[AttExam7Mar2019P4Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Mar2019P4Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
+- **[AttExam9Feb2016P2Q.md](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam9Feb2016P2Q.md)** *(exam_question, topics: plea, vat)* — Attorneys Admission Examination — exam question paper
+- **[AttExam9Feb2016P2Q.pdf](./Attorneys Exam/Official Previous Papers 2015-2023/AttExam9Feb2016P2Q.pdf)** *(exam_question)* — Attorneys Admission Examination — exam question paper  ⚠️ scanned/no extractable text (OCR needed)
 - **[AttExam 2016-02-09.md](./Attorneys Exam/notes/qa/AttExam 2016-02-09.md)** *(general, topics: bail, plea, appeal, vat, locus-standi)* — Attorneys Admission Examination — document
 - **[AttExam 2016-08-16.md](./Attorneys Exam/notes/qa/AttExam 2016-08-16.md)** *(general, topics: bail, s115-statement, plea, appeal, vat)* — Attorneys Admission Examination — document
 - **[AttExam 2016-08-17.md](./Attorneys Exam/notes/qa/AttExam 2016-08-17.md)** *(general, topics: trust, constitution)* — Attorneys Admission Examination — document

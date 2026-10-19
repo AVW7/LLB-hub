@@ -53,6 +53,7 @@ LLB hub/
 ├── index.md         # Browsable file catalogue
 ├── index.json       # Machine-readable index (topics, types, quality scores)
 ├── .reindex.py      # Regenerate index after adding/removing files
+├── .ocr_harness.py # Audit, compare, and review OCR candidates
 └── AGENTS.md        # This file
 ```
 
@@ -301,14 +302,26 @@ When working with this hub:
    textutil -convert txt -stdout "HCP/HCP6Mar2010Q.doc"
    ```
 
-5. **Scanned PDFs:** OCR required — current tools cannot extract text
+5. **PDF text quality:** Use the OCR harness to find missing or noisy searchable text. It creates candidates outside the hub; inspect the candidate Markdown against the candidate PDF before promotion. The source PDF is never overwritten. The Python environment running the harness must have `pypdf` available. Default `--mode auto` rasterizes PDFs with corrupt embedded text before OCR; explicit `--mode redo` can retain corrupt visible text. Audit ignores legitimate answer blanks and standalone bullet symbols. A passing audit is a basic text-integrity check, not a certification of transcription accuracy.
 
 ---
 
 ## COMMANDS
 
 ```bash
-# Re-index after adding/removing files (regenerates index.md, index.json, and all README.md files)
+# Audit official board papers for missing or low-quality searchable text (read-only)
+python3 .ocr_harness.py audit
+
+# Audit every PDF in the hub and include papers that pass basic checks
+python3 .ocr_harness.py audit --root . --all
+
+# Generate OCR candidates in /private/tmp/llb-hub-ocr-review; inspect candidate.md and candidate-searchable.pdf
+python3 .ocr_harness.py compare --files "Attorneys Exam/Official Previous Papers 2015-2023"
+
+# After manually checking candidate.md against candidate-searchable.pdf, paste the folder name printed by compare below
+python3 .ocr_harness.py promote "/private/tmp/llb-hub-ocr-review/REPLACE_WITH_CANDIDATE_FOLDER/comparison.json" --reviewed
+
+# Re-index after other additions/removals (regenerates index.md, index.json, and all README.md files)
 python3 .reindex.py
 
 # Extract text from a .doc file

@@ -1,8 +1,15 @@
 ---
 type: master-dashboard
 tags:
-  - llb-hub/dashboard
+- llb-hub/dashboard
+- master-dashboard
+date: '2026-10-19'
+ai-first: true
 ---
+
+## For future agent
+
+Study dashboard for the LLB hub archive. The dated board-exam update records the recovered papers and OCR improvements verified on 2026-10-19; other module coverage remains scoped to its own source notes.
 
 # LLB Hub — Master Study Dashboard
 
@@ -80,3 +87,17 @@ Every module folder follows the same pattern (except LSSA, which is reference-on
 ## Next steps
 
 The system is fully built across all 14 folders. From here it's pure study: work through topics module by module, update `status:` as you go, and use `LLB Hub.base`'s "Not Started Yet" view to see what's left at a glance.
+
+## Board exam archive update - 2026-10-19
+
+- [[projects/Board Exam Archive]] - recovered papers, current state and remaining proofreading.
+- [[notes/Board Exam OCR Audit]] - verified corrections, original PDF links and recovery evidence.
+- [[Logs/2026-10-19 - Board Exam Archive]] - dated work record.
+
+As of 2026-10-19, the recovered collection contains 66 PDFs with Markdown sidecars; 14 sidecars were corrected and all 66 passed the basic text-integrity audit. Full proofreading remains open.
+
+## Matching model answers - 2026-10-19
+
+- As of 2026-10-19, 50 matching official model-answer memos for the 66 newly added question papers are saved with searchable text and original PDFs.
+- [[notes/Board Exam Memo Coverage]] links every question/memo pair and lists the 16 unlocated official memos for 2022-2023.
+- Full proofreading remains open; flagged extracted memo text is identified in the coverage note.

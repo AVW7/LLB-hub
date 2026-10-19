@@ -34,15 +34,11 @@ Preferences already established:
 - `embeddinggemma-2:270m` is installed and has built a real local retrieval index.
 - Obsidian's Notes chat is open, showing **541 indexed files / entire vault**.
 
-**Still pending:**
+**Completed & operational:**
 
-- The answering model `gemma4:e2b-it-q4_K_M` is downloading.
-- The ongoing setup process is meant to create the `llb-brain` model after the pull.
-- Consequently, do not claim local answering is ready until both models appear in
-  `ollama list`. Do not switch to a cloud fallback.
-
-The model pull's last printed progress was 20% of its current large blob, not 20%
-of the whole installation. There is no reliable ETA.
+- Base model `gemma4:e2b-it-q4_K_M` downloaded and `llb-brain` model created in Ollama.
+- Local answering and RAG Q&A active on `127.0.0.1:11434`.
+- **Vault Radar implemented** with Kinetik UI motion, liquid segmented tabs (All, Commitments, Stalled, Connections, Next Actions), beacon status indicators, legal study doctrine grounding, multi-format note discovery (.md, .doc, .docx), confidence meters, and Insight Canvas mapping.
 
 ## Paths
 

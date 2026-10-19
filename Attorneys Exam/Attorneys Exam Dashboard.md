@@ -2,8 +2,15 @@
 type: dashboard
 subject: AttExam
 tags:
-  - attexam/dashboard
+- attexam/dashboard
+- dashboard
+date: '2026-10-19'
+ai-first: true
 ---
+
+## For future agent
+
+Study dashboard for the attorneys admission examination materials. The dated update links the 66 recovered official question papers and OCR corrections verified on 2026-10-19; passing the OCR audit does not certify every transcription.
 
 # Attorneys Exam — Attorneys Admission Examination (Board Exam) · Study Dashboard
 
@@ -107,3 +114,21 @@ Several topics here (bail, s60(11B) disclosures, s115 statements, docket access)
 ## Next steps once this module is approved
 
 Continue rolling the same structure out across the remaining subject folders, then build the top-level `LLB hub.base` that rolls up every module's progress into one master board.
+
+## Board exam archive update - 2026-10-19
+
+- [[projects/Board Exam Archive]] - recovered papers, current state and remaining proofreading.
+- [[notes/Board Exam OCR Audit]] - verified corrections, original PDF links and recovery evidence.
+- [[Logs/2026-10-19 - Board Exam Archive]] - dated work record.
+
+- [x] As of 2026-10-19: 66 recovered official PDFs and their Markdown are saved and indexed.
+- [x] As of 2026-10-19: 14 sidecars corrected; 43 replacement characters resolved.
+- [ ] Proofread bilingual text and financial tables against the original PDFs.
+
+Use [[index]] for the catalogue, including the `Official Previous Papers 2015-2023` folder.
+
+## Matching model answers - 2026-10-19
+
+- As of 2026-10-19, 50 matching official model-answer memos for the 66 newly added question papers are saved with searchable text and original PDFs.
+- [[notes/Board Exam Memo Coverage]] links every question/memo pair and lists the 16 unlocated official memos for 2022-2023.
+- Full proofreading remains open; flagged extracted memo text is identified in the coverage note.

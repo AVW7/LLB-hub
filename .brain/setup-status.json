@@ -1,8 +1,8 @@
 {
   "vault_configured": true,
-  "models_installed": false,
+  "models_installed": true,
   "retrieval_indexed": true,
-  "updated": "2026-10-19T14:41:42.456469+02:00",
+  "updated": "2026-10-19T15:47:50.000000+02:00",
   "embedding_model_installed": true,
   "plugin_built": true,
   "word_extraction": "macOS textutil",
@@ -16,8 +16,8 @@
   },
   "plugin_enabled": true,
   "vault_opened": true,
-  "chat_model_download_in_progress": true,
-  "answer_model_ready": false,
+  "chat_model_download_in_progress": false,
+  "answer_model_ready": true,
   "catalogue_entries": 562,
   "protected_originals_unchanged": 1125
 }

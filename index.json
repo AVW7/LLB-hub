@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "lastUpdated": "2026-10-19",
-  "count": 562,
+  "count": 798,
   "subjects": {
     "CCP": "Criminal Court Practice (Module 1)",
     "CLP": "Constitutional Practice (Module 1)",
@@ -206,7 +206,7 @@
         "police-docket"
       ],
       "description": "Attorneys Admission Examination — document",
-      "size_bytes": 6743,
+      "size_bytes": 8110,
       "quality_score": 3.0,
       "gaps": []
     },
@@ -221,6 +221,3314 @@
       "quality_score": 0.5,
       "gaps": [
         "empty or near-empty"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2015P1A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "leave-to-appeal",
+        "appeal",
+        "vat",
+        "close-corporation"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 19390,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2015P1A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 781984,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2015P2A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 11770,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2015P2A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 675013,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2016P3A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "vat",
+        "party-and-party-costs",
+        "costs-de-bonis-propriis",
+        "pre-incorporation-contract",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 11483,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2016P3A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 392994,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2016P4A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 5184,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2016P4A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 360643,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam11Feb2015P3A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "partnership",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 10992,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam11Feb2015P3A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 378561,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam11Feb2015P4A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 5864,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam11Feb2015P4A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 317233,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam14Feb2017P2A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 9336,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam14Feb2017P2A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 504401,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam15Feb2017P4A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 5237,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam15Feb2017P4A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 272289,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam15Oct2018P1A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "leave-to-appeal",
+        "appeal",
+        "vat",
+        "close-corporation",
+        "locus-standi",
+        "constitution"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 13792,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam15Oct2018P1A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 544624,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam15Oct2018P2A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "vat"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 11041,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam15Oct2018P2A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 669146,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam16Aug2016P2A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 9144,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam16Aug2016P2A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 490779,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam16Oct2018P4A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 5234,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam16Oct2018P4A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 346775,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam17Aug2016P4A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 5373,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam17Aug2016P4A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 539938,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam17Mar2021P1A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "s115-statement",
+        "s112-statement",
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 16138,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam17Mar2021P1A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 205374,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam17Mar2021P2A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 10605,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam17Mar2021P2A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 198150,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Aug2015P1A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "s115-statement",
+        "s112-statement",
+        "plea",
+        "appeal",
+        "vat",
+        "locus-standi",
+        "criminal-procedure-act"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 14101,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Aug2015P1A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 628150,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Aug2015P2A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "vat"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 9642,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Aug2015P2A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 700224,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Mar2021P3A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "vat",
+        "partnership",
+        "sole-proprietorship",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 12455,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Mar2021P3A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 205669,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Mar2021P4A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 7522,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Mar2021P4A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 225901,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Aug2015P3A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "vat",
+        "partnership",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 10747,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Aug2015P3A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 394660,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Aug2015P4A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 5645,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Aug2015P4A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 530681,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Feb2020P1A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "bail",
+        "plea",
+        "appeal",
+        "vat",
+        "locus-standi",
+        "constitution"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 19815,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Feb2020P1A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 419077,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Feb2020P2A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "vat"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 11904,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Feb2020P2A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 542243,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Oct2021P1A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "appeal",
+        "vat",
+        "locus-standi"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 16322,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Oct2021P1A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 414649,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Oct2021P2A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "vat"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 10686,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Oct2021P2A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 396605,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam20Feb2020P3A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "appeal",
+        "vat"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 9849,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam20Feb2020P3A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 273165,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam20Feb2020P4A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "bail",
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 6736,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam20Feb2020P4A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 289571,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam20Oct2021P3A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "vat",
+        "trust",
+        "constitution"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 12301,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam20Oct2021P3A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 279165,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam20Oct2021P4A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 6116,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam20Oct2021P4A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 412599,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam21Aug2019P1A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "bail",
+        "plea",
+        "leave-to-appeal",
+        "appeal",
+        "close-corporation"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 15100,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam21Aug2019P1A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 403406,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam21Aug2019P2A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "vat"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 10669,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam21Aug2019P2A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 433582,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2017P1A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "bail",
+        "plea",
+        "appeal",
+        "vat",
+        "party-and-party-costs",
+        "trust",
+        "constitution",
+        "criminal-procedure-act"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 14943,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2017P1A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 748754,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2017P2A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 11621,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2017P2A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 682680,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2019P3A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "appeal",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 13818,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2019P3A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 322389,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2019P4A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 5087,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2019P4A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 341664,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam23Aug2017P3A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 10138,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam23Aug2017P3A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 398798,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam23Aug2017P4A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 6064,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam23Aug2017P4A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 414704,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam4Nov2020P1A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "bail",
+        "s112-statement",
+        "plea",
+        "appeal"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 12837,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam4Nov2020P1A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 223065,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam4Nov2020P2A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 11241,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam4Nov2020P2A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 158130,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam5Nov2020P3A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "appeal",
+        "taxation",
+        "partnership",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 12323,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam5Nov2020P3A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 200560,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam5Nov2020P4A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 7663,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam5Nov2020P4A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 404607,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam6Feb2018P1A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "s112-statement",
+        "plea",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 14906,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam6Feb2018P1A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 463683,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam6Feb2018P2A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 9294,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam6Feb2018P2A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 519578,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam6Mar2019P1A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "bail",
+        "plea",
+        "appeal",
+        "close-corporation",
+        "locus-standi",
+        "police-docket"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 15250,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam6Mar2019P1A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 640280,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam6Mar2019P2A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 10078,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam6Mar2019P2A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 522594,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam7Feb2018P3A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "vat",
+        "pre-incorporation-contract",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 12105,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam7Feb2018P3A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 402321,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam7Feb2018P4A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 5719,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam7Feb2018P4A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 282997,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam7Mar2019P3A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "vat",
+        "pre-incorporation-contract",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 11040,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam7Mar2019P3A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 380313,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam7Mar2019P4A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 6086,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam7Mar2019P4A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 349330,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam9Feb2016P2A.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "constitution"
+      ],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 8641,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Memoranda 2015-2021/AttExam9Feb2016P2A.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Attorneys Admission Examination — marking memorandum / model answers",
+      "size_bytes": 463412,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2015P1Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "leave-to-appeal",
+        "appeal",
+        "vat"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 26461,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2015P1Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 807748,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2015P2Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 12555,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2015P2Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 404616,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2016P3Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat",
+        "party-and-party-costs",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 11479,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2016P3Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 445408,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2016P4Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 7310,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2016P4Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 334417,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam11Feb2015P3Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "vat",
+        "partnership",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 11538,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam11Feb2015P3Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 418803,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam11Feb2015P4Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 10009,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam11Feb2015P4Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 362641,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam14Feb2017P2Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 10804,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam14Feb2017P2Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 411948,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Feb2017P4Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 11290,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Feb2017P4Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 422645,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2022P1Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "trust",
+        "constitution",
+        "criminal-procedure-act"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 13747,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2022P1Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 300364,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2022P2Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 4857,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2022P2Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 246879,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2023P1Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "s112-statement",
+        "plea",
+        "vat",
+        "trust",
+        "locus-standi"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 10909,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2023P1Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 235423,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2023P2Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 9017,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2023P2Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 228004,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2023P3Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "bill-of-costs",
+        "vat",
+        "close-corporation",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 7440,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2023P3Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 228438,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Oct2018P1Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "leave-to-appeal",
+        "appeal",
+        "vat",
+        "close-corporation",
+        "locus-standi",
+        "criminal-procedure-act"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 26511,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Oct2018P1Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 898757,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Oct2018P2Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 10882,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Oct2018P2Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 392722,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Aug2016P2Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 13364,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Aug2016P2Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 433828,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Aug2022P1Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "bail",
+        "plea",
+        "appeal",
+        "culpable-homicide",
+        "police-docket"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 11173,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Aug2022P1Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 352587,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Aug2022P2Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 6283,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Aug2022P2Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 300244,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Mar2022P3Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat",
+        "sole-proprietorship"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 6955,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Mar2022P3Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 255361,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Mar2022P4Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 7440,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Mar2022P4Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 319593,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Mar2023P4Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 6973,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Mar2023P4Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 229748,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Oct2018P4Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 9395,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Oct2018P4Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 394605,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Aug2016P4Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 9708,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Aug2016P4Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 347546,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Aug2022P3Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "close-corporation",
+        "partnership",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 8748,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Aug2022P3Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 279682,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Aug2022P4Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 7802,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Aug2022P4Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 277401,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Mar2021P1Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "s112-statement",
+        "plea",
+        "vat",
+        "close-corporation",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 8688,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Mar2021P1Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 246441,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Mar2021P2Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 7309,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Mar2021P2Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 276421,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Aug2015P1Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "s115-statement",
+        "s112-statement",
+        "plea",
+        "vat",
+        "partnership",
+        "trust",
+        "culpable-homicide"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 25390,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Aug2015P1Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 1071350,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Aug2015P2Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 10528,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Aug2015P2Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 438668,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Mar2021P3Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat",
+        "close-corporation",
+        "partnership",
+        "sole-proprietorship",
+        "trust",
+        "culpable-homicide"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 6518,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Mar2021P3Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 267445,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Mar2021P4Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 5839,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Mar2021P4Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 252623,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Aug2015P3Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "partnership"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 11276,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Aug2015P3Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 545517,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Aug2015P4Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 9165,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Aug2015P4Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 486375,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Feb2020P1Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "bail",
+        "plea",
+        "leave-to-appeal",
+        "appeal",
+        "vat",
+        "sole-proprietorship",
+        "culpable-homicide"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 10255,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Feb2020P1Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 205867,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Feb2020P2Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 6511,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Feb2020P2Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 194709,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Oct2021P1Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "appeal",
+        "close-corporation"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 9724,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Oct2021P1Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 265204,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Oct2021P2Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 7716,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Oct2021P2Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 273508,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Feb2020P3Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "partnership",
+        "sole-proprietorship",
+        "trust",
+        "constitution"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 4390,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Feb2020P3Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 153778,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Feb2020P4Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "bail",
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 5426,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Feb2020P4Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 151232,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Oct2021P3Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 6529,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Oct2021P3Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 256120,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Oct2021P4Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "marking_memo",
+      "topics": [
+        "bail",
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 5047,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Oct2021P4Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 252348,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam21Aug2019P1Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "appeal",
+        "vat",
+        "close-corporation"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 10103,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam21Aug2019P1Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 299288,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam21Aug2019P2Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 5781,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam21Aug2019P2Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 153635,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2017P1Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "bail",
+        "plea",
+        "leave-to-appeal",
+        "appeal",
+        "vat",
+        "trust",
+        "locus-standi",
+        "culpable-homicide"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 24542,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2017P1Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 718028,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2017P2Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 12079,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2017P2Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 449906,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2019P3Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 5669,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2019P3Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 208110,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2019P4Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat",
+        "party-and-party-costs",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 4277,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2019P4Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 157855,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam23Aug2017P3Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 7688,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam23Aug2017P3Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 277252,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam23Aug2017P4Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 8962,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam23Aug2017P4Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 360874,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam23Aug2023P1Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "bail",
+        "plea",
+        "appeal",
+        "vat"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 9111,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam23Aug2023P1Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 227611,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam23Aug2023P2Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 7765,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam23Aug2023P2Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 228047,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam24Aug2023P3Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat",
+        "partnership",
+        "constitution"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 8897,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam24Aug2023P3Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 229145,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam24Aug2023P4Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 9543,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam24Aug2023P4Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 227696,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam4Nov2020P1Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "bail",
+        "plea",
+        "police-docket"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 10001,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam4Nov2020P1Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 273380,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam4Nov2020P2Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 5356,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam4Nov2020P2Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 266882,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam5Nov2020P3Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "allocatur",
+        "vat",
+        "partnership",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 4379,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam5Nov2020P3Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 238685,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam5Nov2020P4Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 4737,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam5Nov2020P4Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 243212,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Feb2018P1Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "s112-statement",
+        "plea",
+        "vat",
+        "trust",
+        "criminal-procedure-act"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 25232,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Feb2018P1Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 748794,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Feb2018P2Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 12536,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Feb2018P2Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 407185,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Mar2019P1Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "bail",
+        "plea",
+        "appeal",
+        "vat",
+        "sole-proprietorship",
+        "culpable-homicide"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 21466,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Mar2019P1Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 661456,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Mar2019P2Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 11019,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Mar2019P2Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 411254,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Feb2018P3Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 11130,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Feb2018P3Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 413308,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Feb2018P4Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "bill-of-costs",
+        "vat",
+        "taxation",
+        "party-and-party-costs",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 12172,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Feb2018P4Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 414514,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Mar2019P3Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 12767,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Mar2019P3Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 451235,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Mar2019P4Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 9032,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Mar2019P4Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 416077,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam9Feb2016P2Q.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [
+        "plea",
+        "vat"
+      ],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 10950,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam9Feb2016P2Q.pdf",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "question",
+      "type": "exam_question",
+      "topics": [],
+      "description": "Attorneys Admission Examination — exam question paper",
+      "size_bytes": 381403,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
       ]
     },
     {
@@ -6218,7 +9526,7 @@
         "constitution"
       ],
       "description": "LLB material — document",
-      "size_bytes": 5828,
+      "size_bytes": 7016,
       "quality_score": 3.0,
       "gaps": []
     },
@@ -6367,13 +9675,24 @@
       "gaps": []
     },
     {
+      "path": "./Logs/2026-10-19 - Board Exam Archive.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 1720,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
       "path": "./Logs/2026-10-19.md",
       "subject": "Uncategorised",
       "role": "general",
       "type": "general",
       "topics": [],
       "description": "LLB material — document",
-      "size_bytes": 433,
+      "size_bytes": 1157,
       "quality_score": 3.0,
       "gaps": []
     },
@@ -8031,7 +11350,7 @@
       "type": "general",
       "topics": [],
       "description": "LLB material — document",
-      "size_bytes": 1496,
+      "size_bytes": 2221,
       "quality_score": 3.0,
       "gaps": []
     },
@@ -8049,6 +11368,39 @@
       "gaps": []
     },
     {
+      "path": "./notes/Board Exam Memo Coverage.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 26729,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./notes/Board Exam OCR Audit.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 7873,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./projects/Board Exam Archive.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 2774,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
       "path": "./projects/Second Brain Setup.md",
       "subject": "Uncategorised",
       "role": "general",
@@ -8062,6 +11414,7 @@
   ],
   "topicIndex": {
     "allocatur": [
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam5Nov2020P3Q.md",
       "./COS/COS Dashboard.md",
       "./COS/COS18Mar2010A.doc",
       "./COS/COS18Mar2010Q.doc",
@@ -8091,6 +11444,27 @@
       "./Attorneys Exam/AttExam9Feb2016A.pdf/markdown.md",
       "./Attorneys Exam/AttExam9Feb2016Q.pdf/markdown.md",
       "./Attorneys Exam/Attorneys Exam Dashboard.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2015P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam15Oct2018P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Aug2015P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Feb2020P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Oct2021P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam20Feb2020P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam21Aug2019P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2017P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2019P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam4Nov2020P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam5Nov2020P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam6Mar2019P1A.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2015P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Oct2018P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Aug2022P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Feb2020P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Oct2021P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam21Aug2019P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2017P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam23Aug2023P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Mar2019P1Q.md",
       "./Attorneys Exam/notes/qa/AttExam 2016-02-09.md",
       "./Attorneys Exam/notes/qa/AttExam 2016-08-16.md",
       "./Attorneys Exam/notes/qa/AttExam 2017-02-14.md",
@@ -8182,6 +11556,20 @@
       "./Attorneys Exam/AttExam9Feb2016A.pdf/markdown.md",
       "./Attorneys Exam/AttExam9Feb2016Q.pdf/markdown.md",
       "./Attorneys Exam/Attorneys Exam Dashboard.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Feb2020P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam20Feb2020P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam21Aug2019P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2017P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam4Nov2020P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam6Mar2019P1A.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Aug2022P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Feb2020P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Feb2020P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Oct2021P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2017P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam23Aug2023P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam4Nov2020P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Mar2019P1Q.md",
       "./Attorneys Exam/notes/qa/AttExam 2016-02-09.md",
       "./Attorneys Exam/notes/qa/AttExam 2016-08-16.md",
       "./Attorneys Exam/notes/qa/AttExam 2017-02-14.md",
@@ -8227,6 +11615,8 @@
       "./LSSA & Miscellaneous /LSSA Dashboard.md"
     ],
     "bill-of-costs": [
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2023P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Feb2018P4Q.md",
       "./BBST/BBST2014(1)FinalQ&A.doc",
       "./BBST/BBST2016(1)A.doc",
       "./BBST/notes/qa/BBST 2014(1) Final.md",
@@ -8292,6 +11682,17 @@
       "./Attorneys Exam/AttExam9Feb2016A.pdf/markdown.md",
       "./Attorneys Exam/AttExam9Feb2016Q.pdf/markdown.md",
       "./Attorneys Exam/Attorneys Exam Dashboard.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2015P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam15Oct2018P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam21Aug2019P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam6Mar2019P1A.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2023P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Oct2018P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Aug2022P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Mar2021P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Mar2021P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Oct2021P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam21Aug2019P1Q.md",
       "./Attorneys Exam/notes/qa/AttExam 2017-02-15.md",
       "./Attorneys Exam/notes/topics/Company, Close Corporation and Partnership Law.md",
       "./Attorneys Exam/notes/topics/Insolvency Law.md",
@@ -8355,6 +11756,14 @@
     ],
     "constitution": [
       "./Attorneys Exam/AttExam17Aug2016Q.pdf/markdown.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam15Oct2018P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Feb2020P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam20Oct2021P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2017P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam9Feb2016P2A.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2022P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Feb2020P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam24Aug2023P3Q.md",
       "./Attorneys Exam/notes/qa/AttExam 2016-08-17.md",
       "./Attorneys Exam/notes/topics/Professional Ethics and Conduct.md",
       "./BBST/BBST2013(1)Q.doc",
@@ -8451,6 +11860,7 @@
       "./CLP/notes/qa/CLP 2019-01-30 Assignment.md"
     ],
     "costs-de-bonis-propriis": [
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2016P3A.md",
       "./CLP/CLP30Jan2010A.doc",
       "./COS/COS Dashboard.md",
       "./COS/COS2012(1)A.doc",
@@ -8507,6 +11917,11 @@
     "criminal-procedure-act": [
       "./Attorneys Exam/AttExam14Feb2017A.pdf/markdown.md",
       "./Attorneys Exam/AttExam14Feb2017Q.pdf/markdown.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Aug2015P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2017P1A.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2022P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Oct2018P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Feb2018P1Q.md",
       "./Attorneys Exam/notes/qa/AttExam 2017-02-14.md",
       "./CCP/CCP2012(2)SuppA.doc",
       "./CCP/CCP25Jul2015A.doc",
@@ -8528,6 +11943,12 @@
       "./LSSA & Miscellaneous /Legal Practice Act 28 of 2014.pdf/markdown.md"
     ],
     "culpable-homicide": [
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Aug2022P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Aug2015P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Mar2021P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Feb2020P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2017P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Mar2019P1Q.md",
       "./CCP/CCP Dashboard.md",
       "./CCP/CCP25Jul2015Q.doc",
       "./CCP/CCP26Jul2014A.doc",
@@ -8579,6 +12000,13 @@
     "leave-to-appeal": [
       "./Attorneys Exam/AttExam14Feb2017A.pdf/markdown.md",
       "./Attorneys Exam/AttExam14Feb2017Q.pdf/markdown.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2015P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam15Oct2018P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam21Aug2019P1A.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2015P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Oct2018P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Feb2020P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2017P1Q.md",
       "./Attorneys Exam/notes/qa/AttExam 2017-02-14.md",
       "./Attorneys Exam/notes/topics/Civil Appeal and Review Procedure.md",
       "./CCP/CCP2019AssQ.doc",
@@ -8627,6 +12055,14 @@
       "./Attorneys Exam/AttExam14Feb2017A.pdf/markdown.md",
       "./Attorneys Exam/AttExam14Feb2017Q.pdf/markdown.md",
       "./Attorneys Exam/AttExam9Feb2016A.pdf/markdown.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam15Oct2018P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Aug2015P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Feb2020P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Oct2021P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam6Mar2019P1A.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2023P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Oct2018P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2017P1Q.md",
       "./Attorneys Exam/notes/qa/AttExam 2016-02-09.md",
       "./Attorneys Exam/notes/qa/AttExam 2017-02-14.md",
       "./Attorneys Exam/notes/topics/Road Accident Fund Claims.md",
@@ -8676,6 +12112,18 @@
       "./Attorneys Exam/AttExam14Feb2017A.pdf/markdown.md",
       "./Attorneys Exam/AttExam15Feb2017Q.pdf/markdown.md",
       "./Attorneys Exam/Attorneys Exam Dashboard.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam11Feb2015P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Mar2021P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Aug2015P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam5Nov2020P3A.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam11Feb2015P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Aug2022P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Aug2015P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Mar2021P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Aug2015P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Feb2020P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam24Aug2023P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam5Nov2020P3Q.md",
       "./Attorneys Exam/notes/qa/AttExam 2017-02-15.md",
       "./Attorneys Exam/notes/topics/Company, Close Corporation and Partnership Law.md",
       "./Attorneys Exam/notes/topics/Insolvency Law.md",
@@ -8736,6 +12184,11 @@
       "./PCT/notes/topics/Requirements for Admission as an Attorney.md"
     ],
     "party-and-party-costs": [
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2016P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2017P1A.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2016P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2019P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Feb2018P4Q.md",
       "./BBST/BBST2013(2)Statement of Facts.doc",
       "./BBST/BBST2014(1)FinalQ&A.doc",
       "./BBST/BBST2016(1)A.doc",
@@ -8773,6 +12226,122 @@
       "./Attorneys Exam/AttExam9Feb2016A.pdf/markdown.md",
       "./Attorneys Exam/AttExam9Feb2016Q.pdf/markdown.md",
       "./Attorneys Exam/Attorneys Exam Dashboard.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2015P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2015P2A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2016P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2016P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam11Feb2015P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam11Feb2015P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam14Feb2017P2A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam15Feb2017P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam15Oct2018P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam15Oct2018P2A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam16Aug2016P2A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam16Oct2018P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam17Aug2016P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam17Mar2021P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam17Mar2021P2A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Aug2015P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Aug2015P2A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Mar2021P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Mar2021P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Aug2015P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Aug2015P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Feb2020P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Feb2020P2A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Oct2021P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Oct2021P2A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam20Feb2020P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam20Feb2020P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam20Oct2021P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam20Oct2021P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam21Aug2019P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam21Aug2019P2A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2017P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2017P2A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2019P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2019P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam23Aug2017P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam23Aug2017P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam4Nov2020P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam4Nov2020P2A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam5Nov2020P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam5Nov2020P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam6Feb2018P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam6Feb2018P2A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam6Mar2019P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam6Mar2019P2A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam7Feb2018P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam7Feb2018P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam7Mar2019P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam7Mar2019P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam9Feb2016P2A.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2015P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2015P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2016P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2016P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam11Feb2015P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam11Feb2015P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam14Feb2017P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Feb2017P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2022P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2022P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2023P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2023P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2023P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Oct2018P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Oct2018P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Aug2016P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Aug2022P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Aug2022P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Mar2022P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Mar2022P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Mar2023P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Oct2018P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Aug2016P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Aug2022P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Aug2022P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Mar2021P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Mar2021P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Aug2015P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Aug2015P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Mar2021P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Mar2021P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Aug2015P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Aug2015P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Feb2020P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Feb2020P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Oct2021P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Oct2021P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Feb2020P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Feb2020P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Oct2021P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Oct2021P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam21Aug2019P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam21Aug2019P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2017P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2017P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2019P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2019P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam23Aug2017P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam23Aug2017P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam23Aug2023P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam23Aug2023P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam24Aug2023P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam24Aug2023P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam4Nov2020P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam4Nov2020P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam5Nov2020P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam5Nov2020P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Feb2018P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Feb2018P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Mar2019P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Mar2019P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Feb2018P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Feb2018P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Mar2019P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Mar2019P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam9Feb2016P2Q.md",
       "./Attorneys Exam/notes/qa/AttExam 2016-02-09.md",
       "./Attorneys Exam/notes/qa/AttExam 2016-08-16.md",
       "./Attorneys Exam/notes/qa/AttExam 2017-02-14.md",
@@ -8969,6 +12538,9 @@
     ],
     "police-docket": [
       "./Attorneys Exam/Attorneys Exam Dashboard.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam6Mar2019P1A.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Aug2022P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam4Nov2020P1Q.md",
       "./Attorneys Exam/notes/qa/AttExam 2017-02-14.md",
       "./Attorneys Exam/notes/topics/Bail Applications.md",
       "./CCP/CCP Dashboard.md",
@@ -8998,6 +12570,9 @@
       "./LSSA & Miscellaneous /notes/Constitution of RSA.md"
     ],
     "pre-incorporation-contract": [
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2016P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam7Feb2018P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam7Mar2019P3A.md",
       "./FBE/FBE Dashboard.md",
       "./FBE/FBE3Dec2009A.doc",
       "./FBE/FBE3Dec2009Q.doc",
@@ -9027,6 +12602,14 @@
       "./Attorneys Exam/AttExam14Feb2017Q.pdf/markdown.md",
       "./Attorneys Exam/AttExam9Feb2016A.pdf/markdown.md",
       "./Attorneys Exam/AttExam9Feb2016Q.pdf/markdown.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam17Mar2021P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Aug2015P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam4Nov2020P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam6Feb2018P1A.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2023P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Mar2021P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Aug2015P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Feb2018P1Q.md",
       "./CCP/CCP26Jan2013A.doc",
       "./CCP/CCP30Jan2010A.doc",
       "./CCP/CCPDec2010A.doc",
@@ -9041,6 +12624,9 @@
       "./Attorneys Exam/AttExam16Aug2016Q.pdf/markdown.md",
       "./Attorneys Exam/AttExam9Feb2016A.pdf/markdown.md",
       "./Attorneys Exam/AttExam9Feb2016Q.pdf/markdown.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam17Mar2021P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Aug2015P1A.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Aug2015P1Q.md",
       "./Attorneys Exam/notes/qa/AttExam 2016-08-16.md",
       "./CCP/CCP2012(2)SuppA.doc",
       "./CCP/CCP25Jul2015A.doc",
@@ -9059,6 +12645,12 @@
       "./CCP/notes/qa/CCP 2012-08-02 Supp.md"
     ],
     "sole-proprietorship": [
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Mar2021P3A.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Mar2022P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Mar2021P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Feb2020P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Feb2020P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Mar2019P1Q.md",
       "./BBST/BBST2017Final Statement of Facts.doc",
       "./BBST/BBST28Sep2017 Statement of Facts.docx",
       "./BBST/BBST9Jun2012Q.doc",
@@ -9089,6 +12681,8 @@
       "./LDR/notes/topics/Rescission of CCMA Arbitration Awards.md"
     ],
     "taxation": [
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam5Nov2020P3A.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Feb2018P4Q.md",
       "./BBST/BBST2014(1)FinalQ&A.doc",
       "./COS/COS2012(1)A.doc",
       "./COS/COS2012(1)Q.doc",
@@ -9115,6 +12709,80 @@
       "./Attorneys Exam/AttExam15Feb2017A.pdf/markdown.md",
       "./Attorneys Exam/AttExam17Aug2016A.pdf/markdown.md",
       "./Attorneys Exam/AttExam17Aug2016Q.pdf/markdown.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2016P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2016P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam11Feb2015P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam11Feb2015P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam15Feb2017P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam16Aug2016P2A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam16Oct2018P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam17Aug2016P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam17Mar2021P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam17Mar2021P2A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Mar2021P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Mar2021P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Aug2015P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Aug2015P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam20Feb2020P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam20Oct2021P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam20Oct2021P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2017P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2017P2A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2019P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2019P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam23Aug2017P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam23Aug2017P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam5Nov2020P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam5Nov2020P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam6Feb2018P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam7Feb2018P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam7Feb2018P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam7Mar2019P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam7Mar2019P4A.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2015P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2016P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2016P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam11Feb2015P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam11Feb2015P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam14Feb2017P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Feb2017P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2022P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2023P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2023P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2023P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Aug2016P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Mar2022P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Mar2023P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Oct2018P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Aug2016P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Aug2022P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Aug2022P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Mar2021P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Mar2021P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Aug2015P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Mar2021P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Mar2021P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Aug2015P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Feb2020P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Feb2020P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Oct2021P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Oct2021P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam21Aug2019P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2017P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2017P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2019P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2019P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam23Aug2017P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam23Aug2017P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam24Aug2023P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam5Nov2020P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam5Nov2020P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Feb2018P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Feb2018P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Feb2018P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Feb2018P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Mar2019P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Mar2019P4Q.md",
       "./Attorneys Exam/notes/qa/AttExam 2016-08-17.md",
       "./Attorneys Exam/notes/qa/AttExam 2017-02-15.md",
       "./Attorneys Exam/notes/topics/Insolvency Law.md",
@@ -9291,6 +12959,98 @@
       "./Attorneys Exam/AttExam9Feb2016A.pdf/markdown.md",
       "./Attorneys Exam/AttExam9Feb2016Q.pdf/markdown.md",
       "./Attorneys Exam/Attorneys Exam Dashboard.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2015P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2016P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2016P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam15Feb2017P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam15Oct2018P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam15Oct2018P2A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam16Aug2016P2A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam16Oct2018P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam17Aug2016P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam17Mar2021P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam17Mar2021P2A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Aug2015P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Aug2015P2A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Mar2021P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Mar2021P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Aug2015P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Aug2015P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Feb2020P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Feb2020P2A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Oct2021P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Oct2021P2A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam20Feb2020P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam20Feb2020P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam20Oct2021P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam20Oct2021P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam21Aug2019P2A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2017P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2017P2A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2019P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam23Aug2017P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam5Nov2020P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam7Feb2018P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam7Feb2018P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam7Mar2019P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam7Mar2019P4A.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2015P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2015P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2016P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2016P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam11Feb2015P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam11Feb2015P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam14Feb2017P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Feb2017P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2022P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2023P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2023P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2023P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Oct2018P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Oct2018P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Aug2016P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Aug2022P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Mar2022P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Mar2022P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Mar2023P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Oct2018P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Aug2016P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Aug2022P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Mar2021P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Mar2021P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Aug2015P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Aug2015P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Mar2021P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Mar2021P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Aug2015P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Feb2020P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Feb2020P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Oct2021P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Feb2020P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Oct2021P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Oct2021P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam21Aug2019P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam21Aug2019P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2017P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2017P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2019P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam23Aug2017P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam23Aug2023P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam23Aug2023P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam24Aug2023P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam24Aug2023P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam4Nov2020P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam5Nov2020P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam5Nov2020P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Feb2018P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Feb2018P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Mar2019P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Mar2019P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Feb2018P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Feb2018P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Mar2019P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Mar2019P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam9Feb2016P2Q.md",
       "./Attorneys Exam/notes/qa/AttExam 2016-02-09.md",
       "./Attorneys Exam/notes/qa/AttExam 2016-08-16.md",
       "./Attorneys Exam/notes/qa/AttExam 2017-02-15.md",
@@ -9502,6 +13262,136 @@
       "./Attorneys Exam/AttExam16Aug2016Q.pdf/markdown.md",
       "./Attorneys Exam/AttExam17Aug2016Q.pdf/markdown.md",
       "./Attorneys Exam/AttExam9Feb2016Q.pdf/markdown.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2015P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2015P1Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2015P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2015P2Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2016P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2016P3Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2016P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2016P4Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam11Feb2015P3Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam11Feb2015P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam11Feb2015P4Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam14Feb2017P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam14Feb2017P2Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Feb2017P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Feb2017P4Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2022P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2022P1Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2022P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2022P2Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2023P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2023P1Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2023P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2023P2Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2023P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2023P3Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Oct2018P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Oct2018P1Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Oct2018P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Oct2018P2Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Aug2016P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Aug2016P2Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Aug2022P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Aug2022P1Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Aug2022P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Aug2022P2Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Mar2022P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Mar2022P3Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Mar2022P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Mar2022P4Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Mar2023P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Mar2023P4Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Oct2018P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Oct2018P4Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Aug2016P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Aug2016P4Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Aug2022P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Aug2022P3Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Aug2022P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Aug2022P4Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Mar2021P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Mar2021P1Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Mar2021P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Mar2021P2Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Aug2015P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Aug2015P1Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Aug2015P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Aug2015P2Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Mar2021P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Mar2021P3Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Mar2021P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Mar2021P4Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Aug2015P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Aug2015P3Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Aug2015P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Aug2015P4Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Feb2020P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Feb2020P1Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Feb2020P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Feb2020P2Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Oct2021P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Oct2021P1Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Oct2021P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Oct2021P2Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Feb2020P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Feb2020P3Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Feb2020P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Feb2020P4Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Oct2021P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Oct2021P3Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Oct2021P4Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam21Aug2019P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam21Aug2019P1Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam21Aug2019P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam21Aug2019P2Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2017P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2017P1Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2017P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2017P2Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2019P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2019P3Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2019P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2019P4Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam23Aug2017P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam23Aug2017P3Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam23Aug2017P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam23Aug2017P4Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam23Aug2023P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam23Aug2023P1Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam23Aug2023P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam23Aug2023P2Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam24Aug2023P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam24Aug2023P3Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam24Aug2023P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam24Aug2023P4Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam4Nov2020P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam4Nov2020P1Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam4Nov2020P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam4Nov2020P2Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam5Nov2020P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam5Nov2020P3Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam5Nov2020P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam5Nov2020P4Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Feb2018P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Feb2018P1Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Feb2018P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Feb2018P2Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Mar2019P1Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Mar2019P1Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Mar2019P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam6Mar2019P2Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Feb2018P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Feb2018P3Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Feb2018P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Feb2018P4Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Mar2019P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Mar2019P3Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Mar2019P4Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Mar2019P4Q.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam9Feb2016P2Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam9Feb2016P2Q.pdf",
       "./BBST/BBST2014(2)Q.doc",
       "./BBST/BBST2016(1)Q.doc",
       "./BBST/BBST20Apr2010Q.doc",
@@ -9834,6 +13724,7 @@
       "./LSSA & Miscellaneous /LSSA Dashboard.md",
       "./LSSA & Miscellaneous /notes/Legal Practice Act 28 of 2014.md",
       "./LSSA & Miscellaneous /notes/Legal Practice Act Rules.md",
+      "./Logs/2026-10-19 - Board Exam Archive.md",
       "./Logs/2026-10-19.md",
       "./MCP/MCP Dashboard.md",
       "./MCP/MCP.base",
@@ -9912,6 +13803,8 @@
       "./_CLAUDE.md",
       "./brain.md",
       "./decisions.md",
+      "./notes/Board Exam OCR Audit.md",
+      "./projects/Board Exam Archive.md",
       "./projects/Second Brain Setup.md"
     ],
     "lecture_qa": [
@@ -9923,6 +13816,108 @@
       "./Attorneys Exam/AttExam16Aug2016A.pdf/markdown.md",
       "./Attorneys Exam/AttExam17Aug2016A.pdf/markdown.md",
       "./Attorneys Exam/AttExam9Feb2016A.pdf/markdown.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2015P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2015P1A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2015P2A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2015P2A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2016P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2016P3A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2016P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2016P4A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam11Feb2015P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam11Feb2015P3A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam11Feb2015P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam11Feb2015P4A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam14Feb2017P2A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam14Feb2017P2A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam15Feb2017P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam15Feb2017P4A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam15Oct2018P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam15Oct2018P1A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam15Oct2018P2A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam15Oct2018P2A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam16Aug2016P2A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam16Aug2016P2A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam16Oct2018P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam16Oct2018P4A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam17Aug2016P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam17Aug2016P4A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam17Mar2021P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam17Mar2021P1A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam17Mar2021P2A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam17Mar2021P2A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Aug2015P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Aug2015P1A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Aug2015P2A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Aug2015P2A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Mar2021P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Mar2021P3A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Mar2021P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Mar2021P4A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Aug2015P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Aug2015P3A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Aug2015P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Aug2015P4A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Feb2020P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Feb2020P1A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Feb2020P2A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Feb2020P2A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Oct2021P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Oct2021P1A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Oct2021P2A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam19Oct2021P2A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam20Feb2020P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam20Feb2020P3A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam20Feb2020P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam20Feb2020P4A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam20Oct2021P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam20Oct2021P3A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam20Oct2021P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam20Oct2021P4A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam21Aug2019P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam21Aug2019P1A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam21Aug2019P2A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam21Aug2019P2A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2017P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2017P1A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2017P2A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2017P2A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2019P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2019P3A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2019P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2019P4A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam23Aug2017P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam23Aug2017P3A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam23Aug2017P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam23Aug2017P4A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam4Nov2020P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam4Nov2020P1A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam4Nov2020P2A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam4Nov2020P2A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam5Nov2020P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam5Nov2020P3A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam5Nov2020P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam5Nov2020P4A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam6Feb2018P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam6Feb2018P1A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam6Feb2018P2A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam6Feb2018P2A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam6Mar2019P1A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam6Mar2019P1A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam6Mar2019P2A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam6Mar2019P2A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam7Feb2018P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam7Feb2018P3A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam7Feb2018P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam7Feb2018P4A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam7Mar2019P3A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam7Mar2019P3A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam7Mar2019P4A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam7Mar2019P4A.pdf",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam9Feb2016P2A.md",
+      "./Attorneys Exam/Official Memoranda 2015-2021/AttExam9Feb2016P2A.pdf",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam11Feb2015P3Q.md",
+      "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam20Oct2021P4Q.md",
       "./BBST/BBST2013(1)Q&A.doc",
       "./BBST/BBST2013(1)SuppQ&A.doc",
       "./BBST/BBST2013(2)A.doc",
@@ -10040,7 +14035,8 @@
       "./PLE/PLE26Nov2015A.docx",
       "./PLE/PLE28Jun2016A.doc",
       "./PLE/PLE28May2016A.doc",
-      "./PLE/PLE30May2015A.doc"
+      "./PLE/PLE30May2015A.doc",
+      "./notes/Board Exam Memo Coverage.md"
     ],
     "reference": [
       "./LSSA & Miscellaneous /Legal Practice Act 28 of 2014.pdf/markdown.md",
