@@ -1,0 +1,739 @@
+{
+  "date": "2026-10-19",
+  "documents": 50,
+  "pages": 332,
+  "files": [
+    {
+      "file": "AttExam10Feb2015P1A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam10Feb2015P1A.md",
+      "archive": "mistral-ocr-batch-2.zip",
+      "source_pages": 10,
+      "exported_pages": 10,
+      "words": 3087,
+      "replacement_characters": 0,
+      "table_rows": 0,
+      "image_fixes": [
+        {
+          "before": "img-0.jpeg",
+          "after": "assets/AttExam10Feb2015P1A/pages/page-10/img-0.jpeg"
+        }
+      ],
+      "source_sha256": "1a1a7ea5345a13b6084ac43b828cb260416e7ad20ed374011969872b2e1e96af",
+      "raw_markdown_sha256": "a21011327c3baf20fabaa53d7dab468a879aec29f07fd3bd38d7fb57fa0409c2"
+    },
+    {
+      "file": "AttExam10Feb2015P2A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam10Feb2015P2A.md",
+      "archive": "mistral-ocr-ten-memos.zip",
+      "source_pages": 10,
+      "exported_pages": 10,
+      "words": 1744,
+      "replacement_characters": 0,
+      "table_rows": 0,
+      "image_fixes": [],
+      "source_sha256": "4a79ecd7cdeea3eb4a35dece7c384d7fba1d3f578e376ca0e83a600c62142844",
+      "raw_markdown_sha256": "24372f20ca415c02fa320ea66f204f5be181f804d4644ffa9b17dd180cad0797"
+    },
+    {
+      "file": "AttExam10Feb2016P3A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam10Feb2016P3A.md",
+      "archive": "mistral-ocr-ten-memos.zip",
+      "source_pages": 5,
+      "exported_pages": 5,
+      "words": 1764,
+      "replacement_characters": 0,
+      "table_rows": 7,
+      "image_fixes": [],
+      "source_sha256": "63f5db10b54ca3c55dc576edc870f11f049e326bea85df7e3c046cf52f4a3841",
+      "raw_markdown_sha256": "549a5d6370817a77f5e90865e84333527d5da6e58c31aaa340a14b19c942ec1d"
+    },
+    {
+      "file": "AttExam10Feb2016P4A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam10Feb2016P4A.md",
+      "archive": "mistral-ocr-batch-2.zip",
+      "source_pages": 5,
+      "exported_pages": 5,
+      "words": 1091,
+      "replacement_characters": 0,
+      "table_rows": 62,
+      "image_fixes": [
+        {
+          "before": "img-0.jpeg",
+          "after": "assets/AttExam10Feb2016P4A/pages/page-5/img-0.jpeg"
+        }
+      ],
+      "source_sha256": "308178641381e1d891470d98e4f3ede186f6b1b4c5264fe5c15df03927b64e5c",
+      "raw_markdown_sha256": "201e3f0413335afa414e1cf49e6c2d549813ed806feb3770e102c0df168063c7"
+    },
+    {
+      "file": "AttExam11Feb2015P3A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam11Feb2015P3A.md",
+      "archive": "mistral-ocr-batch-2.zip",
+      "source_pages": 5,
+      "exported_pages": 5,
+      "words": 1596,
+      "replacement_characters": 0,
+      "table_rows": 0,
+      "image_fixes": [
+        {
+          "before": "img-0.jpeg",
+          "after": "assets/AttExam11Feb2015P3A/pages/page-5/img-0.jpeg"
+        }
+      ],
+      "source_sha256": "7eba5d182c1bab15cecad3fb29c0531bc941264a5882c3194b36fe52b4ba9142",
+      "raw_markdown_sha256": "db2a464b14ac060749e7be0eabfb777bdee09e5b5308e5e4b442dcecbe9794b5"
+    },
+    {
+      "file": "AttExam11Feb2015P4A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam11Feb2015P4A.md",
+      "archive": "mistral-ocr-batch-2.zip",
+      "source_pages": 4,
+      "exported_pages": 4,
+      "words": 1188,
+      "replacement_characters": 0,
+      "table_rows": 58,
+      "image_fixes": [],
+      "source_sha256": "aa2dc54be9253f9ee5222bdf70562598cf4a8df6bd3515ff3194d5cd6dfaed5a",
+      "raw_markdown_sha256": "e258bbc55e185d068189a671bd6b6c9a47854ea0645245ca245cb4a9351dc2ba"
+    },
+    {
+      "file": "AttExam14Feb2017P2A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam14Feb2017P2A.md",
+      "archive": "mistral-ocr-ten-memos.zip",
+      "source_pages": 7,
+      "exported_pages": 7,
+      "words": 1342,
+      "replacement_characters": 0,
+      "table_rows": 2,
+      "image_fixes": [],
+      "source_sha256": "f160527ced92e26871d798bd02e85b70ed1293795b81dd7d749d7e725edf2cee",
+      "raw_markdown_sha256": "ea3cad33587606fbdbb9b9fb00c5adae9368cbfb7f2049ad43e2ec7c7aeb87e6"
+    },
+    {
+      "file": "AttExam15Feb2017P4A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam15Feb2017P4A.md",
+      "archive": "mistral-ocr-batch-2.zip",
+      "source_pages": 5,
+      "exported_pages": 5,
+      "words": 1089,
+      "replacement_characters": 0,
+      "table_rows": 71,
+      "image_fixes": [],
+      "source_sha256": "4d4fa5bdceddafc59aeb1113bf1d9ef83e8c1110cbad583bca67ecf0dddac5ee",
+      "raw_markdown_sha256": "f6d33930d4f8c08e1bb6b382e6b09ea657d9978b0aaf5bbaf835d25f5c8e1406"
+    },
+    {
+      "file": "AttExam15Oct2018P1A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam15Oct2018P1A.md",
+      "archive": "mistral-ocr-batch-2.zip",
+      "source_pages": 7,
+      "exported_pages": 7,
+      "words": 2152,
+      "replacement_characters": 0,
+      "table_rows": 0,
+      "image_fixes": [],
+      "source_sha256": "a477a06ef3deb27efadc7db33ee9b31de5a7b8bf08dd0d2452430a9a687bc6e2",
+      "raw_markdown_sha256": "2222f1d57b2e89ea7257427e1daa4972f95d89d071cb7ee09792283b98431c01"
+    },
+    {
+      "file": "AttExam15Oct2018P2A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam15Oct2018P2A.md",
+      "archive": "mistral-ocr-ten-memos.zip",
+      "source_pages": 6,
+      "exported_pages": 6,
+      "words": 1988,
+      "replacement_characters": 0,
+      "table_rows": 67,
+      "image_fixes": [],
+      "source_sha256": "47d02303818feaee09b2e67d2b535545e8c18fdc4d4cb6bdf8bbba30e9656c64",
+      "raw_markdown_sha256": "aa9a69793d6978919840fee12fb9356f86ef960b39b28ddb23475cffea897a09"
+    },
+    {
+      "file": "AttExam16Aug2016P2A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam16Aug2016P2A.md",
+      "archive": "mistral-ocr-batch-2.zip",
+      "source_pages": 8,
+      "exported_pages": 8,
+      "words": 1708,
+      "replacement_characters": 0,
+      "table_rows": 88,
+      "image_fixes": [],
+      "source_sha256": "40ffd4d6e4cd9a28ae396f4be9be8a074d738805443222b67897b7f8b00db0d3",
+      "raw_markdown_sha256": "1a5ba22e3e711a8d2ce21dcc7ddf14d9ee0c3e2b8c031c217dc8c3f93521cd71"
+    },
+    {
+      "file": "AttExam16Oct2018P4A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam16Oct2018P4A.md",
+      "archive": "mistral-ocr-batch-2.zip",
+      "source_pages": 6,
+      "exported_pages": 6,
+      "words": 1064,
+      "replacement_characters": 0,
+      "table_rows": 67,
+      "image_fixes": [],
+      "source_sha256": "91a2ea3f4c8527a62597ab618f2cbd30633cd8c8320f02c4d552f893094f0196",
+      "raw_markdown_sha256": "e7b4ec5797b9863eaa3964c8b7e8acda18bb86475ca47f58e77604dfa44c27eb"
+    },
+    {
+      "file": "AttExam17Aug2016P4A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam17Aug2016P4A.md",
+      "archive": "mistral-ocr-batch-2.zip",
+      "source_pages": 7,
+      "exported_pages": 7,
+      "words": 1180,
+      "replacement_characters": 0,
+      "table_rows": 110,
+      "image_fixes": [],
+      "source_sha256": "c07a0b463330bdfc6b5e3521458f3a3b63fc642f9997a5a3d946a0bf3ad31b1e",
+      "raw_markdown_sha256": "8ed8f9ba536a4e4840ca7dd9bfe50d3d3ef8e1fc4d0ea12d7d3939b1874057eb"
+    },
+    {
+      "file": "AttExam17Mar2021P1A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam17Mar2021P1A.md",
+      "archive": "mistral-ocr-batch-2.zip",
+      "source_pages": 7,
+      "exported_pages": 7,
+      "words": 2528,
+      "replacement_characters": 0,
+      "table_rows": 0,
+      "image_fixes": [],
+      "source_sha256": "bd69023225552888798dceed2a9a30d4c1017fad63faaf1cea2f5f78215056f9",
+      "raw_markdown_sha256": "9d5ae1c10cb8acf3773552f5964fb4823fef7545d8088d510fff268b2c1d2679"
+    },
+    {
+      "file": "AttExam17Mar2021P2A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam17Mar2021P2A.md",
+      "archive": "mistral-ocr-batch-3.zip",
+      "source_pages": 7,
+      "exported_pages": 7,
+      "words": 1983,
+      "replacement_characters": 0,
+      "table_rows": 92,
+      "image_fixes": [],
+      "source_sha256": "c919d65462b4d9950388ffac81ebbcbb79d195607b45d9eeca2a7755911ec7e7",
+      "raw_markdown_sha256": "c708fef695ff39cbf39a559001520fe4be2b7c7d3b3ef24ab9522cb5d4f70804"
+    },
+    {
+      "file": "AttExam18Aug2015P1A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam18Aug2015P1A.md",
+      "archive": "mistral-ocr-ten-memos.zip",
+      "source_pages": 7,
+      "exported_pages": 7,
+      "words": 2219,
+      "replacement_characters": 0,
+      "table_rows": 0,
+      "image_fixes": [],
+      "source_sha256": "7a6152af7dc3f5fe955e4d9196147a6cbd7f7b619601695d35aa7be477ba1e02",
+      "raw_markdown_sha256": "3fed52f99b204a8e16e120d2bf85790e92a81dd787a13dcf997e8fd08ce871d7"
+    },
+    {
+      "file": "AttExam18Aug2015P2A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam18Aug2015P2A.md",
+      "archive": "mistral-ocr-batch-3.zip",
+      "source_pages": 9,
+      "exported_pages": 9,
+      "words": 1770,
+      "replacement_characters": 0,
+      "table_rows": 86,
+      "image_fixes": [],
+      "source_sha256": "cc2177938602ca338cae81023f90f885e5d359c4c8f233f9e3efcc3ec51b860f",
+      "raw_markdown_sha256": "a50a049455cf8360622c14e1b192872f2ca34560cf43493b140bc8ee7f7c6e18"
+    },
+    {
+      "file": "AttExam18Mar2021P3A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam18Mar2021P3A.md",
+      "archive": "mistral-ocr-batch-3.zip",
+      "source_pages": 6,
+      "exported_pages": 6,
+      "words": 1846,
+      "replacement_characters": 0,
+      "table_rows": 0,
+      "image_fixes": [
+        {
+          "before": "img-0.jpeg",
+          "after": "assets/AttExam18Mar2021P3A/pages/page-6/img-0.jpeg"
+        }
+      ],
+      "source_sha256": "38c53a190fcd3533182c5a34b4c80309ebb52af6b6b4e3d1d11cac7ff5d5c005",
+      "raw_markdown_sha256": "44e358b95dfa870569da1ac1124b0d2be726d93d74fb7d2932f6266aa814ad28"
+    },
+    {
+      "file": "AttExam18Mar2021P4A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam18Mar2021P4A.md",
+      "archive": "mistral-ocr-batch-3.zip",
+      "source_pages": 12,
+      "exported_pages": 12,
+      "words": 1704,
+      "replacement_characters": 0,
+      "table_rows": 128,
+      "image_fixes": [
+        {
+          "before": "img-0.jpeg",
+          "after": "assets/AttExam18Mar2021P4A/pages/page-10/img-0.jpeg"
+        }
+      ],
+      "source_sha256": "12cda6bb79b454d240b8c79f3a835f16e54023bad26a82ccc2235e94ef102a38",
+      "raw_markdown_sha256": "49f93c9e661d73d725b1f5185d28020debf90e9ab3c7f97b425a749aaf471862"
+    },
+    {
+      "file": "AttExam19Aug2015P3A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam19Aug2015P3A.md",
+      "archive": "mistral-ocr-batch-3.zip",
+      "source_pages": 4,
+      "exported_pages": 4,
+      "words": 1630,
+      "replacement_characters": 0,
+      "table_rows": 0,
+      "image_fixes": [],
+      "source_sha256": "5a0e691da39fbbfc29cd21380adb6b214334d06f6e53292e3cf97cda089c7eb8",
+      "raw_markdown_sha256": "d2507bcc7d8011385f5f20aec97db51b3a481ee071fbb3e4feb8fb1f4a743e36"
+    },
+    {
+      "file": "AttExam19Aug2015P4A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam19Aug2015P4A.md",
+      "archive": "mistral-ocr-ten-memos.zip",
+      "source_pages": 6,
+      "exported_pages": 6,
+      "words": 1423,
+      "replacement_characters": 0,
+      "table_rows": 126,
+      "image_fixes": [
+        {
+          "before": "img-0.jpeg",
+          "after": "assets/AttExam19Aug2015P4A/pages/page-6/img-0.jpeg"
+        }
+      ],
+      "source_sha256": "c2ad9bd36b0189319c351c0d1d0e82ff28d2154c99111bf0b2adb0079a469d8d",
+      "raw_markdown_sha256": "64c912452b3e5afaeb3f92b38ec1f21a1109344f7693805918c4c75965193bf1"
+    },
+    {
+      "file": "AttExam19Feb2020P1A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam19Feb2020P1A.md",
+      "archive": "mistral-ocr-batch-3.zip",
+      "source_pages": 9,
+      "exported_pages": 9,
+      "words": 3113,
+      "replacement_characters": 0,
+      "table_rows": 0,
+      "image_fixes": [],
+      "source_sha256": "1dc21098c75d388824da79f35a6f344b8f2d0fe3c31e06b169282c5ef57aa918",
+      "raw_markdown_sha256": "c94985f6e5ca31ce3ea8a63d59ee951699363f627b60e3b164e1f0fb2ca82b2b"
+    },
+    {
+      "file": "AttExam19Feb2020P2A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam19Feb2020P2A.md",
+      "archive": "mistral-ocr-batch-3.zip",
+      "source_pages": 11,
+      "exported_pages": 11,
+      "words": 2155,
+      "replacement_characters": 0,
+      "table_rows": 102,
+      "image_fixes": [],
+      "source_sha256": "000cdfede50c2f6ac7324746faa7500d37d488552f5c0f6c5609790f72a63df3",
+      "raw_markdown_sha256": "18d9044a62fef4b0e8858dbfb029eea7d10a9ddba0bfead23d634f65dcfb73ce"
+    },
+    {
+      "file": "AttExam19Oct2021P1A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam19Oct2021P1A.md",
+      "archive": "mistral-ocr-batch-3.zip",
+      "source_pages": 8,
+      "exported_pages": 8,
+      "words": 2520,
+      "replacement_characters": 0,
+      "table_rows": 0,
+      "image_fixes": [
+        {
+          "before": "img-0.jpeg",
+          "after": "assets/AttExam19Oct2021P1A/pages/page-8/img-0.jpeg"
+        }
+      ],
+      "source_sha256": "b1b8a47be9b638fca13f07cd7b85088d389feb983f84b929755a7bf624101dda",
+      "raw_markdown_sha256": "0440cbf7162977eb7818ddd9cbc72455774dd49221930c996102d6342e01839c"
+    },
+    {
+      "file": "AttExam19Oct2021P2A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam19Oct2021P2A.md",
+      "archive": "mistral-ocr-batch-3.zip",
+      "source_pages": 6,
+      "exported_pages": 6,
+      "words": 1958,
+      "replacement_characters": 0,
+      "table_rows": 92,
+      "image_fixes": [
+        {
+          "before": "img-0.jpeg",
+          "after": "assets/AttExam19Oct2021P2A/pages/page-6/img-0.jpeg"
+        }
+      ],
+      "source_sha256": "85e0fef434361e6a52d65eacfc9759534f2f5127dba7fc9d4257dbb03270a580",
+      "raw_markdown_sha256": "9e1cc66a1dc0ff7c6a0763b0de826228fa489052cab3d7acb6d5ca265ee1330b"
+    },
+    {
+      "file": "AttExam20Feb2020P3A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam20Feb2020P3A.md",
+      "archive": "mistral-ocr-batch-3.zip",
+      "source_pages": 5,
+      "exported_pages": 5,
+      "words": 1447,
+      "replacement_characters": 0,
+      "table_rows": 0,
+      "image_fixes": [],
+      "source_sha256": "484501fa3158061dcc88ad824349043ec4da03e8cf30e7684937fa8a385a45d5",
+      "raw_markdown_sha256": "f5223a64dfe441aea033cdf7841efc5880c198c549120eae18024f8a23d7fb5a"
+    },
+    {
+      "file": "AttExam20Feb2020P4A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam20Feb2020P4A.md",
+      "archive": "mistral-ocr-batch-4.zip",
+      "source_pages": 6,
+      "exported_pages": 6,
+      "words": 1188,
+      "replacement_characters": 0,
+      "table_rows": 48,
+      "image_fixes": [],
+      "source_sha256": "f64cb9637d49adff171ea247fd4765db4af5c4ffdf09df4fbd14392915ec46f2",
+      "raw_markdown_sha256": "01dde2da0e395eac0a38e36bb61321f759ab47b3069173b56ea681964bba3ce3"
+    },
+    {
+      "file": "AttExam20Oct2021P3A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam20Oct2021P3A.md",
+      "archive": "mistral-ocr-batch-4.zip",
+      "source_pages": 5,
+      "exported_pages": 5,
+      "words": 1967,
+      "replacement_characters": 0,
+      "table_rows": 5,
+      "image_fixes": [],
+      "source_sha256": "ac6ac9524d23ce112b9a9bf58b8273924771ff40394ee162dd74af13379ca0f5",
+      "raw_markdown_sha256": "1550e80e6efc7f40d234a1e9a26ade566235b53ecf2ec5801a96bad7457799e4"
+    },
+    {
+      "file": "AttExam20Oct2021P4A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam20Oct2021P4A.md",
+      "archive": "mistral-ocr-batch-4.zip",
+      "source_pages": 6,
+      "exported_pages": 6,
+      "words": 1541,
+      "replacement_characters": 0,
+      "table_rows": 141,
+      "image_fixes": [],
+      "source_sha256": "55172593a012a1924ff7874e5cfc8b441d3a2a9cae253a797829dae43a85f4bc",
+      "raw_markdown_sha256": "63dd1bd6faa4bc48b5ae4b5f9606faa9a3d64f951f06fbddd452216a4afa7c43"
+    },
+    {
+      "file": "AttExam21Aug2019P1A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam21Aug2019P1A.md",
+      "archive": "mistral-ocr-batch-4.zip",
+      "source_pages": 7,
+      "exported_pages": 7,
+      "words": 2345,
+      "replacement_characters": 0,
+      "table_rows": 0,
+      "image_fixes": [],
+      "source_sha256": "a006225414b6ddd5741ef5c7ff78b4384d8393ed9fd930e29b4a7105ddb7b4b1",
+      "raw_markdown_sha256": "65efd8844c6bad8da723567592d52611c83cdc20132acde92bea85b684218346"
+    },
+    {
+      "file": "AttExam21Aug2019P2A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam21Aug2019P2A.md",
+      "archive": "mistral-ocr-ten-memos.zip",
+      "source_pages": 7,
+      "exported_pages": 7,
+      "words": 1945,
+      "replacement_characters": 0,
+      "table_rows": 75,
+      "image_fixes": [],
+      "source_sha256": "8d4deeaf7c7db1acf14977196a7bba47726021298aa4bf3197074c5e96e5bfc5",
+      "raw_markdown_sha256": "35813ab4c909b0c3124d238f90541177fd13edafbdc66b6d26f87ff85af8c9a9"
+    },
+    {
+      "file": "AttExam22Aug2017P1A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam22Aug2017P1A.md",
+      "archive": "mistral-ocr-ten-memos.zip",
+      "source_pages": 8,
+      "exported_pages": 8,
+      "words": 2329,
+      "replacement_characters": 0,
+      "table_rows": 0,
+      "image_fixes": [],
+      "source_sha256": "669355bf8a9212801b5f938391639a4a8ecfeba2d78585aefb24cae352e5945a",
+      "raw_markdown_sha256": "e6ede1a333965d2be387c7aab47ac7b10ffba739dcf52c86e0fcb381c493b580"
+    },
+    {
+      "file": "AttExam22Aug2017P2A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam22Aug2017P2A.md",
+      "archive": "mistral-ocr-batch-4.zip",
+      "source_pages": 8,
+      "exported_pages": 8,
+      "words": 2221,
+      "replacement_characters": 0,
+      "table_rows": 92,
+      "image_fixes": [],
+      "source_sha256": "ee6da7bcb0baca1f405da132a8ceb91477749f5b3efc49c00c12657a1b5a3b5f",
+      "raw_markdown_sha256": "81ddb66eb3a556c4687680acad67239ddc0b18243723b818dada0783bf6fd195"
+    },
+    {
+      "file": "AttExam22Aug2019P3A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam22Aug2019P3A.md",
+      "archive": "mistral-ocr-batch-4.zip",
+      "source_pages": 6,
+      "exported_pages": 6,
+      "words": 2097,
+      "replacement_characters": 0,
+      "table_rows": 0,
+      "image_fixes": [],
+      "source_sha256": "48a36d8bca2e47e39738cd120de87e7969a80396638b6cb2afad92560dc41256",
+      "raw_markdown_sha256": "7f0a0ae78e59bb62fde83208e10a59e1d576800e7a1f02e35f2050b2bd7f723a"
+    },
+    {
+      "file": "AttExam22Aug2019P4A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam22Aug2019P4A.md",
+      "archive": "mistral-ocr-batch-4.zip",
+      "source_pages": 7,
+      "exported_pages": 7,
+      "words": 1054,
+      "replacement_characters": 0,
+      "table_rows": 74,
+      "image_fixes": [
+        {
+          "before": "img-0.jpeg",
+          "after": "assets/AttExam22Aug2019P4A/pages/page-7/img-0.jpeg"
+        }
+      ],
+      "source_sha256": "52224c6035b52b2051e81460100c4ff38fc18bf85a8d40ab93aebb3cec413dd5",
+      "raw_markdown_sha256": "cc95c4eb3fd1def247fa8bac0aff85c6b3f4e73a62f4c94d3379df00b21f759d"
+    },
+    {
+      "file": "AttExam23Aug2017P3A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam23Aug2017P3A.md",
+      "archive": "mistral-ocr-batch-4.zip",
+      "source_pages": 4,
+      "exported_pages": 4,
+      "words": 1496,
+      "replacement_characters": 0,
+      "table_rows": 0,
+      "image_fixes": [],
+      "source_sha256": "75bcabe172c09cdc052fd025562849a691cf6d70e7b75aab2326a6a01b331c0b",
+      "raw_markdown_sha256": "c2585be9fa93c6507923c2013e7d5483b7cdb25f05ec5da94b7e14a9eb78b199"
+    },
+    {
+      "file": "AttExam23Aug2017P4A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam23Aug2017P4A.md",
+      "archive": "mistral-ocr-ten-memos.zip",
+      "source_pages": 7,
+      "exported_pages": 7,
+      "words": 1377,
+      "replacement_characters": 0,
+      "table_rows": 90,
+      "image_fixes": [],
+      "source_sha256": "e1990a3195f0ccc75e6515d064e41b065a5490edb76d33f645054dc83c1364d0",
+      "raw_markdown_sha256": "f8b346402b0062bc3e9060a950ad3891a916b6e5b0cfce5ac58059f2ad0532b5"
+    },
+    {
+      "file": "AttExam4Nov2020P1A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam4Nov2020P1A.md",
+      "archive": "mistral-ocr-batch-4.zip",
+      "source_pages": 6,
+      "exported_pages": 6,
+      "words": 1934,
+      "replacement_characters": 0,
+      "table_rows": 0,
+      "image_fixes": [],
+      "source_sha256": "1a74b8aa83054eb3902eb17d3f2f721cb49da9e90669d2fb2b2b8580a6d9bec9",
+      "raw_markdown_sha256": "820cb1284efa44ee5a6f8a0652aed5ee820b891d63e1c3999f0f89c1e22d7173"
+    },
+    {
+      "file": "AttExam4Nov2020P2A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam4Nov2020P2A.md",
+      "archive": "mistral-ocr-batch-4.zip",
+      "source_pages": 6,
+      "exported_pages": 6,
+      "words": 1775,
+      "replacement_characters": 0,
+      "table_rows": 49,
+      "image_fixes": [],
+      "source_sha256": "a72a0fb22ac5d2be27410bd40f800dd7f45f26f3bc73f242f8c21295f61bb2af",
+      "raw_markdown_sha256": "9972c4ad4929a926780c892b9291d49d49c8271731f87107d03dedb97f3d7560"
+    },
+    {
+      "file": "AttExam5Nov2020P3A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam5Nov2020P3A.md",
+      "archive": "mistral-ocr-batch-5.zip",
+      "source_pages": 6,
+      "exported_pages": 6,
+      "words": 1837,
+      "replacement_characters": 0,
+      "table_rows": 6,
+      "image_fixes": [
+        {
+          "before": "img-0.jpeg",
+          "after": "assets/AttExam5Nov2020P3A/pages/page-6/img-0.jpeg"
+        }
+      ],
+      "source_sha256": "4fe426ffd69c0c1335d870777ec45e479795e3118a77d102d56a8f220a540d20",
+      "raw_markdown_sha256": "f7c1eafa75a3654150f05ec30ca11e3a6b1538c05763744865392791bf37ec62"
+    },
+    {
+      "file": "AttExam5Nov2020P4A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam5Nov2020P4A.md",
+      "archive": "mistral-ocr-batch-5.zip",
+      "source_pages": 6,
+      "exported_pages": 6,
+      "words": 1907,
+      "replacement_characters": 0,
+      "table_rows": 149,
+      "image_fixes": [],
+      "source_sha256": "ded02b0a63e2038662d3743f225ae40a615a7a7740ec3038c4e9fec04ebf4e17",
+      "raw_markdown_sha256": "decd41f45d009c5eb1fad1bf2a16b00c25031246009e06408004136f772517ba"
+    },
+    {
+      "file": "AttExam6Feb2018P1A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam6Feb2018P1A.md",
+      "archive": "mistral-ocr-batch-5.zip",
+      "source_pages": 6,
+      "exported_pages": 6,
+      "words": 2363,
+      "replacement_characters": 0,
+      "table_rows": 0,
+      "image_fixes": [],
+      "source_sha256": "fd2152930f94d3fbf468b9791e794859aca70bdb339abb0c55d1fa8e4e84519c",
+      "raw_markdown_sha256": "6aabf3cafb593911c7377d16e651df82ec591864c6b8fc5bbc3a09f6f8aa3dbe"
+    },
+    {
+      "file": "AttExam6Feb2018P2A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam6Feb2018P2A.md",
+      "archive": "mistral-ocr-batch-5.zip",
+      "source_pages": 6,
+      "exported_pages": 6,
+      "words": 1665,
+      "replacement_characters": 0,
+      "table_rows": 74,
+      "image_fixes": [],
+      "source_sha256": "b1c3b044679d6a330a8e2847950ab10c09f8f82ea89bd28f393b45891b37aa73",
+      "raw_markdown_sha256": "7de3c43af5199216f7423dd460f234ce590949ad09d7a1788f97c563d3cbc694"
+    },
+    {
+      "file": "AttExam6Mar2019P1A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam6Mar2019P1A.md",
+      "archive": "mistral-ocr-batch-5.zip",
+      "source_pages": 7,
+      "exported_pages": 7,
+      "words": 2403,
+      "replacement_characters": 0,
+      "table_rows": 0,
+      "image_fixes": [],
+      "source_sha256": "29f06af94beafa592a519a43b5bac833844455d98fd9f3276bea6fefe17c1f97",
+      "raw_markdown_sha256": "5353aad8bded1706220b377b62148dea4bfc47523381e595605d059a8df1d027"
+    },
+    {
+      "file": "AttExam6Mar2019P2A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam6Mar2019P2A.md",
+      "archive": "mistral-ocr-batch-5.zip",
+      "source_pages": 7,
+      "exported_pages": 7,
+      "words": 1562,
+      "replacement_characters": 0,
+      "table_rows": 4,
+      "image_fixes": [
+        {
+          "before": "img-0.jpeg",
+          "after": "assets/AttExam6Mar2019P2A/pages/page-7/img-0.jpeg"
+        }
+      ],
+      "source_sha256": "a4df384b1dee95cb2f28d511832dc82a0e9d0ae9144ee936235d9ee81a40a091",
+      "raw_markdown_sha256": "896758cfb1db25b7f635caea743f02a4bb431f053c54345322fa93d4a6cd42ca"
+    },
+    {
+      "file": "AttExam7Feb2018P3A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam7Feb2018P3A.md",
+      "archive": "mistral-ocr-batch-5.zip",
+      "source_pages": 6,
+      "exported_pages": 6,
+      "words": 1844,
+      "replacement_characters": 0,
+      "table_rows": 0,
+      "image_fixes": [],
+      "source_sha256": "8abab34b9c53f83d5b4d628eba8f93f0643f33acd885427a7354d84dbd71b215",
+      "raw_markdown_sha256": "e5ae21b8bfa83f6790a6597d230e8975c0ecc62f037ee5e64b2cb8381d5aca40"
+    },
+    {
+      "file": "AttExam7Feb2018P4A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam7Feb2018P4A.md",
+      "archive": "mistral-ocr-batch-5.zip",
+      "source_pages": 6,
+      "exported_pages": 6,
+      "words": 1601,
+      "replacement_characters": 0,
+      "table_rows": 160,
+      "image_fixes": [],
+      "source_sha256": "f6cd1e86ac49d3506b2a15a10fba823c265cacced4d600c3ae51f8a589050770",
+      "raw_markdown_sha256": "4804800dd51c58c7a605628f39c6d737fc4d916eba617eef17edf830ce3c368e"
+    },
+    {
+      "file": "AttExam7Mar2019P3A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam7Mar2019P3A.md",
+      "archive": "mistral-ocr-ten-memos.zip",
+      "source_pages": 5,
+      "exported_pages": 5,
+      "words": 1626,
+      "replacement_characters": 0,
+      "table_rows": 0,
+      "image_fixes": [],
+      "source_sha256": "8be7feafd24217cebfaca740d79806ccd866df4d86ae66c74dbbb6527516634d",
+      "raw_markdown_sha256": "2dd550e4ac5d19502d7bfcccb42f1282987b3619071a5d3817a60f560d6b97b5"
+    },
+    {
+      "file": "AttExam7Mar2019P4A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam7Mar2019P4A.md",
+      "archive": "mistral-ocr-batch-5.zip",
+      "source_pages": 6,
+      "exported_pages": 6,
+      "words": 1242,
+      "replacement_characters": 0,
+      "table_rows": 84,
+      "image_fixes": [
+        {
+          "before": "img-0.jpeg",
+          "after": "assets/AttExam7Mar2019P4A/pages/page-6/img-0.jpeg"
+        }
+      ],
+      "source_sha256": "9a38325c9b89ebc5793489b77f7354b6cdd10634b2e372ef131bdffaa51490f2",
+      "raw_markdown_sha256": "3c0080f1dc9877df71125d0bc73c9e4f267afb33d4b3f90e822fb4a5f87bf235"
+    },
+    {
+      "file": "AttExam9Feb2016P2A.pdf",
+      "note": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam9Feb2016P2A.md",
+      "archive": "mistral-ocr-batch-5.zip",
+      "source_pages": 6,
+      "exported_pages": 6,
+      "words": 1564,
+      "replacement_characters": 0,
+      "table_rows": 83,
+      "image_fixes": [],
+      "source_sha256": "90d9253b88de0e370926e3216f6035f63636e8208bb75bf20cf40e3a037f7af1",
+      "raw_markdown_sha256": "7646579f997bcbe535623f93e4b3bf7a26a1b2efd91aa5eec218b3d5472bcef2"
+    }
+  ],
+  "archives": [
+    {
+      "file": "mistral-ocr-ten-memos.zip",
+      "sha256": "172a913b0c82de342959e99c5429e3746ec5d277faff33e424001af0c4058c55"
+    },
+    {
+      "file": "mistral-ocr-batch-2.zip",
+      "sha256": "5b56c28e0d7eacd6e272a435461ba8ab546a786697f95ff9bef1f82ed585ada4"
+    },
+    {
+      "file": "mistral-ocr-batch-3.zip",
+      "sha256": "ec9e348a19b10f2689d108a334bad8d4458b7a14e2570e52f6383760648a73ec"
+    },
+    {
+      "file": "mistral-ocr-batch-4.zip",
+      "sha256": "0e813920099aac3c267de2e5965d036271dfbaa591d678c9e7f7cdcf4f229aa2"
+    },
+    {
+      "file": "mistral-ocr-batch-5.zip",
+      "sha256": "24dad4febee85b787db1a2901c29ed1f6c7ea99569a65ba61f13ab3a73068c46"
+    }
+  ]
+}

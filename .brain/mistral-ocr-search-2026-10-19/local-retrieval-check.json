@@ -1,0 +1,65 @@
+{
+  "endpoint_host": "127.0.0.1",
+  "model": "embeddinggemma-2:270m",
+  "scope": "50 new Mistral memo extracts",
+  "checks": [
+    {
+      "public_query": "19 August 2015 bookkeeping transfer from Trust Account to Business R116500 and Business to Trust R7000",
+      "expected": "AttExam19Aug2015P4A",
+      "rank_among_50_memos": 1,
+      "top_three": [
+        {
+          "source": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam19Aug2015P4A.md",
+          "score": 0.8108
+        },
+        {
+          "source": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam11Feb2015P4A.md",
+          "score": 0.7883
+        },
+        {
+          "source": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam10Feb2016P4A.md",
+          "score": 0.7684
+        }
+      ]
+    },
+    {
+      "public_query": "22 August 2017 court procedures RAF5 notification of dispute Plaintiff abandons R20000 judgment R390000",
+      "expected": "AttExam22Aug2017P1A",
+      "rank_among_50_memos": 3,
+      "top_three": [
+        {
+          "source": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam15Oct2018P2A.md",
+          "score": 0.7218
+        },
+        {
+          "source": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam21Aug2019P2A.md",
+          "score": 0.7216
+        },
+        {
+          "source": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam22Aug2017P1A.md",
+          "score": 0.7183
+        }
+      ]
+    },
+    {
+      "public_query": "21 August 2019 estates Sam Dube Betty estate duty dutiable amount R12000000 duty R2400000",
+      "expected": "AttExam21Aug2019P2A",
+      "rank_among_50_memos": 1,
+      "top_three": [
+        {
+          "source": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam21Aug2019P2A.md",
+          "score": 0.7719
+        },
+        {
+          "source": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam22Aug2017P2A.md",
+          "score": 0.7526
+        },
+        {
+          "source": "Attorneys Exam/Mistral OCR 2026-10-19/AttExam16Aug2016P2A.md",
+          "score": 0.7482
+        }
+      ]
+    }
+  ],
+  "all_targets_in_top_five": true
+}

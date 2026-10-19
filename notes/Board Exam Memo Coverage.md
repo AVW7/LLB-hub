@@ -129,3 +129,8 @@ These are third-party listing leads found on 2026-10-19. No copy from them was a
 - Local recovery manifest and extraction metrics: `.brain/board-memo-recovery-2026-10-19.json`.
 - Work record: [[Logs/2026-10-19 - Board Exam Archive]].
 
+## Mistral OCR exports - 2026-10-19
+
+- [[notes/Board Exam Mistral OCR - 2026-10-19]] links 50 searchable alternative memo extracts covering 332 pages and the downloaded ZIP exports.
+- Originals and existing corrected extracts are preserved; Mistral financial tables and full transcription still need source review. Official coverage remains 50 memos with 16 recent gaps.
+

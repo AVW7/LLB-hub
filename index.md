@@ -1,6 +1,6 @@
 # LLB Hub — Index
 
-**Scanned:** 799 files across 14 subject folders  
+**Scanned:** 856 files across 14 subject folders  
 **Last updated:** 2026-10-19  
 **Source:** LSSA / School for Legal Practice past exam papers, memoranda, assignments, webinar slides and precedents.
 
@@ -22,7 +22,7 @@
 | IPM | Introduction to Practice Management (Module 4) | 22 |
 | ICP | Introduction to Conveyancing Practice (Module 3.2) | 24 |
 | BBST | Broad Based Skills Test (Integrated Practical Exam) | 46 |
-| Attorneys Exam | Attorneys Admission Examination (Board Exam) | 250 |
+| Attorneys Exam | Attorneys Admission Examination (Board Exam) | 300 |
 | LSSA | LSSA Reference Materials and Miscellaneous | 9 |
 
 ## Quality & Gaps
@@ -30,6 +30,12 @@
 | Path | Type | Quality | Gaps |
 |------|------|---------|------|
 | ./Attorneys Exam/Attorneys Exam.base | general | 0.5 | empty or near-empty |
+| ./Attorneys Exam/Mistral OCR 2026-10-19/exports/import-manifest.json | general | 0.5 | empty or near-empty |
+| ./Attorneys Exam/Mistral OCR 2026-10-19/exports/mistral-ocr-batch-2.zip | general | 0.5 | empty or near-empty |
+| ./Attorneys Exam/Mistral OCR 2026-10-19/exports/mistral-ocr-batch-3.zip | general | 0.5 | empty or near-empty |
+| ./Attorneys Exam/Mistral OCR 2026-10-19/exports/mistral-ocr-batch-4.zip | general | 0.5 | empty or near-empty |
+| ./Attorneys Exam/Mistral OCR 2026-10-19/exports/mistral-ocr-batch-5.zip | general | 0.5 | empty or near-empty |
+| ./Attorneys Exam/Mistral OCR 2026-10-19/exports/mistral-ocr-ten-memos.zip | general | 0.5 | empty or near-empty |
 | ./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2015P1A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
 | ./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2015P2A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
 | ./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2016P3A.pdf | marking_memo | 1.0 | scanned/no extractable text (OCR needed) |
@@ -561,6 +567,56 @@
 - **[AttExam9Feb2016Q/markdown.md](./Attorneys Exam/AttExam9Feb2016Q.pdf/markdown.md)** *(exam_question, topics: bail, s115-statement, s112-statement, plea, appeal)* — Attorneys Admission Examination — exam question paper
 - **[Attorneys Exam Dashboard.md](./Attorneys Exam/Attorneys Exam Dashboard.md)** *(general, topics: bail, plea, appeal, vat, close-corporation)* — Attorneys Admission Examination — document
 - **[Attorneys Exam.base](./Attorneys Exam/Attorneys Exam.base)** *(general)* — Attorneys Admission Examination — document  ⚠️ empty or near-empty
+- **[AttExam10Feb2015P1A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam10Feb2015P1A.md)** *(marking_memo, topics: plea, leave-to-appeal, appeal, vat, close-corporation)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam10Feb2015P2A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam10Feb2015P2A.md)** *(marking_memo, topics: plea)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam10Feb2016P3A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam10Feb2016P3A.md)** *(marking_memo, topics: plea, vat, party-and-party-costs, costs-de-bonis-propriis, pre-incorporation-contract)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam10Feb2016P4A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam10Feb2016P4A.md)** *(marking_memo, topics: plea, vat, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam11Feb2015P3A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam11Feb2015P3A.md)** *(marking_memo, topics: plea, partnership, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam11Feb2015P4A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam11Feb2015P4A.md)** *(marking_memo, topics: plea, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam14Feb2017P2A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam14Feb2017P2A.md)** *(marking_memo, topics: plea)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam15Feb2017P4A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam15Feb2017P4A.md)** *(marking_memo, topics: plea, vat, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam15Oct2018P1A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam15Oct2018P1A.md)** *(marking_memo, topics: plea, leave-to-appeal, appeal, vat, close-corporation)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam15Oct2018P2A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam15Oct2018P2A.md)** *(marking_memo, topics: plea, vat)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam16Aug2016P2A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam16Aug2016P2A.md)** *(marking_memo, topics: plea, vat, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam16Oct2018P4A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam16Oct2018P4A.md)** *(marking_memo, topics: plea, vat, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam17Aug2016P4A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam17Aug2016P4A.md)** *(marking_memo, topics: plea, vat, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam17Mar2021P1A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam17Mar2021P1A.md)** *(marking_memo, topics: s115-statement, s112-statement, plea, vat, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam17Mar2021P2A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam17Mar2021P2A.md)** *(marking_memo, topics: plea, vat, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam18Aug2015P1A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam18Aug2015P1A.md)** *(marking_memo, topics: s115-statement, s112-statement, plea, appeal, vat)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam18Aug2015P2A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam18Aug2015P2A.md)** *(marking_memo, topics: plea, vat)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam18Mar2021P3A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam18Mar2021P3A.md)** *(marking_memo, topics: plea, vat, partnership, sole-proprietorship, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam18Mar2021P4A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam18Mar2021P4A.md)** *(marking_memo, topics: plea, vat, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam19Aug2015P3A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam19Aug2015P3A.md)** *(marking_memo, topics: plea, vat, partnership, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam19Aug2015P4A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam19Aug2015P4A.md)** *(marking_memo, topics: plea, vat, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam19Feb2020P1A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam19Feb2020P1A.md)** *(marking_memo, topics: bail, plea, appeal, vat, locus-standi)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam19Feb2020P2A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam19Feb2020P2A.md)** *(marking_memo, topics: plea, vat)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam19Oct2021P1A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam19Oct2021P1A.md)** *(marking_memo, topics: plea, appeal, vat, locus-standi)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam19Oct2021P2A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam19Oct2021P2A.md)** *(marking_memo, topics: plea, vat)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam20Feb2020P3A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam20Feb2020P3A.md)** *(marking_memo, topics: plea, appeal, vat)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam20Feb2020P4A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam20Feb2020P4A.md)** *(marking_memo, topics: bail, plea, vat, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam20Oct2021P3A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam20Oct2021P3A.md)** *(marking_memo, topics: plea, vat, trust, constitution)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam20Oct2021P4A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam20Oct2021P4A.md)** *(marking_memo, topics: plea, vat, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam21Aug2019P1A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam21Aug2019P1A.md)** *(marking_memo, topics: bail, plea, leave-to-appeal, appeal, close-corporation)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam21Aug2019P2A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam21Aug2019P2A.md)** *(marking_memo, topics: plea, vat)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam22Aug2017P1A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam22Aug2017P1A.md)** *(marking_memo, topics: bail, plea, appeal, vat, party-and-party-costs)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam22Aug2017P2A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam22Aug2017P2A.md)** *(marking_memo, topics: plea, vat, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam22Aug2019P3A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam22Aug2019P3A.md)** *(marking_memo, topics: plea, appeal, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam22Aug2019P4A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam22Aug2019P4A.md)** *(marking_memo, topics: plea, vat, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam23Aug2017P3A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam23Aug2017P3A.md)** *(marking_memo, topics: plea, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam23Aug2017P4A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam23Aug2017P4A.md)** *(marking_memo, topics: plea, vat, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam4Nov2020P1A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam4Nov2020P1A.md)** *(marking_memo, topics: bail, s112-statement, plea, appeal)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam4Nov2020P2A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam4Nov2020P2A.md)** *(marking_memo, topics: plea)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam5Nov2020P3A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam5Nov2020P3A.md)** *(marking_memo, topics: plea, appeal, taxation, partnership, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam5Nov2020P4A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam5Nov2020P4A.md)** *(marking_memo, topics: plea, vat, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam6Feb2018P1A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam6Feb2018P1A.md)** *(marking_memo, topics: s112-statement, plea, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam6Feb2018P2A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam6Feb2018P2A.md)** *(marking_memo, topics: plea)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam6Mar2019P1A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam6Mar2019P1A.md)** *(marking_memo, topics: bail, plea, appeal, close-corporation, locus-standi)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam6Mar2019P2A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam6Mar2019P2A.md)** *(marking_memo, topics: plea)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam7Feb2018P3A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam7Feb2018P3A.md)** *(marking_memo, topics: plea, vat, pre-incorporation-contract, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam7Feb2018P4A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam7Feb2018P4A.md)** *(marking_memo, topics: plea, vat, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam7Mar2019P3A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam7Mar2019P3A.md)** *(marking_memo, topics: plea, vat, pre-incorporation-contract, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam7Mar2019P4A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam7Mar2019P4A.md)** *(marking_memo, topics: plea, vat, trust)* — Attorneys Admission Examination — marking memorandum / model answers
+- **[AttExam9Feb2016P2A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam9Feb2016P2A.md)** *(marking_memo, topics: plea, constitution)* — Attorneys Admission Examination — marking memorandum / model answers
 - **[AttExam10Feb2015P1A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2015P1A.md)** *(marking_memo, topics: plea, leave-to-appeal, appeal, vat, close-corporation)* — Attorneys Admission Examination — marking memorandum / model answers
 - **[AttExam10Feb2015P1A.pdf](./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2015P1A.pdf)** *(marking_memo)* — Attorneys Admission Examination — marking memorandum / model answers  ⚠️ scanned/no extractable text (OCR needed)
 - **[AttExam10Feb2015P2A.md](./Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2015P2A.md)** *(marking_memo, topics: plea)* — Attorneys Admission Examination — marking memorandum / model answers
