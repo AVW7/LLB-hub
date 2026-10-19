@@ -1,7 +1,7 @@
 # IPM — Contents Overview
 
 **Module:** Introduction to Practice Management (Module 4)
-**Total files:** 33
+**Total files:** 35
 
 **Years covered:** 2012 – 2019
 **Missing years:** 2013, 2017, 2018
@@ -51,6 +51,8 @@
 - **topics/FICA Reporting Obligations.md** — general
 - **topics/Filing Systems and Preventing Prescription.md** — general
 - **topics/Financial Reports in Practice.md** — general
+- **IPM Dashboard.md** — general
+- **IPM.base** — general
 - **topics/Insurance for Practitioners.md** — general
 - **topics/Marketing Mix.md** — general
 - **topics/Office Administration and HR.md** — general

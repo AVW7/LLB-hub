@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-07-10",
-  "count": 316,
+  "lastUpdated": "2026-10-19",
+  "count": 562,
   "subjects": {
     "CCP": "Criminal Court Practice (Module 1)",
     "CLP": "Constitutional Practice (Module 1)",
@@ -190,6 +190,417 @@
       "size_bytes": 22415,
       "quality_score": 3.0,
       "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Attorneys Exam Dashboard.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "bail",
+        "plea",
+        "appeal",
+        "vat",
+        "close-corporation",
+        "partnership",
+        "police-docket"
+      ],
+      "description": "Attorneys Admission Examination — document",
+      "size_bytes": 6743,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Attorneys Exam.base",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "Attorneys Admission Examination — document",
+      "size_bytes": 1467,
+      "quality_score": 0.5,
+      "gaps": [
+        "empty or near-empty"
+      ]
+    },
+    {
+      "path": "./Attorneys Exam/notes/qa/AttExam 2016-02-09.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "bail",
+        "plea",
+        "appeal",
+        "vat",
+        "locus-standi"
+      ],
+      "description": "Attorneys Admission Examination — document",
+      "size_bytes": 15427,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/notes/qa/AttExam 2016-08-16.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "bail",
+        "s115-statement",
+        "plea",
+        "appeal",
+        "vat"
+      ],
+      "description": "Attorneys Admission Examination — document",
+      "size_bytes": 15966,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/notes/qa/AttExam 2016-08-17.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "trust",
+        "constitution"
+      ],
+      "description": "Attorneys Admission Examination — document",
+      "size_bytes": 10003,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/notes/qa/AttExam 2017-02-14.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "bail",
+        "plea",
+        "leave-to-appeal",
+        "appeal",
+        "locus-standi",
+        "criminal-procedure-act",
+        "police-docket"
+      ],
+      "description": "Attorneys Admission Examination — document",
+      "size_bytes": 15394,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/notes/qa/AttExam 2017-02-15.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea",
+        "appeal",
+        "vat",
+        "close-corporation",
+        "partnership",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — document",
+      "size_bytes": 9891,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/notes/topics/Bail Applications.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "bail",
+        "plea",
+        "appeal",
+        "police-docket"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 3457,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/notes/topics/Civil Appeal and Review Procedure.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "bail",
+        "leave-to-appeal",
+        "appeal"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 2350,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/notes/topics/Company, Close Corporation and Partnership Law.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "vat",
+        "close-corporation",
+        "partnership"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 1628,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/notes/topics/Consumer Protection Act.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 1608,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/notes/topics/Contract Drafting — Standard Clauses.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 3694,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/notes/topics/Costs, Tenders and Withdrawal of Action.md",
+      "subject": "Legal Costs (Module 2.1)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "legal-costs"
+      ],
+      "description": "Legal Costs — document",
+      "size_bytes": 2115,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/notes/topics/Default Judgment and Provisional Sentence.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 1975,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/notes/topics/Discharge, Withdrawal and Stopping of Criminal Prosecution.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "bail",
+        "plea"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 1889,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/notes/topics/Execution of Judgments and Interpleader.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 2567,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/notes/topics/Insolvency Law.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "close-corporation",
+        "partnership",
+        "trust"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 1502,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/notes/topics/Interlocutory Applications and Notices of Motion.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 2442,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/notes/topics/Magistrates' Court Jurisdiction.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "bail",
+        "appeal",
+        "close-corporation"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 1803,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/notes/topics/Matrimonial Property and Divorce Procedure.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 2730,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/notes/topics/Particulars of Claim Drafting.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea",
+        "vat"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 3767,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/notes/topics/Prescription of Claims.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 2122,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/notes/topics/Professional Ethics and Conduct.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "appeal",
+        "trust",
+        "constitution"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 4372,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/notes/topics/Road Accident Fund Claims.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "locus-standi"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 4398,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/notes/topics/Sale of a Business and Restraint of Trade.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "vat"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 2491,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/notes/topics/Statements and Pleas in Criminal Trials.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "bail",
+        "plea",
+        "vat",
+        "private-defence"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 2818,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/notes/topics/Trial Notices for Expert and Documentary Evidence.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 1984,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/BBST Dashboard.md",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "partnership"
+      ],
+      "description": "Broad Based Skills Test — document",
+      "size_bytes": 7715,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/BBST.base",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "Broad Based Skills Test — document",
+      "size_bytes": 1464,
+      "quality_score": 0.5,
+      "gaps": [
+        "empty or near-empty"
+      ]
     },
     {
       "path": "./BBST/BBST2013(1)Q&A.doc",
@@ -549,14 +960,13 @@
       "subject": "Broad Based Skills Test (Integrated Practical Exam)",
       "role": "general",
       "type": "general",
-      "topics": [
-        "vat",
-        "sole-proprietorship"
-      ],
+      "topics": [],
       "description": "Broad Based Skills Test — document",
       "size_bytes": 107129,
-      "quality_score": 3.0,
-      "gaps": []
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
     },
     {
       "path": "./BBST/BBST20Apr2010Q.doc",
@@ -625,6 +1035,456 @@
       ],
       "description": "Broad Based Skills Test — exam question paper",
       "size_bytes": 38902,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/notes/qa/BBST 2010-04-20.md",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "general",
+      "type": "marking_memo",
+      "topics": [
+        "vat",
+        "trust"
+      ],
+      "description": "Broad Based Skills Test — document",
+      "size_bytes": 5586,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/notes/qa/BBST 2010-12-15 Special Supp.md",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "general",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Broad Based Skills Test — document",
+      "size_bytes": 3795,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/notes/qa/BBST 2012-06-09.md",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "general",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Broad Based Skills Test — document",
+      "size_bytes": 7306,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/notes/qa/BBST 2013(1) Supp.md",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea",
+        "trust"
+      ],
+      "description": "Broad Based Skills Test — document",
+      "size_bytes": 6825,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/notes/qa/BBST 2013(1).md",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea",
+        "vat",
+        "close-corporation",
+        "trust"
+      ],
+      "description": "Broad Based Skills Test — document",
+      "size_bytes": 9595,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/notes/qa/BBST 2013(2) Final.md",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "general",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "partnership",
+        "constitution"
+      ],
+      "description": "Broad Based Skills Test — document",
+      "size_bytes": 10888,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/notes/qa/BBST 2013(2) Supp.md",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "Broad Based Skills Test — document",
+      "size_bytes": 6697,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/notes/qa/BBST 2014(1) Final.md",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "general",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "bill-of-costs",
+        "partnership"
+      ],
+      "description": "Broad Based Skills Test — document",
+      "size_bytes": 9621,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/notes/qa/BBST 2014(2) Supp.md",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "close-corporation"
+      ],
+      "description": "Broad Based Skills Test — document",
+      "size_bytes": 3132,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/notes/qa/BBST 2014(2).md",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea",
+        "trust",
+        "locus-standi"
+      ],
+      "description": "Broad Based Skills Test — document",
+      "size_bytes": 9760,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/notes/qa/BBST 2015(1) Statement of Facts Only.md",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea"
+      ],
+      "description": "Broad Based Skills Test — document",
+      "size_bytes": 4553,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/notes/qa/BBST 2016(1).md",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea",
+        "vat",
+        "locus-standi"
+      ],
+      "description": "Broad Based Skills Test — document",
+      "size_bytes": 8867,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/notes/qa/BBST 2017(2) Statement of Facts Only.md",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "vat",
+        "close-corporation"
+      ],
+      "description": "Broad Based Skills Test — document",
+      "size_bytes": 3706,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/notes/qa/BBST 2017-09-28 Assignment.md",
+      "subject": "Broad Based Skills Test (Integrated Practical Exam)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "vat",
+        "sole-proprietorship",
+        "trust"
+      ],
+      "description": "Broad Based Skills Test — document",
+      "size_bytes": 6529,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/notes/topics/Attorneys Fees and Fee Agreements.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "bill-of-costs",
+        "vat"
+      ],
+      "description": "Attorneys Admission Examination — document",
+      "size_bytes": 3469,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/notes/topics/Compulsory Sequestration and Acts of Insolvency.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea",
+        "close-corporation",
+        "trust"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 5133,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/notes/topics/Contingency Fee Agreements.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea",
+        "constitution"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 2159,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/notes/topics/Defamation.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 2423,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/notes/topics/Delictual Claims and Vicarious Liability.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea",
+        "vat"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 3689,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/notes/topics/Divorce Actions and Settlement Agreements.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 3355,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/notes/topics/Domestic Violence Protection Orders.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 2262,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/notes/topics/Intestate Succession and Customary Marriages.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "partnership"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 3034,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/notes/topics/Lease Agreements and Eviction.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea",
+        "vat"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 3151,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/notes/topics/Maintenance Claims.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "partnership",
+        "constitution"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 2107,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/notes/topics/Matrimonial Property Systems.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 3373,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/notes/topics/Personal Liability of CC Members.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "vat",
+        "close-corporation"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 3292,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/notes/topics/Pre-Trial Procedure and Expedited Judgment.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 3472,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/notes/topics/Rehabilitation of an Insolvent Estate.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "trust"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 2477,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/notes/topics/Rescission of Judgment.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 3143,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/notes/topics/Road Accident Fund Claims.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 4458,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/notes/topics/Suretyship and the Matrimonial Property Act.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 2344,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/notes/topics/Universal Partnership and Breach of Promise to Marry.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "partnership"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 2611,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/notes/topics/Urgent Applications and Interdicts.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "locus-standi"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 2652,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./BBST/notes/topics/Wills and Disqualified Beneficiaries.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 3351,
       "quality_score": 3.0,
       "gaps": []
     },
@@ -1430,6 +2290,19 @@
       "gaps": []
     },
     {
+      "path": "./CLAUDE.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 47,
+      "quality_score": 0.5,
+      "gaps": [
+        "empty or near-empty"
+      ]
+    },
+    {
       "path": "./CLP/CLP 2012.2 SUPP ENG - only for appeal students.doc",
       "subject": "Constitutional Practice (Module 1)",
       "role": "general",
@@ -1445,6 +2318,39 @@
       "size_bytes": 16889,
       "quality_score": 3.0,
       "gaps": []
+    },
+    {
+      "path": "./CLP/CLP Dashboard.md",
+      "subject": "Constitutional Practice (Module 1)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "constitutional-practice",
+        "leave-to-appeal",
+        "appeal",
+        "bill-of-rights",
+        "locus-standi",
+        "constitution"
+      ],
+      "description": "Constitutional Practice — document",
+      "size_bytes": 7246,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CLP/CLP.base",
+      "subject": "Constitutional Practice (Module 1)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "constitutional-practice"
+      ],
+      "description": "Constitutional Practice — document",
+      "size_bytes": 1463,
+      "quality_score": 0.5,
+      "gaps": [
+        "empty or near-empty"
+      ]
     },
     {
       "path": "./CLP/CLP21Jul2012A.doc",
@@ -1709,6 +2615,373 @@
       "gaps": []
     },
     {
+      "path": "./CLP/notes/qa/CLP 2010-01-30.md",
+      "subject": "Constitutional Practice (Module 1)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "constitutional-practice",
+        "appeal",
+        "vat",
+        "constitution"
+      ],
+      "description": "Constitutional Practice — document",
+      "size_bytes": 6253,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CLP/notes/qa/CLP 2010-07-24.md",
+      "subject": "Constitutional Practice (Module 1)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "constitutional-practice",
+        "bill-of-rights",
+        "locus-standi",
+        "constitution"
+      ],
+      "description": "Constitutional Practice — document",
+      "size_bytes": 3991,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CLP/notes/qa/CLP 2010-12-15 Special Supp.md",
+      "subject": "Constitutional Practice (Module 1)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "constitutional-practice",
+        "constitution"
+      ],
+      "description": "Constitutional Practice — document",
+      "size_bytes": 2850,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CLP/notes/qa/CLP 2012-06-26 Special Supp.md",
+      "subject": "Constitutional Practice (Module 1)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "constitutional-practice",
+        "bill-of-rights",
+        "locus-standi",
+        "constitution"
+      ],
+      "description": "Constitutional Practice — document",
+      "size_bytes": 4599,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CLP/notes/qa/CLP 2012-07-15 Assignment.md",
+      "subject": "Constitutional Practice (Module 1)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "constitutional-practice",
+        "vat",
+        "bill-of-rights",
+        "locus-standi",
+        "constitution"
+      ],
+      "description": "Constitutional Practice — document",
+      "size_bytes": 11310,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CLP/notes/qa/CLP 2012-07-21.md",
+      "subject": "Constitutional Practice (Module 1)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "constitutional-practice",
+        "vat",
+        "bill-of-rights",
+        "locus-standi",
+        "constitution"
+      ],
+      "description": "Constitutional Practice — document",
+      "size_bytes": 7418,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CLP/notes/qa/CLP 2012-08-02 Supp.md",
+      "subject": "Constitutional Practice (Module 1)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "constitutional-practice",
+        "leave-to-appeal",
+        "appeal",
+        "bill-of-rights",
+        "locus-standi",
+        "constitution"
+      ],
+      "description": "Constitutional Practice — document",
+      "size_bytes": 5743,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CLP/notes/qa/CLP 2019-01-30 Assignment.md",
+      "subject": "Constitutional Practice (Module 1)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "constitutional-practice",
+        "vat",
+        "bill-of-rights",
+        "constitution"
+      ],
+      "description": "Constitutional Practice — document",
+      "size_bytes": 3840,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CLP/notes/topics/Amicus Curiae.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "appeal",
+        "locus-standi",
+        "constitution"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 3169,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CLP/notes/topics/Application of the Bill of Rights to Foreigners.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "bill-of-rights",
+        "locus-standi",
+        "constitution"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 1053,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CLP/notes/topics/Best Interests of the Child.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "bill-of-rights",
+        "constitution"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 3606,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CLP/notes/topics/Confirmation of Constitutional Invalidity.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "leave-to-appeal",
+        "appeal",
+        "constitution"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 2054,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CLP/notes/topics/Constitutional Remedies and Draft Orders.md",
+      "subject": "LSSA Reference Materials and Miscellaneous",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "bill-of-rights",
+        "locus-standi",
+        "constitution"
+      ],
+      "description": "LSSA Reference Materials and Miscellaneous — document",
+      "size_bytes": 3022,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CLP/notes/topics/Direct Access to the Constitutional Court.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "locus-standi",
+        "constitution"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 2644,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CLP/notes/topics/Equality and the Harksen Test.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "locus-standi",
+        "constitution"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 1935,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CLP/notes/topics/Fit and Proper Person for Admission.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "vat",
+        "constitution"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 1982,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CLP/notes/topics/Forfeiture and the Right to Property.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "vat",
+        "constitution"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 3261,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CLP/notes/topics/Jurisdiction in Constitutional Matters.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "leave-to-appeal",
+        "appeal",
+        "constitution"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 1749,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CLP/notes/topics/Leave to Appeal to the Constitutional Court.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "leave-to-appeal",
+        "appeal",
+        "constitution"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 2148,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CLP/notes/topics/Limitation of Rights.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "vat",
+        "bill-of-rights",
+        "locus-standi",
+        "constitution"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 3880,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CLP/notes/topics/Locus Standi.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "bill-of-rights",
+        "locus-standi",
+        "constitution"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 2668,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./CLP/notes/topics/Right to Privacy and the Prince Judgment.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "vat",
+        "locus-standi",
+        "constitution"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 3124,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./COS/COS Dashboard.md",
+      "subject": "Legal Costs (Module 2.1)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "legal-costs",
+        "allocatur",
+        "vat",
+        "costs-de-bonis-propriis"
+      ],
+      "description": "Legal Costs — document",
+      "size_bytes": 5285,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./COS/COS.base",
+      "subject": "Legal Costs (Module 2.1)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "legal-costs"
+      ],
+      "description": "Legal Costs — document",
+      "size_bytes": 1463,
+      "quality_score": 0.5,
+      "gaps": [
+        "empty or near-empty"
+      ]
+    },
+    {
       "path": "./COS/COS18Mar2010A.doc",
       "subject": "Legal Costs (Module 2.1)",
       "role": "answer",
@@ -1953,6 +3226,123 @@
       "gaps": []
     },
     {
+      "path": "./COS/notes/qa/COS 2010-03-06.md",
+      "subject": "Legal Costs (Module 2.1)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "legal-costs",
+        "appeal",
+        "bill-of-costs",
+        "allocatur",
+        "vat",
+        "taxation",
+        "party-and-party-costs",
+        "costs-de-bonis-propriis"
+      ],
+      "description": "Legal Costs — document",
+      "size_bytes": 5934,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./COS/notes/qa/COS 2010-03-18 Supp.md",
+      "subject": "Legal Costs (Module 2.1)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "legal-costs",
+        "plea",
+        "bill-of-costs",
+        "allocatur",
+        "vat",
+        "party-and-party-costs"
+      ],
+      "description": "Legal Costs — document",
+      "size_bytes": 6438,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./COS/notes/qa/COS 2010-09-07 Supp.md",
+      "subject": "Legal Costs (Module 2.1)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "legal-costs",
+        "bill-of-costs",
+        "allocatur",
+        "vat",
+        "taxation",
+        "party-and-party-costs",
+        "costs-de-bonis-propriis",
+        "police-docket"
+      ],
+      "description": "Legal Costs — document",
+      "size_bytes": 7023,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./COS/notes/qa/COS 2012 Special Supp.md",
+      "subject": "Legal Costs (Module 2.1)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "legal-costs",
+        "plea",
+        "bill-of-costs",
+        "allocatur",
+        "vat",
+        "taxation",
+        "costs-de-bonis-propriis",
+        "trust"
+      ],
+      "description": "Legal Costs — document",
+      "size_bytes": 5972,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./COS/notes/qa/COS 2012-08-30 Supp.md",
+      "subject": "Legal Costs (Module 2.1)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "legal-costs",
+        "bill-of-costs",
+        "allocatur",
+        "vat",
+        "party-and-party-costs",
+        "costs-de-bonis-propriis",
+        "police-docket"
+      ],
+      "description": "Legal Costs — document",
+      "size_bytes": 6892,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./COS/notes/qa/COS Module 2.1 Practice.md",
+      "subject": "Legal Costs (Module 2.1)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "legal-costs",
+        "plea",
+        "bill-of-costs",
+        "vat",
+        "taxation",
+        "party-and-party-costs",
+        "costs-de-bonis-propriis",
+        "trust"
+      ],
+      "description": "Legal Costs — document",
+      "size_bytes": 6917,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
       "path": "./COS/notes/topics/Allocatur Completion.md",
       "subject": "Uncategorised",
       "role": "general",
@@ -1964,6 +3354,17 @@
       ],
       "description": "LLB material — document",
       "size_bytes": 3532,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./COS/notes/topics/Contingency Fee Agreements.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 2010,
       "quality_score": 3.0,
       "gaps": []
     },
@@ -2003,6 +3404,71 @@
       "gaps": []
     },
     {
+      "path": "./COS/notes/topics/Litigious vs Non-Litigious Matters.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "allocatur",
+        "taxation"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 2945,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./COS/notes/topics/Recovering Costs After Judgment.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "bill-of-costs",
+        "allocatur",
+        "party-and-party-costs"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 2072,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./COS/notes/topics/Statement of Account and Bill Preparation.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "bill-of-costs",
+        "vat",
+        "party-and-party-costs",
+        "police-docket"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 4607,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./COS/notes/topics/Taxation Procedure.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea",
+        "appeal",
+        "bill-of-costs",
+        "allocatur",
+        "taxation",
+        "party-and-party-costs",
+        "costs-de-bonis-propriis",
+        "trust"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 2629,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
       "path": "./COS/notes/topics/VAT on Fees and Disbursements.md",
       "subject": "Uncategorised",
       "role": "general",
@@ -2015,6 +3481,41 @@
       "size_bytes": 2512,
       "quality_score": 3.0,
       "gaps": []
+    },
+    {
+      "path": "./FBE/FBE Dashboard.md",
+      "subject": "Forms of Business Enterprise (Module 3.x)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "forms-of-business-enterprise",
+        "vat",
+        "close-corporation",
+        "partnership",
+        "sole-proprietorship",
+        "pre-incorporation-contract",
+        "trust",
+        "judicial-management"
+      ],
+      "description": "Forms of Business Enterprise — document",
+      "size_bytes": 4618,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./FBE/FBE.base",
+      "subject": "Forms of Business Enterprise (Module 3.x)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "forms-of-business-enterprise"
+      ],
+      "description": "Forms of Business Enterprise — document",
+      "size_bytes": 1463,
+      "quality_score": 0.5,
+      "gaps": [
+        "empty or near-empty"
+      ]
     },
     {
       "path": "./FBE/FBE16May2012A.doc",
@@ -2316,6 +3817,80 @@
       "gaps": []
     },
     {
+      "path": "./FBE/notes/qa/FBE 2010-11-16 Supp.md",
+      "subject": "Forms of Business Enterprise (Module 3.x)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "forms-of-business-enterprise",
+        "vat",
+        "close-corporation",
+        "partnership",
+        "sole-proprietorship",
+        "trust"
+      ],
+      "description": "Forms of Business Enterprise — document",
+      "size_bytes": 5000,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./FBE/notes/qa/FBE 2012-05-05.md",
+      "subject": "Forms of Business Enterprise (Module 3.x)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "forms-of-business-enterprise",
+        "vat",
+        "partnership",
+        "sole-proprietorship",
+        "pre-incorporation-contract",
+        "trust"
+      ],
+      "description": "Forms of Business Enterprise — document",
+      "size_bytes": 4689,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./FBE/notes/qa/FBE 2012-05-16 Supp.md",
+      "subject": "Forms of Business Enterprise (Module 3.x)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "forms-of-business-enterprise",
+        "vat",
+        "close-corporation",
+        "partnership",
+        "sole-proprietorship",
+        "trust",
+        "judicial-management",
+        "constitution"
+      ],
+      "description": "Forms of Business Enterprise — document",
+      "size_bytes": 5303,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./FBE/notes/qa/FBE 2012-06-28 Special Supp.md",
+      "subject": "Forms of Business Enterprise (Module 3.x)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "forms-of-business-enterprise",
+        "vat",
+        "close-corporation",
+        "partnership",
+        "sole-proprietorship",
+        "trust"
+      ],
+      "description": "Forms of Business Enterprise — document",
+      "size_bytes": 4799,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
       "path": "./FBE/notes/topics/Choosing a Business Entity.md",
       "subject": "Uncategorised",
       "role": "general",
@@ -2458,20 +4033,33 @@
       "gaps": []
     },
     {
-      "path": "./HCP/HCP Example - Heads of argument.pdf",
+      "path": "./HCP/HCP Dashboard.md",
       "subject": "High Court Practice (Module 2.1)",
-      "role": "template",
-      "type": "template",
+      "role": "general",
+      "type": "general",
       "topics": [
         "plea",
         "leave-to-appeal",
         "appeal",
-        "constitution"
+        "trust"
       ],
-      "description": "High Court Practice — precedent/template document",
-      "size_bytes": 26826,
+      "description": "High Court Practice — document",
+      "size_bytes": 7248,
       "quality_score": 3.0,
       "gaps": []
+    },
+    {
+      "path": "./HCP/HCP Example - Heads of argument.pdf",
+      "subject": "High Court Practice (Module 2.1)",
+      "role": "template",
+      "type": "template",
+      "topics": [],
+      "description": "High Court Practice — precedent/template document",
+      "size_bytes": 26826,
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
     },
     {
       "path": "./HCP/HCP NoticeofAppeal.doc",
@@ -2487,6 +4075,19 @@
       "size_bytes": 41472,
       "quality_score": 3.0,
       "gaps": []
+    },
+    {
+      "path": "./HCP/HCP.base",
+      "subject": "High Court Practice (Module 2.1)",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "High Court Practice — document",
+      "size_bytes": 1463,
+      "quality_score": 0.5,
+      "gaps": [
+        "empty or near-empty"
+      ]
     },
     {
       "path": "./HCP/HCP18Mar2010A.doc",
@@ -2591,20 +4192,13 @@
       "subject": "High Court Practice (Module 2.1)",
       "role": "slides",
       "type": "slides",
-      "topics": [
-        "plea",
-        "leave-to-appeal",
-        "appeal",
-        "vat",
-        "close-corporation",
-        "partnership",
-        "trust",
-        "locus-standi"
-      ],
+      "topics": [],
       "description": "High Court Practice — webinar/lecture slide deck",
       "size_bytes": 3201363,
-      "quality_score": 3.0,
-      "gaps": []
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
     },
     {
       "path": "./HCP/HCP20Aug2011A.doc",
@@ -2800,6 +4394,442 @@
       "gaps": []
     },
     {
+      "path": "./HCP/notes/qa/HCP 2008-03-19 Special Supp.md",
+      "subject": "High Court Practice (Module 2.1)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea",
+        "appeal"
+      ],
+      "description": "High Court Practice — document",
+      "size_bytes": 4596,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/notes/qa/HCP 2010-03-06.md",
+      "subject": "High Court Practice (Module 2.1)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea",
+        "locus-standi"
+      ],
+      "description": "High Court Practice — document",
+      "size_bytes": 5612,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/notes/qa/HCP 2010-03-18 Supp.md",
+      "subject": "High Court Practice (Module 2.1)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea",
+        "close-corporation"
+      ],
+      "description": "High Court Practice — document",
+      "size_bytes": 5980,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/notes/qa/HCP 2010-09-07 Supp.md",
+      "subject": "High Court Practice (Module 2.1)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea",
+        "trust"
+      ],
+      "description": "High Court Practice — document",
+      "size_bytes": 6089,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/notes/qa/HCP 2011-03-05.md",
+      "subject": "High Court Practice (Module 2.1)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea",
+        "locus-standi"
+      ],
+      "description": "High Court Practice — document",
+      "size_bytes": 6269,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/notes/qa/HCP 2011-08-20.md",
+      "subject": "High Court Practice (Module 2.1)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea"
+      ],
+      "description": "High Court Practice — document",
+      "size_bytes": 6241,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/notes/qa/HCP 2012-03-03.md",
+      "subject": "High Court Practice (Module 2.1)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea"
+      ],
+      "description": "High Court Practice — document",
+      "size_bytes": 4842,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/notes/qa/HCP 2012-06-01 Special Supp.md",
+      "subject": "High Court Practice (Module 2.1)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea"
+      ],
+      "description": "High Court Practice — document",
+      "size_bytes": 5761,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/notes/qa/HCP 2012-08-30 Supp.md",
+      "subject": "High Court Practice (Module 2.1)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea",
+        "trust"
+      ],
+      "description": "High Court Practice — document",
+      "size_bytes": 5952,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/notes/qa/HCP 2013-09-06 Supp.md",
+      "subject": "High Court Practice (Module 2.1)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea",
+        "vat",
+        "locus-standi"
+      ],
+      "description": "High Court Practice — document",
+      "size_bytes": 6425,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/notes/qa/HCP 2014-03-01.md",
+      "subject": "High Court Practice (Module 2.1)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea",
+        "appeal",
+        "partnership",
+        "trust"
+      ],
+      "description": "High Court Practice — document",
+      "size_bytes": 6634,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/notes/qa/HCP 2019-03-07 Assignment.md",
+      "subject": "High Court Practice (Module 2.1)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea"
+      ],
+      "description": "High Court Practice — document",
+      "size_bytes": 7162,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/notes/topics/Appeal Procedure and Heads of Argument.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "leave-to-appeal",
+        "appeal"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 5768,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/notes/topics/Application Procedure and Notice of Motion.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 7181,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/notes/topics/Default Judgment and Rescission of Judgment.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 4433,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/notes/topics/Discovery.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 4645,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/notes/topics/Exception, Irregular Proceedings and Striking Out.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea",
+        "locus-standi"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 4066,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/notes/topics/Interdicts.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 3742,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/notes/topics/Joinder, Third Party Procedure and Interpleader.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 5250,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/notes/topics/Jurisdiction of the High Court.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea",
+        "locus-standi"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 4227,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/notes/topics/Notice of Intention to Defend.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 2451,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/notes/topics/Particulars of Claim and Rule 18 Requirements.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea",
+        "locus-standi"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 5094,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/notes/topics/Parties, Citation and Legal Capacity to Litigate.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea",
+        "close-corporation",
+        "sole-proprietorship",
+        "trust",
+        "locus-standi"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 4709,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/notes/topics/Plea, Special Plea, Replication and Close of Pleadings.md",
+      "subject": "Professional Legal Ethics (Module 4)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea"
+      ],
+      "description": "Professional Legal Ethics — document",
+      "size_bytes": 5208,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/notes/topics/Provisional Sentence Procedure.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 4335,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/notes/topics/Review Procedure and Appeal vs Review.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "appeal"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 2905,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/notes/topics/Rule 32 Judgment Procedure.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea",
+        "appeal"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 3236,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/notes/topics/Service of Process and Edictal Citation.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "partnership",
+        "trust"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 4695,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/notes/topics/Summons Types and the Essentialia.md",
+      "subject": "Uncategorised",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "plea"
+      ],
+      "description": "LLB material — marking memorandum / model answers",
+      "size_bytes": 4308,
+      "quality_score": 2.7,
+      "gaps": []
+    },
+    {
+      "path": "./HCP/notes/topics/ZZTest.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 282,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./ICP/ICP Dashboard.md",
+      "subject": "Introduction to Conveyancing Practice (Module 3.2)",
+      "role": "general",
+      "type": "marking_memo",
+      "topics": [
+        "vat",
+        "trust"
+      ],
+      "description": "Introduction to Conveyancing Practice — document",
+      "size_bytes": 5812,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./ICP/ICP.base",
+      "subject": "Introduction to Conveyancing Practice (Module 3.2)",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "Introduction to Conveyancing Practice — document",
+      "size_bytes": 1463,
+      "quality_score": 0.5,
+      "gaps": [
+        "empty or near-empty"
+      ]
+    },
+    {
       "path": "./ICP/ICP16May2012A.doc",
       "subject": "Introduction to Conveyancing Practice (Module 3.2)",
       "role": "answer",
@@ -2976,6 +5006,131 @@
       "gaps": []
     },
     {
+      "path": "./ICP/notes/qa/ICP 2010-12-15 Supp.md",
+      "subject": "Introduction to Conveyancing Practice (Module 3.2)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "partnership",
+        "trust"
+      ],
+      "description": "Introduction to Conveyancing Practice — document",
+      "size_bytes": 6731,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./ICP/notes/qa/ICP 2012-05-05.md",
+      "subject": "Introduction to Conveyancing Practice (Module 3.2)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "vat",
+        "partnership",
+        "trust"
+      ],
+      "description": "Introduction to Conveyancing Practice — document",
+      "size_bytes": 6449,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./ICP/notes/qa/ICP 2012-05-16 Supp.md",
+      "subject": "Introduction to Conveyancing Practice (Module 3.2)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "vat",
+        "trust"
+      ],
+      "description": "Introduction to Conveyancing Practice — document",
+      "size_bytes": 6485,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./ICP/notes/qa/ICP 2012-06-28 Supp.md",
+      "subject": "Introduction to Conveyancing Practice (Module 3.2)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea",
+        "close-corporation",
+        "trust"
+      ],
+      "description": "Introduction to Conveyancing Practice — document",
+      "size_bytes": 7336,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./ICP/notes/qa/ICP 2015-10-24.md",
+      "subject": "Introduction to Conveyancing Practice (Module 3.2)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "trust"
+      ],
+      "description": "Introduction to Conveyancing Practice — document",
+      "size_bytes": 4939,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./ICP/notes/qa/ICP 2015-12-03 Supp.md",
+      "subject": "Introduction to Conveyancing Practice (Module 3.2)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "vat"
+      ],
+      "description": "Introduction to Conveyancing Practice — document",
+      "size_bytes": 5552,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./ICP/notes/qa/ICP 2016-05-07.md",
+      "subject": "Introduction to Conveyancing Practice (Module 3.2)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "vat",
+        "trust"
+      ],
+      "description": "Introduction to Conveyancing Practice — document",
+      "size_bytes": 5079,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./ICP/notes/qa/ICP 2016-05-19 Supp.md",
+      "subject": "Introduction to Conveyancing Practice (Module 3.2)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "vat"
+      ],
+      "description": "Introduction to Conveyancing Practice — document",
+      "size_bytes": 5420,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./ICP/notes/qa/ICP 2016-06-29 Supp.md",
+      "subject": "Introduction to Conveyancing Practice (Module 3.2)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "vat",
+        "trust"
+      ],
+      "description": "Introduction to Conveyancing Practice — document",
+      "size_bytes": 6902,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
       "path": "./ICP/notes/topics/Body Corporate — Management and Conduct Rules.md",
       "subject": "Uncategorised",
       "role": "general",
@@ -2989,6 +5144,30 @@
       "gaps": []
     },
     {
+      "path": "./ICP/notes/topics/Cooling-Off Right for Purchasers.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 1107,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./ICP/notes/topics/Deeds Registration Process.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "trust"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 3821,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
       "path": "./ICP/notes/topics/Exclusive Use Areas.md",
       "subject": "Uncategorised",
       "role": "general",
@@ -2996,6 +5175,46 @@
       "topics": [],
       "description": "LLB material — document",
       "size_bytes": 2960,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./ICP/notes/topics/FICA Compliance in Conveyancing.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "trust"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 1420,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./ICP/notes/topics/Marital Property Regimes and Conveyancing.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "partnership",
+        "trust"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 2208,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./ICP/notes/topics/Minors and Trusts in Conveyancing Transactions.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "trust"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 2699,
       "quality_score": 3.0,
       "gaps": []
     },
@@ -3013,6 +5232,17 @@
       "gaps": []
     },
     {
+      "path": "./ICP/notes/topics/Real Rights vs Personal Rights.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 1371,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
       "path": "./ICP/notes/topics/Sectional Title Schemes.md",
       "subject": "Uncategorised",
       "role": "general",
@@ -3024,6 +5254,86 @@
       "size_bytes": 3518,
       "quality_score": 3.0,
       "gaps": []
+    },
+    {
+      "path": "./ICP/notes/topics/Transfer of Land — Role Players and Process.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "vat",
+        "close-corporation",
+        "partnership",
+        "trust"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 6360,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./ICP/notes/topics/Trust Account, Guarantees and Undertakings.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "trust"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 3005,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./ICP/notes/topics/Types of Property Ownership.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea",
+        "vat"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 3043,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./ICP/notes/topics/Zero-Rated VAT Transactions.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "vat"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 883,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./IPM/IPM Dashboard.md",
+      "subject": "Introduction to Practice Management (Module 4)",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "Introduction to Practice Management — document",
+      "size_bytes": 3278,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./IPM/IPM.base",
+      "subject": "Introduction to Practice Management (Module 4)",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "Introduction to Practice Management — document",
+      "size_bytes": 1463,
+      "quality_score": 0.5,
+      "gaps": [
+        "empty or near-empty"
+      ]
     },
     {
       "path": "./IPM/IPM19May2012Q.doc",
@@ -3433,6 +5743,30 @@
       "gaps": []
     },
     {
+      "path": "./LDR/LDR Dashboard.md",
+      "subject": "Labour Dispute Resolution (Module 3.2)",
+      "role": "general",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "Labour Dispute Resolution — document",
+      "size_bytes": 5484,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LDR/LDR.base",
+      "subject": "Labour Dispute Resolution (Module 3.2)",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "Labour Dispute Resolution — document",
+      "size_bytes": 1463,
+      "quality_score": 0.5,
+      "gaps": [
+        "empty or near-empty"
+      ]
+    },
+    {
       "path": "./LDR/LDR16May2012A.doc",
       "subject": "Labour Dispute Resolution (Module 3.2)",
       "role": "answer",
@@ -3629,6 +5963,279 @@
       "gaps": []
     },
     {
+      "path": "./LDR/notes/qa/LDR 2009-12-03.md",
+      "subject": "Labour Dispute Resolution (Module 3.2)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "vat"
+      ],
+      "description": "Labour Dispute Resolution — document",
+      "size_bytes": 5626,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LDR/notes/qa/LDR 2010-05-22.md",
+      "subject": "Labour Dispute Resolution (Module 3.2)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "vat"
+      ],
+      "description": "Labour Dispute Resolution — document",
+      "size_bytes": 7129,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LDR/notes/qa/LDR 2010-06-03 Supp.md",
+      "subject": "Labour Dispute Resolution (Module 3.2)",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "Labour Dispute Resolution — document",
+      "size_bytes": 6335,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LDR/notes/qa/LDR 2010-11-16 Supp.md",
+      "subject": "Labour Dispute Resolution (Module 3.2)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "vat"
+      ],
+      "description": "Labour Dispute Resolution — document",
+      "size_bytes": 4926,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LDR/notes/qa/LDR 2010-12-15 Special Supp.md",
+      "subject": "Labour Dispute Resolution (Module 3.2)",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "Labour Dispute Resolution — document",
+      "size_bytes": 6454,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LDR/notes/qa/LDR 2012-05-05.md",
+      "subject": "Labour Dispute Resolution (Module 3.2)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "vat"
+      ],
+      "description": "Labour Dispute Resolution — document",
+      "size_bytes": 7875,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LDR/notes/qa/LDR 2012-05-16 Supp.md",
+      "subject": "Labour Dispute Resolution (Module 3.2)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "vat"
+      ],
+      "description": "Labour Dispute Resolution — document",
+      "size_bytes": 7010,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LDR/notes/qa/LDR 2012-06-28 Special Supp.md",
+      "subject": "Labour Dispute Resolution (Module 3.2)",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "Labour Dispute Resolution — document",
+      "size_bytes": 9574,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LDR/notes/topics/Automatically Unfair Dismissal on Pregnancy.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 1413,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LDR/notes/topics/Disciplinary Hearing Procedure.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 2072,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LDR/notes/topics/Discrimination Disputes.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 1754,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LDR/notes/topics/Employee vs Independent Contractor Status.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 2540,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LDR/notes/topics/Incapacity Dismissal Due to Ill Health.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 2268,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LDR/notes/topics/Incapacity Dismissal for Poor Work Performance and Probation.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 2784,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LDR/notes/topics/Legal Representation at Hearings and the CCMA.md",
+      "subject": "Uncategorised",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "vat"
+      ],
+      "description": "LLB material — marking memorandum / model answers",
+      "size_bytes": 2560,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LDR/notes/topics/Onus of Proof in Unfair Dismissal.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 896,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LDR/notes/topics/Organisational Rights and Collective Bargaining.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 2635,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LDR/notes/topics/Protected and Unprotected Strikes.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 3118,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LDR/notes/topics/Rescission of CCMA Arbitration Awards.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "sole-proprietorship"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 3194,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LDR/notes/topics/Retrenchment and Operational Requirements.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 3219,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LEARNINGS.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 241,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LLB Hub Dashboard.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea",
+        "appeal",
+        "constitution"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 5828,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LLB Hub.base",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 2091,
+      "quality_score": 0.5,
+      "gaps": [
+        "empty or near-empty"
+      ]
+    },
+    {
       "path": "./LSSA & Miscellaneous /Constitution of RSA.pdf/markdown.md",
       "subject": "LSSA Reference Materials and Miscellaneous",
       "role": "answer",
@@ -3646,6 +6253,34 @@
       "size_bytes": 310287,
       "quality_score": 3.0,
       "gaps": []
+    },
+    {
+      "path": "./LSSA & Miscellaneous /LSSA Dashboard.md",
+      "subject": "LSSA Reference Materials and Miscellaneous",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "bail",
+        "trust",
+        "constitution"
+      ],
+      "description": "LSSA Reference Materials and Miscellaneous — document",
+      "size_bytes": 2986,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LSSA & Miscellaneous /LSSA.base",
+      "subject": "LSSA Reference Materials and Miscellaneous",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [],
+      "description": "LSSA Reference Materials and Miscellaneous — marking memorandum / model answers",
+      "size_bytes": 297,
+      "quality_score": 0.5,
+      "gaps": [
+        "empty or near-empty"
+      ]
     },
     {
       "path": "./LSSA & Miscellaneous /Legal Practice Act 28 of 2014.pdf/markdown.md",
@@ -3685,6 +6320,90 @@
       "size_bytes": 323286,
       "quality_score": 3.0,
       "gaps": []
+    },
+    {
+      "path": "./LSSA & Miscellaneous /notes/Constitution of RSA.md",
+      "subject": "LSSA Reference Materials and Miscellaneous",
+      "role": "answer",
+      "type": "marking_memo",
+      "topics": [
+        "appeal",
+        "bill-of-rights",
+        "locus-standi",
+        "constitution",
+        "police-docket"
+      ],
+      "description": "LSSA Reference Materials and Miscellaneous — marking memorandum / model answers",
+      "size_bytes": 6126,
+      "quality_score": 2.7,
+      "gaps": []
+    },
+    {
+      "path": "./LSSA & Miscellaneous /notes/Legal Practice Act 28 of 2014.md",
+      "subject": "LSSA Reference Materials and Miscellaneous",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "partnership",
+        "trust"
+      ],
+      "description": "LSSA Reference Materials and Miscellaneous — document",
+      "size_bytes": 5689,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./LSSA & Miscellaneous /notes/Legal Practice Act Rules.md",
+      "subject": "LSSA Reference Materials and Miscellaneous",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "appeal",
+        "trust"
+      ],
+      "description": "LSSA Reference Materials and Miscellaneous — document",
+      "size_bytes": 5433,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Logs/2026-10-19.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 433,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./MCP/MCP Dashboard.md",
+      "subject": "Magistrate's Court Practice (Module 2.1)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea",
+        "close-corporation",
+        "locus-standi"
+      ],
+      "description": "Magistrate's Court Practice — document",
+      "size_bytes": 5632,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./MCP/MCP.base",
+      "subject": "Magistrate's Court Practice (Module 2.1)",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "Magistrate's Court Practice — document",
+      "size_bytes": 1463,
+      "quality_score": 0.5,
+      "gaps": [
+        "empty or near-empty"
+      ]
     },
     {
       "path": "./MCP/MCP18Mar2010A.doc",
@@ -3850,21 +6569,14 @@
       "path": "./MCP/MCPMagCourtRules.pdf",
       "subject": "Magistrate's Court Practice (Module 2.1)",
       "role": "general",
-      "type": "marking_memo",
-      "topics": [
-        "bail",
-        "plea",
-        "leave-to-appeal",
-        "appeal",
-        "bill-of-costs",
-        "vat",
-        "taxation",
-        "party-and-party-costs"
-      ],
+      "type": "general",
+      "topics": [],
       "description": "Magistrate's Court Practice — document",
       "size_bytes": 942138,
-      "quality_score": 3.0,
-      "gaps": []
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
     },
     {
       "path": "./MCP/MCPWebinar2019Word.docx",
@@ -3881,6 +6593,282 @@
       ],
       "description": "Magistrate's Court Practice — webinar/lecture slide deck",
       "size_bytes": 27501,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./MCP/notes/qa/MCP 2010-03-06.md",
+      "subject": "Magistrate's Court Practice (Module 2.1)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea"
+      ],
+      "description": "Magistrate's Court Practice — document",
+      "size_bytes": 5198,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./MCP/notes/qa/MCP 2010-03-18 Supp.md",
+      "subject": "Magistrate's Court Practice (Module 2.1)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea",
+        "vat",
+        "close-corporation"
+      ],
+      "description": "Magistrate's Court Practice — document",
+      "size_bytes": 5428,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./MCP/notes/qa/MCP 2010-09-07 Supp.md",
+      "subject": "Magistrate's Court Practice (Module 2.1)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea"
+      ],
+      "description": "Magistrate's Court Practice — document",
+      "size_bytes": 5179,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./MCP/notes/qa/MCP 2010-12-15 Special Supp.md",
+      "subject": "Magistrate's Court Practice (Module 2.1)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea",
+        "vat",
+        "close-corporation"
+      ],
+      "description": "Magistrate's Court Practice — document",
+      "size_bytes": 6204,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./MCP/notes/qa/MCP 2012 Special Supp.md",
+      "subject": "Magistrate's Court Practice (Module 2.1)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea"
+      ],
+      "description": "Magistrate's Court Practice — document",
+      "size_bytes": 6393,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./MCP/notes/qa/MCP 2012-08-30 Supp.md",
+      "subject": "Magistrate's Court Practice (Module 2.1)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea"
+      ],
+      "description": "Magistrate's Court Practice — document",
+      "size_bytes": 4409,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./MCP/notes/topics/Default Judgment.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 1526,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./MCP/notes/topics/Demand Prior to Litigation.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 2251,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./MCP/notes/topics/Expert Witness Notices (Rule 24).md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 1814,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./MCP/notes/topics/Jurisdiction of the Magistrate's Court.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea",
+        "locus-standi"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 3910,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./MCP/notes/topics/Notice of Bar.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 1414,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./MCP/notes/topics/Parties and Locus Standi.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "close-corporation",
+        "partnership",
+        "trust",
+        "locus-standi"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 2694,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./MCP/notes/topics/Provisional Sentence.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 1776,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./MCP/notes/topics/Rescission of Default Judgment.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 966,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./MCP/notes/topics/Rule 14 Judgment.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 2619,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./MCP/notes/topics/Security for Costs.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea",
+        "close-corporation"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 1799,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./MCP/notes/topics/Settlement Agreements (Deed of Settlement).md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 1374,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./MCP/notes/topics/Special Pleas, Exceptions and Further Particulars.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 2499,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./MCP/notes/topics/Summons and Particulars of Claim Drafting.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 3484,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./MCP/notes/topics/Warrants of Execution.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 1026,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./MEMORY.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "vat"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 338,
       "quality_score": 3.0,
       "gaps": []
     },
@@ -4433,6 +7421,33 @@
       "gaps": []
     },
     {
+      "path": "./PLE/PLE Dashboard.md",
+      "subject": "Professional Legal Ethics (Module 4)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea",
+        "trust"
+      ],
+      "description": "Professional Legal Ethics — document",
+      "size_bytes": 5362,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PLE/PLE.base",
+      "subject": "Professional Legal Ethics (Module 4)",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "Professional Legal Ethics — document",
+      "size_bytes": 1463,
+      "quality_score": 0.5,
+      "gaps": [
+        "empty or near-empty"
+      ]
+    },
+    {
       "path": "./PLE/PLE11Jun2015A.doc",
       "subject": "Professional Legal Ethics (Module 4)",
       "role": "answer",
@@ -4513,14 +7528,13 @@
       "subject": "Professional Legal Ethics (Module 4)",
       "role": "general",
       "type": "general",
-      "topics": [
-        "plea",
-        "vat"
-      ],
+      "topics": [],
       "description": "Professional Legal Ethics — document",
       "size_bytes": 960298,
-      "quality_score": 3.0,
-      "gaps": []
+      "quality_score": 1.0,
+      "gaps": [
+        "scanned/no extractable text (OCR needed)"
+      ]
     },
     {
       "path": "./PLE/PLE26Nov2015A.doc",
@@ -4666,6 +7680,202 @@
       "gaps": []
     },
     {
+      "path": "./PLE/notes/qa/PLE 2015-05-30.md",
+      "subject": "Professional Legal Ethics (Module 4)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea",
+        "trust"
+      ],
+      "description": "Professional Legal Ethics — document",
+      "size_bytes": 4544,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PLE/notes/qa/PLE 2015-06-11 Supp.md",
+      "subject": "Professional Legal Ethics (Module 4)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "trust"
+      ],
+      "description": "Professional Legal Ethics — document",
+      "size_bytes": 4765,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PLE/notes/qa/PLE 2015-11-14.md",
+      "subject": "Professional Legal Ethics (Module 4)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "appeal",
+        "vat"
+      ],
+      "description": "Professional Legal Ethics — document",
+      "size_bytes": 4324,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PLE/notes/qa/PLE 2015-11-26 Supp.md",
+      "subject": "Professional Legal Ethics (Module 4)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "trust"
+      ],
+      "description": "Professional Legal Ethics — document",
+      "size_bytes": 5458,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PLE/notes/qa/PLE 2015-12-02 Special Supp.md",
+      "subject": "Professional Legal Ethics (Module 4)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea",
+        "trust"
+      ],
+      "description": "Professional Legal Ethics — document",
+      "size_bytes": 5104,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PLE/notes/qa/PLE 2016-05-28.md",
+      "subject": "Professional Legal Ethics (Module 4)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea",
+        "trust"
+      ],
+      "description": "Professional Legal Ethics — document",
+      "size_bytes": 4156,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PLE/notes/qa/PLE 2016-06-15 Supp.md",
+      "subject": "Professional Legal Ethics (Module 4)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "trust"
+      ],
+      "description": "Professional Legal Ethics — document",
+      "size_bytes": 5218,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PLE/notes/qa/PLE 2016-06-28 Special Supp.md",
+      "subject": "Professional Legal Ethics (Module 4)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "vat",
+        "trust"
+      ],
+      "description": "Professional Legal Ethics — document",
+      "size_bytes": 4758,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PLE/notes/qa/PLE 2019-02-03 Assignment.md",
+      "subject": "Professional Legal Ethics (Module 4)",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Professional Legal Ethics — document",
+      "size_bytes": 11172,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PLE/notes/topics/Admission as an Attorney and Fitness to Practise.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "trust"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 4090,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PLE/notes/topics/Borrowing From or Lending to Clients.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "trust"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 1383,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PLE/notes/topics/Client Confidentiality and Privilege.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 1386,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PLE/notes/topics/Commissioner of Oaths Restrictions.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 2130,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PLE/notes/topics/Conflict of Interest.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 2716,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PLE/notes/topics/Contingency Fee Agreements.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "trust"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 2747,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
       "path": "./PLE/notes/topics/Defending a Guilty Client.md",
       "subject": "Uncategorised",
       "role": "general",
@@ -4679,6 +7889,52 @@
       "gaps": []
     },
     {
+      "path": "./PLE/notes/topics/Duty of Candour to the Court.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 1593,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PLE/notes/topics/FICA Obligations on Attorneys.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 1654,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PLE/notes/topics/Fee Assessment, Overreaching and Fee Sharing.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "trust"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 2936,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PLE/notes/topics/Interviewing an Opponent's Witness.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 2139,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
       "path": "./PLE/notes/topics/Mandate Acceptance, Refusal and Withdrawal.md",
       "subject": "Uncategorised",
       "role": "general",
@@ -4687,13 +7943,126 @@
         "trust"
       ],
       "description": "LLB material — document",
-      "size_bytes": 3377,
+      "size_bytes": 3393,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PLE/notes/topics/Prescribed Claims — Ethical Duty and Negligence Liability.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "plea",
+        "trust"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 3481,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PLE/notes/topics/Recusal of a Judicial Officer.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "appeal"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 1483,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PLE/notes/topics/Trust Account Rules — Deposits and Fee Transfers.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "trust"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 2793,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./PLE/notes/topics/Trust Account Theft and the Attorneys Fidelity Fund.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "trust"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 4664,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Templates/Knowledge Note.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 179,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./_CLAUDE.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "vat"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 216,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./brain.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 1496,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./decisions.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [
+        "vat"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 426,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./projects/Second Brain Setup.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "general",
+      "topics": [],
+      "description": "LLB material — document",
+      "size_bytes": 862,
       "quality_score": 3.0,
       "gaps": []
     }
   ],
   "topicIndex": {
     "allocatur": [
+      "./COS/COS Dashboard.md",
       "./COS/COS18Mar2010A.doc",
       "./COS/COS18Mar2010Q.doc",
       "./COS/COS2012(1)A.doc",
@@ -4701,9 +8070,17 @@
       "./COS/COS30Aug2012Q.doc",
       "./COS/COS6Mar2010Q.doc",
       "./COS/COS7Sep2010Q.DOC",
+      "./COS/notes/qa/COS 2010-03-06.md",
+      "./COS/notes/qa/COS 2010-03-18 Supp.md",
+      "./COS/notes/qa/COS 2010-09-07 Supp.md",
+      "./COS/notes/qa/COS 2012 Special Supp.md",
+      "./COS/notes/qa/COS 2012-08-30 Supp.md",
       "./COS/notes/topics/Allocatur Completion.md",
       "./COS/notes/topics/Costs Terminology.md",
       "./COS/notes/topics/Drawing Fee and Attendance Fee Scale.md",
+      "./COS/notes/topics/Litigious vs Non-Litigious Matters.md",
+      "./COS/notes/topics/Recovering Costs After Judgment.md",
+      "./COS/notes/topics/Taxation Procedure.md",
       "./COS/notes/topics/VAT on Fees and Disbursements.md"
     ],
     "appeal": [
@@ -4713,6 +8090,15 @@
       "./Attorneys Exam/AttExam16Aug2016Q.pdf/markdown.md",
       "./Attorneys Exam/AttExam9Feb2016A.pdf/markdown.md",
       "./Attorneys Exam/AttExam9Feb2016Q.pdf/markdown.md",
+      "./Attorneys Exam/Attorneys Exam Dashboard.md",
+      "./Attorneys Exam/notes/qa/AttExam 2016-02-09.md",
+      "./Attorneys Exam/notes/qa/AttExam 2016-08-16.md",
+      "./Attorneys Exam/notes/qa/AttExam 2017-02-14.md",
+      "./Attorneys Exam/notes/qa/AttExam 2017-02-15.md",
+      "./Attorneys Exam/notes/topics/Bail Applications.md",
+      "./Attorneys Exam/notes/topics/Civil Appeal and Review Procedure.md",
+      "./Attorneys Exam/notes/topics/Magistrates' Court Jurisdiction.md",
+      "./Attorneys Exam/notes/topics/Professional Ethics and Conduct.md",
       "./BBST/BBST2013(1)Q&A.doc",
       "./BBST/BBST2014(2)Q&A.doc",
       "./BBST/BBST2014(2)SuppQ&A.doc",
@@ -4747,30 +8133,47 @@
       "./CCP/notes/topics/Appeal vs Review.md",
       "./CCP/notes/topics/Bail Applications.md",
       "./CLP/CLP 2012.2 SUPP ENG - only for appeal students.doc",
+      "./CLP/CLP Dashboard.md",
       "./CLP/CLP21Jul2012A.doc",
       "./CLP/CLP2Aug2012A.doc",
       "./CLP/CLP30Jan2010A.doc",
       "./CLP/CLPJul2012A.doc",
       "./CLP/CLPJul2012Q.doc",
       "./CLP/CLPWebinar2019Slides.ppt",
+      "./CLP/notes/qa/CLP 2010-01-30.md",
+      "./CLP/notes/qa/CLP 2012-08-02 Supp.md",
+      "./CLP/notes/topics/Amicus Curiae.md",
+      "./CLP/notes/topics/Confirmation of Constitutional Invalidity.md",
+      "./CLP/notes/topics/Jurisdiction in Constitutional Matters.md",
+      "./CLP/notes/topics/Leave to Appeal to the Constitutional Court.md",
       "./COS/COS6Mar2010Q.doc",
-      "./HCP/HCP Example - Heads of argument.pdf",
+      "./COS/notes/qa/COS 2010-03-06.md",
+      "./COS/notes/topics/Taxation Procedure.md",
+      "./HCP/HCP Dashboard.md",
       "./HCP/HCP NoticeofAppeal.doc",
       "./HCP/HCP19Mar2008A.doc",
       "./HCP/HCP1Mar2014A.doc",
       "./HCP/HCP1Mar2014Q.doc",
-      "./HCP/HCP2015Slides.pdf",
+      "./HCP/notes/qa/HCP 2008-03-19 Special Supp.md",
+      "./HCP/notes/qa/HCP 2014-03-01.md",
+      "./HCP/notes/topics/Appeal Procedure and Heads of Argument.md",
+      "./HCP/notes/topics/Review Procedure and Appeal vs Review.md",
+      "./HCP/notes/topics/Rule 32 Judgment Procedure.md",
+      "./LLB Hub Dashboard.md",
       "./LSSA & Miscellaneous /Constitution of RSA.pdf/markdown.md",
       "./LSSA & Miscellaneous /Legal Practice Act 28 of 2014.pdf/markdown.md",
       "./LSSA & Miscellaneous /Legal Practice Act Rules.pdf/markdown.md",
-      "./MCP/MCPMagCourtRules.pdf",
+      "./LSSA & Miscellaneous /notes/Constitution of RSA.md",
+      "./LSSA & Miscellaneous /notes/Legal Practice Act Rules.md",
       "./MCP/MCPWebinar2019Word.docx",
       "./PCT/PCT18May2013A.doc",
       "./PCT/PCT30Jan2010A.doc",
       "./PCT/notes/qa/PCT 2010-01-30.md",
       "./PCT/notes/qa/PCT 2013-05-18.md",
       "./PCT/notes/topics/Duty to the Court and Opposing Counsel.md",
-      "./PLE/PLE14Nov2015A.doc"
+      "./PLE/PLE14Nov2015A.doc",
+      "./PLE/notes/qa/PLE 2015-11-14.md",
+      "./PLE/notes/topics/Recusal of a Judicial Officer.md"
     ],
     "bail": [
       "./Attorneys Exam/AttExam14Feb2017A.pdf/markdown.md",
@@ -4778,6 +8181,15 @@
       "./Attorneys Exam/AttExam16Aug2016Q.pdf/markdown.md",
       "./Attorneys Exam/AttExam9Feb2016A.pdf/markdown.md",
       "./Attorneys Exam/AttExam9Feb2016Q.pdf/markdown.md",
+      "./Attorneys Exam/Attorneys Exam Dashboard.md",
+      "./Attorneys Exam/notes/qa/AttExam 2016-02-09.md",
+      "./Attorneys Exam/notes/qa/AttExam 2016-08-16.md",
+      "./Attorneys Exam/notes/qa/AttExam 2017-02-14.md",
+      "./Attorneys Exam/notes/topics/Bail Applications.md",
+      "./Attorneys Exam/notes/topics/Civil Appeal and Review Procedure.md",
+      "./Attorneys Exam/notes/topics/Discharge, Withdrawal and Stopping of Criminal Prosecution.md",
+      "./Attorneys Exam/notes/topics/Magistrates' Court Jurisdiction.md",
+      "./Attorneys Exam/notes/topics/Statements and Pleas in Criminal Trials.md",
       "./CCP/CCP Dashboard.md",
       "./CCP/CCP2012(2)SuppA.doc",
       "./CCP/CCP2019AssQ.doc",
@@ -4812,11 +8224,13 @@
       "./CCP/notes/topics/Bail Applications.md",
       "./CCP/notes/topics/Securing Attendance of the Accused.md",
       "./CLP/CLPJul2012Q.doc",
-      "./MCP/MCPMagCourtRules.pdf"
+      "./LSSA & Miscellaneous /LSSA Dashboard.md"
     ],
     "bill-of-costs": [
       "./BBST/BBST2014(1)FinalQ&A.doc",
       "./BBST/BBST2016(1)A.doc",
+      "./BBST/notes/qa/BBST 2014(1) Final.md",
+      "./BBST/notes/topics/Attorneys Fees and Fee Agreements.md",
       "./COS/COS18Mar2010Q.doc",
       "./COS/COS2012(1)Q.doc",
       "./COS/COS30Aug2012A.doc",
@@ -4826,10 +8240,18 @@
       "./COS/COS7Sep2010A.DOC",
       "./COS/COS7Sep2010Q.DOC",
       "./COS/COSMod2.1A.doc",
+      "./COS/notes/qa/COS 2010-03-06.md",
+      "./COS/notes/qa/COS 2010-03-18 Supp.md",
+      "./COS/notes/qa/COS 2010-09-07 Supp.md",
+      "./COS/notes/qa/COS 2012 Special Supp.md",
+      "./COS/notes/qa/COS 2012-08-30 Supp.md",
+      "./COS/notes/qa/COS Module 2.1 Practice.md",
       "./COS/notes/topics/Costs Terminology.md",
       "./COS/notes/topics/Drawing Fee and Attendance Fee Scale.md",
+      "./COS/notes/topics/Recovering Costs After Judgment.md",
+      "./COS/notes/topics/Statement of Account and Bill Preparation.md",
+      "./COS/notes/topics/Taxation Procedure.md",
       "./LSSA & Miscellaneous /Legal Practice Act 28 of 2014.pdf/markdown.md",
-      "./MCP/MCPMagCourtRules.pdf",
       "./PCT/PCTDec2010A.doc",
       "./PCT/notes/qa/PCT 2010-12-15 Special Supp.md",
       "./PCT/notes/topics/Fees, Trust Deposits and Billing Practice.md"
@@ -4837,6 +8259,7 @@
     "bill-of-rights": [
       "./BBST/BBST2013(2)Q&A.doc",
       "./CLP/CLP 2012.2 SUPP ENG - only for appeal students.doc",
+      "./CLP/CLP Dashboard.md",
       "./CLP/CLP21Jul2012A.doc",
       "./CLP/CLP21Jul2012Q.doc",
       "./CLP/CLP24Jul2010A.doc",
@@ -4849,13 +8272,30 @@
       "./CLP/CLPJul2012A.doc",
       "./CLP/CLPJul2012Q.doc",
       "./CLP/CLPWebinar2019Slides.ppt",
+      "./CLP/notes/qa/CLP 2010-07-24.md",
+      "./CLP/notes/qa/CLP 2012-06-26 Special Supp.md",
+      "./CLP/notes/qa/CLP 2012-07-15 Assignment.md",
+      "./CLP/notes/qa/CLP 2012-07-21.md",
+      "./CLP/notes/qa/CLP 2012-08-02 Supp.md",
+      "./CLP/notes/qa/CLP 2019-01-30 Assignment.md",
+      "./CLP/notes/topics/Application of the Bill of Rights to Foreigners.md",
+      "./CLP/notes/topics/Best Interests of the Child.md",
+      "./CLP/notes/topics/Constitutional Remedies and Draft Orders.md",
+      "./CLP/notes/topics/Limitation of Rights.md",
+      "./CLP/notes/topics/Locus Standi.md",
       "./LSSA & Miscellaneous /Constitution of RSA.pdf/markdown.md",
-      "./LSSA & Miscellaneous /Legal Practice Act 28 of 2014.pdf/markdown.md"
+      "./LSSA & Miscellaneous /Legal Practice Act 28 of 2014.pdf/markdown.md",
+      "./LSSA & Miscellaneous /notes/Constitution of RSA.md"
     ],
     "close-corporation": [
       "./Attorneys Exam/AttExam14Feb2017A.pdf/markdown.md",
       "./Attorneys Exam/AttExam9Feb2016A.pdf/markdown.md",
       "./Attorneys Exam/AttExam9Feb2016Q.pdf/markdown.md",
+      "./Attorneys Exam/Attorneys Exam Dashboard.md",
+      "./Attorneys Exam/notes/qa/AttExam 2017-02-15.md",
+      "./Attorneys Exam/notes/topics/Company, Close Corporation and Partnership Law.md",
+      "./Attorneys Exam/notes/topics/Insolvency Law.md",
+      "./Attorneys Exam/notes/topics/Magistrates' Court Jurisdiction.md",
       "./BBST/BBST2013(1)Q&A.doc",
       "./BBST/BBST2013(1)Q.doc",
       "./BBST/BBST2013(2)Q&A.doc",
@@ -4865,6 +8305,12 @@
       "./BBST/BBST2015(1)Statement of Facts.doc",
       "./BBST/BBST2016(1)A.doc",
       "./BBST/BBST2017Final Statement of Facts.doc",
+      "./BBST/notes/qa/BBST 2013(1).md",
+      "./BBST/notes/qa/BBST 2014(2) Supp.md",
+      "./BBST/notes/qa/BBST 2017(2) Statement of Facts Only.md",
+      "./BBST/notes/topics/Compulsory Sequestration and Acts of Insolvency.md",
+      "./BBST/notes/topics/Personal Liability of CC Members.md",
+      "./FBE/FBE Dashboard.md",
       "./FBE/FBE16May2012A.doc",
       "./FBE/FBE16May2012Q.doc",
       "./FBE/FBE16Nov2010A.doc",
@@ -4878,6 +8324,9 @@
       "./FBE/notes/qa/FBE 2009-12-03 Special Supp.md",
       "./FBE/notes/qa/FBE 2010-05-22.md",
       "./FBE/notes/qa/FBE 2010-06-03 Supp.md",
+      "./FBE/notes/qa/FBE 2010-11-16 Supp.md",
+      "./FBE/notes/qa/FBE 2012-05-16 Supp.md",
+      "./FBE/notes/qa/FBE 2012-06-28 Special Supp.md",
       "./FBE/notes/topics/Choosing a Business Entity.md",
       "./FBE/notes/topics/Close Corporations.md",
       "./FBE/notes/topics/Partnerships.md",
@@ -4885,19 +8334,29 @@
       "./FBE/notes/topics/Tax Rates and VAT Registration.md",
       "./HCP/HCP18Mar2010A.doc",
       "./HCP/HCP18Mar2010Q.doc",
-      "./HCP/HCP2015Slides.pdf",
+      "./HCP/notes/qa/HCP 2010-03-18 Supp.md",
+      "./HCP/notes/topics/Parties, Citation and Legal Capacity to Litigate.md",
       "./ICP/ICP28Jun2012Q.doc",
+      "./ICP/notes/qa/ICP 2012-06-28 Supp.md",
+      "./ICP/notes/topics/Transfer of Land — Role Players and Process.md",
       "./LDR/LDR5May2012Q.doc",
+      "./MCP/MCP Dashboard.md",
       "./MCP/MCP18Mar2010A.doc",
       "./MCP/MCP18Mar2010Q.doc",
       "./MCP/MCP30Aug2012A.doc",
       "./MCP/MCP7Sep2010A.DOC",
       "./MCP/MCPDec2010A.doc",
       "./MCP/MCPDec2010Q.doc",
-      "./MCP/MCPWebinar2019Word.docx"
+      "./MCP/MCPWebinar2019Word.docx",
+      "./MCP/notes/qa/MCP 2010-03-18 Supp.md",
+      "./MCP/notes/qa/MCP 2010-12-15 Special Supp.md",
+      "./MCP/notes/topics/Parties and Locus Standi.md",
+      "./MCP/notes/topics/Security for Costs.md"
     ],
     "constitution": [
       "./Attorneys Exam/AttExam17Aug2016Q.pdf/markdown.md",
+      "./Attorneys Exam/notes/qa/AttExam 2016-08-17.md",
+      "./Attorneys Exam/notes/topics/Professional Ethics and Conduct.md",
       "./BBST/BBST2013(1)Q.doc",
       "./BBST/BBST2013(1)SuppQ&A.doc",
       "./BBST/BBST2013(1)SuppQ.doc",
@@ -4908,10 +8367,14 @@
       "./BBST/BBST2014(1)FinalQ.doc",
       "./BBST/BBST2014(2) Supp Statement of Facts.doc",
       "./BBST/BBST2014(2)SuppAssQ.doc",
+      "./BBST/notes/qa/BBST 2013(2) Final.md",
+      "./BBST/notes/topics/Contingency Fee Agreements.md",
+      "./BBST/notes/topics/Maintenance Claims.md",
       "./CCP/CCP28Jan2012A.doc",
       "./CCP/notes/qa/CCP 2012-01-28.md",
       "./CCP/notes/topics/Access to the Police Docket.md",
       "./CLP/CLP 2012.2 SUPP ENG - only for appeal students.doc",
+      "./CLP/CLP Dashboard.md",
       "./CLP/CLP21Jul2012A.doc",
       "./CLP/CLP21Jul2012Q.doc",
       "./CLP/CLP24Jul2010A.doc",
@@ -4926,15 +8389,42 @@
       "./CLP/CLPJul2012A.doc",
       "./CLP/CLPJul2012Q.doc",
       "./CLP/CLPWebinar2019Slides.ppt",
+      "./CLP/notes/qa/CLP 2010-01-30.md",
+      "./CLP/notes/qa/CLP 2010-07-24.md",
+      "./CLP/notes/qa/CLP 2010-12-15 Special Supp.md",
+      "./CLP/notes/qa/CLP 2012-06-26 Special Supp.md",
+      "./CLP/notes/qa/CLP 2012-07-15 Assignment.md",
+      "./CLP/notes/qa/CLP 2012-07-21.md",
+      "./CLP/notes/qa/CLP 2012-08-02 Supp.md",
+      "./CLP/notes/qa/CLP 2019-01-30 Assignment.md",
+      "./CLP/notes/topics/Amicus Curiae.md",
+      "./CLP/notes/topics/Application of the Bill of Rights to Foreigners.md",
+      "./CLP/notes/topics/Best Interests of the Child.md",
+      "./CLP/notes/topics/Confirmation of Constitutional Invalidity.md",
+      "./CLP/notes/topics/Constitutional Remedies and Draft Orders.md",
+      "./CLP/notes/topics/Direct Access to the Constitutional Court.md",
+      "./CLP/notes/topics/Equality and the Harksen Test.md",
+      "./CLP/notes/topics/Fit and Proper Person for Admission.md",
+      "./CLP/notes/topics/Forfeiture and the Right to Property.md",
+      "./CLP/notes/topics/Jurisdiction in Constitutional Matters.md",
+      "./CLP/notes/topics/Leave to Appeal to the Constitutional Court.md",
+      "./CLP/notes/topics/Limitation of Rights.md",
+      "./CLP/notes/topics/Locus Standi.md",
+      "./CLP/notes/topics/Right to Privacy and the Prince Judgment.md",
       "./FBE/FBE16May2012A.doc",
-      "./HCP/HCP Example - Heads of argument.pdf",
+      "./FBE/notes/qa/FBE 2012-05-16 Supp.md",
       "./HCP/HCP5Mar2011Q.doc",
+      "./LLB Hub Dashboard.md",
       "./LSSA & Miscellaneous /Constitution of RSA.pdf/markdown.md",
+      "./LSSA & Miscellaneous /LSSA Dashboard.md",
       "./LSSA & Miscellaneous /Legal Practice Act 28 of 2014.pdf/markdown.md",
-      "./LSSA & Miscellaneous /Legal Practice Act Rules.pdf/markdown.md"
+      "./LSSA & Miscellaneous /Legal Practice Act Rules.pdf/markdown.md",
+      "./LSSA & Miscellaneous /notes/Constitution of RSA.md"
     ],
     "constitutional-practice": [
       "./CLP/CLP 2012.2 SUPP ENG - only for appeal students.doc",
+      "./CLP/CLP Dashboard.md",
+      "./CLP/CLP.base",
       "./CLP/CLP21Jul2012A.doc",
       "./CLP/CLP21Jul2012Q.doc",
       "./CLP/CLP24Jul2010A.doc",
@@ -4950,10 +8440,19 @@
       "./CLP/CLPJul2012A.doc",
       "./CLP/CLPJul2012Q.doc",
       "./CLP/CLPLecture2019Q&A.pdf",
-      "./CLP/CLPWebinar2019Slides.ppt"
+      "./CLP/CLPWebinar2019Slides.ppt",
+      "./CLP/notes/qa/CLP 2010-01-30.md",
+      "./CLP/notes/qa/CLP 2010-07-24.md",
+      "./CLP/notes/qa/CLP 2010-12-15 Special Supp.md",
+      "./CLP/notes/qa/CLP 2012-06-26 Special Supp.md",
+      "./CLP/notes/qa/CLP 2012-07-15 Assignment.md",
+      "./CLP/notes/qa/CLP 2012-07-21.md",
+      "./CLP/notes/qa/CLP 2012-08-02 Supp.md",
+      "./CLP/notes/qa/CLP 2019-01-30 Assignment.md"
     ],
     "costs-de-bonis-propriis": [
       "./CLP/CLP30Jan2010A.doc",
+      "./COS/COS Dashboard.md",
       "./COS/COS2012(1)A.doc",
       "./COS/COS30Aug2012A.doc",
       "./COS/COS30Aug2012A.docx",
@@ -4963,7 +8462,13 @@
       "./COS/COS7Sep2010Q.DOC",
       "./COS/COSMod2.1A.doc",
       "./COS/COSMod2.1Q.doc",
-      "./COS/notes/topics/Costs Terminology.md"
+      "./COS/notes/qa/COS 2010-03-06.md",
+      "./COS/notes/qa/COS 2010-09-07 Supp.md",
+      "./COS/notes/qa/COS 2012 Special Supp.md",
+      "./COS/notes/qa/COS 2012-08-30 Supp.md",
+      "./COS/notes/qa/COS Module 2.1 Practice.md",
+      "./COS/notes/topics/Costs Terminology.md",
+      "./COS/notes/topics/Taxation Procedure.md"
     ],
     "criminal-court-practice": [
       "./CCP/CCP Dashboard.md",
@@ -5002,6 +8507,7 @@
     "criminal-procedure-act": [
       "./Attorneys Exam/AttExam14Feb2017A.pdf/markdown.md",
       "./Attorneys Exam/AttExam14Feb2017Q.pdf/markdown.md",
+      "./Attorneys Exam/notes/qa/AttExam 2017-02-14.md",
       "./CCP/CCP2012(2)SuppA.doc",
       "./CCP/CCP25Jul2015A.doc",
       "./CCP/CCP26Jan2013Q.doc",
@@ -5035,6 +8541,8 @@
       "./CCP/notes/topics/Sentencing and Mitigation.md"
     ],
     "forms-of-business-enterprise": [
+      "./FBE/FBE Dashboard.md",
+      "./FBE/FBE.base",
       "./FBE/FBE16May2012A.doc",
       "./FBE/FBE16May2012Q.doc",
       "./FBE/FBE16Nov2010A.doc",
@@ -5051,13 +8559,19 @@
       "./FBE/FBE5May2012Q.doc",
       "./FBE/notes/qa/FBE 2009-12-03 Special Supp.md",
       "./FBE/notes/qa/FBE 2010-05-22.md",
-      "./FBE/notes/qa/FBE 2010-06-03 Supp.md"
+      "./FBE/notes/qa/FBE 2010-06-03 Supp.md",
+      "./FBE/notes/qa/FBE 2010-11-16 Supp.md",
+      "./FBE/notes/qa/FBE 2012-05-05.md",
+      "./FBE/notes/qa/FBE 2012-05-16 Supp.md",
+      "./FBE/notes/qa/FBE 2012-06-28 Special Supp.md"
     ],
     "judicial-management": [
+      "./FBE/FBE Dashboard.md",
       "./FBE/FBE16May2012A.doc",
       "./FBE/FBE16May2012Q.doc",
       "./FBE/FBE3Jun2010Q.doc",
       "./FBE/notes/qa/FBE 2010-06-03 Supp.md",
+      "./FBE/notes/qa/FBE 2012-05-16 Supp.md",
       "./FBE/notes/topics/Judicial Management.md",
       "./FBE/notes/topics/Pre-Incorporation Contracts.md",
       "./FBE/notes/topics/Private Companies.md"
@@ -5065,20 +8579,29 @@
     "leave-to-appeal": [
       "./Attorneys Exam/AttExam14Feb2017A.pdf/markdown.md",
       "./Attorneys Exam/AttExam14Feb2017Q.pdf/markdown.md",
+      "./Attorneys Exam/notes/qa/AttExam 2017-02-14.md",
+      "./Attorneys Exam/notes/topics/Civil Appeal and Review Procedure.md",
       "./CCP/CCP2019AssQ.doc",
       "./CCP/CCPDec2010A.doc",
       "./CCP/CCPExampleAppLeaveToAppeal.doc",
       "./CCP/notes/qa/CCP 2010-12-15 Supp.md",
       "./CCP/notes/qa/CCP 2019-03 Assignment.md",
       "./CCP/notes/topics/Appeal Procedure.md",
+      "./CLP/CLP Dashboard.md",
       "./CLP/CLP2Aug2012A.doc",
-      "./HCP/HCP Example - Heads of argument.pdf",
+      "./CLP/notes/qa/CLP 2012-08-02 Supp.md",
+      "./CLP/notes/topics/Confirmation of Constitutional Invalidity.md",
+      "./CLP/notes/topics/Jurisdiction in Constitutional Matters.md",
+      "./CLP/notes/topics/Leave to Appeal to the Constitutional Court.md",
+      "./HCP/HCP Dashboard.md",
       "./HCP/HCP NoticeofAppeal.doc",
-      "./HCP/HCP2015Slides.pdf",
-      "./LSSA & Miscellaneous /Constitution of RSA.pdf/markdown.md",
-      "./MCP/MCPMagCourtRules.pdf"
+      "./HCP/notes/topics/Appeal Procedure and Heads of Argument.md",
+      "./LSSA & Miscellaneous /Constitution of RSA.pdf/markdown.md"
     ],
     "legal-costs": [
+      "./Attorneys Exam/notes/topics/Costs, Tenders and Withdrawal of Action.md",
+      "./COS/COS Dashboard.md",
+      "./COS/COS.base",
       "./COS/COS18Mar2010A.doc",
       "./COS/COS18Mar2010Q.doc",
       "./COS/COS2012(1)A.doc",
@@ -5092,35 +8615,82 @@
       "./COS/COS7Sep2010Q.DOC",
       "./COS/COSMod2.1A.doc",
       "./COS/COSMod2.1Q.doc",
+      "./COS/notes/qa/COS 2010-03-06.md",
+      "./COS/notes/qa/COS 2010-03-18 Supp.md",
+      "./COS/notes/qa/COS 2010-09-07 Supp.md",
+      "./COS/notes/qa/COS 2012 Special Supp.md",
+      "./COS/notes/qa/COS 2012-08-30 Supp.md",
+      "./COS/notes/qa/COS Module 2.1 Practice.md",
       "./COS/notes/topics/Costs Terminology.md"
     ],
     "locus-standi": [
       "./Attorneys Exam/AttExam14Feb2017A.pdf/markdown.md",
       "./Attorneys Exam/AttExam14Feb2017Q.pdf/markdown.md",
       "./Attorneys Exam/AttExam9Feb2016A.pdf/markdown.md",
+      "./Attorneys Exam/notes/qa/AttExam 2016-02-09.md",
+      "./Attorneys Exam/notes/qa/AttExam 2017-02-14.md",
+      "./Attorneys Exam/notes/topics/Road Accident Fund Claims.md",
       "./BBST/BBST2014(2)Q&A.doc",
       "./BBST/BBST2016(1)A.doc",
+      "./BBST/notes/qa/BBST 2014(2).md",
+      "./BBST/notes/qa/BBST 2016(1).md",
+      "./BBST/notes/topics/Urgent Applications and Interdicts.md",
       "./CLP/CLP 2012.2 SUPP ENG - only for appeal students.doc",
+      "./CLP/CLP Dashboard.md",
       "./CLP/CLP21Jul2012A.doc",
       "./CLP/CLP21Jul2012Q.doc",
       "./CLP/CLP24Jul2010A.doc",
       "./CLP/CLP24Jul2010Q.doc",
       "./CLP/CLP26Jun2012A.doc",
       "./CLP/CLP26Jun2012Q.doc",
-      "./HCP/HCP2015Slides.pdf",
+      "./CLP/notes/qa/CLP 2010-07-24.md",
+      "./CLP/notes/qa/CLP 2012-06-26 Special Supp.md",
+      "./CLP/notes/qa/CLP 2012-07-15 Assignment.md",
+      "./CLP/notes/qa/CLP 2012-07-21.md",
+      "./CLP/notes/qa/CLP 2012-08-02 Supp.md",
+      "./CLP/notes/topics/Amicus Curiae.md",
+      "./CLP/notes/topics/Application of the Bill of Rights to Foreigners.md",
+      "./CLP/notes/topics/Constitutional Remedies and Draft Orders.md",
+      "./CLP/notes/topics/Direct Access to the Constitutional Court.md",
+      "./CLP/notes/topics/Equality and the Harksen Test.md",
+      "./CLP/notes/topics/Limitation of Rights.md",
+      "./CLP/notes/topics/Locus Standi.md",
+      "./CLP/notes/topics/Right to Privacy and the Prince Judgment.md",
       "./HCP/HCP5Mar2011A.doc",
       "./HCP/HCP6Mar2010A.doc",
       "./HCP/HCP6Sep2013A.doc",
-      "./MCP/MCPWebinar2019Word.docx"
+      "./HCP/notes/qa/HCP 2010-03-06.md",
+      "./HCP/notes/qa/HCP 2011-03-05.md",
+      "./HCP/notes/qa/HCP 2013-09-06 Supp.md",
+      "./HCP/notes/topics/Exception, Irregular Proceedings and Striking Out.md",
+      "./HCP/notes/topics/Jurisdiction of the High Court.md",
+      "./HCP/notes/topics/Particulars of Claim and Rule 18 Requirements.md",
+      "./HCP/notes/topics/Parties, Citation and Legal Capacity to Litigate.md",
+      "./LSSA & Miscellaneous /notes/Constitution of RSA.md",
+      "./MCP/MCP Dashboard.md",
+      "./MCP/MCPWebinar2019Word.docx",
+      "./MCP/notes/topics/Jurisdiction of the Magistrate's Court.md",
+      "./MCP/notes/topics/Parties and Locus Standi.md"
     ],
     "partnership": [
       "./Attorneys Exam/AttExam14Feb2017A.pdf/markdown.md",
       "./Attorneys Exam/AttExam15Feb2017Q.pdf/markdown.md",
+      "./Attorneys Exam/Attorneys Exam Dashboard.md",
+      "./Attorneys Exam/notes/qa/AttExam 2017-02-15.md",
+      "./Attorneys Exam/notes/topics/Company, Close Corporation and Partnership Law.md",
+      "./Attorneys Exam/notes/topics/Insolvency Law.md",
+      "./BBST/BBST Dashboard.md",
       "./BBST/BBST2013(1)SuppQ&A.doc",
       "./BBST/BBST2013(2)Q&A.doc",
       "./BBST/BBST2013(2)Statement of Facts.doc",
       "./BBST/BBST2014(1)FinalQ&A.doc",
       "./BBST/BBST2014(1)FinalQ.doc",
+      "./BBST/notes/qa/BBST 2013(2) Final.md",
+      "./BBST/notes/qa/BBST 2014(1) Final.md",
+      "./BBST/notes/topics/Intestate Succession and Customary Marriages.md",
+      "./BBST/notes/topics/Maintenance Claims.md",
+      "./BBST/notes/topics/Universal Partnership and Breach of Promise to Marry.md",
+      "./FBE/FBE Dashboard.md",
       "./FBE/FBE16May2012Q.doc",
       "./FBE/FBE16Nov2010A.doc",
       "./FBE/FBE16Nov2010Q.doc",
@@ -5136,20 +8706,31 @@
       "./FBE/notes/qa/FBE 2009-12-03 Special Supp.md",
       "./FBE/notes/qa/FBE 2010-05-22.md",
       "./FBE/notes/qa/FBE 2010-06-03 Supp.md",
+      "./FBE/notes/qa/FBE 2010-11-16 Supp.md",
+      "./FBE/notes/qa/FBE 2012-05-05.md",
+      "./FBE/notes/qa/FBE 2012-05-16 Supp.md",
+      "./FBE/notes/qa/FBE 2012-06-28 Special Supp.md",
       "./FBE/notes/topics/Choosing a Business Entity.md",
       "./FBE/notes/topics/Close Corporations.md",
       "./FBE/notes/topics/Partnerships.md",
       "./FBE/notes/topics/Sole Proprietorships.md",
       "./FBE/notes/topics/Tax Rates and VAT Registration.md",
       "./HCP/HCP1Mar2014Q.doc",
-      "./HCP/HCP2015Slides.pdf",
       "./HCP/HCP6Mar2010Q.doc",
+      "./HCP/notes/qa/HCP 2014-03-01.md",
+      "./HCP/notes/topics/Service of Process and Edictal Citation.md",
       "./ICP/ICP5May2012Q.doc",
       "./ICP/ICPDec2010Q.doc",
+      "./ICP/notes/qa/ICP 2010-12-15 Supp.md",
+      "./ICP/notes/qa/ICP 2012-05-05.md",
+      "./ICP/notes/topics/Marital Property Regimes and Conveyancing.md",
+      "./ICP/notes/topics/Transfer of Land — Role Players and Process.md",
       "./IPM/notes/topics/The Business Plan.md",
       "./LSSA & Miscellaneous /Legal Practice Act 28 of 2014.pdf/markdown.md",
       "./LSSA & Miscellaneous /Legal Practice Act Rules.pdf/markdown.md",
+      "./LSSA & Miscellaneous /notes/Legal Practice Act 28 of 2014.md",
       "./MCP/MCPWebinar2019Word.docx",
+      "./MCP/notes/topics/Parties and Locus Standi.md",
       "./PCT/PCT1Jun2012A.doc",
       "./PCT/notes/qa/PCT 2012-06-01 Supp.md",
       "./PCT/notes/topics/Requirements for Admission as an Attorney.md"
@@ -5168,10 +8749,17 @@
       "./COS/COS7Sep2010Q.DOC",
       "./COS/COSMod2.1A.doc",
       "./COS/COSMod2.1Q.doc",
+      "./COS/notes/qa/COS 2010-03-06.md",
+      "./COS/notes/qa/COS 2010-03-18 Supp.md",
+      "./COS/notes/qa/COS 2010-09-07 Supp.md",
+      "./COS/notes/qa/COS 2012-08-30 Supp.md",
+      "./COS/notes/qa/COS Module 2.1 Practice.md",
       "./COS/notes/topics/Costs Terminology.md",
+      "./COS/notes/topics/Recovering Costs After Judgment.md",
+      "./COS/notes/topics/Statement of Account and Bill Preparation.md",
+      "./COS/notes/topics/Taxation Procedure.md",
       "./MCP/MCP30Aug2012Q.doc",
-      "./MCP/MCP7Sep2010Q.DOC",
-      "./MCP/MCPMagCourtRules.pdf"
+      "./MCP/MCP7Sep2010Q.DOC"
     ],
     "plea": [
       "./Attorneys Exam/AttExam14Feb2017A.pdf/markdown.md",
@@ -5184,6 +8772,18 @@
       "./Attorneys Exam/AttExam17Aug2016Q.pdf/markdown.md",
       "./Attorneys Exam/AttExam9Feb2016A.pdf/markdown.md",
       "./Attorneys Exam/AttExam9Feb2016Q.pdf/markdown.md",
+      "./Attorneys Exam/Attorneys Exam Dashboard.md",
+      "./Attorneys Exam/notes/qa/AttExam 2016-02-09.md",
+      "./Attorneys Exam/notes/qa/AttExam 2016-08-16.md",
+      "./Attorneys Exam/notes/qa/AttExam 2017-02-14.md",
+      "./Attorneys Exam/notes/qa/AttExam 2017-02-15.md",
+      "./Attorneys Exam/notes/topics/Bail Applications.md",
+      "./Attorneys Exam/notes/topics/Default Judgment and Provisional Sentence.md",
+      "./Attorneys Exam/notes/topics/Discharge, Withdrawal and Stopping of Criminal Prosecution.md",
+      "./Attorneys Exam/notes/topics/Execution of Judgments and Interpleader.md",
+      "./Attorneys Exam/notes/topics/Particulars of Claim Drafting.md",
+      "./Attorneys Exam/notes/topics/Prescription of Claims.md",
+      "./Attorneys Exam/notes/topics/Statements and Pleas in Criminal Trials.md",
       "./BBST/BBST2013(1)Q&A.doc",
       "./BBST/BBST2013(1)Q.doc",
       "./BBST/BBST2013(1)SuppQ&A.doc",
@@ -5199,6 +8799,20 @@
       "./BBST/BBST2017Final Statement of Facts.doc",
       "./BBST/BBST20Apr2010Q.doc",
       "./BBST/BBST9Jun2012Q.doc",
+      "./BBST/notes/qa/BBST 2012-06-09.md",
+      "./BBST/notes/qa/BBST 2013(1) Supp.md",
+      "./BBST/notes/qa/BBST 2013(1).md",
+      "./BBST/notes/qa/BBST 2013(2) Final.md",
+      "./BBST/notes/qa/BBST 2014(1) Final.md",
+      "./BBST/notes/qa/BBST 2014(2).md",
+      "./BBST/notes/qa/BBST 2015(1) Statement of Facts Only.md",
+      "./BBST/notes/qa/BBST 2016(1).md",
+      "./BBST/notes/topics/Compulsory Sequestration and Acts of Insolvency.md",
+      "./BBST/notes/topics/Contingency Fee Agreements.md",
+      "./BBST/notes/topics/Delictual Claims and Vicarious Liability.md",
+      "./BBST/notes/topics/Divorce Actions and Settlement Agreements.md",
+      "./BBST/notes/topics/Lease Agreements and Eviction.md",
+      "./BBST/notes/topics/Pre-Trial Procedure and Expedited Judgment.md",
       "./CCP/CCP Dashboard.md",
       "./CCP/CCP2012(2)SuppA.doc",
       "./CCP/CCP2019AssQ.doc",
@@ -5242,7 +8856,11 @@
       "./COS/COS7Sep2010Q.DOC",
       "./COS/COSMod2.1A.doc",
       "./COS/COSMod2.1Q.doc",
-      "./HCP/HCP Example - Heads of argument.pdf",
+      "./COS/notes/qa/COS 2010-03-18 Supp.md",
+      "./COS/notes/qa/COS 2012 Special Supp.md",
+      "./COS/notes/qa/COS Module 2.1 Practice.md",
+      "./COS/notes/topics/Taxation Procedure.md",
+      "./HCP/HCP Dashboard.md",
       "./HCP/HCP NoticeofAppeal.doc",
       "./HCP/HCP18Mar2010A.doc",
       "./HCP/HCP18Mar2010Q.doc",
@@ -5251,7 +8869,6 @@
       "./HCP/HCP1Mar2014Q.doc",
       "./HCP/HCP2012(1)A.doc",
       "./HCP/HCP2012(1)Q.doc",
-      "./HCP/HCP2015Slides.pdf",
       "./HCP/HCP20Aug2011A.doc",
       "./HCP/HCP20Aug2011Q.doc",
       "./HCP/HCP30Aug2012A.doc",
@@ -5266,13 +8883,43 @@
       "./HCP/HCP7Mar2019AssQ.docx",
       "./HCP/HCP7Sep2010A.DOC",
       "./HCP/HCP7Sep2010Q.DOC",
+      "./HCP/notes/qa/HCP 2008-03-19 Special Supp.md",
+      "./HCP/notes/qa/HCP 2010-03-06.md",
+      "./HCP/notes/qa/HCP 2010-03-18 Supp.md",
+      "./HCP/notes/qa/HCP 2010-09-07 Supp.md",
+      "./HCP/notes/qa/HCP 2011-03-05.md",
+      "./HCP/notes/qa/HCP 2011-08-20.md",
+      "./HCP/notes/qa/HCP 2012-03-03.md",
+      "./HCP/notes/qa/HCP 2012-06-01 Special Supp.md",
+      "./HCP/notes/qa/HCP 2012-08-30 Supp.md",
+      "./HCP/notes/qa/HCP 2013-09-06 Supp.md",
+      "./HCP/notes/qa/HCP 2014-03-01.md",
+      "./HCP/notes/qa/HCP 2019-03-07 Assignment.md",
+      "./HCP/notes/topics/Application Procedure and Notice of Motion.md",
+      "./HCP/notes/topics/Default Judgment and Rescission of Judgment.md",
+      "./HCP/notes/topics/Discovery.md",
+      "./HCP/notes/topics/Exception, Irregular Proceedings and Striking Out.md",
+      "./HCP/notes/topics/Interdicts.md",
+      "./HCP/notes/topics/Joinder, Third Party Procedure and Interpleader.md",
+      "./HCP/notes/topics/Jurisdiction of the High Court.md",
+      "./HCP/notes/topics/Notice of Intention to Defend.md",
+      "./HCP/notes/topics/Particulars of Claim and Rule 18 Requirements.md",
+      "./HCP/notes/topics/Parties, Citation and Legal Capacity to Litigate.md",
+      "./HCP/notes/topics/Plea, Special Plea, Replication and Close of Pleadings.md",
+      "./HCP/notes/topics/Provisional Sentence Procedure.md",
+      "./HCP/notes/topics/Rule 32 Judgment Procedure.md",
+      "./HCP/notes/topics/Summons Types and the Essentialia.md",
       "./ICP/ICP28Jun2012A.doc",
+      "./ICP/notes/qa/ICP 2012-06-28 Supp.md",
+      "./ICP/notes/topics/Types of Property Ownership.md",
       "./IPM/IPM2015AssQ.doc",
       "./IPM/IPM2016AssA.doc",
       "./LDR/LDR16May2012A.doc",
       "./LDR/LDR16May2012Q.doc",
+      "./LLB Hub Dashboard.md",
       "./LSSA & Miscellaneous /Constitution of RSA.pdf/markdown.md",
       "./LSSA & Miscellaneous /Legal Practice Act Rules.pdf/markdown.md",
+      "./MCP/MCP Dashboard.md",
       "./MCP/MCP18Mar2010A.doc",
       "./MCP/MCP18Mar2010Q.doc",
       "./MCP/MCP2012(1)A.doc",
@@ -5281,8 +8928,23 @@
       "./MCP/MCP7Sep2010Q.DOC",
       "./MCP/MCPDec2010A.doc",
       "./MCP/MCPDec2010Q.doc",
-      "./MCP/MCPMagCourtRules.pdf",
       "./MCP/MCPWebinar2019Word.docx",
+      "./MCP/notes/qa/MCP 2010-03-06.md",
+      "./MCP/notes/qa/MCP 2010-03-18 Supp.md",
+      "./MCP/notes/qa/MCP 2010-09-07 Supp.md",
+      "./MCP/notes/qa/MCP 2010-12-15 Special Supp.md",
+      "./MCP/notes/qa/MCP 2012 Special Supp.md",
+      "./MCP/notes/qa/MCP 2012-08-30 Supp.md",
+      "./MCP/notes/topics/Demand Prior to Litigation.md",
+      "./MCP/notes/topics/Expert Witness Notices (Rule 24).md",
+      "./MCP/notes/topics/Jurisdiction of the Magistrate's Court.md",
+      "./MCP/notes/topics/Notice of Bar.md",
+      "./MCP/notes/topics/Provisional Sentence.md",
+      "./MCP/notes/topics/Rule 14 Judgment.md",
+      "./MCP/notes/topics/Security for Costs.md",
+      "./MCP/notes/topics/Settlement Agreements (Deed of Settlement).md",
+      "./MCP/notes/topics/Special Pleas, Exceptions and Further Particulars.md",
+      "./MCP/notes/topics/Summons and Particulars of Claim Drafting.md",
       "./PCT/PCT Dashboard.md",
       "./PCT/PCT19May2012A.doc",
       "./PCT/PCT24Jul2010Q.doc",
@@ -5294,13 +8956,21 @@
       "./PCT/notes/qa/PCT 2012-05-19.md",
       "./PCT/notes/topics/Defending a Client Who Admits Guilt.md",
       "./PCT/notes/topics/Prescribed Claims and the Attorneys Insurance Indemnity Fund.md",
-      "./PLE/PLE2019Intro.pdf",
+      "./PLE/PLE Dashboard.md",
       "./PLE/PLE28May2016Q.doc",
       "./PLE/PLE30May2015Q.doc",
       "./PLE/PLE3Feb2019AssQ.docx",
-      "./PLE/notes/topics/Defending a Guilty Client.md"
+      "./PLE/notes/qa/PLE 2015-05-30.md",
+      "./PLE/notes/qa/PLE 2015-12-02 Special Supp.md",
+      "./PLE/notes/qa/PLE 2016-05-28.md",
+      "./PLE/notes/qa/PLE 2019-02-03 Assignment.md",
+      "./PLE/notes/topics/Defending a Guilty Client.md",
+      "./PLE/notes/topics/Prescribed Claims — Ethical Duty and Negligence Liability.md"
     ],
     "police-docket": [
+      "./Attorneys Exam/Attorneys Exam Dashboard.md",
+      "./Attorneys Exam/notes/qa/AttExam 2017-02-14.md",
+      "./Attorneys Exam/notes/topics/Bail Applications.md",
       "./CCP/CCP Dashboard.md",
       "./CCP/CCP2019AssQ.doc",
       "./CCP/CCP25Jul2015Q.doc",
@@ -5321,19 +8991,26 @@
       "./COS/COS30Aug2012A.doc",
       "./COS/COS30Aug2012A.docx",
       "./COS/COS7Sep2010A.DOC",
-      "./COS/COSMod2.1Q.doc"
+      "./COS/COSMod2.1Q.doc",
+      "./COS/notes/qa/COS 2010-09-07 Supp.md",
+      "./COS/notes/qa/COS 2012-08-30 Supp.md",
+      "./COS/notes/topics/Statement of Account and Bill Preparation.md",
+      "./LSSA & Miscellaneous /notes/Constitution of RSA.md"
     ],
     "pre-incorporation-contract": [
+      "./FBE/FBE Dashboard.md",
       "./FBE/FBE3Dec2009A.doc",
       "./FBE/FBE3Dec2009Q.doc",
       "./FBE/FBE5May2012Q.doc",
       "./FBE/notes/qa/FBE 2009-12-03 Special Supp.md",
       "./FBE/notes/qa/FBE 2010-06-03 Supp.md",
+      "./FBE/notes/qa/FBE 2012-05-05.md",
       "./FBE/notes/topics/Judicial Management.md",
       "./FBE/notes/topics/Pre-Incorporation Contracts.md",
       "./FBE/notes/topics/Private Companies.md"
     ],
     "private-defence": [
+      "./Attorneys Exam/notes/topics/Statements and Pleas in Criminal Trials.md",
       "./CCP/CCP Dashboard.md",
       "./CCP/CCP2012(2)SuppA.doc",
       "./CCP/CCP25Jul2015A.doc",
@@ -5364,6 +9041,7 @@
       "./Attorneys Exam/AttExam16Aug2016Q.pdf/markdown.md",
       "./Attorneys Exam/AttExam9Feb2016A.pdf/markdown.md",
       "./Attorneys Exam/AttExam9Feb2016Q.pdf/markdown.md",
+      "./Attorneys Exam/notes/qa/AttExam 2016-08-16.md",
       "./CCP/CCP2012(2)SuppA.doc",
       "./CCP/CCP25Jul2015A.doc",
       "./CCP/CCP25Jul2015Q.doc",
@@ -5382,9 +9060,10 @@
     ],
     "sole-proprietorship": [
       "./BBST/BBST2017Final Statement of Facts.doc",
-      "./BBST/BBST2018(2) Statement of Facts.pdf",
       "./BBST/BBST28Sep2017 Statement of Facts.docx",
       "./BBST/BBST9Jun2012Q.doc",
+      "./BBST/notes/qa/BBST 2017-09-28 Assignment.md",
+      "./FBE/FBE Dashboard.md",
       "./FBE/FBE16May2012Q.doc",
       "./FBE/FBE16Nov2010Q.doc",
       "./FBE/FBE28Jun2012Q.doc",
@@ -5394,14 +9073,20 @@
       "./FBE/FBE5May2012Q.doc",
       "./FBE/notes/qa/FBE 2009-12-03 Special Supp.md",
       "./FBE/notes/qa/FBE 2010-06-03 Supp.md",
+      "./FBE/notes/qa/FBE 2010-11-16 Supp.md",
+      "./FBE/notes/qa/FBE 2012-05-05.md",
+      "./FBE/notes/qa/FBE 2012-05-16 Supp.md",
+      "./FBE/notes/qa/FBE 2012-06-28 Special Supp.md",
       "./FBE/notes/topics/Choosing a Business Entity.md",
       "./FBE/notes/topics/Partnerships.md",
       "./FBE/notes/topics/Sole Proprietorships.md",
       "./FBE/notes/topics/Tax Rates and VAT Registration.md",
+      "./HCP/notes/topics/Parties, Citation and Legal Capacity to Litigate.md",
       "./IPM/IPM2015AssQ.doc",
       "./IPM/notes/qa/IPM 2015-11 Assignment.md",
       "./IPM/notes/topics/The Business Plan.md",
-      "./LDR/LDR22May2010Q.doc"
+      "./LDR/LDR22May2010Q.doc",
+      "./LDR/notes/topics/Rescission of CCMA Arbitration Awards.md"
     ],
     "taxation": [
       "./BBST/BBST2014(1)FinalQ&A.doc",
@@ -5414,9 +9099,14 @@
       "./COS/COS7Sep2010A.DOC",
       "./COS/COS7Sep2010Q.DOC",
       "./COS/COSMod2.1A.doc",
+      "./COS/notes/qa/COS 2010-03-06.md",
+      "./COS/notes/qa/COS 2010-09-07 Supp.md",
+      "./COS/notes/qa/COS 2012 Special Supp.md",
+      "./COS/notes/qa/COS Module 2.1 Practice.md",
       "./COS/notes/topics/Allocatur Completion.md",
       "./COS/notes/topics/Costs Terminology.md",
-      "./MCP/MCPMagCourtRules.pdf",
+      "./COS/notes/topics/Litigious vs Non-Litigious Matters.md",
+      "./COS/notes/topics/Taxation Procedure.md",
       "./PCT/PCTDec2010A.doc",
       "./PCT/notes/qa/PCT 2010-12-15 Special Supp.md",
       "./PCT/notes/topics/Fees, Trust Deposits and Billing Practice.md"
@@ -5425,6 +9115,10 @@
       "./Attorneys Exam/AttExam15Feb2017A.pdf/markdown.md",
       "./Attorneys Exam/AttExam17Aug2016A.pdf/markdown.md",
       "./Attorneys Exam/AttExam17Aug2016Q.pdf/markdown.md",
+      "./Attorneys Exam/notes/qa/AttExam 2016-08-17.md",
+      "./Attorneys Exam/notes/qa/AttExam 2017-02-15.md",
+      "./Attorneys Exam/notes/topics/Insolvency Law.md",
+      "./Attorneys Exam/notes/topics/Professional Ethics and Conduct.md",
       "./BBST/BBST2013(1)Q&A.doc",
       "./BBST/BBST2013(1)SuppQ&A.doc",
       "./BBST/BBST2013(2)Q&A.doc",
@@ -5435,10 +9129,22 @@
       "./BBST/BBST2017Final Statement of Facts.doc",
       "./BBST/BBST28Sep2017 Statement of Facts.docx",
       "./BBST/BBST9Jun2012A.doc",
+      "./BBST/notes/qa/BBST 2010-04-20.md",
+      "./BBST/notes/qa/BBST 2012-06-09.md",
+      "./BBST/notes/qa/BBST 2013(1) Supp.md",
+      "./BBST/notes/qa/BBST 2013(1).md",
+      "./BBST/notes/qa/BBST 2014(2).md",
+      "./BBST/notes/qa/BBST 2017-09-28 Assignment.md",
+      "./BBST/notes/topics/Compulsory Sequestration and Acts of Insolvency.md",
+      "./BBST/notes/topics/Rehabilitation of an Insolvent Estate.md",
       "./COS/COS2012(1)A.doc",
       "./COS/COS6Mar2010A.doc",
       "./COS/COSMod2.1A.doc",
+      "./COS/notes/qa/COS 2012 Special Supp.md",
+      "./COS/notes/qa/COS Module 2.1 Practice.md",
       "./COS/notes/topics/Costs Terminology.md",
+      "./COS/notes/topics/Taxation Procedure.md",
+      "./FBE/FBE Dashboard.md",
       "./FBE/FBE16May2012A.doc",
       "./FBE/FBE16May2012Q.doc",
       "./FBE/FBE16Nov2010A.doc",
@@ -5456,18 +9162,28 @@
       "./FBE/notes/qa/FBE 2009-12-03 Special Supp.md",
       "./FBE/notes/qa/FBE 2010-05-22.md",
       "./FBE/notes/qa/FBE 2010-06-03 Supp.md",
+      "./FBE/notes/qa/FBE 2010-11-16 Supp.md",
+      "./FBE/notes/qa/FBE 2012-05-05.md",
+      "./FBE/notes/qa/FBE 2012-05-16 Supp.md",
+      "./FBE/notes/qa/FBE 2012-06-28 Special Supp.md",
       "./FBE/notes/topics/Choosing a Business Entity.md",
       "./FBE/notes/topics/Close Corporations.md",
       "./FBE/notes/topics/Pre-Incorporation Contracts.md",
       "./FBE/notes/topics/Tax Rates and VAT Registration.md",
       "./FBE/notes/topics/Trusts.md",
+      "./HCP/HCP Dashboard.md",
       "./HCP/HCP1Mar2014Q.doc",
-      "./HCP/HCP2015Slides.pdf",
       "./HCP/HCP30Aug2012A.doc",
       "./HCP/HCP30Aug2012Q.doc",
       "./HCP/HCP7Mar2019AssQ.docx",
       "./HCP/HCP7Sep2010A.DOC",
       "./HCP/HCP7Sep2010Q.DOC",
+      "./HCP/notes/qa/HCP 2010-09-07 Supp.md",
+      "./HCP/notes/qa/HCP 2012-08-30 Supp.md",
+      "./HCP/notes/qa/HCP 2014-03-01.md",
+      "./HCP/notes/topics/Parties, Citation and Legal Capacity to Litigate.md",
+      "./HCP/notes/topics/Service of Process and Edictal Citation.md",
+      "./ICP/ICP Dashboard.md",
       "./ICP/ICP16May2012A.doc",
       "./ICP/ICP16May2012Q.doc",
       "./ICP/ICP24Oct2015A.doc",
@@ -5477,8 +9193,21 @@
       "./ICP/ICP7May2016A.doc",
       "./ICP/ICPDec2010A.doc",
       "./ICP/ICPDec2010Q.doc",
+      "./ICP/notes/qa/ICP 2010-12-15 Supp.md",
+      "./ICP/notes/qa/ICP 2012-05-05.md",
+      "./ICP/notes/qa/ICP 2012-05-16 Supp.md",
+      "./ICP/notes/qa/ICP 2012-06-28 Supp.md",
+      "./ICP/notes/qa/ICP 2015-10-24.md",
+      "./ICP/notes/qa/ICP 2016-05-07.md",
+      "./ICP/notes/qa/ICP 2016-06-29 Supp.md",
       "./ICP/notes/topics/Body Corporate — Management and Conduct Rules.md",
+      "./ICP/notes/topics/Deeds Registration Process.md",
+      "./ICP/notes/topics/FICA Compliance in Conveyancing.md",
+      "./ICP/notes/topics/Marital Property Regimes and Conveyancing.md",
+      "./ICP/notes/topics/Minors and Trusts in Conveyancing Transactions.md",
       "./ICP/notes/topics/Mortgage Bonds — Registration and Cancellation.md",
+      "./ICP/notes/topics/Transfer of Land — Role Players and Process.md",
+      "./ICP/notes/topics/Trust Account, Guarantees and Undertakings.md",
       "./IPM/IPM1Jun2012A.doc",
       "./IPM/IPM2019AssQ.docx",
       "./IPM/IPM27Jun2012A.doc",
@@ -5489,9 +9218,13 @@
       "./IPM/notes/topics/Financial Reports in Practice.md",
       "./IPM/notes/topics/Statutory Requirements to Open a Practice.md",
       "./LSSA & Miscellaneous /Constitution of RSA.pdf/markdown.md",
+      "./LSSA & Miscellaneous /LSSA Dashboard.md",
       "./LSSA & Miscellaneous /Legal Practice Act 28 of 2014.pdf/markdown.md",
       "./LSSA & Miscellaneous /Legal Practice Act Rules.pdf/markdown.md",
+      "./LSSA & Miscellaneous /notes/Legal Practice Act 28 of 2014.md",
+      "./LSSA & Miscellaneous /notes/Legal Practice Act Rules.md",
       "./MCP/MCPWebinar2019Word.docx",
+      "./MCP/notes/topics/Parties and Locus Standi.md",
       "./PCT/PCT Dashboard.md",
       "./PCT/PCT19May2012A.doc",
       "./PCT/PCT19May2012Q.doc",
@@ -5519,6 +9252,7 @@
       "./PCT/notes/topics/Prescribed Claims and the Attorneys Insurance Indemnity Fund.md",
       "./PCT/notes/topics/Requirements for Admission as an Attorney.md",
       "./PCT/notes/topics/Trust Account Theft and the Attorneys Fidelity Fund.md",
+      "./PLE/PLE Dashboard.md",
       "./PLE/PLE11Jun2015A.doc",
       "./PLE/PLE15Jun2016A.doc",
       "./PLE/PLE15Jun2016Q.doc",
@@ -5530,7 +9264,22 @@
       "./PLE/PLE30May2015A.doc",
       "./PLE/PLE30May2015Q.doc",
       "./PLE/PLE3Feb2019AssQ.docx",
-      "./PLE/notes/topics/Mandate Acceptance, Refusal and Withdrawal.md"
+      "./PLE/notes/qa/PLE 2015-05-30.md",
+      "./PLE/notes/qa/PLE 2015-06-11 Supp.md",
+      "./PLE/notes/qa/PLE 2015-11-26 Supp.md",
+      "./PLE/notes/qa/PLE 2015-12-02 Special Supp.md",
+      "./PLE/notes/qa/PLE 2016-05-28.md",
+      "./PLE/notes/qa/PLE 2016-06-15 Supp.md",
+      "./PLE/notes/qa/PLE 2016-06-28 Special Supp.md",
+      "./PLE/notes/qa/PLE 2019-02-03 Assignment.md",
+      "./PLE/notes/topics/Admission as an Attorney and Fitness to Practise.md",
+      "./PLE/notes/topics/Borrowing From or Lending to Clients.md",
+      "./PLE/notes/topics/Contingency Fee Agreements.md",
+      "./PLE/notes/topics/Fee Assessment, Overreaching and Fee Sharing.md",
+      "./PLE/notes/topics/Mandate Acceptance, Refusal and Withdrawal.md",
+      "./PLE/notes/topics/Prescribed Claims — Ethical Duty and Negligence Liability.md",
+      "./PLE/notes/topics/Trust Account Rules — Deposits and Fee Transfers.md",
+      "./PLE/notes/topics/Trust Account Theft and the Attorneys Fidelity Fund.md"
     ],
     "vat": [
       "./Attorneys Exam/AttExam14Feb2017Q.pdf/markdown.md",
@@ -5541,6 +9290,14 @@
       "./Attorneys Exam/AttExam17Aug2016Q.pdf/markdown.md",
       "./Attorneys Exam/AttExam9Feb2016A.pdf/markdown.md",
       "./Attorneys Exam/AttExam9Feb2016Q.pdf/markdown.md",
+      "./Attorneys Exam/Attorneys Exam Dashboard.md",
+      "./Attorneys Exam/notes/qa/AttExam 2016-02-09.md",
+      "./Attorneys Exam/notes/qa/AttExam 2016-08-16.md",
+      "./Attorneys Exam/notes/qa/AttExam 2017-02-15.md",
+      "./Attorneys Exam/notes/topics/Company, Close Corporation and Partnership Law.md",
+      "./Attorneys Exam/notes/topics/Particulars of Claim Drafting.md",
+      "./Attorneys Exam/notes/topics/Sale of a Business and Restraint of Trade.md",
+      "./Attorneys Exam/notes/topics/Statements and Pleas in Criminal Trials.md",
       "./BBST/BBST2013(1)Q&A.doc",
       "./BBST/BBST2013(1)Q.doc",
       "./BBST/BBST2013(2)Q&A.doc",
@@ -5552,11 +9309,20 @@
       "./BBST/BBST2015(1)Statement of Facts.doc",
       "./BBST/BBST2016(1)A.doc",
       "./BBST/BBST2017Final Statement of Facts.doc",
-      "./BBST/BBST2018(2) Statement of Facts.pdf",
       "./BBST/BBST20Apr2010Q.doc",
       "./BBST/BBST28Sep2017 Statement of Facts.docx",
       "./BBST/BBST9Jun2012Q.doc",
       "./BBST/BBSTDec2010Q.doc",
+      "./BBST/notes/qa/BBST 2010-04-20.md",
+      "./BBST/notes/qa/BBST 2012-06-09.md",
+      "./BBST/notes/qa/BBST 2013(1).md",
+      "./BBST/notes/qa/BBST 2016(1).md",
+      "./BBST/notes/qa/BBST 2017(2) Statement of Facts Only.md",
+      "./BBST/notes/qa/BBST 2017-09-28 Assignment.md",
+      "./BBST/notes/topics/Attorneys Fees and Fee Agreements.md",
+      "./BBST/notes/topics/Delictual Claims and Vicarious Liability.md",
+      "./BBST/notes/topics/Lease Agreements and Eviction.md",
+      "./BBST/notes/topics/Personal Liability of CC Members.md",
       "./CCP/CCP Dashboard.md",
       "./CCP/CCP2012(2)SuppA.doc",
       "./CCP/CCP2019AssQ.doc",
@@ -5587,6 +9353,15 @@
       "./CLP/CLPJul2012A.doc",
       "./CLP/CLPJul2012Q.doc",
       "./CLP/CLPWebinar2019Slides.ppt",
+      "./CLP/notes/qa/CLP 2010-01-30.md",
+      "./CLP/notes/qa/CLP 2012-07-15 Assignment.md",
+      "./CLP/notes/qa/CLP 2012-07-21.md",
+      "./CLP/notes/qa/CLP 2019-01-30 Assignment.md",
+      "./CLP/notes/topics/Fit and Proper Person for Admission.md",
+      "./CLP/notes/topics/Forfeiture and the Right to Property.md",
+      "./CLP/notes/topics/Limitation of Rights.md",
+      "./CLP/notes/topics/Right to Privacy and the Prince Judgment.md",
+      "./COS/COS Dashboard.md",
       "./COS/COS18Mar2010A.doc",
       "./COS/COS18Mar2010Q.doc",
       "./COS/COS2012(1)A.doc",
@@ -5600,10 +9375,18 @@
       "./COS/COS7Sep2010Q.DOC",
       "./COS/COSMod2.1A.doc",
       "./COS/COSMod2.1Q.doc",
+      "./COS/notes/qa/COS 2010-03-06.md",
+      "./COS/notes/qa/COS 2010-03-18 Supp.md",
+      "./COS/notes/qa/COS 2010-09-07 Supp.md",
+      "./COS/notes/qa/COS 2012 Special Supp.md",
+      "./COS/notes/qa/COS 2012-08-30 Supp.md",
+      "./COS/notes/qa/COS Module 2.1 Practice.md",
       "./COS/notes/topics/Allocatur Completion.md",
       "./COS/notes/topics/Costs Terminology.md",
       "./COS/notes/topics/Drawing Fee and Attendance Fee Scale.md",
+      "./COS/notes/topics/Statement of Account and Bill Preparation.md",
       "./COS/notes/topics/VAT on Fees and Disbursements.md",
+      "./FBE/FBE Dashboard.md",
       "./FBE/FBE16May2012Q.doc",
       "./FBE/FBE16Nov2010A.doc",
       "./FBE/FBE16Nov2010Q.doc",
@@ -5618,6 +9401,10 @@
       "./FBE/notes/qa/FBE 2009-12-03 Special Supp.md",
       "./FBE/notes/qa/FBE 2010-05-22.md",
       "./FBE/notes/qa/FBE 2010-06-03 Supp.md",
+      "./FBE/notes/qa/FBE 2010-11-16 Supp.md",
+      "./FBE/notes/qa/FBE 2012-05-05.md",
+      "./FBE/notes/qa/FBE 2012-05-16 Supp.md",
+      "./FBE/notes/qa/FBE 2012-06-28 Special Supp.md",
       "./FBE/notes/topics/Choosing a Business Entity.md",
       "./FBE/notes/topics/Close Corporations.md",
       "./FBE/notes/topics/Judicial Management.md",
@@ -5627,8 +9414,9 @@
       "./FBE/notes/topics/Sole Proprietorships.md",
       "./FBE/notes/topics/Tax Rates and VAT Registration.md",
       "./FBE/notes/topics/Trusts.md",
-      "./HCP/HCP2015Slides.pdf",
       "./HCP/HCP6Sep2013Q.docx",
+      "./HCP/notes/qa/HCP 2013-09-06 Supp.md",
+      "./ICP/ICP Dashboard.md",
       "./ICP/ICP16May2012A.doc",
       "./ICP/ICP16May2012Q.doc",
       "./ICP/ICP19May2016A.doc",
@@ -5636,7 +9424,16 @@
       "./ICP/ICP3Dec2015A.doc",
       "./ICP/ICP5May2012A.doc",
       "./ICP/ICP7May2016A.doc",
+      "./ICP/notes/qa/ICP 2012-05-05.md",
+      "./ICP/notes/qa/ICP 2012-05-16 Supp.md",
+      "./ICP/notes/qa/ICP 2015-12-03 Supp.md",
+      "./ICP/notes/qa/ICP 2016-05-07.md",
+      "./ICP/notes/qa/ICP 2016-05-19 Supp.md",
+      "./ICP/notes/qa/ICP 2016-06-29 Supp.md",
       "./ICP/notes/topics/Sectional Title Schemes.md",
+      "./ICP/notes/topics/Transfer of Land — Role Players and Process.md",
+      "./ICP/notes/topics/Types of Property Ownership.md",
+      "./ICP/notes/topics/Zero-Rated VAT Transactions.md",
       "./IPM/IPM19May2014A.doc",
       "./IPM/IPM1Jun2012A.doc",
       "./IPM/IPM2016AssA.doc",
@@ -5656,17 +9453,29 @@
       "./LDR/LDR28Jun2012Q.doc",
       "./LDR/LDR3Dec2009Q.doc",
       "./LDR/LDR5May2012Q.doc",
+      "./LDR/notes/qa/LDR 2009-12-03.md",
+      "./LDR/notes/qa/LDR 2010-05-22.md",
+      "./LDR/notes/qa/LDR 2010-11-16 Supp.md",
+      "./LDR/notes/qa/LDR 2012-05-05.md",
+      "./LDR/notes/qa/LDR 2012-05-16 Supp.md",
+      "./LDR/notes/topics/Legal Representation at Hearings and the CCMA.md",
       "./LSSA & Miscellaneous /Constitution of RSA.pdf/markdown.md",
       "./LSSA & Miscellaneous /Legal Practice Act 28 of 2014.pdf/markdown.md",
       "./LSSA & Miscellaneous /Legal Practice Act Rules.pdf/markdown.md",
       "./MCP/MCP18Mar2010Q.doc",
       "./MCP/MCPDec2010Q.doc",
-      "./MCP/MCPMagCourtRules.pdf",
+      "./MCP/notes/qa/MCP 2010-03-18 Supp.md",
+      "./MCP/notes/qa/MCP 2010-12-15 Special Supp.md",
+      "./MEMORY.md",
       "./PCT/notes/topics/Defending a Client Who Admits Guilt.md",
       "./PLE/PLE14Nov2015Q.doc",
-      "./PLE/PLE2019Intro.pdf",
       "./PLE/PLE28Jun2016Q.doc",
-      "./PLE/PLE3Feb2019AssQ.docx"
+      "./PLE/PLE3Feb2019AssQ.docx",
+      "./PLE/notes/qa/PLE 2015-11-14.md",
+      "./PLE/notes/qa/PLE 2016-06-28 Special Supp.md",
+      "./PLE/notes/qa/PLE 2019-02-03 Assignment.md",
+      "./_CLAUDE.md",
+      "./decisions.md"
     ]
   },
   "typeIndex": {
@@ -5772,6 +9581,35 @@
       "./PLE/PLE30May2015Q.doc"
     ],
     "general": [
+      "./Attorneys Exam/Attorneys Exam Dashboard.md",
+      "./Attorneys Exam/Attorneys Exam.base",
+      "./Attorneys Exam/notes/qa/AttExam 2016-02-09.md",
+      "./Attorneys Exam/notes/qa/AttExam 2016-08-16.md",
+      "./Attorneys Exam/notes/qa/AttExam 2016-08-17.md",
+      "./Attorneys Exam/notes/qa/AttExam 2017-02-14.md",
+      "./Attorneys Exam/notes/qa/AttExam 2017-02-15.md",
+      "./Attorneys Exam/notes/topics/Bail Applications.md",
+      "./Attorneys Exam/notes/topics/Civil Appeal and Review Procedure.md",
+      "./Attorneys Exam/notes/topics/Company, Close Corporation and Partnership Law.md",
+      "./Attorneys Exam/notes/topics/Consumer Protection Act.md",
+      "./Attorneys Exam/notes/topics/Contract Drafting — Standard Clauses.md",
+      "./Attorneys Exam/notes/topics/Costs, Tenders and Withdrawal of Action.md",
+      "./Attorneys Exam/notes/topics/Default Judgment and Provisional Sentence.md",
+      "./Attorneys Exam/notes/topics/Discharge, Withdrawal and Stopping of Criminal Prosecution.md",
+      "./Attorneys Exam/notes/topics/Execution of Judgments and Interpleader.md",
+      "./Attorneys Exam/notes/topics/Insolvency Law.md",
+      "./Attorneys Exam/notes/topics/Interlocutory Applications and Notices of Motion.md",
+      "./Attorneys Exam/notes/topics/Magistrates' Court Jurisdiction.md",
+      "./Attorneys Exam/notes/topics/Matrimonial Property and Divorce Procedure.md",
+      "./Attorneys Exam/notes/topics/Particulars of Claim Drafting.md",
+      "./Attorneys Exam/notes/topics/Prescription of Claims.md",
+      "./Attorneys Exam/notes/topics/Professional Ethics and Conduct.md",
+      "./Attorneys Exam/notes/topics/Road Accident Fund Claims.md",
+      "./Attorneys Exam/notes/topics/Sale of a Business and Restraint of Trade.md",
+      "./Attorneys Exam/notes/topics/Statements and Pleas in Criminal Trials.md",
+      "./Attorneys Exam/notes/topics/Trial Notices for Expert and Documentary Evidence.md",
+      "./BBST/BBST Dashboard.md",
+      "./BBST/BBST.base",
       "./BBST/BBST2013(2)Statement of Facts.doc",
       "./BBST/BBST2013(2)SuppStatement of Facts.doc",
       "./BBST/BBST2014(1)Statement of Facts.doc",
@@ -5782,6 +9620,35 @@
       "./BBST/BBST2017Final Statement of Facts.doc",
       "./BBST/BBST2018(2) Statement of Facts.pdf",
       "./BBST/BBST28Sep2017 Statement of Facts.docx",
+      "./BBST/notes/qa/BBST 2013(1) Supp.md",
+      "./BBST/notes/qa/BBST 2013(1).md",
+      "./BBST/notes/qa/BBST 2013(2) Supp.md",
+      "./BBST/notes/qa/BBST 2014(2) Supp.md",
+      "./BBST/notes/qa/BBST 2014(2).md",
+      "./BBST/notes/qa/BBST 2015(1) Statement of Facts Only.md",
+      "./BBST/notes/qa/BBST 2016(1).md",
+      "./BBST/notes/qa/BBST 2017(2) Statement of Facts Only.md",
+      "./BBST/notes/qa/BBST 2017-09-28 Assignment.md",
+      "./BBST/notes/topics/Attorneys Fees and Fee Agreements.md",
+      "./BBST/notes/topics/Compulsory Sequestration and Acts of Insolvency.md",
+      "./BBST/notes/topics/Contingency Fee Agreements.md",
+      "./BBST/notes/topics/Defamation.md",
+      "./BBST/notes/topics/Delictual Claims and Vicarious Liability.md",
+      "./BBST/notes/topics/Divorce Actions and Settlement Agreements.md",
+      "./BBST/notes/topics/Domestic Violence Protection Orders.md",
+      "./BBST/notes/topics/Intestate Succession and Customary Marriages.md",
+      "./BBST/notes/topics/Lease Agreements and Eviction.md",
+      "./BBST/notes/topics/Maintenance Claims.md",
+      "./BBST/notes/topics/Matrimonial Property Systems.md",
+      "./BBST/notes/topics/Personal Liability of CC Members.md",
+      "./BBST/notes/topics/Pre-Trial Procedure and Expedited Judgment.md",
+      "./BBST/notes/topics/Rehabilitation of an Insolvent Estate.md",
+      "./BBST/notes/topics/Rescission of Judgment.md",
+      "./BBST/notes/topics/Road Accident Fund Claims.md",
+      "./BBST/notes/topics/Suretyship and the Matrimonial Property Act.md",
+      "./BBST/notes/topics/Universal Partnership and Breach of Promise to Marry.md",
+      "./BBST/notes/topics/Urgent Applications and Interdicts.md",
+      "./BBST/notes/topics/Wills and Disqualified Beneficiaries.md",
       "./CCP/CCP Dashboard.md",
       "./CCP/CCP.base",
       "./CCP/notes/qa/CCP 2010-01-30.md",
@@ -5808,22 +9675,119 @@
       "./CCP/notes/topics/Securing Attendance of the Accused.md",
       "./CCP/notes/topics/Seizure of Articles.md",
       "./CCP/notes/topics/Sentencing and Mitigation.md",
+      "./CLAUDE.md",
       "./CLP/CLP 2012.2 SUPP ENG - only for appeal students.doc",
+      "./CLP/CLP Dashboard.md",
+      "./CLP/CLP.base",
+      "./CLP/notes/qa/CLP 2010-01-30.md",
+      "./CLP/notes/qa/CLP 2010-07-24.md",
+      "./CLP/notes/qa/CLP 2010-12-15 Special Supp.md",
+      "./CLP/notes/qa/CLP 2012-06-26 Special Supp.md",
+      "./CLP/notes/qa/CLP 2012-07-15 Assignment.md",
+      "./CLP/notes/qa/CLP 2012-07-21.md",
+      "./CLP/notes/qa/CLP 2012-08-02 Supp.md",
+      "./CLP/notes/qa/CLP 2019-01-30 Assignment.md",
+      "./CLP/notes/topics/Amicus Curiae.md",
+      "./CLP/notes/topics/Application of the Bill of Rights to Foreigners.md",
+      "./CLP/notes/topics/Best Interests of the Child.md",
+      "./CLP/notes/topics/Confirmation of Constitutional Invalidity.md",
+      "./CLP/notes/topics/Constitutional Remedies and Draft Orders.md",
+      "./CLP/notes/topics/Direct Access to the Constitutional Court.md",
+      "./CLP/notes/topics/Equality and the Harksen Test.md",
+      "./CLP/notes/topics/Fit and Proper Person for Admission.md",
+      "./CLP/notes/topics/Forfeiture and the Right to Property.md",
+      "./CLP/notes/topics/Jurisdiction in Constitutional Matters.md",
+      "./CLP/notes/topics/Leave to Appeal to the Constitutional Court.md",
+      "./CLP/notes/topics/Limitation of Rights.md",
+      "./CLP/notes/topics/Locus Standi.md",
+      "./CLP/notes/topics/Right to Privacy and the Prince Judgment.md",
+      "./COS/COS Dashboard.md",
+      "./COS/COS.base",
+      "./COS/notes/qa/COS 2010-03-06.md",
+      "./COS/notes/qa/COS 2010-03-18 Supp.md",
+      "./COS/notes/qa/COS 2010-09-07 Supp.md",
+      "./COS/notes/qa/COS 2012 Special Supp.md",
+      "./COS/notes/qa/COS 2012-08-30 Supp.md",
+      "./COS/notes/qa/COS Module 2.1 Practice.md",
       "./COS/notes/topics/Allocatur Completion.md",
+      "./COS/notes/topics/Contingency Fee Agreements.md",
       "./COS/notes/topics/Costs Terminology.md",
       "./COS/notes/topics/Drawing Fee and Attendance Fee Scale.md",
+      "./COS/notes/topics/Litigious vs Non-Litigious Matters.md",
+      "./COS/notes/topics/Recovering Costs After Judgment.md",
+      "./COS/notes/topics/Statement of Account and Bill Preparation.md",
+      "./COS/notes/topics/Taxation Procedure.md",
       "./COS/notes/topics/VAT on Fees and Disbursements.md",
+      "./FBE/FBE Dashboard.md",
+      "./FBE/FBE.base",
+      "./FBE/notes/qa/FBE 2010-11-16 Supp.md",
+      "./FBE/notes/qa/FBE 2012-05-05.md",
+      "./FBE/notes/qa/FBE 2012-05-16 Supp.md",
+      "./FBE/notes/qa/FBE 2012-06-28 Special Supp.md",
       "./FBE/notes/topics/Choosing a Business Entity.md",
       "./FBE/notes/topics/Judicial Management.md",
       "./FBE/notes/topics/Partnerships.md",
       "./FBE/notes/topics/Sole Proprietorships.md",
       "./FBE/notes/topics/Tax Rates and VAT Registration.md",
       "./FBE/notes/topics/Trusts.md",
+      "./HCP/HCP Dashboard.md",
       "./HCP/HCP NoticeofAppeal.doc",
+      "./HCP/HCP.base",
+      "./HCP/notes/qa/HCP 2008-03-19 Special Supp.md",
+      "./HCP/notes/qa/HCP 2010-03-06.md",
+      "./HCP/notes/qa/HCP 2010-03-18 Supp.md",
+      "./HCP/notes/qa/HCP 2010-09-07 Supp.md",
+      "./HCP/notes/qa/HCP 2011-03-05.md",
+      "./HCP/notes/qa/HCP 2011-08-20.md",
+      "./HCP/notes/qa/HCP 2012-03-03.md",
+      "./HCP/notes/qa/HCP 2012-06-01 Special Supp.md",
+      "./HCP/notes/qa/HCP 2012-08-30 Supp.md",
+      "./HCP/notes/qa/HCP 2013-09-06 Supp.md",
+      "./HCP/notes/qa/HCP 2014-03-01.md",
+      "./HCP/notes/qa/HCP 2019-03-07 Assignment.md",
+      "./HCP/notes/topics/Appeal Procedure and Heads of Argument.md",
+      "./HCP/notes/topics/Application Procedure and Notice of Motion.md",
+      "./HCP/notes/topics/Default Judgment and Rescission of Judgment.md",
+      "./HCP/notes/topics/Discovery.md",
+      "./HCP/notes/topics/Exception, Irregular Proceedings and Striking Out.md",
+      "./HCP/notes/topics/Interdicts.md",
+      "./HCP/notes/topics/Joinder, Third Party Procedure and Interpleader.md",
+      "./HCP/notes/topics/Jurisdiction of the High Court.md",
+      "./HCP/notes/topics/Notice of Intention to Defend.md",
+      "./HCP/notes/topics/Particulars of Claim and Rule 18 Requirements.md",
+      "./HCP/notes/topics/Parties, Citation and Legal Capacity to Litigate.md",
+      "./HCP/notes/topics/Plea, Special Plea, Replication and Close of Pleadings.md",
+      "./HCP/notes/topics/Provisional Sentence Procedure.md",
+      "./HCP/notes/topics/Review Procedure and Appeal vs Review.md",
+      "./HCP/notes/topics/Rule 32 Judgment Procedure.md",
+      "./HCP/notes/topics/Service of Process and Edictal Citation.md",
+      "./HCP/notes/topics/ZZTest.md",
+      "./ICP/ICP.base",
+      "./ICP/notes/qa/ICP 2010-12-15 Supp.md",
+      "./ICP/notes/qa/ICP 2012-05-05.md",
+      "./ICP/notes/qa/ICP 2012-05-16 Supp.md",
+      "./ICP/notes/qa/ICP 2012-06-28 Supp.md",
+      "./ICP/notes/qa/ICP 2015-10-24.md",
+      "./ICP/notes/qa/ICP 2015-12-03 Supp.md",
+      "./ICP/notes/qa/ICP 2016-05-07.md",
+      "./ICP/notes/qa/ICP 2016-05-19 Supp.md",
+      "./ICP/notes/qa/ICP 2016-06-29 Supp.md",
       "./ICP/notes/topics/Body Corporate — Management and Conduct Rules.md",
+      "./ICP/notes/topics/Cooling-Off Right for Purchasers.md",
+      "./ICP/notes/topics/Deeds Registration Process.md",
       "./ICP/notes/topics/Exclusive Use Areas.md",
+      "./ICP/notes/topics/FICA Compliance in Conveyancing.md",
+      "./ICP/notes/topics/Marital Property Regimes and Conveyancing.md",
+      "./ICP/notes/topics/Minors and Trusts in Conveyancing Transactions.md",
       "./ICP/notes/topics/Mortgage Bonds — Registration and Cancellation.md",
+      "./ICP/notes/topics/Real Rights vs Personal Rights.md",
       "./ICP/notes/topics/Sectional Title Schemes.md",
+      "./ICP/notes/topics/Transfer of Land — Role Players and Process.md",
+      "./ICP/notes/topics/Trust Account, Guarantees and Undertakings.md",
+      "./ICP/notes/topics/Types of Property Ownership.md",
+      "./ICP/notes/topics/Zero-Rated VAT Transactions.md",
+      "./IPM/IPM Dashboard.md",
+      "./IPM/IPM.base",
       "./IPM/notes/qa/IPM 2012 Assignment.md",
       "./IPM/notes/qa/IPM 2012-05-19.md",
       "./IPM/notes/qa/IPM 2012-06-01 Supp.md",
@@ -5844,6 +9808,57 @@
       "./IPM/notes/topics/Statutory Requirements to Open a Practice.md",
       "./IPM/notes/topics/The Business Plan.md",
       "./IPM/notes/topics/The Management Process.md",
+      "./LDR/LDR.base",
+      "./LDR/notes/qa/LDR 2009-12-03.md",
+      "./LDR/notes/qa/LDR 2010-05-22.md",
+      "./LDR/notes/qa/LDR 2010-06-03 Supp.md",
+      "./LDR/notes/qa/LDR 2010-11-16 Supp.md",
+      "./LDR/notes/qa/LDR 2010-12-15 Special Supp.md",
+      "./LDR/notes/qa/LDR 2012-05-05.md",
+      "./LDR/notes/qa/LDR 2012-05-16 Supp.md",
+      "./LDR/notes/qa/LDR 2012-06-28 Special Supp.md",
+      "./LDR/notes/topics/Automatically Unfair Dismissal on Pregnancy.md",
+      "./LDR/notes/topics/Disciplinary Hearing Procedure.md",
+      "./LDR/notes/topics/Discrimination Disputes.md",
+      "./LDR/notes/topics/Employee vs Independent Contractor Status.md",
+      "./LDR/notes/topics/Incapacity Dismissal Due to Ill Health.md",
+      "./LDR/notes/topics/Incapacity Dismissal for Poor Work Performance and Probation.md",
+      "./LDR/notes/topics/Onus of Proof in Unfair Dismissal.md",
+      "./LDR/notes/topics/Organisational Rights and Collective Bargaining.md",
+      "./LDR/notes/topics/Protected and Unprotected Strikes.md",
+      "./LDR/notes/topics/Rescission of CCMA Arbitration Awards.md",
+      "./LDR/notes/topics/Retrenchment and Operational Requirements.md",
+      "./LEARNINGS.md",
+      "./LLB Hub Dashboard.md",
+      "./LLB Hub.base",
+      "./LSSA & Miscellaneous /LSSA Dashboard.md",
+      "./LSSA & Miscellaneous /notes/Legal Practice Act 28 of 2014.md",
+      "./LSSA & Miscellaneous /notes/Legal Practice Act Rules.md",
+      "./Logs/2026-10-19.md",
+      "./MCP/MCP Dashboard.md",
+      "./MCP/MCP.base",
+      "./MCP/MCPMagCourtRules.pdf",
+      "./MCP/notes/qa/MCP 2010-03-06.md",
+      "./MCP/notes/qa/MCP 2010-03-18 Supp.md",
+      "./MCP/notes/qa/MCP 2010-09-07 Supp.md",
+      "./MCP/notes/qa/MCP 2010-12-15 Special Supp.md",
+      "./MCP/notes/qa/MCP 2012 Special Supp.md",
+      "./MCP/notes/qa/MCP 2012-08-30 Supp.md",
+      "./MCP/notes/topics/Default Judgment.md",
+      "./MCP/notes/topics/Demand Prior to Litigation.md",
+      "./MCP/notes/topics/Expert Witness Notices (Rule 24).md",
+      "./MCP/notes/topics/Jurisdiction of the Magistrate's Court.md",
+      "./MCP/notes/topics/Notice of Bar.md",
+      "./MCP/notes/topics/Parties and Locus Standi.md",
+      "./MCP/notes/topics/Provisional Sentence.md",
+      "./MCP/notes/topics/Rescission of Default Judgment.md",
+      "./MCP/notes/topics/Rule 14 Judgment.md",
+      "./MCP/notes/topics/Security for Costs.md",
+      "./MCP/notes/topics/Settlement Agreements (Deed of Settlement).md",
+      "./MCP/notes/topics/Special Pleas, Exceptions and Further Particulars.md",
+      "./MCP/notes/topics/Summons and Particulars of Claim Drafting.md",
+      "./MCP/notes/topics/Warrants of Execution.md",
+      "./MEMORY.md",
       "./PCT/PCT.base",
       "./PCT/notes/qa/PCT 2010-01-30.md",
       "./PCT/notes/qa/PCT 2010-07-24.md",
@@ -5865,9 +9880,39 @@
       "./PCT/notes/topics/Prescribed Claims and the Attorneys Insurance Indemnity Fund.md",
       "./PCT/notes/topics/Sources of the Rules of Professional Conduct.md",
       "./PCT/notes/topics/Trust Account Theft and the Attorneys Fidelity Fund.md",
+      "./PLE/PLE Dashboard.md",
+      "./PLE/PLE.base",
       "./PLE/PLE2019Intro.pdf",
+      "./PLE/notes/qa/PLE 2015-05-30.md",
+      "./PLE/notes/qa/PLE 2015-06-11 Supp.md",
+      "./PLE/notes/qa/PLE 2015-11-14.md",
+      "./PLE/notes/qa/PLE 2015-11-26 Supp.md",
+      "./PLE/notes/qa/PLE 2015-12-02 Special Supp.md",
+      "./PLE/notes/qa/PLE 2016-05-28.md",
+      "./PLE/notes/qa/PLE 2016-06-15 Supp.md",
+      "./PLE/notes/qa/PLE 2016-06-28 Special Supp.md",
+      "./PLE/notes/qa/PLE 2019-02-03 Assignment.md",
+      "./PLE/notes/topics/Admission as an Attorney and Fitness to Practise.md",
+      "./PLE/notes/topics/Borrowing From or Lending to Clients.md",
+      "./PLE/notes/topics/Client Confidentiality and Privilege.md",
+      "./PLE/notes/topics/Commissioner of Oaths Restrictions.md",
+      "./PLE/notes/topics/Conflict of Interest.md",
+      "./PLE/notes/topics/Contingency Fee Agreements.md",
       "./PLE/notes/topics/Defending a Guilty Client.md",
-      "./PLE/notes/topics/Mandate Acceptance, Refusal and Withdrawal.md"
+      "./PLE/notes/topics/Duty of Candour to the Court.md",
+      "./PLE/notes/topics/FICA Obligations on Attorneys.md",
+      "./PLE/notes/topics/Fee Assessment, Overreaching and Fee Sharing.md",
+      "./PLE/notes/topics/Interviewing an Opponent's Witness.md",
+      "./PLE/notes/topics/Mandate Acceptance, Refusal and Withdrawal.md",
+      "./PLE/notes/topics/Prescribed Claims — Ethical Duty and Negligence Liability.md",
+      "./PLE/notes/topics/Recusal of a Judicial Officer.md",
+      "./PLE/notes/topics/Trust Account Rules — Deposits and Fee Transfers.md",
+      "./PLE/notes/topics/Trust Account Theft and the Attorneys Fidelity Fund.md",
+      "./Templates/Knowledge Note.md",
+      "./_CLAUDE.md",
+      "./brain.md",
+      "./decisions.md",
+      "./projects/Second Brain Setup.md"
     ],
     "lecture_qa": [
       "./CLP/CLPLecture2019Q&A.pdf"
@@ -5887,6 +9932,11 @@
       "./BBST/BBST2014(2)SuppQ&A.doc",
       "./BBST/BBST2016(1)A.doc",
       "./BBST/BBST9Jun2012A.doc",
+      "./BBST/notes/qa/BBST 2010-04-20.md",
+      "./BBST/notes/qa/BBST 2010-12-15 Special Supp.md",
+      "./BBST/notes/qa/BBST 2012-06-09.md",
+      "./BBST/notes/qa/BBST 2013(2) Final.md",
+      "./BBST/notes/qa/BBST 2014(1) Final.md",
       "./CCP/CCP2012(2)SuppA.doc",
       "./CCP/CCP25Jul2015A.doc",
       "./CCP/CCP26Jan2013A.doc",
@@ -5934,6 +9984,8 @@
       "./HCP/HCP6Mar2010A.doc",
       "./HCP/HCP6Sep2013A.doc",
       "./HCP/HCP7Sep2010A.DOC",
+      "./HCP/notes/topics/Summons Types and the Essentialia.md",
+      "./ICP/ICP Dashboard.md",
       "./ICP/ICP16May2012A.doc",
       "./ICP/ICP19May2016A.doc",
       "./ICP/ICP24Oct2015A.doc",
@@ -5949,6 +10001,7 @@
       "./IPM/IPM2015AssA.doc",
       "./IPM/IPM2016AssA.doc",
       "./IPM/IPM27Jun2012A.doc",
+      "./LDR/LDR Dashboard.md",
       "./LDR/LDR16May2012A.doc",
       "./LDR/LDR16Nov2010A.doc",
       "./LDR/LDR22May2010A.doc",
@@ -5957,14 +10010,16 @@
       "./LDR/LDR3Jun2010A.doc",
       "./LDR/LDR5May2012A.doc",
       "./LDR/LDRDec2010A.doc",
+      "./LDR/notes/topics/Legal Representation at Hearings and the CCMA.md",
       "./LSSA & Miscellaneous /Constitution of RSA.pdf/markdown.md",
+      "./LSSA & Miscellaneous /LSSA.base",
+      "./LSSA & Miscellaneous /notes/Constitution of RSA.md",
       "./MCP/MCP18Mar2010A.doc",
       "./MCP/MCP2012(1)A.doc",
       "./MCP/MCP30Aug2012A.doc",
       "./MCP/MCP6Mar2010A.doc",
       "./MCP/MCP7Sep2010A.DOC",
       "./MCP/MCPDec2010A.doc",
-      "./MCP/MCPMagCourtRules.pdf",
       "./PCT/PCT Dashboard.md",
       "./PCT/PCT18May2013A.doc",
       "./PCT/PCT19May2012A.doc",

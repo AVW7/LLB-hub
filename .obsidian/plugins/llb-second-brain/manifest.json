@@ -1,0 +1,11 @@
+{
+  "id": "llb-second-brain",
+  "name": "LLB Second Brain",
+  "version": "2.6.2-llb.1",
+  "minAppVersion": "1.7.2",
+  "description": "Local-only cited study chat and hybrid search for LLB Hub.",
+  "author": "Mani Mohan",
+  "authorUrl": "https://mani.ink",
+  "fundingUrl": "https://buymeacoffee.com/manee",
+  "isDesktopOnly": true
+}

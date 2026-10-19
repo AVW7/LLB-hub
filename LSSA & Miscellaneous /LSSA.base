@@ -1,0 +1,18 @@
+filters:
+  and:
+    - 'subject == "LSSA"'
+    - 'type == "reference"'
+properties:
+  status:
+    displayName: "Status"
+views:
+  - type: table
+    name: "Reference Documents"
+    order:
+      - file.name
+      - status
+  - type: cards
+    name: "Library"
+    order:
+      - file.name
+      - status

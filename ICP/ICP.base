@@ -1,0 +1,76 @@
+filters:
+  and:
+    - 'subject == "ICP"'
+    - or:
+        - 'type == "topic"'
+        - 'type == "exam-paper"'
+
+formulas:
+  status_icon: 'if(status == "mastered", "✅", if(status == "reviewed", "🟡", if(status == "in-progress", "🔵", "⚪")))'
+  marks_label: 'if(total_marks, total_marks.toString() + " marks", "")'
+
+properties:
+  status:
+    displayName: "Status"
+  formula.status_icon:
+    displayName: ""
+  formula.marks_label:
+    displayName: "Marks"
+  topics:
+    displayName: "Topics"
+  frequency:
+    displayName: "Frequency"
+  paper_date:
+    displayName: "Sitting Date"
+  sitting:
+    displayName: "Sitting"
+
+views:
+  - type: table
+    name: "Topics"
+    filters:
+      and:
+        - 'type == "topic"'
+    order:
+      - file.name
+      - formula.status_icon
+      - status
+      - frequency
+    groupBy:
+      property: status
+      direction: ASC
+
+  - type: table
+    name: "Past Papers"
+    filters:
+      and:
+        - 'type == "exam-paper"'
+    order:
+      - file.name
+      - formula.status_icon
+      - status
+      - paper_date
+      - formula.marks_label
+    groupBy:
+      property: status
+      direction: ASC
+
+  - type: table
+    name: "Everything"
+    order:
+      - file.name
+      - type
+      - formula.status_icon
+      - status
+      - topics
+
+  - type: cards
+    name: "Study Board"
+    order:
+      - file.name
+      - type
+      - formula.status_icon
+      - status
+    groupBy:
+      property: status
+      direction: ASC

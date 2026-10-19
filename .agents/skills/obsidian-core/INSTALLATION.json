@@ -1,0 +1,16 @@
+{
+  "source": "https://github.com/eugeniughelbur/obsidian-second-brain",
+  "source_snapshot": "/Users/ajad/Documents/ChatGPT/local_voice/obsidian-second-brain",
+  "installed_at": "2026-10-19T14:01:01.230929+02:00",
+  "platform": "agent-skills",
+  "vault": "/Users/ajad/Desktop/LLB hub",
+  "command_count": 47,
+  "local_customizations": [
+    "explicit saves",
+    "default vault",
+    "absolute engine paths",
+    "private inference policy"
+  ],
+  "scope": "vault",
+  "engine_path": "/Users/ajad/Desktop/LLB hub/.agents/skills/obsidian-core"
+}

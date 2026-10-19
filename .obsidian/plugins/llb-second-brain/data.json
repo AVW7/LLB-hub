@@ -1,0 +1,64 @@
+{
+  "serverAddress": "http://127.0.0.1:11434",
+  "embeddingServerAddress": "http://127.0.0.1:11434",
+  "llmModel": "llb-brain",
+  "maxTokens": 1024,
+  "temperature": 0.2,
+  "providerType": "ollama",
+  "stream": false,
+  "customPrompt": "Extract the concrete tasks from the selected text. Return a Markdown checklist using - [ ]. Keep owners and due dates only when they are stated, and do not invent tasks.",
+  "outputMode": "replace",
+  "personas": "default",
+  "maxConvHistory": 0,
+  "responseFormatting": false,
+  "responseFormatPrepend": "``` LLM Helper - generated response \n\n",
+  "responseFormatAppend": "\n\n```",
+  "lastVersion": "2.6.2-llb.1",
+  "embeddingModelName": "embeddinggemma-2:270m",
+  "braveSearchApiKey": "",
+  "openAIApiKey": "",
+  "embeddingApiKey": "",
+  "searchProvider": "disabled",
+  "tavilyApiKey": "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",
+  "searxngInstanceUrl": "",
+  "customPrompts": [],
+  "extractReasoningResponses": false,
+  "reasoningMarkers": "[\n  {\n    \"start\": \"<think>\",\n    \"end\": \"</think>\"\n  },\n  {\n    \"start\": \"<reasoning>\",\n    \"end\": \"</reasoning>\"\n  },\n  {\n    \"start\": \"<thought>\",\n    \"end\": \"</thought>\"\n  }\n]",
+  "ragTopK": 6,
+  "autoIndexIntervalMinutes": 0,
+  "autoNotice": false,
+  "indexPdfAttachments": true,
+  "ocrImageAttachments": false,
+  "ocrScannedPdfAttachments": false,
+  "enableVaultActions": false,
+  "showAgentDebug": false,
+  "renderMarkdownInChat": true,
+  "workflowDefaults": {
+    "recipes": {
+      "weekly-review": {
+        "scopeOption": "current-folder",
+        "tagValue": "",
+        "targetNote": "",
+        "outputFolder": "",
+        "titleTemplate": "Weekly Review - YYYY-MM-DD"
+      },
+      "meeting-notes-to-tasks": {
+        "scopeOption": "current-note",
+        "tagValue": "",
+        "targetNote": "",
+        "outputFolder": "",
+        "titleTemplate": ""
+      },
+      "project-status-summary": {
+        "scopeOption": "tag",
+        "tagValue": "#project",
+        "targetNote": "",
+        "outputFolder": "",
+        "titleTemplate": ""
+      }
+    }
+  },
+  "vaultRadarAutoRun": false,
+  "vaultRadarAutoRunEnabledAt": 0,
+  "vaultRadarMaxNotes": 12
+}

@@ -56,4 +56,4 @@ Note the criminal-procedure angle on the same underlying problem — see CCP's `
 
 ## Related topics
 
-[[Conflict of Interest]] · [[Defending a Guilty Client]] · [[Fees, Deposits and Trust Transfers]]
+[[Conflict of Interest]] · [[Defending a Guilty Client]] · [[Trust Account Rules — Deposits and Fee Transfers]]

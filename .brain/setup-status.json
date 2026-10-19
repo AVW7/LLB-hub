@@ -1,0 +1,9 @@
+{
+  "vault_configured": true,
+  "models_installed": false,
+  "retrieval_indexed": false,
+  "updated": "2026-10-19T14:27:32.282284+02:00",
+  "embedding_model_installed": true,
+  "plugin_built": true,
+  "word_extraction": "macOS textutil"
+}

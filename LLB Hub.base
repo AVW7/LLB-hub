@@ -1,0 +1,110 @@
+filters:
+  or:
+    - 'type == "topic"'
+    - 'type == "exam-paper"'
+    - 'type == "reference"'
+
+formulas:
+  status_icon: 'if(status == "mastered", "✅", if(status == "reviewed", "🟡", if(status == "in-progress", "🔵", "⚪")))'
+  marks_label: 'if(total_marks, total_marks.toString() + " marks", "")'
+
+properties:
+  subject:
+    displayName: "Module"
+  status:
+    displayName: "Status"
+  formula.status_icon:
+    displayName: ""
+  formula.marks_label:
+    displayName: "Marks"
+  type:
+    displayName: "Type"
+  topics:
+    displayName: "Topics"
+  frequency:
+    displayName: "Frequency"
+  paper_date:
+    displayName: "Sitting Date"
+
+views:
+  - type: table
+    name: "By Module"
+    order:
+      - file.name
+      - subject
+      - type
+      - formula.status_icon
+      - status
+    groupBy:
+      property: subject
+      direction: ASC
+
+  - type: table
+    name: "All Topics"
+    filters:
+      and:
+        - 'type == "topic"'
+    order:
+      - file.name
+      - subject
+      - formula.status_icon
+      - status
+      - frequency
+    groupBy:
+      property: subject
+      direction: ASC
+
+  - type: table
+    name: "All Past Papers"
+    filters:
+      and:
+        - 'type == "exam-paper"'
+    order:
+      - file.name
+      - subject
+      - formula.status_icon
+      - status
+      - paper_date
+      - formula.marks_label
+    groupBy:
+      property: subject
+      direction: ASC
+
+  - type: table
+    name: "Not Started Yet"
+    filters:
+      and:
+        - 'status == "not-started"'
+    order:
+      - file.name
+      - subject
+      - type
+    groupBy:
+      property: subject
+      direction: ASC
+
+  - type: table
+    name: "In Progress / Reviewed / Mastered"
+    filters:
+      and:
+        - 'status != "not-started"'
+    order:
+      - file.name
+      - subject
+      - type
+      - formula.status_icon
+      - status
+    groupBy:
+      property: status
+      direction: ASC
+
+  - type: cards
+    name: "Overall Study Board"
+    order:
+      - file.name
+      - subject
+      - formula.status_icon
+      - status
+    groupBy:
+      property: status
+      direction: ASC
