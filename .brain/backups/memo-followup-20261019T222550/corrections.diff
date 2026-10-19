@@ -1,0 +1,443 @@
+--- AttExam10Feb2015P2A before
++++ AttExam10Feb2015P2A after
+@@ -12,9 +12,9 @@
+ source-url: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AdmissionEstate/2015_10-FEBRUARY_PART-2_MEMORANDUM.pdf
+ confidence: medium
+ extraction-reviewed: false
+-text-quality-flags:
+-- replacement_characters
+-- visible_ocr_artifacts
++text-quality-flags: []
++ocr-corrections-date: '2026-10-19'
++character-corrections-reviewed: true
+ ---
+ 
+ ## For future agent
+@@ -25,13 +25,14 @@
+ 
+ > Source: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AdmissionEstate/2015_10-FEBRUARY_PART-2_MEMORANDUM.pdf
+ > Extracted by: Jina AI Reader on 2026-10-19.
++> OCR review: Targeted character corrections checked against original PDF pages 7 on 2026-10-19.
+ > Input SHA-256: 4a79ecd7cdeea3eb4a35dece7c384d7fba1d3f578e376ca0e83a600c62142844
+ 
+ - Matching question: [[Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2015P2Q]].
+ - Original answer PDF: [[Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2015P2A.pdf]].
+ - Pairing and remaining gaps: [[notes/Board Exam Memo Coverage]].
+ - Project: [[projects/Board Exam Archive]].
+-- Text review: replacement_characters, visible_ocr_artifacts.
++- Text review: flagged characters corrected against rendered source pages; full transcription has not been proofread.
+ 
+ ## Extracted guideline answers
+ 
+@@ -143,7 +144,7 @@
+ 
+ # ------------------------
+ 
+-6QUESTION 2 JOINT WILL We, the undersigned, HECTOR DAWOOD Identity Number: 570812 5016 08 8 and DORCAS DAWOOD Identity Number: 601019 0017 08 8[1] (25] spouses married in community of property and presently residing in Boksburg, Gauteng Province, hereby make our Will as follows: 1. REVOCATION OF PRE VIOUS WILLS We revoke all our previous Wills, codicils and testamentary writings made either jointly or individually, and declare this to be our last Will. [2] 2. APPOINTMENT OF EXECUTOR 2.1 We appoint the survivor of us as the executor of our estate, with the power of assumption [1]. If we die simultaneously or should the survivor for any reason be unable or refuse to accept the appointment, we appoint Snow Fall, a director of the legal firm Snowing Incorporated of Boksburg as the executor of our estate, with the power of assumption. [1] 2.2 Any executor appointed in terms of our Will shall be exempt from furnishing security to the Master of the High Court. [1] Johanna Kgopa ---�11 C of Oaths TESTATRIX [1] Jack Frost [1] on behalf of and by the direction of the testator Hector [11 
++6QUESTION 2 JOINT WILL We, the undersigned, HECTOR DAWOOD Identity Number: 570812 5016 08 8 and DORCAS DAWOOD Identity Number: 601019 0017 08 8[1] (25] spouses married in community of property and presently residing in Boksburg, Gauteng Province, hereby make our Will as follows: 1. REVOCATION OF PRE VIOUS WILLS We revoke all our previous Wills, codicils and testamentary writings made either jointly or individually, and declare this to be our last Will. [2] 2. APPOINTMENT OF EXECUTOR 2.1 We appoint the survivor of us as the executor of our estate, with the power of assumption [1]. If we die simultaneously or should the survivor for any reason be unable or refuse to accept the appointment, we appoint Snow Fall, a director of the legal firm Snowing Incorporated of Boksburg as the executor of our estate, with the power of assumption. [1] 2.2 Any executor appointed in terms of our Will shall be exempt from furnishing security to the Master of the High Court. [1] Johanna Kgopa ____ [1] C of Oaths TESTATRIX [1] Jack Frost [1] on behalf of and by the direction of the testator Hector [1] 
+ 
+ Legal Education and Development {L.E.A.DJTM 73. MASSING OF ESTATES AND BENEFICIARIES 3.1 We direct that on the death of the first dying of us, our separate estates shall be massed and consolidated into a single estate [1], which we bequeath to our aforesaid son Steve [1] subject to a usufruct for life in favour of the survivor of us 
+ 
+--- AttExam18Aug2015P1A before
++++ AttExam18Aug2015P1A after
+@@ -12,9 +12,9 @@
+ source-url: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/CourtProcedures/2015_18-AUGUST_PART-1_MEMORANDUM.pdf
+ confidence: medium
+ extraction-reviewed: false
+-text-quality-flags:
+-- replacement_characters
+-- visible_ocr_artifacts
++text-quality-flags: []
++ocr-corrections-date: '2026-10-19'
++character-corrections-reviewed: true
+ ---
+ 
+ ## For future agent
+@@ -25,13 +25,14 @@
+ 
+ > Source: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/CourtProcedures/2015_18-AUGUST_PART-1_MEMORANDUM.pdf
+ > Extracted by: Jina AI Reader on 2026-10-19.
++> OCR review: Targeted character corrections checked against original PDF pages 1 on 2026-10-19.
+ > Input SHA-256: 7a6152af7dc3f5fe955e4d9196147a6cbd7f7b619601695d35aa7be477ba1e02
+ 
+ - Matching question: [[Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Aug2015P1Q]].
+ - Original answer PDF: [[Attorneys Exam/Official Memoranda 2015-2021/AttExam18Aug2015P1A.pdf]].
+ - Pairing and remaining gaps: [[notes/Board Exam Memo Coverage]].
+ - Project: [[projects/Board Exam Archive]].
+-- Text review: replacement_characters, visible_ocr_artifacts.
++- Text review: flagged characters corrected against rendered source pages; full transcription has not been proofread.
+ 
+ ## Extracted guideline answers
+ 
+@@ -45,7 +46,7 @@
+ 
+ (½) (½) 1.7 No. You are entitled to recover past medical expenses from the RAF whether or not these have been paid by a medical aid scheme as such payments are insurance payments and are considered collateral benefits that do not fall to be deducted by 
+ 
+-# ��- 00 
++ 
+ 
+ ## LEGAL EDUCATION AND DEVELOPMENT [L.E.A.DJ© I1.8 Yes. The psychological seque/ae of a physical bodily injury suffered by a primary victim (person actually involved and physically injured) are deemed to be bodily injuries that are NOT excluded by the Act. (2) 
+ 
+--- AttExam19Aug2015P4A before
++++ AttExam19Aug2015P4A after
+@@ -12,9 +12,9 @@
+ source-url: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/LegalPractitionersBookkeeping/2015_19-AUGUST_PART-4_MEMORANDUM.pdf
+ confidence: medium
+ extraction-reviewed: false
+-text-quality-flags:
+-- replacement_characters
+-- visible_ocr_artifacts
++text-quality-flags: []
++ocr-corrections-date: '2026-10-19'
++character-corrections-reviewed: true
+ ---
+ 
+ ## For future agent
+@@ -25,13 +25,14 @@
+ 
+ > Source: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/LegalPractitionersBookkeeping/2015_19-AUGUST_PART-4_MEMORANDUM.pdf
+ > Extracted by: Jina AI Reader on 2026-10-19.
++> OCR review: Targeted character corrections checked against original PDF pages 3 on 2026-10-19.
+ > Input SHA-256: c2ad9bd36b0189319c351c0d1d0e82ff28d2154c99111bf0b2adb0079a469d8d
+ 
+ - Matching question: [[Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Aug2015P4Q]].
+ - Original answer PDF: [[Attorneys Exam/Official Memoranda 2015-2021/AttExam19Aug2015P4A.pdf]].
+ - Pairing and remaining gaps: [[notes/Board Exam Memo Coverage]].
+ - Project: [[projects/Board Exam Archive]].
+-- Text review: replacement_characters, visible_ocr_artifacts.
++- Text review: flagged characters corrected against rendered source pages; full transcription has not been proofread.
+ 
+ ## Extracted guideline answers
+ 
+@@ -81,7 +82,7 @@
+ 
+ > 3
+ 
+-LEGAL EDUCATION AND DEVELOPMENT [L.E.A.DJ� QUESTION 3 (30] 
++LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D] (C) QUESTION 3 (30] 
+ 
+ 3.1 Debit Trust Cash Book and (Credit Correspondent in the Trust Ledger Account) TRUST CASH BOOK Correspondent 7 500 I3.2 Trust Journal White Correspondent Vat Dr Cr Cr 1140 1000 140 Being Fees charged by Correspondent on collection matter 3.3 3.4 3.5 3.6 3.7 Business Journal/Fee Journal Correspondent Dr 228 
+ 
+--- AttExam10Feb2016P3A before
++++ AttExam10Feb2016P3A after
+@@ -12,9 +12,9 @@
+ source-url: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AttorneysPractice/2016_10-FEBRUARY_PART-3_MEMORANDUM.pdf
+ confidence: medium
+ extraction-reviewed: false
+-text-quality-flags:
+-- replacement_characters
+-- visible_ocr_artifacts
++text-quality-flags: []
++ocr-corrections-date: '2026-10-19'
++character-corrections-reviewed: true
+ ---
+ 
+ ## For future agent
+@@ -25,13 +25,14 @@
+ 
+ > Source: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AttorneysPractice/2016_10-FEBRUARY_PART-3_MEMORANDUM.pdf
+ > Extracted by: Jina AI Reader on 2026-10-19.
++> OCR review: Targeted character corrections checked against original PDF pages 5 on 2026-10-19.
+ > Input SHA-256: 63f5db10b54ca3c55dc576edc870f11f049e326bea85df7e3c046cf52f4a3841
+ 
+ - Matching question: [[Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2016P3Q]].
+ - Original answer PDF: [[Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2016P3A.pdf]].
+ - Pairing and remaining gaps: [[notes/Board Exam Memo Coverage]].
+ - Project: [[projects/Board Exam Archive]].
+-- Text review: replacement_characters, visible_ocr_artifacts.
++- Text review: flagged characters corrected against rendered source pages; full transcription has not been proofread.
+ 
+ ## Extracted guideline answers
+ 
+@@ -79,7 +80,7 @@
+ 
+ 7 .1 Firstly consult the relevant authorities, then consult with a senior colleague and finally ask your Law Society. (2) 7.2 You will not be allowed to practise or to charge fees. (2) 7.3 The fund was established to reimburse members of the public who suffer financial loss due to the theft by an attorney, his employee or candidate of money or property entrusted to that attorney. (2) 7.4 It will ensure that the wishes of the deceased are known that the administration of the estate takes place speedily and that disputes are avoided. (2) 7.5 A practitioner: 7.5.1 May not share fees with CA. 7.5.2 May pay C.A commission on fees generated. 7.5.3 May not share fees with counsel. 
+ 
+-LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D}1'� 
++LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D] (TM) 
+ 
+ (1) (1) (1) 
+ 
+--- AttExam14Feb2017P2A before
++++ AttExam14Feb2017P2A after
+@@ -12,9 +12,9 @@
+ source-url: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AdmissionEstate/2017_14-FEBRUARY_PART-2_MEMORANDUM.pdf
+ confidence: medium
+ extraction-reviewed: false
+-text-quality-flags:
+-- replacement_characters
+-- visible_ocr_artifacts
++text-quality-flags: []
++ocr-corrections-date: '2026-10-19'
++character-corrections-reviewed: true
+ ---
+ 
+ ## For future agent
+@@ -25,13 +25,14 @@
+ 
+ > Source: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AdmissionEstate/2017_14-FEBRUARY_PART-2_MEMORANDUM.pdf
+ > Extracted by: Jina AI Reader on 2026-10-19.
++> OCR review: Targeted character corrections checked against original PDF pages 5 on 2026-10-19.
+ > Input SHA-256: f160527ced92e26871d798bd02e85b70ed1293795b81dd7d749d7e725edf2cee
+ 
+ - Matching question: [[Attorneys Exam/Official Previous Papers 2015-2023/AttExam14Feb2017P2Q]].
+ - Original answer PDF: [[Attorneys Exam/Official Memoranda 2015-2021/AttExam14Feb2017P2A.pdf]].
+ - Pairing and remaining gaps: [[notes/Board Exam Memo Coverage]].
+ - Project: [[projects/Board Exam Archive]].
+-- Text review: replacement_characters, visible_ocr_artifacts.
++- Text review: flagged characters corrected against rendered source pages; full transcription has not been proofread.
+ 
+ ## Extracted guideline answers
+ 
+@@ -107,7 +108,7 @@
+ 
+ LEGAL EDUCATION AND DEVELOPMENT /L.E.A.DF' 1 5
+ 
+-# ---------- ---�----- -I hereby revoke all wills previously made by me. [2] 
++I hereby revoke all wills previously made by me. [2] 
+ 
+ 2
+ 
+--- AttExam22Aug2017P1A before
++++ AttExam22Aug2017P1A after
+@@ -12,9 +12,9 @@
+ source-url: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/CourtProcedures/2017_22-AUGUST_PART-1_MEMORANDUM.pdf
+ confidence: medium
+ extraction-reviewed: false
+-text-quality-flags:
+-- replacement_characters
+-- visible_ocr_artifacts
++text-quality-flags: []
++ocr-corrections-date: '2026-10-19'
++character-corrections-reviewed: true
+ ---
+ 
+ ## For future agent
+@@ -25,13 +25,14 @@
+ 
+ > Source: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/CourtProcedures/2017_22-AUGUST_PART-1_MEMORANDUM.pdf
+ > Extracted by: Jina AI Reader on 2026-10-19.
++> OCR review: Targeted character corrections checked against original PDF pages 2, 6 on 2026-10-19.
+ > Input SHA-256: 669355bf8a9212801b5f938391639a4a8ecfeba2d78585aefb24cae352e5945a
+ 
+ - Matching question: [[Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2017P1Q]].
+ - Original answer PDF: [[Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2017P1A.pdf]].
+ - Pairing and remaining gaps: [[notes/Board Exam Memo Coverage]].
+ - Project: [[projects/Board Exam Archive]].
+-- Text review: replacement_characters, visible_ocr_artifacts.
++- Text review: flagged characters corrected against rendered source pages; full transcription has not been proofread.
+ 
+ ## Extracted guideline answers
+ 
+@@ -85,7 +86,7 @@
+ 
+ Note to examiner: candidates who do not set out details of the section number and description of the Act, should not be penalised. 
+ 
+-5. On (date) (½) at (Johannesburg) (½) defendant, acting personally, orally (½) gave plaintiff, acting personally, a mandate (½) to find a purchaser for defendant's fixed property, situated at 12 Rivonia Road, Johannesburg, Gauteng (½) at a selling price of at least R10 million �nd(�- �
++5. On (date) (½) at (Johannesburg) (½) defendant, acting personally, orally (½) gave plaintiff, acting personally, a mandate (½) to find a purchaser for defendant's fixed property, situated at 12 Rivonia Road, Johannesburg, Gauteng (½) at a selling price of at least R10 million Rand (½). (3)
+ 
+ # LEGAL EDUCATION AND DEVELOPMENT [L.E.A.DjfM 26. Plaintiff orally accepted the said mandate. (½) 
+ 
+@@ -165,7 +166,7 @@
+ 
+ 12.4 Copies of the record and Power of Attorney. (2) 
+ 
+-# LEGAL EDUCATION AND DEVELOP�fENT [L.E.A.DJ™ 6QUESTION 13 [71 
++# LEGAL EDUCATION AND DEVELOPMENT [L.E.A.DJ™ 6QUESTION 13 [71 
+ 
+ Whereas the Plaintiff instituted action against the Defendant for payment of the sum of R240 000,00 plus interest and costs. And whereas the parties have settled the matter. Therefore it is agreed: 
+ 
+--- AttExam23Aug2017P4A before
++++ AttExam23Aug2017P4A after
+@@ -12,9 +12,9 @@
+ source-url: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/LegalPractitionersBookkeeping/2017_23-AUGUST_PART-4_MEMORANDUM.pdf
+ confidence: medium
+ extraction-reviewed: false
+-text-quality-flags:
+-- replacement_characters
+-- visible_ocr_artifacts
++text-quality-flags: []
++ocr-corrections-date: '2026-10-19'
++character-corrections-reviewed: true
+ ---
+ 
+ ## For future agent
+@@ -25,13 +25,14 @@
+ 
+ > Source: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/LegalPractitionersBookkeeping/2017_23-AUGUST_PART-4_MEMORANDUM.pdf
+ > Extracted by: Jina AI Reader on 2026-10-19.
++> OCR review: Targeted character corrections checked against original PDF pages 1 on 2026-10-19.
+ > Input SHA-256: e1990a3195f0ccc75e6515d064e41b065a5490edb76d33f645054dc83c1364d0
+ 
+ - Matching question: [[Attorneys Exam/Official Previous Papers 2015-2023/AttExam23Aug2017P4Q]].
+ - Original answer PDF: [[Attorneys Exam/Official Memoranda 2015-2021/AttExam23Aug2017P4A.pdf]].
+ - Pairing and remaining gaps: [[notes/Board Exam Memo Coverage]].
+ - Project: [[projects/Board Exam Archive]].
+-- Text review: replacement_characters, visible_ocr_artifacts.
++- Text review: flagged characters corrected against rendered source pages; full transcription has not been proofread.
+ 
+ ## Extracted guideline answers
+ 
+@@ -39,7 +40,7 @@
+ 
+ PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. 
+ 
+-NOTE TO EXAMINER: This guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner shoul� apply his discretion in marking the answer. 
++NOTE TO EXAMINER: This guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner should apply his discretion in marking the answer. 
+ 
+ QUESTION 1 (151 1.1 
+ 
+--- AttExam15Oct2018P2A before
++++ AttExam15Oct2018P2A after
+@@ -12,9 +12,9 @@
+ source-url: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AdmissionEstate/2018_15-OCTOBER_PART-2_MEMORANDUM.pdf
+ confidence: medium
+ extraction-reviewed: false
+-text-quality-flags:
+-- replacement_characters
+-- visible_ocr_artifacts
++text-quality-flags: []
++ocr-corrections-date: '2026-10-19'
++character-corrections-reviewed: true
+ ---
+ 
+ ## For future agent
+@@ -25,13 +25,14 @@
+ 
+ > Source: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AdmissionEstate/2018_15-OCTOBER_PART-2_MEMORANDUM.pdf
+ > Extracted by: Jina AI Reader on 2026-10-19.
++> OCR review: Targeted character corrections checked against original PDF pages 2 on 2026-10-19.
+ > Input SHA-256: 47d02303818feaee09b2e67d2b535545e8c18fdc4d4cb6bdf8bbba30e9656c64
+ 
+ - Matching question: [[Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Oct2018P2Q]].
+ - Original answer PDF: [[Attorneys Exam/Official Memoranda 2015-2021/AttExam15Oct2018P2A.pdf]].
+ - Pairing and remaining gaps: [[notes/Board Exam Memo Coverage]].
+ - Project: [[projects/Board Exam Archive]].
+-- Text review: replacement_characters, visible_ocr_artifacts.
++- Text review: flagged characters corrected against rendered source pages; full transcription has not been proofread.
+ 
+ ## Extracted guideline answers
+ 
+@@ -95,13 +96,13 @@
+ 
+ 115 500.00(1) 7 600.00 (1) 9 500.00 (1) 15 340.00 (1) 7 300.00 (1) 8 000.00 (1) 6 000.00 (1) 260.00 (1) 18 400.00 (1) 200 000.00 (1) 105 000.00 (1) 500 000.00 0.00 2 800 000.00 
+ 
+-## � �0Q 0QQ.0Q 
++## 3 300 000.00 
+ 
+ 1 436 950.00 (1) 500 000.00 (1) 
+ 
+ NIL NIL 936 950.00 
+ 
+-# l 43§ ��Q.QQ (1) 1 4�� 9;i0.0Q 2Distribution Account Balance for distribution Awarded to: Vanessa Naidoo, major surviving spouse of the   
++# 1 436 950.00 (1) 1 436 950.00 2Distribution Account Balance for distribution Awarded to: Vanessa Naidoo, major surviving spouse of the   
+ 
+ > deceased Ias sole heir i.t.o section 1 (1) (a) of the
+ 
+--- AttExam7Mar2019P3A before
++++ AttExam7Mar2019P3A after
+@@ -12,9 +12,9 @@
+ source-url: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AttorneysPractice/2019_7-MARCH_PART-3_MEMORANDUM.pdf
+ confidence: medium
+ extraction-reviewed: false
+-text-quality-flags:
+-- replacement_characters
+-- visible_ocr_artifacts
++text-quality-flags: []
++ocr-corrections-date: '2026-10-19'
++character-corrections-reviewed: true
+ ---
+ 
+ ## For future agent
+@@ -25,13 +25,14 @@
+ 
+ > Source: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AttorneysPractice/2019_7-MARCH_PART-3_MEMORANDUM.pdf
+ > Extracted by: Jina AI Reader on 2026-10-19.
++> OCR review: Targeted character corrections checked against original PDF pages 1 on 2026-10-19.
+ > Input SHA-256: 8be7feafd24217cebfaca740d79806ccd866df4d86ae66c74dbbb6527516634d
+ 
+ - Matching question: [[Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Mar2019P3Q]].
+ - Original answer PDF: [[Attorneys Exam/Official Memoranda 2015-2021/AttExam7Mar2019P3A.pdf]].
+ - Pairing and remaining gaps: [[notes/Board Exam Memo Coverage]].
+ - Project: [[projects/Board Exam Archive]].
+-- Text review: replacement_characters, visible_ocr_artifacts.
++- Text review: flagged characters corrected against rendered source pages; full transcription has not been proofread.
+ 
+ ## Extracted guideline answers
+ 
+@@ -51,7 +52,7 @@
+ 
+ 2.3 Within 3(three) months after the date on which the company was incorporated, the board of directors of the company must ratify the pre-incorporation contract. 
+ 
+-LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D�'-' 1If the board of directors has neither ratified nor rejected the agreement within (3) three months from date of incorporation, the company will be regarded as having ratified the agreement. (3) 
++LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D] (TM) 1If the board of directors has neither ratified nor rejected the agreement within (3) three months from date of incorporation, the company will be regarded as having ratified the agreement. (3) 
+ 
+ 2.4 SPECIAL POWER OF ATTORNEY 
+ 
+--- AttExam21Aug2019P2A before
++++ AttExam21Aug2019P2A after
+@@ -12,9 +12,9 @@
+ source-url: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AdmissionEstate/2019_21-AUGUST_PART-2_MEMORANDUM.pdf
+ confidence: medium
+ extraction-reviewed: false
+-text-quality-flags:
+-- replacement_characters
+-- visible_ocr_artifacts
++text-quality-flags: []
++ocr-corrections-date: '2026-10-19'
++character-corrections-reviewed: true
+ ---
+ 
+ ## For future agent
+@@ -25,13 +25,14 @@
+ 
+ > Source: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AdmissionEstate/2019_21-AUGUST_PART-2_MEMORANDUM.pdf
+ > Extracted by: Jina AI Reader on 2026-10-19.
++> OCR review: Targeted character corrections checked against original PDF pages 1, 2, 3, 4 on 2026-10-19.
+ > Input SHA-256: 8d4deeaf7c7db1acf14977196a7bba47726021298aa4bf3197074c5e96e5bfc5
+ 
+ - Matching question: [[Attorneys Exam/Official Previous Papers 2015-2023/AttExam21Aug2019P2Q]].
+ - Original answer PDF: [[Attorneys Exam/Official Memoranda 2015-2021/AttExam21Aug2019P2A.pdf]].
+ - Pairing and remaining gaps: [[notes/Board Exam Memo Coverage]].
+ - Project: [[projects/Board Exam Archive]].
+-- Text review: replacement_characters, visible_ocr_artifacts.
++- Text review: flagged characters corrected against rendered source pages; full transcription has not been proofread.
+ 
+ ## Extracted guideline answers
+ 
+@@ -39,7 +40,7 @@
+ 
+ QUESTION 1 (601 
+ 
+-The First and Final Liquidation and Distribution Account in the estate of the late Sam Dube (Identity Number 520915 5638 08 3) (1) who died on 30 June 2018 (1) and who was married according to customary law, out of community of property without accrual (1). Master's reference number: 1369/2018. (1) Liquidation account Assets: lmmova�le property 1. The farm NAMBO 755, Brits Registration Division.JO, North-West Province; Measuring 360 hectares; Held by Deed of Transfer T1306/1987. (1) At Valuation 2 100 000.00 (1) (To be transferred to Sarah Dube, major surviving spouse, as sole heir i.t.o. the Will of the deceased) (1) Movable property 2. Farm implements and Livestock At valuation 900 000.00 (1) 3. House-hold furniture and effects At valuation 135 000.00 (1) (Items 2 and 3 to be awarded to Sarah Dube, major surviving spouse, as sole heir i.t.o. the Will of the deceased) (1) Cash & Assets Reduced to Cash 4. 100% Shares in VIC (Pty) Ltd Sold for 5. Absa Bank - Savings account No. 4050635667 
++The First and Final Liquidation and Distribution Account in the estate of the late Sam Dube (Identity Number 520915 5638 08 3) (1) who died on 30 June 2018 (1) and who was married according to customary law, out of community of property without accrual (1). Master's reference number: 1369/2018. (1) Liquidation account Assets: Immovable property 1. The farm NAMBO 755, Brits Registration Division.JO, North-West Province; Measuring 360 hectares; Held by Deed of Transfer T1306/1987. (1) At Valuation 2 100 000.00 (1) (To be transferred to Sarah Dube, major surviving spouse, as sole heir i.t.o. the Will of the deceased) (1) Movable property 2. Farm implements and Livestock At valuation 900 000.00 (1) 3. House-hold furniture and effects At valuation 135 000.00 (1) (Items 2 and 3 to be awarded to Sarah Dube, major surviving spouse, as sole heir i.t.o. the Will of the deceased) (1) Cash & Assets Reduced to Cash 4. 100% Shares in VIC (Pty) Ltd Sold for 5. Absa Bank - Savings account No. 4050635667 
+ 
+ LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D/™ 
+ 
+@@ -47,7 +48,7 @@
+ 
+ > 1
+ 
+-6. A 2015 Toyota Corolla motor vehicle with Registration number BYP 805 GP Sold for 100 000.00 (1) 7. Sanlam Insurance Policy No.175345X9 Proceeds of Policy 950 000.00 (1) 8. JSE quoted Shares Sold by Stockbrokers 76 000.00 (1) Total Assets � ��6 QQQ.QQ Liabilities: Administration Costs 1. Advertising for Debtors and Creditors (1) Government Gazette 37.82 Pretoria News 312.18 2. Advertising Account for insQection (1) Government Gazette 37.82 Pretoria News 312.18 3. Master's fees (maximum) 7 000.00 (1) 4. Executor's fees at 3.5% on R5 536 000.00 193 760.00 (1) 5. 15% VAT on R193 760.00 29 064.00 (1) 6. Bank charges to date (1) 6 000.00 7. Provision for further Bank charges (1) 4 500.00 8. Postages and petties 260.00 (1) 9. JPS Brokers fees for selling JSE shares 7 600.00 (1) 10. P Smith - Valuation costs: farm & movable 6 500.00 property (1) 11. D Chivers Attorneys- Conveyancer's Fees 20 000.00 and bond cancellation costs (1) Claims against the estate 12. Deep-Slumber - funeral expenses (1) 27 616.00 13. Sanlam Insurance Co for loan on Policy 25 000.00 (1) No.126395X8 14. Land bank - outstanding amount on farm 208 000.00 (1) Total Liabilities 536 000.00   
++6. A 2015 Toyota Corolla motor vehicle with Registration number BYP 805 GP Sold for 100 000.00 (1) 7. Sanlam Insurance Policy No.175345X9 Proceeds of Policy 950 000.00 (1) 8. JSE quoted Shares Sold by Stockbrokers 76 000.00 (1) Total Assets 5 536 000.00 Liabilities: Administration Costs 1. Advertising for Debtors and Creditors (1) Government Gazette 37.82 Pretoria News 312.18 2. Advertising Account for insQection (1) Government Gazette 37.82 Pretoria News 312.18 3. Master's fees (maximum) 7 000.00 (1) 4. Executor's fees at 3.5% on R5 536 000.00 193 760.00 (1) 5. 15% VAT on R193 760.00 29 064.00 (1) 6. Bank charges to date (1) 6 000.00 7. Provision for further Bank charges (1) 4 500.00 8. Postages and petties 260.00 (1) 9. JPS Brokers fees for selling JSE shares 7 600.00 (1) 10. P Smith - Valuation costs: farm & movable 6 500.00 property (1) 11. D Chivers Attorneys- Conveyancer's Fees 20 000.00 and bond cancellation costs (1) Claims against the estate 12. Deep-Slumber - funeral expenses (1) 27 616.00 13. Sanlam Insurance Co for loan on Policy 25 000.00 (1) No.126395X8 14. Land bank - outstanding amount on farm 208 000.00 (1) Total Liabilities 536 000.00   
+ 
+ > UW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.DffM 2
+ 
+@@ -61,7 +62,7 @@
+ 
+ Nil 5 000 000.00 
+ 
+-## 5 �36 QQQ.QQ 
++## 5 536 000.00 
+ 
+ 536 000.00 NIL NIL 1 865 000.00 
+ 
+@@ -75,7 +76,7 @@
+ 
+ Assets as per liquidation account Less : Sanlam Insurance Policy payable to estate Less: Difference in value of private shares Less: 30% on Farming property ProQerty Deemed to be ProQerty Add: Sanlam Insurance Policy payable to estate Old Mutual Insurance Policy Liberty Life Insurance Policy  
+ 
+-> �
++Less:
+ 
+ Premiums plus 6% p.a compounded interest thereon Gross value of the estate Deductions - Sect 4 Costs of Administration and claims Inheritance to Sarah Dube- Sect 4(q) Old Mutual policy to Jane Dube - Sect 4(q) Net value of the estate Less: Primary Rebate - Sect 4A Dutiable Amount Estate Duty at 20% on R0.00 
+ 

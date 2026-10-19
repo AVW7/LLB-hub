@@ -12,9 +12,9 @@ paper-number: 3
 source-url: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AttorneysPractice/2019_7-MARCH_PART-3_MEMORANDUM.pdf
 confidence: medium
 extraction-reviewed: false
-text-quality-flags:
-- replacement_characters
-- visible_ocr_artifacts
+text-quality-flags: []
+ocr-corrections-date: '2026-10-19'
+character-corrections-reviewed: true
 ---
 
 ## For future agent
@@ -25,13 +25,14 @@ Official guideline model answers for Paper 3, 2019-03-07, recovered on 2026-10-1
 
 > Source: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AttorneysPractice/2019_7-MARCH_PART-3_MEMORANDUM.pdf
 > Extracted by: Jina AI Reader on 2026-10-19.
+> OCR review: Targeted character corrections checked against original PDF pages 1 on 2026-10-19.
 > Input SHA-256: 8be7feafd24217cebfaca740d79806ccd866df4d86ae66c74dbbb6527516634d
 
 - Matching question: [[Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Mar2019P3Q]].
 - Original answer PDF: [[Attorneys Exam/Official Memoranda 2015-2021/AttExam7Mar2019P3A.pdf]].
 - Pairing and remaining gaps: [[notes/Board Exam Memo Coverage]].
 - Project: [[projects/Board Exam Archive]].
-- Text review: replacement_characters, visible_ocr_artifacts.
+- Text review: flagged characters corrected against rendered source pages; full transcription has not been proofread.
 
 ## Extracted guideline answers
 
@@ -51,7 +52,7 @@ MARCHIMAART 2019 ANSWERSIANTWOORDE PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PRE
 
 2.3 Within 3(three) months after the date on which the company was incorporated, the board of directors of the company must ratify the pre-incorporation contract. 
 
-LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D�'-' 1If the board of directors has neither ratified nor rejected the agreement within (3) three months from date of incorporation, the company will be regarded as having ratified the agreement. (3) 
+LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D] (TM) 1If the board of directors has neither ratified nor rejected the agreement within (3) three months from date of incorporation, the company will be regarded as having ratified the agreement. (3) 
 
 2.4 SPECIAL POWER OF ATTORNEY 
 

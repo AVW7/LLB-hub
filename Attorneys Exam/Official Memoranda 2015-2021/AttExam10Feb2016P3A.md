@@ -12,9 +12,9 @@ paper-number: 3
 source-url: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AttorneysPractice/2016_10-FEBRUARY_PART-3_MEMORANDUM.pdf
 confidence: medium
 extraction-reviewed: false
-text-quality-flags:
-- replacement_characters
-- visible_ocr_artifacts
+text-quality-flags: []
+ocr-corrections-date: '2026-10-19'
+character-corrections-reviewed: true
 ---
 
 ## For future agent
@@ -25,13 +25,14 @@ Official guideline model answers for Paper 3, 2016-02-10, recovered on 2026-10-1
 
 > Source: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AttorneysPractice/2016_10-FEBRUARY_PART-3_MEMORANDUM.pdf
 > Extracted by: Jina AI Reader on 2026-10-19.
+> OCR review: Targeted character corrections checked against original PDF pages 5 on 2026-10-19.
 > Input SHA-256: 63f5db10b54ca3c55dc576edc870f11f049e326bea85df7e3c046cf52f4a3841
 
 - Matching question: [[Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2016P3Q]].
 - Original answer PDF: [[Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2016P3A.pdf]].
 - Pairing and remaining gaps: [[notes/Board Exam Memo Coverage]].
 - Project: [[projects/Board Exam Archive]].
-- Text review: replacement_characters, visible_ocr_artifacts.
+- Text review: flagged characters corrected against rendered source pages; full transcription has not been proofread.
 
 ## Extracted guideline answers
 
@@ -79,7 +80,7 @@ QUESTION 7 [111
 
 7 .1 Firstly consult the relevant authorities, then consult with a senior colleague and finally ask your Law Society. (2) 7.2 You will not be allowed to practise or to charge fees. (2) 7.3 The fund was established to reimburse members of the public who suffer financial loss due to the theft by an attorney, his employee or candidate of money or property entrusted to that attorney. (2) 7.4 It will ensure that the wishes of the deceased are known that the administration of the estate takes place speedily and that disputes are avoided. (2) 7.5 A practitioner: 7.5.1 May not share fees with CA. 7.5.2 May pay C.A commission on fees generated. 7.5.3 May not share fees with counsel. 
 
-LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D}1'� 
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D] (TM) 
 
 (1) (1) (1) 
 

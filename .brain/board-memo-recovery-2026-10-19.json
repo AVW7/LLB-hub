@@ -1421,15 +1421,23 @@
       "native_words": 1756,
       "jina_words": 1743,
       "metrics": {
+        "words": 1876,
+        "characters": 10372,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": [],
+      "before_correction_metrics": {
         "words": 1875,
         "characters": 10367,
         "replacement_characters": 1,
         "artifact_runs": 1,
         "has_end_marker": false
       },
-      "flags": [
-        "replacement_characters",
-        "visible_ocr_artifacts"
+      "correction_date": "2026-10-19",
+      "source_pages_reviewed": [
+        7
       ]
     },
     {
@@ -1466,15 +1474,23 @@
       "native_words": 2221,
       "jina_words": 2224,
       "metrics": {
+        "words": 2260,
+        "characters": 12658,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": [],
+      "before_correction_metrics": {
         "words": 2261,
         "characters": 12663,
         "replacement_characters": 2,
         "artifact_runs": 2,
         "has_end_marker": false
       },
-      "flags": [
-        "replacement_characters",
-        "visible_ocr_artifacts"
+      "correction_date": "2026-10-19",
+      "source_pages_reviewed": [
+        1
       ]
     },
     {
@@ -1511,15 +1527,23 @@
       "native_words": 769,
       "jina_words": 771,
       "metrics": {
+        "words": 796,
+        "characters": 4246,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": [],
+      "before_correction_metrics": {
         "words": 795,
         "characters": 4240,
         "replacement_characters": 1,
         "artifact_runs": 1,
         "has_end_marker": false
       },
-      "flags": [
-        "replacement_characters",
-        "visible_ocr_artifacts"
+      "correction_date": "2026-10-19",
+      "source_pages_reviewed": [
+        3
       ]
     },
     {
@@ -1543,14 +1567,22 @@
       "jina_words": 1717,
       "metrics": {
         "words": 1773,
+        "characters": 10103,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": [],
+      "before_correction_metrics": {
+        "words": 1773,
         "characters": 10098,
         "replacement_characters": 1,
         "artifact_runs": 1,
         "has_end_marker": false
       },
-      "flags": [
-        "replacement_characters",
-        "visible_ocr_artifacts"
+      "correction_date": "2026-10-19",
+      "source_pages_reviewed": [
+        5
       ]
     },
     {
@@ -1602,14 +1634,22 @@
       "jina_words": 1337,
       "metrics": {
         "words": 1468,
+        "characters": 7936,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": [],
+      "before_correction_metrics": {
+        "words": 1468,
         "characters": 7957,
         "replacement_characters": 1,
         "artifact_runs": 1,
         "has_end_marker": false
       },
-      "flags": [
-        "replacement_characters",
-        "visible_ocr_artifacts"
+      "correction_date": "2026-10-19",
+      "source_pages_reviewed": [
+        5
       ]
     },
     {
@@ -1632,15 +1672,24 @@
       "native_words": 2318,
       "jina_words": 2331,
       "metrics": {
+        "words": 2381,
+        "characters": 13537,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": [],
+      "before_correction_metrics": {
         "words": 2380,
         "characters": 13530,
         "replacement_characters": 4,
         "artifact_runs": 4,
         "has_end_marker": false
       },
-      "flags": [
-        "replacement_characters",
-        "visible_ocr_artifacts"
+      "correction_date": "2026-10-19",
+      "source_pages_reviewed": [
+        2,
+        6
       ]
     },
     {
@@ -1678,14 +1727,22 @@
       "jina_words": 830,
       "metrics": {
         "words": 848,
+        "characters": 4656,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": [],
+      "before_correction_metrics": {
+        "words": 848,
         "characters": 4653,
         "replacement_characters": 1,
         "artifact_runs": 1,
         "has_end_marker": false
       },
-      "flags": [
-        "replacement_characters",
-        "visible_ocr_artifacts"
+      "correction_date": "2026-10-19",
+      "source_pages_reviewed": [
+        1
       ]
     },
     {
@@ -1765,14 +1822,22 @@
       "jina_words": 1628,
       "metrics": {
         "words": 1727,
+        "characters": 9649,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": [],
+      "before_correction_metrics": {
+        "words": 1727,
         "characters": 9647,
         "replacement_characters": 6,
         "artifact_runs": 6,
         "has_end_marker": false
       },
-      "flags": [
-        "replacement_characters",
-        "visible_ocr_artifacts"
+      "correction_date": "2026-10-19",
+      "source_pages_reviewed": [
+        2
       ]
     },
     {
@@ -1823,15 +1888,23 @@
       "native_words": 1623,
       "jina_words": 1617,
       "metrics": {
+        "words": 1673,
+        "characters": 9643,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": true
+      },
+      "flags": [],
+      "before_correction_metrics": {
         "words": 1672,
         "characters": 9638,
         "replacement_characters": 1,
         "artifact_runs": 1,
         "has_end_marker": true
       },
-      "flags": [
-        "replacement_characters",
-        "visible_ocr_artifacts"
+      "correction_date": "2026-10-19",
+      "source_pages_reviewed": [
+        1
       ]
     },
     {
@@ -1868,15 +1941,26 @@
       "native_words": 1603,
       "jina_words": 1606,
       "metrics": {
+        "words": 1700,
+        "characters": 9283,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": [],
+      "before_correction_metrics": {
         "words": 1699,
         "characters": 9278,
         "replacement_characters": 6,
         "artifact_runs": 6,
         "has_end_marker": false
       },
-      "flags": [
-        "replacement_characters",
-        "visible_ocr_artifacts"
+      "correction_date": "2026-10-19",
+      "source_pages_reviewed": [
+        1,
+        2,
+        3,
+        4
       ]
     },
     {
@@ -2131,5 +2215,176 @@
       },
       "flags": []
     }
-  ]
+  ],
+  "followup": {
+    "date": "2026-10-19",
+    "official_memos_saved": 50,
+    "official_memos_still_unlocated": 16,
+    "replacement_characters_resolved": 24,
+    "corrected_memos": [
+      {
+        "path": "Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2015P2A.md",
+        "baseline_sha256": "2b095ba4e9da6970fd3eb1f46773f3fb5daa4d2b5c6304ebe8139706229ef15c",
+        "pdf_sha256": "4a79ecd7cdeea3eb4a35dece7c384d7fba1d3f578e376ca0e83a600c62142844",
+        "replacement_characters_resolved": 1,
+        "source_pages": [
+          7
+        ]
+      },
+      {
+        "path": "Attorneys Exam/Official Memoranda 2015-2021/AttExam18Aug2015P1A.md",
+        "baseline_sha256": "c2a66d82ccd62f68be0088e31bc479cab7996adb368dbd825aceb121b3d78b84",
+        "pdf_sha256": "7a6152af7dc3f5fe955e4d9196147a6cbd7f7b619601695d35aa7be477ba1e02",
+        "replacement_characters_resolved": 2,
+        "source_pages": [
+          1
+        ]
+      },
+      {
+        "path": "Attorneys Exam/Official Memoranda 2015-2021/AttExam19Aug2015P4A.md",
+        "baseline_sha256": "cbf5fbb5e1c11302bfa9a9a417dbe8d738939c66b659f96f876e730f767b01a1",
+        "pdf_sha256": "c2ad9bd36b0189319c351c0d1d0e82ff28d2154c99111bf0b2adb0079a469d8d",
+        "replacement_characters_resolved": 1,
+        "source_pages": [
+          3
+        ]
+      },
+      {
+        "path": "Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2016P3A.md",
+        "baseline_sha256": "1ab69c9b2d0eeed0afc3fb959c4adfde6dd824a16ee94a36b6e22e7808888e17",
+        "pdf_sha256": "63f5db10b54ca3c55dc576edc870f11f049e326bea85df7e3c046cf52f4a3841",
+        "replacement_characters_resolved": 1,
+        "source_pages": [
+          5
+        ]
+      },
+      {
+        "path": "Attorneys Exam/Official Memoranda 2015-2021/AttExam14Feb2017P2A.md",
+        "baseline_sha256": "295222521a3ecdba5a15971b6a7dfc8921e83e55a50fd29aedc0567ae814d912",
+        "pdf_sha256": "f160527ced92e26871d798bd02e85b70ed1293795b81dd7d749d7e725edf2cee",
+        "replacement_characters_resolved": 1,
+        "source_pages": [
+          5
+        ]
+      },
+      {
+        "path": "Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2017P1A.md",
+        "baseline_sha256": "60153b08b102d2362f75176598e443d57ac682bf28ffeb2851d8f89ce2844b60",
+        "pdf_sha256": "669355bf8a9212801b5f938391639a4a8ecfeba2d78585aefb24cae352e5945a",
+        "replacement_characters_resolved": 4,
+        "source_pages": [
+          2,
+          6
+        ]
+      },
+      {
+        "path": "Attorneys Exam/Official Memoranda 2015-2021/AttExam23Aug2017P4A.md",
+        "baseline_sha256": "721f482887b9b69f6eedeff23cce84619765892d7bd0259b5a2e8ef198f9526b",
+        "pdf_sha256": "e1990a3195f0ccc75e6515d064e41b065a5490edb76d33f645054dc83c1364d0",
+        "replacement_characters_resolved": 1,
+        "source_pages": [
+          1
+        ]
+      },
+      {
+        "path": "Attorneys Exam/Official Memoranda 2015-2021/AttExam15Oct2018P2A.md",
+        "baseline_sha256": "5d8339c253cda42aac766a65626d04037e2637261f5f2934a588d5b73447d780",
+        "pdf_sha256": "47d02303818feaee09b2e67d2b535545e8c18fdc4d4cb6bdf8bbba30e9656c64",
+        "replacement_characters_resolved": 6,
+        "source_pages": [
+          2
+        ]
+      },
+      {
+        "path": "Attorneys Exam/Official Memoranda 2015-2021/AttExam7Mar2019P3A.md",
+        "baseline_sha256": "43684acfb86014c9261c2f01420f39fbeb14062733069c3b0f7b55865c1b8bc0",
+        "pdf_sha256": "8be7feafd24217cebfaca740d79806ccd866df4d86ae66c74dbbb6527516634d",
+        "replacement_characters_resolved": 1,
+        "source_pages": [
+          1
+        ]
+      },
+      {
+        "path": "Attorneys Exam/Official Memoranda 2015-2021/AttExam21Aug2019P2A.md",
+        "baseline_sha256": "4fb216ae076a905e78c56558df66b33d444b7311af1bb5405782d2608c3544b8",
+        "pdf_sha256": "8d4deeaf7c7db1acf14977196a7bba47726021298aa4bf3197074c5e96e5bfc5",
+        "replacement_characters_resolved": 6,
+        "source_pages": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    ],
+    "publisher_checks": [
+      {
+        "title": "LEAD media catalogue, 2022",
+        "url": "https://www.lssalead.org.za/wp-json/wp/v2/media?search=2022&per_page=100&_fields=source_url%2Ctitle%2Cdate",
+        "records": 33
+      },
+      {
+        "title": "LEAD media catalogue, 2023",
+        "url": "https://www.lssalead.org.za/wp-json/wp/v2/media?search=2023&per_page=100&_fields=source_url%2Ctitle%2Cdate",
+        "records": 38
+      },
+      {
+        "title": "LEAD media catalogue, MEMO",
+        "url": "https://www.lssalead.org.za/wp-json/wp/v2/media?search=MEMO&per_page=100&_fields=source_url%2Ctitle%2Cdate",
+        "records": 73
+      },
+      {
+        "title": "LEAD media catalogue, PART",
+        "url": "https://www.lssalead.org.za/wp-json/wp/v2/media?search=PART&per_page=100&_fields=source_url%2Ctitle%2Cdate",
+        "records": 72
+      },
+      {
+        "title": "LEAD media catalogue, PAPER",
+        "url": "https://www.lssalead.org.za/wp-json/wp/v2/media?search=PAPER&per_page=100&_fields=source_url%2Ctitle%2Cdate",
+        "records": 27
+      },
+      {
+        "title": "LEAD media catalogue, ETHICS",
+        "url": "https://www.lssalead.org.za/wp-json/wp/v2/media?search=ETHICS&per_page=100&_fields=source_url%2Ctitle%2Cdate",
+        "records": 5
+      },
+      {
+        "title": "LPC media catalogue, MEMORANDUM",
+        "url": "https://lpc.org.za/wp-json/wp/v2/media?search=MEMORANDUM&per_page=100&_fields=source_url%2Ctitle%2Cdate",
+        "records": 1
+      }
+    ],
+    "leads": [
+      {
+        "question": "AttExam15Mar2022P2Q",
+        "url": "https://www.studocu.com/en-za/document/university-of-johannesburg/law-of-civil-procedure/part-2-answers-final-002/49135520",
+        "status": "Partial public preview. Date, Paper 2 and John Koen estate facts match the question. Missing portions prevent treating it as a complete memo."
+      },
+      {
+        "question": "AttExam15Mar2023P2Q",
+        "url": "https://www.studocu.com/en-za/document/university-of-south-africa/south-african-law-of-wills-and-estates/admission-examination-estates-memo-part-2-march-2023/144982992",
+        "status": "Preview listing for a six-page memo. The Sarel Botha estate description matches the question; full access requires the provider account. Full text and original PDF were not acquired."
+      },
+      {
+        "question": "AttExam23Aug2023P1Q",
+        "url": "https://www.studocu.com/en-za/document/south-african-law-school/paper-1-board-exam/p1-memorandum-august-2023/117220962",
+        "status": "Search listing only. Retrieval encountered human verification or registration; the document contents could not be verified."
+      },
+      {
+        "question": "AttExam24Aug2023P3Q",
+        "url": "https://www.scribd.com/document/986665878/ETHICS-PAPER-3-MEMO-OPEN-REVISED",
+        "status": "Partial public preview of an eight-page memo. Visible header is 24 August 2023, Paper 3; the first 25-mark fee-negotiation question matches. Full document and original PDF were not acquired."
+      },
+      {
+        "question": "AttExam16Mar2023P4Q",
+        "url": "https://www.studocu.com/en-za/document/university-of-the-witwatersrand-johannesburg/civil-procedure/legal-bookkeeping-part-4-exam-memo-guidelines-16-mar-2023/160852124",
+        "status": "Self-described prepared model guideline with premium access restrictions. It is an unofficial guide and has not been verified as the official marking memo."
+      },
+      {
+        "question": "AttExam16Mar2022P3Q",
+        "url": "https://www.collegesidekick.com/study-docs/16668661",
+        "status": "Search listing lead from the earlier recovery. Full contents and official source remain unverified."
+      }
+    ]
+  }
 }

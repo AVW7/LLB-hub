@@ -1,0 +1,2135 @@
+{
+  "date": "2026-10-19",
+  "scope": 66,
+  "downloaded_memos": 50,
+  "official_memos_not_located": 16,
+  "download_manifest": [
+    {
+      "question": "AttExam10Feb2015P1Q.pdf",
+      "slot": [
+        2015,
+        2,
+        10,
+        1
+      ],
+      "status": "found",
+      "filename": "AttExam10Feb2015P1A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/CourtProcedures/2015_10-FEBRUARY_PART-1_MEMORANDUM.pdf",
+      "pages": 10,
+      "words": 3066,
+      "sha256": "1a1a7ea5345a13b6084ac43b828cb260416e7ad20ed374011969872b2e1e96af",
+      "header": "; ADMISSION EXAMINATION I TOELATINGSEKSAMEN COURT PROCEDURES moFPROSEDURES PART 1 I DEEL 1 10 FEBRUARY I FEBRUARIE 2015 ANSWERSIANTWOORDE PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: T/,is guideline records t/1e views of t/,e drafters. There may be justifiable variatio11s i11 practice whicl, are brought out in tl,e a11swers. Wl,e11 t/1is happens the exami11er should apply /,is discretion i11 marki11g tl,e a11swer. QUESTION 1 [16) 1.1. Yes. Both Mr and Mrs Williams are entitled to compensation from the RAF for their personal injuries as these were caused by/ arose o",
+      "part_labels": [
+        1
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam10Feb2015P2Q.pdf",
+      "slot": [
+        2015,
+        2,
+        10,
+        2
+      ],
+      "status": "found",
+      "filename": "AttExam10Feb2015P2A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AdmissionEstate/2015_10-FEBRUARY_PART-2_MEMORANDUM.pdf",
+      "pages": 10,
+      "words": 1756,
+      "sha256": "4a79ecd7cdeea3eb4a35dece7c384d7fba1d3f578e376ca0e83a600c62142844",
+      "header": "ADMISSION EXAMINATION I TOELATINGSEKSAMEN ESTATES I BOEDELS PART2/DEEL2 10 FEBRUARY I FEBRUARIE 2015 ANSWERS I ANTWOORDE PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: This guideline records tl,e views of tl,e drafters. T/lere may be justifiable variations in practice whicl, are brougl,t out in tl,e answers. When this happens the examiner should apply l1is discretion in marking t/1e a11swer. QUESTION 1 LIQUIDATION ACCOUNT: ASSETS IMMOVABLE PROPERTY AWARDED: ERF 332 GREYTOWN, REGISTRATION DIVISION FT, PROVINCE OF KWAZULU NATAL (1), IN EXTENT 1025 SQUARE METRES (1)",
+      "part_labels": [
+        2
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam11Feb2015P3Q.pdf",
+      "slot": [
+        2015,
+        2,
+        11,
+        3
+      ],
+      "status": "found",
+      "filename": "AttExam11Feb2015P3A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AttorneysPractice/2015_11-FEBRUARY_PART-3_MEMORANDUM.pdf",
+      "pages": 5,
+      "words": 1595,
+      "sha256": "7eba5d182c1bab15cecad3fb29c0531bc941264a5882c3194b36fe52b4ba9142",
+      "header": ". 1 • .. ' - . ADMISSION EXAMINATION I TOELATINGSEKSAMEN ATTORNEYS' PRACTICE I PROKUREURSPRAKTYK PART 3 I DEEL 3 11 FEBRUARY I FEBRUARIE 2015 ANSWERS/ANTWOORDE PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: Tltis guideline records tlle views of tlle drafters. Tllere may be justifiable variations in practice wlticlt are brougllt 0111 in tlte answers. WIien t!,is ltappens Ille examiner sl1ould apply llis discretion in marking tlte answer. QUESTION 1 (141 1.1 The appointment of such a person is normal practice. However the practitioner must supervise the work and r",
+      "part_labels": [
+        3
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam11Feb2015P4Q.pdf",
+      "slot": [
+        2015,
+        2,
+        11,
+        4
+      ],
+      "status": "found",
+      "filename": "AttExam11Feb2015P4A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/LegalPractitionersBookkeeping/2015_11-FEBRUARY_PART-4_MEMORANDUM.pdf",
+      "pages": 4,
+      "words": 829,
+      "sha256": "aa2dc54be9253f9ee5222bdf70562598cf4a8df6bd3515ff3194d5cd6dfaed5a",
+      "header": "ADMISSION EXAMINATION I TOELATINGSEKSAMEN BOOKKEEPING I BOEKHOU PART 4 I DEEL 4 11 FEBRUARY I 11 FEBRUARIE 2015 ANSWERS I ANTWOORDE PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: T/1is guideline records t/1e views of tJ,e drafters. Tl,ere may be justifiable variations i11 practice wl,icl, are bro11gl,t out i11 tl,e answers. WJ,e11 tl,is J,appens tJ,e exami11er sl,ould apply /1is discretio11 in marking tJ,e answer. QUESTION 1 [201 (a) Transfer the amount from Business to Trust Credit Business Cash Book Debit Bank Charges Debit Trust Cash Book Credit Bank charges (b) Tra",
+      "part_labels": [
+        4
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam18Aug2015P1Q.pdf",
+      "slot": [
+        2015,
+        8,
+        18,
+        1
+      ],
+      "status": "found",
+      "filename": "AttExam18Aug2015P1A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/CourtProcedures/2015_18-AUGUST_PART-1_MEMORANDUM.pdf",
+      "pages": 7,
+      "words": 2221,
+      "sha256": "7a6152af7dc3f5fe955e4d9196147a6cbd7f7b619601695d35aa7be477ba1e02",
+      "header": "ADMISSION EXAMINATION I TOELATINGSEKSAMEN COURT PROCEDURES IHOFPROSEDURES PART I /DEEL 1 18 AUGUST I AUGUSTUS 2015 ANSWERS I ANTWOORDE PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS .MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: Tliis guideline records tl,e views of the drafters. There may be justifiable variatiom in practice which are brought out in the amwers. Wlten this happens the examiner sliould apply ltis discretion in marking the answer. QUESTION 1 [151 1.1 On or before 14 April 2015. 1.2 Within 3 years after Andile attains majority (turns 18 years old). (1) (1) 1.3 Yes - as he incurred these expense",
+      "part_labels": [
+        1
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam18Aug2015P2Q.pdf",
+      "slot": [
+        2015,
+        8,
+        18,
+        2
+      ],
+      "status": "found",
+      "filename": "AttExam18Aug2015P2A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AdmissionEstate/2015_18-AUGUST_PART-2_MEMORANDUM.pdf",
+      "pages": 9,
+      "words": 1372,
+      "sha256": "cc2177938602ca338cae81023f90f885e5d359c4c8f233f9e3efcc3ec51b860f",
+      "header": "ADMISSION EXAMINATION I TOELATINGSEKSAMEN ESTATES I BOEDELS PART2/DEEL2 18 AUGUST I AUGUSTUS 2015 ANSWERS I ANTWOORDE PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS U-\\f Y NOT BEA CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: QUESTION 1 TJ,is guideline records tl,e views of tl,e drafters. Tl,ere may be justifiable variatio11s in practice wJ,icJ, are brougJ,t out in tl,e answers. W/1e11 tJ,is J,appens tl,e examiner should apply his discretion in marking the answer. (65] The First and Final Liquidation and Distribution Account in the estate of the late Koos Swart (Identity Number 500915 5638 08 3) [1] who died on 16 July 20",
+      "part_labels": [
+        2
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam19Aug2015P3Q.pdf",
+      "slot": [
+        2015,
+        8,
+        19,
+        3
+      ],
+      "status": "found",
+      "filename": "AttExam19Aug2015P3A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AttorneysPractice/2015_19-AUGUST_PART-3_MEMORANDUM.pdf",
+      "pages": 4,
+      "words": 1617,
+      "sha256": "5a0e691da39fbbfc29cd21380adb6b214334d06f6e53292e3cf97cda089c7eb8",
+      "header": "ADMISSION EXAMINATION I TOELATINGSEKSAMEN ATTORNEYS' PRACTICE I PROKUREURSPRAKTYK PART3/DEEL3 19 AUGUST I AUGUSTUS 2015 ANSWERS I ANIWOORDE PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS .MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: QUESTION 1 Tltis guideline records tlie views of tlie drafters. Tltere may be justifiable variations in practice wlticlt are brougltt out in tl,e answers. Wlten tliis ltappens tlte examiner sltould apply ltis discretion i11 marking tlte answer. (55] 1.1 The various law societies have rules on attorney-and-client fees for debt collection. You may enter into a contingency fee agree",
+      "part_labels": [
+        3
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam19Aug2015P4Q.pdf",
+      "slot": [
+        2015,
+        8,
+        19,
+        4
+      ],
+      "status": "found",
+      "filename": "AttExam19Aug2015P4A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/LegalPractitionersBookkeeping/2015_19-AUGUST_PART-4_MEMORANDUM.pdf",
+      "pages": 6,
+      "words": 769,
+      "sha256": "c2ad9bd36b0189319c351c0d1d0e82ff28d2154c99111bf0b2adb0079a469d8d",
+      "header": "ADMISSION EXAMINATION I TOELATINGSEKSAMEN BOOKKEEPING I BOEKHOU PART4/DEEL4 19 AUGUST I 19 AUGUST 2015 ANSWERS I ANTWOORDE PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: T!,is guideline records tlie views of tl,e drafters. T!,ere may be justifiable variations in practice whicl, are brought out in the answers. W/1e11 this J,appens the examiner should apply his discretion in marking the answer. QUESTION 1 (301 Amount to be transferred from Trust Account to Business is R116 500 & Business to Trust is R7000 (8) Balance after transfer TRUST BUSINESS Xerox Machines (40",
+      "part_labels": [
+        4
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam9Feb2016P2Q.pdf",
+      "slot": [
+        2016,
+        2,
+        9,
+        2
+      ],
+      "status": "found",
+      "filename": "AttExam9Feb2016P2A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AdmissionEstate/2016_9-FEBRUARY_PART-2_MEMORANDUM.pdf",
+      "pages": 6,
+      "words": 1256,
+      "sha256": "90d9253b88de0e370926e3216f6035f63636e8208bb75bf20cf40e3a037f7af1",
+      "header": "ADMISSION EXAMINATION I TOELATINGSEKSAMEN ESTATES I BOEDELS PART 2 I DEEL 2 09 FEBRUARY I FEBRUARIE 2016 ANSWERS I ANTWOORDE PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: TJ,is guideline records tl,e views of tl,e drafters. TJ,ere may be justifiable variations in practice wlticl, are brougltt out in tl,e answers. WJ,en ti,is l,appens tl,e examiner sl,ould apply !,is discretion ill marking tl,e answer. QUESTION 1 LIQUIDATION ACCOUNT ASSETS IMMOVABLE PROPERTY Erf 56 Mooi River, Registration Division FT, Province of Kwazulu Natal In extent 1012 square metres Held u",
+      "part_labels": [
+        2
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam10Feb2016P3Q.pdf",
+      "slot": [
+        2016,
+        2,
+        10,
+        3
+      ],
+      "status": "found",
+      "filename": "AttExam10Feb2016P3A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AttorneysPractice/2016_10-FEBRUARY_PART-3_MEMORANDUM.pdf",
+      "pages": 5,
+      "words": 1723,
+      "sha256": "63f5db10b54ca3c55dc576edc870f11f049e326bea85df7e3c046cf52f4a3841",
+      "header": "ADMISSION EXAMINATION I TOELATINGSEKSAMEN ATTORNEYS' PRACTICE I PROKUREURSPRAKTYK PART 3 I DEEL 3 10 FEBRUARY I FEBRUARIE 2016 ANSWERSIANTWOORDE PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: Tltis guideline records tlte views of tl,e drafters. Tltere may he justifiable variations in practice wl,icl, are hrougl,t out in tlte answers. Wlten tltis happens tl,e examiner sltould apply his discretion i11 marking tlte answer. QUESTION 1 [101 1. This agreement shall be of no force or effect unless, within 30 days reckoned from the effective date or any extension of such date ",
+      "part_labels": [
+        3
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam10Feb2016P4Q.pdf",
+      "slot": [
+        2016,
+        2,
+        10,
+        4
+      ],
+      "status": "found",
+      "filename": "AttExam10Feb2016P4A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/LegalPractitionersBookkeeping/2016_10-FEBRUARY_PART-4_MEMORANDUM.pdf",
+      "pages": 5,
+      "words": 677,
+      "sha256": "308178641381e1d891470d98e4f3ede186f6b1b4c5264fe5c15df03927b64e5c",
+      "header": "ADMISSION EXAMINATION I TOELATINGSEKSAMEN BOOKKEEPING I BOEKHOU PART4/ DEEL 4 10 FEBRUARY I FEBRUARIE 2016 ANSWERS I ANTWOORDE PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: Tltis guideline records tlte views of tlte drafters. Tltere may be justifiable variations i11 practice wltic/1 are brougltt out in tile answers. Wl,en this ltappens tl,e examiner sl,ould apply ltis discretio11 in marking tlte answer. QUESTION 1 (40) To Minnie (Correspondent) To transfer ex Trust To cash To Business transfer TRUST CASH BOOK By agent 30 000 (Correspondent) By transfer to Bu",
+      "part_labels": [
+        4
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam16Aug2016P2Q.pdf",
+      "slot": [
+        2016,
+        8,
+        16,
+        2
+      ],
+      "status": "found",
+      "filename": "AttExam16Aug2016P2A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AdmissionEstate/2016_16-AUGUST_PART-2_MEMORANDUM.pdf",
+      "pages": 8,
+      "words": 1331,
+      "sha256": "40ffd4d6e4cd9a28ae396f4be9be8a074d738805443222b67897b7f8b00db0d3",
+      "header": "ADMISSION EXAMINATION I TOELATINGSEKSAMEN ESTATES I BOEDELS PART 2 I DEEL 2 16AUGUST/ 16AUGUSTUS 2016 ANSWERS I ANTWOORDE PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS .M4Y NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: TJ,is guideline records tlte views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner should apply his discretion in marking the answer. QUESTION 1 [661 The First and Final Liquidation and Distribution Account in the estate of the late Jack Lee (Identity Number 640315 5638 08 3) [11 who died on 1 July 2015 [1] and who",
+      "part_labels": [
+        2
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam17Aug2016P4Q.pdf",
+      "slot": [
+        2016,
+        8,
+        17,
+        4
+      ],
+      "status": "found",
+      "filename": "AttExam17Aug2016P4A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/LegalPractitionersBookkeeping/2016_17-AUGUST_PART-4_MEMORANDUM.pdf",
+      "pages": 7,
+      "words": 599,
+      "sha256": "c07a0b463330bdfc6b5e3521458f3a3b63fc642f9997a5a3d946a0bf3ad31b1e",
+      "header": "ADMISSION EXAMINATION I TOELATINGSEKSAMEN BOOKKEEPING I BOEKHOU PART4/DEEL4 17 AUGUST I 17 AUGUSTUS 2016 ANSWERS I ANTWOORDE PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS AMY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: This guideline records the views o f the drafters. There may be justifiable variations in practice which are brought out in the answers. When tJ,is happens the examiner should apply his discretion in marking the answer. QUESTION 1 [151 SUPPLEMENTARY TRUST CASH BOOK - SEPTEMBER 2014 Balance 1,643,298 Interest 6,881 Unpaid cheque 52,841 Cheque written back 2,488 Cheque adjustment 45,000 EFT Trans",
+      "part_labels": [
+        4
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam14Feb2017P2Q.pdf",
+      "slot": [
+        2017,
+        2,
+        14,
+        2
+      ],
+      "status": "found",
+      "filename": "AttExam14Feb2017P2A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AdmissionEstate/2017_14-FEBRUARY_PART-2_MEMORANDUM.pdf",
+      "pages": 7,
+      "words": 1343,
+      "sha256": "f160527ced92e26871d798bd02e85b70ed1293795b81dd7d749d7e725edf2cee",
+      "header": "ADMISSION EXAMINATION I TOELATINGSEKSAMEN ESTATESIBOEDELS PART 2 I DEEL 2 14 FEBRUARY I FEBRUARIE 2017 ANSWERS I ANTWOORDE PLEASE NOTE THAT THE GU/DEUNE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: Tllis guideline records tlle views of t/1e drafters. Tl,ere may be justifiable variations in practice w/1ic/1 are broug/1t out in tl,e answers. Wl,en this happens the examiner s/1ould apply /,is discretion in marking t/1e answer. QUESTION 1 [591 First and Final Liquidation and Distribution Account in the massed 111 estate of the Late Joyce Daniel (Identity no. 640213 5089 08 9) [11 and surviving spou",
+      "part_labels": [
+        2
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam15Feb2017P4Q.pdf",
+      "slot": [
+        2017,
+        2,
+        15,
+        4
+      ],
+      "status": "found",
+      "filename": "AttExam15Feb2017P4A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/LegalPractitionersBookkeeping/2017_15-FEBRUARY_PART-4_MEMORANDUM.pdf",
+      "pages": 5,
+      "words": 691,
+      "sha256": "4d4fa5bdceddafc59aeb1113bf1d9ef83e8c1110cbad583bca67ecf0dddac5ee",
+      "header": "ADMISSION EXAMINATION I TOELATINGSEKSAMEN BOOKKEEPING I BOEKHOU PART4/DEEL4 15 FEBRUARY I 15 FEBRUARIE 2017 ANSWERS I ANTWOORDE PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: This guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner should apply his discretion in marking the answer. QUESTION 1 [151 1.1 TRANSFER JOURNAL Client (T) Client (B) Dr Cr Being transfer from Trust to Business 1.2 BUSINESS JOURNAL Rich Poor Dr Cr Being incorrect (erroneous) d",
+      "part_labels": [
+        4
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam22Aug2017P1Q.pdf",
+      "slot": [
+        2017,
+        8,
+        22,
+        1
+      ],
+      "status": "found",
+      "filename": "AttExam22Aug2017P1A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/CourtProcedures/2017_22-AUGUST_PART-1_MEMORANDUM.pdf",
+      "pages": 8,
+      "words": 2318,
+      "sha256": "669355bf8a9212801b5f938391639a4a8ecfeba2d78585aefb24cae352e5945a",
+      "header": "ADMISSION EXAMINATION I TOELATINGSEKSAMEN COURTPROCEDURESIHOFPROSEDURES PART 1 I DEEL 1 22 AUGUST 122 AUGUSTUS 2017 ANSWERS I ANTWOORDE PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: This guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner should apply his discretion in marking the answer. QUESTION 1 [81 1.1 A RAF5 form (notification of dispute) must be completed. The grounds upon which the rejection is disputed must be set out in the form and must include s",
+      "part_labels": [
+        1
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam22Aug2017P2Q.pdf",
+      "slot": [
+        2017,
+        8,
+        22,
+        2
+      ],
+      "status": "found",
+      "filename": "AttExam22Aug2017P2A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AdmissionEstate/2017_22-AUGUST_PART-2_MEMORANDUM.pdf",
+      "pages": 8,
+      "words": 1742,
+      "sha256": "ee6da7bcb0baca1f405da132a8ceb91477749f5b3efc49c00c12657a1b5a3b5f",
+      "header": "ADMISSION EXAMINATION I TOELATINGSEKSAMEN ESTATES I BOEDELS PART 2/DEEL 2 22 AUGUST I 22 AUGUSTUS 2017 ANSWERS I ANTWOORDE PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: This guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner should apply his discretion in marking the answer. QUESTION 1 [64] The first and final liquidation and distribution account in the Estate of the late Jafta Tsuma ID 490425 5499 088,[1] who died on 1 March 2017 [1Jand who was married ac",
+      "part_labels": [
+        2
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam23Aug2017P3Q.pdf",
+      "slot": [
+        2017,
+        8,
+        23,
+        3
+      ],
+      "status": "found",
+      "filename": "AttExam23Aug2017P3A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AttorneysPractice/2017_23-AUGUST_PART-3_MEMORANDUM.pdf",
+      "pages": 4,
+      "words": 1484,
+      "sha256": "75bcabe172c09cdc052fd025562849a691cf6d70e7b75aab2326a6a01b331c0b",
+      "header": "ADMISSION EXAMINATION/ TOELATINGSEKSAMEN ATTORNEYS' PRACTICE/ PROKUREURSPRAKTYK PART3/DEEL3 23 AUGUST I 23 AUGUSTUS 2017 ANSWERS I ANTWOORDE PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: This guideline records the views of the drafters. There may he justifiable variations in practice which are brought out in the answers. When this happens the examiner should apply his discretion in marking the answer. QUESTION 1 [25] 1. The letter should state that: 1.1 The couple can choose the matrimonial property law regime that will apply to their marriage. (1) 1.2 There are 3 (",
+      "part_labels": [
+        3
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam23Aug2017P4Q.pdf",
+      "slot": [
+        2017,
+        8,
+        23,
+        4
+      ],
+      "status": "found",
+      "filename": "AttExam23Aug2017P4A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/LegalPractitionersBookkeeping/2017_23-AUGUST_PART-4_MEMORANDUM.pdf",
+      "pages": 7,
+      "words": 854,
+      "sha256": "e1990a3195f0ccc75e6515d064e41b065a5490edb76d33f645054dc83c1364d0",
+      "header": "ADMISSION EXAMINATION I TOELATINGSEKSAMEN BOOKKEEPING I BOEKHOU PART 41 DEEL 4 23 AUGUST/23 AUGUSTUS 2017 ANSWERSIANTWOORDE PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: This guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner shoul� apply his discretion in marking the answer. QUESTION 1 (151 1.1 SUPPLEMENTARY BUSINESS CASHBOOK FOR 28 FEB 2016 (1) Deposit Deposit error Balance ta 3 000 (1) Balance 7 000 (1) R.D Cheque 40 000 (1) Interest paid Bank c",
+      "part_labels": [
+        4
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam6Feb2018P1Q.pdf",
+      "slot": [
+        2018,
+        2,
+        6,
+        1
+      ],
+      "status": "found",
+      "filename": "AttExam6Feb2018P1A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/CourtProcedures/2018_6-FEBRUARY_PART-1_MEMORANDUM.pdf",
+      "pages": 6,
+      "words": 2348,
+      "sha256": "fd2152930f94d3fbf468b9791e794859aca70bdb339abb0c55d1fa8e4e84519c",
+      "header": "ADMISSION EXAMINATION I TOELATINGSEKSAMEN COURT PROCEDURES/HOFPROSEDURES PART 1 I DEEL 1 06 FEBRUARY I 06 FEBRUARIE 2018 ANSWERSIANTWOORDE PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: This guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner should apply his discretion in marking the answer. QUESTION 1 [151 1.1 Yes. (1) The damages are in respect of bodily injuries and are caused by / arise out of the negligent driving of a motor vehicle.(1) Section 17(1) ",
+      "part_labels": [
+        1
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam6Feb2018P2Q.pdf",
+      "slot": [
+        2018,
+        2,
+        6,
+        2
+      ],
+      "status": "found",
+      "filename": "AttExam6Feb2018P2A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AdmissionEstate/2018_6-FEBRUARY_PART-2_MEMORANDUM.pdf",
+      "pages": 6,
+      "words": 1316,
+      "sha256": "b1c3b044679d6a330a8e2847950ab10c09f8f82ea89bd28f393b45891b37aa73",
+      "header": "ADMISSION EXAMINATION I TOELATINGSEKSAMEN ESTATES I BOEDELS PART2/DEEL2 06 FEBRUARY /06 FEBRUARIE 2018 ANSWERSIANTWOORDE PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: Tl,is guideline records t!,e views of t!,e drafters. T!,ere may be justifiable variations in practice wl,icl, are brougllt out in tl,e answers. Wl,en t!,is l,appens tl,e examiner sl,ou/d apply !,is discretion in marking tl,e answer. QUESTION 1 (60] FIRST AND FINAL LIQUIDATION AND DISTRIBUTION ACCOUNT IN THE JOINT ESTATE OF THE LATE DEON NEL [11 IDENTITY NO. 560213 5162 08 4 [1) WHO DIED ON 13 MARCH 2",
+      "part_labels": [
+        2
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam7Feb2018P3Q.pdf",
+      "slot": [
+        2018,
+        2,
+        7,
+        3
+      ],
+      "status": "found",
+      "filename": "AttExam7Feb2018P3A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AttorneysPractice/2018_7-FEBRUARY_PART-3_MEMORANDUM.pdf",
+      "pages": 6,
+      "words": 1829,
+      "sha256": "8abab34b9c53f83d5b4d628eba8f93f0643f33acd885427a7354d84dbd71b215",
+      "header": "ADMISSION EXAMINATION I TOELATINGSEKSAMEN ATTORNEYS' PRACTICE I PROKUREURSPRAKTYK PART3/DEEL3 07 FEBRUARY /07 FEBRUARY 2018 ANSWERS/ANTWOORDE PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: T!,is guideline records tl,e views of t!,e drafters. TJ,ere may be justifiable variations in practice wl1icl1 are broug/11 out in tJ,e answers. WJ,en tl,is happens the examiner sl,ould apply !,is discretio11 in marking tire answer. QUESTION 1 1.1 The marriage can be: (a) in community of property- no additional formalities; (b) out of community of property with the accrual system - A",
+      "part_labels": [
+        3
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam7Feb2018P4Q.pdf",
+      "slot": [
+        2018,
+        2,
+        7,
+        4
+      ],
+      "status": "found",
+      "filename": "AttExam7Feb2018P4A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/LegalPractitionersBookkeeping/2018_7-FEBRUARY_PART-4_MEMORANDUM.pdf",
+      "pages": 6,
+      "words": 794,
+      "sha256": "f6cd1e86ac49d3506b2a15a10fba823c265cacced4d600c3ae51f8a589050770",
+      "header": "t ADMISSION EXAMINATION I TOELATINGSEKSAMEN BOOKKEEPING I BOEKHOU PART4/DEEL4 07 FEBRUARY /07 FEBRUARIE 2018 ANSWERS/ANTWOORDE PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: This guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner should apply his discretion in marking the answer. QUESTION 1 (451 Correspondent Cash - Bus a/c Cash Correspondent T/F ex Trust TRUST CASH BOOK 128 500 T/F -------1 Correpondent 128 500 TRUST LEDGER Correspondent (T) 24 0",
+      "part_labels": [
+        4
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam15Oct2018P1Q.pdf",
+      "slot": [
+        2018,
+        10,
+        15,
+        1
+      ],
+      "status": "found",
+      "filename": "AttExam15Oct2018P1A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/CourtProcedures/2018_15-OCTOBER_PART-1_MEMORANDUM.pdf",
+      "pages": 7,
+      "words": 2137,
+      "sha256": "a477a06ef3deb27efadc7db33ee9b31de5a7b8bf08dd0d2452430a9a687bc6e2",
+      "header": "ADMISSION EXAMINATION I TOELATINGSEKSAMEN COURT PROCEDURES IHOFPROSEDURES PART 11 DEEL 1 15 OCTOBERIOKTOBER 2018 ANSWERSIANTWOORDE PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: TJ,is guideli11e records the views of the drafters. Tltere may be justifiable variatio11s ;,, practice w/1ic/1 are brought out i11 tire a11swers. W/1e11 this llappe11s tl,e exami11er should apply /,is discretio11 i11 marki11g the a11swer. QUESTION 1 [15] 1.1 Yes. (1) As the 120 day period (subsequent to the lodgement of the claim) has elapsed, summons may be served irrespective of whether t",
+      "part_labels": [
+        1
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam15Oct2018P2Q.pdf",
+      "slot": [
+        2018,
+        10,
+        15,
+        2
+      ],
+      "status": "found",
+      "filename": "AttExam15Oct2018P2A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AdmissionEstate/2018_15-OCTOBER_PART-2_MEMORANDUM.pdf",
+      "pages": 6,
+      "words": 1647,
+      "sha256": "47d02303818feaee09b2e67d2b535545e8c18fdc4d4cb6bdf8bbba30e9656c64",
+      "header": "ADMISSION EXAMINATION ITOELATINGSEKSAMEN ESTATESIBOEDELS PART2/DEEL2 15 OCTOBER /OKTOBER 2018 ANSWERSIAN'IWOORDE PLEASENOTETHATTHEGUIDELINEANSWERSTOPREVIOUSPAPERSMAYNOTBEA CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: THIS GUIDEUNE RECORDS THE VIEWS OF THE DRAFTERS. THERE MAY BE JUSTIFIABLE VARIATIONS IN PRACTICE WHICH ARE BROUGHT OUT IN THE ANSWERS. WHEN THIS HAPPENS THE EXAMINER SHOULD APPLY HIS DISCRETION IN MARKING THE ANSWER. QUESTION 1 [63] THE FIRST AND FINAL LIQUIDATION AND DISTRIBUTION ACCOUNT IN THE ESTATE OF THE LATE ANTHONY NAIDOO 650425 0099 088, (1) WHO DIED ON 9 AUGUST 2018 (1) AND WHO WAS MARRIED OUT OF COMMUNITY OF PR",
+      "part_labels": [
+        2
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam16Oct2018P4Q.pdf",
+      "slot": [
+        2018,
+        10,
+        16,
+        4
+      ],
+      "status": "found",
+      "filename": "AttExam16Oct2018P4A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/LegalPractitionersBookkeeping/2018_16-OCTOBER_PART-4_MEMORANDUM.pdf",
+      "pages": 6,
+      "words": 630,
+      "sha256": "91a2ea3f4c8527a62597ab618f2cbd30633cd8c8320f02c4d552f893094f0196",
+      "header": "I • ' ) ADMISSION EXAMINATION I TOELATINGSEKSAMEN BOOKKEEPING I BOEKHOU PART4/ DEEL4 16 OCTOBER I OKTOBER 2018 ANSWERSIANTWOORDE PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAJ NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: This guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner should apply his discretion in marking the answer. QUESTION 1 [15] Supplementary Cash Book for September 2018✓ Balance Interest 250 000✓ Incorrect deposit Correct Deposit EFT 33 900✓ 120 000✓ 300 000✓ 703 900 Bank rec",
+      "part_labels": [
+        4
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam6Mar2019P1Q.pdf",
+      "slot": [
+        2019,
+        3,
+        6,
+        1
+      ],
+      "status": "found",
+      "filename": "AttExam6Mar2019P1A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/CourtProcedures/2019_6-MARCH_PART-1_MEMORANDUM.pdf",
+      "pages": 7,
+      "words": 2387,
+      "sha256": "29f06af94beafa592a519a43b5bac833844455d98fd9f3276bea6fefe17c1f97",
+      "header": "ADMISSION EXAMINATION I TOELATINGSEKSAMEN COURTPROCEDURES /HOFPROSEDURES PART 1 /D EEL 1 6 MARCH I MAART 2019 ANSWERSIANTWOORDE PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: TJ,is guideline records tire views of tJ,e drafters. TJ,ere may be justifiable variations in practice wl,icl, are brougl,t 011I i11 the answers. WJ,en tJ,is J,appe11s the exami11er should apply his discretio11 in marking tl,e answer. QUESTION 1 (81 1.1 Section 24(2)(b) provides that where a person is killed outright in a motor vehicle accident, the completion of the medical report shall not be ",
+      "part_labels": [
+        1
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam6Mar2019P2Q.pdf",
+      "slot": [
+        2019,
+        3,
+        6,
+        2
+      ],
+      "status": "found",
+      "filename": "AttExam6Mar2019P2A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AdmissionEstate/2019_6-MARCH_PART-2_MEMORANDUM.pdf",
+      "pages": 7,
+      "words": 1535,
+      "sha256": "a4df384b1dee95cb2f28d511832dc82a0e9d0ae9144ee936235d9ee81a40a091",
+      "header": "ADMISSION EXAMINATION I TOELATINGSEKSAMEN ESTATES/ BOEDELS PART 2 I DEEL 2 6 MARCH I MAART 2019 ANSWERS I ANTWOORDE PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: THIS GUIDELINE RECORDS THE VIEWS OF THE DRAFTERS. THERE MAY BE JUST/ F/ABLE VARIA TJONS JN PRACTICE WHICH ARE BROUGHT OUT JN THE ANSWERS, WHEN THIS HAPPENS THE EXAMINER SHOULD APPLY HIS DISCRETION IN MARKING THE ANSWER. QUESTION 1 LIQUIDATION ACCOUNT ASSETS: IMMOVABLE PROPERTY Erf 221 Randburg Registration Division ET, Province of Gauteng Measuring One Thousand Two Hundred (1200) square metres Held un",
+      "part_labels": [
+        2
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam7Mar2019P3Q.pdf",
+      "slot": [
+        2019,
+        3,
+        7,
+        3
+      ],
+      "status": "found",
+      "filename": "AttExam7Mar2019P3A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AttorneysPractice/2019_7-MARCH_PART-3_MEMORANDUM.pdf",
+      "pages": 5,
+      "words": 1623,
+      "sha256": "8be7feafd24217cebfaca740d79806ccd866df4d86ae66c74dbbb6527516634d",
+      "header": "ADMISSION EXAMINATION I TOELATINGSEKSAMEN ATTORNEYS' PRACTICE I PROKUREURSPRAKTYK PART 3 I DEEL 3 7 MARCH I MAART 2019 ANSWERSIANTWOORDE PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: Tltis guideline records tl,e views of the drafters. Tltere may be justifiable variatio11s i11 practice which are brougltt out i11 tl,e answers. When this ltappens tl,e examiner should apply !,is discretion in marking tl,e answer. QUESTION 1 [10] 1. This agreement shall be of no force or effect unless, within 30 days reckoned from the effective date or any extension of such date by mutua",
+      "part_labels": [
+        3
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam7Mar2019P4Q.pdf",
+      "slot": [
+        2019,
+        3,
+        7,
+        4
+      ],
+      "status": "found",
+      "filename": "AttExam7Mar2019P4A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/ConveyancingPractice/2019_7-MARCH_PART-4_MEMORANDUM.pdf",
+      "pages": 6,
+      "words": 793,
+      "sha256": "9a38325c9b89ebc5793489b77f7354b6cdd10634b2e372ef131bdffaa51490f2",
+      "header": "ADMISSION EXAMINATION I TOELATINGSEKSAMEN LEGAL PRACTITIONERS' BOOKKEEPING I REGSPRAKTISYNSBOEKHOU PART4/ DEEL4 7 MARCH I MAART 2019 ANSWERSIANTWOORDE PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: This guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner should apply his discretion in marking the answer. QUESTION 1 [151 Business Cash Book for June 2018✓ 1 150 000✓ (1) Balance Incorrect Deposit error 180 000✓ (1) deposit Bank Balance 99 800✓ (1) Charges ",
+      "part_labels": [
+        4
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam21Aug2019P1Q.pdf",
+      "slot": [
+        2019,
+        8,
+        21,
+        1
+      ],
+      "status": "found",
+      "filename": "AttExam21Aug2019P1A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/CourtProcedures/2019_21-AUGUST_PART-1_MEMORANDUM.pdf",
+      "pages": 7,
+      "words": 2335,
+      "sha256": "a006225414b6ddd5741ef5c7ff78b4384d8393ed9fd930e29b4a7105ddb7b4b1",
+      "header": "ADMISSION EXAMINATION I TOELA TINGSEKSAMEN COURT PROCEDURESIHOFPROSEDURES PART 1 I DEEL 1 21 AUGUST I AUGUSTUS 1019 ANSWERS/ANTWOORDE PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: This guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner should apply his discretion in marking the answer. QUESTION 1 [201 1.1 1.2 1.1.1 Compensation Commissioner; (1/2) (1/2) 1.1.2 Road Accident Fund. 1.2.1 From the Compensation Commissioner he can claim all his special 1.2.",
+      "part_labels": [
+        1
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam21Aug2019P2Q.pdf",
+      "slot": [
+        2019,
+        8,
+        21,
+        2
+      ],
+      "status": "found",
+      "filename": "AttExam21Aug2019P2A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AdmissionEstate/2019_21-AUGUST_PART-2_MEMORANDUM.pdf",
+      "pages": 7,
+      "words": 1603,
+      "sha256": "8d4deeaf7c7db1acf14977196a7bba47726021298aa4bf3197074c5e96e5bfc5",
+      "header": "ADMISSION EXAMINATION ITOELA TINGSEKSAMEN ESTATES I BOEDELS PART2/ DEEL2 21 AUGUST I AUGUSTUS 2019 ANSWERSIANTWOORDE PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: THIS GUIDELINE RECORDS THE VIEWS OF THE DRAFTERS. THERE MAY BE JUSTIFIABLE VARIATIONS IN PRACTICE WHICH ARE BROUGHT OUT IN THE ANSWERS. WHEN THIS HAPPENS THE EXAMINER SHOULD APPLY HIS DISCRETION IN MARKING THE ANSWER. QUESTION 1 (601 The First and Final Liquidation and Distribution Account in the estate of the late Sam Dube (Identity Number 520915 5638 08 3) (1) who died on 30 June 2018 (1) and who was ",
+      "part_labels": [
+        2
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam22Aug2019P3Q.pdf",
+      "slot": [
+        2019,
+        8,
+        22,
+        3
+      ],
+      "status": "found",
+      "filename": "AttExam22Aug2019P3A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AttorneysPractice/2019_22-AUGUST_PART-3_MEMORANDUM.pdf",
+      "pages": 6,
+      "words": 2080,
+      "sha256": "48a36d8bca2e47e39738cd120de87e7969a80396638b6cb2afad92560dc41256",
+      "header": "ADMISSION EXAMINATION I TOELATINGSEKSAMEN ATTORNEYS' PRACTICE I PROKUREURSPRAKTYK PART3/DEEL3 22 AUGUST I AUGUSTUS 2019 ANSWERS /ANTWOORDE PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: This guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner should apply his discretion in marking the answer. QUESTION 1 [61 She should make use of the provisions of Rule 43 (High Court) to apply for: a. Interim maintenance for herself and children; b. A contribution to costs; ",
+      "part_labels": [
+        3
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam22Aug2019P4Q.pdf",
+      "slot": [
+        2019,
+        8,
+        22,
+        4
+      ],
+      "status": "found",
+      "filename": "AttExam22Aug2019P4A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/ConveyancingPractice/2019_22-AUGUST_PART-4_MEMORANDUM.pdf",
+      "pages": 7,
+      "words": 653,
+      "sha256": "52224c6035b52b2051e81460100c4ff38fc18bf85a8d40ab93aebb3cec413dd5",
+      "header": "ADMISSION EXAMINATION I TOELATINGSEKSAMEN LEGAL PRACTITIONERS' BOOKKEEPING I REGSPRAKTISYNSBOEKHOU PART4/ DEEL 4 22 AUGUST I AUGUSTUS 2019 ANSWERSIANTWOORDE PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: This guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner should apply his discretion in marking the answer. QUESTION 1 Cash Book for Februa 2019✓ Balance 211 ooo✓ Direct deposit 150 ooo✓ Correct deposit 1283✓ 362 283 Bank reconciliation statement as at ",
+      "part_labels": [
+        4
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam19Feb2020P1Q.pdf",
+      "slot": [
+        2020,
+        2,
+        19,
+        1
+      ],
+      "status": "found",
+      "filename": "AttExam19Feb2020P1A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/CourtProcedures/2020_19-FEBRUARY_PART-1_MEMORANDUM.pdf",
+      "pages": 9,
+      "words": 3116,
+      "sha256": "1dc21098c75d388824da79f35a6f344b8f2d0fe3c31e06b169282c5ef57aa918",
+      "header": "LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 1 ADMISSION EXAMINATION / TOELATINGSEKSAMEN COURT PROCEDURES / HOFPROSEDURES PART 1 / DEEL 1 19 FEBRUARY / FEBRUARIE 2020 ANSWERS / ANTWOORDE P LEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. N OTE TO EXAMINER: This guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner should apply his discretion in marking the answer. QUESTION 1 [9] 1.1 Ms Adams will be entitled to claim as a life partner even though she ",
+      "part_labels": [
+        1
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam19Feb2020P2Q.pdf",
+      "slot": [
+        2020,
+        2,
+        19,
+        2
+      ],
+      "status": "found",
+      "filename": "AttExam19Feb2020P2A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AdmissionEstate/2020_19-FEBRUARY_PART-2_MEMORANDUM.pdf",
+      "pages": 11,
+      "words": 1725,
+      "sha256": "000cdfede50c2f6ac7324746faa7500d37d488552f5c0f6c5609790f72a63df3",
+      "header": "LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 1 ADMISSION EXAMINATION / TOELATINGSEKSAMEN ESTATES / BOEDELS PART 2 / DEEL 2 19 FEBRUARY / FEBRUARIE 2020 ANSWERS / ANTWOORDE PLE ASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOT E TO EXAMINER: T HIS GUIDELINE RECORDS THE VIEWS OF THE D RAFTERS. THERE MAY BE JUSTIFIABLE VARIATIONS IN PRACTICE WHICH ARE BROUGHT OUT IN THE ANSWERS . WHEN THIS HAPPENS THE EXAMINER SHOULD APPL Y HIS DISCRETION IN MARKING THE ANSWER. QUESTION 1 [10] M ike’s estate will devolve as follows: Li ndi, Monica and Ella each inherit a child’s s",
+      "part_labels": [
+        2
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam20Feb2020P3Q.pdf",
+      "slot": [
+        2020,
+        2,
+        20,
+        3
+      ],
+      "status": "found",
+      "filename": "AttExam20Feb2020P3A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AttorneysPractice/2020_20-FEBRUARY_PART-3_MEMORANDUM.pdf",
+      "pages": 5,
+      "words": 1443,
+      "sha256": "484501fa3158061dcc88ad824349043ec4da03e8cf30e7684937fa8a385a45d5",
+      "header": "LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 1 ADMISSION EXAMINATION / TOELATINGSEKSAMEN ATTORNEYS’ PRACTICE / PROKUREURSPRAKTYK PART 3 / DEEL 3 20 FEBRUARY / FEBRUARIE 2020 ANSWERS / ANTWOORDE P LEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. N OTE TO EXAMINER: This guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner should apply his discretion in marking the answer. QUESTION 1 [10] 1 .1 A b ody corporate gives continuity and sometimes protection",
+      "part_labels": [
+        3
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam20Feb2020P4Q.pdf",
+      "slot": [
+        2020,
+        2,
+        20,
+        4
+      ],
+      "status": "found",
+      "filename": "AttExam20Feb2020P4A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/LegalPractitionersBookkeeping/2020_20-FEBRUARY_PART-4_MEMORANDUM.pdf",
+      "pages": 6,
+      "words": 882,
+      "sha256": "f64cb9637d49adff171ea247fd4765db4af5c4ffdf09df4fbd14392915ec46f2",
+      "header": "LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 1 NOTE TO EXAMINER: This guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner should apply his discretion in marking the answer. QUESTION 1 [15] A journal is a book of prime entry which is used to record the money value of non-cash transactions. (1) F ees Journal The fees Journal is used to record the money value of the professional services rendered to a client. (1). The client’s Business ledger account will be debited (1) with the fee to be charged and the Fees account (1) will be credited. The Out",
+      "part_labels": [
+        4
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam4Nov2020P1Q.pdf",
+      "slot": [
+        2020,
+        11,
+        4,
+        1
+      ],
+      "status": "found",
+      "attempts": [
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/2020_04-NOVEMBER-PART-1_COURT-PROCEDURES_MEMORANDUM.pdf",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/2020_04-NOVEMBER-PART-1_MEMORANDUM_COURT-PROCEDURES.pdf",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/CourtProcedures/2020_4-NOVEMBER_PART-1_MEMORANDUM.pdf",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "filename": "AttExam4Nov2020P1A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/2020_04-NOVEMBER_PART-1_MEMORANDUM_COURT-PROCEDURES.pdf",
+      "pages": 6,
+      "words": 1932,
+      "sha256": "1a74b8aa83054eb3902eb17d3f2f721cb49da9e90669d2fb2b2b8580a6d9bec9",
+      "header": "LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 1 ADMISSION EXAMINATION COURT PROCEDURES PART 1 4 NOVEMBER 2020 MEMORANDUM P LEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. N OTE TO EXAMINER: This guidelin e records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner should apply his discretion in marking the answer. QUESTION 1 [10] I n terms of section 1 of the Road Accident Fund Act, 1996 (the \"RAF Act\") a motor vehicle is defined as “any vehicle designed or adapted",
+      "part_labels": [
+        1
+      ]
+    },
+    {
+      "question": "AttExam4Nov2020P2Q.pdf",
+      "slot": [
+        2020,
+        11,
+        4,
+        2
+      ],
+      "status": "found",
+      "filename": "AttExam4Nov2020P2A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/2020_04_NOVEMBER_PART-2_MEMORANDUM_ESTATES.pdf",
+      "pages": 6,
+      "words": 1582,
+      "sha256": "a72a0fb22ac5d2be27410bd40f800dd7f45f26f3bc73f242f8c21295f61bb2af",
+      "header": "LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 1 ADMISSION EXAMINATION ESTATES P ART 2 4 NOVEMBER 2020 MEMORANDUM PLE ASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOT E TO EXAMINER: T HIS GUIDELINE RECORD S THE VIEWS OF THE DRAFTERS . THERE MAY BE JUSTIFIABLE VARIATIONS IN PRACTICE WHICH ARE BROUGHT OUT IN THE ANSWERS. WHEN THIS HAPPENS THE EXAMINER SHOULD APPLY HIS DISCRETION IN MARKING THE ANSWER. QUESTION 1 [59] First and Final Liquidation and Distribution Account in the Estate of the Late A (Identity No. 601214 5185 08 7) [1] married in Community of Proper",
+      "part_labels": [],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam5Nov2020P3Q.pdf",
+      "slot": [
+        2020,
+        11,
+        5,
+        3
+      ],
+      "status": "found",
+      "filename": "AttExam5Nov2020P3A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/2020_05_NOVEMBER_PART-3_MEMORANDUM_ATTORNEYS%E2%80%99-PRACTICE.pdf",
+      "pages": 6,
+      "words": 1813,
+      "sha256": "4fe426ffd69c0c1335d870777ec45e479795e3118a77d102d56a8f220a540d20",
+      "header": "LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 1 ADMISSION EXAMINATION ATTORNEYS’ PRACTICE PART 3 5 NOVEMBER 2020 MEMORANDUM P LEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. N OTE TO EXAMINER: This guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner should apply his discretion in marking the answer. QUESTION 1 [8] 1.1 The Act defines operational requirements as based on: • Economic • Technological • Structural, or • Similar; needs of the employer",
+      "part_labels": [
+        3
+      ],
+      "attempts": 2
+    },
+    {
+      "question": "AttExam5Nov2020P4Q.pdf",
+      "slot": [
+        2020,
+        11,
+        5,
+        4
+      ],
+      "status": "found",
+      "filename": "AttExam5Nov2020P4A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/2020_05_NOVEMBER_PART-4_MEMORANDUM_LEGAL-PRACTITIONERS%E2%80%99-BOOKKEEPING.pdf",
+      "pages": 6,
+      "words": 1040,
+      "sha256": "ded02b0a63e2038662d3743f225ae40a615a7a7740ec3038c4e9fec04ebf4e17",
+      "header": "LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 1 PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: This guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner shoul d apply his discretion in marking the answer. QUESTION 1 [10] 1.1 - Duty to implement internal administrative systems to guarantee that practitioners know and keep records of their clients. - Report suspicious transactions to the Financial Intelligence Centre. - Implement in",
+      "part_labels": [
+        4
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam17Mar2021P1Q.pdf",
+      "slot": [
+        2021,
+        3,
+        17,
+        1
+      ],
+      "status": "found",
+      "filename": "AttExam17Mar2021P1A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AttorneysPractice/2021_17-March_PART-1_ANSWERS.pdf",
+      "pages": 7,
+      "words": 2527,
+      "sha256": "bd69023225552888798dceed2a9a30d4c1017fad63faaf1cea2f5f78215056f9",
+      "header": "LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 1 ADMISSION EXAMINATION COURT PROCEDURES PART 1 17 MARCH 2021 MEMORANDUM PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: This guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner should apply his discretion in marking the answer. QUESTION 1 [10] 1.1 1. Date, time, place where the collision had occurred. (1) 2. Which police station has the collisio",
+      "part_labels": [
+        1
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam17Mar2021P2Q.pdf",
+      "slot": [
+        2021,
+        3,
+        17,
+        2
+      ],
+      "status": "found",
+      "filename": "AttExam17Mar2021P2A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AttorneysPractice/2021_17-March_PART-2_ANSWERS.pdf",
+      "pages": 7,
+      "words": 1536,
+      "sha256": "c919d65462b4d9950388ffac81ebbcbb79d195607b45d9eeca2a7755911ec7e7",
+      "header": "LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 1 ADMISSION EXAMINATION ESTATES PART 2 17 MARCH 2021 ANSWERS / ANTWOORDE PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: T HIS GUIDELINE RECORDS THE VIEWS OF THE D RAFTERS. THERE MAY BE JUSTIFIABLE VARIATIONS IN PRACTICE WHICH ARE BROUGHT OUT IN THE ANSWERS. WHEN THIS HAPPENS THE EXAMINER SHOULD APPLY HIS DISCRETION IN MARKING THE ANSWER. QUESTION 1 [18] 1.1 Massing occurs when two or more persons, with testamentary capacity [1] , combine or consolidate their separate estates (or",
+      "part_labels": [
+        2
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam18Mar2021P3Q.pdf",
+      "slot": [
+        2021,
+        3,
+        18,
+        3
+      ],
+      "status": "found",
+      "filename": "AttExam18Mar2021P3A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AttorneysPractice/2021_18-March_PART-3_ANSWERS.pdf",
+      "pages": 6,
+      "words": 1849,
+      "sha256": "38c53a190fcd3533182c5a34b4c80309ebb52af6b6b4e3d1d11cac7ff5d5c005",
+      "header": "LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 1 ADMISSION EXAMINATION ATTORNEYS’ PRACTICE PART 3 18 MARCH 2021 MEMORANDUM PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: This guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner should apply his discretion in marking the answer. SECTION A QUESTION 1 [ 17] 1.1 Option to Extend The lessor gives the lessee an option to extend the lease for a further per",
+      "part_labels": [
+        3
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam18Mar2021P4Q.pdf",
+      "slot": [
+        2021,
+        3,
+        18,
+        4
+      ],
+      "status": "found",
+      "filename": "AttExam18Mar2021P4A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AttorneysPractice/2021_18-March_PART-4_ANSWERS.pdf",
+      "pages": 12,
+      "words": 978,
+      "sha256": "12cda6bb79b454d240b8c79f3a835f16e54023bad26a82ccc2235e94ef102a38",
+      "header": "LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 1 ADMISSION EXAMINATION LEGAL PRACTITIONERS’ BOOKKEEPING PART 4 18 MARCH 2021 MEMORANDUM PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: This guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner should apply his discretion in marking the answer. QUESTION 1 [ 45] Fee Journal Correspondent Dr 3450 Fees Cr 3000 Vat Cr 450 Being Summons Fees ",
+      "part_labels": [
+        4
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam19Oct2021P1Q.pdf",
+      "slot": [
+        2021,
+        10,
+        19,
+        1
+      ],
+      "status": "found",
+      "filename": "AttExam19Oct2021P1A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/2021_19-OCTOBER_PART-1_ANSWERS.pdf",
+      "pages": 8,
+      "words": 2506,
+      "sha256": "b1b8a47be9b638fca13f07cd7b85088d389feb983f84b929755a7bf624101dda",
+      "header": "LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 1 ADMISSION EXAMINATION COURT PROCEDURES PART 1 19 OCTOBER 2021 MEMORANDUM P LEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOT E TO EXAMINER: This guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner should apply his discretion in marking the answer. QUESTION 1 [10] 1. 1 6 November 2021. (½) 1. 2 6 November 2023. (½) 1. 3 1. RAF Form 1 (½) 2. With completed statutory medical report (½) 3. Sect",
+      "part_labels": [
+        1
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam19Oct2021P2Q.pdf",
+      "slot": [
+        2021,
+        10,
+        19,
+        2
+      ],
+      "status": "found",
+      "filename": "AttExam19Oct2021P2A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/2021_19-OCTOBER_PART-2_ANSWERS.pdf",
+      "pages": 6,
+      "words": 1523,
+      "sha256": "85e0fef434361e6a52d65eacfc9759534f2f5127dba7fc9d4257dbb03270a580",
+      "header": "LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 1 ADMISSION EXAMINATION ESTATES PART 2 19 OCTOBER 2021 MEMORANDUM PL EASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: T HIS GUIDELINE RECORD S THE VIEWS OF THE DRAFTER S. THERE MAY BE JUSTIFIABLE VARIATIONS IN PRACTICE WHICH ARE BROUGHT OUT IN T HE ANSWERS. WHEN THIS HAPPENS THE EXAMINER SHOULD APPL Y HIS DISCRETION IN MARKING THE ANSWER. QUEST ION 1 [67] The First and Final Liquidation and Distribution Account in the intestate estate of the late Owen Mabuza (Identity Number 520915 5638 08 3) [1] who ",
+      "part_labels": [
+        2
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam20Oct2021P3Q.pdf",
+      "slot": [
+        2021,
+        10,
+        20,
+        3
+      ],
+      "status": "found",
+      "filename": "AttExam20Oct2021P3A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/2021_20-OCTOBER_PART-3_ANSWERS.pdf",
+      "pages": 5,
+      "words": 1937,
+      "sha256": "ac6ac9524d23ce112b9a9bf58b8273924771ff40394ee162dd74af13379ca0f5",
+      "header": "LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 1 ADMISSION EXAMINATION ATTORNEYS’ PRACTICE PART 3 2 0 OCTOBER 2021 MEMORANDUM P LEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOT E TO EXAMINER: This guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner should apply his discretion in marking the answer. SECTION A QUESTION 1 [9] N ote: too many examples indicate lack of understanding or of drafting ability 1. 1 A person who displays the characterist",
+      "part_labels": [
+        3
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam20Oct2021P4Q.pdf",
+      "slot": [
+        2021,
+        10,
+        20,
+        4
+      ],
+      "status": "found",
+      "filename": "AttExam20Oct2021P4A.pdf",
+      "url": "https://www.lssalead.org.za/wp-content/uploads/2021_20-OCTOBER_PART-4_ANSWERS.pdf",
+      "pages": 6,
+      "words": 808,
+      "sha256": "55172593a012a1924ff7874e5cfc8b441d3a2a9cae253a797829dae43a85f4bc",
+      "header": "LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 1 ADMISSION EXAMINATION LEGAL PRACTITIONERS’ BOOKKEEPING PART 4 20 OCTOBER 2021 MEMORANDUM PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: T his guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner should apply his discretion in marking the answer. QUESTION 1 [40] TRUST CASH BOOK Dr Cr S (T) 300 000.00 S(T) 27 750.00 S (T) 64 750.00 V(T) 5 000.00 V (T) 5 000.00 V(T) Agent 100 000",
+      "part_labels": [
+        4
+      ],
+      "attempts": 1
+    },
+    {
+      "question": "AttExam15Mar2022P1Q.pdf",
+      "slot": [
+        2022,
+        3,
+        15,
+        1
+      ],
+      "status": "not_found",
+      "attempts": [
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/2022_15-MARCH_PART-1_ANSWERS.pdf",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AttorneysPractice/2022_15-March_PART-1_ANSWERS.pdf",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/2022_15_MARCH_PART-1_MEMORANDUM.pdf",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
+    },
+    {
+      "question": "AttExam15Mar2022P2Q.pdf",
+      "slot": [
+        2022,
+        3,
+        15,
+        2
+      ],
+      "status": "not_found",
+      "attempts": [
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/2022_15-MARCH_PART-2_ANSWERS.pdf",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AttorneysPractice/2022_15-March_PART-2_ANSWERS.pdf",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/2022_15_MARCH_PART-2_MEMORANDUM.pdf",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
+    },
+    {
+      "question": "AttExam16Mar2022P3Q.pdf",
+      "slot": [
+        2022,
+        3,
+        16,
+        3
+      ],
+      "status": "not_found",
+      "attempts": [
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/2022_16-MARCH_PART-3_ANSWERS.pdf",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AttorneysPractice/2022_16-March_PART-3_ANSWERS.pdf",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/2022_16_MARCH_PART-3_MEMORANDUM.pdf",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
+    },
+    {
+      "question": "AttExam16Mar2022P4Q.pdf",
+      "slot": [
+        2022,
+        3,
+        16,
+        4
+      ],
+      "status": "not_found",
+      "attempts": [
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/2022_16-MARCH_PART-4_ANSWERS.pdf",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AttorneysPractice/2022_16-March_PART-4_ANSWERS.pdf",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/2022_16_MARCH_PART-4_MEMORANDUM.pdf",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
+    },
+    {
+      "question": "AttExam16Aug2022P1Q.pdf",
+      "slot": [
+        2022,
+        8,
+        16,
+        1
+      ],
+      "status": "not_found",
+      "attempts": [
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/2022_16-AUGUST_PART-1_ANSWERS.pdf",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AttorneysPractice/2022_16-August_PART-1_ANSWERS.pdf",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/2022_16_AUGUST_PART-1_MEMORANDUM.pdf",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
+    },
+    {
+      "question": "AttExam16Aug2022P2Q.pdf",
+      "slot": [
+        2022,
+        8,
+        16,
+        2
+      ],
+      "status": "not_found",
+      "attempts": [
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/2022_16-AUGUST_PART-2_ANSWERS.pdf",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AttorneysPractice/2022_16-August_PART-2_ANSWERS.pdf",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/2022_16_AUGUST_PART-2_MEMORANDUM.pdf",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
+    },
+    {
+      "question": "AttExam17Aug2022P3Q.pdf",
+      "slot": [
+        2022,
+        8,
+        17,
+        3
+      ],
+      "status": "not_found",
+      "attempts": [
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/2022_17-AUGUST_PART-3_ANSWERS.pdf",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AttorneysPractice/2022_17-August_PART-3_ANSWERS.pdf",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/2022_17_AUGUST_PART-3_MEMORANDUM.pdf",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
+    },
+    {
+      "question": "AttExam17Aug2022P4Q.pdf",
+      "slot": [
+        2022,
+        8,
+        17,
+        4
+      ],
+      "status": "not_found",
+      "attempts": [
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/2022_17-AUGUST_PART-4_ANSWERS.pdf",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AttorneysPractice/2022_17-August_PART-4_ANSWERS.pdf",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/2022_17_AUGUST_PART-4_MEMORANDUM.pdf",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
+    },
+    {
+      "question": "AttExam15Mar2023P1Q.pdf",
+      "slot": [
+        2023,
+        3,
+        15,
+        1
+      ],
+      "status": "not_found",
+      "attempts": [
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/2023_15-MARCH_PART-1_ANSWERS.pdf",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AttorneysPractice/2023_15-March_PART-1_ANSWERS.pdf",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/2023_15_MARCH_PART-1_MEMORANDUM.pdf",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
+    },
+    {
+      "question": "AttExam15Mar2023P2Q.pdf",
+      "slot": [
+        2023,
+        3,
+        15,
+        2
+      ],
+      "status": "not_found",
+      "attempts": [
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/2023_15-MARCH_PART-2_ANSWERS.pdf",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AttorneysPractice/2023_15-March_PART-2_ANSWERS.pdf",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/2023_15_MARCH_PART-2_MEMORANDUM.pdf",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
+    },
+    {
+      "question": "AttExam15Mar2023P3Q.pdf",
+      "slot": [
+        2023,
+        3,
+        15,
+        3
+      ],
+      "status": "not_found",
+      "attempts": [
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/2023_15-MARCH_PART-3_ANSWERS.pdf",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AttorneysPractice/2023_15-March_PART-3_ANSWERS.pdf",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/2023_15_MARCH_PART-3_MEMORANDUM.pdf",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
+    },
+    {
+      "question": "AttExam16Mar2023P4Q.pdf",
+      "slot": [
+        2023,
+        3,
+        16,
+        4
+      ],
+      "status": "not_found",
+      "attempts": [
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/2023_16-MARCH_PART-4_ANSWERS.pdf",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AttorneysPractice/2023_16-March_PART-4_ANSWERS.pdf",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/2023_16_MARCH_PART-4_MEMORANDUM.pdf",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
+    },
+    {
+      "question": "AttExam23Aug2023P1Q.pdf",
+      "slot": [
+        2023,
+        8,
+        23,
+        1
+      ],
+      "status": "not_found",
+      "attempts": [
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/2023_23-AUGUST_PART-1_ANSWERS.pdf",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AttorneysPractice/2023_23-August_PART-1_ANSWERS.pdf",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/2023_23_AUGUST_PART-1_MEMORANDUM.pdf",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
+    },
+    {
+      "question": "AttExam23Aug2023P2Q.pdf",
+      "slot": [
+        2023,
+        8,
+        23,
+        2
+      ],
+      "status": "not_found",
+      "attempts": [
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/2023_23-AUGUST_PART-2_ANSWERS.pdf",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AttorneysPractice/2023_23-August_PART-2_ANSWERS.pdf",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/2023_23_AUGUST_PART-2_MEMORANDUM.pdf",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
+    },
+    {
+      "question": "AttExam24Aug2023P3Q.pdf",
+      "slot": [
+        2023,
+        8,
+        24,
+        3
+      ],
+      "status": "not_found",
+      "attempts": [
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/2023_24-AUGUST_PART-3_ANSWERS.pdf",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AttorneysPractice/2023_24-August_PART-3_ANSWERS.pdf",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/2023_24_AUGUST_PART-3_MEMORANDUM.pdf",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
+    },
+    {
+      "question": "AttExam24Aug2023P4Q.pdf",
+      "slot": [
+        2023,
+        8,
+        24,
+        4
+      ],
+      "status": "not_found",
+      "attempts": [
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/2023_24-AUGUST_PART-4_ANSWERS.pdf",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AttorneysPractice/2023_24-August_PART-4_ANSWERS.pdf",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.lssalead.org.za/wp-content/uploads/2023_24_AUGUST_PART-4_MEMORANDUM.pdf",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
+    }
+  ],
+  "extractions": [
+    {
+      "filename": "AttExam10Feb2015P1A.pdf",
+      "pages": 10,
+      "native_words": 3066,
+      "jina_words": 3091,
+      "metrics": {
+        "words": 3147,
+        "characters": 17971,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": []
+    },
+    {
+      "filename": "AttExam10Feb2015P2A.pdf",
+      "pages": 10,
+      "native_words": 1756,
+      "jina_words": 1743,
+      "metrics": {
+        "words": 1875,
+        "characters": 10367,
+        "replacement_characters": 1,
+        "artifact_runs": 1,
+        "has_end_marker": false
+      },
+      "flags": [
+        "replacement_characters",
+        "visible_ocr_artifacts"
+      ]
+    },
+    {
+      "filename": "AttExam11Feb2015P3A.pdf",
+      "pages": 5,
+      "native_words": 1595,
+      "jina_words": 1599,
+      "metrics": {
+        "words": 1630,
+        "characters": 9649,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": []
+    },
+    {
+      "filename": "AttExam11Feb2015P4A.pdf",
+      "pages": 4,
+      "native_words": 829,
+      "jina_words": 833,
+      "metrics": {
+        "words": 829,
+        "characters": 4495,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": []
+    },
+    {
+      "filename": "AttExam18Aug2015P1A.pdf",
+      "pages": 7,
+      "native_words": 2221,
+      "jina_words": 2224,
+      "metrics": {
+        "words": 2261,
+        "characters": 12663,
+        "replacement_characters": 2,
+        "artifact_runs": 2,
+        "has_end_marker": false
+      },
+      "flags": [
+        "replacement_characters",
+        "visible_ocr_artifacts"
+      ]
+    },
+    {
+      "filename": "AttExam18Aug2015P2A.pdf",
+      "pages": 9,
+      "native_words": 1372,
+      "jina_words": 1354,
+      "metrics": {
+        "words": 1489,
+        "characters": 8285,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": []
+    },
+    {
+      "filename": "AttExam19Aug2015P3A.pdf",
+      "pages": 4,
+      "native_words": 1617,
+      "jina_words": 1619,
+      "metrics": {
+        "words": 1660,
+        "characters": 9408,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": []
+    },
+    {
+      "filename": "AttExam19Aug2015P4A.pdf",
+      "pages": 6,
+      "native_words": 769,
+      "jina_words": 771,
+      "metrics": {
+        "words": 795,
+        "characters": 4240,
+        "replacement_characters": 1,
+        "artifact_runs": 1,
+        "has_end_marker": false
+      },
+      "flags": [
+        "replacement_characters",
+        "visible_ocr_artifacts"
+      ]
+    },
+    {
+      "filename": "AttExam9Feb2016P2A.pdf",
+      "pages": 6,
+      "native_words": 1256,
+      "jina_words": 1260,
+      "metrics": {
+        "words": 1360,
+        "characters": 7303,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": []
+    },
+    {
+      "filename": "AttExam10Feb2016P3A.pdf",
+      "pages": 5,
+      "native_words": 1723,
+      "jina_words": 1717,
+      "metrics": {
+        "words": 1773,
+        "characters": 10098,
+        "replacement_characters": 1,
+        "artifact_runs": 1,
+        "has_end_marker": false
+      },
+      "flags": [
+        "replacement_characters",
+        "visible_ocr_artifacts"
+      ]
+    },
+    {
+      "filename": "AttExam10Feb2016P4A.pdf",
+      "pages": 5,
+      "native_words": 677,
+      "jina_words": 681,
+      "metrics": {
+        "words": 700,
+        "characters": 3811,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": []
+    },
+    {
+      "filename": "AttExam16Aug2016P2A.pdf",
+      "pages": 8,
+      "native_words": 1331,
+      "jina_words": 1332,
+      "metrics": {
+        "words": 1480,
+        "characters": 7811,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": []
+    },
+    {
+      "filename": "AttExam17Aug2016P4A.pdf",
+      "pages": 7,
+      "native_words": 599,
+      "jina_words": 607,
+      "metrics": {
+        "words": 720,
+        "characters": 4012,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": []
+    },
+    {
+      "filename": "AttExam14Feb2017P2A.pdf",
+      "pages": 7,
+      "native_words": 1343,
+      "jina_words": 1337,
+      "metrics": {
+        "words": 1468,
+        "characters": 7957,
+        "replacement_characters": 1,
+        "artifact_runs": 1,
+        "has_end_marker": false
+      },
+      "flags": [
+        "replacement_characters",
+        "visible_ocr_artifacts"
+      ]
+    },
+    {
+      "filename": "AttExam15Feb2017P4A.pdf",
+      "pages": 5,
+      "native_words": 691,
+      "jina_words": 677,
+      "metrics": {
+        "words": 695,
+        "characters": 3872,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": []
+    },
+    {
+      "filename": "AttExam22Aug2017P1A.pdf",
+      "pages": 8,
+      "native_words": 2318,
+      "jina_words": 2331,
+      "metrics": {
+        "words": 2380,
+        "characters": 13530,
+        "replacement_characters": 4,
+        "artifact_runs": 4,
+        "has_end_marker": false
+      },
+      "flags": [
+        "replacement_characters",
+        "visible_ocr_artifacts"
+      ]
+    },
+    {
+      "filename": "AttExam22Aug2017P2A.pdf",
+      "pages": 8,
+      "native_words": 1742,
+      "jina_words": 1749,
+      "metrics": {
+        "words": 1880,
+        "characters": 10282,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": []
+    },
+    {
+      "filename": "AttExam23Aug2017P3A.pdf",
+      "pages": 4,
+      "native_words": 1484,
+      "jina_words": 1488,
+      "metrics": {
+        "words": 1505,
+        "characters": 8801,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": []
+    },
+    {
+      "filename": "AttExam23Aug2017P4A.pdf",
+      "pages": 7,
+      "native_words": 854,
+      "jina_words": 830,
+      "metrics": {
+        "words": 848,
+        "characters": 4653,
+        "replacement_characters": 1,
+        "artifact_runs": 1,
+        "has_end_marker": false
+      },
+      "flags": [
+        "replacement_characters",
+        "visible_ocr_artifacts"
+      ]
+    },
+    {
+      "filename": "AttExam6Feb2018P1A.pdf",
+      "pages": 6,
+      "native_words": 2348,
+      "jina_words": 2349,
+      "metrics": {
+        "words": 2417,
+        "characters": 13566,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": []
+    },
+    {
+      "filename": "AttExam6Feb2018P2A.pdf",
+      "pages": 6,
+      "native_words": 1316,
+      "jina_words": 1308,
+      "metrics": {
+        "words": 1440,
+        "characters": 7955,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": []
+    },
+    {
+      "filename": "AttExam7Feb2018P3A.pdf",
+      "pages": 6,
+      "native_words": 1829,
+      "jina_words": 1823,
+      "metrics": {
+        "words": 1940,
+        "characters": 10761,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": []
+    },
+    {
+      "filename": "AttExam7Feb2018P4A.pdf",
+      "pages": 6,
+      "native_words": 794,
+      "jina_words": 789,
+      "metrics": {
+        "words": 808,
+        "characters": 4356,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": []
+    },
+    {
+      "filename": "AttExam15Oct2018P1A.pdf",
+      "pages": 7,
+      "native_words": 2137,
+      "jina_words": 2136,
+      "metrics": {
+        "words": 2198,
+        "characters": 12439,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": []
+    },
+    {
+      "filename": "AttExam15Oct2018P2A.pdf",
+      "pages": 6,
+      "native_words": 1647,
+      "jina_words": 1628,
+      "metrics": {
+        "words": 1727,
+        "characters": 9647,
+        "replacement_characters": 6,
+        "artifact_runs": 6,
+        "has_end_marker": false
+      },
+      "flags": [
+        "replacement_characters",
+        "visible_ocr_artifacts"
+      ]
+    },
+    {
+      "filename": "AttExam16Oct2018P4A.pdf",
+      "pages": 6,
+      "native_words": 630,
+      "jina_words": 636,
+      "metrics": {
+        "words": 640,
+        "characters": 3842,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": []
+    },
+    {
+      "filename": "AttExam6Mar2019P1A.pdf",
+      "pages": 7,
+      "native_words": 2387,
+      "jina_words": 2380,
+      "metrics": {
+        "words": 2446,
+        "characters": 13898,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": true
+      },
+      "flags": []
+    },
+    {
+      "filename": "AttExam6Mar2019P2A.pdf",
+      "pages": 7,
+      "native_words": 1535,
+      "jina_words": 1493,
+      "metrics": {
+        "words": 1578,
+        "characters": 8744,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": true
+      },
+      "flags": []
+    },
+    {
+      "filename": "AttExam7Mar2019P3A.pdf",
+      "pages": 5,
+      "native_words": 1623,
+      "jina_words": 1617,
+      "metrics": {
+        "words": 1672,
+        "characters": 9638,
+        "replacement_characters": 1,
+        "artifact_runs": 1,
+        "has_end_marker": true
+      },
+      "flags": [
+        "replacement_characters",
+        "visible_ocr_artifacts"
+      ]
+    },
+    {
+      "filename": "AttExam7Mar2019P4A.pdf",
+      "pages": 6,
+      "native_words": 793,
+      "jina_words": 797,
+      "metrics": {
+        "words": 842,
+        "characters": 4718,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": []
+    },
+    {
+      "filename": "AttExam21Aug2019P1A.pdf",
+      "pages": 7,
+      "native_words": 2335,
+      "jina_words": 2331,
+      "metrics": {
+        "words": 2396,
+        "characters": 13734,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": []
+    },
+    {
+      "filename": "AttExam21Aug2019P2A.pdf",
+      "pages": 7,
+      "native_words": 1603,
+      "jina_words": 1606,
+      "metrics": {
+        "words": 1699,
+        "characters": 9278,
+        "replacement_characters": 6,
+        "artifact_runs": 6,
+        "has_end_marker": false
+      },
+      "flags": [
+        "replacement_characters",
+        "visible_ocr_artifacts"
+      ]
+    },
+    {
+      "filename": "AttExam22Aug2019P3A.pdf",
+      "pages": 6,
+      "native_words": 2080,
+      "jina_words": 2080,
+      "metrics": {
+        "words": 2166,
+        "characters": 12461,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": []
+    },
+    {
+      "filename": "AttExam22Aug2019P4A.pdf",
+      "pages": 7,
+      "native_words": 653,
+      "jina_words": 666,
+      "metrics": {
+        "words": 666,
+        "characters": 3713,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": []
+    },
+    {
+      "filename": "AttExam19Feb2020P1A.pdf",
+      "pages": 9,
+      "native_words": 3116,
+      "jina_words": 3103,
+      "metrics": {
+        "words": 3148,
+        "characters": 18352,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": []
+    },
+    {
+      "filename": "AttExam19Feb2020P2A.pdf",
+      "pages": 11,
+      "native_words": 1725,
+      "jina_words": 1732,
+      "metrics": {
+        "words": 1864,
+        "characters": 10507,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": []
+    },
+    {
+      "filename": "AttExam20Feb2020P3A.pdf",
+      "pages": 5,
+      "native_words": 1443,
+      "jina_words": 1427,
+      "metrics": {
+        "words": 1474,
+        "characters": 8476,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": []
+    },
+    {
+      "filename": "AttExam20Feb2020P4A.pdf",
+      "pages": 6,
+      "native_words": 882,
+      "jina_words": 912,
+      "metrics": {
+        "words": 925,
+        "characters": 5311,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": []
+    },
+    {
+      "filename": "AttExam4Nov2020P1A.pdf",
+      "pages": 6,
+      "native_words": 1932,
+      "jina_words": 1937,
+      "metrics": {
+        "words": 1951,
+        "characters": 11449,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": []
+    },
+    {
+      "filename": "AttExam4Nov2020P2A.pdf",
+      "pages": 6,
+      "native_words": 1582,
+      "jina_words": 1599,
+      "metrics": {
+        "words": 1662,
+        "characters": 9941,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": []
+    },
+    {
+      "filename": "AttExam5Nov2020P3A.pdf",
+      "pages": 6,
+      "native_words": 1813,
+      "jina_words": 1800,
+      "metrics": {
+        "words": 1859,
+        "characters": 10963,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": []
+    },
+    {
+      "filename": "AttExam5Nov2020P4A.pdf",
+      "pages": 6,
+      "native_words": 1040,
+      "jina_words": 1049,
+      "metrics": {
+        "words": 1048,
+        "characters": 6287,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": []
+    },
+    {
+      "filename": "AttExam17Mar2021P1A.pdf",
+      "pages": 7,
+      "native_words": 2527,
+      "jina_words": 2513,
+      "metrics": {
+        "words": 2601,
+        "characters": 14734,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": []
+    },
+    {
+      "filename": "AttExam17Mar2021P2A.pdf",
+      "pages": 7,
+      "native_words": 1536,
+      "jina_words": 1531,
+      "metrics": {
+        "words": 1642,
+        "characters": 9229,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": []
+    },
+    {
+      "filename": "AttExam18Mar2021P3A.pdf",
+      "pages": 6,
+      "native_words": 1849,
+      "jina_words": 1848,
+      "metrics": {
+        "words": 1926,
+        "characters": 11032,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": []
+    },
+    {
+      "filename": "AttExam18Mar2021P4A.pdf",
+      "pages": 12,
+      "native_words": 978,
+      "jina_words": 980,
+      "metrics": {
+        "words": 991,
+        "characters": 6128,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": []
+    },
+    {
+      "filename": "AttExam19Oct2021P1A.pdf",
+      "pages": 8,
+      "native_words": 2506,
+      "jina_words": 2487,
+      "metrics": {
+        "words": 2545,
+        "characters": 15008,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": []
+    },
+    {
+      "filename": "AttExam19Oct2021P2A.pdf",
+      "pages": 6,
+      "native_words": 1523,
+      "jina_words": 1568,
+      "metrics": {
+        "words": 1690,
+        "characters": 9414,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": []
+    },
+    {
+      "filename": "AttExam20Oct2021P3A.pdf",
+      "pages": 5,
+      "native_words": 1937,
+      "jina_words": 1913,
+      "metrics": {
+        "words": 1994,
+        "characters": 11034,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": []
+    },
+    {
+      "filename": "AttExam20Oct2021P4A.pdf",
+      "pages": 6,
+      "native_words": 808,
+      "jina_words": 815,
+      "metrics": {
+        "words": 890,
+        "characters": 4856,
+        "replacement_characters": 0,
+        "artifact_runs": 0,
+        "has_end_marker": false
+      },
+      "flags": []
+    }
+  ]
+}

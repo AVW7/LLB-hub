@@ -60,3 +60,9 @@ Use **LLB Second Brain: Notes: Index notes for RAG** to build the local index, t
 - As of 2026-10-19, 50 matching official model-answer memos for the 66 newly added question papers are saved with searchable text and original PDFs.
 - [[notes/Board Exam Memo Coverage]] links every question/memo pair and lists the 16 unlocated official memos for 2022-2023.
 - Full proofreading remains open; flagged extracted memo text is identified in the coverage note.
+
+## Memo follow-up - 2026-10-19
+
+- Corrected 24 flagged characters in ten official memo extracts against 14 original PDF pages.
+- [[notes/Board Exam Memo Search - 2026-10-19]] records the follow-up source checks and partial or unofficial leads.
+- As of 2026-10-19, 50 official memos are saved and 16 official 2022-2023 memos remain unlocated; full proofreading is still open.

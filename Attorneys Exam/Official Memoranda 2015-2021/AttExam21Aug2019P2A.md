@@ -12,9 +12,9 @@ paper-number: 2
 source-url: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AdmissionEstate/2019_21-AUGUST_PART-2_MEMORANDUM.pdf
 confidence: medium
 extraction-reviewed: false
-text-quality-flags:
-- replacement_characters
-- visible_ocr_artifacts
+text-quality-flags: []
+ocr-corrections-date: '2026-10-19'
+character-corrections-reviewed: true
 ---
 
 ## For future agent
@@ -25,13 +25,14 @@ Official guideline model answers for Paper 2, 2019-08-21, recovered on 2026-10-1
 
 > Source: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AdmissionEstate/2019_21-AUGUST_PART-2_MEMORANDUM.pdf
 > Extracted by: Jina AI Reader on 2026-10-19.
+> OCR review: Targeted character corrections checked against original PDF pages 1, 2, 3, 4 on 2026-10-19.
 > Input SHA-256: 8d4deeaf7c7db1acf14977196a7bba47726021298aa4bf3197074c5e96e5bfc5
 
 - Matching question: [[Attorneys Exam/Official Previous Papers 2015-2023/AttExam21Aug2019P2Q]].
 - Original answer PDF: [[Attorneys Exam/Official Memoranda 2015-2021/AttExam21Aug2019P2A.pdf]].
 - Pairing and remaining gaps: [[notes/Board Exam Memo Coverage]].
 - Project: [[projects/Board Exam Archive]].
-- Text review: replacement_characters, visible_ocr_artifacts.
+- Text review: flagged characters corrected against rendered source pages; full transcription has not been proofread.
 
 ## Extracted guideline answers
 
@@ -39,7 +40,7 @@ ADMISSION EXAMINATIONITOELA TINGSEKSAMEN ESTATESIBOEDELS PART2/ DEEL2 21 AUGUST 
 
 QUESTION 1 (601 
 
-The First and Final Liquidation and Distribution Account in the estate of the late Sam Dube (Identity Number 520915 5638 08 3) (1) who died on 30 June 2018 (1) and who was married according to customary law, out of community of property without accrual (1). Master's reference number: 1369/2018. (1) Liquidation account Assets: lmmova�le property 1. The farm NAMBO 755, Brits Registration Division.JO, North-West Province; Measuring 360 hectares; Held by Deed of Transfer T1306/1987. (1) At Valuation 2 100 000.00 (1) (To be transferred to Sarah Dube, major surviving spouse, as sole heir i.t.o. the Will of the deceased) (1) Movable property 2. Farm implements and Livestock At valuation 900 000.00 (1) 3. House-hold furniture and effects At valuation 135 000.00 (1) (Items 2 and 3 to be awarded to Sarah Dube, major surviving spouse, as sole heir i.t.o. the Will of the deceased) (1) Cash & Assets Reduced to Cash 4. 100% Shares in VIC (Pty) Ltd Sold for 5. Absa Bank - Savings account No. 4050635667 
+The First and Final Liquidation and Distribution Account in the estate of the late Sam Dube (Identity Number 520915 5638 08 3) (1) who died on 30 June 2018 (1) and who was married according to customary law, out of community of property without accrual (1). Master's reference number: 1369/2018. (1) Liquidation account Assets: Immovable property 1. The farm NAMBO 755, Brits Registration Division.JO, North-West Province; Measuring 360 hectares; Held by Deed of Transfer T1306/1987. (1) At Valuation 2 100 000.00 (1) (To be transferred to Sarah Dube, major surviving spouse, as sole heir i.t.o. the Will of the deceased) (1) Movable property 2. Farm implements and Livestock At valuation 900 000.00 (1) 3. House-hold furniture and effects At valuation 135 000.00 (1) (Items 2 and 3 to be awarded to Sarah Dube, major surviving spouse, as sole heir i.t.o. the Will of the deceased) (1) Cash & Assets Reduced to Cash 4. 100% Shares in VIC (Pty) Ltd Sold for 5. Absa Bank - Savings account No. 4050635667 
 
 LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D/™ 
 
@@ -47,7 +48,7 @@ LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D/™
 
 > 1
 
-6. A 2015 Toyota Corolla motor vehicle with Registration number BYP 805 GP Sold for 100 000.00 (1) 7. Sanlam Insurance Policy No.175345X9 Proceeds of Policy 950 000.00 (1) 8. JSE quoted Shares Sold by Stockbrokers 76 000.00 (1) Total Assets � ��6 QQQ.QQ Liabilities: Administration Costs 1. Advertising for Debtors and Creditors (1) Government Gazette 37.82 Pretoria News 312.18 2. Advertising Account for insQection (1) Government Gazette 37.82 Pretoria News 312.18 3. Master's fees (maximum) 7 000.00 (1) 4. Executor's fees at 3.5% on R5 536 000.00 193 760.00 (1) 5. 15% VAT on R193 760.00 29 064.00 (1) 6. Bank charges to date (1) 6 000.00 7. Provision for further Bank charges (1) 4 500.00 8. Postages and petties 260.00 (1) 9. JPS Brokers fees for selling JSE shares 7 600.00 (1) 10. P Smith - Valuation costs: farm & movable 6 500.00 property (1) 11. D Chivers Attorneys- Conveyancer's Fees 20 000.00 and bond cancellation costs (1) Claims against the estate 12. Deep-Slumber - funeral expenses (1) 27 616.00 13. Sanlam Insurance Co for loan on Policy 25 000.00 (1) No.126395X8 14. Land bank - outstanding amount on farm 208 000.00 (1) Total Liabilities 536 000.00   
+6. A 2015 Toyota Corolla motor vehicle with Registration number BYP 805 GP Sold for 100 000.00 (1) 7. Sanlam Insurance Policy No.175345X9 Proceeds of Policy 950 000.00 (1) 8. JSE quoted Shares Sold by Stockbrokers 76 000.00 (1) Total Assets 5 536 000.00 Liabilities: Administration Costs 1. Advertising for Debtors and Creditors (1) Government Gazette 37.82 Pretoria News 312.18 2. Advertising Account for insQection (1) Government Gazette 37.82 Pretoria News 312.18 3. Master's fees (maximum) 7 000.00 (1) 4. Executor's fees at 3.5% on R5 536 000.00 193 760.00 (1) 5. 15% VAT on R193 760.00 29 064.00 (1) 6. Bank charges to date (1) 6 000.00 7. Provision for further Bank charges (1) 4 500.00 8. Postages and petties 260.00 (1) 9. JPS Brokers fees for selling JSE shares 7 600.00 (1) 10. P Smith - Valuation costs: farm & movable 6 500.00 property (1) 11. D Chivers Attorneys- Conveyancer's Fees 20 000.00 and bond cancellation costs (1) Claims against the estate 12. Deep-Slumber - funeral expenses (1) 27 616.00 13. Sanlam Insurance Co for loan on Policy 25 000.00 (1) No.126395X8 14. Land bank - outstanding amount on farm 208 000.00 (1) Total Liabilities 536 000.00   
 
 > UW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.DffM 2
 
@@ -61,7 +62,7 @@ Recapitulation Statement Estate Duty Balance for distribution Cash and assets re
 
 Nil 5 000 000.00 
 
-## 5 �36 QQQ.QQ 
+## 5 536 000.00 
 
 536 000.00 NIL NIL 1 865 000.00 
 
@@ -75,7 +76,7 @@ Estate Duty Addendum ProQertv of the deceased I
 
 Assets as per liquidation account Less : Sanlam Insurance Policy payable to estate Less: Difference in value of private shares Less: 30% on Farming property ProQerty Deemed to be ProQerty Add: Sanlam Insurance Policy payable to estate Old Mutual Insurance Policy Liberty Life Insurance Policy  
 
-> �
+Less:
 
 Premiums plus 6% p.a compounded interest thereon Gross value of the estate Deductions - Sect 4 Costs of Administration and claims Inheritance to Sarah Dube- Sect 4(q) Old Mutual policy to Jane Dube - Sect 4(q) Net value of the estate Less: Primary Rebate - Sect 4A Dutiable Amount Estate Duty at 20% on R0.00 
 

@@ -12,9 +12,9 @@ paper-number: 2
 source-url: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AdmissionEstate/2018_15-OCTOBER_PART-2_MEMORANDUM.pdf
 confidence: medium
 extraction-reviewed: false
-text-quality-flags:
-- replacement_characters
-- visible_ocr_artifacts
+text-quality-flags: []
+ocr-corrections-date: '2026-10-19'
+character-corrections-reviewed: true
 ---
 
 ## For future agent
@@ -25,13 +25,14 @@ Official guideline model answers for Paper 2, 2018-10-15, recovered on 2026-10-1
 
 > Source: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AdmissionEstate/2018_15-OCTOBER_PART-2_MEMORANDUM.pdf
 > Extracted by: Jina AI Reader on 2026-10-19.
+> OCR review: Targeted character corrections checked against original PDF pages 2 on 2026-10-19.
 > Input SHA-256: 47d02303818feaee09b2e67d2b535545e8c18fdc4d4cb6bdf8bbba30e9656c64
 
 - Matching question: [[Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Oct2018P2Q]].
 - Original answer PDF: [[Attorneys Exam/Official Memoranda 2015-2021/AttExam15Oct2018P2A.pdf]].
 - Pairing and remaining gaps: [[notes/Board Exam Memo Coverage]].
 - Project: [[projects/Board Exam Archive]].
-- Text review: replacement_characters, visible_ocr_artifacts.
+- Text review: flagged characters corrected against rendered source pages; full transcription has not been proofread.
 
 ## Extracted guideline answers
 
@@ -95,13 +96,13 @@ LEGAL EDUCATIONAND DEVELOPMENT{L.E.A.DjfM
 
 115 500.00(1) 7 600.00 (1) 9 500.00 (1) 15 340.00 (1) 7 300.00 (1) 8 000.00 (1) 6 000.00 (1) 260.00 (1) 18 400.00 (1) 200 000.00 (1) 105 000.00 (1) 500 000.00 0.00 2 800 000.00 
 
-## � �0Q 0QQ.0Q 
+## 3 300 000.00 
 
 1 436 950.00 (1) 500 000.00 (1) 
 
 NIL NIL 936 950.00 
 
-# l 43§ ��Q.QQ (1) 1 4�� 9;i0.0Q 2Distribution Account Balance for distribution Awarded to: Vanessa Naidoo, major surviving spouse of the   
+# 1 436 950.00 (1) 1 436 950.00 2Distribution Account Balance for distribution Awarded to: Vanessa Naidoo, major surviving spouse of the   
 
 > deceased Ias sole heir i.t.o section 1 (1) (a) of the
 

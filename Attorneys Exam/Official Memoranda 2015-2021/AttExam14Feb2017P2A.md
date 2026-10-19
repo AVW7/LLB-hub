@@ -12,9 +12,9 @@ paper-number: 2
 source-url: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AdmissionEstate/2017_14-FEBRUARY_PART-2_MEMORANDUM.pdf
 confidence: medium
 extraction-reviewed: false
-text-quality-flags:
-- replacement_characters
-- visible_ocr_artifacts
+text-quality-flags: []
+ocr-corrections-date: '2026-10-19'
+character-corrections-reviewed: true
 ---
 
 ## For future agent
@@ -25,13 +25,14 @@ Official guideline model answers for Paper 2, 2017-02-14, recovered on 2026-10-1
 
 > Source: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AdmissionEstate/2017_14-FEBRUARY_PART-2_MEMORANDUM.pdf
 > Extracted by: Jina AI Reader on 2026-10-19.
+> OCR review: Targeted character corrections checked against original PDF pages 5 on 2026-10-19.
 > Input SHA-256: f160527ced92e26871d798bd02e85b70ed1293795b81dd7d749d7e725edf2cee
 
 - Matching question: [[Attorneys Exam/Official Previous Papers 2015-2023/AttExam14Feb2017P2Q]].
 - Original answer PDF: [[Attorneys Exam/Official Memoranda 2015-2021/AttExam14Feb2017P2A.pdf]].
 - Pairing and remaining gaps: [[notes/Board Exam Memo Coverage]].
 - Project: [[projects/Board Exam Archive]].
-- Text review: replacement_characters, visible_ocr_artifacts.
+- Text review: flagged characters corrected against rendered source pages; full transcription has not been proofread.
 
 ## Extracted guideline answers
 
@@ -107,7 +108,7 @@ Married out of community of property, with exclusion of the accrual system, to J
 
 LEGAL EDUCATION AND DEVELOPMENT /L.E.A.DF' 1 5
 
-# ---------- ---�----- -I hereby revoke all wills previously made by me. [2] 
+I hereby revoke all wills previously made by me. [2] 
 
 2
 

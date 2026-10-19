@@ -1,6 +1,6 @@
 # LLB Hub — Index
 
-**Scanned:** 798 files across 14 subject folders  
+**Scanned:** 799 files across 14 subject folders  
 **Last updated:** 2026-10-19  
 **Source:** LSSA / School for Legal Practice past exam papers, memoranda, assignments, webinar slides and precedents.
 

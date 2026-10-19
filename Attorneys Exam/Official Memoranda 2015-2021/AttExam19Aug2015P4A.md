@@ -12,9 +12,9 @@ paper-number: 4
 source-url: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/LegalPractitionersBookkeeping/2015_19-AUGUST_PART-4_MEMORANDUM.pdf
 confidence: medium
 extraction-reviewed: false
-text-quality-flags:
-- replacement_characters
-- visible_ocr_artifacts
+text-quality-flags: []
+ocr-corrections-date: '2026-10-19'
+character-corrections-reviewed: true
 ---
 
 ## For future agent
@@ -25,13 +25,14 @@ Official guideline model answers for Paper 4, 2015-08-19, recovered on 2026-10-1
 
 > Source: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/LegalPractitionersBookkeeping/2015_19-AUGUST_PART-4_MEMORANDUM.pdf
 > Extracted by: Jina AI Reader on 2026-10-19.
+> OCR review: Targeted character corrections checked against original PDF pages 3 on 2026-10-19.
 > Input SHA-256: c2ad9bd36b0189319c351c0d1d0e82ff28d2154c99111bf0b2adb0079a469d8d
 
 - Matching question: [[Attorneys Exam/Official Previous Papers 2015-2023/AttExam19Aug2015P4Q]].
 - Original answer PDF: [[Attorneys Exam/Official Memoranda 2015-2021/AttExam19Aug2015P4A.pdf]].
 - Pairing and remaining gaps: [[notes/Board Exam Memo Coverage]].
 - Project: [[projects/Board Exam Archive]].
-- Text review: replacement_characters, visible_ocr_artifacts.
+- Text review: flagged characters corrected against rendered source pages; full transcription has not been proofread.
 
 ## Extracted guideline answers
 
@@ -81,7 +82,7 @@ VARIOUS CLIENTS TRUST LEDGER I Cash 700 000 BANK C-TRUST INVEST S78 2 aCash Cash
 
 > 3
 
-LEGAL EDUCATION AND DEVELOPMENT [L.E.A.DJ� QUESTION 3 (30] 
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D] (C) QUESTION 3 (30] 
 
 3.1 Debit Trust Cash Book and (Credit Correspondent in the Trust Ledger Account) TRUST CASH BOOK Correspondent 7 500 I3.2 Trust Journal White Correspondent Vat Dr Cr Cr 1140 1000 140 Being Fees charged by Correspondent on collection matter 3.3 3.4 3.5 3.6 3.7 Business Journal/Fee Journal Correspondent Dr 228 
 

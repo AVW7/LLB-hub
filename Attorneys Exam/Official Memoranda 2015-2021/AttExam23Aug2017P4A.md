@@ -12,9 +12,9 @@ paper-number: 4
 source-url: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/LegalPractitionersBookkeeping/2017_23-AUGUST_PART-4_MEMORANDUM.pdf
 confidence: medium
 extraction-reviewed: false
-text-quality-flags:
-- replacement_characters
-- visible_ocr_artifacts
+text-quality-flags: []
+ocr-corrections-date: '2026-10-19'
+character-corrections-reviewed: true
 ---
 
 ## For future agent
@@ -25,13 +25,14 @@ Official guideline model answers for Paper 4, 2017-08-23, recovered on 2026-10-1
 
 > Source: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/LegalPractitionersBookkeeping/2017_23-AUGUST_PART-4_MEMORANDUM.pdf
 > Extracted by: Jina AI Reader on 2026-10-19.
+> OCR review: Targeted character corrections checked against original PDF pages 1 on 2026-10-19.
 > Input SHA-256: e1990a3195f0ccc75e6515d064e41b065a5490edb76d33f645054dc83c1364d0
 
 - Matching question: [[Attorneys Exam/Official Previous Papers 2015-2023/AttExam23Aug2017P4Q]].
 - Original answer PDF: [[Attorneys Exam/Official Memoranda 2015-2021/AttExam23Aug2017P4A.pdf]].
 - Pairing and remaining gaps: [[notes/Board Exam Memo Coverage]].
 - Project: [[projects/Board Exam Archive]].
-- Text review: replacement_characters, visible_ocr_artifacts.
+- Text review: flagged characters corrected against rendered source pages; full transcription has not been proofread.
 
 ## Extracted guideline answers
 
@@ -39,7 +40,7 @@ ADMISSION EXAMINATIONI TOELATINGSEKSAMEN BOOKKEEPINGI BOEKHOU PART 41 DEEL 4 23 
 
 PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. 
 
-NOTE TO EXAMINER: This guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner shoul� apply his discretion in marking the answer. 
+NOTE TO EXAMINER: This guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner should apply his discretion in marking the answer. 
 
 QUESTION 1 (151 1.1 
 

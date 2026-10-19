@@ -12,9 +12,9 @@ paper-number: 1
 source-url: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/CourtProcedures/2015_18-AUGUST_PART-1_MEMORANDUM.pdf
 confidence: medium
 extraction-reviewed: false
-text-quality-flags:
-- replacement_characters
-- visible_ocr_artifacts
+text-quality-flags: []
+ocr-corrections-date: '2026-10-19'
+character-corrections-reviewed: true
 ---
 
 ## For future agent
@@ -25,13 +25,14 @@ Official guideline model answers for Paper 1, 2015-08-18, recovered on 2026-10-1
 
 > Source: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/CourtProcedures/2015_18-AUGUST_PART-1_MEMORANDUM.pdf
 > Extracted by: Jina AI Reader on 2026-10-19.
+> OCR review: Targeted character corrections checked against original PDF pages 1 on 2026-10-19.
 > Input SHA-256: 7a6152af7dc3f5fe955e4d9196147a6cbd7f7b619601695d35aa7be477ba1e02
 
 - Matching question: [[Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Aug2015P1Q]].
 - Original answer PDF: [[Attorneys Exam/Official Memoranda 2015-2021/AttExam18Aug2015P1A.pdf]].
 - Pairing and remaining gaps: [[notes/Board Exam Memo Coverage]].
 - Project: [[projects/Board Exam Archive]].
-- Text review: replacement_characters, visible_ocr_artifacts.
+- Text review: flagged characters corrected against rendered source pages; full transcription has not been proofread.
 
 ## Extracted guideline answers
 
@@ -45,7 +46,7 @@ QUESTION 1 [151
 
 (½) (½) 1.7 No. You are entitled to recover past medical expenses from the RAF whether or not these have been paid by a medical aid scheme as such payments are insurance payments and are considered collateral benefits that do not fall to be deducted by 
 
-# ��- 00 
+ 
 
 ## LEGAL EDUCATION AND DEVELOPMENT [L.E.A.DJ© I1.8 Yes. The psychological seque/ae of a physical bodily injury suffered by a primary victim (person actually involved and physically injured) are deemed to be bodily injuries that are NOT excluded by the Act. (2) 
 

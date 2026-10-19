@@ -109,18 +109,11 @@ Dates and paper numbers were matched from the official download filenames and me
 - The existing question-paper OCR corrections remain in place; see [[notes/Board Exam OCR Audit]] for that separate audit scope.
 - Historical guideline answers are exam material. They do not establish current law or current procedural requirements.
 
-### Text flagged for review
+### Text review update - 2026-10-19
 
-- [[Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2015P2A]]: replacement_characters, visible_ocr_artifacts; replacement characters: 1.
-- [[Attorneys Exam/Official Memoranda 2015-2021/AttExam18Aug2015P1A]]: replacement_characters, visible_ocr_artifacts; replacement characters: 2.
-- [[Attorneys Exam/Official Memoranda 2015-2021/AttExam19Aug2015P4A]]: replacement_characters, visible_ocr_artifacts; replacement characters: 1.
-- [[Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2016P3A]]: replacement_characters, visible_ocr_artifacts; replacement characters: 1.
-- [[Attorneys Exam/Official Memoranda 2015-2021/AttExam14Feb2017P2A]]: replacement_characters, visible_ocr_artifacts; replacement characters: 1.
-- [[Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2017P1A]]: replacement_characters, visible_ocr_artifacts; replacement characters: 4.
-- [[Attorneys Exam/Official Memoranda 2015-2021/AttExam23Aug2017P4A]]: replacement_characters, visible_ocr_artifacts; replacement characters: 1.
-- [[Attorneys Exam/Official Memoranda 2015-2021/AttExam15Oct2018P2A]]: replacement_characters, visible_ocr_artifacts; replacement characters: 6.
-- [[Attorneys Exam/Official Memoranda 2015-2021/AttExam7Mar2019P3A]]: replacement_characters, visible_ocr_artifacts; replacement characters: 1.
-- [[Attorneys Exam/Official Memoranda 2015-2021/AttExam21Aug2019P2A]]: replacement_characters, visible_ocr_artifacts; replacement characters: 6.
+The ten previously flagged official memo extracts were checked against 14 rendered PDF pages. All 24 replacement characters were resolved through targeted corrections, including damaged financial totals. All 50 memo sidecars now pass the basic text checks; this does not certify full proofreading.
+
+For the corrected spans, public-source checks and additional 2022-2023 leads, see [[notes/Board Exam Memo Search - 2026-10-19]]. The 16 official-source gaps remain open.
 
 ## Unverified leads for missing recent memos
 

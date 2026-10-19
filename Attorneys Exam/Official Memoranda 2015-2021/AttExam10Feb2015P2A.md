@@ -12,9 +12,9 @@ paper-number: 2
 source-url: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AdmissionEstate/2015_10-FEBRUARY_PART-2_MEMORANDUM.pdf
 confidence: medium
 extraction-reviewed: false
-text-quality-flags:
-- replacement_characters
-- visible_ocr_artifacts
+text-quality-flags: []
+ocr-corrections-date: '2026-10-19'
+character-corrections-reviewed: true
 ---
 
 ## For future agent
@@ -25,13 +25,14 @@ Official guideline model answers for Paper 2, 2015-02-10, recovered on 2026-10-1
 
 > Source: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/AdmissionEstate/2015_10-FEBRUARY_PART-2_MEMORANDUM.pdf
 > Extracted by: Jina AI Reader on 2026-10-19.
+> OCR review: Targeted character corrections checked against original PDF pages 7 on 2026-10-19.
 > Input SHA-256: 4a79ecd7cdeea3eb4a35dece7c384d7fba1d3f578e376ca0e83a600c62142844
 
 - Matching question: [[Attorneys Exam/Official Previous Papers 2015-2023/AttExam10Feb2015P2Q]].
 - Original answer PDF: [[Attorneys Exam/Official Memoranda 2015-2021/AttExam10Feb2015P2A.pdf]].
 - Pairing and remaining gaps: [[notes/Board Exam Memo Coverage]].
 - Project: [[projects/Board Exam Archive]].
-- Text review: replacement_characters, visible_ocr_artifacts.
+- Text review: flagged characters corrected against rendered source pages; full transcription has not been proofread.
 
 ## Extracted guideline answers
 
@@ -143,7 +144,7 @@ Legal Education and Development {L.E.A.DJTM
 
 # ------------------------
 
-6QUESTION 2 JOINT WILL We, the undersigned, HECTOR DAWOOD Identity Number: 570812 5016 08 8 and DORCAS DAWOOD Identity Number: 601019 0017 08 8[1] (25] spouses married in community of property and presently residing in Boksburg, Gauteng Province, hereby make our Will as follows: 1. REVOCATION OF PRE VIOUS WILLS We revoke all our previous Wills, codicils and testamentary writings made either jointly or individually, and declare this to be our last Will. [2] 2. APPOINTMENT OF EXECUTOR 2.1 We appoint the survivor of us as the executor of our estate, with the power of assumption [1]. If we die simultaneously or should the survivor for any reason be unable or refuse to accept the appointment, we appoint Snow Fall, a director of the legal firm Snowing Incorporated of Boksburg as the executor of our estate, with the power of assumption. [1] 2.2 Any executor appointed in terms of our Will shall be exempt from furnishing security to the Master of the High Court. [1] Johanna Kgopa ---�11 C of Oaths TESTATRIX [1] Jack Frost [1] on behalf of and by the direction of the testator Hector [11 
+6QUESTION 2 JOINT WILL We, the undersigned, HECTOR DAWOOD Identity Number: 570812 5016 08 8 and DORCAS DAWOOD Identity Number: 601019 0017 08 8[1] (25] spouses married in community of property and presently residing in Boksburg, Gauteng Province, hereby make our Will as follows: 1. REVOCATION OF PRE VIOUS WILLS We revoke all our previous Wills, codicils and testamentary writings made either jointly or individually, and declare this to be our last Will. [2] 2. APPOINTMENT OF EXECUTOR 2.1 We appoint the survivor of us as the executor of our estate, with the power of assumption [1]. If we die simultaneously or should the survivor for any reason be unable or refuse to accept the appointment, we appoint Snow Fall, a director of the legal firm Snowing Incorporated of Boksburg as the executor of our estate, with the power of assumption. [1] 2.2 Any executor appointed in terms of our Will shall be exempt from furnishing security to the Master of the High Court. [1] Johanna Kgopa ____ [1] C of Oaths TESTATRIX [1] Jack Frost [1] on behalf of and by the direction of the testator Hector [1] 
 
 Legal Education and Development {L.E.A.DJTM 73. MASSING OF ESTATES AND BENEFICIARIES 3.1 We direct that on the death of the first dying of us, our separate estates shall be massed and consolidated into a single estate [1], which we bequeath to our aforesaid son Steve [1] subject to a usufruct for life in favour of the survivor of us 
 

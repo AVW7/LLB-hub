@@ -12,9 +12,9 @@ paper-number: 1
 source-url: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/CourtProcedures/2017_22-AUGUST_PART-1_MEMORANDUM.pdf
 confidence: medium
 extraction-reviewed: false
-text-quality-flags:
-- replacement_characters
-- visible_ocr_artifacts
+text-quality-flags: []
+ocr-corrections-date: '2026-10-19'
+character-corrections-reviewed: true
 ---
 
 ## For future agent
@@ -25,13 +25,14 @@ Official guideline model answers for Paper 1, 2017-08-22, recovered on 2026-10-1
 
 > Source: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/CourtProcedures/2017_22-AUGUST_PART-1_MEMORANDUM.pdf
 > Extracted by: Jina AI Reader on 2026-10-19.
+> OCR review: Targeted character corrections checked against original PDF pages 2, 6 on 2026-10-19.
 > Input SHA-256: 669355bf8a9212801b5f938391639a4a8ecfeba2d78585aefb24cae352e5945a
 
 - Matching question: [[Attorneys Exam/Official Previous Papers 2015-2023/AttExam22Aug2017P1Q]].
 - Original answer PDF: [[Attorneys Exam/Official Memoranda 2015-2021/AttExam22Aug2017P1A.pdf]].
 - Pairing and remaining gaps: [[notes/Board Exam Memo Coverage]].
 - Project: [[projects/Board Exam Archive]].
-- Text review: replacement_characters, visible_ocr_artifacts.
+- Text review: flagged characters corrected against rendered source pages; full transcription has not been proofread.
 
 ## Extracted guideline answers
 
@@ -85,7 +86,7 @@ Note to examiner: the answer depends on the division of the court the plaintiff 
 
 Note to examiner: candidates who do not set out details of the section number and description of the Act, should not be penalised. 
 
-5. On (date) (½) at (Johannesburg) (½) defendant, acting personally, orally (½) gave plaintiff, acting personally, a mandate (½) to find a purchaser for defendant's fixed property, situated at 12 Rivonia Road, Johannesburg, Gauteng (½) at a selling price of at least R10 million �nd(�- �
+5. On (date) (½) at (Johannesburg) (½) defendant, acting personally, orally (½) gave plaintiff, acting personally, a mandate (½) to find a purchaser for defendant's fixed property, situated at 12 Rivonia Road, Johannesburg, Gauteng (½) at a selling price of at least R10 million Rand (½). (3)
 
 # LEGAL EDUCATION AND DEVELOPMENT [L.E.A.DjfM 26. Plaintiff orally accepted the said mandate. (½) 
 
@@ -165,7 +166,7 @@ QUESTION 12 [51
 
 12.4 Copies of the record and Power of Attorney. (2) 
 
-# LEGAL EDUCATION AND DEVELOP�fENT [L.E.A.DJ™ 6QUESTION 13 [71 
+# LEGAL EDUCATION AND DEVELOPMENT [L.E.A.DJ™ 6QUESTION 13 [71 
 
 Whereas the Plaintiff instituted action against the Defendant for payment of the sum of R240 000,00 plus interest and costs. And whereas the parties have settled the matter. Therefore it is agreed: 
 

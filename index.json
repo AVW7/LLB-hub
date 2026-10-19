@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "lastUpdated": "2026-10-19",
-  "count": 798,
+  "count": 799,
   "subjects": {
     "CCP": "Criminal Court Practice (Module 1)",
     "CLP": "Constitutional Practice (Module 1)",
@@ -206,7 +206,7 @@
         "police-docket"
       ],
       "description": "Attorneys Admission Examination — document",
-      "size_bytes": 8110,
+      "size_bytes": 8486,
       "quality_score": 3.0,
       "gaps": []
     },
@@ -262,7 +262,7 @@
         "plea"
       ],
       "description": "Attorneys Admission Examination — marking memorandum / model answers",
-      "size_bytes": 11770,
+      "size_bytes": 11949,
       "quality_score": 3.0,
       "gaps": []
     },
@@ -293,7 +293,7 @@
         "trust"
       ],
       "description": "Attorneys Admission Examination — marking memorandum / model answers",
-      "size_bytes": 11483,
+      "size_bytes": 11662,
       "quality_score": 3.0,
       "gaps": []
     },
@@ -402,7 +402,7 @@
         "plea"
       ],
       "description": "Attorneys Admission Examination — marking memorandum / model answers",
-      "size_bytes": 9336,
+      "size_bytes": 9489,
       "quality_score": 3.0,
       "gaps": []
     },
@@ -489,7 +489,7 @@
         "vat"
       ],
       "description": "Attorneys Admission Examination — marking memorandum / model answers",
-      "size_bytes": 11041,
+      "size_bytes": 11206,
       "quality_score": 3.0,
       "gaps": []
     },
@@ -663,7 +663,7 @@
         "criminal-procedure-act"
       ],
       "description": "Attorneys Admission Examination — marking memorandum / model answers",
-      "size_bytes": 14101,
+      "size_bytes": 14268,
       "quality_score": 3.0,
       "gaps": []
     },
@@ -805,7 +805,7 @@
         "trust"
       ],
       "description": "Attorneys Admission Examination — marking memorandum / model answers",
-      "size_bytes": 5645,
+      "size_bytes": 5825,
       "quality_score": 3.0,
       "gaps": []
     },
@@ -1090,7 +1090,7 @@
         "vat"
       ],
       "description": "Attorneys Admission Examination — marking memorandum / model answers",
-      "size_bytes": 10669,
+      "size_bytes": 10847,
       "quality_score": 3.0,
       "gaps": []
     },
@@ -1123,7 +1123,7 @@
         "criminal-procedure-act"
       ],
       "description": "Attorneys Admission Examination — marking memorandum / model answers",
-      "size_bytes": 14943,
+      "size_bytes": 15122,
       "quality_score": 3.0,
       "gaps": []
     },
@@ -1262,7 +1262,7 @@
         "trust"
       ],
       "description": "Attorneys Admission Examination — marking memorandum / model answers",
-      "size_bytes": 6064,
+      "size_bytes": 6241,
       "quality_score": 3.0,
       "gaps": []
     },
@@ -1572,7 +1572,7 @@
         "trust"
       ],
       "description": "Attorneys Admission Examination — marking memorandum / model answers",
-      "size_bytes": 11040,
+      "size_bytes": 11219,
       "quality_score": 3.0,
       "gaps": []
     },
@@ -9526,7 +9526,7 @@
         "constitution"
       ],
       "description": "LLB material — document",
-      "size_bytes": 7016,
+      "size_bytes": 7392,
       "quality_score": 3.0,
       "gaps": []
     },
@@ -9681,7 +9681,7 @@
       "type": "general",
       "topics": [],
       "description": "LLB material — document",
-      "size_bytes": 1720,
+      "size_bytes": 2096,
       "quality_score": 3.0,
       "gaps": []
     },
@@ -9692,7 +9692,7 @@
       "type": "general",
       "topics": [],
       "description": "LLB material — document",
-      "size_bytes": 1157,
+      "size_bytes": 1533,
       "quality_score": 3.0,
       "gaps": []
     },
@@ -11350,7 +11350,7 @@
       "type": "general",
       "topics": [],
       "description": "LLB material — document",
-      "size_bytes": 2221,
+      "size_bytes": 2597,
       "quality_score": 3.0,
       "gaps": []
     },
@@ -11374,7 +11374,20 @@
       "type": "marking_memo",
       "topics": [],
       "description": "LLB material — document",
-      "size_bytes": 26729,
+      "size_bytes": 25758,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./notes/Board Exam Memo Search - 2026-10-19.md",
+      "subject": "Uncategorised",
+      "role": "general",
+      "type": "marking_memo",
+      "topics": [
+        "vat"
+      ],
+      "description": "LLB material — document",
+      "size_bytes": 5825,
       "quality_score": 3.0,
       "gaps": []
     },
@@ -11396,7 +11409,7 @@
       "type": "general",
       "topics": [],
       "description": "LLB material — document",
-      "size_bytes": 2774,
+      "size_bytes": 3150,
       "quality_score": 3.0,
       "gaps": []
     },
@@ -13235,7 +13248,8 @@
       "./PLE/notes/qa/PLE 2016-06-28 Special Supp.md",
       "./PLE/notes/qa/PLE 2019-02-03 Assignment.md",
       "./_CLAUDE.md",
-      "./decisions.md"
+      "./decisions.md",
+      "./notes/Board Exam Memo Search - 2026-10-19.md"
     ]
   },
   "typeIndex": {
@@ -14036,7 +14050,8 @@
       "./PLE/PLE28Jun2016A.doc",
       "./PLE/PLE28May2016A.doc",
       "./PLE/PLE30May2015A.doc",
-      "./notes/Board Exam Memo Coverage.md"
+      "./notes/Board Exam Memo Coverage.md",
+      "./notes/Board Exam Memo Search - 2026-10-19.md"
     ],
     "reference": [
       "./LSSA & Miscellaneous /Legal Practice Act 28 of 2014.pdf/markdown.md",
