@@ -106190,35 +106190,41 @@ var ChatView = class extends import_obsidian12.ItemView {
     });
   }
   renderHeaderStatus() {
+    this.headerStatusEl.empty();
+    this.headerStatusEl.createSpan({ cls: "kinetik-status-dot" });
+    const textSpan = this.headerStatusEl.createSpan({ cls: "kinetik-status-text" });
     if (this.mode === "general") {
       const currentPersona = this.plugin.personasDict[this.plugin.settings.personas];
-      this.headerStatusEl.setText(`General chat${currentPersona ? ` - ${currentPersona.displayName}` : ""}`);
+      textSpan.setText(`General chat${currentPersona ? ` \xB7 ${currentPersona.displayName}` : ""}`);
       return;
     }
     const indexedCount = this.plugin.ragManager.getIndexedFilesCount();
     if (indexedCount === 0) {
-      this.headerStatusEl.setText("Index notes to chat across your vault.");
+      textSpan.setText("Index notes to chat across vault");
       return;
     }
     const scopeText = this.scopeSelector ? describeRAGScope(this.scopeSelector.getScope()) : "entire vault";
-    this.headerStatusEl.setText(`${indexedCount} indexed files - ${scopeText}`);
+    textSpan.setText(`${indexedCount} indexed files \xB7 ${scopeText}`);
   }
   renderTargetChip() {
     var _a3;
+    this.targetChipEl.empty();
+    this.targetChipEl.createSpan({ cls: "kinetik-chip-dot" });
+    const textSpan = this.targetChipEl.createSpan({ cls: "kinetik-chip-text" });
     if (this.mode === "notes") {
       const scope = ((_a3 = this.scopeSelector) == null ? void 0 : _a3.getScope()) || { mode: "vault", label: "Entire vault" };
-      this.targetChipEl.setText(describeRAGScope(scope));
+      textSpan.setText(describeRAGScope(scope));
       return;
     }
     if (this.initialChatContext.selectedText && this.initialChatContext.activeNoteTitle) {
-      this.targetChipEl.setText(`Selection in ${this.initialChatContext.activeNoteTitle}`);
+      textSpan.setText(`Selection in ${this.initialChatContext.activeNoteTitle}`);
       return;
     }
     if (this.initialChatContext.activeNoteTitle) {
-      this.targetChipEl.setText(`Active note: ${this.initialChatContext.activeNoteTitle}`);
+      textSpan.setText(`Active note: ${this.initialChatContext.activeNoteTitle}`);
       return;
     }
-    this.targetChipEl.setText("General chat");
+    textSpan.setText("General chat");
   }
   renderReadinessBanner() {
     if (this.mode === "notes" && this.plugin.ragManager.getIndexedFilesCount() === 0) {
@@ -106248,9 +106254,39 @@ var ChatView = class extends import_obsidian12.ItemView {
   }
   showWelcomeMessage() {
     this.chatHistoryEl.empty();
-    this.welcomeEl = this.chatHistoryEl.createDiv({ cls: "llm-helper-chat-empty" });
-    const message = this.mode === "notes" && this.plugin.ragManager.getIndexedFilesCount() === 0 ? "Index notes to chat across your vault." : this.mode === "notes" ? "Ask about your notes, current note, folder, or tags." : "Ask anything, or select text in a note to include it.";
-    this.welcomeEl.setText(message);
+    this.welcomeEl = this.chatHistoryEl.createDiv({ cls: "llm-helper-chat-empty kinetik-hero-card" });
+    const iconBadge = this.welcomeEl.createDiv({ cls: "kinetik-hero-icon" });
+    (0, import_obsidian12.setIcon)(iconBadge, "sparkles");
+    this.welcomeEl.createDiv({ cls: "kinetik-hero-title", text: "LLB Second Brain" });
+    const isNotes = this.mode === "notes";
+    const indexedCount = this.plugin.ragManager.getIndexedFilesCount();
+    const descText = isNotes && indexedCount === 0 ? "Index notes first to enable local neural RAG across your vault." : isNotes ? `Local neural RAG across ${indexedCount} legal files & notes.` : "Study assistant with on-device speech synthesis & voice input.";
+    this.welcomeEl.createDiv({ cls: "kinetik-hero-desc", text: descText });
+    const chipsContainer = this.welcomeEl.createDiv({ cls: "kinetik-hero-chips" });
+    const suggestions = isNotes ? [
+      { label: "Section 60(4) Bail Factors", icon: "scale" },
+      { label: "S v Zinn Sentencing Triad", icon: "file-text" },
+      { label: "Essentialia for Summons", icon: "book-open" },
+      { label: "CCMA Unfair Dismissal (s188)", icon: "briefcase" }
+    ] : [
+      { label: "Summarize this note", icon: "file-text" },
+      { label: "Explain key legal concepts", icon: "help-circle" },
+      { label: "Draft an advice letter", icon: "edit-3" },
+      { label: "Test my knowledge with questions", icon: "check-circle" }
+    ];
+    for (const item of suggestions) {
+      const chip = chipsContainer.createDiv({ cls: "kinetik-chip" });
+      const chipIcon = chip.createSpan({ cls: "kinetik-chip-icon" });
+      (0, import_obsidian12.setIcon)(chipIcon, item.icon);
+      chip.createSpan({ cls: "kinetik-chip-label", text: item.label });
+      chip.addEventListener("click", () => {
+        this.textInput.value = item.label;
+        this.result = item.label;
+        this.resizeComposer();
+        this.updateSubmitButtonState();
+        this.textInput.focus();
+      });
+    }
   }
   hideWelcomeMessage() {
     if (this.welcomeEl) {

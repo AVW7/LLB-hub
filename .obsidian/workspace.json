@@ -192,7 +192,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -208,7 +208,7 @@
       "llb-second-brain:LLM Helper": false
     }
   },
-  "active": "dec42c0db5d640bc",
+  "active": "7ef105b91b1b7261",
   "lastOpenFiles": [
     "Templates/README.md",
     "Logs/README.md"
