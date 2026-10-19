@@ -2265,3 +2265,348 @@
     color: #111111 !important;
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.32);
 }
+
+/* Responsive layouts for narrow Obsidian panes and compact chat modals. */
+.llm-helper-chat-view,
+.llm-helper-radar-view,
+.rag-chat-modal {
+    container-type: inline-size;
+}
+
+.llm-helper-chat-view {
+    container-name: llb-chat;
+}
+
+.llm-helper-radar-view {
+    container-name: llb-radar;
+}
+
+.rag-chat-modal {
+    container-name: llb-rag-modal;
+}
+
+.kinetik-chip {
+    min-width: 0;
+}
+
+.kinetik-chip-text-wrap {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    gap: 2px;
+    min-width: 0;
+}
+
+.kinetik-chip-label {
+    display: block;
+    min-width: 0;
+    overflow-wrap: anywhere;
+    text-overflow: clip;
+    white-space: normal;
+}
+
+.kinetik-chip-desc {
+    display: block;
+    color: var(--text-faint);
+    font-size: 10.5px;
+    line-height: 1.35;
+    overflow-wrap: anywhere;
+}
+
+.kinetik-chip-arrow {
+    flex: 0 0 auto;
+    margin-left: auto;
+    color: var(--text-faint);
+}
+
+.kinetik-radar-tab {
+    flex: 0 0 auto;
+}
+
+.kinetik-card-title,
+.kinetik-card-body,
+.kinetik-action-text {
+    overflow-wrap: anywhere;
+}
+
+.kinetik-source-pill {
+    max-width: 100%;
+    min-width: 0;
+}
+
+.kinetik-source-label {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.kinetik-module-tag {
+    flex: 0 0 auto;
+}
+
+@container llb-chat (max-width: 420px) {
+    .llm-helper-chat-header {
+        gap: 8px;
+        padding: 10px;
+    }
+
+    .llm-helper-chat-mode-toggle {
+        margin: 8px 10px;
+    }
+
+    .llm-helper-chat-mode-toggle button {
+        padding: 6px 9px;
+    }
+
+    .llm-helper-chat-scope {
+        margin-right: 10px;
+        margin-left: 10px;
+        padding: 7px 10px;
+    }
+
+    .llm-helper-chat-scope .rag-chat-scope-select {
+        max-width: 100%;
+        min-width: 0;
+    }
+
+    .llm-helper-chat-empty.kinetik-hero-card {
+        margin-right: 0;
+        margin-left: 0;
+        padding: 20px 14px;
+        border-radius: 16px;
+    }
+
+    .kinetik-chip {
+        gap: 7px;
+        padding: 8px 10px;
+    }
+
+    .llm-helper-chat-input-container {
+        margin: 6px 8px 10px;
+        padding: 8px 10px;
+        border-radius: 14px;
+    }
+
+    .llm-helper-chat-input-row {
+        gap: 4px;
+    }
+
+    .llb-helper-chat-mic-btn {
+        width: 32px;
+        height: 32px;
+    }
+
+    .llm-helper-chat-submit.rag-chat-submit-btn {
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+}
+
+@container llb-chat (max-width: 320px) {
+    .llm-helper-chat-header {
+        gap: 5px;
+        padding: 8px 9px;
+    }
+
+    .llm-helper-chat-icon {
+        width: 28px;
+        height: 28px;
+    }
+
+    .llm-helper-chat-title-text h2 {
+        max-width: 112px;
+        overflow: hidden;
+        font-size: 13px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .llm-helper-chat-header-action {
+        width: 27px;
+        height: 27px;
+    }
+
+    .llm-helper-chat-mode-toggle {
+        margin: 7px 8px;
+    }
+
+    .llm-helper-chat-mode-toggle button {
+        padding: 6px 7px;
+        font-size: 11px;
+    }
+
+    .llm-helper-chat-scope {
+        gap: 6px;
+        margin-right: 8px;
+        margin-left: 8px;
+        padding: 6px 8px;
+    }
+
+    .llm-helper-chat-empty.kinetik-hero-card {
+        padding: 16px 10px;
+    }
+
+    .kinetik-hero-desc {
+        font-size: 11.5px;
+    }
+
+    .kinetik-chip {
+        gap: 6px;
+        padding: 7px 8px;
+    }
+
+    .kinetik-chip-desc {
+        font-size: 10px;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        display: -webkit-box;
+        overflow: hidden;
+    }
+
+    .llm-helper-chat-input-container {
+        margin: 5px 6px 8px;
+        padding: 7px 8px;
+    }
+
+    .llm-helper-chat-target-chip {
+        max-width: 100%;
+        min-width: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .llb-helper-chat-mic-btn {
+        width: 30px;
+        height: 30px;
+    }
+
+    .llm-helper-chat-submit.rag-chat-submit-btn {
+        min-height: 32px;
+        height: 32px;
+        padding-right: 8px;
+        padding-left: 8px;
+        font-size: 11.5px;
+    }
+
+    .llm-helper-chat-disclaimer {
+        font-size: 9.5px;
+    }
+}
+
+@container llb-radar (max-width: 380px) {
+    .llm-helper-radar-content {
+        padding: 12px 10px;
+    }
+
+    .kinetik-radar-header {
+        gap: 8px;
+    }
+
+    .kinetik-radar-run-btn {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .kinetik-radar-tabs {
+        gap: 3px;
+        padding: 3px;
+    }
+
+    .kinetik-radar-tab {
+        gap: 4px;
+        padding: 5px 7px;
+        font-size: 10.5px;
+    }
+
+    .kinetik-radar-results {
+        gap: 10px;
+    }
+
+    .kinetik-radar-card {
+        padding: 12px;
+    }
+
+    .kinetik-card-header {
+        flex-wrap: wrap;
+    }
+
+    .kinetik-card-title-group {
+        flex: 1 1 140px;
+    }
+
+    .kinetik-confidence-meter {
+        margin-left: auto;
+    }
+}
+
+@container llb-radar (max-width: 320px) {
+    .kinetik-radar-header {
+        flex-wrap: wrap;
+    }
+
+    .kinetik-radar-title-wrap {
+        flex: 1 1 100%;
+        min-width: 0;
+    }
+
+    .kinetik-radar-run-btn {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .kinetik-radar-tab {
+        gap: 3px;
+        padding: 5px 6px;
+        font-size: 10px;
+    }
+
+    .kinetik-radar-card {
+        padding: 10px;
+    }
+
+    .kinetik-confidence-meter {
+        padding: 2px 5px;
+    }
+}
+
+@container llb-rag-modal (max-width: 480px) {
+    .rag-chat-header {
+        gap: 8px;
+        padding: 12px;
+    }
+
+    .rag-chat-scope-bar,
+    .workflow-runner-bar,
+    .workflow-runner-fields {
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+    .rag-chat-scope-meta,
+    .rag-chat-scope-input-wrap,
+    .workflow-runner-field-row .rag-chat-scope-input {
+        min-width: 0;
+    }
+
+    .workflow-runner-field-row .rag-chat-scope-label {
+        min-width: 0;
+    }
+
+    .rag-chat-input-container {
+        padding: 10px 12px;
+    }
+
+    .rag-chat-message {
+        max-width: 94%;
+        padding: 9px 11px;
+    }
+}
+
+@media (max-height: 560px) and (max-width: 600px) {
+    .rag-chat-modal {
+        height: calc(100dvh - 24px);
+        max-height: none;
+    }
+}
