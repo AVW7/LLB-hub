@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "f7ea8f4e635c6f41",
@@ -179,13 +180,23 @@
               "icon": "messages-square",
               "title": "LLM Chat"
             }
+          },
+          {
+            "id": "7ef105b91b1b7261",
+            "type": "leaf",
+            "state": {
+              "type": "llm-helper-vault-radar",
+              "state": {},
+              "icon": "radar",
+              "title": "Vault Radar"
+            }
           }
         ],
         "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 321.28125
+    "width": 398.07421875
   },
   "left-ribbon": {
     "hiddenItems": {

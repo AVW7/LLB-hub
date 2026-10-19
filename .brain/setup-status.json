@@ -1,9 +1,23 @@
 {
   "vault_configured": true,
   "models_installed": false,
-  "retrieval_indexed": false,
-  "updated": "2026-10-19T14:27:32.282284+02:00",
+  "retrieval_indexed": true,
+  "updated": "2026-10-19T14:41:42.456469+02:00",
   "embedding_model_installed": true,
   "plugin_built": true,
-  "word_extraction": "macOS textutil"
+  "word_extraction": "macOS textutil",
+  "indexed_sources": 541,
+  "indexed_chunks": 7378,
+  "embedding_dimensions": 768,
+  "source_counts": {
+    "markdown": 334,
+    "document": 202,
+    "pdf": 5
+  },
+  "plugin_enabled": true,
+  "vault_opened": true,
+  "chat_model_download_in_progress": true,
+  "answer_model_ready": false,
+  "catalogue_entries": 562,
+  "protected_originals_unchanged": 1125
 }

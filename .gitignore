@@ -1,0 +1,7 @@
+# Local data and secrets (keep private)
+.obsidian/plugins/llb-second-brain/embeddings.json
+.obsidian/plugins/llb-second-brain/data.json
+.obsidian/workspace.json
+.DS_Store
+__pycache__/
+*.pyc

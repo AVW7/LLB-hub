@@ -1666,3 +1666,66 @@
 	width: 100%;
 	font-weight: var(--font-normal);
 }
+
+/* Voice Integration Styles */
+.rag-chat-speak-btn {
+    position: absolute;
+    top: 8px;
+    right: 36px;
+    padding: 4px;
+    border: none;
+    border-radius: 4px;
+    background-color: transparent;
+    color: var(--text-muted);
+    cursor: pointer;
+    opacity: 0;
+    transition: all 0.15s ease;
+}
+
+.rag-chat-message-ai:hover .rag-chat-speak-btn {
+    opacity: 1;
+}
+
+.rag-chat-speak-btn.is-playing {
+    opacity: 1;
+    color: var(--text-accent);
+}
+
+.rag-chat-speak-btn:hover {
+    background-color: var(--background-modifier-hover);
+    color: var(--text-normal);
+}
+
+.rag-chat-speak-btn svg {
+    width: 14px;
+    height: 14px;
+}
+
+.llb-helper-chat-mic-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    border: none;
+    background: transparent;
+    color: var(--text-muted);
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    margin-right: 4px;
+}
+
+.llb-helper-chat-mic-btn:hover {
+    color: var(--text-normal);
+    background-color: var(--background-modifier-hover);
+}
+
+.llb-helper-chat-mic-btn.is-recording {
+    color: var(--text-error, #f75555);
+    background-color: rgba(255, 0, 0, 0.15);
+}
+
+.llb-helper-chat-mic-btn svg {
+    width: 16px;
+    height: 16px;
+}

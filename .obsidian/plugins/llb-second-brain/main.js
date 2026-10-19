@@ -102269,7 +102269,7 @@ var ChatRenderScope = class {
 };
 
 // main.ts
-var import_obsidian19 = require("obsidian");
+var import_obsidian20 = require("obsidian");
 
 // src/autoTagger.ts
 var import_obsidian3 = require("obsidian");
@@ -104706,10 +104706,152 @@ var BacklinkGenerator = class {
 };
 
 // src/ragChatModal.ts
-var import_obsidian10 = require("obsidian");
+var import_obsidian11 = require("obsidian");
+
+// src/voiceHelper.ts
+var import_obsidian8 = require("obsidian");
+var VoiceHelper = class {
+  constructor() {
+    this.currentAudio = null;
+    this.currentBlobUrl = null;
+    this.mediaRecorder = null;
+    this.recordedChunks = [];
+    this.activeButton = null;
+    this.isRecording = false;
+  }
+  cleanTextForSpeech(text) {
+    return text.replace(/```[\s\S]*?```/g, "Code block omitted.").replace(/`([^`]+)`/g, "$1").replace(/\[\[(?:[^|\]]*\|)?([^\]]+)\]\]/g, "$1").replace(/\[([^\]]+)\]\([^)]+\)/g, "$1").replace(/[*_~#]/g, "").replace(/>\s*/g, "").replace(/[-+*]\s+/g, "").replace(/\n+/g, " ").trim();
+  }
+  stopSpeaking() {
+    if (this.currentAudio) {
+      this.currentAudio.pause();
+      this.currentAudio.currentTime = 0;
+      this.currentAudio = null;
+    }
+    if (this.currentBlobUrl) {
+      URL.revokeObjectURL(this.currentBlobUrl);
+      this.currentBlobUrl = null;
+    }
+    if (this.activeButton) {
+      this.activeButton.removeClass("is-playing");
+      (0, import_obsidian8.setIcon)(this.activeButton, "volume-2");
+      this.activeButton.setAttribute("aria-label", "Read aloud");
+      this.activeButton = null;
+    }
+  }
+  async speak(text, serverUrl = "http://127.0.0.1:8880", model = "kokoro", voice = "af_heart", speed = 1, buttonEl) {
+    if (this.currentAudio && this.activeButton === buttonEl) {
+      this.stopSpeaking();
+      return;
+    }
+    this.stopSpeaking();
+    const cleanText2 = this.cleanTextForSpeech(text);
+    if (!cleanText2) {
+      new import_obsidian8.Notice("No readable text to speak.");
+      return;
+    }
+    if (buttonEl) {
+      this.activeButton = buttonEl;
+      buttonEl.addClass("is-playing");
+      (0, import_obsidian8.setIcon)(buttonEl, "loader");
+      buttonEl.setAttribute("aria-label", "Synthesizing audio...");
+    }
+    try {
+      const res = await fetch(`${serverUrl}/v1/audio/speech`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          model,
+          input: cleanText2,
+          voice,
+          speed,
+          response_format: "wav"
+        })
+      });
+      if (!res.ok) {
+        const errText = await res.text();
+        throw new Error(`Voice server error (${res.status}): ${errText}`);
+      }
+      const blob = await res.blob();
+      this.currentBlobUrl = URL.createObjectURL(blob);
+      this.currentAudio = new Audio(this.currentBlobUrl);
+      if (buttonEl) {
+        (0, import_obsidian8.setIcon)(buttonEl, "square");
+        buttonEl.setAttribute("aria-label", "Stop speaking");
+      }
+      this.currentAudio.onended = () => {
+        this.stopSpeaking();
+      };
+      this.currentAudio.onerror = (e) => {
+        console.error("Audio playback error:", e);
+        new import_obsidian8.Notice("Audio playback failed.");
+        this.stopSpeaking();
+      };
+      await this.currentAudio.play();
+    } catch (error) {
+      console.error("Speech synthesis failed:", error);
+      new import_obsidian8.Notice(error instanceof Error ? error.message : "Voice synthesis failed. Ensure local-tts is running.");
+      this.stopSpeaking();
+    }
+  }
+  async startRecording() {
+    if (this.isRecording) return;
+    try {
+      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      this.recordedChunks = [];
+      this.mediaRecorder = new MediaRecorder(stream);
+      this.mediaRecorder.ondataavailable = (event) => {
+        if (event.data.size > 0) {
+          this.recordedChunks.push(event.data);
+        }
+      };
+      this.mediaRecorder.start();
+      this.isRecording = true;
+    } catch (error) {
+      console.error("Microphone access failed:", error);
+      throw new Error("Could not access microphone. Check system permissions.");
+    }
+  }
+  async stopRecordingAndTranscribe(serverUrl = "http://127.0.0.1:8880", model = "mlx-community/whisper-tiny") {
+    if (!this.isRecording || !this.mediaRecorder) {
+      return "";
+    }
+    return new Promise((resolve, reject) => {
+      this.mediaRecorder.onstop = async () => {
+        var _a3;
+        this.isRecording = false;
+        (_a3 = this.mediaRecorder) == null ? void 0 : _a3.stream.getTracks().forEach((track) => track.stop());
+        try {
+          const blob = new Blob(this.recordedChunks, { type: "audio/webm" });
+          if (blob.size === 0) {
+            resolve("");
+            return;
+          }
+          const formData = new FormData();
+          formData.append("file", blob, "recording.webm");
+          formData.append("model", model);
+          const res = await fetch(`${serverUrl}/v1/audio/transcriptions`, {
+            method: "POST",
+            body: formData
+          });
+          if (!res.ok) {
+            const err = await res.text();
+            throw new Error(`Transcription failed: ${err}`);
+          }
+          const data = await res.json();
+          resolve((data.text || "").trim());
+        } catch (error) {
+          reject(error);
+        }
+      };
+      this.mediaRecorder.stop();
+    });
+  }
+};
+var voiceHelper = new VoiceHelper();
 
 // src/vaultAgent.ts
-var import_obsidian8 = require("obsidian");
+var import_obsidian9 = require("obsidian");
 
 // src/reasoningExtractor.ts
 var DEFAULT_REASONING_MARKERS = [
@@ -104948,7 +105090,7 @@ var VaultAgentService = class {
       }
       if (pendingAction.action.type === "append_to_note") {
         const resolved = pendingAction.resolvedPath ? this.app.vault.getAbstractFileByPath(pendingAction.resolvedPath) : null;
-        if (!(resolved instanceof import_obsidian8.TFile) || !isSafeVaultMarkdownPath(resolved.path)) {
+        if (!(resolved instanceof import_obsidian9.TFile) || !isSafeVaultMarkdownPath(resolved.path)) {
           return { success: false, message: "The approved target note is no longer available. Re-run the request." };
         }
         const existing = await this.app.vault.cachedRead(resolved);
@@ -104959,7 +105101,7 @@ ${pendingAction.action.content}` : pendingAction.action.content;
         return { success: true, message: `Appended content to ${resolved.path}` };
       }
       if (pendingAction.action.type === "replace_selection") {
-        const view = this.app.workspace.getActiveViewOfType(import_obsidian8.MarkdownView);
+        const view = this.app.workspace.getActiveViewOfType(import_obsidian9.MarkdownView);
         if (!view || view.getMode() !== "source" || !("editor" in view)) {
           return { success: false, message: "No editable markdown selection is active." };
         }
@@ -105004,6 +105146,16 @@ ${pendingAction.action.content}` : pendingAction.action.content;
     }
     const copyText = renderedMessage || response.rawResponse;
     this.appendCopyButton(assistantMessage, copyText, options.copyButtonClassName);
+    this.appendSpeakButton(assistantMessage, copyText);
+    if (this.plugin.settings.autoSpeakResponse) {
+      void voiceHelper.speak(
+        copyText,
+        this.plugin.settings.voiceServerAddress,
+        this.plugin.settings.voiceModel,
+        this.plugin.settings.voiceSpeaker,
+        this.plugin.settings.voiceSpeed
+      );
+    }
     (_b = options.scrollToBottom) == null ? void 0 : _b.call(options);
     return renderedMessage;
   }
@@ -105068,14 +105220,14 @@ ${pendingAction.action.content}` : pendingAction.action.content;
           statusEl.setText(result.message);
           statusEl.removeClass("is-invalid");
           statusEl.addClass("is-approved");
-          new import_obsidian8.Notice(result.message);
+          new import_obsidian9.Notice(result.message);
         } else {
           action.status = "failed";
           statusEl.setText(result.message);
           statusEl.removeClass("is-approved");
           statusEl.addClass("is-invalid");
           rejectBtn.disabled = false;
-          new import_obsidian8.Notice(result.message);
+          new import_obsidian9.Notice(result.message);
         }
         scrollToBottom2 == null ? void 0 : scrollToBottom2();
       })();
@@ -105087,7 +105239,7 @@ ${pendingAction.action.content}` : pendingAction.action.content;
       statusEl.setText("Action rejected. No changes were made.");
       statusEl.removeClass("is-approved");
       statusEl.addClass("is-rejected");
-      new import_obsidian8.Notice("Action rejected. No changes were made.");
+      new import_obsidian9.Notice("Action rejected. No changes were made.");
       scrollToBottom2 == null ? void 0 : scrollToBottom2();
     });
   }
@@ -105098,14 +105250,14 @@ ${pendingAction.action.content}` : pendingAction.action.content;
     for (const source of sources) {
       const item = sourcesList.createDiv({ cls: "rag-chat-source-item" });
       const icon = item.createSpan({ cls: "rag-chat-source-icon" });
-      (0, import_obsidian8.setIcon)(icon, source.sourceType === "image" ? "image" : "file-text");
+      (0, import_obsidian9.setIcon)(icon, source.sourceType === "image" ? "image" : "file-text");
       const sourceText = item.createDiv({ cls: "rag-chat-source-text" });
       const file = this.app.vault.getAbstractFileByPath(source.path);
       sourceText.createSpan({
         text: source.label,
         cls: "rag-chat-source-name"
       });
-      if (file instanceof import_obsidian8.TFile) {
+      if (file instanceof import_obsidian9.TFile) {
         sourceText.createSpan({ text: source.path, cls: "rag-chat-source-path" });
       }
       item.addEventListener("click", () => {
@@ -105113,15 +105265,30 @@ ${pendingAction.action.content}` : pendingAction.action.content;
       });
     }
   }
+  appendSpeakButton(container, text) {
+    const speakButton = container.createEl("button", { cls: "rag-chat-speak-btn" });
+    (0, import_obsidian9.setIcon)(speakButton, "volume-2");
+    speakButton.setAttribute("aria-label", "Read aloud");
+    speakButton.addEventListener("click", () => {
+      void voiceHelper.speak(
+        text,
+        this.plugin.settings.voiceServerAddress,
+        this.plugin.settings.voiceModel,
+        this.plugin.settings.voiceSpeaker,
+        this.plugin.settings.voiceSpeed,
+        speakButton
+      );
+    });
+  }
   appendCopyButton(container, text, className) {
     const copyButton = container.createEl("button", { cls: className || "copy-button" });
-    (0, import_obsidian8.setIcon)(copyButton, "copy");
+    (0, import_obsidian9.setIcon)(copyButton, "copy");
     copyButton.setAttribute("aria-label", "Copy response");
     copyButton.addEventListener("click", () => {
       void navigator.clipboard.writeText(text).then(() => {
-        new import_obsidian8.Notice("Copied to clipboard");
+        new import_obsidian9.Notice("Copied to clipboard");
       }).catch(() => {
-        new import_obsidian8.Notice("Could not copy to clipboard");
+        new import_obsidian9.Notice("Could not copy to clipboard");
       });
     });
   }
@@ -105255,7 +105422,7 @@ ${action.content}`;
     const directCandidates = [trimmed, ...trimmed.endsWith(".md") ? [] : [`${trimmed}.md`]];
     for (const candidate of directCandidates) {
       const direct = this.app.vault.getAbstractFileByPath(candidate);
-      if (direct instanceof import_obsidian8.TFile) {
+      if (direct instanceof import_obsidian9.TFile) {
         if (!isSafeVaultMarkdownPath(direct.path)) {
           return { ok: false, error: "Append target must be a Markdown note outside hidden folders." };
         }
@@ -105289,7 +105456,7 @@ ${action.content}`;
 };
 function getActiveChatContext(app) {
   var _a3, _b, _c;
-  const view = app.workspace.getActiveViewOfType(import_obsidian8.MarkdownView);
+  const view = app.workspace.getActiveViewOfType(import_obsidian9.MarkdownView);
   if (!view || !view.file) {
     const file = app.workspace.getActiveFile();
     return file ? {
@@ -105340,7 +105507,7 @@ function renderSafeMarkdownishText(container, text) {
 }
 
 // src/ragScope.ts
-var import_obsidian9 = require("obsidian");
+var import_obsidian10 = require("obsidian");
 function getActiveMarkdownFile(app) {
   return app.workspace.getActiveFile();
 }
@@ -105420,7 +105587,7 @@ var RAGScopeSelector = class {
       this.scopeDraftValue = options.initialScope.tags.map((tag) => `#${tag.replace(/^#/, "")}`).join(", ");
     }
     const scopeLabel = parentEl.createSpan({ text: "Scope", cls: "rag-chat-scope-label" });
-    this.scopeSelect = new import_obsidian9.DropdownComponent(parentEl);
+    this.scopeSelect = new import_obsidian10.DropdownComponent(parentEl);
     this.scopeSelect.selectEl.addClass("rag-chat-scope-select");
     if (this.pinnedScope) {
       this.scopeSelect.addOption("pinned-paths", getPinnedOptionLabel(this.pinnedScope));
@@ -105469,7 +105636,7 @@ var RAGScopeSelector = class {
       return;
     }
     const tagInputWrap = this.scopeMetaEl.createDiv({ cls: "rag-chat-scope-input-wrap" });
-    this.scopeValueInput = new import_obsidian9.TextComponent(tagInputWrap).setPlaceholder("#project, #meeting-notes").setValue(this.scopeDraftValue).onChange((value) => {
+    this.scopeValueInput = new import_obsidian10.TextComponent(tagInputWrap).setPlaceholder("#project, #meeting-notes").setValue(this.scopeDraftValue).onChange((value) => {
       var _a3, _b;
       this.scopeDraftValue = value;
       this.updateScopeMeta();
@@ -105618,7 +105785,7 @@ function resolveNoteReference(app, reference) {
 }
 
 // src/ragChatModal.ts
-var RAGChatModal = class extends import_obsidian10.Modal {
+var RAGChatModal = class extends import_obsidian11.Modal {
   constructor(app, settings, ragManager, plugin, initialScope) {
     super(app);
     this.result = "";
@@ -105639,7 +105806,7 @@ var RAGChatModal = class extends import_obsidian10.Modal {
     contentEl.addClass("rag-chat-modal");
     const header = contentEl.createDiv({ cls: "rag-chat-header" });
     const headerIcon = header.createSpan({ cls: "rag-chat-header-icon" });
-    (0, import_obsidian10.setIcon)(headerIcon, "book-open");
+    (0, import_obsidian11.setIcon)(headerIcon, "book-open");
     const headerText = header.createDiv({ cls: "rag-chat-header-text" });
     headerText.createEl("h2", { text: "Chat with notes" });
     const indexedCount = this.ragManager.getIndexedFilesCount();
@@ -105654,9 +105821,9 @@ var RAGChatModal = class extends import_obsidian10.Modal {
     this.showWelcomeMessage();
     const inputContainer = contentEl.createDiv({ cls: "rag-chat-input-container" });
     const inputRow = inputContainer.createDiv({ cls: "rag-chat-input-row" });
-    const clearBtn = new import_obsidian10.ButtonComponent(inputRow).setIcon("trash-2").setTooltip("Clear conversation").onClick(() => this.clearConversation());
+    const clearBtn = new import_obsidian11.ButtonComponent(inputRow).setIcon("trash-2").setTooltip("Clear conversation").onClick(() => this.clearConversation());
     clearBtn.buttonEl.addClass("rag-chat-clear-btn");
-    this.textInput = new import_obsidian10.TextComponent(inputRow).setPlaceholder("Ask about your notes... Use @[[note name]], @folder(path), or #tag").onChange((value) => {
+    this.textInput = new import_obsidian11.TextComponent(inputRow).setPlaceholder("Ask about your notes... Use @[[note name]], @folder(path), or #tag").onChange((value) => {
       this.result = value;
       this.updateSubmitButtonState();
     });
@@ -105667,7 +105834,7 @@ var RAGChatModal = class extends import_obsidian10.Modal {
         void this.handleSubmit();
       }
     });
-    this.submitButton = new import_obsidian10.ButtonComponent(inputRow).setButtonText("Send").setCta().onClick(() => void this.handleSubmit());
+    this.submitButton = new import_obsidian11.ButtonComponent(inputRow).setButtonText("Send").setCta().onClick(() => void this.handleSubmit());
     this.submitButton.buttonEl.addClass("rag-chat-submit-btn");
     this.updateSubmitButtonState();
     this.textInput.inputEl.focus();
@@ -105743,7 +105910,7 @@ var RAGChatModal = class extends import_obsidian10.Modal {
         }
       );
       updateConversationHistory(this.conversationHistory, query, renderedMessage, this.pluginSettings.maxConvHistory);
-      new import_obsidian10.Notice("Notes chat response ready.");
+      new import_obsidian11.Notice("Notes chat response ready.");
       this.scrollToBottom();
     } catch (error) {
       if (requestId !== this.activeRequestId) return;
@@ -105753,7 +105920,7 @@ var RAGChatModal = class extends import_obsidian10.Modal {
         text: error instanceof Error ? error.message : "Failed to get response. Make sure notes are indexed."
       });
       console.error("RAG Chat Error:", error);
-      new import_obsidian10.Notice(error instanceof Error ? error.message : "Notes chat failed. Make sure notes are indexed.");
+      new import_obsidian11.Notice(error instanceof Error ? error.message : "Notes chat failed. Make sure notes are indexed.");
       this.scrollToBottom();
     } finally {
       if (requestId === this.activeRequestId) {
@@ -105797,9 +105964,9 @@ var RAGChatModal = class extends import_obsidian10.Modal {
 };
 
 // src/chatView.ts
-var import_obsidian11 = require("obsidian");
+var import_obsidian12 = require("obsidian");
 var CHAT_VIEW_TYPE = "llm-helper-chat";
-var ChatView = class extends import_obsidian11.ItemView {
+var ChatView = class extends import_obsidian12.ItemView {
   constructor(leaf, plugin) {
     super(leaf);
     this.renderScope = new ChatRenderScope();
@@ -105829,7 +105996,7 @@ var ChatView = class extends import_obsidian11.ItemView {
     this.contentEl.addClass("llm-helper-chat-content");
     this.renderShell();
     this.registerEvent(this.app.workspace.on("active-leaf-change", (leaf) => {
-      if ((leaf == null ? void 0 : leaf.view) instanceof import_obsidian11.MarkdownView) {
+      if ((leaf == null ? void 0 : leaf.view) instanceof import_obsidian12.MarkdownView) {
         this.initialChatContext = getActiveChatContext(this.app);
         this.renderHeaderStatus();
         this.renderTargetChip();
@@ -105880,14 +106047,14 @@ var ChatView = class extends import_obsidian11.ItemView {
     const headerEl = contentEl.createDiv({ cls: "llm-helper-chat-header" });
     const titleWrap = headerEl.createDiv({ cls: "llm-helper-chat-title-wrap" });
     const iconEl = titleWrap.createSpan({ cls: "llm-helper-chat-icon" });
-    (0, import_obsidian11.setIcon)(iconEl, "messages-square");
+    (0, import_obsidian12.setIcon)(iconEl, "messages-square");
     const titleText = titleWrap.createDiv({ cls: "llm-helper-chat-title-text" });
     titleText.createEl("h2", { text: "LLM Chat" });
     this.headerStatusEl = titleText.createDiv({ cls: "llm-helper-chat-status" });
     this.markdownRenderBtn = headerEl.createEl("button", {
       cls: "clickable-icon llm-helper-chat-header-action"
     });
-    (0, import_obsidian11.setIcon)(this.markdownRenderBtn, "pilcrow");
+    (0, import_obsidian12.setIcon)(this.markdownRenderBtn, "pilcrow");
     this.markdownRenderBtn.addEventListener("click", () => {
       void this.toggleMarkdownRendering();
     });
@@ -105896,7 +106063,7 @@ var ChatView = class extends import_obsidian11.ItemView {
       cls: "clickable-icon llm-helper-chat-header-action",
       attr: { "aria-label": "Clear chat" }
     });
-    (0, import_obsidian11.setIcon)(clearBtn, "trash-2");
+    (0, import_obsidian12.setIcon)(clearBtn, "trash-2");
     clearBtn.addEventListener("click", () => this.clearConversation());
     const modeEl = contentEl.createDiv({ cls: "llm-helper-chat-mode-toggle" });
     this.modeGeneralBtn = modeEl.createEl("button", { text: "General" });
@@ -105929,7 +106096,51 @@ var ChatView = class extends import_obsidian11.ItemView {
         void this.handleSubmit();
       }
     });
-    this.submitButton = new import_obsidian11.ButtonComponent(inputRow).setButtonText("Send").setCta().onClick(() => {
+    const micButton = inputRow.createEl("button", {
+      cls: "llb-helper-chat-mic-btn",
+      attr: {
+        "aria-label": "Voice input (Dictate)",
+        type: "button"
+      }
+    });
+    (0, import_obsidian12.setIcon)(micButton, "mic");
+    micButton.addEventListener("click", async () => {
+      if (voiceHelper.isRecording) {
+        (0, import_obsidian12.setIcon)(micButton, "loader");
+        micButton.removeClass("is-recording");
+        this.setStatusBanner("Transcribing voice...", "info");
+        try {
+          const text = await voiceHelper.stopRecordingAndTranscribe(
+            this.plugin.settings.voiceServerAddress
+          );
+          this.clearStatusBanner();
+          if (text) {
+            this.textInput.value = (this.textInput.value + " " + text).trim();
+            this.result = this.textInput.value;
+            this.resizeComposer();
+            this.updateSubmitButtonState();
+            this.textInput.focus();
+          } else {
+            new import_obsidian12.Notice("No speech detected.");
+          }
+        } catch (err) {
+          this.clearStatusBanner();
+          new import_obsidian12.Notice(err instanceof Error ? err.message : "Voice transcription failed.");
+        } finally {
+          (0, import_obsidian12.setIcon)(micButton, "mic");
+        }
+      } else {
+        try {
+          await voiceHelper.startRecording();
+          micButton.addClass("is-recording");
+          (0, import_obsidian12.setIcon)(micButton, "square");
+          this.setStatusBanner("Listening... Click mic again when done.", "info");
+        } catch (err) {
+          new import_obsidian12.Notice(err instanceof Error ? err.message : "Could not start microphone.");
+        }
+      }
+    });
+    this.submitButton = new import_obsidian12.ButtonComponent(inputRow).setButtonText("Send").setCta().onClick(() => {
       if (this.isGenerating) {
         this.stopGeneration();
         return;
@@ -105961,7 +106172,7 @@ var ChatView = class extends import_obsidian11.ItemView {
     this.plugin.settings.renderMarkdownInChat = nextValue;
     this.renderMarkdownToggle();
     await this.plugin.saveSettings();
-    new import_obsidian11.Notice(`Markdown rendering ${nextValue ? "enabled" : "disabled"} for new responses.`);
+    new import_obsidian12.Notice(`Markdown rendering ${nextValue ? "enabled" : "disabled"} for new responses.`);
   }
   renderScopeSelector() {
     this.scopeContainerEl.empty();
@@ -106105,7 +106316,7 @@ var ChatView = class extends import_obsidian11.ItemView {
       });
       console.error("Sidebar chat error:", error);
       this.setStatusBanner(this.getFriendlyErrorMessage(error), "error");
-      new import_obsidian11.Notice(errorText);
+      new import_obsidian12.Notice(errorText);
       this.scrollToBottom();
     } finally {
       if (requestId === this.activeRequestId) {
@@ -106188,8 +106399,8 @@ var ChatView = class extends import_obsidian11.ItemView {
 };
 
 // src/promptPickerModal.ts
-var import_obsidian12 = require("obsidian");
-var PromptPickerModal = class extends import_obsidian12.Modal {
+var import_obsidian13 = require("obsidian");
+var PromptPickerModal = class extends import_obsidian13.Modal {
   constructor(app, onSelect) {
     super(app);
     this.onSelect = onSelect;
@@ -106222,7 +106433,7 @@ var PromptPickerModal = class extends import_obsidian12.Modal {
         rows: "3"
       }
     });
-    new import_obsidian12.Setting(contentEl).addButton((btn) => btn.setButtonText("Apply custom prompt").setCta().onClick(() => {
+    new import_obsidian13.Setting(contentEl).addButton((btn) => btn.setButtonText("Apply custom prompt").setCta().onClick(() => {
       const customPrompt = this.customPromptInput.value.trim();
       if (customPrompt) {
         this.close();
@@ -106311,12 +106522,12 @@ function buildPersonasDict(savedPersonas) {
 }
 
 // src/customPrompts.ts
-var import_obsidian13 = require("obsidian");
+var import_obsidian14 = require("obsidian");
 function generatePromptId(title, seed) {
   const slug = title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "") || "untitled";
   return `custom-prompt-${slug}-${seed.toString(36)}`;
 }
-var SelectPromptModal = class extends import_obsidian13.FuzzySuggestModal {
+var SelectPromptModal = class extends import_obsidian14.FuzzySuggestModal {
   constructor(app, prompts, onChoose) {
     super(app);
     this.prompts = prompts;
@@ -106335,9 +106546,9 @@ var SelectPromptModal = class extends import_obsidian13.FuzzySuggestModal {
 };
 
 // src/relatedNotesView.ts
-var import_obsidian14 = require("obsidian");
+var import_obsidian15 = require("obsidian");
 var RELATED_NOTES_VIEW_TYPE = "llm-helper-related-notes";
-var RelatedNotesView = class extends import_obsidian14.ItemView {
+var RelatedNotesView = class extends import_obsidian15.ItemView {
   constructor(leaf, plugin) {
     super(leaf);
     this.selectedPaths = /* @__PURE__ */ new Set();
@@ -106400,7 +106611,7 @@ var RelatedNotesView = class extends import_obsidian14.ItemView {
       console.error("Related notes refresh failed:", error);
       this.setStatus("Could not load related notes.");
       this.showEmptyState("Search failed. Check the console for details.");
-      new import_obsidian14.Notice("Could not load Related Notes. Check console for details.");
+      new import_obsidian15.Notice("Could not load Related Notes. Check console for details.");
     }
   }
   renderShell() {
@@ -106409,7 +106620,7 @@ var RelatedNotesView = class extends import_obsidian14.ItemView {
     const headerEl = contentEl.createDiv({ cls: "llm-helper-related-notes-header" });
     const titleWrap = headerEl.createDiv({ cls: "llm-helper-related-notes-title-wrap" });
     const iconEl = titleWrap.createSpan({ cls: "llm-helper-related-notes-icon" });
-    (0, import_obsidian14.setIcon)(iconEl, "sparkles");
+    (0, import_obsidian15.setIcon)(iconEl, "sparkles");
     const titleText = titleWrap.createDiv({ cls: "llm-helper-related-notes-title-text" });
     titleText.createEl("h2", { text: "Related Notes" });
     this.statusEl = titleText.createDiv({ cls: "llm-helper-related-notes-status" });
@@ -106417,7 +106628,7 @@ var RelatedNotesView = class extends import_obsidian14.ItemView {
       cls: "clickable-icon llm-helper-related-notes-refresh",
       attr: { "aria-label": "Refresh Related Notes" }
     });
-    (0, import_obsidian14.setIcon)(refreshBtn, "refresh-cw");
+    (0, import_obsidian15.setIcon)(refreshBtn, "refresh-cw");
     refreshBtn.addEventListener("click", () => {
       void this.refresh();
     });
@@ -106431,7 +106642,7 @@ var RelatedNotesView = class extends import_obsidian14.ItemView {
     if (this.currentResults.length === 0) {
       this.setStatus(`No strong matches found for ${((_a3 = this.currentContext) == null ? void 0 : _a3.description.toLowerCase()) || "this context"}.`);
       this.showEmptyState("Try selecting a more specific passage or re-indexing recent notes.");
-      new import_obsidian14.Notice("No Related Notes found. Try selecting a more specific passage.");
+      new import_obsidian15.Notice("No Related Notes found. Try selecting a more specific passage.");
       return;
     }
     this.setStatus(`Showing ${this.currentResults.length} matches for ${(_b = this.currentContext) == null ? void 0 : _b.description.toLowerCase()}.`);
@@ -106496,7 +106707,7 @@ var RelatedNotesView = class extends import_obsidian14.ItemView {
     chatSelectedBtn.disabled = this.selectedPaths.size === 0;
     chatSelectedBtn.addEventListener("click", () => {
       if (this.selectedPaths.size === 0) {
-        new import_obsidian14.Notice("Select at least one related note first.");
+        new import_obsidian15.Notice("Select at least one related note first.");
         return;
       }
       this.plugin.openRAGChat({
@@ -106520,7 +106731,7 @@ var RelatedNotesView = class extends import_obsidian14.ItemView {
 };
 
 // src/vaultRadarView.ts
-var import_obsidian15 = require("obsidian");
+var import_obsidian16 = require("obsidian");
 var VAULT_RADAR_VIEW_TYPE = "llm-helper-vault-radar";
 var KIND_LABELS = {
   commitment: "Commitment",
@@ -106528,7 +106739,7 @@ var KIND_LABELS = {
   connection: "Connection",
   next_action: "Next action"
 };
-var VaultRadarView = class extends import_obsidian15.ItemView {
+var VaultRadarView = class extends import_obsidian16.ItemView {
   constructor(leaf, plugin) {
     super(leaf);
     this.shellMounted = false;
@@ -106622,7 +106833,7 @@ var VaultRadarView = class extends import_obsidian15.ItemView {
     const header = this.contentEl.createDiv({ cls: "llm-helper-radar-header" });
     const titleWrap = header.createDiv({ cls: "llm-helper-radar-title-wrap" });
     const icon = titleWrap.createSpan({ cls: "llm-helper-radar-icon" });
-    (0, import_obsidian15.setIcon)(icon, "radar");
+    (0, import_obsidian16.setIcon)(icon, "radar");
     const title = titleWrap.createDiv({ cls: "llm-helper-radar-title" });
     title.createEl("h2", { text: "Vault Radar" });
     this.statusEl = title.createDiv({
@@ -106746,7 +106957,7 @@ var VaultRadarView = class extends import_obsidian15.ItemView {
       button.disabled = true;
       void this.plugin.recordVaultRadarCardAction(cardId, createAction()).then((saved) => {
         if (saved) {
-          new import_obsidian15.Notice(notice);
+          new import_obsidian16.Notice(notice);
           this.resultsEl.focus();
         } else {
           button.disabled = false;
@@ -106785,9 +106996,9 @@ var VaultRadarView = class extends import_obsidian15.ItemView {
 };
 
 // src/obsidianRequestTransport.ts
-var import_obsidian16 = require("obsidian");
+var import_obsidian17 = require("obsidian");
 var obsidianRequestTransport = async (request) => {
-  const response = await (0, import_obsidian16.requestUrl)({
+  const response = await (0, import_obsidian17.requestUrl)({
     url: request.url,
     method: request.method,
     headers: request.headers,
@@ -106801,7 +107012,7 @@ var obsidianRequestTransport = async (request) => {
 };
 
 // src/workflowModal.ts
-var import_obsidian17 = require("obsidian");
+var import_obsidian18 = require("obsidian");
 
 // src/workflowRunner.ts
 var WORKFLOW_RECIPES = [
@@ -107023,7 +107234,7 @@ ${summary}` : defaultMessages[recipeId];
 };
 
 // src/workflowModal.ts
-var WorkflowModal = class extends import_obsidian17.Modal {
+var WorkflowModal = class extends import_obsidian18.Modal {
   constructor(app, plugin) {
     super(app);
     this.plugin = plugin;
@@ -107043,7 +107254,7 @@ var WorkflowModal = class extends import_obsidian17.Modal {
     contentEl.addClass("rag-chat-modal", "workflow-runner-modal");
     const header = contentEl.createDiv({ cls: "rag-chat-header" });
     const headerIcon = header.createSpan({ cls: "rag-chat-header-icon" });
-    (0, import_obsidian17.setIcon)(headerIcon, "workflow");
+    (0, import_obsidian18.setIcon)(headerIcon, "workflow");
     const headerText = header.createDiv({ cls: "rag-chat-header-text" });
     headerText.createEl("h2", { text: "Run workflow" });
     headerText.createSpan({
@@ -107052,7 +107263,7 @@ var WorkflowModal = class extends import_obsidian17.Modal {
     });
     const recipeBar = contentEl.createDiv({ cls: "workflow-runner-bar" });
     recipeBar.createSpan({ text: "Recipe", cls: "rag-chat-scope-label" });
-    this.recipeSelect = new import_obsidian17.DropdownComponent(recipeBar);
+    this.recipeSelect = new import_obsidian18.DropdownComponent(recipeBar);
     this.recipeSelect.selectEl.addClass("rag-chat-scope-select");
     for (const recipe of WORKFLOW_RECIPES) {
       this.recipeSelect.addOption(recipe.id, recipe.title);
@@ -107079,9 +107290,9 @@ var WorkflowModal = class extends import_obsidian17.Modal {
     this.showWelcomeMessage();
     const inputContainer = contentEl.createDiv({ cls: "rag-chat-input-container" });
     const inputRow = inputContainer.createDiv({ cls: "rag-chat-input-row" });
-    const clearBtn = new import_obsidian17.ButtonComponent(inputRow).setIcon("trash-2").setTooltip("Clear results").onClick(() => this.clearConversation());
+    const clearBtn = new import_obsidian18.ButtonComponent(inputRow).setIcon("trash-2").setTooltip("Clear results").onClick(() => this.clearConversation());
     clearBtn.buttonEl.addClass("rag-chat-clear-btn");
-    this.submitButton = new import_obsidian17.ButtonComponent(inputRow).setButtonText("Run workflow").setCta().onClick(() => void this.handleSubmit());
+    this.submitButton = new import_obsidian18.ButtonComponent(inputRow).setButtonText("Run workflow").setCta().onClick(() => void this.handleSubmit());
     this.submitButton.buttonEl.addClass("rag-chat-submit-btn");
     this.updateSubmitButtonState();
   }
@@ -107125,14 +107336,14 @@ var WorkflowModal = class extends import_obsidian17.Modal {
     if (recipe.targetType === "create-note") {
       const outputRow = this.dynamicFieldsEl.createDiv({ cls: "workflow-runner-field-row" });
       outputRow.createSpan({ text: "Output folder", cls: "rag-chat-scope-label" });
-      this.outputFolderInput = new import_obsidian17.TextComponent(outputRow).setPlaceholder("Reviews").setValue(defaults.outputFolder || "").onChange(() => {
+      this.outputFolderInput = new import_obsidian18.TextComponent(outputRow).setPlaceholder("Reviews").setValue(defaults.outputFolder || "").onChange(() => {
         this.updateSubmitButtonState();
         void this.persistDefaults();
       });
       this.outputFolderInput.inputEl.addClass("rag-chat-scope-input");
       const titleRow = this.dynamicFieldsEl.createDiv({ cls: "workflow-runner-field-row" });
       titleRow.createSpan({ text: "Title template", cls: "rag-chat-scope-label" });
-      this.titleTemplateInput = new import_obsidian17.TextComponent(titleRow).setPlaceholder("Weekly review - YYYY-MM-DD").setValue(defaults.titleTemplate || "Weekly Review - YYYY-MM-DD").onChange(() => {
+      this.titleTemplateInput = new import_obsidian18.TextComponent(titleRow).setPlaceholder("Weekly review - YYYY-MM-DD").setValue(defaults.titleTemplate || "Weekly Review - YYYY-MM-DD").onChange(() => {
         this.updateSubmitButtonState();
         void this.persistDefaults();
       });
@@ -107140,7 +107351,7 @@ var WorkflowModal = class extends import_obsidian17.Modal {
     } else {
       const targetRow = this.dynamicFieldsEl.createDiv({ cls: "workflow-runner-field-row" });
       targetRow.createSpan({ text: "Target note", cls: "rag-chat-scope-label" });
-      this.targetNoteInput = new import_obsidian17.TextComponent(targetRow).setPlaceholder("Projects/Current Project.md").setValue(defaults.targetNote || "").onChange(() => {
+      this.targetNoteInput = new import_obsidian18.TextComponent(targetRow).setPlaceholder("Projects/Current Project.md").setValue(defaults.targetNote || "").onChange(() => {
         this.updateSubmitButtonState();
         void this.persistDefaults();
       });
@@ -107185,7 +107396,7 @@ var WorkflowModal = class extends import_obsidian17.Modal {
   async handleSubmit() {
     if (this.isSubmitting) return;
     if (!this.canSubmit()) {
-      new import_obsidian17.Notice("Choose a target note before running this workflow.");
+      new import_obsidian18.Notice("Choose a target note before running this workflow.");
       return;
     }
     const requestId = ++this.activeRequestId;
@@ -107201,7 +107412,7 @@ var WorkflowModal = class extends import_obsidian17.Modal {
     thinkingEl.createSpan({ text: `Drafting ${recipe.title.toLowerCase()} from ${scopeLabel}` });
     this.appendThinkingDots(thinkingEl);
     this.scrollToBottom();
-    new import_obsidian17.Notice(`Running workflow: ${recipe.title}`);
+    new import_obsidian18.Notice(`Running workflow: ${recipe.title}`);
     try {
       const contextSnapshot = getCurrentOrFallbackChatContext(this.app);
       await this.persistDefaults();
@@ -107222,7 +107433,7 @@ var WorkflowModal = class extends import_obsidian17.Modal {
           scrollToBottom: () => this.scrollToBottom()
         }
       );
-      new import_obsidian17.Notice(response.actions.length > 0 ? `${recipe.title} ready for approval.` : `${recipe.title} finished with no writable actions.`);
+      new import_obsidian18.Notice(response.actions.length > 0 ? `${recipe.title} ready for approval.` : `${recipe.title} finished with no writable actions.`);
       this.scrollToBottom();
     } catch (error) {
       if (requestId !== this.activeRequestId) return;
@@ -107232,7 +107443,7 @@ var WorkflowModal = class extends import_obsidian17.Modal {
         text: error instanceof Error ? error.message : "Workflow failed."
       });
       console.error("Workflow failed:", error);
-      new import_obsidian17.Notice(error instanceof Error ? error.message : "Workflow failed.");
+      new import_obsidian18.Notice(error instanceof Error ? error.message : "Workflow failed.");
       this.scrollToBottom();
     } finally {
       if (requestId === this.activeRequestId) {
@@ -107539,8 +107750,8 @@ function clampInteger(value, minimum, maximum, fallback) {
 }
 
 // src/insightCanvasModal.ts
-var import_obsidian18 = require("obsidian");
-var InsightCanvasModal = class extends import_obsidian18.Modal {
+var import_obsidian19 = require("obsidian");
+var InsightCanvasModal = class extends import_obsidian19.Modal {
   constructor(app, plugin, card, onClosed, onStateChange) {
     super(app);
     this.plugin = plugin;
@@ -107557,7 +107768,7 @@ var InsightCanvasModal = class extends import_obsidian18.Modal {
     contentEl.addClass("llm-helper-insight-canvas-modal");
     const header = contentEl.createDiv({ cls: "rag-chat-header" });
     const headerIcon = header.createSpan({ cls: "rag-chat-header-icon" });
-    (0, import_obsidian18.setIcon)(headerIcon, "map");
+    (0, import_obsidian19.setIcon)(headerIcon, "map");
     const headerText = header.createDiv({ cls: "rag-chat-header-text" });
     headerText.createEl("h2", { text: "Map this insight" });
     headerText.createSpan({
@@ -107570,10 +107781,10 @@ var InsightCanvasModal = class extends import_obsidian18.Modal {
     const citedSourcePaths = Array.from(new Set(
       this.card.sourcePaths.filter((path) => path.trim().length > 0)
     ));
-    const availableSourceCount = citedSourcePaths.filter((path) => this.app.vault.getAbstractFileByPath(path) instanceof import_obsidian18.TFile).length;
+    const availableSourceCount = citedSourcePaths.filter((path) => this.app.vault.getAbstractFileByPath(path) instanceof import_obsidian19.TFile).length;
     const missingSourceCount = citedSourcePaths.length - availableSourceCount;
-    new import_obsidian18.Setting(contentEl).setName("Destination").setDesc("A new file in the Vault Radar maps folder. Existing files are never overwritten.");
-    new import_obsidian18.Setting(contentEl).setName("Evidence").setDesc(
+    new import_obsidian19.Setting(contentEl).setName("Destination").setDesc("A new file in the Vault Radar maps folder. Existing files are never overwritten.");
+    new import_obsidian19.Setting(contentEl).setName("Evidence").setDesc(
       missingSourceCount > 0 ? `${availableSourceCount} available; ${missingSourceCount} missing source${missingSourceCount === 1 ? "" : "s"} will be skipped` : `${availableSourceCount} cited source${availableSourceCount === 1 ? "" : "s"}`
     );
     contentEl.createEl("p", {
@@ -107585,8 +107796,8 @@ var InsightCanvasModal = class extends import_obsidian18.Modal {
       attr: { role: "alert", "aria-live": "polite" }
     });
     const actions = contentEl.createDiv({ cls: "modal-button-container" });
-    const cancelButton = new import_obsidian18.ButtonComponent(actions).setButtonText("Cancel").onClick(() => this.close());
-    const createButton = new import_obsidian18.ButtonComponent(actions).setButtonText("Create and open").setCta().onClick(() => void this.createCanvas(createButton, cancelButton, errorEl));
+    const cancelButton = new import_obsidian19.ButtonComponent(actions).setButtonText("Cancel").onClick(() => this.close());
+    const createButton = new import_obsidian19.ButtonComponent(actions).setButtonText("Create and open").setCta().onClick(() => void this.createCanvas(createButton, cancelButton, errorEl));
     if (availableSourceCount === 0) {
       createButton.setDisabled(true);
       errorEl.setText("None of this insight's cited notes are available. Run Vault Radar again to refresh its sources.");
@@ -107621,7 +107832,7 @@ var InsightCanvasModal = class extends import_obsidian18.Modal {
         createButton.setDisabled(false).setButtonText("Create and open");
         cancelButton.setDisabled(false);
       } else {
-        new import_obsidian18.Notice(message);
+        new import_obsidian19.Notice(message);
       }
     } finally {
       this.isCreating = false;
@@ -108378,7 +108589,12 @@ var DEFAULT_SETTINGS = {
   workflowDefaults: createDefaultWorkflowDefaults(),
   vaultRadarAutoRun: false,
   vaultRadarAutoRunEnabledAt: 0,
-  vaultRadarMaxNotes: 12
+  vaultRadarMaxNotes: 12,
+  voiceServerAddress: "http://127.0.0.1:8880",
+  voiceModel: "qwen",
+  voiceSpeaker: "ryan",
+  voiceSpeed: 1,
+  autoSpeakResponse: false
 };
 function normalizeSearxngInstanceUrl(url) {
   return normalizeServerAddress(url);
@@ -108414,7 +108630,7 @@ var TEXT_ACTIONS = {
     mode: "request"
   }
 };
-var OLocalLLMPlugin = class extends import_obsidian19.Plugin {
+var OLocalLLMPlugin = class extends import_obsidian20.Plugin {
   constructor() {
     super(...arguments);
     this.isKillSwitchActive = false;
@@ -108486,7 +108702,7 @@ var OLocalLLMPlugin = class extends import_obsidian19.Plugin {
     };
     const onVaultChange = (file) => {
       if (file.path.split("/").some((part) => part.startsWith("."))) return;
-      if (file instanceof import_obsidian19.TFile && !["md", "pdf", "doc", "docx", "rtf"].includes(file.extension)) return;
+      if (file instanceof import_obsidian20.TFile && !["md", "pdf", "doc", "docx", "rtf"].includes(file.extension)) return;
       queueLocalIndex();
     };
     this.registerEvent(this.app.vault.on("create", onVaultChange));
@@ -108550,7 +108766,7 @@ var OLocalLLMPlugin = class extends import_obsidian19.Plugin {
       callback: () => {
         const file = this.getActiveMarkdownFile();
         if (!file) {
-          new import_obsidian19.Notice("Open a note first.");
+          new import_obsidian20.Notice("Open a note first.");
           return;
         }
         this.openRAGChat({
@@ -108566,7 +108782,7 @@ var OLocalLLMPlugin = class extends import_obsidian19.Plugin {
       callback: () => {
         const file = this.getActiveMarkdownFile();
         if (!file) {
-          new import_obsidian19.Notice("Open a note first.");
+          new import_obsidian20.Notice("Open a note first.");
           return;
         }
         this.openRAGChat({
@@ -108598,7 +108814,7 @@ var OLocalLLMPlugin = class extends import_obsidian19.Plugin {
       }
     });
     this.registerEvent(this.app.workspace.on("file-open", (file) => {
-      if (file instanceof import_obsidian19.TFile) {
+      if (file instanceof import_obsidian20.TFile) {
         void this.captureRelatedNotesContext().then(() => {
           this.queueRelatedNotesRefresh(0);
         });
@@ -108607,7 +108823,7 @@ var OLocalLLMPlugin = class extends import_obsidian19.Plugin {
       this.queueRelatedNotesRefresh(150);
     }));
     this.registerEvent(this.app.workspace.on("active-leaf-change", (leaf) => {
-      if ((leaf == null ? void 0 : leaf.view) instanceof import_obsidian19.MarkdownView) {
+      if ((leaf == null ? void 0 : leaf.view) instanceof import_obsidian20.MarkdownView) {
         this.lastMarkdownLeaf = leaf;
         void this.captureRelatedNotesContext(leaf.view).then(() => {
           this.queueRelatedNotesRefresh(0);
@@ -108679,7 +108895,7 @@ var OLocalLLMPlugin = class extends import_obsidian19.Plugin {
         if (target == null ? void 0 : target.selectedText.length) {
           void processWebSearch(target.selectedText, this, target);
         } else {
-          new import_obsidian19.Notice("Please select some text first");
+          new import_obsidian20.Notice("Please select some text first");
         }
       }
     });
@@ -108691,12 +108907,12 @@ var OLocalLLMPlugin = class extends import_obsidian19.Plugin {
         if (target == null ? void 0 : target.selectedText.length) {
           void processNewsSearch(target.selectedText, this, target);
         } else {
-          new import_obsidian19.Notice("Please select some text first");
+          new import_obsidian20.Notice("Please select some text first");
         }
       }
     });
     this.addRibbonIcon("brain-cog", "LLM Helper", (event) => {
-      const menu = new import_obsidian19.Menu();
+      const menu = new import_obsidian20.Menu();
       menu.addItem(
         (item) => item.setTitle("Vault Radar").setIcon("radar").onClick(() => {
           void this.openVaultRadarView();
@@ -108716,7 +108932,7 @@ var OLocalLLMPlugin = class extends import_obsidian19.Plugin {
         (item) => item.setTitle("Chat with current note").setIcon("file-text").onClick(() => {
           const file = this.getActiveMarkdownFile();
           if (!file) {
-            new import_obsidian19.Notice("Open a note first.");
+            new import_obsidian20.Notice("Open a note first.");
             return;
           }
           this.openRAGChat({
@@ -108730,7 +108946,7 @@ var OLocalLLMPlugin = class extends import_obsidian19.Plugin {
         (item) => item.setTitle("Chat with current folder").setIcon("folder-open").onClick(() => {
           const file = this.getActiveMarkdownFile();
           if (!file) {
-            new import_obsidian19.Notice("Open a note first.");
+            new import_obsidian20.Notice("Open a note first.");
             return;
           }
           this.openRAGChat({
@@ -108753,7 +108969,7 @@ var OLocalLLMPlugin = class extends import_obsidian19.Plugin {
         (item) => item.setTitle("Generate tags").setIcon("hash").onClick(() => {
           const selectedText = this.getSelectedText();
           if (selectedText.length > 0) {
-            new import_obsidian19.Notice("Generating tags...");
+            new import_obsidian20.Notice("Generating tags...");
             void generateAndAppendTags(this.app, this.settings, this.llmClient);
           }
         })
@@ -108797,7 +109013,7 @@ var OLocalLLMPlugin = class extends import_obsidian19.Plugin {
       menu.addItem(
         (item) => item.setTitle("Stop generation").setIcon("square").onClick(() => {
           this.isKillSwitchActive = true;
-          new import_obsidian19.Notice("Generation stopped");
+          new import_obsidian20.Notice("Generation stopped");
         })
       );
       menu.showAtMouseEvent(event);
@@ -108828,18 +109044,18 @@ var OLocalLLMPlugin = class extends import_obsidian19.Plugin {
     this.isKillSwitchActive = false;
     const target = this.getTextActionTarget();
     if (!(target == null ? void 0 : target.selectedText.length)) {
-      new import_obsidian19.Notice("Please select some text first");
+      new import_obsidian20.Notice("Please select some text first");
       return;
     }
     if (notice) {
-      new import_obsidian19.Notice(notice);
+      new import_obsidian20.Notice(notice);
     }
     void processText(target.selectedText, prompt, this, target, mode);
   }
   openPromptPicker() {
     const target = this.getTextActionTarget();
     if (!(target == null ? void 0 : target.selectedText.length)) {
-      new import_obsidian19.Notice("Please select some text first");
+      new import_obsidian20.Notice("Please select some text first");
       return;
     }
     new PromptPickerModal(this.app, (prompt) => {
@@ -108850,45 +109066,45 @@ var OLocalLLMPlugin = class extends import_obsidian19.Plugin {
   openSavedPromptPicker() {
     const prompts = this.settings.customPrompts || [];
     if (prompts.length === 0) {
-      new import_obsidian19.Notice("No saved prompts yet. Add some in settings.");
+      new import_obsidian20.Notice("No saved prompts yet. Add some in settings.");
       return;
     }
     const target = this.getTextActionTarget();
     if (!(target == null ? void 0 : target.selectedText.length)) {
-      new import_obsidian19.Notice("Please select some text first");
+      new import_obsidian20.Notice("Please select some text first");
       return;
     }
     new SelectPromptModal(this.app, prompts, (chosen) => {
       this.isKillSwitchActive = false;
-      new import_obsidian19.Notice("Running: " + chosen.title);
+      new import_obsidian20.Notice("Running: " + chosen.title);
       void processText(target.selectedText, chosen.prompt, this, target);
     }).open();
   }
   getTextActionTarget() {
-    const view = this.app.workspace.getActiveViewOfType(import_obsidian19.MarkdownView);
+    const view = this.app.workspace.getActiveViewOfType(import_obsidian20.MarkdownView);
     const target = captureTextActionTarget(view);
     if (target) {
       return target;
     }
     if (!view) {
-      new import_obsidian19.Notice("No active view");
+      new import_obsidian20.Notice("No active view");
     } else if (view.getMode() === "preview") {
-      new import_obsidian19.Notice("Does not work in preview mode");
+      new import_obsidian20.Notice("Does not work in preview mode");
     } else {
-      new import_obsidian19.Notice("No editable Markdown note is active");
+      new import_obsidian20.Notice("No editable Markdown note is active");
     }
     return null;
   }
   getSelectedText() {
-    const view = this.app.workspace.getActiveViewOfType(import_obsidian19.MarkdownView);
+    const view = this.app.workspace.getActiveViewOfType(import_obsidian20.MarkdownView);
     if (!view) {
-      new import_obsidian19.Notice("No active view");
+      new import_obsidian20.Notice("No active view");
       return "";
     } else {
       const view_mode = view.getMode();
       switch (view_mode) {
         case "preview":
-          new import_obsidian19.Notice("Does not work in preview mode");
+          new import_obsidian20.Notice("Does not work in preview mode");
           return "";
         case "source":
           if ("editor" in view) {
@@ -108896,7 +109112,7 @@ var OLocalLLMPlugin = class extends import_obsidian19.Plugin {
           }
           break;
         default:
-          new import_obsidian19.Notice("Unknown view mode");
+          new import_obsidian20.Notice("Unknown view mode");
           return "";
       }
     }
@@ -108904,13 +109120,13 @@ var OLocalLLMPlugin = class extends import_obsidian19.Plugin {
   }
   getActiveMarkdownFile() {
     var _a3;
-    const view = this.app.workspace.getActiveViewOfType(import_obsidian19.MarkdownView);
+    const view = this.app.workspace.getActiveViewOfType(import_obsidian20.MarkdownView);
     if (view == null ? void 0 : view.file) {
       this.lastMarkdownLeaf = view.leaf;
       return view.file;
     }
     const lastView = (_a3 = this.lastMarkdownLeaf) == null ? void 0 : _a3.view;
-    if (lastView instanceof import_obsidian19.MarkdownView && lastView.file) {
+    if (lastView instanceof import_obsidian20.MarkdownView && lastView.file) {
       return lastView.file;
     }
     return this.app.workspace.getActiveFile();
@@ -108927,7 +109143,7 @@ var OLocalLLMPlugin = class extends import_obsidian19.Plugin {
     const existingLeaf = this.app.workspace.getLeavesOfType(CHAT_VIEW_TYPE)[0];
     const leaf = existingLeaf || this.app.workspace.getRightLeaf(false);
     if (!leaf) {
-      new import_obsidian19.Notice("Could not open LLM Chat view.");
+      new import_obsidian20.Notice("Could not open LLM Chat view.");
       return;
     }
     if (!existingLeaf) {
@@ -108958,7 +109174,7 @@ var OLocalLLMPlugin = class extends import_obsidian19.Plugin {
       leaf.view.applyOpenOptions(options);
       return;
     }
-    new import_obsidian19.Notice("Could not open Vault Radar view.");
+    new import_obsidian20.Notice("Could not open Vault Radar view.");
   }
   getVaultRadarSnapshot() {
     const state = normalizeVaultRadarState(this.vaultRadarState);
@@ -108973,7 +109189,7 @@ var OLocalLLMPlugin = class extends import_obsidian19.Plugin {
   async runVaultRadar(trigger = "manual") {
     if (this.vaultRadarRunPromise) {
       if (trigger === "manual") {
-        new import_obsidian19.Notice("Vault Radar is already scanning changed notes.");
+        new import_obsidian20.Notice("Vault Radar is already scanning changed notes.");
       }
       return this.vaultRadarRunPromise;
     }
@@ -108990,7 +109206,7 @@ var OLocalLLMPlugin = class extends import_obsidian19.Plugin {
   }
   async recordVaultRadarCardAction(cardId, action) {
     if (this.vaultRadarRunPromise) {
-      new import_obsidian19.Notice("Wait for the current Vault Radar scan to finish.");
+      new import_obsidian20.Notice("Wait for the current Vault Radar scan to finish.");
       return false;
     }
     const mutation = this.vaultRadarCardMutationQueue.then(async () => {
@@ -109004,7 +109220,7 @@ var OLocalLLMPlugin = class extends import_obsidian19.Plugin {
       return await mutation;
     } catch (error) {
       console.error("Vault Radar feedback could not be saved:", error);
-      new import_obsidian19.Notice("Could not save Vault Radar feedback.");
+      new import_obsidian20.Notice("Could not save Vault Radar feedback.");
       return false;
     }
   }
@@ -109018,9 +109234,9 @@ var OLocalLLMPlugin = class extends import_obsidian19.Plugin {
       this.vaultRadarNextRetryAt = 0;
       this.vaultRadarMessage = this.describeVaultRadarResult(result);
       if (trigger === "manual") {
-        new import_obsidian19.Notice(this.vaultRadarMessage);
+        new import_obsidian20.Notice(this.vaultRadarMessage);
       } else if (result.status === "generated") {
-        new import_obsidian19.Notice(`Vault Radar found ${result.cards.length} new insight${result.cards.length === 1 ? "" : "s"}.`);
+        new import_obsidian20.Notice(`Vault Radar found ${result.cards.length} new insight${result.cards.length === 1 ? "" : "s"}.`);
       }
     } catch (error) {
       console.error("Vault Radar run failed:", error);
@@ -109028,7 +109244,7 @@ var OLocalLLMPlugin = class extends import_obsidian19.Plugin {
       this.vaultRadarError = this.describeVaultRadarError(error);
       this.vaultRadarMessage = "Previous insights are still available.";
       if (trigger === "manual") {
-        new import_obsidian19.Notice(this.vaultRadarError);
+        new import_obsidian20.Notice(this.vaultRadarError);
       }
     }
   }
@@ -109061,7 +109277,7 @@ var OLocalLLMPlugin = class extends import_obsidian19.Plugin {
     const existingLeaf = this.app.workspace.getLeavesOfType(RELATED_NOTES_VIEW_TYPE)[0];
     const leaf = existingLeaf || this.app.workspace.getRightLeaf(false);
     if (!leaf) {
-      new import_obsidian19.Notice("Could not open Related Notes view.");
+      new import_obsidian20.Notice("Could not open Related Notes view.");
       return;
     }
     await leaf.setViewState({
@@ -109071,14 +109287,14 @@ var OLocalLLMPlugin = class extends import_obsidian19.Plugin {
     this.app.workspace.setActiveLeaf(leaf, { focus: true });
     await this.refreshRelatedNotesView();
     if (!context) {
-      new import_obsidian19.Notice("Open a note or select text to find Related Notes.");
+      new import_obsidian20.Notice("Open a note or select text to find Related Notes.");
       return;
     }
     if (this.ragManager.getIndexedFilesCount() === 0) {
-      new import_obsidian19.Notice("Index your notes first: run notes: Index notes for RAG.");
+      new import_obsidian20.Notice("Index your notes first: run notes: Index notes for RAG.");
       return;
     }
-    new import_obsidian19.Notice("Related Notes opened in the right sidebar.");
+    new import_obsidian20.Notice("Related Notes opened in the right sidebar.");
   }
   async refreshRelatedNotesView() {
     const leaves = this.app.workspace.getLeavesOfType(RELATED_NOTES_VIEW_TYPE);
@@ -109103,8 +109319,8 @@ var OLocalLLMPlugin = class extends import_obsidian19.Plugin {
   }
   async openFileByPath(path) {
     const file = this.app.vault.getAbstractFileByPath(path);
-    if (!(file instanceof import_obsidian19.TFile)) {
-      new import_obsidian19.Notice("Note not found.");
+    if (!(file instanceof import_obsidian20.TFile)) {
+      new import_obsidian20.Notice("Note not found.");
       return;
     }
     const leaf = this.app.workspace.getMostRecentLeaf(this.app.workspace.rootSplit) || this.app.workspace.getLeaf(true);
@@ -109133,7 +109349,7 @@ var OLocalLLMPlugin = class extends import_obsidian19.Plugin {
   }
   openInsightCanvasModal(card, onStateChange) {
     if (this.insightCanvasDisposed) {
-      new import_obsidian19.Notice("Insight Canvas is unavailable while the plugin is unloading.");
+      new import_obsidian20.Notice("Insight Canvas is unavailable while the plugin is unloading.");
       return;
     }
     let modal;
@@ -109154,12 +109370,12 @@ var OLocalLLMPlugin = class extends import_obsidian19.Plugin {
     const citedSourcePaths = Array.from(new Set(
       card.sourcePaths.filter((path) => path.trim().length > 0)
     ));
-    const availableSourcePaths = citedSourcePaths.filter((path) => this.app.vault.getAbstractFileByPath(path) instanceof import_obsidian19.TFile);
+    const availableSourcePaths = citedSourcePaths.filter((path) => this.app.vault.getAbstractFileByPath(path) instanceof import_obsidian20.TFile);
     if (availableSourcePaths.length === 0) {
       throw new Error("None of this insight's cited notes are available. Run Vault Radar again to refresh its sources.");
     }
     const existingFolder = this.app.vault.getAbstractFileByPath(INSIGHT_CANVAS_FOLDER);
-    if (existingFolder && !(existingFolder instanceof import_obsidian19.TFolder)) {
+    if (existingFolder && !(existingFolder instanceof import_obsidian20.TFolder)) {
       throw new Error(`${INSIGHT_CANVAS_FOLDER} exists as a file. Rename it before creating an Insight Canvas.`);
     }
     if (!existingFolder) {
@@ -109167,15 +109383,15 @@ var OLocalLLMPlugin = class extends import_obsidian19.Plugin {
         await this.app.vault.createFolder(INSIGHT_CANVAS_FOLDER);
       } catch (error) {
         const racedFolder = this.app.vault.getAbstractFileByPath(INSIGHT_CANVAS_FOLDER);
-        if (!(racedFolder instanceof import_obsidian19.TFolder)) {
+        if (!(racedFolder instanceof import_obsidian20.TFolder)) {
           throw error;
         }
       }
     }
-    const canvasPath = (0, import_obsidian19.normalizePath)(await getCollisionSafeInsightCanvasPath(
+    const canvasPath = (0, import_obsidian20.normalizePath)(await getCollisionSafeInsightCanvasPath(
       INSIGHT_CANVAS_FOLDER,
       card.title,
-      (path) => this.app.vault.getAbstractFileByPath((0, import_obsidian19.normalizePath)(path)) !== null
+      (path) => this.app.vault.getAbstractFileByPath((0, import_obsidian20.normalizePath)(path)) !== null
     ));
     const document2 = buildInsightCanvas(card, availableSourcePaths);
     if (this.insightCanvasDisposed) {
@@ -109196,10 +109412,10 @@ var OLocalLLMPlugin = class extends import_obsidian19.Plugin {
       await leaf.openFile(canvasFile);
       this.app.workspace.setActiveLeaf(leaf, { focus: true });
     } catch (e) {
-      new import_obsidian19.Notice(`Insight Canvas was created at ${canvasPath}, but Obsidian could not open it automatically.`);
+      new import_obsidian20.Notice(`Insight Canvas was created at ${canvasPath}, but Obsidian could not open it automatically.`);
       return canvasPath;
     }
-    new import_obsidian19.Notice(
+    new import_obsidian20.Notice(
       `Insight Canvas created from ${availableSourcePaths.length} source${availableSourcePaths.length === 1 ? "" : "s"}.${skippedSuffix}`
     );
     return canvasPath;
@@ -109259,13 +109475,13 @@ var OLocalLLMPlugin = class extends import_obsidian19.Plugin {
   }
   getRelatedNotesMarkdownView() {
     var _a3;
-    const activeView = this.app.workspace.getActiveViewOfType(import_obsidian19.MarkdownView);
+    const activeView = this.app.workspace.getActiveViewOfType(import_obsidian20.MarkdownView);
     if (activeView == null ? void 0 : activeView.file) {
       this.lastMarkdownLeaf = activeView.leaf;
       return activeView;
     }
     const lastView = (_a3 = this.lastMarkdownLeaf) == null ? void 0 : _a3.view;
-    if (lastView instanceof import_obsidian19.MarkdownView && lastView.file) {
+    if (lastView instanceof import_obsidian20.MarkdownView && lastView.file) {
       return lastView;
     }
     return null;
@@ -109312,7 +109528,7 @@ var OLocalLLMPlugin = class extends import_obsidian19.Plugin {
         })),
         readNote: async (path) => {
           const file = this.app.vault.getAbstractFileByPath(path);
-          if (!(file instanceof import_obsidian19.TFile)) {
+          if (!(file instanceof import_obsidian20.TFile)) {
             throw new Error(`Changed note is no longer available: ${path}`);
           }
           return this.app.vault.cachedRead(file);
@@ -109454,14 +109670,14 @@ var OLocalLLMPlugin = class extends import_obsidian19.Plugin {
       return;
     }
     if (this.settings.autoNotice) {
-      new import_obsidian19.Notice("LLM Helper: Auto-indexing notes...");
+      new import_obsidian20.Notice("LLM Helper: Auto-indexing notes...");
     }
     this.isIndexing = true;
     try {
       await this.ragManager.indexNotes(() => {
       });
       if (this.settings.autoNotice) {
-        new import_obsidian19.Notice("LLM Helper: Auto-index complete.");
+        new import_obsidian20.Notice("LLM Helper: Auto-index complete.");
       }
     } catch (error) {
       console.error("LLM Helper: Auto-index error:", error);
@@ -109485,7 +109701,7 @@ var OLocalLLMPlugin = class extends import_obsidian19.Plugin {
       if (legacyKeys.length > 0) {
         debugLog("\u{1F9F9} LLM Helper: Removing legacy data.json keys:", legacyKeys);
         await this.saveData(this.settings);
-        new import_obsidian19.Notice("LLM Helper: cleaned up stale data from plugin settings file.");
+        new import_obsidian20.Notice("LLM Helper: cleaned up stale data from plugin settings file.");
       }
     }
     this.settings.customPrompt = migrateLegacyDefaultCustomPrompt(this.settings.customPrompt);
@@ -109537,10 +109753,10 @@ var OLocalLLMPlugin = class extends import_obsidian19.Plugin {
         this.isKillSwitchActive = false;
         const target = this.getTextActionTarget();
         if (target == null ? void 0 : target.selectedText.length) {
-          new import_obsidian19.Notice("Running: " + customPrompt.title);
+          new import_obsidian20.Notice("Running: " + customPrompt.title);
           void processText(target.selectedText, customPrompt.prompt, this, target);
         } else {
-          new import_obsidian19.Notice("Please select some text first");
+          new import_obsidian20.Notice("Please select some text first");
         }
       }
     });
@@ -109560,38 +109776,38 @@ var OLocalLLMPlugin = class extends import_obsidian19.Plugin {
   }
   async indexNotes() {
     if (this.isIndexing) {
-      new import_obsidian19.Notice("Indexing already in progress.");
+      new import_obsidian20.Notice("Indexing already in progress.");
       debugLog("LLM Helper: Skipping manual index, indexing already in progress.");
       return;
     }
     this.isIndexing = true;
-    new import_obsidian19.Notice("Indexing notes for RAG...");
+    new import_obsidian20.Notice("Indexing notes for RAG...");
     try {
       await this.ragManager.indexNotes((progress) => {
         debugLog(`Indexing progress: ${progress * 100}%`);
       });
-      new import_obsidian19.Notice("Notes indexed successfully!");
+      new import_obsidian20.Notice("Notes indexed successfully!");
       this.queueRelatedNotesRefresh(150);
     } catch (error) {
       console.error("Error indexing notes:", error);
-      new import_obsidian19.Notice(error instanceof Error ? error.message : "Failed to index notes. Check console for details.");
+      new import_obsidian20.Notice(error instanceof Error ? error.message : "Failed to index notes. Check console for details.");
     } finally {
       this.isIndexing = false;
     }
   }
   async handleGenerateBacklinks() {
-    const activeView = this.app.workspace.getActiveViewOfType(import_obsidian19.MarkdownView);
+    const activeView = this.app.workspace.getActiveViewOfType(import_obsidian20.MarkdownView);
     if (!activeView) {
-      new import_obsidian19.Notice("No active Markdown view");
+      new import_obsidian20.Notice("No active Markdown view");
       return;
     }
     const editor = activeView.editor;
     const selectedText = editor.getSelection();
     if (!selectedText) {
-      new import_obsidian19.Notice("No text selected");
+      new import_obsidian20.Notice("No text selected");
       return;
     }
-    new import_obsidian19.Notice("Generating backlinks...");
+    new import_obsidian20.Notice("Generating backlinks...");
     try {
       const backlinks = await this.backlinkGenerator.generateBacklinks(selectedText);
       if (backlinks.length > 0) {
@@ -109599,13 +109815,13 @@ var OLocalLLMPlugin = class extends import_obsidian19.Plugin {
 
 Related:
 ${backlinks.join("\n")}`);
-        new import_obsidian19.Notice(`Generated ${backlinks.length} backlinks`);
+        new import_obsidian20.Notice(`Generated ${backlinks.length} backlinks`);
       } else {
-        new import_obsidian19.Notice("No relevant backlinks found");
+        new import_obsidian20.Notice("No relevant backlinks found");
       }
     } catch (error) {
       console.error("Error generating backlinks:", error);
-      new import_obsidian19.Notice("Failed to generate backlinks. Check console for details.");
+      new import_obsidian20.Notice("Failed to generate backlinks. Check console for details.");
     }
   }
   async handleDiagnostics() {
@@ -109628,7 +109844,7 @@ ${backlinks.join("\n")}`);
       ]).open();
     } catch (error) {
       console.error("Error getting storage stats:", error);
-      new import_obsidian19.Notice("Error getting storage stats. Check console for details.");
+      new import_obsidian20.Notice("Error getting storage stats. Check console for details.");
     }
   }
   async showStorageNotification() {
@@ -109637,16 +109853,16 @@ ${backlinks.join("\n")}`);
       if (loadedEmbeddings > 0) {
         const indexedFiles = this.ragManager.getIndexedFilesCount();
         const stats = await this.ragManager.getStorageStats();
-        new import_obsidian19.Notice(`\u{1F4DA} Loaded ${loadedEmbeddings} embeddings from ${indexedFiles} sources (${stats.storageUsed})`);
+        new import_obsidian20.Notice(`\u{1F4DA} Loaded ${loadedEmbeddings} embeddings from ${indexedFiles} sources (${stats.storageUsed})`);
       } else {
-        new import_obsidian19.Notice("\u{1F4DD} No usable note index loaded - ready to index notes");
+        new import_obsidian20.Notice("\u{1F4DD} No usable note index loaded - ready to index notes");
       }
     } catch (error) {
       console.error("Error showing storage notification:", error);
     }
   }
 };
-var ModelPickerModal = class extends import_obsidian19.SuggestModal {
+var ModelPickerModal = class extends import_obsidian20.SuggestModal {
   constructor(app, models, onChoose) {
     super(app);
     this.models = models;
@@ -109664,7 +109880,7 @@ var ModelPickerModal = class extends import_obsidian19.SuggestModal {
     this.onChoose(model);
   }
 };
-var OLLMSettingTab = class extends import_obsidian19.PluginSettingTab {
+var OLLMSettingTab = class extends import_obsidian20.PluginSettingTab {
   constructor(app, plugin) {
     super(app, plugin);
     this.indexedFilesCountSetting = null;
@@ -109769,20 +109985,20 @@ var OLLMSettingTab = class extends import_obsidian19.PluginSettingTab {
     this.containerEl.empty();
     for (const definition of this.getSettingDefinitions()) {
       if ("render" in definition && definition.render) {
-        const setting = new import_obsidian19.Setting(this.containerEl).setName(definition.name);
+        const setting = new import_obsidian20.Setting(this.containerEl).setName(definition.name);
         definition.render(setting);
       }
     }
   }
   refreshSettings() {
-    if ((0, import_obsidian19.requireApiVersion)("1.13.0")) {
+    if ((0, import_obsidian20.requireApiVersion)("1.13.0")) {
       this.update();
     } else {
       this.renderLegacySettings();
     }
   }
   renderConnectionSettings(containerEl) {
-    new import_obsidian19.Setting(containerEl).setName("Provider").setDesc("All providers use OpenAI-compatible API format").addDropdown(
+    new import_obsidian20.Setting(containerEl).setName("Provider").setDesc("All providers use OpenAI-compatible API format").addDropdown(
       (dropdown) => dropdown.addOption("ollama", "Ollama").addOption("openai", "OpenAI / LM Studio / vLLM").setValue(this.plugin.settings.providerType).onChange(async (value) => {
         this.plugin.settings.providerType = value;
         if (value === "ollama" && this.plugin.settings.serverAddress.includes("1234")) {
@@ -109794,27 +110010,27 @@ var OLLMSettingTab = class extends import_obsidian19.PluginSettingTab {
         this.refreshSettings();
       })
     );
-    new import_obsidian19.Setting(containerEl).setName("Chat/default server URL").setDesc("Used for chat and as the embedding fallback. Ollama: localhost:11434 | LM Studio: localhost:1234 | vLLM: localhost:8000").addText(
+    new import_obsidian20.Setting(containerEl).setName("Chat/default server URL").setDesc("Used for chat and as the embedding fallback. Ollama: localhost:11434 | LM Studio: localhost:1234 | vLLM: localhost:8000").addText(
       (text) => text.setPlaceholder("http://localhost:11434").setValue(this.plugin.settings.serverAddress).onChange((value) => {
         this.plugin.settings.serverAddress = normalizeServerAddress(value);
         this.debouncedSave();
       })
     );
     if (this.plugin.settings.providerType === "openai") {
-      new import_obsidian19.Setting(containerEl).setName("Chat/default API key").setDesc("Required for OpenAI. Embeddings inherit this unless an embedding API key is set. For local servers, use 'not-needed'").addText(
+      new import_obsidian20.Setting(containerEl).setName("Chat/default API key").setDesc("Required for OpenAI. Embeddings inherit this unless an embedding API key is set. For local servers, use 'not-needed'").addText(
         (text) => text.setPlaceholder("not-needed").setValue(this.plugin.settings.openAIApiKey || "").onChange((value) => {
           this.plugin.settings.openAIApiKey = value;
           this.debouncedSave();
         })
       );
     }
-    new import_obsidian19.Setting(containerEl).setName("Embedding server URL").setDesc("Optional. Leave blank to use the chat/default server. Use this for a separate OpenAI-compatible embedding server.").addText(
+    new import_obsidian20.Setting(containerEl).setName("Embedding server URL").setDesc("Optional. Leave blank to use the chat/default server. Use this for a separate OpenAI-compatible embedding server.").addText(
       (text) => text.setPlaceholder("http://localhost:8081").setValue(this.plugin.settings.embeddingServerAddress || "").onChange((value) => {
         this.plugin.settings.embeddingServerAddress = normalizeOptionalServerAddress(value);
         this.debouncedSave();
       })
     );
-    new import_obsidian19.Setting(containerEl).setName("Embedding API key").setDesc("Optional. Leave blank to inherit the chat/default API key. Use 'not-needed' to send no authorization header.").addText(
+    new import_obsidian20.Setting(containerEl).setName("Embedding API key").setDesc("Optional. Leave blank to inherit the chat/default API key. Use 'not-needed' to send no authorization header.").addText(
       (text) => text.setPlaceholder("inherit chat/default key").setValue(this.plugin.settings.embeddingApiKey || "").onChange((value) => {
         this.plugin.settings.embeddingApiKey = value.trim();
         this.debouncedSave();
@@ -109823,7 +110039,7 @@ var OLLMSettingTab = class extends import_obsidian19.PluginSettingTab {
   }
   renderModelsSettings(containerEl) {
     let chatModelText;
-    new import_obsidian19.Setting(containerEl).setName("Chat model").setDesc("Model for chat and text processing \u2014 type a name or browse from server").addText((text) => {
+    new import_obsidian20.Setting(containerEl).setName("Chat model").setDesc("Model for chat and text processing \u2014 type a name or browse from server").addText((text) => {
       chatModelText = text;
       text.setPlaceholder("llama3").setValue(this.plugin.settings.llmModel).onChange((value) => {
         this.plugin.settings.llmModel = value;
@@ -109835,7 +110051,7 @@ var OLLMSettingTab = class extends import_obsidian19.PluginSettingTab {
         btn.setButtonText("Loading...");
         const models = await this.plugin.llmClient.listModels("chat");
         if (models.length === 0) {
-          new import_obsidian19.Notice("No models found on server");
+          new import_obsidian20.Notice("No models found on server");
           return;
         }
         new ModelPickerModal(this.app, models, (model) => {
@@ -109845,14 +110061,14 @@ var OLLMSettingTab = class extends import_obsidian19.PluginSettingTab {
         }).open();
       } catch (e) {
         console.error("Failed to fetch models:", e);
-        new import_obsidian19.Notice(getLLMErrorMessage(e, "Could not fetch models. Check server URL and connection."));
+        new import_obsidian20.Notice(getLLMErrorMessage(e, "Could not fetch models. Check server URL and connection."));
       } finally {
         btn.setDisabled(false);
         btn.setButtonText("Browse");
       }
     }));
     let embeddingModelText;
-    new import_obsidian19.Setting(containerEl).setName("Embedding model").setDesc("Model for RAG indexing \u2014 type a name or browse from server").addText((text) => {
+    new import_obsidian20.Setting(containerEl).setName("Embedding model").setDesc("Model for RAG indexing \u2014 type a name or browse from server").addText((text) => {
       embeddingModelText = text;
       text.setPlaceholder("mxbai-embed-large").setValue(this.plugin.settings.embeddingModelName).onChange((value) => {
         this.plugin.settings.embeddingModelName = value;
@@ -109864,7 +110080,7 @@ var OLLMSettingTab = class extends import_obsidian19.PluginSettingTab {
         btn.setButtonText("Loading...");
         const models = await this.plugin.llmClient.listModels("embedding");
         if (models.length === 0) {
-          new import_obsidian19.Notice("No models found on server");
+          new import_obsidian20.Notice("No models found on server");
           return;
         }
         new ModelPickerModal(this.app, models, (model) => {
@@ -109874,13 +110090,13 @@ var OLLMSettingTab = class extends import_obsidian19.PluginSettingTab {
         }).open();
       } catch (e) {
         console.error("Failed to fetch models:", e);
-        new import_obsidian19.Notice(getLLMErrorMessage(e, "Could not fetch models. Check server URL and connection."));
+        new import_obsidian20.Notice(getLLMErrorMessage(e, "Could not fetch models. Check server URL and connection."));
       } finally {
         btn.setDisabled(false);
         btn.setButtonText("Browse");
       }
     }));
-    new import_obsidian19.Setting(containerEl).setName("Temperature").setDesc("0 = deterministic, higher = more creative (max 2)").addText(
+    new import_obsidian20.Setting(containerEl).setName("Temperature").setDesc("0 = deterministic, higher = more creative (max 2)").addText(
       (text) => text.setPlaceholder("0.7").setValue(this.plugin.settings.temperature.toString()).onChange((value) => {
         const parsedValue = parseFloat(value);
         if (!isNaN(parsedValue) && parsedValue >= 0 && parsedValue <= 2) {
@@ -109889,7 +110105,7 @@ var OLLMSettingTab = class extends import_obsidian19.PluginSettingTab {
         }
       })
     );
-    new import_obsidian19.Setting(containerEl).setName("Max tokens").setDesc("Maximum response length (typically 1-4000)").addText(
+    new import_obsidian20.Setting(containerEl).setName("Max tokens").setDesc("Maximum response length (typically 1-4000)").addText(
       (text) => text.setPlaceholder("1024").setValue(this.plugin.settings.maxTokens.toString()).onChange((value) => {
         const parsedValue = parseInt(value);
         if (!isNaN(parsedValue) && parsedValue >= 1) {
@@ -109900,7 +110116,7 @@ var OLLMSettingTab = class extends import_obsidian19.PluginSettingTab {
     );
   }
   renderChatSettings(containerEl) {
-    new import_obsidian19.Setting(containerEl).setName("Persona").setDesc("AI personality for responses").addDropdown((dropdown) => {
+    new import_obsidian20.Setting(containerEl).setName("Persona").setDesc("AI personality for responses").addDropdown((dropdown) => {
       for (const key in this.plugin.personasDict) {
         dropdown.addOption(key, this.plugin.personasDict[key].displayName);
       }
@@ -109913,13 +110129,13 @@ var OLLMSettingTab = class extends import_obsidian19.PluginSettingTab {
     const selectedPersonaKey = this.plugin.settings.personas;
     const selectedPersona = this.plugin.personasDict[selectedPersonaKey];
     if (selectedPersona && selectedPersonaKey !== "default") {
-      new import_obsidian19.Setting(containerEl).setName("System prompt").setDesc("Edit the system prompt for this persona");
+      new import_obsidian20.Setting(containerEl).setName("System prompt").setDesc("Edit the system prompt for this persona");
       const promptTextarea = containerEl.createEl("textarea", {
         cls: "persona-prompt-textarea",
         attr: { rows: "4", style: "width: 100%; font-family: monospace; font-size: 0.85em; margin-bottom: 8px;" }
       });
       promptTextarea.value = selectedPersona.systemPrompt;
-      new import_obsidian19.Setting(containerEl).addButton((btn) => btn.setButtonText("Save persona prompt").onClick(async () => {
+      new import_obsidian20.Setting(containerEl).addButton((btn) => btn.setButtonText("Save persona prompt").onClick(async () => {
         const saved = this.plugin.settings.savedPersonas || {};
         saved[selectedPersonaKey] = {
           displayName: selectedPersona.displayName,
@@ -109928,7 +110144,7 @@ var OLLMSettingTab = class extends import_obsidian19.PluginSettingTab {
         this.plugin.settings.savedPersonas = saved;
         this.plugin.rebuildPersonas();
         await this.plugin.saveSettings();
-        new import_obsidian19.Notice("Persona prompt saved");
+        new import_obsidian20.Notice("Persona prompt saved");
       }));
     }
     const newPersonaContainer = containerEl.createDiv({ cls: "new-persona-container" });
@@ -109939,24 +110155,24 @@ var OLLMSettingTab = class extends import_obsidian19.PluginSettingTab {
       attr: { placeholder: "System prompt for new persona", rows: "3", style: "width: 100%; font-family: monospace; font-size: 0.85em; margin-bottom: 4px;" }
     });
     const isBuiltInPersona = selectedPersonaKey in DEFAULT_PERSONAS;
-    new import_obsidian19.Setting(newPersonaContainer).addButton((btn) => btn.setButtonText("Add persona").onClick(async () => {
+    new import_obsidian20.Setting(newPersonaContainer).addButton((btn) => btn.setButtonText("Add persona").onClick(async () => {
       const name = newNameInput.value.trim();
       const prompt = newPromptInput.value.trim();
       if (!name) {
-        new import_obsidian19.Notice("Please enter a persona name");
+        new import_obsidian20.Notice("Please enter a persona name");
         return;
       }
       if (!prompt) {
-        new import_obsidian19.Notice("Please enter a system prompt");
+        new import_obsidian20.Notice("Please enter a system prompt");
         return;
       }
       const key = name.toLowerCase().replace(/[^a-z0-9]+/g, "");
       if (!key) {
-        new import_obsidian19.Notice("Invalid persona name");
+        new import_obsidian20.Notice("Invalid persona name");
         return;
       }
       if (key in DEFAULT_PERSONAS) {
-        new import_obsidian19.Notice(`"${name}" clashes with a built-in persona. Choose a different name (built-ins can be edited above).`);
+        new import_obsidian20.Notice(`"${name}" clashes with a built-in persona. Choose a different name (built-ins can be edited above).`);
         return;
       }
       const saved = this.plugin.settings.savedPersonas || {};
@@ -109964,13 +110180,13 @@ var OLLMSettingTab = class extends import_obsidian19.PluginSettingTab {
       this.plugin.settings.savedPersonas = saved;
       this.plugin.rebuildPersonas();
       await this.plugin.saveSettings();
-      new import_obsidian19.Notice(`Persona "${name}" added`);
+      new import_obsidian20.Notice(`Persona "${name}" added`);
       this.refreshSettings();
     })).addButton((btn) => {
       var _a3;
       return btn.setButtonText("Delete selected persona").setClass("mod-warning").setDisabled(selectedPersonaKey === "default" || isBuiltInPersona && !((_a3 = this.plugin.settings.savedPersonas) == null ? void 0 : _a3[selectedPersonaKey])).onClick(async () => {
         if (isBuiltInPersona) {
-          new import_obsidian19.Notice("Cannot delete a built-in persona");
+          new import_obsidian20.Notice("Cannot delete a built-in persona");
           return;
         }
         const saved = this.plugin.settings.savedPersonas || {};
@@ -109979,35 +110195,35 @@ var OLLMSettingTab = class extends import_obsidian19.PluginSettingTab {
         this.plugin.settings.personas = "default";
         this.plugin.rebuildPersonas();
         await this.plugin.saveSettings();
-        new import_obsidian19.Notice("Persona deleted");
+        new import_obsidian20.Notice("Persona deleted");
         this.refreshSettings();
       });
     }).addButton((btn) => btn.setButtonText("Restore defaults").onClick(async () => {
       this.plugin.settings.savedPersonas = void 0;
       this.plugin.rebuildPersonas();
       await this.plugin.saveSettings();
-      new import_obsidian19.Notice("Personas restored to defaults");
+      new import_obsidian20.Notice("Personas restored to defaults");
       this.refreshSettings();
     }));
-    new import_obsidian19.Setting(containerEl).setName("Conversation history").setDesc("Number of previous chat exchanges to include (0-3). One-shot text actions always run independently.").addDropdown(
+    new import_obsidian20.Setting(containerEl).setName("Conversation history").setDesc("Number of previous chat exchanges to include (0-3). One-shot text actions always run independently.").addDropdown(
       (dropdown) => dropdown.addOption("0", "0").addOption("1", "1").addOption("2", "2").addOption("3", "3").setValue(this.plugin.settings.maxConvHistory.toString()).onChange(async (value) => {
         this.plugin.settings.maxConvHistory = parseInt(value);
         await this.plugin.saveSettings();
       })
     );
-    new import_obsidian19.Setting(containerEl).setName("Render Markdown in chat").setDesc("Render assistant responses in chat views with Obsidian's Markdown renderer. Turn this off to keep plain escaped text.").addToggle(
+    new import_obsidian20.Setting(containerEl).setName("Render Markdown in chat").setDesc("Render assistant responses in chat views with Obsidian's Markdown renderer. Turn this off to keep plain escaped text.").addToggle(
       (toggle) => toggle.setValue(this.plugin.settings.renderMarkdownInChat).onChange(async (value) => {
         this.plugin.settings.renderMarkdownInChat = value;
         await this.plugin.saveSettings();
       })
     );
-    new import_obsidian19.Setting(containerEl).setName("Vault Actions").setDesc("Allow chat to propose note writes for manual approval. No note is changed until you approve the action card.").addToggle(
+    new import_obsidian20.Setting(containerEl).setName("Vault Actions").setDesc("Allow chat to propose note writes for manual approval. No note is changed until you approve the action card.").addToggle(
       (toggle) => toggle.setValue(this.plugin.settings.enableVaultActions).onChange(async (value) => {
         this.plugin.settings.enableVaultActions = value;
         await this.plugin.saveSettings();
       })
     );
-    new import_obsidian19.Setting(containerEl).setName("Show Vault Actions debug JSON").setDesc("Show raw <vault-actions> JSON in chat responses for troubleshooting.").addToggle(
+    new import_obsidian20.Setting(containerEl).setName("Show Vault Actions debug JSON").setDesc("Show raw <vault-actions> JSON in chat responses for troubleshooting.").addToggle(
       (toggle) => toggle.setValue(this.plugin.settings.showAgentDebug).onChange(async (value) => {
         this.plugin.settings.showAgentDebug = value;
         await this.plugin.saveSettings();
@@ -110019,7 +110235,7 @@ var OLLMSettingTab = class extends import_obsidian19.PluginSettingTab {
       text: "Turn recent Markdown changes into a small, cited brief: forgotten commitments, stalled work, useful connections, and a concrete next action. Radar reads notes but never edits them.",
       cls: "setting-item-description"
     });
-    new import_obsidian19.Setting(containerEl).setName("Automatic daily brief").setDesc("Off by default. When enabled, once every 24 hours Radar sends bounded excerpts from changed notes and limited prior-card feedback metadata to your configured chat server. Enabling starts the 24-hour clock; it does not run immediately.").addToggle(
+    new import_obsidian20.Setting(containerEl).setName("Automatic daily brief").setDesc("Off by default. When enabled, once every 24 hours Radar sends bounded excerpts from changed notes and limited prior-card feedback metadata to your configured chat server. Enabling starts the 24-hour clock; it does not run immediately.").addToggle(
       (toggle) => toggle.setValue(this.plugin.settings.vaultRadarAutoRun).onChange(async (value) => {
         this.plugin.settings.vaultRadarAutoRun = value;
         this.plugin.settings.vaultRadarAutoRunEnabledAt = value ? Date.now() : 0;
@@ -110027,7 +110243,7 @@ var OLLMSettingTab = class extends import_obsidian19.PluginSettingTab {
         this.plugin.startVaultRadarTimer();
       })
     );
-    new import_obsidian19.Setting(containerEl).setName("Changed notes per run").setDesc("Caps how many recently changed Markdown notes are read in one brief (3\u201325). Long notes are excerpted and the total prompt is bounded.").addText((text) => {
+    new import_obsidian20.Setting(containerEl).setName("Changed notes per run").setDesc("Caps how many recently changed Markdown notes are read in one brief (3\u201325). Long notes are excerpted and the total prompt is bounded.").addText((text) => {
       text.inputEl.type = "number";
       text.inputEl.min = "3";
       text.inputEl.max = "25";
@@ -110041,7 +110257,7 @@ var OLLMSettingTab = class extends import_obsidian19.PluginSettingTab {
         this.plugin.refreshVaultRadarConfiguration();
       });
     });
-    new import_obsidian19.Setting(containerEl).setName("Open Vault Radar").setDesc("Review the current brief, run a manual scan, and rate or snooze insight cards.").addButton((button) => button.setButtonText("Open").setCta().onClick(() => {
+    new import_obsidian20.Setting(containerEl).setName("Open Vault Radar").setDesc("Review the current brief, run a manual scan, and rate or snooze insight cards.").addButton((button) => button.setButtonText("Open").setCta().onClick(() => {
       void this.plugin.openVaultRadarView({ focusRunButton: true });
     }));
   }
@@ -110055,19 +110271,19 @@ var OLLMSettingTab = class extends import_obsidian19.PluginSettingTab {
     this.renderWorkflowDefaultsSetting(containerEl, "project-status-summary", "Project status summary");
   }
   renderOutputSettings(containerEl) {
-    new import_obsidian19.Setting(containerEl).setName("Streaming").setDesc("Request streamed responses from the server. Obsidian buffers the final result before inserting it.").addToggle(
+    new import_obsidian20.Setting(containerEl).setName("Streaming").setDesc("Request streamed responses from the server. Obsidian buffers the final result before inserting it.").addToggle(
       (toggle) => toggle.setValue(this.plugin.settings.stream).onChange(async (value) => {
         this.plugin.settings.stream = value;
         await this.plugin.saveSettings();
       })
     );
-    new import_obsidian19.Setting(containerEl).setName("Output mode").setDesc("How to insert generated text").addDropdown(
+    new import_obsidian20.Setting(containerEl).setName("Output mode").setDesc("How to insert generated text").addDropdown(
       (dropdown) => dropdown.addOption("replace", "Replace selected text").addOption("append", "Append after selected text").setValue(this.plugin.settings.outputMode).onChange(async (value) => {
         this.plugin.settings.outputMode = value;
         await this.plugin.saveSettings();
       })
     );
-    new import_obsidian19.Setting(containerEl).setName("Response formatting").setDesc("Wrap response in custom text (e.g., code blocks)").addToggle(
+    new import_obsidian20.Setting(containerEl).setName("Response formatting").setDesc("Wrap response in custom text (e.g., code blocks)").addToggle(
       (toggle) => toggle.setValue(this.plugin.settings.responseFormatting).onChange(async (value) => {
         this.plugin.settings.responseFormatting = value;
         await this.plugin.saveSettings();
@@ -110075,20 +110291,20 @@ var OLLMSettingTab = class extends import_obsidian19.PluginSettingTab {
       })
     );
     if (this.plugin.settings.responseFormatting) {
-      new import_obsidian19.Setting(containerEl).setName("Prepend text").setDesc("Text before response").addText(
+      new import_obsidian20.Setting(containerEl).setName("Prepend text").setDesc("Text before response").addText(
         (text) => text.setPlaceholder("``` LLM Helper\n\n").setValue(this.plugin.settings.responseFormatPrepend).onChange((value) => {
           this.plugin.settings.responseFormatPrepend = value;
           this.debouncedSave();
         })
       );
-      new import_obsidian19.Setting(containerEl).setName("Append text").setDesc("Text after response").addText(
+      new import_obsidian20.Setting(containerEl).setName("Append text").setDesc("Text after response").addText(
         (text) => text.setPlaceholder("\n\n```").setValue(this.plugin.settings.responseFormatAppend).onChange((value) => {
           this.plugin.settings.responseFormatAppend = value;
           this.debouncedSave();
         })
       );
     }
-    new import_obsidian19.Setting(containerEl).setName("Extract reasoning").setDesc("Strip <think>, <reasoning>, <thought> blocks from output (useful for Qwen, DeepSeek)").addToggle(
+    new import_obsidian20.Setting(containerEl).setName("Extract reasoning").setDesc("Strip <think>, <reasoning>, <thought> blocks from output (useful for Qwen, DeepSeek)").addToggle(
       (toggle) => {
         var _a3;
         return toggle.setValue((_a3 = this.plugin.settings.extractReasoningResponses) != null ? _a3 : false).onChange(async (value) => {
@@ -110107,16 +110323,16 @@ var OLLMSettingTab = class extends import_obsidian19.PluginSettingTab {
         }
       });
       markersTextarea.value = this.plugin.settings.reasoningMarkers || JSON.stringify(DEFAULT_REASONING_MARKERS, null, 2);
-      new import_obsidian19.Setting(containerEl).setName("Reasoning markers").setDesc("JSON array of marker pairs to strip from responses").addButton((btn) => btn.setButtonText("Save markers").onClick(async () => {
+      new import_obsidian20.Setting(containerEl).setName("Reasoning markers").setDesc("JSON array of marker pairs to strip from responses").addButton((btn) => btn.setButtonText("Save markers").onClick(async () => {
         const parsed = parseReasoningMarkers(markersTextarea.value);
         this.plugin.settings.reasoningMarkers = JSON.stringify(parsed, null, 2);
         await this.plugin.saveSettings();
-        new import_obsidian19.Notice("Reasoning markers saved");
+        new import_obsidian20.Notice("Reasoning markers saved");
       }));
     }
   }
   renderCustomPromptSettings(containerEl) {
-    new import_obsidian19.Setting(containerEl).setName("Your prompt").setDesc("Used by 'text: Run custom prompt' command").addText(
+    new import_obsidian20.Setting(containerEl).setName("Your prompt").setDesc("Used by 'text: Run custom prompt' command").addText(
       (text) => text.setPlaceholder("Create action items from the following:").setValue(this.plugin.settings.customPrompt).onChange((value) => {
         this.plugin.settings.customPrompt = value;
         this.debouncedSave();
@@ -110127,7 +110343,7 @@ var OLLMSettingTab = class extends import_obsidian19.PluginSettingTab {
     const savedPrompts = this.plugin.settings.customPrompts || [];
     if (savedPrompts.length > 0) {
       for (const sp of savedPrompts) {
-        new import_obsidian19.Setting(containerEl).setName(sp.title).setDesc(sp.prompt.length > 80 ? sp.prompt.substring(0, 80) + "..." : sp.prompt).addButton((btn) => btn.setButtonText("Edit").onClick(() => {
+        new import_obsidian20.Setting(containerEl).setName(sp.title).setDesc(sp.prompt.length > 80 ? sp.prompt.substring(0, 80) + "..." : sp.prompt).addButton((btn) => btn.setButtonText("Edit").onClick(() => {
           new EditPromptModal(this.app, sp, (updated) => {
             void (async () => {
               sp.title = updated.title;
@@ -110135,7 +110351,7 @@ var OLLMSettingTab = class extends import_obsidian19.PluginSettingTab {
               sp.updatedAt = Date.now();
               this.plugin.refreshCustomPromptCommands();
               await this.plugin.saveSettings();
-              new import_obsidian19.Notice("Prompt updated");
+              new import_obsidian20.Notice("Prompt updated");
               this.refreshSettings();
             })();
           }).open();
@@ -110143,7 +110359,7 @@ var OLLMSettingTab = class extends import_obsidian19.PluginSettingTab {
           this.plugin.settings.customPrompts = savedPrompts.filter((p) => p.id !== sp.id);
           this.plugin.unregisterPromptCommand(sp.id);
           await this.plugin.saveSettings();
-          new import_obsidian19.Notice("Prompt deleted");
+          new import_obsidian20.Notice("Prompt deleted");
           this.refreshSettings();
         }));
       }
@@ -110160,15 +110376,15 @@ var OLLMSettingTab = class extends import_obsidian19.PluginSettingTab {
     const newPromptTextarea = newPromptContainer.createEl("textarea", {
       attr: { placeholder: "Prompt text (e.g., translate the following text to Spanish:)", rows: "3", style: "width: 100%; font-family: monospace; font-size: 0.85em; margin-bottom: 4px;" }
     });
-    new import_obsidian19.Setting(newPromptContainer).addButton((btn) => btn.setButtonText("Add prompt").setCta().onClick(async () => {
+    new import_obsidian20.Setting(newPromptContainer).addButton((btn) => btn.setButtonText("Add prompt").setCta().onClick(async () => {
       const title = newTitleInput.value.trim();
       const prompt = newPromptTextarea.value.trim();
       if (!title) {
-        new import_obsidian19.Notice("Please enter a title");
+        new import_obsidian20.Notice("Please enter a title");
         return;
       }
       if (!prompt) {
-        new import_obsidian19.Notice("Please enter a prompt");
+        new import_obsidian20.Notice("Please enter a prompt");
         return;
       }
       const now = Date.now();
@@ -110185,12 +110401,12 @@ var OLLMSettingTab = class extends import_obsidian19.PluginSettingTab {
       this.plugin.settings.customPrompts.push(newPrompt);
       this.plugin.registerSinglePromptCommand(newPrompt);
       await this.plugin.saveSettings();
-      new import_obsidian19.Notice(`Prompt "${title}" saved`);
+      new import_obsidian20.Notice(`Prompt "${title}" saved`);
       this.refreshSettings();
     }));
   }
   renderNotesIndexRagSettings(containerEl) {
-    new import_obsidian19.Setting(containerEl).setName("RAG top k").setDesc("Number of relevant note chunks to send to the AI").addText((text) => {
+    new import_obsidian20.Setting(containerEl).setName("RAG top k").setDesc("Number of relevant note chunks to send to the AI").addText((text) => {
       text.inputEl.type = "number";
       text.inputEl.min = "1";
       text.setValue(this.plugin.settings.ragTopK.toString()).onChange(async (value) => {
@@ -110201,7 +110417,7 @@ var OLLMSettingTab = class extends import_obsidian19.PluginSettingTab {
         }
       });
     });
-    new import_obsidian19.Setting(containerEl).setName("Auto-index interval (minutes)").setDesc("Automatically re-index notes every N minutes using your configured embedding server. Set to 0 to disable.").addText(
+    new import_obsidian20.Setting(containerEl).setName("Auto-index interval (minutes)").setDesc("Automatically re-index notes every N minutes using your configured embedding server. Set to 0 to disable.").addText(
       (text) => text.setPlaceholder("0").setValue(String(this.plugin.settings.autoIndexIntervalMinutes)).onChange(async (value) => {
         const parsed = parseInt(value);
         this.plugin.settings.autoIndexIntervalMinutes = isNaN(parsed) || parsed < 0 ? 0 : parsed;
@@ -110209,31 +110425,31 @@ var OLLMSettingTab = class extends import_obsidian19.PluginSettingTab {
         this.plugin.startAutoIndexTimer();
       })
     );
-    new import_obsidian19.Setting(containerEl).setName("Auto index notification").setDesc("Show a notification when auto indexing").addToggle(
+    new import_obsidian20.Setting(containerEl).setName("Auto index notification").setDesc("Show a notification when auto indexing").addToggle(
       (toggle) => toggle.setValue(this.plugin.settings.autoNotice).onChange(async (value) => {
         this.plugin.settings.autoNotice = value;
         await this.plugin.saveSettings();
       })
     );
-    new import_obsidian19.Setting(containerEl).setName("Index PDF attachments").setDesc("Include PDF files in the searchable index using built-in text extraction.").addToggle(
+    new import_obsidian20.Setting(containerEl).setName("Index PDF attachments").setDesc("Include PDF files in the searchable index using built-in text extraction.").addToggle(
       (toggle) => toggle.setValue(this.plugin.settings.indexPdfAttachments).onChange(async (value) => {
         this.plugin.settings.indexPdfAttachments = value;
         await this.plugin.saveSettings();
       })
     );
-    new import_obsidian19.Setting(containerEl).setName("OCR image attachments").setDesc("Use local OCR to index supported image attachments like PNG, JPG, WebP, GIF, and BMP.").addToggle(
+    new import_obsidian20.Setting(containerEl).setName("OCR image attachments").setDesc("Use local OCR to index supported image attachments like PNG, JPG, WebP, GIF, and BMP.").addToggle(
       (toggle) => toggle.setValue(this.plugin.settings.ocrImageAttachments).onChange(async (value) => {
         this.plugin.settings.ocrImageAttachments = value;
         await this.plugin.saveSettings();
       })
     );
-    new import_obsidian19.Setting(containerEl).setName("OCR scanned PDFs").setDesc("Run local OCR on PDF pages that do not contain extractable text.").addToggle(
+    new import_obsidian20.Setting(containerEl).setName("OCR scanned PDFs").setDesc("Run local OCR on PDF pages that do not contain extractable text.").addToggle(
       (toggle) => toggle.setValue(this.plugin.settings.ocrScannedPdfAttachments).onChange(async (value) => {
         this.plugin.settings.ocrScannedPdfAttachments = value;
         await this.plugin.saveSettings();
       })
     );
-    new import_obsidian19.Setting(containerEl).setName("Index sources").setDesc("Build a searchable index of notes and supported attachments in your vault").addButton((button) => button.setButtonText("Start indexing").onClick(async () => {
+    new import_obsidian20.Setting(containerEl).setName("Index sources").setDesc("Build a searchable index of notes and supported attachments in your vault").addButton((button) => button.setButtonText("Start indexing").onClick(async () => {
       button.setDisabled(true);
       const progressBar = containerEl.createEl("progress", {
         attr: { value: 0, max: 100 }
@@ -110248,20 +110464,20 @@ var OLLMSettingTab = class extends import_obsidian19.PluginSettingTab {
           counterEl.textContent = `   Indexing: ${Math.round(progress * 100)}%`;
           counterEl.addClass("indexing-counter-small");
         });
-        new import_obsidian19.Notice("Indexing complete!");
+        new import_obsidian20.Notice("Indexing complete!");
         this.updateIndexedFilesCount();
       } catch (error) {
         console.error("Indexing error:", error);
-        new import_obsidian19.Notice(error instanceof Error ? error.message : "Error during indexing. Check console for details.");
+        new import_obsidian20.Notice(error instanceof Error ? error.message : "Error during indexing. Check console for details.");
       } finally {
         button.setDisabled(false);
         progressBar.remove();
         counterEl.remove();
       }
     }));
-    this.indexedFilesCountSetting = new import_obsidian19.Setting(containerEl).setName("Indexed sources").setDesc("Number of notes and attachments in the current index").addText((text) => text.setValue("Loading...").setDisabled(true));
+    this.indexedFilesCountSetting = new import_obsidian20.Setting(containerEl).setName("Indexed sources").setDesc("Number of notes and attachments in the current index").addText((text) => text.setValue("Loading...").setDisabled(true));
     void this.updateIndexedFilesCountAsync();
-    new import_obsidian19.Setting(containerEl).setName("Diagnostics").setDesc("Check index storage status").addButton((button) => button.setButtonText("Run diagnostics").onClick(async () => {
+    new import_obsidian20.Setting(containerEl).setName("Diagnostics").setDesc("Check index storage status").addButton((button) => button.setButtonText("Run diagnostics").onClick(async () => {
       await this.plugin.handleDiagnostics();
     }));
   }
@@ -110270,21 +110486,21 @@ var OLLMSettingTab = class extends import_obsidian19.PluginSettingTab {
     const renderSearchApiKey = () => {
       searchApiKeyContainer.empty();
       if (this.plugin.settings.searchProvider === "brave") {
-        new import_obsidian19.Setting(searchApiKeyContainer).setName("Brave Search API key").setDesc("Required for web search features").addText(
+        new import_obsidian20.Setting(searchApiKeyContainer).setName("Brave Search API key").setDesc("Required for web search features").addText(
           (text) => text.setPlaceholder("Enter API key").setValue(this.plugin.settings.braveSearchApiKey).onChange((value) => {
             this.plugin.settings.braveSearchApiKey = value;
             this.debouncedSave();
           })
         );
       } else if (this.plugin.settings.searchProvider === "searxng") {
-        new import_obsidian19.Setting(searchApiKeyContainer).setName("SearXNG instance URL").setDesc("Required for SearXNG search. The instance must have JSON output enabled under search.formats.").addText(
+        new import_obsidian20.Setting(searchApiKeyContainer).setName("SearXNG instance URL").setDesc("Required for SearXNG search. The instance must have JSON output enabled under search.formats.").addText(
           (text) => text.setPlaceholder("https://search.example.com").setValue(this.plugin.settings.searxngInstanceUrl).onChange((value) => {
             this.plugin.settings.searxngInstanceUrl = value.trim();
             this.debouncedSave();
           })
         );
       } else {
-        new import_obsidian19.Setting(searchApiKeyContainer).setName("Tavily API key").setDesc("Required for web search features (Tavily.com)").addText(
+        new import_obsidian20.Setting(searchApiKeyContainer).setName("Tavily API key").setDesc("Required for web search features (Tavily.com)").addText(
           (text) => text.setPlaceholder("Enter API key").setValue(this.plugin.settings.tavilyApiKey).onChange((value) => {
             this.plugin.settings.tavilyApiKey = value;
             this.debouncedSave();
@@ -110292,7 +110508,7 @@ var OLLMSettingTab = class extends import_obsidian19.PluginSettingTab {
         );
       }
     };
-    new import_obsidian19.Setting(containerEl).setName("Search provider").setDesc("Choose which search API to use for web and news search").addDropdown(
+    new import_obsidian20.Setting(containerEl).setName("Search provider").setDesc("Choose which search API to use for web and news search").addDropdown(
       (dropdown) => dropdown.addOption("tavily", "Tavily").addOption("brave", "Brave").addOption("searxng", "SearXNG").setValue(this.plugin.settings.searchProvider).onChange((value) => {
         this.plugin.settings.searchProvider = value;
         this.debouncedSave();
@@ -110302,33 +110518,33 @@ var OLLMSettingTab = class extends import_obsidian19.PluginSettingTab {
     renderSearchApiKey();
   }
   renderAboutSettings(containerEl) {
-    new import_obsidian19.Setting(containerEl).setName("Version").setDesc(`Local LLM Helper v${this.plugin.manifest.version}`).addButton((btn) => btn.setButtonText("View changelog").onClick(() => {
+    new import_obsidian20.Setting(containerEl).setName("Version").setDesc(`Local LLM Helper v${this.plugin.manifest.version}`).addButton((btn) => btn.setButtonText("View changelog").onClick(() => {
       new UpdateNoticeModal(this.app, this.plugin.manifest.version).open();
     }));
   }
   renderWorkflowDefaultsSetting(containerEl, recipeId, label) {
     const defaults = this.plugin.settings.workflowDefaults.recipes[recipeId];
     this.addHeading(containerEl, label);
-    new import_obsidian19.Setting(containerEl).setName("Default source scope").setDesc(`Saved default scope for ${label.toLowerCase()}`).addDropdown(
+    new import_obsidian20.Setting(containerEl).setName("Default source scope").setDesc(`Saved default scope for ${label.toLowerCase()}`).addDropdown(
       (dropdown) => dropdown.addOption("vault", "Entire vault").addOption("current-note", "Current note").addOption("current-folder", "Current folder").addOption("tag", "Tag").setValue(defaults.scopeOption).onChange(async (value) => {
         defaults.scopeOption = value;
         await this.plugin.saveSettings();
       })
     );
-    new import_obsidian19.Setting(containerEl).setName("Default tags").setDesc("Only used when the default source scope is tag").addText(
+    new import_obsidian20.Setting(containerEl).setName("Default tags").setDesc("Only used when the default source scope is tag").addText(
       (text) => text.setPlaceholder("#project").setValue(defaults.tagValue).onChange((value) => {
         defaults.tagValue = value;
         this.debouncedSave();
       })
     );
     if (recipeId === "weekly-review") {
-      new import_obsidian19.Setting(containerEl).setName("Output folder").setDesc("Folder used for the new weekly review note").addText(
+      new import_obsidian20.Setting(containerEl).setName("Output folder").setDesc("Folder used for the new weekly review note").addText(
         (text) => text.setPlaceholder("Reviews").setValue(defaults.outputFolder).onChange((value) => {
           defaults.outputFolder = value;
           this.debouncedSave();
         })
       );
-      new import_obsidian19.Setting(containerEl).setName("Title template").setDesc("Use YYYY-MM-DD for the local date").addText(
+      new import_obsidian20.Setting(containerEl).setName("Title template").setDesc("Use YYYY-MM-DD for the local date").addText(
         (text) => text.setPlaceholder("Weekly review - YYYY-MM-DD").setValue(defaults.titleTemplate).onChange((value) => {
           defaults.titleTemplate = value || "Weekly Review - YYYY-MM-DD";
           this.debouncedSave();
@@ -110336,7 +110552,7 @@ var OLLMSettingTab = class extends import_obsidian19.PluginSettingTab {
       );
       return;
     }
-    new import_obsidian19.Setting(containerEl).setName("Target note").setDesc("Default note to append workflow output into").addText(
+    new import_obsidian20.Setting(containerEl).setName("Target note").setDesc("Default note to append workflow output into").addText(
       (text) => text.setPlaceholder("Projects/Current Project.md").setValue(defaults.targetNote).onChange((value) => {
         defaults.targetNote = value;
         this.debouncedSave();
@@ -110365,7 +110581,7 @@ var OLLMSettingTab = class extends import_obsidian19.PluginSettingTab {
     this.indexedCountTimer = window.setTimeout(checkAndUpdate, 50);
   }
   addHeading(containerEl, name) {
-    new import_obsidian19.Setting(containerEl).setName(name).setHeading();
+    new import_obsidian20.Setting(containerEl).setName(name).setHeading();
   }
 };
 function getLLMErrorMessage(error, fallback) {
@@ -110374,7 +110590,7 @@ function getLLMErrorMessage(error, fallback) {
 async function processText(input, iprompt, plugin, target, mode = "edit") {
   var _a3, _b, _c;
   plugin.isKillSwitchActive = false;
-  new import_obsidian19.Notice("Generating response. This takes a few seconds..");
+  new import_obsidian20.Notice("Generating response. This takes a few seconds..");
   (_a3 = plugin.statusBarItemEl) == null ? void 0 : _a3.setText("LLM Helper: Generating response...");
   const personaPrompt = (_b = plugin.personasDict[plugin.settings.personas]) == null ? void 0 : _b.systemPrompt;
   const messages = buildTextActionMessages({
@@ -110404,21 +110620,21 @@ async function processText(input, iprompt, plugin, target, mode = "edit") {
         output = target.selectedText + "\n\n" + output;
       }
       if (applyTextActionResult(target, output)) {
-        new import_obsidian19.Notice("Text generation complete. Voila!");
+        new import_obsidian20.Notice("Text generation complete. Voila!");
       } else {
-        new import_obsidian19.Notice("Original selection changed; generated text was not inserted.");
+        new import_obsidian20.Notice("Original selection changed; generated text was not inserted.");
       }
     } else {
-      new import_obsidian19.Notice("Text generation stopped by kill switch");
+      new import_obsidian20.Notice("Text generation stopped by kill switch");
       plugin.isKillSwitchActive = false;
     }
   } catch (error) {
     console.error("Error during request:", error);
-    new import_obsidian19.Notice(getLLMErrorMessage(error, "Error generating text. Check plugin console for details."));
+    new import_obsidian20.Notice(getLLMErrorMessage(error, "Error generating text. Check plugin console for details."));
   }
   (_c = plugin.statusBarItemEl) == null ? void 0 : _c.setText("LLM Helper: Ready");
 }
-var LLMChatModal = class extends import_obsidian19.Modal {
+var LLMChatModal = class extends import_obsidian20.Modal {
   constructor(app, plugin) {
     super(app);
     this.renderScope = new ChatRenderScope();
@@ -110450,7 +110666,7 @@ var LLMChatModal = class extends import_obsidian19.Modal {
     const inputContainer = contentEl.createDiv({ cls: "llm-chat-input-container" });
     const inputRow = inputContainer.createDiv({ cls: "llm-chat-input-row" });
     inputRow.createSpan({ text: "Ask:", cls: "llm-chat-ask-label" });
-    const textInput = new import_obsidian19.TextComponent(inputRow).setValue(this.result).setPlaceholder("Type your question here...").onChange((value) => {
+    const textInput = new import_obsidian20.TextComponent(inputRow).setValue(this.result).setPlaceholder("Type your question here...").onChange((value) => {
       this.result = value;
       this.updateSubmitButtonState();
     });
@@ -110461,7 +110677,7 @@ var LLMChatModal = class extends import_obsidian19.Modal {
         void this.handleSubmit();
       }
     });
-    this.submitButton = new import_obsidian19.ButtonComponent(inputRow).setButtonText("Submit").setCta().onClick(() => void this.handleSubmit());
+    this.submitButton = new import_obsidian20.ButtonComponent(inputRow).setButtonText("Submit").setCta().onClick(() => void this.handleSubmit());
     this.submitButton.buttonEl.classList.add("llm-chat-submit-button");
     this.updateSubmitButtonState();
     this.scrollToBottom();
@@ -110543,12 +110759,12 @@ async function processChatInput(text, chatContainer, chatHistoryEl, conversation
       }
     );
     updateConversationHistory(conversationHistory, text, renderedMessage, plugin.settings.maxConvHistory);
-    new import_obsidian19.Notice("Chat response ready.");
+    new import_obsidian20.Notice("Chat response ready.");
     scrollToBottom(chatContainer);
   } catch (error) {
     if (!isCurrent()) return;
     console.error("Error during request:", error);
-    new import_obsidian19.Notice(getLLMErrorMessage(error, "Error communicating with LLM server. Check plugin console for details."));
+    new import_obsidian20.Notice(getLLMErrorMessage(error, "Error communicating with LLM server. Check plugin console for details."));
     hideThinkingIndicator(chatHistoryEl);
   }
 }
@@ -110585,7 +110801,7 @@ function scrollToBottom(el) {
     chatHistoryEl.scrollTop = chatHistoryEl.scrollHeight;
   }
 }
-var EditPromptModal = class extends import_obsidian19.Modal {
+var EditPromptModal = class extends import_obsidian20.Modal {
   constructor(app, prompt, onSave) {
     super(app);
     this.prompt = prompt;
@@ -110602,11 +110818,11 @@ var EditPromptModal = class extends import_obsidian19.Modal {
       attr: { rows: "5", style: "width: 100%; font-family: monospace; font-size: 0.85em; margin-bottom: 8px;" }
     });
     promptTextarea.value = this.prompt.prompt;
-    new import_obsidian19.Setting(contentEl).addButton((btn) => btn.setButtonText("Save").setCta().onClick(() => {
+    new import_obsidian20.Setting(contentEl).addButton((btn) => btn.setButtonText("Save").setCta().onClick(() => {
       const title = titleInput.value.trim();
       const prompt = promptTextarea.value.trim();
       if (!title || !prompt) {
-        new import_obsidian19.Notice("Title and prompt are required");
+        new import_obsidian20.Notice("Title and prompt are required");
         return;
       }
       this.onSave({ title, prompt });
@@ -110629,7 +110845,7 @@ async function tavilySearch(query, topic, plugin) {
   if (topic === "news") {
     body.time_range = "day";
   }
-  const response = await (0, import_obsidian19.requestUrl)({
+  const response = await (0, import_obsidian20.requestUrl)({
     url: "https://api.tavily.com/search",
     method: "POST",
     headers: {
@@ -110685,7 +110901,7 @@ function getSearchErrorMessage(error, fallback) {
   return error instanceof Error ? error.message : fallback;
 }
 async function searxngSearch(query, topic, plugin) {
-  const response = await (0, import_obsidian19.requestUrl)({
+  const response = await (0, import_obsidian20.requestUrl)({
     url: buildSearxngSearchUrl(query, topic, plugin.settings.searxngInstanceUrl),
     method: "GET",
     headers: {
@@ -110719,10 +110935,10 @@ async function processWebSearch(query, plugin, target) {
   const provider = plugin.settings.searchProvider;
   const providerError = validateSearchProvider(plugin.settings);
   if (providerError) {
-    new import_obsidian19.Notice(providerError);
+    new import_obsidian20.Notice(providerError);
     return;
   }
-  new import_obsidian19.Notice("Searching the web...");
+  new import_obsidian20.Notice("Searching the web...");
   try {
     let results;
     if (provider === "tavily") {
@@ -110730,7 +110946,7 @@ async function processWebSearch(query, plugin, target) {
     } else if (provider === "searxng") {
       results = await searxngSearch(query, "general", plugin);
     } else {
-      const response = await (0, import_obsidian19.requestUrl)({
+      const response = await (0, import_obsidian20.requestUrl)({
         url: `https://api.search.brave.com/res/v1/web/search?q=${encodeURIComponent(query)}&count=5&summary=1&extra_snippets=1&text_decorations=1&result_filter=web,discussions,faq,news&spellcheck=1`,
         method: "GET",
         headers: {
@@ -110772,7 +110988,7 @@ async function processWebSearch(query, plugin, target) {
     );
   } catch (error) {
     console.error("Web search error:", error);
-    new import_obsidian19.Notice(getSearchErrorMessage(error, "Web search failed. Check console for details."));
+    new import_obsidian20.Notice(getSearchErrorMessage(error, "Web search failed. Check console for details."));
   }
 }
 async function processNewsSearch(query, plugin, target) {
@@ -110780,10 +110996,10 @@ async function processNewsSearch(query, plugin, target) {
   const provider = plugin.settings.searchProvider;
   const providerError = validateSearchProvider(plugin.settings);
   if (providerError) {
-    new import_obsidian19.Notice(providerError);
+    new import_obsidian20.Notice(providerError);
     return;
   }
-  new import_obsidian19.Notice("Searching for news...");
+  new import_obsidian20.Notice("Searching for news...");
   try {
     let results;
     if (provider === "tavily") {
@@ -110791,7 +111007,7 @@ async function processNewsSearch(query, plugin, target) {
     } else if (provider === "searxng") {
       results = await searxngSearch(query, "news", plugin);
     } else {
-      const response = await (0, import_obsidian19.requestUrl)({
+      const response = await (0, import_obsidian20.requestUrl)({
         url: `https://api.search.brave.com/res/v1/news/search?q=${encodeURIComponent(query)}&count=5&search_lang=en&freshness=pd`,
         method: "GET",
         headers: {
@@ -110831,6 +111047,6 @@ async function processNewsSearch(query, plugin, target) {
     );
   } catch (error) {
     console.error("News search error:", error);
-    new import_obsidian19.Notice(getSearchErrorMessage(error, "News search failed. Check console for details."));
+    new import_obsidian20.Notice(getSearchErrorMessage(error, "News search failed. Check console for details."));
   }
 }
