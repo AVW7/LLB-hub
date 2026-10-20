@@ -1,7 +1,7 @@
 # LLB Hub — Index
 
-**Scanned:** 856 files across 14 subject folders  
-**Last updated:** 2026-10-19  
+**Scanned:** 872 files across 14 subject folders  
+**Last updated:** 2026-10-20  
 **Source:** LSSA / School for Legal Practice past exam papers, memoranda, assignments, webinar slides and precedents.
 
 > Re-index anytime after adding/removing files: `python3 ".reindex.py"` from this folder. Regenerates `index.md` + `index.json` (source files untouched).
@@ -22,7 +22,7 @@
 | IPM | Introduction to Practice Management (Module 4) | 22 |
 | ICP | Introduction to Conveyancing Practice (Module 3.2) | 24 |
 | BBST | Broad Based Skills Test (Integrated Practical Exam) | 46 |
-| Attorneys Exam | Attorneys Admission Examination (Board Exam) | 300 |
+| Attorneys Exam | Attorneys Admission Examination (Board Exam) | 316 |
 | LSSA | LSSA Reference Materials and Miscellaneous | 9 |
 
 ## Quality & Gaps
@@ -567,6 +567,22 @@
 - **[AttExam9Feb2016Q/markdown.md](./Attorneys Exam/AttExam9Feb2016Q.pdf/markdown.md)** *(exam_question, topics: bail, s115-statement, s112-statement, plea, appeal)* — Attorneys Admission Examination — exam question paper
 - **[Attorneys Exam Dashboard.md](./Attorneys Exam/Attorneys Exam Dashboard.md)** *(general, topics: bail, plea, appeal, vat, close-corporation)* — Attorneys Admission Examination — document
 - **[Attorneys Exam.base](./Attorneys Exam/Attorneys Exam.base)** *(general)* — Attorneys Admission Examination — document  ⚠️ empty or near-empty
+- **[AttExam15Mar2022P1A-candidate.md](./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam15Mar2022P1A-candidate.md)** *(marking_memo, topics: plea, appeal, vat, trust, criminal-procedure-act)* — Attorneys Admission Examination — document
+- **[AttExam15Mar2022P2A-candidate.md](./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam15Mar2022P2A-candidate.md)** *(marking_memo, topics: vat)* — Attorneys Admission Examination — document
+- **[AttExam15Mar2023P1A-candidate.md](./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam15Mar2023P1A-candidate.md)** *(marking_memo, topics: s112-statement, plea, trust, locus-standi, criminal-procedure-act)* — Attorneys Admission Examination — document
+- **[AttExam15Mar2023P2A-candidate.md](./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam15Mar2023P2A-candidate.md)** *(marking_memo, topics: vat, trust)* — Attorneys Admission Examination — document
+- **[AttExam15Mar2023P3A-candidate.md](./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam15Mar2023P3A-candidate.md)** *(marking_memo, topics: bill-of-costs, vat, taxation, close-corporation, trust)* — Attorneys Admission Examination — document
+- **[AttExam16Aug2022P1A-candidate.md](./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam16Aug2022P1A-candidate.md)** *(marking_memo, topics: bail, plea, vat, locus-standi, criminal-procedure-act)* — Attorneys Admission Examination — document
+- **[AttExam16Aug2022P2A-candidate.md](./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam16Aug2022P2A-candidate.md)** *(marking_memo, topics: vat)* — Attorneys Admission Examination — document
+- **[AttExam16Mar2022P3A-candidate.md](./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam16Mar2022P3A-candidate.md)** *(marking_memo, topics: plea, vat, trust)* — Attorneys Admission Examination — document
+- **[AttExam16Mar2022P4A-candidate.md](./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam16Mar2022P4A-candidate.md)** *(marking_memo, topics: vat, trust)* — Attorneys Admission Examination — document
+- **[AttExam16Mar2023P4A-candidate.md](./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam16Mar2023P4A-candidate.md)** *(marking_memo, topics: vat, trust)* — Attorneys Admission Examination — document
+- **[AttExam17Aug2022P3A-candidate.md](./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam17Aug2022P3A-candidate.md)** *(marking_memo, topics: plea, vat, close-corporation, partnership, trust)* — Attorneys Admission Examination — document
+- **[AttExam17Aug2022P4A-candidate.md](./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam17Aug2022P4A-candidate.md)** *(marking_memo, topics: vat, trust)* — Attorneys Admission Examination — document
+- **[AttExam23Aug2023P1A-candidate.md](./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam23Aug2023P1A-candidate.md)** *(marking_memo, topics: bail, plea, leave-to-appeal, appeal, vat)* — Attorneys Admission Examination — document
+- **[AttExam23Aug2023P2A-candidate.md](./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam23Aug2023P2A-candidate.md)** *(marking_memo, topics: vat)* — Attorneys Admission Examination — document
+- **[AttExam24Aug2023P3A-candidate.md](./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam24Aug2023P3A-candidate.md)** *(marking_memo, topics: plea, appeal, vat, partnership, trust)* — Attorneys Admission Examination — document
+- **[AttExam24Aug2023P4A-candidate.md](./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam24Aug2023P4A-candidate.md)** *(marking_memo, topics: vat, trust)* — Attorneys Admission Examination — document
 - **[AttExam10Feb2015P1A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam10Feb2015P1A.md)** *(marking_memo, topics: plea, leave-to-appeal, appeal, vat, close-corporation)* — Attorneys Admission Examination — marking memorandum / model answers
 - **[AttExam10Feb2015P2A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam10Feb2015P2A.md)** *(marking_memo, topics: plea)* — Attorneys Admission Examination — marking memorandum / model answers
 - **[AttExam10Feb2016P3A.md](./Attorneys Exam/Mistral OCR 2026-10-19/AttExam10Feb2016P3A.md)** *(marking_memo, topics: plea, vat, party-and-party-costs, costs-de-bonis-propriis, pre-incorporation-contract)* — Attorneys Admission Examination — marking memorandum / model answers

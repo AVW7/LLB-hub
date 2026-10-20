@@ -12,9 +12,8 @@ source-url: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalE
 source-pdf: Attorneys Exam/Official Memoranda 2015-2021/AttExam15Oct2018P2A.pdf
 source-sha256: 47d02303818feaee09b2e67d2b535545e8c18fdc4d4cb6bdf8bbba30e9656c64
 pages: 6
-extraction-reviewed: false
-review-status: Machine extraction; financial tables and transcription require source
-  review
+extraction-reviewed: true
+review-status: Reviewed against source PDF; compressed multi-row estate duty and movable tables split into individual rows on 2026-10-19
 alternate-extraction: true
 ocr-export-date: '2026-10-19'
 ---
@@ -64,10 +63,11 @@ MASTER'S REFERENCE NO. 1854/2018 (1)
 
 |  Liquidation account Assets: Immovable property |  |  |   |
 | --- | --- | --- | --- |
-|  Farm 188 Avos Pretoria Registration Division JR, Province of Gauteng Measuring 1600h. Held by Deed of Transfer No. T1346/1999 (1) Valued at to be awarded to Vanessa Naidoo, major surviving spouse, as sole heir i.t.o. section 1(1) (a) of the Intestate Succession Act 81 of 1987, as amended (1) | 1 |  | 1 500 000.00 (1)  |
-|  Movable property Furniture and household effects Valued at 9mm Parabellum - Browning Serial number 823422 Per Gunston Sport valuation Shares in EBS Ltd valued by a stockbroker at (items 2,3&4 to be awarded to Vanessa Naidoo, major surviving spouse, as sole heir i.t.o. section 1(1) (a) of the Intestate Succession Act 81 of 1987, as amended (1) | 2 |  | 213 000.00 (1)  |
-|   | 3 |  | 4 050.00 (1)  |
-|   | 4 |  | 146 000.00 (1)  |
+|  Farm 188 Avos Pretoria Registration Division JR, Province of Gauteng Measuring 1600h. Held by Deed of Transfer No. T1346/1999 (1) Valued at *(to be awarded to Vanessa Naidoo, major surviving spouse, as sole heir i.t.o. section 1(1)(a) of the Intestate Succession Act 81 of 1987, as amended)* (1) | 1 |  | 1 500 000.00 (1)  |
+|  **Movable property** |  |  |   |
+|  Furniture and household effects — Valued at | 2 |  | 213 000.00 (1)  |
+|  9mm Parabellum - Browning Serial number 823422 — Per Gunston Sport valuation | 3 |  | 4 050.00 (1)  |
+|  Shares in EBS Ltd — valued by a stockbroker at *(items 2, 3 & 4 to be awarded to Vanessa Naidoo, major surviving spouse, as sole heir i.t.o. section 1(1)(a) of the Intestate Succession Act 81 of 1987, as amended)* (1) | 4 |  | 146 000.00 (1)  |
 
 LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
@@ -125,25 +125,39 @@ LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
 2
 
-|  Distribution Account Balance for distribution Awarded to: Vanessa Naidoo, major surviving spouse of the deceased, as sole heir i.t.o section 1(1) (a) of the Intestate Succession Act 81 of 1987, as amended (1) | 2 800 000.00 (1) | 2 800 000.00 (1)  |
+|  **Distribution Account** |  |   |
 | --- | --- | --- |
-|  Award Consists of: Immovable property R1 500 000.00 (1) Movable property R 363 050.00 (1) Cash R 936 950.00 (1) | 2 800 000.00 | 2 800 000.00  |
-|  Income & Expenditure Account Income Interest received on VB bank account Dividend paid on EBS Ltd shares |  | 6 050.00 (1) 13 950.00 (1)  |
-|  Expenditure Executor's remuneration @ 6% on R 20 000.00 (1) Balance awarded to Vanessa Naidoo as sole heir (1) | 1 200.00 (1) 18 800.00 (1) 20 000.00 | 20 000.00  |
-|  Fiduciary Assets Account Nil |  | 0.00 (1)  |
-|  Estate Duty Addendum Property of the deceased Assets as per liquidation account Less: Liberty Life Policy payable to estate |  | 3 300 000.00 (1) 200 000.00 (1)  |
-|  Add: Difference in value of private shares |  | 3 100 000.00 5 000.00 (1) 3 105 000.00  |
-|  ADD: Property Deemed to be Property Add: Liberty Life Insurance Policy Old Mutual Life Policy payable to Thillay Less: Premiums plus 6% interest | 200 000.00 (1) 780 000.00 (1) 80 000.00 (1) | 900 000.00  |
-|  GROSS VALUE OF THE DUTIABLE ESTATE |  | 4 005 000.00 (1)  |
-|  LESS: Deductions – Sect 4 Funeral Expenses – sec 4(a) Other liabilities and claims (Absa bank overdraft) - sec 4(b) Costs of Administration - sec 4(c) Accrual claim against deceased's estate – sec 4(IA) | 18 400.00 (½) 200 000.00 (½) 176 600.00 (½) 105 000.00 (½) |   |
-|  Note: Instead of mentioning the above 4 items separately, the candidate may answer "total liabilities" for 2 marks |  |   |
-
-LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
-
-3
-
-|  Inheritance by the surviving spouse - sec 4(q) NET VALUE OF THE DUTIABLE ESTATE Less: Primary Rebate – Sect 4A DUTIABLE AMOUNT Estate Duty at 20% on R0.00 |  | 2 800 000.00 (1) | 3 300 000.00 705 000.00 (1) 3 500 000.00 (1) 0.00 (1) 0.00  |
-| --- | --- | --- | --- |
+|  Balance for distribution |  | 2 800 000.00 (1)  |
+|  Awarded to: Vanessa Naidoo, major surviving spouse of the deceased, as sole heir i.t.o section 1(1)(a) of the Intestate Succession Act 81 of 1987, as amended (1) | 2 800 000.00 (1) |   |
+|  Award Consists of: Immovable property R1 500 000.00 (1); Movable property R363 050.00 (1); Cash R936 950.00 (1) | 2 800 000.00 | 2 800 000.00  |
+|  **Income & Expenditure Account** |  |   |
+|  Income: Interest received on VB bank account |  | 6 050.00 (1)  |
+|  Income: Dividend paid on EBS Ltd shares |  | 13 950.00 (1)  |
+|  Expenditure: Executor's remuneration @ 6% on R20 000.00 (1) | 1 200.00 (1) |   |
+|  Balance awarded to Vanessa Naidoo as sole heir (1) | 18 800.00 (1) |   |
+|  Total Income & Expenditure | 20 000.00 | 20 000.00  |
+|  **Fiduciary Assets Account** |  |   |
+|  Nil |  | 0.00 (1)  |
+|  **Estate Duty Addendum** |  |   |
+|  **Property of the deceased** |  |   |
+|  Assets as per liquidation account |  | 3 300 000.00 (1)  |
+|  Less: Liberty Life Policy payable to estate | 200 000.00 (1) | 3 100 000.00  |
+|  Add: Difference in value of private shares | 5 000.00 (1) | 3 105 000.00  |
+|  **ADD: Property Deemed to be Property** |  |   |
+|  Add: Liberty Life Insurance Policy | 200 000.00 (1) |   |
+|  Add: Old Mutual Life Policy payable to Thillay | 780 000.00 (1) |   |
+|  Less: Premiums plus 6% interest | (80 000.00) (1) | 900 000.00  |
+|  **GROSS VALUE OF THE DUTIABLE ESTATE** |  | **4 005 000.00** (1)  |
+|  **LESS: Deductions – Sect 4** |  |   |
+|  Funeral Expenses – sec 4(a) | 18 400.00 (½) |   |
+|  Other liabilities and claims (Absa bank overdraft) - sec 4(b) | 200 000.00 (½) |   |
+|  Costs of Administration - sec 4(c) | 176 600.00 (½) |   |
+|  Accrual claim against deceased's estate – sec 4(1A) *(Note: candidate may answer "total liabilities" R500 000.00 for 2 marks)* | 105 000.00 (½) |   |
+|  Inheritance by the surviving spouse - sec 4(q) | 2 800 000.00 (1) | 3 300 000.00  |
+|  **NET VALUE OF THE DUTIABLE ESTATE** |  | **705 000.00** (1)  |
+|  Less: Primary Rebate – Sect 4A |  | 3 500 000.00 (1)  |
+|  **DUTIABLE AMOUNT** |  | **0.00** (1)  |
+|  **Estate Duty at 20% on R0.00** |  | **0.00**  |
 
 # EXECUTOR'S CERTIFICATE
 

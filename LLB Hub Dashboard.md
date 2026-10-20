@@ -112,3 +112,7 @@ As of 2026-10-19, the recovered collection contains 66 PDFs with Markdown sideca
 
 - [[notes/Board Exam Mistral OCR - 2026-10-19]] links 50 searchable alternative memo extracts covering 332 pages and the downloaded ZIP exports.
 - Originals and existing corrected extracts are preserved; Mistral financial tables and full transcription still need source review. Official coverage remains 50 memos with 16 recent gaps.
+
+## Candidate model answers for 2022-2023 (pending verification) - 2026-10-19
+
+- [[Attorneys Exam/Candidate Model Answers 2022-2023/README]] links 16 complete 100-mark candidate model memoranda (`official: false`, `verification-status: pending-multi-agent-review`) generated for the 16 2022–2023 board exam papers lacking public official LSSA LEAD PDFs, grounded in the 2015–2021 official memoranda and public walkthrough transcripts.

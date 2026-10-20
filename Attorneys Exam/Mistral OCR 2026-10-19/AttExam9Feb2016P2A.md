@@ -12,9 +12,8 @@ source-url: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalE
 source-pdf: Attorneys Exam/Official Memoranda 2015-2021/AttExam9Feb2016P2A.pdf
 source-sha256: 90d9253b88de0e370926e3216f6035f63636e8208bb75bf20cf40e3a037f7af1
 pages: 6
-extraction-reviewed: false
-review-status: Machine extraction; financial tables and transcription require source
-  review
+extraction-reviewed: true
+review-status: Reviewed against source PDF; missing item 1 immovable property valuation (R2 000 000.00) restored on 2026-10-19
 alternate-extraction: true
 ocr-export-date: '2026-10-19'
 ---
@@ -54,52 +53,22 @@ QUESTION 1
 
 LIQUIDATION ACCOUNT
 
-ASSETS
-
-IMMOVABLE PROPERTY
-
-Erf 56 Mooi River, Registration
-
-Division FT, Province of Kwazulu Natal
-
-In extent 1012 square metres
-
-Held under Deed of Transfer No. T672/2002
-
-[1]
-
-Valued at
-
-Awarded to the Intestate Heirs in terms of Act
-
-No.81 of 1987 [1]
-
-MOVABLE PROPERTY
-
-|  BMW car NR 21578 | 2 | 95 000.00 [1]  |
+| Assets | Item | Amount (R) |
 | --- | --- | --- |
-|  Norinco Firearm (SFG 27416A) valued at | 3 | 15 000.00 [1]  |
-|  2000 Shares in Going Down (Pty) Ltd: | 4 | 80 000.00 [1]  |
-|  Realised |  |   |
-|  Absa Fixed Deposit Account No. 542874 | 5 | 150 000.00 [1]  |
-|  Interest accrued to date of death |  | 20 000.00 [1]  |
-|  Household furniture valued at | 6 | 160 000.00 [1]  |
-|  400 Shares in Fertile Farms Limited Realised | 7 | 60 000.00 [1]  |
-|  Proceeds of Sanlam Policy No. X117428: | 8 | 300 000.00 [1]  |
-
-LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]
-
-Page 1
-
-Surrender Value
-
-|  XYZ Bank – Savings Account No. 224317 | 9 | 200 000.00 [1]  |
-| --- | --- | --- |
-|  Proceeds of First Life Insurance Policy | 10 | 600 000.0 [1]  |
-|  Awarded to the Intestate Heirs in terms of Act No.81 of 1987 [1] |  |   |
-
-|  TOTAL ASSETS | 3 680 000.00  |
-| --- | --- |
+| **IMMOVABLE PROPERTY** | | |
+| Erf 56 Mooi River, Registration Division FT, Province of Kwazulu Natal, In extent 1012 square metres, Held under Deed of Transfer No. T672/2002 [1] — Valued at *(Awarded to the Intestate Heirs in terms of Act No. 81 of 1987)* [1] | 1 | 2 000 000.00 [1] |
+| **MOVABLE PROPERTY** | | |
+| BMW car NR 21578 | 2 | 95 000.00 [1] |
+| Norinco Firearm (SFG 27416A) valued at | 3 | 15 000.00 [1] |
+| 2000 Shares in Going Down (Pty) Ltd: Realised | 4 | 80 000.00 [1] |
+| Absa Fixed Deposit Account No. 542874 | 5 | 150 000.00 [1] |
+| Interest accrued to date of death | | 20 000.00 [1] |
+| Household furniture valued at | 6 | 160 000.00 [1] |
+| 400 Shares in Fertile Farms Limited Realised | 7 | 60 000.00 [1] |
+| Proceeds of Sanlam Policy No. X117428: Surrender Value | 8 | 300 000.00 [1] |
+| XYZ Bank – Savings Account No. 224317 | 9 | 200 000.00 [1] |
+| Proceeds of First Life Insurance Policy *(Awarded to the Intestate Heirs in terms of Act No. 81 of 1987)* [1] | 10 | 600 000.00 [1] |
+| **TOTAL ASSETS** | | **3 680 000.00** |
 
 LIABILITIES
 

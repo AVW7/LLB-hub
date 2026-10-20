@@ -57,3 +57,15 @@ The public API records below were examined locally. No private vault content was
 ## Remaining access boundary
 
 Where a source requires full-access registration, a subscription or human verification, the source URL and observed limitation are retained here. No restricted download or replacement unofficial answer was added as an official memo.
+
+## Additional third-party & YouTube walkthrough leads + Candidate Model Answers - 2026-10-19
+
+- Additional paywalled Scribd memorandum listings and public YouTube walkthroughs located on 2026-10-19 (not counted as official public LSSA LEAD PDFs):
+  - [[Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2022P1Q]]: Paywalled Scribd listings (`https://www.scribd.com/document/996832082/PART-1-ANSWERS-FINAL-2022`, `https://www.scribd.com/document/1057585720/Part-1-Answers-Final-2022`, `https://www.scribd.com/document/976360350/Board-papers-p1-2021-2022`).
+  - [[Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2022P2Q]]: Paywalled Scribd listing (`https://www.scribd.com/document/839555028/PART-2-ANSWERS-FINAL-2022`).
+  - [[Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Mar2022P4Q]]: Paywalled Scribd listing (`https://www.scribd.com/document/1068448275/2022-03-Paper-4-March-2022-Memorandum`).
+  - [[Attorneys Exam/Official Previous Papers 2015-2023/AttExam17Aug2022P3Q]]: Paywalled Scribd listing (`https://www.scribd.com/document/1068448984/2022-08-Paper-3-August-2022-Memorandum`).
+  - [[Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Mar2023P4Q]]: Paywalled Scribd unofficial memo (`https://www.scribd.com/document/946270657/2023-16-March-Part-4-Memo`) and public YouTube walkthroughs by Simplified Academe (`https://www.youtube.com/watch?v=j9-V2vqmIVI`, `https://www.youtube.com/watch?v=8eTwIBd4-ss`).
+  - [[Attorneys Exam/Official Previous Papers 2015-2023/AttExam23Aug2023P2Q]]: Public YouTube review and memo walkthrough by Simplified Academe (`https://www.youtube.com/watch?v=LzLJMlF1WO4`).
+  - [[Attorneys Exam/Official Previous Papers 2015-2023/AttExam24Aug2023P4Q]]: Public YouTube review and memo walkthrough by Simplified Academe (`https://www.youtube.com/watch?v=9Xz3wTl1hbs`).
+- Because no complete, unpaywalled official LSSA LEAD PDF memorandum was recovered for the 16 2022–2023 papers, 16 full 100-mark **Candidate Model Memoranda** (`official: false`, `verification-status: pending-multi-agent-review`) were generated in [[Attorneys Exam/Candidate Model Answers 2022-2023/README]] for verification by other agents and models.

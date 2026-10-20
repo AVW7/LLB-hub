@@ -12,9 +12,8 @@ source-url: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalE
 source-pdf: Attorneys Exam/Official Memoranda 2015-2021/AttExam16Aug2016P2A.pdf
 source-sha256: 40ffd4d6e4cd9a28ae396f4be9be8a074d738805443222b67897b7f8b00db0d3
 pages: 8
-extraction-reviewed: false
-review-status: Machine extraction; financial tables and transcription require source
-  review
+extraction-reviewed: true
+review-status: Reviewed against source PDF; shifted movable property asset rows realigned on 2026-10-19
 alternate-extraction: true
 ocr-export-date: '2026-10-19'
 ---
@@ -71,19 +70,19 @@ LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
 |  Liquidation account Assets: Immovable property |  |   |
 | --- | --- | --- |
-|  1. Undivided half share in the farm NARTJIES 501, Registration Division,JR,Gauteng Province; Measuring 360 hectares; Held by Deed of Transfer T1206/2009. [1] |  |   |
-|  At Valuation R4 600 000.00 |  | 2 300 000.00[1]  |
-|  2. Erf 168 Doornkop Township Registration Division JR,Province of Gauteng Measuring 900m². [1] Held by Deed of Transfer No. T1786/99 |  | 450 000.00[1]  |
-|  At Valuation (Items 1&2 to be transferred to Simon, the father of the deceased, i.t.o. clause 4 of the Will of the deceased) [1] |  |   |
-|  Movable property |  | 190 000.00[1]  |
-|  3. Undivided half share of farm implements At valuation R380 000.00 |  | 146 000.00[1]  |
-|  4. 1200 shares in LEBS Ltd Valued by Stockbrokers at (Items 3&4 to be awarded to Simon, the father of the deceased, i.t.o. clause 4 of the Will of the deceased) [1] |  | 280 000.00[1]  |
-|  5. Loan collected (The Lee Family Trust) |  | 250 000.00[1]  |
-|  6. Toyota Corolla, Reg No.BYP 805 GP Sold for |  | 169 000.00[1]  |
-|  7. Proceeds of Life Insurance Policy A at surrender value |  | 225 000.00[1]  |
-|  8. Proceeds of Life Insurance Policy C |  | 270 000.00[1]  |
-|  9. Shares in LSG (Pty) Ltd Sold for |  | 200 000.00[1]  |
-|  10. Investment account No. 4050635667 Capital Accrued interest to date of death Total Assets |  | 25 000.00[1] 4505 000.00[1]  |
+|  1. Undivided half share in the farm NARTJIES 501, Registration Division, JR, Gauteng Province; Measuring 360 hectares; Held by Deed of Transfer T1206/2009. [1] At Valuation R4 600 000.00 |  | 2 300 000.00[1]  |
+|  2. Erf 168 Doornkop Township Registration Division JR, Province of Gauteng Measuring 900m². [1] Held by Deed of Transfer No. T1786/99 — At Valuation *(Items 1 & 2 to be transferred to Simon, the father of the deceased, i.t.o. clause 4 of the Will of the deceased)* [1] |  | 450 000.00[1]  |
+|  **Movable property** |  |   |
+|  3. Undivided half share of farm implements — At valuation R380 000.00 |  | 190 000.00[1]  |
+|  4. 1200 shares in LEBS Ltd — Valued by Stockbrokers at *(Items 3 & 4 to be awarded to Simon, the father of the deceased, i.t.o. clause 4 of the Will of the deceased)* [1] |  | 146 000.00[1]  |
+|  5. Loan collected (The Lee Family Trust) |  | 280 000.00[1]  |
+|  6. Toyota Corolla, Reg No. BYP 805 GP — Sold for |  | 250 000.00[1]  |
+|  7. Proceeds of Life Insurance Policy A at surrender value |  | 169 000.00[1]  |
+|  8. Proceeds of Life Insurance Policy C |  | 225 000.00[1]  |
+|  9. Shares in LSG (Pty) Ltd — Sold for |  | 270 000.00[1]  |
+|  10. Investment account No. 4050635667 — Capital |  | 200 000.00[1]  |
+|  Accrued interest to date of death |  | 25 000.00[1]  |
+|  **Total Assets** |  | **4 505 000.00**[1]  |
 
 |  Liabilities: |  |   |
 | --- | --- | --- |

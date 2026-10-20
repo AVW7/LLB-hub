@@ -134,3 +134,22 @@ These are third-party listing leads found on 2026-10-19. No copy from them was a
 - [[notes/Board Exam Mistral OCR - 2026-10-19]] links 50 searchable alternative memo extracts covering 332 pages and the downloaded ZIP exports.
 - Originals and existing corrected extracts are preserved; Mistral financial tables and full transcription still need source review. Official coverage remains 50 memos with 16 recent gaps.
 
+## Candidate Model Answers for 2022-2023 (Pending Multi-Agent Verification) - 2026-10-19
+
+- While the 16 official LSSA LEAD 2022–2023 PDFs remain unlocated in public publisher archives (with paywalled third-party listings and YouTube walkthroughs recorded in [[notes/Board Exam Memo Search - 2026-10-19]]), 16 complete 100-mark **Candidate Model Memoranda** (`official: false`, `verification-status: pending-multi-agent-review`) have been generated in [[Attorneys Exam/Candidate Model Answers 2022-2023/README]] for cross-verification by other agents and models:
+  - 2022-03-15 Paper 1: [[Attorneys Exam/Candidate Model Answers 2022-2023/AttExam15Mar2022P1A-candidate]]
+  - 2022-03-15 Paper 2: [[Attorneys Exam/Candidate Model Answers 2022-2023/AttExam15Mar2022P2A-candidate]]
+  - 2022-03-16 Paper 3: [[Attorneys Exam/Candidate Model Answers 2022-2023/AttExam16Mar2022P3A-candidate]]
+  - 2022-03-16 Paper 4: [[Attorneys Exam/Candidate Model Answers 2022-2023/AttExam16Mar2022P4A-candidate]]
+  - 2022-08-16 Paper 1: [[Attorneys Exam/Candidate Model Answers 2022-2023/AttExam16Aug2022P1A-candidate]]
+  - 2022-08-16 Paper 2: [[Attorneys Exam/Candidate Model Answers 2022-2023/AttExam16Aug2022P2A-candidate]]
+  - 2022-08-17 Paper 3: [[Attorneys Exam/Candidate Model Answers 2022-2023/AttExam17Aug2022P3A-candidate]]
+  - 2022-08-17 Paper 4: [[Attorneys Exam/Candidate Model Answers 2022-2023/AttExam17Aug2022P4A-candidate]]
+  - 2023-03-15 Paper 1: [[Attorneys Exam/Candidate Model Answers 2022-2023/AttExam15Mar2023P1A-candidate]]
+  - 2023-03-15 Paper 2: [[Attorneys Exam/Candidate Model Answers 2022-2023/AttExam15Mar2023P2A-candidate]]
+  - 2023-03-15 Paper 3: [[Attorneys Exam/Candidate Model Answers 2022-2023/AttExam15Mar2023P3A-candidate]]
+  - 2023-03-16 Paper 4: [[Attorneys Exam/Candidate Model Answers 2022-2023/AttExam16Mar2023P4A-candidate]]
+  - 2023-08-23 Paper 1: [[Attorneys Exam/Candidate Model Answers 2022-2023/AttExam23Aug2023P1A-candidate]]
+  - 2023-08-23 Paper 2: [[Attorneys Exam/Candidate Model Answers 2022-2023/AttExam23Aug2023P2A-candidate]]
+  - 2023-08-24 Paper 3: [[Attorneys Exam/Candidate Model Answers 2022-2023/AttExam24Aug2023P3A-candidate]]
+  - 2023-08-24 Paper 4: [[Attorneys Exam/Candidate Model Answers 2022-2023/AttExam24Aug2023P4A-candidate]]

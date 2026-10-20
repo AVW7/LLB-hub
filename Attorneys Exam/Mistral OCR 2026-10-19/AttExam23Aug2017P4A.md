@@ -12,9 +12,8 @@ source-url: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalE
 source-pdf: Attorneys Exam/Official Memoranda 2015-2021/AttExam23Aug2017P4A.pdf
 source-sha256: e1990a3195f0ccc75e6515d064e41b065a5490edb76d33f645054dc83c1364d0
 pages: 7
-extraction-reviewed: false
-review-status: Machine extraction; financial tables and transcription require source
-  review
+extraction-reviewed: true
+review-status: Reviewed against source PDF; page 1 bank reconciliation and page 5 accounting statement aligned on 2026-10-19
 alternate-extraction: true
 ocr-export-date: '2026-10-19'
 ---
@@ -72,19 +71,15 @@ SUPPLEMENTARY BUSINESS CASHBOOK FOR 28 FEB 2016 (1)
 
 BUSINESS BANK RECONCILIATION STATEMENT AT 28 FEB 2016 (1)
 
-Balance as per Cash book (1) (40 000)
-
-Less Bank error (1) 10 000
-
-(1) (30 000)
-
-12 000
-
-Less Bank error (1) (18 000)
-
-Add outstanding cheques (1) 10 545
-
-Balance as per Bank Statement (28 455)
+| Item | Marks | Amount (R) |
+| --- | --- | --- |
+| Balance as per Cash book | (1) | (40 000) |
+| Less: Bank error | (1) | 10 000 |
+| Subtotal | (1) | (30 000) |
+| Less: Bank error | (1) | 12 000 |
+| Subtotal | | (18 000) |
+| Add: Outstanding cheques | (1) | 10 545 |
+| **Balance as per Bank Statement** | | **(28 455)** |
 
 (6)
 

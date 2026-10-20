@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-10-19",
-  "count": 856,
+  "lastUpdated": "2026-10-20",
+  "count": 872,
   "subjects": {
     "CCP": "Criminal Court Practice (Module 1)",
     "CLP": "Constitutional Practice (Module 1)",
@@ -206,7 +206,7 @@
         "police-docket"
       ],
       "description": "Attorneys Admission Examination — document",
-      "size_bytes": 8858,
+      "size_bytes": 9286,
       "quality_score": 3.0,
       "gaps": []
     },
@@ -222,6 +222,255 @@
       "gaps": [
         "empty or near-empty"
       ]
+    },
+    {
+      "path": "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam15Mar2022P1A-candidate.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "general",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "appeal",
+        "vat",
+        "trust",
+        "criminal-procedure-act"
+      ],
+      "description": "Attorneys Admission Examination — document",
+      "size_bytes": 22766,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam15Mar2022P2A-candidate.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "general",
+      "type": "marking_memo",
+      "topics": [
+        "vat"
+      ],
+      "description": "Attorneys Admission Examination — document",
+      "size_bytes": 15827,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam15Mar2023P1A-candidate.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "general",
+      "type": "marking_memo",
+      "topics": [
+        "s112-statement",
+        "plea",
+        "trust",
+        "locus-standi",
+        "criminal-procedure-act"
+      ],
+      "description": "Attorneys Admission Examination — document",
+      "size_bytes": 22395,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam15Mar2023P2A-candidate.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "general",
+      "type": "marking_memo",
+      "topics": [
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — document",
+      "size_bytes": 18546,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam15Mar2023P3A-candidate.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "general",
+      "type": "marking_memo",
+      "topics": [
+        "bill-of-costs",
+        "vat",
+        "taxation",
+        "close-corporation",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — document",
+      "size_bytes": 20682,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam16Aug2022P1A-candidate.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "general",
+      "type": "marking_memo",
+      "topics": [
+        "bail",
+        "plea",
+        "vat",
+        "locus-standi",
+        "criminal-procedure-act",
+        "culpable-homicide",
+        "police-docket"
+      ],
+      "description": "Attorneys Admission Examination — document",
+      "size_bytes": 22794,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam16Aug2022P2A-candidate.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "general",
+      "type": "marking_memo",
+      "topics": [
+        "vat"
+      ],
+      "description": "Attorneys Admission Examination — document",
+      "size_bytes": 16726,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam16Mar2022P3A-candidate.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "general",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — document",
+      "size_bytes": 21635,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam16Mar2022P4A-candidate.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "general",
+      "type": "marking_memo",
+      "topics": [
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — document",
+      "size_bytes": 15257,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam16Mar2023P4A-candidate.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "general",
+      "type": "marking_memo",
+      "topics": [
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — document",
+      "size_bytes": 15771,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam17Aug2022P3A-candidate.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "general",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "vat",
+        "close-corporation",
+        "partnership",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — document",
+      "size_bytes": 23231,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam17Aug2022P4A-candidate.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "general",
+      "type": "marking_memo",
+      "topics": [
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — document",
+      "size_bytes": 15708,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam23Aug2023P1A-candidate.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "general",
+      "type": "marking_memo",
+      "topics": [
+        "bail",
+        "plea",
+        "leave-to-appeal",
+        "appeal",
+        "vat",
+        "constitution",
+        "criminal-procedure-act",
+        "private-defence"
+      ],
+      "description": "Attorneys Admission Examination — document",
+      "size_bytes": 29077,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam23Aug2023P2A-candidate.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "general",
+      "type": "marking_memo",
+      "topics": [
+        "vat"
+      ],
+      "description": "Attorneys Admission Examination — document",
+      "size_bytes": 19088,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam24Aug2023P3A-candidate.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "general",
+      "type": "marking_memo",
+      "topics": [
+        "plea",
+        "appeal",
+        "vat",
+        "partnership",
+        "trust",
+        "constitution"
+      ],
+      "description": "Attorneys Admission Examination — document",
+      "size_bytes": 23863,
+      "quality_score": 3.0,
+      "gaps": []
+    },
+    {
+      "path": "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam24Aug2023P4A-candidate.md",
+      "subject": "Attorneys Admission Examination (Board Exam)",
+      "role": "general",
+      "type": "marking_memo",
+      "topics": [
+        "vat",
+        "trust"
+      ],
+      "description": "Attorneys Admission Examination — document",
+      "size_bytes": 14848,
+      "quality_score": 3.0,
+      "gaps": []
     },
     {
       "path": "./Attorneys Exam/Mistral OCR 2026-10-19/AttExam10Feb2015P1A.md",
@@ -372,7 +621,7 @@
         "vat"
       ],
       "description": "Attorneys Admission Examination — marking memorandum / model answers",
-      "size_bytes": 12184,
+      "size_bytes": 12471,
       "quality_score": 3.0,
       "gaps": []
     },
@@ -387,7 +636,7 @@
         "trust"
       ],
       "description": "Attorneys Admission Examination — marking memorandum / model answers",
-      "size_bytes": 10579,
+      "size_bytes": 10636,
       "quality_score": 3.0,
       "gaps": []
     },
@@ -417,7 +666,7 @@
         "trust"
       ],
       "description": "Attorneys Admission Examination — marking memorandum / model answers",
-      "size_bytes": 7365,
+      "size_bytes": 7528,
       "quality_score": 3.0,
       "gaps": []
     },
@@ -577,7 +826,7 @@
         "vat"
       ],
       "description": "Attorneys Admission Examination — marking memorandum / model answers",
-      "size_bytes": 13153,
+      "size_bytes": 13278,
       "quality_score": 3.0,
       "gaps": []
     },
@@ -700,7 +949,7 @@
         "vat"
       ],
       "description": "Attorneys Admission Examination — marking memorandum / model answers",
-      "size_bytes": 12031,
+      "size_bytes": 12050,
       "quality_score": 3.0,
       "gaps": []
     },
@@ -794,7 +1043,7 @@
         "trust"
       ],
       "description": "Attorneys Admission Examination — marking memorandum / model answers",
-      "size_bytes": 7862,
+      "size_bytes": 8021,
       "quality_score": 3.0,
       "gaps": []
     },
@@ -914,7 +1163,7 @@
         "plea"
       ],
       "description": "Attorneys Admission Examination — marking memorandum / model answers",
-      "size_bytes": 10547,
+      "size_bytes": 10684,
       "quality_score": 3.0,
       "gaps": []
     },
@@ -990,7 +1239,7 @@
         "constitution"
       ],
       "description": "Attorneys Admission Examination — marking memorandum / model answers",
-      "size_bytes": 9744,
+      "size_bytes": 9732,
       "quality_score": 3.0,
       "gaps": []
     },
@@ -10375,7 +10624,7 @@
         "constitution"
       ],
       "description": "LLB material — document",
-      "size_bytes": 7764,
+      "size_bytes": 8203,
       "quality_score": 3.0,
       "gaps": []
     },
@@ -10530,7 +10779,7 @@
       "type": "general",
       "topics": [],
       "description": "LLB material — document",
-      "size_bytes": 2915,
+      "size_bytes": 3698,
       "quality_score": 3.0,
       "gaps": []
     },
@@ -12199,7 +12448,7 @@
       "type": "general",
       "topics": [],
       "description": "LLB material — document",
-      "size_bytes": 2969,
+      "size_bytes": 3377,
       "quality_score": 3.0,
       "gaps": []
     },
@@ -12223,7 +12472,7 @@
       "type": "marking_memo",
       "topics": [],
       "description": "LLB material — document",
-      "size_bytes": 26130,
+      "size_bytes": 28407,
       "quality_score": 3.0,
       "gaps": []
     },
@@ -12236,7 +12485,7 @@
         "vat"
       ],
       "description": "LLB material — document",
-      "size_bytes": 5825,
+      "size_bytes": 8027,
       "quality_score": 3.0,
       "gaps": []
     },
@@ -12271,7 +12520,7 @@
       "type": "general",
       "topics": [],
       "description": "LLB material — document",
-      "size_bytes": 3969,
+      "size_bytes": 4422,
       "quality_score": 3.0,
       "gaps": []
     },
@@ -12319,6 +12568,9 @@
       "./Attorneys Exam/AttExam9Feb2016A.pdf/markdown.md",
       "./Attorneys Exam/AttExam9Feb2016Q.pdf/markdown.md",
       "./Attorneys Exam/Attorneys Exam Dashboard.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam15Mar2022P1A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam23Aug2023P1A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam24Aug2023P3A-candidate.md",
       "./Attorneys Exam/Mistral OCR 2026-10-19/AttExam10Feb2015P1A.md",
       "./Attorneys Exam/Mistral OCR 2026-10-19/AttExam15Oct2018P1A.md",
       "./Attorneys Exam/Mistral OCR 2026-10-19/AttExam18Aug2015P1A.md",
@@ -12443,6 +12695,8 @@
       "./Attorneys Exam/AttExam9Feb2016A.pdf/markdown.md",
       "./Attorneys Exam/AttExam9Feb2016Q.pdf/markdown.md",
       "./Attorneys Exam/Attorneys Exam Dashboard.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam16Aug2022P1A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam23Aug2023P1A-candidate.md",
       "./Attorneys Exam/Mistral OCR 2026-10-19/AttExam19Feb2020P1A.md",
       "./Attorneys Exam/Mistral OCR 2026-10-19/AttExam20Feb2020P4A.md",
       "./Attorneys Exam/Mistral OCR 2026-10-19/AttExam21Aug2019P1A.md",
@@ -12508,6 +12762,7 @@
       "./LSSA & Miscellaneous /LSSA Dashboard.md"
     ],
     "bill-of-costs": [
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam15Mar2023P3A-candidate.md",
       "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam15Mar2023P3Q.md",
       "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Feb2018P4Q.md",
       "./BBST/BBST2014(1)FinalQ&A.doc",
@@ -12575,6 +12830,8 @@
       "./Attorneys Exam/AttExam9Feb2016A.pdf/markdown.md",
       "./Attorneys Exam/AttExam9Feb2016Q.pdf/markdown.md",
       "./Attorneys Exam/Attorneys Exam Dashboard.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam15Mar2023P3A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam17Aug2022P3A-candidate.md",
       "./Attorneys Exam/Mistral OCR 2026-10-19/AttExam10Feb2015P1A.md",
       "./Attorneys Exam/Mistral OCR 2026-10-19/AttExam15Oct2018P1A.md",
       "./Attorneys Exam/Mistral OCR 2026-10-19/AttExam21Aug2019P1A.md",
@@ -12653,6 +12910,8 @@
     ],
     "constitution": [
       "./Attorneys Exam/AttExam17Aug2016Q.pdf/markdown.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam23Aug2023P1A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam24Aug2023P3A-candidate.md",
       "./Attorneys Exam/Mistral OCR 2026-10-19/AttExam15Oct2018P1A.md",
       "./Attorneys Exam/Mistral OCR 2026-10-19/AttExam19Feb2020P1A.md",
       "./Attorneys Exam/Mistral OCR 2026-10-19/AttExam20Oct2021P3A.md",
@@ -12820,6 +13079,10 @@
     "criminal-procedure-act": [
       "./Attorneys Exam/AttExam14Feb2017A.pdf/markdown.md",
       "./Attorneys Exam/AttExam14Feb2017Q.pdf/markdown.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam15Mar2022P1A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam15Mar2023P1A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam16Aug2022P1A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam23Aug2023P1A-candidate.md",
       "./Attorneys Exam/Mistral OCR 2026-10-19/AttExam18Aug2015P1A.md",
       "./Attorneys Exam/Mistral OCR 2026-10-19/AttExam22Aug2017P1A.md",
       "./Attorneys Exam/Official Memoranda 2015-2021/AttExam18Aug2015P1A.md",
@@ -12848,6 +13111,7 @@
       "./LSSA & Miscellaneous /Legal Practice Act 28 of 2014.pdf/markdown.md"
     ],
     "culpable-homicide": [
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam16Aug2022P1A-candidate.md",
       "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Aug2022P1Q.md",
       "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Aug2015P1Q.md",
       "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam18Mar2021P3Q.md",
@@ -12905,6 +13169,7 @@
     "leave-to-appeal": [
       "./Attorneys Exam/AttExam14Feb2017A.pdf/markdown.md",
       "./Attorneys Exam/AttExam14Feb2017Q.pdf/markdown.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam23Aug2023P1A-candidate.md",
       "./Attorneys Exam/Mistral OCR 2026-10-19/AttExam10Feb2015P1A.md",
       "./Attorneys Exam/Mistral OCR 2026-10-19/AttExam15Oct2018P1A.md",
       "./Attorneys Exam/Mistral OCR 2026-10-19/AttExam21Aug2019P1A.md",
@@ -12963,6 +13228,8 @@
       "./Attorneys Exam/AttExam14Feb2017A.pdf/markdown.md",
       "./Attorneys Exam/AttExam14Feb2017Q.pdf/markdown.md",
       "./Attorneys Exam/AttExam9Feb2016A.pdf/markdown.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam15Mar2023P1A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam16Aug2022P1A-candidate.md",
       "./Attorneys Exam/Mistral OCR 2026-10-19/AttExam15Oct2018P1A.md",
       "./Attorneys Exam/Mistral OCR 2026-10-19/AttExam18Aug2015P1A.md",
       "./Attorneys Exam/Mistral OCR 2026-10-19/AttExam19Feb2020P1A.md",
@@ -13025,6 +13292,8 @@
       "./Attorneys Exam/AttExam14Feb2017A.pdf/markdown.md",
       "./Attorneys Exam/AttExam15Feb2017Q.pdf/markdown.md",
       "./Attorneys Exam/Attorneys Exam Dashboard.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam17Aug2022P3A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam24Aug2023P3A-candidate.md",
       "./Attorneys Exam/Mistral OCR 2026-10-19/AttExam11Feb2015P3A.md",
       "./Attorneys Exam/Mistral OCR 2026-10-19/AttExam18Mar2021P3A.md",
       "./Attorneys Exam/Mistral OCR 2026-10-19/AttExam19Aug2015P3A.md",
@@ -13145,6 +13414,13 @@
       "./Attorneys Exam/AttExam9Feb2016A.pdf/markdown.md",
       "./Attorneys Exam/AttExam9Feb2016Q.pdf/markdown.md",
       "./Attorneys Exam/Attorneys Exam Dashboard.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam15Mar2022P1A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam15Mar2023P1A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam16Aug2022P1A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam16Mar2022P3A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam17Aug2022P3A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam23Aug2023P1A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam24Aug2023P3A-candidate.md",
       "./Attorneys Exam/Mistral OCR 2026-10-19/AttExam10Feb2015P1A.md",
       "./Attorneys Exam/Mistral OCR 2026-10-19/AttExam10Feb2015P2A.md",
       "./Attorneys Exam/Mistral OCR 2026-10-19/AttExam10Feb2016P3A.md",
@@ -13507,6 +13783,7 @@
     ],
     "police-docket": [
       "./Attorneys Exam/Attorneys Exam Dashboard.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam16Aug2022P1A-candidate.md",
       "./Attorneys Exam/Mistral OCR 2026-10-19/AttExam6Mar2019P1A.md",
       "./Attorneys Exam/Official Memoranda 2015-2021/AttExam6Mar2019P1A.md",
       "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam16Aug2022P1Q.md",
@@ -13558,6 +13835,7 @@
       "./FBE/notes/topics/Private Companies.md"
     ],
     "private-defence": [
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam23Aug2023P1A-candidate.md",
       "./Attorneys Exam/notes/topics/Statements and Pleas in Criminal Trials.md",
       "./CCP/CCP Dashboard.md",
       "./CCP/CCP2012(2)SuppA.doc",
@@ -13575,6 +13853,7 @@
       "./Attorneys Exam/AttExam14Feb2017Q.pdf/markdown.md",
       "./Attorneys Exam/AttExam9Feb2016A.pdf/markdown.md",
       "./Attorneys Exam/AttExam9Feb2016Q.pdf/markdown.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam15Mar2023P1A-candidate.md",
       "./Attorneys Exam/Mistral OCR 2026-10-19/AttExam17Mar2021P1A.md",
       "./Attorneys Exam/Mistral OCR 2026-10-19/AttExam18Aug2015P1A.md",
       "./Attorneys Exam/Mistral OCR 2026-10-19/AttExam4Nov2020P1A.md",
@@ -13661,6 +13940,7 @@
       "./LDR/notes/topics/Rescission of CCMA Arbitration Awards.md"
     ],
     "taxation": [
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam15Mar2023P3A-candidate.md",
       "./Attorneys Exam/Mistral OCR 2026-10-19/AttExam5Nov2020P3A.md",
       "./Attorneys Exam/Official Memoranda 2015-2021/AttExam5Nov2020P3A.md",
       "./Attorneys Exam/Official Previous Papers 2015-2023/AttExam7Feb2018P4Q.md",
@@ -13690,6 +13970,17 @@
       "./Attorneys Exam/AttExam15Feb2017A.pdf/markdown.md",
       "./Attorneys Exam/AttExam17Aug2016A.pdf/markdown.md",
       "./Attorneys Exam/AttExam17Aug2016Q.pdf/markdown.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam15Mar2022P1A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam15Mar2023P1A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam15Mar2023P2A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam15Mar2023P3A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam16Mar2022P3A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam16Mar2022P4A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam16Mar2023P4A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam17Aug2022P3A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam17Aug2022P4A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam24Aug2023P3A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam24Aug2023P4A-candidate.md",
       "./Attorneys Exam/Mistral OCR 2026-10-19/AttExam10Feb2016P3A.md",
       "./Attorneys Exam/Mistral OCR 2026-10-19/AttExam10Feb2016P4A.md",
       "./Attorneys Exam/Mistral OCR 2026-10-19/AttExam11Feb2015P3A.md",
@@ -13970,6 +14261,21 @@
       "./Attorneys Exam/AttExam9Feb2016A.pdf/markdown.md",
       "./Attorneys Exam/AttExam9Feb2016Q.pdf/markdown.md",
       "./Attorneys Exam/Attorneys Exam Dashboard.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam15Mar2022P1A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam15Mar2022P2A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam15Mar2023P2A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam15Mar2023P3A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam16Aug2022P1A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam16Aug2022P2A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam16Mar2022P3A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam16Mar2022P4A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam16Mar2023P4A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam17Aug2022P3A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam17Aug2022P4A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam23Aug2023P1A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam23Aug2023P2A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam24Aug2023P3A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam24Aug2023P4A-candidate.md",
       "./Attorneys Exam/Mistral OCR 2026-10-19/AttExam10Feb2015P1A.md",
       "./Attorneys Exam/Mistral OCR 2026-10-19/AttExam10Feb2016P3A.md",
       "./Attorneys Exam/Mistral OCR 2026-10-19/AttExam10Feb2016P4A.md",
@@ -14871,6 +15177,22 @@
       "./Attorneys Exam/AttExam16Aug2016A.pdf/markdown.md",
       "./Attorneys Exam/AttExam17Aug2016A.pdf/markdown.md",
       "./Attorneys Exam/AttExam9Feb2016A.pdf/markdown.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam15Mar2022P1A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam15Mar2022P2A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam15Mar2023P1A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam15Mar2023P2A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam15Mar2023P3A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam16Aug2022P1A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam16Aug2022P2A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam16Mar2022P3A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam16Mar2022P4A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam16Mar2023P4A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam17Aug2022P3A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam17Aug2022P4A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam23Aug2023P1A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam23Aug2023P2A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam24Aug2023P3A-candidate.md",
+      "./Attorneys Exam/Candidate Model Answers 2022-2023/AttExam24Aug2023P4A-candidate.md",
       "./Attorneys Exam/Mistral OCR 2026-10-19/AttExam10Feb2015P1A.md",
       "./Attorneys Exam/Mistral OCR 2026-10-19/AttExam10Feb2015P2A.md",
       "./Attorneys Exam/Mistral OCR 2026-10-19/AttExam10Feb2016P3A.md",

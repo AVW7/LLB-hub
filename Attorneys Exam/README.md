@@ -1,47 +1,63 @@
 # Attorneys Exam — Contents Overview
 
 **Module:** Attorneys Admission Examination (Board Exam)
-**Total files:** 325
+**Total files:** 341
 
 **Years covered:** 2015 – 2023
 
 ## Year Breakdown
 
-### 2023 (16 files)
+### 2023 (24 files)
 
+- **AttExam15Mar2023P1A-candidate.md** — marking_memo (15 Mar)
 - **AttExam15Mar2023P1Q.md** — exam_question (15 Mar)
 - **AttExam15Mar2023P1Q.pdf** — exam_question (15 Mar)
+- **AttExam15Mar2023P2A-candidate.md** — marking_memo (15 Mar)
 - **AttExam15Mar2023P2Q.md** — exam_question (15 Mar)
 - **AttExam15Mar2023P2Q.pdf** — exam_question (15 Mar)
+- **AttExam15Mar2023P3A-candidate.md** — marking_memo (15 Mar)
 - **AttExam15Mar2023P3Q.md** — exam_question (15 Mar)
 - **AttExam15Mar2023P3Q.pdf** — exam_question (15 Mar)
+- **AttExam16Mar2023P4A-candidate.md** — marking_memo (16 Mar)
 - **AttExam16Mar2023P4Q.md** — exam_question (16 Mar)
 - **AttExam16Mar2023P4Q.pdf** — exam_question (16 Mar)
+- **AttExam23Aug2023P1A-candidate.md** — marking_memo (23 Aug)
 - **AttExam23Aug2023P1Q.md** — exam_question (23 Aug)
 - **AttExam23Aug2023P1Q.pdf** — exam_question (23 Aug)
+- **AttExam23Aug2023P2A-candidate.md** — marking_memo (23 Aug)
 - **AttExam23Aug2023P2Q.md** — exam_question (23 Aug)
 - **AttExam23Aug2023P2Q.pdf** — exam_question (23 Aug)
+- **AttExam24Aug2023P3A-candidate.md** — marking_memo (24 Aug)
 - **AttExam24Aug2023P3Q.md** — exam_question (24 Aug)
 - **AttExam24Aug2023P3Q.pdf** — exam_question (24 Aug)
+- **AttExam24Aug2023P4A-candidate.md** — marking_memo (24 Aug)
 - **AttExam24Aug2023P4Q.md** — exam_question (24 Aug)
 - **AttExam24Aug2023P4Q.pdf** — exam_question (24 Aug)
 
-### 2022 (16 files)
+### 2022 (24 files)
 
+- **AttExam15Mar2022P1A-candidate.md** — marking_memo (15 Mar)
 - **AttExam15Mar2022P1Q.md** — exam_question (15 Mar)
 - **AttExam15Mar2022P1Q.pdf** — exam_question (15 Mar)
+- **AttExam15Mar2022P2A-candidate.md** — marking_memo (15 Mar)
 - **AttExam15Mar2022P2Q.md** — exam_question (15 Mar)
 - **AttExam15Mar2022P2Q.pdf** — exam_question (15 Mar)
+- **AttExam16Mar2022P3A-candidate.md** — marking_memo (16 Mar)
 - **AttExam16Mar2022P3Q.md** — exam_question (16 Mar)
 - **AttExam16Mar2022P3Q.pdf** — exam_question (16 Mar)
+- **AttExam16Mar2022P4A-candidate.md** — marking_memo (16 Mar)
 - **AttExam16Mar2022P4Q.md** — exam_question (16 Mar)
 - **AttExam16Mar2022P4Q.pdf** — exam_question (16 Mar)
+- **AttExam16Aug2022P1A-candidate.md** — marking_memo (16 Aug)
 - **AttExam16Aug2022P1Q.md** — exam_question (16 Aug)
 - **AttExam16Aug2022P1Q.pdf** — exam_question (16 Aug)
+- **AttExam16Aug2022P2A-candidate.md** — marking_memo (16 Aug)
 - **AttExam16Aug2022P2Q.md** — exam_question (16 Aug)
 - **AttExam16Aug2022P2Q.pdf** — exam_question (16 Aug)
+- **AttExam17Aug2022P3A-candidate.md** — marking_memo (17 Aug)
 - **AttExam17Aug2022P3Q.md** — exam_question (17 Aug)
 - **AttExam17Aug2022P3Q.pdf** — exam_question (17 Aug)
+- **AttExam17Aug2022P4A-candidate.md** — marking_memo (17 Aug)
 - **AttExam17Aug2022P4Q.md** — exam_question (17 Aug)
 - **AttExam17Aug2022P4Q.pdf** — exam_question (17 Aug)
 
@@ -365,4 +381,4 @@
 ## Question/Memo Pairs
 
 - Exam question papers: 135
-- Marking memoranda: 157
+- Marking memoranda: 173

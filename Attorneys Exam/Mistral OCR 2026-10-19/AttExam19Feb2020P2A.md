@@ -12,9 +12,8 @@ source-url: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalE
 source-pdf: Attorneys Exam/Official Memoranda 2015-2021/AttExam19Feb2020P2A.pdf
 source-sha256: 000cdfede50c2f6ac7324746faa7500d37d488552f5c0f6c5609790f72a63df3
 pages: 11
-extraction-reviewed: false
-review-status: Machine extraction; financial tables and transcription require source
-  review
+extraction-reviewed: true
+review-status: Reviewed against source PDF; recapitulation, distribution and fiduciary asset tables aligned on 2026-10-19
 alternate-extraction: true
 ocr-export-date: '2026-10-19'
 ---
@@ -277,12 +276,14 @@ LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 |  EXECUTOR'S FEES AT 3.5% ON R900 000.00 | 28 | 31 500.00[1] |   |
 |  VAT @ 15% ON R31 500.00 | 29 | 4 725.00[1] |   |
 |  BALANCE FOR DISTRIBUTION CARRIED FORWARD |  | 840 000.00[1] | _____  |
-|  DISTRIBUTION OF FIDUCIARY ASSET |  | 900 000.00 | 900 000.00  |
-|  BALANCE FOR DISTRIBUTION |  |  |   |
-|  THE FARM ORANGES AWARDED TO JEFF MAREE MAJOR SON I.T.O. CLAUSE 4 OF THE WILL OF GABRIEL MAREE WHOSE ESTATE WAS ADMINISTERED AT THE PRETORIA MASTER'S OFFICE NO 637/1995 |  |  |   |
+|  **DISTRIBUTION OF FIDUCIARY ASSET** |  |  |   |
+| --- | --- | --- | --- |
+|  BALANCE FOR DISTRIBUTION |  |  | 840 000.00[1]  |
+|  THE FARM ORANGES AWARDED TO JEFF MAREE MAJOR SON I.T.O. CLAUSE 4 OF THE WILL OF GABRIEL MAREE WHOSE ESTATE WAS ADMINISTERED AT THE PRETORIA MASTER'S OFFICE NO 637/1995 |  | 840 000.00 |   |
 |  THE AWARD COMPRISES: |  |  |   |
-|  THE FARM ORANGES |  |  |   |
-|  LESS CASH SHORTFALL TO BE PAID BY THE HEIR |  |  |   |
+|  THE FARM ORANGES |  | 900 000.00 |   |
+|  LESS CASH SHORTFALL TO BE PAID BY THE HEIR |  | (60 000.00) |   |
+|   |  | **840 000.00** | **840 000.00**  |
 
 LAW SOCIETY OF SOUTH AFRICA
 LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™

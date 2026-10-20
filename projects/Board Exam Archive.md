@@ -69,3 +69,7 @@ This project maintains the recovered attorneys admission exam papers in the LLB 
 
 - Local retrieval now includes the 50 Mistral memo extracts and their review report. Three scoped public exam queries returned the intended memos at ranks 1, 3 and 1 among these 50 extracts.
 - See [[notes/Board Exam Mistral OCR - 2026-10-19]] for source completeness checks and remaining transcription-review limits. Official memo coverage remains 50 saved, with 16 recent official memos unlocated.
+
+## Candidate model answers for 2022-2023 (pending verification) - 2026-10-19
+
+- Generated 16 complete 100-mark candidate model memoranda (`official: false`, `verification-status: pending-multi-agent-review`) in [[Attorneys Exam/Candidate Model Answers 2022-2023/README]] for the 16 2022–2023 papers lacking public official LSSA LEAD PDFs, grounded in the 2015–2021 official memoranda, public YouTube walkthrough transcripts, and verified snippets.

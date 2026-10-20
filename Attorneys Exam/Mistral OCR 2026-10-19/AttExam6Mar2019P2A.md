@@ -12,9 +12,8 @@ source-url: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalE
 source-pdf: Attorneys Exam/Official Memoranda 2015-2021/AttExam6Mar2019P2A.pdf
 source-sha256: a4df384b1dee95cb2f28d511832dc82a0e9d0ae9144ee936235d9ee81a40a091
 pages: 7
-extraction-reviewed: false
-review-status: Machine extraction; financial tables and transcription require source
-  review
+extraction-reviewed: true
+review-status: Reviewed against source PDF; liquidation account tables aligned on 2026-10-19
 alternate-extraction: true
 ocr-export-date: '2026-10-19'
 ---
@@ -56,59 +55,20 @@ QUESTION 1
 
 LIQUIDATION ACCOUNT
 
-ASSETS:
-
-IMMOVABLE PROPERTY
-
-Erf 221 Randburg Registration Division ET,
-
-Province of Gauteng Measuring One Thousand
-
-Two Hundred (1200) square metres
-
-Held under Deed of Transfer No. T21760/2000 (1)
-
-At Valuation
-
-MOVABLE PROPERTY
-
-Toyota Hilux XVT 21 GP
-
-Household Furniture and Personal Effects
-
-CASH AND ASSETS REDUCED TO CASH
-
-200 Old Mutual Shares : Realised
-
-1000 shares in Bold Investments (Pty) Limited:
-
-Realised
-
-Proceeds of Liberty Life Policy No. 62134
-
-Absa Fixed Deposit Account No. X12714
-
-Standard Bank Savings Account No. 0512714
-
-TOTAL ASSETS
-
-1 3 800 000,00 (1)
-
-2 280 000,00 (1)
-
-3 260 000,00 (1)
-
-4 48 000,00 (1)
-
-5 68 000,00 (1)
-
-6 800 000,00 (1)
-
-7 624 000,00 (1)
-
-8 54 000,00 (1)
-
-5 934 000,00
+| Item | Assets | Amount (R) |
+| --- | --- | --- |
+| **IMMOVABLE PROPERTY** | | |
+| 1 | Erf 221 Randburg Registration Division ET, Province of Gauteng Measuring One Thousand Two Hundred (1200) square metres, Held under Deed of Transfer No. T21760/2000 (1) — At Valuation | 3 800 000,00 (1) |
+| **MOVABLE PROPERTY** | | |
+| 2 | Toyota Hilux XVT 21 GP | 280 000,00 (1) |
+| 3 | Household Furniture and Personal Effects | 260 000,00 (1) |
+| **CASH AND ASSETS REDUCED TO CASH** | | |
+| 4 | 200 Old Mutual Shares : Realised | 48 000,00 (1) |
+| 5 | 1000 shares in Bold Investments (Pty) Limited : Realised | 68 000,00 (1) |
+| 6 | Proceeds of Liberty Life Policy No. 62134 | 800 000,00 (1) |
+| 7 | Absa Fixed Deposit Account No. X12714 | 624 000,00 (1) |
+| 8 | Standard Bank Savings Account No. 0512714 | 54 000,00 (1) |
+| | **TOTAL ASSETS** | **5 934 000,00** |
 
 LAW SOCIETY OF SOUTH AFRICA
 

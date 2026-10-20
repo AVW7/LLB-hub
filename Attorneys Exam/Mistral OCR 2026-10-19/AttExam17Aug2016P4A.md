@@ -12,9 +12,8 @@ source-url: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalE
 source-pdf: Attorneys Exam/Official Memoranda 2015-2021/AttExam17Aug2016P4A.pdf
 source-sha256: c07a0b463330bdfc6b5e3521458f3a3b63fc642f9997a5a3d946a0bf3ad31b1e
 pages: 7
-extraction-reviewed: false
-review-status: Machine extraction; financial tables and transcription require source
-  review
+extraction-reviewed: true
+review-status: Reviewed against source PDF; page 1 supplementary trust cash book aligned on 2026-10-19
 alternate-extraction: true
 ocr-export-date: '2026-10-19'
 ---
@@ -59,45 +58,14 @@ QUESTION 1
 
 # SUPPLEMENTARY TRUST CASH BOOK – SEPTEMBER 2014
 
-Balance
-
-1,643,298
-
-Interest
-
-6,881
-
-Cheque written back
-
-2,488
-
-EFT Transfer
-
-125,000
-
-Unpaid cheque
-
-52,841
-
-Cheque adjustment
-
-45,000
-
-Deposit adjustment
-
-7,380
-
-Cheque reissued
-
-2,488
-
-Balance
-
-1,669,958
-
-1,777,667
-
-1,777,667
+| Receipts (Dr) | Amount (R) | Payments (Cr) | Amount (R) |
+| --- | --- | --- | --- |
+| Balance | 1,643,298 | Unpaid cheque | 52,841 |
+| Interest | 6,881 | Cheque adjustment | 45,000 |
+| Cheque written back | 2,488 | Deposit adjustment | 7,380 |
+| EFT Transfer | 125,000 | Cheque reissued | 2,488 |
+| | | Balance | 1,669,958 |
+| **Total** | **1,777,667** | **Total** | **1,777,667** |
 
 LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 

@@ -12,9 +12,8 @@ source-url: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalE
 source-pdf: Attorneys Exam/Official Memoranda 2015-2021/AttExam21Aug2019P2A.pdf
 source-sha256: 8d4deeaf7c7db1acf14977196a7bba47726021298aa4bf3197074c5e96e5bfc5
 pages: 7
-extraction-reviewed: false
-review-status: Machine extraction; financial tables and transcription require source
-  review
+extraction-reviewed: true
+review-status: Reviewed against source PDF; page 1 asset table aligned on 2026-10-19
 alternate-extraction: true
 ocr-export-date: '2026-10-19'
 ---
@@ -58,52 +57,20 @@ The First and Final Liquidation and Distribution Account in the estate of the la
 
 # Liquidation account
 
-# Assets:
-
-# Immovable property
-
-1. The farm NAMBO 755, Brits
-Registration Division, JQ, North-West Province;
-Measuring 360 hectares;
-Held by Deed of Transfer T1306/1987. (1)
-
-# At Valuation
-
-(To be transferred to Sarah Dube, major surviving spouse, as sole heir i.t.o. the Will of the deceased) (1)
-
-# Movable property
-
-2. Farm implements and Livestock At valuation
-3. House-hold furniture and effects At valuation
-
-(Items 2 and 3 to be awarded to Sarah Dube, major surviving spouse, as sole heir i.t.o. the Will of the deceased) (1)
-
-# Cash & Assets Reduced to Cash
-
-4. \(100\%\) Shares in VIC (Pty) Ltd Sold for
-5. Absa Bank - Savings account No. 4050635667
-
-2 100 000.00 (1)
-
-900 000.00 (1)
-
-135 000.00 (1)
-
-1 100 000.00 (1)
-
-175 000.00 (1)
-
-LAW SOCIETY OF SOUTH AFRICA
-
-LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
-
-1
-
-|  6. A 2015 Toyota Corolla motor vehicle with Registration number BYP 805 GP Sold for |  |  | 100 000.00 (1)  |
+| Item | Assets | | Amount (R) |
 | --- | --- | --- | --- |
-|  7. Sanlam Insurance Policy No.175345X9 Proceeds of Policy |  |  | 950 000.00 (1)  |
-|  8. JSE quoted Shares Sold by Stockbrokers |  |  | 76 000.00 (1)  |
-|  Total Assets |  |  | 5 536 000.00  |
+| **Immovable property** | | | |
+| 1. | The farm NAMBO 755, Brits Registration Division, JQ, North-West Province; Measuring 360 hectares; Held by Deed of Transfer T1306/1987. (1) At Valuation *(To be transferred to Sarah Dube, major surviving spouse, as sole heir i.t.o. the Will of the deceased)* (1) | | 2 100 000.00 (1) |
+| **Movable property** | | | |
+| 2. | Farm implements and Livestock — At valuation | | 900 000.00 (1) |
+| 3. | House-hold furniture and effects — At valuation *(Items 2 and 3 to be awarded to Sarah Dube, major surviving spouse, as sole heir i.t.o. the Will of the deceased)* (1) | | 135 000.00 (1) |
+| **Cash & Assets Reduced to Cash** | | | |
+| 4. | 100% Shares in VIC (Pty) Ltd — Sold for | | 1 100 000.00 (1) |
+| 5. | Absa Bank - Savings account No. 4050635667 | | 175 000.00 (1) |
+| 6. | A 2015 Toyota Corolla motor vehicle with Registration number BYP 805 GP — Sold for | | 100 000.00 (1) |
+| 7. | Sanlam Insurance Policy No.175345X9 — Proceeds of Policy | | 950 000.00 (1) |
+| 8. | JSE quoted Shares — Sold by Stockbrokers | | 76 000.00 (1) |
+| | **Total Assets** | | **5 536 000.00** |
 
 |  Liabilities:  |   |
 | --- | --- |

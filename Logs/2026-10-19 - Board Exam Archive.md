@@ -50,3 +50,8 @@ Work log for 2026-10-19 about the attorneys admission exam archive and its OCR w
 
 - Local retrieval now includes the 50 Mistral memo extracts and their review report. Three scoped public exam queries returned the intended memos at ranks 1, 3 and 1 among these 50 extracts.
 - See [[notes/Board Exam Mistral OCR - 2026-10-19]] for source completeness checks and remaining transcription-review limits. Official memo coverage remains 50 saved, with 16 recent official memos unlocated.
+
+## Candidate model answers for 2022-2023 (pending verification) - 2026-10-19
+
+- Checked additional public web and YouTube sources: found paywalled Scribd listings for March 2022 Papers 1, 2, 4, August 2022 Paper 3, and March 2023 Paper 4, plus full Simplified Academe YouTube walkthrough transcripts for 16 March 2023 Paper 4, 23 August 2023 Paper 2, and 24 August 2023 Paper 4. Recorded these in [[notes/Board Exam Memo Search - 2026-10-19]].
+- Generated 16 complete 100-mark candidate model memoranda (`official: false`, `verification-status: pending-multi-agent-review`) in [[Attorneys Exam/Candidate Model Answers 2022-2023/README]], cross-referenced against the 50 official 2015–2021 memoranda and public walkthrough transcripts for multi-agent and multi-model verification.

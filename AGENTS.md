@@ -26,7 +26,9 @@ This hub contains **practical legal training materials** for South African LLB g
 | **IPM** | 4 | Introduction to Practice Management | 13 | Practice management, marketing, emotional intelligence |
 | **Attorneys Exam** | Board | Attorneys Admission Examination | 10 | Board exam for attorney admission |
 || **LSSA** | Ref | LSSA Reference Materials | 3 | Constitution, Legal Practice Act, Rules |
-| **Total:** | | | **222** | |
+| **Total:** | | | **222** (original per-module sources) | |
+
+> **Note (2026-10-20):** Per-module counts above are the original source papers. The Attorneys Exam folder has since grown (66 board-paper PDFs, OCR sidecars, candidate model answers), and `index.json` now holds ~870 entries including Markdown sidecars/notes. Treat `index.json` `count` as the authoritative figure.
 
 ---
 
@@ -271,6 +273,8 @@ Examples:
 
 ## KNOWN GAPS
 
+> Re-verify with `python3 .ocr_harness.py audit --root . --all`; some entries below may already have sidecars.
+
 | File | Issue | Action Needed |
 |------|-------|----------------|
 | `CCP/CCPHighCourtAppLeavetoAppeal.pdf` | Scanned — no text | OCR required |
@@ -293,7 +297,7 @@ When working with this hub:
 
 3. **Update the index after changes:**
    ```bash
-   cd "/Users/ajadvanwyk/Desktop/LLB hub"
+   cd "/Users/ajad/Desktop/LLB hub"
    python3 .reindex.py
    ```
 
@@ -365,6 +369,9 @@ The reindexer skips these output files:
 ---
 
 ## NOTES
+
+- **Currency caveat:** Older papers pre-date the Legal Practice Act 28 of 2014 and current figures (VAT is now 15%, not 14%; Magistrates' Court monetary limits have been revised). Verify against current law before relying on the figures in this file.
+- OCR sidecars are machine extractions, not proofread; check against the source PDF for financial tables.
 
 - Materials date from 2008-2019 (primarily 2010-2016)
 - LSSA School for Legal Practice past examination papers
