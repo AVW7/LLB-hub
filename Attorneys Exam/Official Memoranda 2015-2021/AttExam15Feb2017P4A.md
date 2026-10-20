@@ -30,65 +30,219 @@ Official guideline model answers for Paper 4, 2017-02-15, recovered on 2026-10-1
 - Pairing and remaining gaps: [[notes/Board Exam Memo Coverage]].
 - Project: [[projects/Board Exam Archive]].
 - Text review: basic extraction checks passed; not fully proofread.
+- Alternate extraction: [[Attorneys Exam/Mistral OCR 2026-10-19/AttExam15Feb2017P4A]].
 
 ## Extracted guideline answers
 
-ADMISSION EXAMINATION I TOELATINGSEKSAMEN BOOKKEEPING I BOEKHOU PART4/DEEL4 15 FEBRUARYI 15 FEBRUARIE 2017 ANSWERS I ANTWOORDE 
+# **ADMISSION EXAMINATION / TOELATINGSEKSAMEN  
+BOOKKEEPING / BOEKHOU  
+PART 4 / DEEL 4**
 
-PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: This guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner should apply his discretion in marking the answer. 
+**15 FEBRUARY / 15 FEBRUARIE 2017**
 
-QUESTION 1 [151 1.1 TRANSFER JOURNAL 
+**ANSWERS / ANTWOORDE**
 
-> Client (T) Client (B) Dr Cr Being transfer from Trust to Business
+**PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY  
+NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE  
+MOMENT OF READING.**
 
-1.2 BUSINESS JOURNAL 
+**NOTE TO EXAMINER:** *This guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner should apply his discretion in marking the answer.*
 
-> Rich Poor Dr Cr Being incorrect (erroneous) debit being corrected
+**QUESTION 1**
 
-1.3 BUSINESS JOURNAL (FEE JOURNAL) 
+**[15]**
 
-> Fees Client Dr Cr Being correction of overcharge
+# **1.1 TRANSFER JOURNAL**
 
-LEGAL EDUCATION AND DEVELOPMENT /L.E.A.DjfM 
+Client (T) Dr 4 500  
+Client (B) Cr 4 500  
+Being transfer from Trust to Business
 
-4 500 4 500 7 500 7 500 7 000 7 000 
+# **1.2 BUSINESS JOURNAL**
 
-11.4 BUSINESS JOURNAL 5 000 Mrs Cross Counsel Dr Cr 5 000 Being fees due in divorce action 1.5 BUSINESS JOURNAL 2 500 Bad debts Client Dr Cr 2 500 Being amount written off (3 marks each Journal entry) QUESTION 2 2.1 SUPPLEMENTARY CASH BOOK FOR JUNE 2016 Balance (1) Interest (1) Error (1) Deposit (1) 943 210 17 730 109 340 128 820 119910 0 Cheque (error) (1) RD Cheque (1) Error (Deposit) (1) Balance (1) 2.2 BANK RECONCILIATION STATEMENT AT 30 JUNE 2016 Overdraft as per Bank statement Add: unpresented cheques Less: deposit Less: error cheque (business) Less: error deposit (business) 0/D 0/D Balance Cash book balance 319 580 179 980 499 560 81 190 418 370 1 342 300 923 930 40 360 883 570 
+Rich Dr 7 500  
+Poor Cr 7 500  
+Being incorrect (erroneous) debit being corrected
 
-(15] 
+# **1.3 BUSINESS JOURNAL (FEE JOURNAL)**
 
-104 930 21 780 188 820 883 570 119910 0 (1) (1) (1) (1) (1) 2.3 Ask the Bank to reverse the payment or pay the amount from Business to Trust (2) 
+Fees Dr 7 000  
+Client Cr 7 000  
+Being correction of overcharge
 
-LEGAL EDUCATION AND DEVELOPMENT /L.E.A.DffM 2QUESTION 3 
+**LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™**
 
-4 Feb Purchaser Purchaser 26 Feb Phoenix Bank T/F TRUST CASH BOOK 1000 000 200 000 1005800 2 205800 5 Feb Phoenix Bank Corres (T/Duty) 26 Feb Corres T/F Purchaser Purchaser BUSINESS CASH BOOK 45600 I Corres 
+1
 
-[50] 
+## 1.4 BUSINESS JOURNAL
 
-1000 000 150 000 1000 000 45600 5800 4 400 2 205800 34 200 (2 marks each =24) TRUST LEDGER - PURCHASER Cash - Correspondent Cash - Correspondent Cash - Correspondent Cash - Correspondent 150 000 Cash - Deposit 1000 000 Cash - Costs 45600 4 400 Fee Cash Cash - Interest Fees Cash 1200 000 BUSINESS LEDGER - PURCHASER 45600 I T/F S78 (2) (A) - PHOENIX BANK (ITF PURCHASER) 1000 000 Cash 5800 BUSINESS LEDGER - CORRESPONDENT 11400 
+|  Mrs Cross | Dr | 5 000  |
+| --- | --- | --- |
+|  Counsel | Cr | 5 000  |
+|  Being fees due in divorce action  |   |   |
 
-# I Fees 34 200 
+## 1.5 BUSINESS JOURNAL
 
-LEGAL EDUCATION AND DEVELOPMENT {L.E.A.DJCM 
+|  Bad debts | Dr | 2 500  |
+| --- | --- | --- |
+|  Client | Cr | 2 500  |
+|  Being amount written off  |   |   |
 
-1000 000 200 000 1200 000 §__600 1005800 45600 
+(3 marks each Journal entry)
 
-3JOURNAL ENTRIES (BUSINESS) Purchaser Dr Correspondent Cr Being fees due to Correspondent Correspondent Dr Fees Cr Vat Cr Being allowance on Fees 
+## QUESTION 2 [15]
 
-NOTES: 
+### 2.1 SUPPLEMENTARY CASH BOOK FOR JUNE 2016
 
-FEES ICorrespondent VAT ICorrespondent 45600 45600 11400 10 000 1400 
+|  Balance (1) | 943 210 | Cheque (error) (1) | 104 930  |
+| --- | --- | --- | --- |
+|  Interest (1) | 17 730 | RD Cheque (1) | 21 780  |
+|  Error (1) | 109 340 | Error (Deposit) (1) | 188 820  |
+|  Deposit (1) | 128 820 | Balance (1) | 883 570  |
+|   | **1 199 100** |  | **1 199 100**  |
 
-1. Transaction dates should be shown in the ledger accounts. 
+### 2.2 BANK RECONCILIATION STATEMENT AT 30 JUNE 2016
 
-10 000 1400 (1 mark each =16) (5 marks) 
+|  Overdraft as per Bank statement | 319 580 | (1)  |
+| --- | --- | --- |
+|  Add: unpresented cheques | 179 980 | (1)  |
+|  O/D | 499 560 |   |
+|  Less: deposit | 81 190 | (1)  |
+|  O/D | 418 370 |   |
+|  Less: error cheque (business) | 1 342 300 | (1)  |
+|  Balance | 923 930 |   |
+|  Less: error deposit (business) | 40 360 | (1)  |
+|  Cash book balance | **883 570** |   |
 
-2. Correspondent could be paid from the Trust banking account so that the first journal entry would not be necessary. 
+### 2.3 Ask the Bank to reverse the payment or pay the amount from Business to Trust (2)
 
-LEGAL EDUCATION AND DEVELOPMENT [L.E.A.DjfM 4TRANSFER OF PROPERTY Proceeds from Bank 2 000 000 Cheque you 1 000 000 Transfer & bonds costs received 200 000 Paid Transfer Duty 150 000 Fees on transfer 40 000 Vat thereon 5 600 Paid Seller 3 000 000 Interest received on Investments 5 800 Cheque to you interest 5 800 Cheque to you refund 4400 3 205 800 3 205 800 (5 marks) QUESTION4 [20) 4.1 a) quarterly (2) b) names of each creditor and the amount due to the creditor (2) total of the list (2) total to be compared with total of trust money available on investments and in the bank. (2) c) trial balance or ledger account (2) d) 5 years (2) (.!£marks) 4.2 either obtain written instructions from client or invest the monies in a Section 78 (2)(a) investment for the benefit of the Fidelity Fund 
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
-LEGAL EDUCATION AND DEVELOPMENT [L.E.A.DJCM 
+2
 
-(8 marks) TOTAL: [100) 
+QUESTION 3
+
+[50]
+
+TRUST CASH BOOK
+
+|  4 Feb Purchaser | 1 000 000 | 5 Feb Phoenix Bank | 1 000 000  |
+| --- | --- | --- | --- |
+|  Purchaser | 200 000 | Corres (T/Duty) | 150 000  |
+|  26 Feb Phoenix Bank | 1 005 800 | 26 Feb Corres | 1 000 000  |
+|   |  | T/F | 45 600  |
+|   |  | Purchaser | 5 800  |
+|   |  | Purchaser | 4 400  |
+|   | 2 205 800 |  | 2 205 800  |
+
+BUSINESS CASH BOOK
+
+|  T/F | 45 600 | Corres | 34 200  |
+| --- | --- | --- | --- |
+|   |  |  | (2 marks each =24)  |
+
+TRUST LEDGER - PURCHASER
+
+|  Cash – Correspondent | 150 000 | Cash - Deposit | 1 000 000  |
+| --- | --- | --- | --- |
+|  Cash – Correspondent | 1 000 000 | Cash - Costs | 200 000  |
+|  Cash – Correspondent | 45 600 |  |   |
+|  Cash – Correspondent | 4 400 |  |   |
+|   | 1 200 000 |  | 1 200 000  |
+
+BUSINESS LEDGER - PURCHASER
+
+|  Fee | 45 600 | T/F | 45 600  |
+| --- | --- | --- | --- |
+
+S78 (2) (A) – PHOENIX BANK (ITF PURCHASER)
+
+|  Cash | 1 000 000 | Cash | 1 005 800  |
+| --- | --- | --- | --- |
+|  Cash - Interest | 5 800 |  |   |
+
+BUSINESS LEDGER - CORRESPONDENT
+
+|  Fees | 11 400 | Fees | 45 600  |
+| --- | --- | --- | --- |
+|  Cash | 34 200 |  |   |
+
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
+
+3
+
+FEES
+
+|   | Correspondent | 10 000  |
+| --- | --- | --- |
+
+VAT
+
+|   | Correspondent | 1 400  |
+| --- | --- | --- |
+
+(1 mark each =16)
+
+JOURNAL ENTRIES (BUSINESS)
+
+|  Purchaser | Dr | 45 600  |
+| --- | --- | --- |
+|  Correspondent | Cr | 45 600  |
+
+Being fees due to Correspondent
+
+|  Correspondent | Dr | 11 400  |
+| --- | --- | --- |
+|  Fees | Cr | 10 000  |
+|  Vat | Cr | 1 400  |
+
+Being allowance on Fees
+
+(5 marks)
+
+**NOTES:**
+
+1. Transaction dates should be shown in the ledger accounts.
+2. Correspondent could be paid from the Trust banking account so that the first journal entry would not be necessary.
+
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
+
+4
+
+# **TRANSFER OF PROPERTY**
+
+|  Proceeds from Bank |  | 2 000 000  |
+| --- | --- | --- |
+|  Cheque you |  | 1 000 000  |
+|  Transfer & bonds costs received |  | 200 000  |
+|  Paid Transfer Duty | 150 000 |   |
+|  Fees on transfer | 40 000 |   |
+|  Vat thereon | 5 600 |   |
+|  Paid Seller | 3 000 000 |   |
+|  Interest received on Investments |  | 5 800  |
+|  Cheque to you interest | 5 800 |   |
+|  Cheque to you refund | 4 400 |   |
+
+3 205 800 3 205 800
+
+(5 marks)
+
+# **QUESTION 4** [20]
+
+4.1 a) quarterly (2)
+
+b) names of each creditor and the amount due to the creditor total of the list total to be compared with total of trust money available on investments and in the bank. (2)
+c) trial balance or ledger account (2)
+d) 5 years (2)
+
+(12 marks)
+
+4.2 either obtain written instructions from client or invest the monies in a Section 78 (2)(a) investment for the benefit of the Fidelity Fund
+
+(8 marks)
+
+TOTAL: [100]
+
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
 5

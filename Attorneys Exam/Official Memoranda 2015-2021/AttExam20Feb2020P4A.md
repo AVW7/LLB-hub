@@ -30,335 +30,270 @@ Official guideline model answers for Paper 4, 2020-02-20, recovered on 2026-10-1
 - Pairing and remaining gaps: [[notes/Board Exam Memo Coverage]].
 - Project: [[projects/Board Exam Archive]].
 - Text review: basic extraction checks passed; not fully proofread.
+- Alternate extraction: [[Attorneys Exam/Mistral OCR 2026-10-19/AttExam20Feb2020P4A]].
 
 ## Extracted guideline answers
 
-LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™   
+# **ADMISSION EXAMINATION / TOELATING SEKSAMEN  
+LEGAL PRACTITIONERS' BOOKKEEPING /  
+REGSPRAKTISYNSBOEKHOU  
+PART 4 / DEEL 4**
 
-> 1
-> NOTE TO EXAMINER: This guideline records the views of the drafters. There may be
-> justifiable variations in practice which are brought out in the answers. When this happens the examiner should apply his discretion in marking the answer.
-> QUESTION 1 [15]
-> A journal is a book of prime entry which is used to record the money value of non-cash transactions. (1)
-> Fees Journal
+**20 FEBRUARY / FEBRUARIE 2020**
 
-The fees Journal is used to record the money value 
+**ANSWERS / ANTWOORDE**
 
-of the professional services rendered to a client. (1). The client’s Business ledger account will be debited (1) with the fee to be charged and the Fees account (1) will be 
+**PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING.**
 
-credited. The Output Vat account will be credited (if applicable) (1) 
+*NOTE TO EXAMINER: This guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner should apply his discretion in marking the answer.*
 
-A narration would describe the nature of the transaction. (1) (5) 
+# **QUESTION 1**
 
-Transfer Journal 
+**[15]**
 
-The Transfer Journal is used to transfer the money value (1) (not cash) from the client’s Trust ledger account (1) to the 
+A journal is a book of prime entry which is used to record the money value of non-cash transactions. (1)
 
-same client’s Business ledger account (1). The narration 
+# **Fees Journal**
 
-would describe the reason for the entry (1) (4) 
+The fees Journal is used to record the money value of the professional services rendered to a client. (1). The client's **Business ledger account** will be debited (1) with the fee to be charged and the **Fees account** (1) will be credited. The **Output Vat account** will be credited (if applicable) (1) A narration would describe the nature of the transaction. (1) (5)
 
-Trust Journal 
+# **Transfer Journal**
 
-The Trust Journal is used to transfer value from one client’s Trust ledger account (1) to another client’s Trust 
+The Transfer Journal is used to transfer the **money value** (1) (not cash) from the **client's Trust ledger account** (1) to the **same client's Business ledger account** (1). The narration would describe the reason for the entry (1) (4)
 
-ledger account (1). The narration would describe the 
+# **Trust Journal**
 
-reason for the transfer (1). (3) 
+The Trust Journal is used to transfer value from **one client's Trust ledger account** (1) to **another client's Trust ledger account** (1). The narration would describe the reason for the transfer (1). (3)
 
-ADMISSION EXAMINATION / TOELATINGSEKSAMEN LEGAL PRACTITIONERS’ BOOKKEEPING / REGSPRAKTISYNSBOEKHOU 
+---*LAW SOCIETY OF SOUTH AFRICA  
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™*
 
-PART 4 / DEEL 4 
+1
 
-20 FEBRUARY / FEBRUARIE 2020 ANSWERS / ANTWOORDE 
+**Business Journal**
 
-PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 
+The Business Journal is used to record the entries to be made to record the **money value of any non-cash**
 
-> 2
+**Business transactions (1)**
 
-Business Journal 
+The narration would describe the nature of the transaction (1) **(2)**
 
-The Business Journal is used to record the entries to be made to record the money value of any non-cash Business transactions (1) 
+**QUESTION 2**
 
-The narration would describe the nature of the transaction (1) (2) 
+**[20]**
 
-QUESTION 2 [20] 
+**1 Fees Journal (1)**
 
-1 Fees Journal (1) 
+|  Client Business account | 5 750 (1)  |
+| --- | --- |
+|  Fees account | 5 000 (1)  |
+|  Output Vat | 750 (1)  |
+|  Fees in respect of professional Services (1) | **(5)**  |
 
-Client Business account  5 750 (1) 
+**2 Trust Journal (1)**
 
-Fees account  5 000 (1) 
+|  Sipho Trust account | 8 000 (1)  |
+| --- | --- |
+|  Madaline Trust account | 8 000 (1)  |
+|  Transfer of incorrect entry (1) | **(4)**  |
 
-Output Vat  750 (1) 
+**3 Transfer Journal (1)**
 
-Fees in respect of professional 
+|  Anthony Trust account | 22 000 (1)  |
+| --- | --- |
+|  Anthony Business account | 22 000 (1)  |
+|  Transfer of fees and disbursements (1) |   |
 
-Services (1)  (5) 
+The balances after the transfer are
 
-2 Trust Journal (1) 
+- Trust account credit Rnil (1)
+- Business account debit R11 000 (1) **(6)**
 
-Sipho Trust account 8 000 (1) 
+LAW SOCIETY OF SOUTH AFRICA
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
-Madaline Trust account 8 000 (1) 
+2
 
-Transfer of incorrect entry (1) (4) 
+# **4 Business. / Private Journal (1)**
 
-3 Transfer Journal (1) 
+Motor Vehicle
 
-Anthony Trust account 22 000 (1) 
+230 000 (2)
 
-Anthony Business account 22 000 (1) Transfer of fees and disbursements (1) 
+Fincor
 
-The balances after the transfer are 
+230 000 (1)
 
-• Trust account credit Rnil (1) 
+Purchase of Toyota as per financing agreement (1) **(5)**
 
-• Business account debit R11 000 (1) (6) LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 
+# **QUESTION 3**
 
-> 3
+**[15]**
 
-4 Business. / Private Journal (1) 
+|  Supplementary Cash Book for June 2019 ½ |   |   | 15  |
+| --- | --- | --- | --- |
+|  Balance | 40 000✓ | Debit Order | 28 236✓  |
+|  Interest | 3 900✓ | Bank Charges | 2 000✓  |
+|  Correct deposit | 25 360✓ | Error deposit | 25 630✓  |
+|  EFT | 45 000✓ | Balance | 58 394✓  |
+|   | 114 260 |  | 114 260  |
 
-Motor Vehicle 230 000 (2) 
+# **Bank reconciliation statement as at 30 June 2019 ½**
 
-Fincor 230 000 (1) 
+Balance as per bank statement 5 000✓
 
-Purchase of Toyota as per financing agreement (1) (5) 
+Less: Outstanding eft 14 000✓
 
-QUESTION 3 [15]   
+Subtotal 19 000
 
-> Supplementary Cash Book for June 2019 ½ 15
-> Balance 40 000
+Plus:Outstanding deposit 11 000✓
 
- Debit Order  28 236  
+Subtotal 30 000
 
-> Interest 3 900
+Add: Outstanding deposit 41 000✓
 
- Bank Charges  2 000  
+Subtotal 71 000
 
-> Correct deposit 25 360
+Less: Bank error trust deposit 12 606✓
 
- Error deposit  25 630  
+Balance as per cash book 58 394✓
 
-> EFT 45 000
+LAW SOCIETY OF SOUTH AFRICA  
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
- 
+3
 
-> Balance
+QUESTION 4
 
-58 394  
+[40]
 
-> 114 260
+# TRUST CASH BOOK
 
-114 260 
+|   | Balance | 3 000 000 | 16/7 | ABSA | 1 000 000  |
+| --- | --- | --- | --- | --- | --- |
+|  16/7 | Baloyi | 1 000 000 | 17/7 | SARS | 300 000  |
+|   | Baloyi | 500 000 | 2/8 | Mabuza | 10 000 000  |
+|  2/8 | Capitec | 7 000 000 | 2/8 | Fidelity Fund | 5 000  |
+|  2/8 | ABSA | 1 100 000 | 2/8 | Baloyi | 95 000  |
+|   |  |  | 2/8 | Transfer | 200 000  |
+|   |  |  |  | Balance | 1 000 000  |
+|   |  | 12 600 000 |  |  | 12 600 000  |
 
-Bank reconciliation statement as at 30 June 2019 ½ 
+# BUSINESS CASH BOOK
 
-Balance as per bank statement  5 000 
+|  2/8 | Transfer | 200 000  |
+| --- | --- | --- |
 
-Less: Outstanding eft  14 000 
+# TRUST LEDGER
 
-Subtotal  19 000 
+|   |  | BALOYI |  |  |   |
+| --- | --- | --- | --- | --- | --- |
+|  17/7 | Cash | 300 000 | 16/7 | Cash | 1 000 000  |
+|  2/8 | Cash | 10 000 000 |  | Cash | 500 000  |
+|  2/8 |  | 200 000 | 2/8 | Lender | 2 000 000  |
+|   |  |  |  | Cash | 7 000 000  |
 
-Plus:Outstanding deposit  11 000 
+# BUSINESS LEDGER
 
-Subtotal  30 000 
+|   |  | BALOYI |  |  |   |
+| --- | --- | --- | --- | --- | --- |
+|  2/8 | Fees | 200 000 | 2/8 | Cash | 200 000  |
 
-Add: Outstanding deposit  41 000 
+LAW SOCIETY OF SOUTH AFRICA
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D.]™
 
-Subtotal  71 000 
+4
 
-Less: Bank error trust deposit  12 606 
+# ABSA BANK (S86 (4))
 
-Balance as per cash book  58 394 LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 
+# BALOYI
 
-> 4
+|  16/7 Cash | 1 000 000 | 2/8 Cash | 1 100 000  |
+| --- | --- | --- | --- |
+|  2/8 Cash | 5 000 |  |   |
+|  2/8 Cash | 95 000 |  |   |
 
-QUESTION 4 [40] 
+# TRUST LEDGER
 
-TRUST CASH BOOK 
+# LENDER
 
-Balance 
+|  2/8 Baloyi | 2 000 000 | 1/7 Bal | 3 000 000  |
+| --- | --- | --- | --- |
+|  FEES  |   |   |   |
+|   |  | 2/8 Baloyi | 200 000  |
 
-16/7 Baloyi Baloyi 
+(1 mark each entry)
 
-2/8 Capitec 
+# **Business Journal**
 
-2/8 ABSA 
+Baloyi Dr 200 000
 
-3 000 000 
+Fees Cr 200 000
 
-1 000 000 
+Fees on Transfer of property Mabuza
 
-500 000 
+(3)
 
-7 000 000 
+# **Trust Journal**
 
-1 100 000 
+Lender Dr 2 000 000
 
-12 600 000 
+Baloyi Cr 2 000 000
 
-16/7 ABSA 
+(3)
 
-17/7 SARS 
+Being loan on Second Bond
 
-2/8 Mabuza 
+LAW SOCIETY OF SOUTH AFRICA
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D.]™
 
-2/8 Fidelity Fund 2/8 Baloyi 
+5
 
-2/8 Transfer 
+# ACCOUNT TO BALOYI
 
-Balance 
+EFT You 1 000 000
 
-1 000 000 
+EFT You 500 000
 
-300 000 
+Inv ABSA 1 000 000
 
-10 000 000 
+ABSA 1 100 000
 
-5 000 
+Capitec Bank 7 000 000
 
-95 000 
+Paid SARS 300 000
 
-200 000 
+Paid Fidelity Fund 5 000
 
-1 000 000 
+Paid You 95 000
 
-12 600 000 
+Paid Fees 200 000
 
-BUSINESS CASH BOOK 
+By Lender 2 000 000
 
-_________________________________________________________________________ 
+Paid Mabuza 10 000 000
 
-2/8 Transfer 200 000 
+11 600 000 11 600 000 (6)
 
-TRUST LEDGER 
+# QUESTION 5
 
-BALOYI 
+[10]
 
-17/7 Cash 2/8 Cash 2/8 
+5.1 No. (1)
 
-300 000 
+5.2 Draw cash from your Business Account, pay the Bail, thereafter transfer the amount paid for bail from your Trust Account. (3)
 
-10 000 000 
+5.3.1 monthly
 
-200 000 
+5.3.2 quarterly
 
-16/7 Cash Cash 
+5.3.3 yearly (3)
 
-2/8 Lender 
-
-Cash 
-
-1 000 000 
-
-500 000 
-
-2 000 000 
-
-7 000 000 
-
-BUSINESS LEDGER 
-
-BALOYI 
-
-2/8 Fees  200 000  2/8 Cash  200 000 LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 
-
-> 5
-
-ABSA BANK (S86 (4) 
-
-BALOYI 
-
-16/7 Cash 2/8 Cash 
-
-2/8 Cash 
-
-1 000 000 
-
-5 000 
-
-95 000 
-
-2/8 Cash  1 100 000 
-
-TRUST LEDGER 
-
-LENDER 
-
-2/8 Baloyi  2 000 000  1/7 Bal  3 000 000 
-
-FEES 
-
-2/8 Baloyi  200 000 
-
-(1 mark each entry) 
-
-Business Journal 
-
-Baloyi Dr 200 000 
-
-Fees  Cr  200 000 
-
-Fees on Transfer of property Mabuza 
-
-(3) 
-
-Trust Journal 
-
-Lender Dr 2 000 000 
-
-Baloyi Cr 
-
-Being loan on Second Bond 
-
-2 000 000 
-
-(3) LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 
-
-> 6
-
-ACCOUNT TO BALOYI 
-
-EFT  You  1 000 000 
-
-EFT  You  500 000 
-
-Inv ABSA  1 000 000 
-
-ABSA  1 100 000 
-
-Capitec Bank  7 000 000 
-
-Paid SARS  300 000 
-
-Paid Fidelity Fund  5 000 
-
-Paid You  95 000 
-
-Paid Fees  200 000 
-
-By Lender 
-
-Paid Mabuza  10 000 000 
-
-2 000 000 
-
-11 600 000 11 600 000  (6) 
-
-QUESTION 5  [10] 
-
-5.1 No.  (1) 
-
-5.2 Draw cash from your Business Account, pay the Bail, thereafter transfer the amount paid for bail from your Trust Account. (3) 
-
-5.3.1 monthly 
-
-5.3.2 quarterly 
-
-5.3.3 yearly (3) 
-
-5.4 When the business monies are part of “MIXED” monies (Trust & Business). Thereafter the monies are transferred from Trust to Business. (3) 
+5.4 When the business monies are part of "MIXED" monies (Trust & Business). Thereafter the monies are transferred from Trust to Business. (3)
 
 TOTAL: [100]
+
+LAW SOCIETY OF SOUTH AFRICA
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D.]™
+
+6

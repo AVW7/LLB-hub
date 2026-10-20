@@ -30,129 +30,306 @@ Official guideline model answers for Paper 2, 2018-02-06, recovered on 2026-10-1
 - Pairing and remaining gaps: [[notes/Board Exam Memo Coverage]].
 - Project: [[projects/Board Exam Archive]].
 - Text review: basic extraction checks passed; not fully proofread.
+- Alternate extraction: [[Attorneys Exam/Mistral OCR 2026-10-19/AttExam6Feb2018P2A]].
 
 ## Extracted guideline answers
 
-ADMISSION EXAMINATION I TOELATINGSEKSAMEN ESTATES IBOEDELS PART2/DEEL2 06 FEBRUARY/06 FEBRUARIE 2018 ANSWERSIANTWOORDE 
+# ADMISSION EXAMINATION / TOELATINGSEKSAMEN
 
-PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: Tl,is guideline records t!,e views of t!,e drafters. T!,ere may be justifiable variations in practice w l,icl, are brougllt out in tl,e answers. Wl,en t!,is l,appens tl,e examiner sl,ou/d apply !,is discretion in marking tl,e answer. 
+# ESTATES / BOEDELS
 
-QUESTION 1 (60] FIRST AND FINAL LIQUIDATION AND DISTRIBUTION ACCOUNT IN THE JOINT ESTATE OF THE LATE DEON NEL [11 IDENTITY NO. 560213 5162 08 4 [1) WHO DIED ON 13 MARCH 2016 [1], MARRIED IN COMMUNITY OF PROPERTY TO BION NEL (BORN KENT), IDENTITY NUMBER 590207 5003 08 9 [1] MASTER'S REFERENCE NO. 1234/2016 (1) 
+# PART 2 / DEEL 2
 
-LIQUIDATION ACCOUNT:-ASSETS IMMOVABLE PROPERTY 
+06 FEBRUARY / 06 FEBRUARIE 2018
 
-Farm Vula No. 3259, Registration Division ET, Province of Kwazulu Natal Measuring 850 hectares Held under Deed of Transfer No. T13420/1988 At Valuation Erf 570 Ballito Registration Division ET, Province of Kwazulu Natal measuring 1000 Square metres Held under Deed of Transfer no. T3324/1999 At Valuation 
+ANSWERS / ANTWOORDE
+
+PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING.
+
+NOTE TO EXAMINER:
+
+This guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner should apply his discretion in marking the answer.
+
+QUESTION 1
+
+[60]
+
+FIRST AND FINAL LIQUIDATION AND DISTRIBUTION ACCOUNT IN THE JOINT ESTATE OF THE LATE DEON NEL [1] IDENTITY NO. 560213 5162 08 4 [1] WHO DIED ON 13 MARCH 2016 [1], MARRIED IN COMMUNITY OF PROPERTY TO BION NEL (BORN KENT), IDENTITY NUMBER 590207 5003 08 9 [1] MASTER'S REFERENCE NO. 1234/2016 [1]
+
+LIQUIDATION ACCOUNT:-
+
+ASSETS
+
+IMMOVABLE PROPERTY
+
+Farm Vula No. 3259, Registration
+
+Division ET, Province of Kwazulu Natal
+
+Measuring 850 hectares
+
+Held under Deed of Transfer No. T13420/1988
+
+At Valuation
+
+(1)
+
+4 000 000,00 [1]
+
+Erf 570 Ballito Registration Division ET,
+
+Province of Kwazulu Natal measuring 1000
+
+Square metres
+
+Held under Deed of Transfer no. T3324/1999
+
+At Valuation
+
+(2)
+
+850 000,00 [1]
 
 MOVABLES:-
 
-Tractors and Fann Implements Cattle realised (1) (2) 
+Tractors and Farm Implements
 
-(3) 
+(3)
 
-(4) 
+800 000,00 [1]
 
-4 000 000,00 (1) 850 000,00 (1) 800 000,00 [1) 1 500 000,00 [1) 
+Cattle realised
 
-LEGAL EDUCATION AND DEVELOPMENT /L.E.A.DffM 1Rugger Firearm No. SD10478 at valuation 2000 shares in Agriblock (Pty) Ltd : realised 1000 shares in Sasol: realised Furniture and Household effects at valuation Absa Bank Account No. 40923116 CLAIMS IN FAVOUR OF ESTATE:-Proceeds of Old Mutual Policy No. OM/326714 Momentum Policy No. 286714 TOTAL ASSETS DIVESTMENT NOTE:-The above assets 1, 2, 3, 5 & 8 are awarded to the Intestate Heirs in terms of Act 81 of 1987 LIABILITIES:-Administration Expenses: Masters fees Executors fees (3.5% of R8 500 000,00) Best Brokers fees Other Administration expenses Honest valuers valuation costs Absa Bond over Farm Vula Old mutual loan on policy Angel Funerals: Funeral expenses SARS : Final assessment Absa: Bank Charges (5) (6) (7) (8) (9) (10) (11) 24 000,00 [1] 24 000,00 [1] 45 000,00 (1] 241 000,00 (1] 166 000,00 [1] 600 000,00 [1] 250 000,00 [1] 8 500 000,00 
+(4)
 
-# --------------------------------
+1 500 000,00 [1]
 
-600,00 297 500,00 1 500,00 8 000,00 3 000,00 1 800 000,00 10 000,00 36 000,00 176 000,00 2 000,00 [2] PSG Attorneys: Bond Cancellation and Transfer Costs 76 000,00 [1] [1] (1] [1] [1] [1] [1] [1] [1] [1] [1] Total Liabilities Estate Duty Balance Available for Distribution RECAPITULATION STATEMENT: Cash Assets and assets reduced 
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
-# --------------
+1
 
-2 410 600,00 NIL 6 089 400,00 8 500 000,00 [1] 
+|  Rugger Firearm No. SD10478 at valuation | (5) | 24 000,00 | [1]  |
+| --- | --- | --- | --- |
+|  2000 shares in Agriblock (Pty) Ltd : realised | (6) | 24 000,00 | [1]  |
+|  1000 shares in Sasol: realised | (7) | 45 000,00 | [1]  |
+|  Furniture and Household effects at valuation | (8) | 241 000,00 | [1]  |
+|  Absa Bank Account No. 40923116 | (9) | 166 000,00 | [1]  |
 
-# --------------------------------------------
+# CLAIMS IN FAVOUR OF ESTATE:-
 
-to cash (Items 4, 6, 7, 9, 10 and 11 in the Liquidation Account) 2 585 000,00 [2] (1] Liabilities 2 410 600,00 Estate Duty NIL Surplus 174 400,00 [1] 
+|  Proceeds of Old Mutual Policy No. OM/326714 | (10) | 600 000,00 | [1]  |
+| --- | --- | --- | --- |
+|  Momentum Policy No. Z86714 | (11) | 250 000,00 | [1]  |
+|  TOTAL ASSETS |  | 8 500 000,00 |   |
 
-# ------------------
+# DIVESTMENT NOTE:-
 
-2 585 000,00 2 585 000,00 
+|  The above assets 1, 2, 3, 5 & 8 are awarded to the Intestate Heirs in terms of Act 81 of 1987 | [2]  |
+| --- | --- |
 
-# ------------------------------------------------------------------------------------
+# LIABILITIES:-
 
-LEGAL EDUCATION AND DEVELOPMENT /L.E.A.D/0 1 2DISTRIBUTION ACCOUNT:-
+|  Administration Expenses:  |   |   |
+| --- | --- | --- |
+|  Masters fees | 600,00 | [1]  |
+|  Executors fees (3.5% of R8 500 000,00) | 297 500,00 | [1]  |
+|  Best Brokers fees | 1 500,00 | [1]  |
+|  Other Administration expenses | 8 000,00 | [1]  |
+|  Honest valuers valuation costs | 3 000,00 | [1]  |
+|  Absa Bond over Farm Vula | 1 800 000,00 | [1]  |
+|  Old mutual loan on policy | 10 000,00 | [1]  |
+|  Angel Funerals: Funeral expenses | 36 000,00 | [1]  |
+|  SARS : Final assessment | 176 000,00 | [1]  |
+|  Absa: Bank Charges | 2 000,00 | [1]  |
+|  PSG Attorneys: Bond Cancellation and Transfer Costs | 76 000,00 | [1]  |
+|  Total Liabilities | 2 410 600,00 |   |
+|  Estate Duty | NIL |   |
+|  Balance Available for Distribution | 6 089 400,00 | [1]  |
+|   | 8 500 000,00 |   |
 
-Balance available for distribution Add Funeral Expenses Awarded to Bion Nel surviving spouse ½ share by virtue her marriage in Community of Property Less Funeral Expenses Balance for Distribution to Intestate Heirs Awarded to Bion Nel surviving spouse in terms of Section 1(1)(c)(i) of Act81 of 1987 Awarded to Cassie Nel minor , Identity No. 0202 1 4 5 135 08 7 ito Section 1(1)(c)(ii) of Act81 of 1987 Award to Carla Nel major ito Section 1(1)(c)(ii) of Act81 of 1987 1008 900,00 1008 900,00 1008 900,00 3 026 700,00 6 089 400,00 36 000,00 [1] 6 1 25 400,00 3 062 700,00 [2) 
+# RECAPITULATION STATEMENT:-
 
-3 062 700,00 36 000,00 [1] 
+|  Cash Assets and assets reduced to cash (Items 4, 6, 7, 9, 10 and 11 in the Liquidation Account) |   | 2 585 000,00 [2]  |
+| --- | --- | --- |
+|  Liabilities | 2 410 600,00 | [1]  |
+|  Estate Duty | NIL |   |
+|  Surplus | 174 400,00 | [1]  |
+|   | 2 585 000,00 | 2 585 000,00  |
 
-3 026 700,00 [1] 
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
-[1] [1] 
+2
 
-3 026 700,00 
+|  **DISTRIBUTION ACCOUNT:-**  |   |   |
+| --- | --- | --- |
+|  Balance available for distribution | 6 089 400,00 |   |
+|  Add Funeral Expenses | 36 000,00 | [1]  |
+|   | 6 125 400,00 |   |
+|  Awarded to Bion Nel surviving spouse ½ share by virtue her marriage in Community of Property | 3 062 700,00 | [2]  |
+|   | 3 062 700,00 |   |
+|  Less Funeral Expenses | 36 000,00 | [1]  |
+|  Balance for Distribution to Intestate Heirs | 3 026 700,00 |   |
+|  Awarded to Bion Nel surviving spouse in terms of Section 1(1)(c)(i) of Act 81 of 1987 | 1 008 900,00 | [1]  |
+|  Awarded to Cassie Nel minor, Identity No. 020214 5135 08 7 ito Section 1(1)(c)(ii) of Act 81 of 1987 | 1 008 900,00 | [1]  |
+|  Award to Carla Nel major ito Section 1(1)(c)(ii) of Act 81 of 1987 | 1 008 900,00 | [1]  |
+|   | 3 026 700,00 | 3 026 700,00  |
+|  **FIDUCIARY ASSET ACCOUNT:-**  |   |   |
+|  Nil |  | [1]  |
+|  **ESTATE DUTY:-**  |   |   |
+|  Assets as per Liquidation Account | 8 500 000,00 | [1]  |
+|  LESS 30% Adjustment for Farm Vula | 1 200 000,00 | [1]  |
+|   | 7 300 000,00 |   |
+|  LESS Adjustment valuation of Shares in Agriblock (Pty) Ltd | 8 000,00 | [1]  |
+|   | 7 292 000,00 |   |
+|  LESS Old Mutual Policy | 600 000,00 | [1]  |
+|   | 6 692 000,00 |   |
+|  LESS ½ share of surviving spouse | 3 346 000,00 | [2]  |
+|   | 3 346 000,00 |   |
+|  ADD : Deemed property |  |   |
+|  Sanlam Policy | 1 000 000,00 | [1]  |
+|  Old Mutual Policy | 600 000,00 | [1]  |
+|   | 1 600 000,00 |   |
+|  Gross Value | 4 946 000,00 |   |
+|  LESS Allowable deductions |  |   |
+|  Funeral expenses | 36 000,00 | [1]  |
 
-# ========-=========================== 
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
-FIDUCIARY ASSET ACCOUNT: Nil ESTATE DUTY:-
+3
 
-Assets as per Liquidation Account LESS 30% Adjustment for Farm Vula LESS Adjustment valuation of Shares in Agriblock (Pty) Ltd LESS Old Mutual Policy LESS ½ share of surviving spouse ADD: Deemed property Sanlam Policy Old Mutual Policy Gross Value LESS Allowable deductions Funeral expenses 1000 000,00 600 000,00 8 500 000,00 1200 000,00 7 300 000,00 8 000,00 7 2 92 000,00 600 000,00 6 6 92 000,00 3 346 000,00 3 346 000,00 1600 000.00 4 946 000,00 36 000,00 
+|  Liabilities and administration expenses | 2 374 600,00 |  | [1]  |
+| --- | --- | --- | --- |
+|  LESS ½ liabilities and administration expenses | 1 187 300,00 | 1 187 300,00 | [1]  |
+|  LESS deduction i.t.o sec4(q) |  | 1 008 900,00 | 2 232 200,00 [1]  |
+|  Net Value |  |  | 2 713 800,00 [1]  |
+|  LESS Section 4A Rebate |  |  | 3 500 000,00 [1]  |
+|  Dutiable Amount |  |  | NIL [1]  |
 
-LEGAL EDUCATION AND DEVELOPMENT {L.E.A.DJT'tt 1
+# **NOTE TO MARKERS:**
 
-[1) [1] [1] [1] 
+If another method of estate duty calculation is used and the result is the same, the candidate must be given full credit.
 
-[1] [2] [1] [1] 
+# **CERTIFICATE**
 
-(1) 
+I declare that this account is to the best of my knowledge and belief a true and proper account of the liquidation and distribution of this estate [1] and that all assets and income collected subsequent to the death of the deceased to the date of this account [1] have been disclosed herein. [1]
 
-3Liabilities and administration expenses 2 374 600,00 LESS½ liabilities and administration expenses 1 187 300,00 LESS deduction i.t.o sec4(q) Net Value LESS Section 4A Rebate Dutiable Amount 1 187 300,00 
+DATED AT
 
-[1] [1] 
+ON THIS
 
-1 008 900,00 2 232 200,00 [1] 2 713 800,00 [1] 3 500 000,00 [1] NIL [1] 
+DAY OF
 
-# ------------------------------
+2017
 
-NOTE TO MARKERS: 
+EXECUTOR
 
-If another method of estate duty calculation is used and the result is the same, the candidate must be given full credit. 
+QUESTION 2
 
-CERTIFICATE I declare that this account is to the best of my knowledge and belief a true and proper account of the liquidation and distribution of this estate [1] and that all assets and income collected subsequent to the death of the deceased to the date of this account [1] have been disclosed herein. [1] DATED AT ON THIS DAY OF 2017 EXECUTOR QUESTION 2 [71 
+[7]
 
-2.1 
+# **2.1**
 
-Any beneficiary who is insolvent at the time of my death[1] or becomes insolvent by the time he/she is entitled to receive his/her inheritance [1] shall forfeit all rights of inheritance in terms of my Will[1], and such beneficiary's inheritance shall devolve upon such beneficiary's intestate heirs[1]. The Commissioner of Oaths must certify that he is satisfied as to the identity of the testator [1] and the Will so signed is the Will of the testator[1]. Each page of the Will excluding the page on which his certificate appears is also signed anywhere on the page by the Commissioner of Oaths. Section 2(1)(v) of the Wills Act 7 of 1953(11 
+Any beneficiary who is insolvent at the time of my death[1] or becomes insolvent by the time he/she is entitled to receive his/her inheritance [1] shall forfeit all rights of inheritance in terms of my Will[1], and such beneficiary's inheritance shall devolve upon such beneficiary's intestate heirs[1].
 
-LEGAL EDUCATION AND DEVELOPMENT /L.E.A.DJTM 4QUESTION 3 [101 Each spouse, Grace and Precious, are entitled to a child's share or R250 000,00 whichever is the greater. [2] Section 1(1)(c)(i) of Act 81 of 1987 A child's share is R900 000,00 (R4 500 000,00 divided by 5). Therefore Grace and Precious each inherit R900 000,00.(21 Lawrence's descendants inherit the balance of R2 700 000,00, equally [11: Section 1(1)(c)(ii) of Act 81 of 1987. Therefore David [1], Linda (1] and Simon [1] (who represents his father) each inherit R900 000,00. Max, Ernest, Lennox and Pilani inherit nothing.[2] QUESTION 4 (12) 
+# **2.2**
 
-REDISTRIBUTION AGREEMENT WHEREAS:-MADE AND ENTERED INTO BY AND BETWEEN: XOLO CELE (surviving spouse of Deceased) [ ½] And BONGANI CELE (major heir of deceased) [ ½] 
+The Commissioner of Oaths must certify that he is satisfied as to the identity of the testator [1] and the Will so signed is the Will of the testator[1].
 
-NOBILE CELE (major heir of deceased) "the parties" [½] 
+Each page of the Will excluding the page on which his certificate appears is also signed anywhere on the page by the Commissioner of Oaths.
 
-1. The late Dunstan Cele died on 13 October 2016. [11 2. The parties being the intestate beneficiaries are equal heirs to the whole of the deceased's assets. [1] The parties agree as follows:-1. Xolo Cele shall be awarded the movable assets to the value of R1 500 000,00. [1] 
+Section 2(1)(v) of the Wills Act 7 of 1953[1]
 
-2. 
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
-Bongani Cele and Nombile Cele shall inherit the immovable property to the value of R3 000 000,00 in equal shares. [21 
+4
 
-3. 
+QUESTION 3
 
-The cash of R1 000 000,00 shall be used to pay the estate liabilities. [21 4. 
+[10]
 
-The parties acknowledge that this agreement is subject to confirmation by the Master of the High Court. [2]   
+Each spouse, Grace and Precious, are entitled to a child's share or R250 000,00 whichever is the greater. [2] Section 1(1)(c)(i) of Act 81 of 1987 A child's share is R900 000,00 (R4 500 000,00 divided by 5). Therefore Grace and Precious each inherit R900 000,00.[2]
 
-> LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D/n.t 5
+Lawrence's descendants inherit the balance of R2 700 000,00, equally [1]: Section 1(1)(c)(ii) of Act 81 of 1987.
 
-DATED AT 2017 
+Therefore David [1], Linda [1] and Simon [1] (who represents his father) each inherit R900 000,00.
 
-AS WITNESSES:-
+Max, Ernest, Lennox and Pilani inherit nothing.[2]
 
-1. ----------- XOLO CELE [½] 
+QUESTION 4
 
-2.___________ BONGANI CELE [½] 
+[12]
 
-NOBILE CELE [½] 
+# REDISTRIBUTION AGREEMENT
 
-QUESTION 5 [11] 
+MADE AND ENTERED INTO BY AND BETWEEN:-
+XOLO CELE
 
-1. False: In terms of Section 1 of the Wills Act a competent witness means a person of 14 years or over. (2) 2. True: The period in the notice shall be not less than 30 days or not more than 3 
+(surviving spouse of Deceased) [ ½ ]
 
-3. 
+And
 
-Months (Section 29). (2) True. (2) 4. False: An illegitimate child is capable of inheriting intestate from its biological 5. father as well as the father's blood relations. (2) False: The surviving testator(s) must adiate. (3) TOTAL: [100] 
+BONGANI CELE
 
-LEGAL EDUCATION AND DEVELOPMENT /L.E.A.Df"' 1 6
+(major heir of deceased) [ ½ ]
+
+NOBILE CELE
+
+(major heir of deceased)
+
+"the parties" [ ½ ]
+
+# WHEREAS:-
+
+1. The late Dunstan Cele died on 13 October 2016. [1]
+2. The parties being the intestate beneficiaries are equal heirs to the whole of the deceased's assets. [1]
+
+The parties agree as follows:-
+
+1.
+
+Xolo Cele shall be awarded the movable assets to the value of R1 500 000,00. [1]
+
+2.
+
+Bongani Cele and Nombile Cele shall inherit the immovable property to the value of R3 000 000,00 in equal shares. [2]
+
+3.
+
+The cash of R1 000 000,00 shall be used to pay the estate liabilities. [2]
+
+4.
+
+The parties acknowledge that this agreement is subject to confirmation by the Master of the High Court. [2]
+
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
+
+5
+
+DATED AT
+
+2017
+
+# AS WITNESSES:-
+
+1.
+2.
+
+XOLO CELE [½]
+
+BONGANI CELE [½]
+
+NOBILE CELE [½]
+
+# QUESTION 5 [11]
+
+1. False: In terms of Section 1 of the Wills Act a competent witness means a person of 14 years or over. (2)
+2. True: The period in the notice shall be not less than 30 days or not more than 3 Months (Section 29). (2)
+3. True. (2)
+4. False: An illegitimate child is capable of inheriting intestate from its biological father as well as the father's blood relations. (2)
+5. False: The surviving testator(s) must adiate. (3)
+
+TOTAL: [100]
+
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
+
+6

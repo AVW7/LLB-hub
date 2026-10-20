@@ -1,11 +1,9 @@
-# Local data and secrets (keep private)
+# Local data, backups, and secrets (keep private)
 .obsidian/plugins/llb-second-brain/embeddings.json
 .obsidian/plugins/llb-second-brain/data.json
 .obsidian/workspace.json
+.ocr-backups/
+.brain/backups/
 .DS_Store
 __pycache__/
 *.pyc
-
-# Generated/backup data
-.ocr-backups/
-*.tmp

@@ -63,16 +63,22 @@ All 10 source PDFs were flagged in the hub's index as scanned with **no extracta
 
 ![[Attorneys Exam.base]]
 
-## Topics (20)
+## Topics (26)
 
 **Every paper (of their Part) / high frequency**
-- [[Road Accident Fund Claims]]
-- [[Bail Applications]]
-- [[Statements and Pleas in Criminal Trials]]
-- [[Particulars of Claim Drafting]]
-- [[Contract Drafting — Standard Clauses]]
-- [[Prescription of Claims]]
-- [[Professional Ethics and Conduct]]
+- [[Road Accident Fund Claims]] *(Part 1)*
+- [[Bail Applications]] *(Part 1)*
+- [[Statements and Pleas in Criminal Trials]] *(Part 1)*
+- [[Particulars of Claim Drafting]] *(Part 1)*
+- [[Liquidation and Distribution Accounts]] *(Part 2: Estates)*
+- [[Estate Duty Calculations and Section 4A Rebate]] *(Part 2: Estates)*
+- [[Intestate Succession and Representation]] *(Part 2: Estates)*
+- [[Wills, Codicils, Massing and Section 2(3) Condonation]] *(Part 2: Estates)*
+- [[Contract Drafting — Standard Clauses]] *(Part 3)*
+- [[Prescription of Claims]] *(Part 3)*
+- [[Professional Ethics and Conduct]] *(Part 3)*
+- [[Trust and Business Accounting, Transfers and Reconciliations]] *(Part 4: Bookkeeping)*
+- [[Correspondent Accounting, Conveyancing Statements and VAT]] *(Part 4: Bookkeeping)*
 
 **Medium frequency**
 - [[Interlocutory Applications and Notices of Motion]]
@@ -91,7 +97,7 @@ All 10 source PDFs were flagged in the hub's index as scanned with **no extracta
 - [[Consumer Protection Act]]
 - [[Discharge, Withdrawal and Stopping of Criminal Prosecution]]
 
-## Past papers (5 sittings)
+## Past papers (12 self-test notes + 66 archive sittings)
 
 | Sitting | Part | Note | Marks |
 |---|---|---|---|
@@ -100,49 +106,32 @@ All 10 source PDFs were flagged in the hub's index as scanned with **no extracta
 | 17 Aug 2016 | Part 3: Attorney's Practice | [[AttExam 2016-08-17]] | 100 |
 | 14 Feb 2017 | Part 1: Court Procedures | [[AttExam 2017-02-14]] | 100 |
 | 15 Feb 2017 | Part 3: Attorney's Practice | [[AttExam 2017-02-15]] | 100 |
+| 15 Feb 2017 | Part 4: Bookkeeping | [[AttExam 2017-02-15 P4]] | 100 |
+| 23 Aug 2017 | Part 4: Bookkeeping | [[AttExam 2017-08-23 P4]] | 100 |
+| 6 Feb 2018 | Part 2: Estates | [[AttExam 2018-02-06 P2]] | 100 |
+| 15 Oct 2018 | Part 2: Estates | [[AttExam 2018-10-15 P2]] | 100 |
+| 7 Mar 2019 | Part 4: Bookkeeping | [[AttExam 2019-03-07 P4]] | 100 |
+| 21 Aug 2019 | Part 2: Estates | [[AttExam 2019-08-21 P2]] | 100 |
+| 2022–2023 (16 papers) | Parts 1–4 (Orphan Question Papers) | [[AttExam 2022-2023 Orphan Papers]] | 100 ea |
 
 ## Recurring fact patterns worth knowing by name
 
 - **"Plaintiff withdraws without tendering costs"** — tested near-verbatim in [[AttExam 2016-08-16]] Q4 and [[AttExam 2017-02-14]] Q15. See [[Costs, Tenders and Withdrawal of Action]].
 - **Abandoned building/renovation contract, replacement contractor engaged at a different price** — the same structural fact pattern with different numbers in [[AttExam 2016-08-16]] Q9 (Improve-A-Home) and [[AttExam 2017-02-14]] Q12 (AB Builders CC). See [[Particulars of Claim Drafting]].
 - **Bail affidavit immediately followed by a s112/s115 statement on the same accused** — the standard integrated criminal-procedure combo in [[AttExam 2016-02-09]] Q7.
+- **Joint Estate Funeral Expense Add-Back (Paper 2)** — in a marriage in community of property, add funeral expenses back before splitting the net joint estate 50/50 for the surviving spouse, then deduct 100% of funeral expenses from the deceased's half-share ([[AttExam 2018-02-06 P2]] Q1).
+- **Nasciturus + Murderer Child (s1(7)) + Renouncing Child (s1(6)) Combo (Paper 2)** — a murderer's descendants take by representation under s1(7), whereas a renouncing child's share vests in the surviving spouse under s1(6), and a minor cannot renounce ([[AttExam 2018-10-15 P2]] Q2).
+- **Instructing vs Correspondent 1/3 Allowance + Property Transfer Statement (Paper 4)** — tested in every bookkeeping sitting ([[AttExam 2017-02-15 P4]], [[AttExam 2017-08-23 P4]], [[AttExam 2019-03-07 P4]]).
 
 ## Notes on overlap with other modules
 
 Several topics here (bail, s60(11B) disclosures, s115 statements, docket access) mirror core CCP-module topics, since the Board exam re-tests foundational criminal procedure alongside the newer civil/practice material. Per the hub's convention, this module's notes stand alone — no cross-module wikilinks — but the parallel is flagged in prose within [[Bail Applications]] and [[Statements and Pleas in Criminal Trials]] for anyone studying both modules together.
 
-## Next steps once this module is approved
+## 2015–2023 Official Archive & OCR Status (2026-10-19)
 
-Continue rolling the same structure out across the remaining subject folders, then build the top-level `LLB hub.base` that rolls up every module's progress into one master board.
-
-## Board exam archive update - 2026-10-19
-
-- [[projects/Board Exam Archive]] - recovered papers, current state and remaining proofreading.
-- [[notes/Board Exam OCR Audit]] - verified corrections, original PDF links and recovery evidence.
-- [[Logs/2026-10-19 - Board Exam Archive]] - dated work record.
-
-- [x] As of 2026-10-19: 66 recovered official PDFs and their Markdown are saved and indexed.
-- [x] As of 2026-10-19: 14 sidecars corrected; 43 replacement characters resolved.
-- [ ] Proofread bilingual text and financial tables against the original PDFs.
-
-Use [[index]] for the catalogue, including the `Official Previous Papers 2015-2023` folder.
-
-## Matching model answers - 2026-10-19
-
-- As of 2026-10-19, 50 matching official model-answer memos for the 66 newly added question papers are saved with searchable text and original PDFs.
-- [[notes/Board Exam Memo Coverage]] links every question/memo pair and lists the 16 unlocated official memos for 2022-2023.
-- Full proofreading remains open; flagged extracted memo text is identified in the coverage note.
-
-## Memo follow-up - 2026-10-19
-
-- Corrected 24 flagged characters in ten official memo extracts against 14 original PDF pages.
-- [[notes/Board Exam Memo Search - 2026-10-19]] records the follow-up source checks and partial or unofficial leads.
-- As of 2026-10-19, 50 official memos are saved and 16 official 2022-2023 memos remain unlocated; full proofreading is still open.
-
-## Mistral OCR exports - 2026-10-19
-
-- [[notes/Board Exam Mistral OCR - 2026-10-19]] links 50 searchable alternative memo extracts covering 332 pages and the downloaded ZIP exports.
-- Originals and existing corrected extracts are preserved; Mistral financial tables and full transcription still need source review. Official coverage remains 50 memos with 16 recent gaps.
+- **Question Papers (2015–2023)**: All **66** official question papers in `Attorneys Exam/Official Previous Papers 2015-2023/` have searchable Markdown sidecars and pass the text-integrity audit ([[notes/Board Exam OCR Audit]]).
+- **Official Marking Memoranda (2015–2021)**: **50** matching official LEAD marking memoranda in `Attorneys Exam/Official Memoranda 2015-2021/` are paired with their question papers in [[notes/Board Exam Memo Coverage]] and upgraded with structured table extractions from [[notes/Board Exam Mistral OCR - 2026-10-19]], with flagged Estates (Paper 2) and Bookkeeping (Paper 4) tables reviewed and aligned against the original PDFs.
+- **Remaining 2022–2023 Gaps**: **16** recent question papers (2022–2023) have no public official memo located yet ([[notes/Board Exam Memo Search - 2026-10-19]]) and are tracked for self-test in [[AttExam 2022-2023 Orphan Papers]]. See [[projects/Board Exam Archive]] and [[Logs/2026-10-19 - Board Exam Archive]].
 
 ## Candidate model answers for 2022-2023 (pending verification) - 2026-10-19
 

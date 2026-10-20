@@ -9,7 +9,10 @@ tags:
 
 # VAT on Fees and Disbursements
 
-**The rule that recurs in every calculation question**: VAT is levied at **14%** (the rate used throughout this archive — note the current statutory rate is higher, but reproduce whatever rate the question specifies) on **fees**, but **not** on **disbursements**.
+> [!important] Statutory Update (Current Law vs Historical Memos)
+> - **Standard VAT Rate**: Increased from **14% to 15%** effective **1 April 2018**. All 2010–2012 COS archive papers and memos calculate VAT at **14%**; for current practice and post-2018 exams, apply **15%** on fees (unless a historical question explicitly instructs 14%).
+
+**The rule that recurs in every calculation question**: VAT is levied at **14%** (the rate used throughout this archive — note the current statutory rate is **15%**, so reproduce whatever rate the question specifies) on **fees**, but **not** on **disbursements**.
 
 ## Where VAT is added in an allocatur
 

@@ -30,167 +30,249 @@ Official guideline model answers for Paper 4, 2016-08-17, recovered on 2026-10-1
 - Pairing and remaining gaps: [[notes/Board Exam Memo Coverage]].
 - Project: [[projects/Board Exam Archive]].
 - Text review: basic extraction checks passed; not fully proofread.
+- Alternate extraction: [[Attorneys Exam/Mistral OCR 2026-10-19/AttExam17Aug2016P4A]].
 
 ## Extracted guideline answers
 
-ADMISSION EXAMINATION I TOELATINGSEKSAMEN BOOKKEEPING I BOEKHOU PART4/DEEL4 17 AUGUST I 17 AUGUSTUS 2016 ANSWERS I ANTWOORDE 
+# ADMISSION EXAMINATION / TOELATINGSEKSAMEN
+BOOKKEEPING / BOEKHOU
+PART 4 / DEEL 4
 
-PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS AMY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: This guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When tJ,is happens the examiner should apply his discretion in marking the answer. 
+17 AUGUST / 17 AUGUSTUS 2016
 
-QUESTION 1 [151 SUPPLEMENTARY TRUST CASH BOOK - SEPTEMBER 2014 
+ANSWERS / ANTWOORDE
 
-Balance 1,643,298 Interest 6,881 Unpaid cheque 52,841 Cheque written back 2,488 Cheque adjustment 45,000 EFT Transfer 125,000 Deposit adjustment 7,380 Cheque reissued 2,488 Balance 1,669,958 
+PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE
+A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF
+READING.
 
-1.777,667 1,777,667 
+NOTE TO EXAMINER:
 
-LEGAL EDUCATION AND DEVELOPMENT /L.E.A.DJ TM BANK RECONCILIATION STATEMENT AT 30 SEPTEMBER 2014 Balance as per bank statement Outstanding cheques Outstanding deposit Bank Error Balance as per cash book 
+This guideline records the views of the drafters. There may be
+justifiable variations in practice which are brought out in the answers.
+When this happens the examiner should apply his discretion in
+marking the answer.
 
-1 Mark for each entry 1 Mark for each heading 
+QUESTION 1
 
-QUESTION 2 Correspondent Clients - collections Transfer to business Correspondent fees and disbursement Bank self TRUST CASH BOOK 17,520 Jan 
+[15]
 
-## 17,520 
+# SUPPLEMENTARY TRUST CASH BOOK – SEPTEMBER 2014
 
-Lucas Business CORRESPONDENT {T} 23,000 Bank 182 \ Clients - fees and disbursements 
+| Receipts (Dr) | Amount (R) | Payments (Cr) | Amount (R) |
+| --- | --- | --- | --- |
+| Balance | 1,643,298 | Unpaid cheque | 52,841 |
+| Interest | 6,881 | Cheque adjustment | 45,000 |
+| Cheque written back | 2,488 | Deposit adjustment | 7,380 |
+| EFT Transfer | 125,000 | Cheque reissued | 2,488 |
+| | | Balance | 1,669,958 |
+| **Total** | **1,777,667** | **Total** | **1,777,667** |
 
-## 23,182 
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
-JAN (T} 5,070 Correspondent -BEN 14,930 20.000 
+1
 
-LEGAL EDUCATION AND DEVELOPMENT [LE.A.DJ TM 
+# BANK RECONCILIATION STATEMENT AT 30 SEPTEMBER 2014
 
-1,668,946 49,227 1,619,719 34,128 1,653,847 16,111 1,669.958 [30) 14,930 2,408 182 17,520 17,520 5,662 
+|  Balance as per bank statement | 1,668,946  |
+| --- | --- |
+|  Outstanding cheques | 49,227  |
+|   | 1,619,719  |
+|  Outstanding deposit | 34,128  |
+|   | 1,653,847  |
+|  Bank Error | 16,111  |
+|  Balance as per cash book | 1,669,958  |
 
-## 23,182 
+1 Mark for each entry
 
-20,000 
+1 Mark for each heading
 
-20.QQO 
+QUESTION 2 [30]
 
-2Correspondent fees and disbursement Bank self Allowances Correspondent (T) Jan (T) Lucas Transfer cash collected from debtors Jan (T) Lucas (T) Transfer correspondents gross fees and disbursements Correspondent (B) 
+|  TRUST CASH BOOK  |   |   |   |
+| --- | --- | --- | --- |
+|  Correspondent | 17,520 | Jan | 14,930  |
+|   |  | Lucas | 2,408  |
+|   |  | Business | 182  |
+|   | 17,520 |  | 17,520  |
 
-Fees Output VAT Correspondent allowances 
+CORRESPONDENT (T)
 
-LUCAS (T) 
+|  Clients – collections | 23,000 | Bank | 17,520  |
+| --- | --- | --- | --- |
+|  Transfer to business | 182 | Clients – fees and disbursements | 5,662  |
+|   | 23,182 |  | 23,182  |
 
-592 Corrrespondent 
+JAN (T)
 
-SAM 
+|  Correspondent fees and disbursement | 5,070 | Correspondent -BEN | 20,000  |
+| --- | --- | --- | --- |
+|  Bank self | 14,930 |  |   |
+|   | 20,000 |  | 20,000  |
 
-CORRESPONDENT (B)  
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
-> 182 182
+2
 
-Transfer ex Trust 23,182 
+# LUCAS (T)
 
-TRUST JOURNAL 
+|  Correspondent fees and disbursement | 592 | Correspondent SAM | 3,000  |
+| --- | --- | --- | --- |
+|  Bank self | 2,408 |  |   |
+|   | 3,000 |  | 3,000  |
 
-23,000 5070 592 
+# CORRESPONDENT (B)
 
-FEES JOURNAL 
+|  Allowances | 182 | Transfer ex Trust | 182  |
+| --- | --- | --- | --- |
+|   | 23,182 |  | 23,182  |
 
-LEGAL EDUCATION AND DEVELOPMENT {L.E.A.DJ TM 
+# TRUST JOURNAL
 
-3,000 
+|  Correspondent (T) | 23,000 |   |
+| --- | --- | --- |
+|  Jan (T) |  | 20,000  |
+|  Lucas |  | 3,000  |
+|  Transfer cash collected from debtors |  |   |
+|  Jan (T) | 5070 |   |
+|  Lucas (T) | 592 | 5,662  |
+|  Transfer correspondents gross fees and disbursements |  |   |
 
-> 182
+# FEES JOURNAL
 
-23,182 20,000 3,000 5,662 160 
+|  Correspondent (B) | 182 |   |
+| --- | --- | --- |
+|  Fees |  | 160  |
+|  Output VAT |  | 22  |
+|  Correspondent allowances |  |   |
 
-> 22
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
-3Correspondent (T) Correspondent (B) Transfer allowances Transfer ex Trust 
+3
 
-1 Mark for each entry 
+# TRANSFER JOURNAL
 
-QUESTION 3 
+|  Correspondent (T) | 182 |   |
+| --- | --- | --- |
+|  Correspondent (B) |  | 182  |
+|  Transfer allowances |  |   |
 
-2015 1 March Balance 31 ABC Bank 31 XYZ Bank 
+# FEES
 
-TRANSFER JOURNAL 
+|   | Correspondent allowances | 160  |
+| --- | --- | --- |
+|  OUTPUT VAT  |   |   |
+|   | Correspondent | 22  |
 
-FEES Corrrespondent allowances OUTPUT VAT I Correspondent 
+# BUSINESS CASH BOOK
 
-BUSINESS CASH BOOK 
+Transfer ex Trust
+
+182
 
-182 
+1 Mark for each entry
 
-TRUST CASH BOOK 
+# QUESTION 3
 
-1,272,308 854,000 201,000 2015 1/3 Balance XYZ Bank 31/3 Maria Law Society 
+[20]
 
-LEGAL EDUCATION AND DEVELOPMENT [L.E.A.DJ TM 
+# TRUST CASH BOOK
 
-182 160 22 
+|  2015 1 March Balance | 1,272,308 | 2015 |   |
+| --- | --- | --- | --- |
+|  31 ABC Bank | 854,000 | 1/3 Balance | 850,000  |
+|  31 XYZ Bank | 201,000 | XYZ Bank | 200,000  |
+|   |  | 31/3 Maria | 4,000  |
+|   |  | Law Society | 1,000  |
 
-[20] 
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
-850,000 200,000 4,000 1,000 
+4
 
-> 4
+MARIA (T)
 
-# I
+|  2015 31/3 Self – Interest | 4,000 | 2015 1/3 balance 31/3 Interest | 850,000 4,000  |
+| --- | --- | --- | --- |
+|  MARIA TRUST INVESTMENT – SEC 78 (2A)  |   |   |   |
+|  2015 1/3 ABC Bank | 850,000 | 2015 31/3 ABC Bank | 850,000  |
+|  TRUST INVESTMENT – SEC 78 (2)(a)  |   |   |   |
+|  2015 1/3 XYZ Bank | 200,000 | 2015 31/3 XYZ Bank | 200,000  |
+|  FIDELITY FUND (T)  |   |   |   |
+|  2015 31/3 Bank – Law Society | 1,000 | 2015 31/3 XYZ Bank | 1,000  |
 
-2015 31/3 Self- Interest 2015 1/3 ABC Bank 2015 1/3 XYZ Bank 2015 31/3 Bank- Law Society 
+1 Mark for each entry
+2 Marks for each of investment headings.
 
-1 Mark for each entry 
+QUESTION 4
 
-MARIA {T} 2015 4,000 1/3 balance 31/3 Interest MARIA TRUST INVESTMENT - SEC 78 (2A) 2015 850.000 31/3 ABC Bank TRUST INVESTMENT - SEC 78 (2}(a) 2015 200,000 31/3 XYZ Bank FIDELITY FUND 2015 1,000 31/3 XYZ Bank 
+[35]
 
-2 Marks for each of investment headings. 
+BUSINESS CASH BOOK
 
-QUESTION 4 
+|  Capital Deposit | 200,000 | Rent | 11,400  |
+| --- | --- | --- | --- |
+|  Transfer ex Trust | 5,700 | Leaseco | 5,999  |
+|   |  | Staff Salaries | 28,500  |
 
-Capital Deposit Transfer ex Trust BUSINESS CASH BOOK 200,000 Rent 5,700 Leaseco Staff Salaries CAPITAL I Bank 
+CAPITAL
 
-LEGAL EDUCATION AND DEVELOPMENT {L.E.A.DJ TM 
+|   | Bank | 200,000  |
+| --- | --- | --- |
 
-850,000 4,000 
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
-850,000 200.000 
+5
 
-1,000 
+|  RENT  |   |   |   |
+| --- | --- | --- | --- |
+|  Landlord | 10,000 |  |   |
+|  INPUT VAT  |   |   |   |
+|  Landlord | 1,400 |  | 2,000  |
+|  LEASECO  |   |   |   |
+|  Bank | 5,999 | Motor vehicle | 342,000  |
+|  MOTOR VEHICLE  |   |   |   |
+|  Laeseco | 342,000 |  |   |
+|  FEES  |   |   |   |
+|   |  | Thabio | 5,000  |
+|  TRUST CASH BOOK  |   |   |   |
+|  Thabiso | 25,000 | Thabiso | 19,300  |
+|   |  | Transfer to business | 5,700  |
+|   | 25,000 |  | 25,000  |
+|  THABISO (T)  |   |   |   |
+|  Bank – self | 19,300 | Bank deposit | 25,000  |
+|  Transfer to Business | 5,700 |  | 25,000  |
+|   | 25,000 |  |   |
+|  THABISO (B)  |   |   |   |
+|  Registration fees and VAT | 5,700 | Transfer ex Trust | 5,700  |
+|  OUTPUT VAT  |   |   |   |
+|   |  | Thabiso | 700  |
 
-(35] 
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
-11,400 5,999 28,500 200,000 
+6
 
-# sLandlord Landlord Bank Laeseco Thabiso Bank-self Transfer to Business Registration fees and VAT RENT 10,000 IINPUT VAT 1,400 
+|  STAFF SALARIES  |   |   |   |
+| --- | --- | --- | --- |
+|  Bank | 28,500 |  |   |
+|  FEES JOURNAL  |   |   |   |
+|  Thabiso (B) fees | 5,700 | Fees | 5,000  |
+|   |  | VAT | 700  |
+|  Fees re registration of Company |  |  |   |
+|  TRANSFER JOURNAL  |   |   |   |
+|  Thabiso (T) | 5,700 | Thabiso (B) | 5,700  |
+|  Transfer fees |  |  |   |
+|  ACCOUNTING STATEMENT  |   |   |   |
+|  THABISO REGISTRATION OF COMPANY  |   |   |   |
+|  Deposit received |  |  | 25,000  |
+|  Our fees |  | 5,000 |   |
+|  Vat @ 14% |  | 700 |   |
+|  Cheque Herewith |  | 19,300 |   |
+|   |  | 25,000 | 25,000  |
 
-# 1
+1 mark for each entry
 
-LEASECO 5,999 [ Motor vehicle MOTOR VEHICLE 342.000 
+TOTAL: [100]
 
-# 1
-
-FEES I Thabio TR ST CASH BOOK 25,000 Thabiso Transfer to business 25,000 THABJSO 19,300 Bank deposit 5,700 25.000 THABISO B Transfer ex Trust OUTPUT VAT I Thabiso 
-
-LEGAL EDUCATION AND DEVELOPMENT fl.E.A.DJ™ 
-
-2,000 342,000 5,000 19,300 5,700 25.000 25,000 25,000 700 
-
-6{
-
-Bank Thabiso (8) fees Fees re registration of Com an Thabiso (T) Transfer fees Deposit received Our fees Vat@14% Cheque Herewith 
-
-1 mark for each entry 
-
-STAFF SALARIES 
-
-# 28,500 
-
-FEES JOURNAL 5,700 Fees VAT TRANSFER JOURNAL 5,700 Thabiso (8) 
-
-ACCOUNTING STATEMENT THABISO REGISTRATION OF COMPANY 
-
-5,000 700 19,300 
-
-LEGAL EDUCATION AND DEVELOPMENT [L.E.A.DJTM 
-
-5,000 700 5,700 25,000 
-
-## 25.000 
-
-TOT AL: [100] 
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
 7

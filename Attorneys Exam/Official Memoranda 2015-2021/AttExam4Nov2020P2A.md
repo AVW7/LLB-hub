@@ -30,319 +30,325 @@ Official guideline model answers for Paper 2, 2020-11-04, recovered on 2026-10-1
 - Pairing and remaining gaps: [[notes/Board Exam Memo Coverage]].
 - Project: [[projects/Board Exam Archive]].
 - Text review: basic extraction checks passed; not fully proofread.
+- Alternate extraction: [[Attorneys Exam/Mistral OCR 2026-10-19/AttExam4Nov2020P2A]].
 
 ## Extracted guideline answers
 
-LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 1
+# **ADMISSION EXAMINATION  
+ESTATES  
+PART 2**
 
-# ADMISSION EXAMINATION 
+**4 NOVEMBER 2020**
 
-# ESTATES 
+**MEMORANDUM**
 
-# PART 2 
+**PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE  
+A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF  
+READING.**
 
-4 NOVEMBER 2020 
+**NOTE TO EXAMINER:** *THIS GUIDELINE RECORDS THE VIEWS OF THE DRAFTERS. THERE MAY BE JUSTIFIABLE VARIATIONS IN PRACTICE WHICH ARE BROUGHT OUT IN THE ANSWERS. WHEN THIS HAPPENS THE EXAMINER SHOULD APPLY HIS DISCRETION IN MARKING THE ANSWER.*
 
-# MEMORANDUM 
+# **QUESTION 1**
 
-# PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. 
+**[59]**
 
-# NOTE TO EXAMINER: THIS GUIDELINE RECORDS THE VIEWS OF THE DRAFTERS. THERE MAY BE JUSTIFIABLE VARIATIONS IN PRACTICE WHICH ARE BROUGHT OUT IN THE ANSWERS. WHEN THIS HAPPENS THE EXAMINER SHOULD APPLY HIS DISCRETION IN MARKING THE ANSWER. 
+First and Final Liquidation and Distribution Account in the Estate of the Late A (Identity No. 601214 5185 08 7) [1] married in Community of Property to B (Identity No. 650419 0123 08 5) [1] who died on 13 March 2019 [1].
 
-# QUESTION 1 [59] 
+Master's Reference No. 6714/2019 [1]
 
-First and Final Liquidation and Distribution Account in the Estate of the Late A (Identity No. 601214 5185 08 7) [1] married in Community of Property to B (Identity No. 650419 0123 08 5) [1] who died on 13 March 2019 [1]. 
+# **LIQUIDATION ACCOUNT**
 
-Master’s Reference No. 6714/2019 [1] 
+# **ASSETS**
 
-LIQUIDATION ACCOUNT 
+# **IMMOVABLE PROPERTY**
 
-ASSETS 
+Erf 2124 Ethekweni, Registration
 
-IMMOVABLE PROPERTY 
+Division ET Province of Kwazulu
 
-Erf 2124 Ethekweni, Registration 
+Natal in extent 1000 (One Thousand)
 
-Division ET Province of Kwazulu 
+Square metres
 
-Natal in extent 1000 (One Thousand) 
+Held under Deed of Transfer No. T 1217/84 [1]
 
-Square metres 
+At valuation (1) 1 700 000,00 [1]
 
-Held under Deed of Transfer No. T 1217/84 [1] 
+Awarded as per the Distribution Account [1]
 
-At valuation (1) 1 700 000,00 [1] 
+# **MOVABLE PROPERTY**
 
-Awarded as per the Distribution Account [1] 
+Honda Ballade – ND 662-144
 
-MOVABLE PROPERTY 
+At valuation (2) 260 000,00 [1]
 
-Honda Ballade – ND 662-144 
+House hold contents at valuation (3) 160 000,00 [1]
 
-At valuation (2) 260 000,00 [1] 
+Awarded as per the Distribution Account [1]
 
-House hold contents at valuation (3) 160 000,00 [1] 
+Capitec fixed deposit Account No.
 
-Awarded as per the Distribution Account [1] 
+0014217X (4) 500 000,00 [1]
 
-Capitec fixed deposit Account No. 
+**LAW SOCIETY OF SOUTH AFRICA  
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™**
 
-0014217X (4) 500 000,00 [1] LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 2
+1
 
-Interest accrued up to date of death 11 000,00 [1] 
+|  Interest accrued up to date of death |  | 11 000,00 [1]  |
+| --- | --- | --- |
+|  Style Bank : Account No. 334982/Y | (5) | 16 780,00 [1]  |
+|  Proceeds of Standard Bank Insurance |  |   |
+|  Policy No. 1146922 | (6) | 66 000,00 [1]  |
+|  Proceeds of Old Mutual Insurance |  |   |
+|  Policy No. OM62174 | (7) | 850 000,00 [1]  |
+|  Proceeds of Sale of shares in |  |   |
+|  XYZ (Pty) Ltd |  | 90 000,00 [1]  |
+|  Proceeds of sale of shares in PQR |  |   |
+|  Limited | (8) | 9 000,00 [1]  |
+|  Total Assets |  | 3 662 780,00  |
 
-Style Bank : Account No. 334982/Y (5) 16 780,00 [1] 
+### **LIABILITIES**
 
-Proceeds of Standard Bank Insurance 
+|  Administration Expenses | (9) | 30 000,00 [1]  |
+| --- | --- | --- |
+|  Master's fees (maximum) | (10) | 7 000,00 [1]  |
+|  Executor's fees (3.5% of 3 662 780,00) | (11) | 128 197,30 [1]  |
+|  Absa bond | (12) | 570 000,00 [1]  |
+|  Standard Bank Credit Card | (13) | 66 000,00 [1]  |
+|  SARS final assessment | (14) | 19 700,00 [1]  |
+|  Total liabilities |  | 820 897,30 [1]  |
+|  Balance available for distribution |  | 2 841 882,70  |
+|   |  | 3 662 780,00  |
 
-Policy No. 1146922 (6) 66 000,00 [1] 
+### **RECAPITULATION STATEMENT**
 
-Proceeds of Old Mutual Insurance 
+|  Cash and assets reduced to cash |  |   |
+| --- | --- | --- |
+|  (Items 4,5,6,7, 8 and 9) |  | 1 542 780,00[2]  |
+|  Liabilities | 820 897,30[1] |   |
+|  Surplus | 721 882,70[1] |   |
+|   | 1 542 780,00 | 1 542 780,00  |
 
-Policy No. OM62174 (7) 850 000,00 [1] 
+LAW SOCIETY OF SOUTH AFRICA
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
-Proceeds of Sale of shares in 
+2
 
-XYZ (Pty) Ltd 90 000,00 [1] 
+## DISTRIBUTION ACCOUNT
 
-Proceeds of sale of shares in PQR 
+Balance available for distribution
 
-Limited (8) 9 000,00 [1] 
+2 841 882,70[1]
 
----------------------
+Awarded to B Surviving spouse:
 
-Total Assets 3 662 780,00 
+one half by virtue of her marriage in
 
-LIABILITIES 
+community of property
 
-Administration Expenses (9) 30 000,00 [1] 
+1 420 941,35[1]
 
-Master’s fees (maximum) (10) 7 000,00 [1] 
+and the other half in terms of
 
-Executor’s fees (3.5% of 3 662 780,00) (11) 128 197,30 [1] 
+Clause 1.1 of the Will [1]
 
-Absa bond (12) 570 000,00 [1] 
+read together with section 2C(1) of
 
-Standard Bank Credit Card (13) 66 000,00 [1] 
+the Wills Act 7 of 1953, as amended [1]
 
-SARS final assessment (14) 19 700,00 [1] 
+1 420 941,35[1]
 
--------------------------
+The above award is made up of:
 
-Total liabilities 820 897,30 [1] 
+Immovable Property – 1 700 000,00 [1]
 
-Balance available for distribution 2 841 882,70 -------------------------3 662 780,00 
+Movable Property – 420 000,00 [1]
 
-============== 
+Cash surplus - 721 882,70[1]
 
-RECAPITULATION STATEMENT 
+2 841 882,70
 
-Cash and assets reduced to cash 
+2 841 882,70
 
-(Items 4,5,6,7, 8 and 9) 1 542 780,00 [2] 
+## INCOME AND EXPENDITURE ACCOUNT
 
-Liabilities 820 897,30 [1] 
+Interest on Fixed Deposit with Capitec Bank
 
-Surplus 721 882,70 [1] 
+6 000,00 [1]
 
--------------------------------------------------1 542 780,00 1 542 780,00 ============================ LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 3
+Interest on Bond in favour of Absa Bank
 
-DISTRIBUTION ACCOUNT 
+4 000,00 [1]
 
-Balance available for distribution 2 841 882,70 [1] 
+Executors fees 6%
 
-Awarded to B Surviving spouse: 
+360,00 [1]
 
-one half by virtue of her marriage in 
+Balance awarded to B as sole heir [1]
 
-community of property 1 420 941,35 [1] 
+1 640,00 [1]
 
-and the other half in terms of 
+6 000,00
 
-Clause 1.1 of  the Will  [1] 
+6 000,00
 
-read together with section 2C(1) of 
+## FIDUCIARY ASSETS ACCOUNT
 
-the Wills Act 7 of 1953, as amended  [1]  1 420 941,35 [1] 
+None
 
-The above award is made up of: 
+NIL [1]
 
-Immovable Property – 1 700 000,00  [1] 
+## ESTATE DUTY ADDENDUM
 
-Movable Property – 420 000,00  [1] 
+Assets of the deceased as per
 
-Cash surplus - 721 882,70 [1] 
+the Liquidation Account
 
-------------------------------------------------------2 841 882,70 2 841 882,70 ============================== 
+3 662 780,00 [1]
 
-INCOME AND EXPENDITURE ACCOUNT 
+LAW SOCIETY OF SOUTH AFRICA
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
-Interest on Fixed Deposit with Capitec Bank 6 000,00 [1] 
+3
 
-Interest on Bond in favour of Absa Bank 4 000,00 [1] 
+LESS Adjustment on valuation of shares
 
-Executors fees 6% 360,00 [1] 
+|  in XYZ | 4 000,00 [1] |   |
+| --- | --- | --- |
+|  Proceed of Standard Bank Policy | 66 000,00 [1] |   |
+|  Proceeds of Old Mutual Policy | 850 000,00 [1] | 920 000,00  |
+|   |  | 2 742 780,00  |
+|  LESS surviving spouses ½ share |  | 1 371 390,00 [1]  |
+|   |  | 1 371 390,00  |
+|  ADD deemed property  |   |   |
+|  Standard Bank Policy | 66 000,00 [1] |   |
+|  Old Mutual Policy | 850 000,00 [1] |   |
+|  Sanlam Policy | 2 000 000,00 [1] |   |
+|  Momentum Policy | 961 840,00 [2] | 3 877 840,00  |
+|  Gross value of Estate |  | 5 249 230,00  |
+|  LESS ½ liabilities | 820 897,30 | 410 448,65 [1]  |
+|  Section 4(q) : |  |   |
+|  Sanlam Policy | 2 000 000,00 [1] |   |
+|  Inheritance | 1 420 941,35 [1] | 3 831 390,00  |
+|  Net value of Estate |  | 1 417 840,00  |
+|  LESS rebate in terms of Section 4A |  | 3 500 000,00 [1]  |
+|  Dutiable Amount |  | NIL [1]  |
+|  Therefore no Estate Duty payable.  |   |   |
 
-Balance awarded to B as sole heir  [1]  1 640,00 [1] 
+### EXECUTOR'S CERTIFICATE
 
-----------------------------------------------------6 000,00 6 000,00 ============================= 
+I, the undersigned declare that this final account is to the best of my knowledge and belief a true and proper account of the liquidation and distribution of the estate[1] and all assets and income collected subsequent to the date of death to the date of this account have been disclosed thereon. [1]
 
-FIDUCIARY ASSETS ACCOUNT 
+EXECUTOR
 
-None NIL  [1] 
+LAW SOCIETY OF SOUTH AFRICA
 
-ESTATE DUTY ADDENDUM 
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
-Assets of the deceased as per 
+4
 
-the Liquidation Account 3 662 780,00 [1] LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 4
+QUESTION 2
 
-LESS Adjustment on valuation of shares 
+[20]
 
-in XYZ 4 000,00 [1] 
+Zanele, the wife is entitled to half share of the joint estate by virtue of the marriage in community of property in the amount of R1 488 000.00 [1]
 
-Proceed of Standard Bank Policy 66 000,00 [1] 
+The deceased's half share of R1 488 000.00 devolves as follows:
 
-Proceeds of Old Mutual Policy 850 000,00 [1] 920 000,00 ----------------------------------------------------------2 742 780,00 
+If the unborn child is born alive, Zanele, Andy, Daniel, Caroline, Rose and the unborn child (nasciturus rule) are the intestate heirs. [1]
 
-LESS surviving spouses ½ share 1 371 390,00 [1] 
+Zanele inherits a child's share or R250 000.00 whichever amount is the greater. [1]
 
--------------------------1 371 390,00 
+A child's share amounts to R1 488 000.00 ÷ 6 = R248 000.00 [1]
 
-ADD deemed property 
+Zanele will therefore inherit the greater amount of R250 000.00 [1]
 
-Standard Bank Policy 66 000,00 [1] 
+The descendants inherit the remainder thereof of R1 238 000.00 [1] in terms of Section 1(1)(c)(ii) of the Intestate Succession Act as follows:
 
-Old Mutual Policy 850 000,00 [1] 
+Since Andy murdered Paul, Andy does not inherit (die bloedige hand erf niet) [1]
 
-Sanlam Policy 2 000 000,00 [1] 
+In terms of section 1(7) of the Intestate Succession Act, Ben will inherit Andy's share in the amount of R247 600.00 [1]
 
-Momentum Policy 961 840,00 [2] 3 877 840,00 ----------------------------------------------------------------
+As Caroline has renounced her inheritance, the surviving spouse Zanele receives her (Caroline's) portion in terms of section 1(6) of the Intestate Succession Act in the amount of R247 600.00 [1] and will therefore inherit a total amount of R497 600.00 [1]
 
-Gross value of Estate 5 249 230,00 
+Rose will inherit the amount of R247 600.00 [1]
 
-LESS ½ liabilities 820 897,30 410 448,65 [1] 
+Daniel will inherit the amount of R247 600.00 [1]
 
-Section 4(q) : 
+The unborn child will also inherit the amount of R247 600.00 [1]
 
-Sanlam Policy 2 000 000,00 [1] 
+If the unborn child is not born alive, then
 
-Inheritance 1 420 941,35 [1] 3 831 390,00 ---------------------------------------------------------------------------------------
+A child's share will amount to R1 488 000.00 ÷ 5 = R297 600.00 [1]
 
-Net value of Estate 1 417 840,00 
+Zanele will therefore inherit the child's share in the amount of R297 600.00 [1]
 
-LESS rebate in terms of Section 4A 3 500 000,00 [1] 
+As Caroline has renounced her inheritance, the surviving spouse Zanele receives her (Caroline's) portion in terms of section 1(6) of the Intestate Succession Act in the amount of R297 600.00 and will therefore inherit a total amount of R595 200.00 [1]
 
-------------------------
+Ben, Daniel and Rose will each inherit R297 600.00 [1]
 
-Dutiable Amount NIL [1] 
+Eric and Judy will not inherit anything because descendants inherit before ascendants [1]
 
-=============== 
+Letta Ntuli will not inherit anything because she was not formally adopted by Paul [1]
 
-Therefore no Estate Duty payable. 
+Dennis and George will not inherit by way of representation as their parents are still alive [1]
 
----------------------------------------------------------------------------------------------------------------------------
+QUESTION 3
 
-EXECUTOR’S CERTIFICATE 
+[18]
 
-I, the undersigned declare that this final account is to the best of my knowledge and belief a true and proper account of the liquidation and distribution of the estate [1] 
+# LAST WILL AND TESTAMENT
 
-and all assets and income collected subsequent to the date of death to the date of this account have been disclosed thereon. [1] 
+I, PAMELA MALI (born SOSIBA) a divorcee, hereby revoke, cancel and annual all and any testamentary acts and / or disposition heretofore made by me, either jointly or singly and declare this to be my last will and Testament. [1]
 
-____________________ 
+LAW SOCIETY OF SOUTH AFRICA
 
-EXECUTOR LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 5
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
-# QUESTION 2 [20] 
+5
 
-Zanele, the wife is entitled to half share of the joint estate by virtue of the marriage in community of property in the amount of R1 488 000.00 [1] 
+1.
 
-The deceased’s half share of R1 488 000.00 devolves as follows: 
+I bequeath my entire estate to my 3 children per stipes [2].
 
-If the unborn child is born alive, Zanele, Andy, Daniel, Caroline, Rose and the unborn child (nasciturus rule) are the intestate heirs. [1] 
+2.
 
-Zanele inherits a child’s share or R250 000.00 whichever amount is the greater. [1] 
+I nominate and appoint JACK MABASO, a practising Attorney of the firm MABASO & ASSOCIATES to be the Executor of my estate [1], and if he does not survive me then I appoint any remaining partner of the firm MABASO & ASSOCIATES to be the Executor of the estate [1]. I grant my Executor the power of assumption [1]. I direct that my said Executor shall not be required to give security [1].
 
-A child’s share amounts to R1 488 000.00 ÷ 6 = R248 000.00 [1] 
+3.
 
-Zanele will therefore inherit the greater amount of R250 000.00 [1] 
+I direct that a receipt signed by the guardian in respect of any loose assets bequeathed to a minor beneficiary shall be sufficient to discharge my Executor and the Master of the High Court [1]. I direct that the guardian shall be exempted from the provision of security.
 
-The descendants inherit the remainder thereof of R1 238 000.00 [1] in terms of Section 1(1)(c)(ii) of the Intestate Succession Act as follows: 
+4.
 
-Since Andy murdered Paul, Andy does not inherit (die bloedige hand erf niet) [1] 
+I nominate and appoint STEWART and JULIA SOSIBA, presently of NO 28 FULLAM STREET, CONSTANTIA, PORT ELIZABETH, or the survivor of them to be the guardians on any of my minor children should they survive me [1]. If the said STEWART and JULIA SONJI do not survive me I hereby appoint BONGI SOSIBA to be the guardian of my minor children [1]. I direct that the said guardians shall not be required to furnish security in that capacity to the Master of the High Court [1].
 
-In terms of section 1(7) of the Intestate Succession Act, Ben will inherit Andy’s share in the amount of R247 600.00 [1] 
+5.
 
-As Caroline has renounced her inheritance, the surviving spouse Zanele receives her (Caroline’s) portion in terms of section 1(6) of the Intestate Succession Act in the amount of R247 600.00 [1] and will therefore inherit a total amount of R497 600.00 [1] 
+All bequest in terms of this Will and / or any codicil thereto shall be excluded from Community of Property [1]. A receipt signed by a married beneficiary without the assistance of his / her spouse shall be sufficient discharge to my Executor [1].
 
-Rose will inherit the amount of R247 600.00 [1] 
+SIGNED AT PORT ELIZABETH on the 12th June 2020 in the presence of the undersigned witnesses who were present and signing at the same time and in the presence of each other [2].
 
-Daniel will inherit the amount of R247 600.00 [1] 
+# AS WITNESSES
 
-The unborn child will also inherit the amount of R247 600.00 [1] 
+TESTATRIX [1].
 
-If the unborn child is not born alive, then 
+1. [1].
+2. [1].
 
-A child’s share will amount to R1 488 000.00 ÷ 5 = R297 600.00 [1] 
+# QUESTION 4
 
-Zanele will therefore inherit the child’s share in the amount of R297 600.00 [1] 
+[3]
 
-As Caroline has renounced her inheritance, the surviving spouse Zanele receives her (Caroline’s) portion in terms of section 1(6) of the Intestate Succession Act in the amount of R297 600.00 and 
-
-will therefore inherit a total amount of R595 200.00 [1] 
-
-Ben, Daniel and Rose will each inherit R297 600.00 [1] 
-
-Eric and Judy will not inherit anything because descendants inherit before ascendants [1] 
-
-Letta Ntuli will not inherit anything because she was not formally adopted by Paul [1] 
-
-Dennis and George will not inherit by way of representation as their parents are still alive [1] 
-
-QUESTION 3 [18] 
-
-LAST WILL AND TESTAMENT 
-
-I, PAMELA MALI (born SOSIBA) a divorcee, hereby revoke, cancel and annual all and any testamentary acts and / or disposition heretofore made by me, either jointly or singly and declare this to be my last will and Testament. [1] LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 6
-
-1. 
-
-I bequeath my entire estate to my 3 children per stipes [2] .
-
-2. 
-
-I nominate and appoint JACK MABASO, a practising Attorney of the firm MABASO & ASSOCIATES to be the Executor of my estate [1] , and if he does not survive me then I appoint any remaining partner of the firm MABASO & ASSOCIATES to be the Executor of the estate [1] . I grant my Executor the power of assumption [1] . I direct that my said Executor shall not be required to give security [1] .
-
-3. 
-
-I direct that a receipt signed by the guardian in respect of any loose assets bequeathed to a minor beneficiary shall be sufficient to discharge my Executor and the Master of the High Court [1] . I direct that the guardian shall be exempted from the provision of security. 
-
-4. 
-
-I nominate and appoint STEWART and JULIA SOSIBA, presently of NO 28 FULLAM STREET, CONSTANTIA, PORT ELIZABETH, or the survivor of them to be the guardians on any of my minor children should they survive me [1] . If the said STEWART and JULIA SONJI do not survive me I hereby appoint BONGI SOSIBA to be the guardian of my minor children [1] . I direct that the said guardians shall not be required to furnish security in that capacity to the Master of the High Court 
-
-[1] .
-
-5. 
-
-All bequest in terms of this Will and / or any codicil thereto shall be excluded from Community of Property [1] . A receipt signed by a married beneficiary without the assistance of his / her spouse shall be sufficient discharge to my Executor [1] .
-
-SIGNED AT PORT ELIZABETH on the 12 th June 2020 in the presence of the undersigned witnesses who were present and signing at the same time and in the presence of each other [2] .
-
-AS WITNESSES _______________________ 
-
-TESTATRIX [1] .
-
-1. [1] .
-
-2. [1] .
-
-QUESTION 4 [3] 
-
-(1) Masters representative does not have to open a Bank Account – Section 28 [1] .
-
-(2) does not have to place statutory notices. Section 29 and 35(5) [1] .
-
-(3) need not to lodge a liquidation and distribution account Section 35 [1] .
+(1) Masters representative does not have to open a Bank Account – Section 28 [1].
+(2) does not have to place statutory notices. Section 29 and 35(5) [1].
+(3) need not to lodge a liquidation and distribution account Section 35 [1].
 
 TOTAL: [100]
+
+LAW SOCIETY OF SOUTH AFRICA
+
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
+
+6

@@ -33,159 +33,474 @@ Official guideline model answers for Paper 2, 2015-02-10, recovered on 2026-10-1
 - Pairing and remaining gaps: [[notes/Board Exam Memo Coverage]].
 - Project: [[projects/Board Exam Archive]].
 - Text review: flagged characters corrected against rendered source pages; full transcription has not been proofread.
+- Alternate extraction: [[Attorneys Exam/Mistral OCR 2026-10-19/AttExam10Feb2015P2A]].
 
 ## Extracted guideline answers
 
-## ADMISSION EXAMINATION I TOELATINGSEKSAMEN ESTATES I BOEDELS PART2/DEEL2 10 FEBRUARYI FEBRUARIE 2015 ANSWERS IANTWOORDE 
+# ADMISSION EXAMINATION / TOELATINGSEKSAMEN
+ESTATES / BOEDELS
+PART 2 / DEEL 2
 
-PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE ACORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: This guideline records tl,e views of tl,e drafters. T/lere may be justifiable variations in practice whicl, are brougl,t out in tl,e answers. When this happens the examiner should apply l1is discretion in marking t/1e a11swer. 
+10 FEBRUARY / FEBRUARIE 2015
 
-QUESTION 1 LIQUIDATION ACCOUNT: ASSETS IMMOVABLE PROPERTY AWARDED: ERF 332 GREYTOWN, REGISTRATION DIVISION FT, PROVINCE OF KWAZULU NATAL (1), IN EXTENT 1025 SQUARE METRES (1) Held in terms of Deed of Transfer No. T4317/2004 (1 ) (1 )Per municipal valuation 
+ANSWERS / ANTWOORDE
 
-DIVESTMENT NOTE: 
+PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A
+CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING.
 
-The above asset will be transferred to the intestate heirs (1) MOVABLE PROPERTY AWARDED: Household contents at valuation 3000 Sanlam shares 4 Head of cattle at valuation (½) (½) (½) 
+NOTE TO EXAMINER:
 
-Legal Education and Development {L.E.A.DJTPi• 
+This guideline records the views of the drafters. There may be
+justifiable variations in practice which are brought out in the answers.
+When this happens the examiner should apply his discretion in marking
+the answer.
 
-(2) (3) (4) 
+QUESTION 1
 
-[48] 
+[48]
 
-1650 000,00 325 000,00 41 000,00 8 000,00 
+LIQUIDATION ACCOUNT:
 
-> 1
+ASSETS
 
-DIVESTMENT NOTE: 
+IMMOVABLE PROPERTY AWARDED:
 
-The above assets will be awarded to the intestate heirs ASSETS REDUCED TO CASH 40% shareholding in Nordic (Pty) Ltd realised (1) (5) 2000 Sasol shares realised Absa Bank: Fixed Deposit Account No.0231478 (½) (6) 
+ERF 332 GREYTOWN, REGISTRATION
 
-240 000.00 (½) Interest as at date of death 1 000.00 (1) (7) Old Mutual Policy No. OLM621943 (½) (8) Metropolitan Policy No. X07311624 (½) (9) TOTAL ASSETS LIABILITIES: 
+DIVISION FT, PROVINCE OF KWAZULU
 
-1. 2. 3. 4. 5. 
+NATAL (1), IN EXTENT 1025 SQUARE METRES (1)
 
-Masters fees (maximum) (1) 
+Held in terms of Deed of Transfer No. T4317/2004 (1) (1)
 
-Executors fees (3.5% of R4 865 000.00) (1) Other Administration Expenses Funeral Expenses: Siza Funerals (½) 
+Per municipal valuation
 
-ADT Attorneys: Provision for transfer fees (½) 
+1.650 000,00
 
-Provision for bond cancellation costs (½) 
+DIVESTMENT NOTE:
 
-Dr Good: Medical Expenses (½) 6. 7. J Adams: valuation costs in respect of movables 8. Absa Bank, settlement of bond over Erf 332 Greytown (½) 
+The above asset will be transferred to the
 
-9. Final income tax assessment from SARS 10. Loan against Old Mutual Policy 
+intestate heirs (1)
 
-Legal Education and Development {LE.A.D/T" 1
+MOVABLE PROPERTY AWARDED:
 
-(½) 
+Household contents at valuation
 
-(1) (½) 
+(½) (2)
 
-1 250 000,00 100 000,00 241 000,00 950 000,00 300 000,00 R4 865 000,00 
+325 000,00
 
-# ------------------------
+3000 Sanlam shares
 
-600,00 170 275,00 2 700,00 12 000,00 27 500,00 2 500,00 11 700,00 2 400,00 670 000,00 16 300,00 40 000,00 
+(½) (3)
 
-2Total Liabilities Estate Duty Balance available for Distribution RECAPITULATION STATEMENT:-Assets reduced to cash Liabilities Estate Duty Cash surplus available for distribution 955 975,00 (1) NIL 1 885 025,00 (2) 2 841 000,00 955 975,00 NIL 3 909 025,00 4 865 000,00 
+41 000,00
 
-# --------------------------
+4 Head of cattle at valuation
 
-2 841 000,00(2) 2 841 000,00 
+(½) (4)
 
-# ================================ 
+8 000,00
 
-DISTRIBUTION ACCOUNT Balance available for distribution Awarded to:-1) Thule Dube, surviving spouse (1) in terms of Section 1(1 )(c)(i) of the Intestate (1) Succession Act No. 81 of 1987 (1) 977 256,25 The above award consists of a ¼ share in Immovable property awarded Movable property awarded Cash 412 500,00 (1) 93 500,00 (1) 471 256,25 (1) 
+Legal Education and Development [L.E.A.D]™
 
-Legal Education and Development /L.E.A.DffM 
+1
 
-3 909 025,00 
+# **DIVESTMENT NOTE:**
 
-32) Alex Dube, major son (1) in terms of Section 1(1)(c)(ii) of the Intestate Succession Act No. 81 of 1987 (1) The above award consists of a ¼ share in Immovable property awarded 412 500,00 Movable property awarded 93 500,00 Cash 471 256,25 3) Nomsa Dube, minor daughter born on 20 June 1998 (1), identity no. 980620 5135 08 3 (1)in terms of Section 1(1)(c)(ii) of the Intestate Succession Act No. 81 of 1987 The above award consists of a ¼ share in Immovable property awarded Movable property awarded Cash to be deposited in 412 500,00 93 500,00 977 256,25 977 256,25 the Guardians Fund 471 256,25 (1) 4) Thando Dube, major son (1) in terms of Section 1(1)(c)(ii) of the Intestate Succession Act No. 81 of 1987 (1)  
+The above assets will be awarded to the
 
-> Legal Education and Development [L.E.A.DJD 1
+intestate heirs
 
-977 256,25 
+# **ASSETS REDUCED TO CASH**
 
-> 4
+40% shareholding in Nordic (Pty) Ltd realised (1) (5) 1 250 000,00
+
+2000 Sasol shares realised (½) (6) 100 000,00
+
+Absa Bank: Fixed Deposit Account
+
+No. 0231478 240 000.00 (½)
+
+Interest as at date of death 1 000.00 (1) (7) 241 000,00
+
+Old Mutual Policy No. OLM621943 (½) (8) 950 000,00
+
+Metropolitan Policy No. X07311624 (½) (9) 300 000,00
+
+TOTAL ASSETS R4 865 000,00
+
+# **LIABILITIES:**
+
+1. Masters fees (maximum) (1) 600,00
+2. Executors fees (3.5% of R4 865 000.00) (1) 170 275,00
+3. Other Administration Expenses 2700,00
+4. Funeral Expenses: Siza Funerals (½) 12000,00
+5. ADT Attorneys: Provision for transfer fees (½) 27500,00
+
+Provision for bond cancellation costs (½) 2 500,00
+
+6. Dr Good: Medical Expenses (½) 11700,00
+7. J Adams: valuation costs in respect of movables (½) 2400,00
+8. Absa Bank, settlement of bond over
+
+Erf 332 Greytown (½) 670 000,00
+
+9. Final income tax assessment from SARS (½) 16300,00
+10. Loan against Old Mutual Policy (1) 40000,00
+
+Legal Education and Development [L.E.A.D]™
+
+2
+
+Total Liabilities 955 975,00
+
+Estate Duty NIL
+
+Balance available for Distribution 3 909 025,00
+
+4 865 000,00
+
+# RECAPITULATION STATEMENT:-
+
+Assets reduced to cash 2 841 000,00(2)
+
+Liabilities 955 975,00 (1)
+
+Estate Duty NIL
+
+Cash surplus available for distribution 1 885 025,00 (2)
+
+2 841 000,00 2 841 000,00
+
+# DISTRIBUTION ACCOUNT
+
+Balance available for distribution (1) 3 909 025,00
+
+Awarded to:-
+
+1) Thule Dube, surviving spouse (1)
+
+in terms of Section
+
+1(1)(c)(i) of the Intestate
+
+Succession Act No. 81 of 1987 (1) 977 256,25
 
 The above award consists of a ¼
 
-share in Immovable propertyawarded 412 500,00 Movable property awarded 93 500,00 Cash 471 256,25 3 909 025,00 3 909 025,00 
+share in
 
-# ==================================== 
+Immovable property awarded 412 500,00 (1)
 
-ESTATE DUTY ADDENDUM: Property of the deceased in terms of Section 3(2) Assets as per Liquidation and Distribution Account LESS: Old Mutual policy paid to Estate(½) 950 000,00 Metropolitan policy paid to estate(½) 300 000,00 LESS: Adjustment on shares in Nordic (Pty) Ltd PLUS : Property deemed to be property in terms of Section 3(3) Sanlam policy Old Mutual policy Momentum policy Metropolitan policy 
+Movable property awarded 93 500,00 (1)
 
-(1) 
+Cash 471 256,25 (1)
 
-## (½) 
+Legal Education and Development [L.E.A.D]™
 
-(1) 
+3
 
-(½) 
+2) Alex Dube, major son (1)
 
-Legal Education and Development {L.E.A.D/"' 1
+in terms of Section
 
-2 000 000,00 950 000,00 600 000,00 300 000,00 4 865 000,00 (1) 1 250 000,00 3 615 000,00 400 000,00 (2) 3 215 000,00 3 850 000,00 
+1(1)(c)(ii) of the Intestate
 
-5Gross Value of estate LESS : Allowable deductions in terms of Section 4 Liabilities Bequest to surviving spouse Section 4(q) 
+Succession Act No. 81 of 1987 (1) 977 256,25
 
-(1) 955 975,00 [R977256.25+R2000000.00) (2) 2 977 256,25 Net Value (1) 
+The above award consists of a ¼
 
-LESS primary rebate in terms of Section 4 (A) Dutiable amount Therefore no estate duty payable. (1) 
+share in
 
-Legal Education and Development {L.E.A.DJTM 
+Immovable property awarded 412 500,00
 
-(1) 
+Movable property awarded 93 500,00
 
-(1) 7 065 000,00 3 933 231,25 3 131 768,75 3 500 000,00 NIL 
+Cash 471 256,25
 
-# ------------------------
+3) Nomsa Dube, minor daughter
 
-6QUESTION 2 JOINT WILL We, the undersigned, HECTOR DAWOOD Identity Number: 570812 5016 08 8 and DORCAS DAWOOD Identity Number: 601019 0017 08 8[1] (25] spouses married in community of property and presently residing in Boksburg, Gauteng Province, hereby make our Will as follows: 1. REVOCATION OF PRE VIOUS WILLS We revoke all our previous Wills, codicils and testamentary writings made either jointly or individually, and declare this to be our last Will. [2] 2. APPOINTMENT OF EXECUTOR 2.1 We appoint the survivor of us as the executor of our estate, with the power of assumption [1]. If we die simultaneously or should the survivor for any reason be unable or refuse to accept the appointment, we appoint Snow Fall, a director of the legal firm Snowing Incorporated of Boksburg as the executor of our estate, with the power of assumption. [1] 2.2 Any executor appointed in terms of our Will shall be exempt from furnishing security to the Master of the High Court. [1] Johanna Kgopa ____ [1] C of Oaths TESTATRIX [1] Jack Frost [1] on behalf of and by the direction of the testator Hector [1] 
+born on 20 June 1998 (1), identity
 
-Legal Education and Development {L.E.A.DJTM 73. MASSING OF ESTATES AND BENEFICIARIES 3.1 We direct that on the death of the first dying of us, our separate estates shall be massed and consolidated into a single estate [1], which we bequeath to our aforesaid son Steve [1] subject to a usufruct for life in favour of the survivor of us 
+no. 980620 5135 08 3 (1)in terms
 
-[1 ].
+of Section 1(1)(c)(ii) of the Intestate
 
-3.2 If the aforesaid bequest to our son should fail for any reason, our massed estate shall devolve upon his children per stirpes. [1] 4. EXCLUSION OF COMMUNITY OF PROPERTY AND ACCRUAL No inheritance or benefit accruing to any beneficiary in terms of this Will shall form part of any existing or future community estate of such beneficiary [1]. We further direct that the right of accrual as contemplated in the Matrimonial Property Act, 88 of 1984 shall be excluded from any such inheritance or benefits. [1] SIGNED AT BOKSBURG ON 15 TH JUNE 2014 by Snow Fall on behalf of and by the direction of the Testator, the Testatrix and the attesting witnesses all being present and signing simultaneously in the presence of one another. [1] WITNESSES: 
+Succession Act No. 81 of 1987 977 256,25
 
-1. 2. 
+The above award consists of a ¼
 
-H Muller [1] R Symes [1] 
+share in
 
-Certificate in terms of Sec 2(1)(a)(v) [1] 
+Immovable property awarded 412 500,00
 
-TESTATRIX [½] Jack Frost on behalf of and by the direction of the testator Hector [½] 
+Movable property awarded 93 500,00
 
-I, Johanna Kgopa of 190 Pretorius Street Boksburg, in my capacity as Commissioner of Oaths [1], certify that I have satisfied myself as to the identity of the testator Hector Dawood [1], and that the accompanying Will is the Will of the testator [1]. J Kgopa 
+Cash to be deposited in
 
-________,[1]  
+the Guardians Fund 471 256,25 (1)
 
-> Legal Ed11cation and Development {L.E.A.DffM 8
+4) Thando Dube, major son (1)
 
-Commissioner of Oaths Capacity: Boksburg 15 th June 2014 QUESTION 3 Lucky's estate will devolve as follows: 
+in terms of Section
 
-(151 
+1(1)(c)(ii) of the Intestate
 
-Betty inherits either a child ts share or R125 000.00, whichever is the greater (Section 1(1)(c))of the Intestate Succession Act, as amended. [1] A child's share is R762 000.00 + 6 = R127 000.00 [2] Betty therefore inherits R127 000.00 [1] Cindi inherits either a child's share or R125 000.00, whichever is the greater (Section 1 (1)(c) ) of the Intestate Succession Act, as amended. A child's share is R762 000.00 + 6 = R127 000.00 Cindi therefore inherits R127 000.00 [1] Danny cannot renounce his rights to inherit as he is a minor (Section 1 (6)) [2] He therefore inherits R 127 000.00. Since Jan has caused his father's death, Jan does not inherit (die bloedige hand erf niet) [2] In terms of section 1 (7 ) of the Intestate Succession Act, Karel will inherit Jan's share in the amount of R127 000.00 [2] His major daughter Iris inherits R127 000.00 because she is the descendant in terms of Section 1 (1)(c) of the Intestate Succession Act. [1] As Susan has renounced her inheritance, the surviving spouses Betty and Cindi will receive her (Susan's) portion in terms of section 1 (6) of the Intestate Succession Act in the amount of R63 500.00 each [2] Therefore Betty and Cindi inherit a total amount of R190 500.00 each. [1]  
+Succession Act No. 81 of 1987 (1) 977 256,25
 
-> Legal Education a11d Development /L.E.A.DffM 9
+Legal Education and Development [L.E.A.D]™
 
-# ..
+4
 
-QUESTION4 [121 
+The above award consists of a ¼
 
-B, as a witness, is disqualified from receiving any benefit under the will - section 4A(1) of the Wills Act. (1) However, in terms of section 4A(2) -(a) A court may declare B to be competent to receive his benefit if the court is satisfied that Bdid not defraud or unduly influence A in the execution of the will. (2) (b) If B would have inherited if A had died intestate, B may inherit under the will as much as what he would have inherited as an intestate heir (but no more). (3) To the extent that B does not receive his benefit in whole or in part, his divorced wife D
+share in
 
-will inherit as his substitute. Only if D had been married to Bat the time of execution of the will would she have been disqualified. (2) Eis disqualified because he murdered A. "De bloedige hand erf nief'. (1) 
+Immovable property awarded 412 500,00
 
-Section 2C(2) of the Wills Act provides that if a descendant of the testator is disqualified from inheriting, the descendants of that descendant shall be entitled to the benefit. E's daughter F therefore inherits what E would have inherited, had he not murdered his Father A. (2) F inherits whatever has been left directy to her in A's will. (1) 
+Movable property awarded 93 500,00
 
-TOTAL: [100]  
+Cash 471 256,25
 
-> Legal Education and Development {L.E.A.DJTM
+3 909 025,00 3 909 025,00
+
+# ESTATE DUTY ADDENDUM:
+
+Property of the deceased
+
+in terms of Section 3(2)
+
+Assets as per Liquidation
+
+and Distribution Account 4 865 000,00 (1)
+
+LESS: Old Mutual policy paid to Estate (½) 950 000,00
+
+Metropolitan policy paid to estate (½) 300 000,00 1 250 000,00
+
+LESS: Adjustment on shares in Nordic
+
+(Pty) Ltd 400 000,00 (2)
+
+3 215 000,00
+
+PLUS : Property deemed to be property in
+
+terms of Section 3(3)
+
+Sanlam policy (1) 2 000 000,00
+
+Old Mutual policy (½) 950 000,00
+
+Momentum policy (1) 600 000,00
+
+Metropolitan policy (½) 300 000,00 3 850 000,00
+
+Legal Education and Development [L.E.A.D]™
+
+5
+
+Gross Value of estate
+
+7 065 000,00
+
+LESS : Allowable deductions in
+
+terms of Section 4
+
+Liabilities
+
+(1)
+
+955 975,00
+
+Bequest to surviving spouse
+
+Section 4(q)
+
+[R977256.25+R2000000.00]
+
+(2)
+
+2 977 256,25
+
+3 933 231,25
+
+Net Value
+
+(1)
+
+3 131 768,75
+
+LESS primary rebate in terms
+
+of Section 4 (A)
+
+(1)
+
+3 500 000,00
+
+Dutiable amount
+
+(1)
+
+NIL
+
+Therefore no estate duty payable. (1)
+
+# LAW SOCIETY
+
+# OF SOUTH AFRICA
+
+Legal Education and Development [L.E.A.D]™
+
+6
+
+QUESTION 2
+
+[25]
+
+# JOINT WILL
+
+We, the undersigned,
+
+HECTOR DAWOOD
+
+Identity Number: 570812 5016 08 8
+
+and
+
+DORCAS DAWOOD
+
+Identity Number: 601019 0017 08 8[1]
+
+spouses married in community of property and presently residing in Boksburg, Gauteng Province, hereby make our Will as follows:
+
+# 1. REVOCATION OF PREVIOUS WILLS
+
+We revoke all our previous Wills, codicils and testamentary writings made either jointly or individually, and declare this to be our last Will. [2]
+
+# 2. APPOINTMENT OF EXECUTOR
+
+2.1 We appoint the survivor of us as the executor of our estate, with the power of assumption [1]. If we die simultaneously or should the survivor for any reason be unable or refuse to accept the appointment, we appoint Snow Fall, a director of the legal firm Snowing Incorporated of Boksburg as the executor of our estate, with the power of assumption. [1]
+2.2 Any executor appointed in terms of our Will shall be exempt from furnishing security to the Master of the High Court. [1]
+
+# TESTATRIX [1]
+
+Johanna Kgopa
+
+Jack Frost [1]
+
+[1]
+
+C of Oaths
+
+on behalf of and by the direction of the testator Hector [1]
+
+Legal Education and Development [L.E.A.D]™
+
+7
+
+# 3. MASSING OF ESTATES AND BENEFICIARIES
+
+3.1 We direct that on the death of the first dying of us, our separate estates shall be massed and consolidated into a single estate [1], which we bequeath to our aforesaid son Steve [1] subject to a usufruct for life in favour of the survivor of us [1].
+3.2 If the aforesaid bequest to our son should fail for any reason, our massed estate shall devolve upon his children per stirpes. [1]
+
+# 4. EXCLUSION OF COMMUNITY OF PROPERTY AND ACCRUAL
+
+No inheritance or benefit accruing to any beneficiary in terms of this Will shall form part of any existing or future community estate of such beneficiary [1]. We further direct that the right of accrual as contemplated in the Matrimonial Property Act, 88 of 1984 shall be excluded from any such inheritance or benefits. [1]
+
+SIGNED AT BOKSBURG ON 15TH JUNE 2014 by Snow Fall on behalf of and by the direction of the Testator, the Testatrix and the attesting witnesses all being present and signing simultaneously in the presence of one another. [1]
+
+# WITNESSES:
+
+1. H Muller [1]
+
+TESTATRIX [½]
+
+2. R Symes [1]
+
+Jack Frost
+
+on behalf of and by the direction
+of the testator Hector [½]
+
+Certificate in terms of Sec 2(1)(a)(v) [1]
+
+I, Johanna Kgopa of 190 Pretorius Street Boksburg, in my capacity as Commissioner of Oaths [1], certify that I have satisfied myself as to the identity of the testator Hector Dawood [1], and that the accompanying Will is the Will of the testator [1].
+
+J Kgopa
+
+[1]
+
+Legal Education and Development [L.E.A.D]™
+
+8
+
+# Commissioner of Oaths
+
+Capacity:
+
+Boksburg 15th June 2014
+
+# QUESTION 3
+
+[15]
+
+Lucky's estate will devolve as follows:
+
+Betty inherits either a child's share or R125 000.00, whichever is the greater (Section 1(1)(c) ) of the Intestate Succession Act, as amended. [1]
+
+A child's share is R762 000.00 ÷ 6 = R127 000.00 [2]
+
+Betty therefore inherits R127 000.00 [1]
+
+Cindi inherits either a child's share or R125 000.00, whichever is the greater (Section 1(1)(c) ) of the Intestate Succession Act, as amended.
+
+A child's share is R762 000.00 ÷ 6 = R127 000.00
+
+Cindi therefore inherits R127 000.00 [1]
+
+Danny cannot renounce his rights to inherit as he is a minor (Section 1(6)) [2]
+He therefore inherits R127 000.00.
+
+Since Jan has caused his father's death, Jan does not inherit (die bloedige hand erf niet) [2]
+
+In terms of section 1(7) of the Intestate Succession Act, Karel will inherit Jan's share in the amount of R127 000.00 [2]
+
+His major daughter Iris inherits R127 000.00 because she is the descendant in terms of Section 1(1)(c) of the Intestate Succession Act. [1]
+
+As Susan has renounced her inheritance, the surviving spouses Betty and Cindi will receive her (Susan's) portion in terms of section 1(6) of the Intestate Succession Act in the amount of R63 500.00 each [2]
+
+Therefore Betty and Cindi inherit a total amount of R190 500.00 each. [1]
+
+Legal Education and Development [L.E.A.D]™
+
+9
+
+QUESTION 4
+
+[12]
+
+B, as a witness, is disqualified from receiving any benefit under the will – section 4A(1) of the Wills Act. (1)
+
+However, in terms of section 4A(2) –
+
+(a) A court may declare B to be competent to receive his benefit if the court is satisfied that B did not defraud or unduly influence A in the execution of the will. (2)
+(b) If B would have inherited if A had died intestate, B may inherit under the will as much as what he would have inherited as an intestate heir (but no more). (3)
+
+To the extent that B does not receive his benefit in whole or in part, his divorced wife D will inherit as his substitute. Only if D had been married to B at the time of execution of the will would she have been disqualified. (2)
+
+E is disqualified because he murdered A. "De bloedige hand erf niet". (1)
+
+Section 2C(2) of the Wills Act provides that if a descendant of the testator is disqualified from inheriting, the descendants of that descendant shall be entitled to the benefit. E's daughter F therefore inherits what E would have inherited, had he not murdered his Father A. (2)
+
+F inherits whatever has been left directly to her in A's will. (1)
+
+TOTAL: [100]
+
+Legal Education and Development [L.E.A.D]™
 
 10

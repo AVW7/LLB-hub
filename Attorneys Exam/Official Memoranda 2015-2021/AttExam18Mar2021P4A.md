@@ -30,597 +30,384 @@ Official guideline model answers for Paper 4, 2021-03-18, recovered on 2026-10-1
 - Pairing and remaining gaps: [[notes/Board Exam Memo Coverage]].
 - Project: [[projects/Board Exam Archive]].
 - Text review: basic extraction checks passed; not fully proofread.
+- Alternate extraction: [[Attorneys Exam/Mistral OCR 2026-10-19/AttExam18Mar2021P4A]].
 
 ## Extracted guideline answers
 
-LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 
+# **ADMISSION EXAMINATION  
+LEGAL PRACTITIONERS' BOOKKEEPING  
+PART 4  
+18 MARCH 2021**
 
-> 1
+# **MEMORANDUM**
 
-ADMISSION EXAMINATION 
+**PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING.**
 
-LEGAL PRACTITIONERS’ BOOKKEEPING 
+**NOTE TO EXAMINER:** *This guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner should apply his discretion in marking the answer.*
 
-PART 4 
+# **QUESTION 1**
 
-18 MARCH 2021 
+**[45]**
 
-MEMORANDUM 
+# Fee Journal
 
-PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. 
+Correspondent Dr 3450
 
-NOTE TO EXAMINER: This guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner should apply his discretion in marking the answer. 
+Fees Cr 3000
 
-QUESTION 1 [45] 
+Vat Cr 450
 
-Fee Journal 
+# Being Summons Fees
 
-Correspondent Dr 3450 
+Fees Dr 600
 
-Fees Cr 3000 
+Vat Dr 90
 
-Vat Cr 450 
+Correspondent Cr 690
 
-Being Summons Fees 
+# Being 20% allowance
 
-Fees Dr 600 
+---**LAW SOCIETY OF SOUTH AFRICA  
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™**
 
-Vat Dr 90 
+1
 
-Correspondent Cr 690 
+|  Correspondent | Dr | 6900 |   |
+| --- | --- | --- | --- |
+|  Fees | Cr |  | 6000  |
+|  Vat | Cr |  | 900  |
 
-Being 20% allowance LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 
+# Being Vat for Default Judgment
 
-> 2
+|  Fees | Dr | 1200 |   |
+| --- | --- | --- | --- |
+|  Vat | Dr | 180 |   |
+|  Correspondent | Cr |  | 1380  |
 
-Correspondent Dr 6900 
+# Being 20% allowance
 
-Fees Cr 6000 
+|  Correspondent | Dr | 6900 |   |
+| --- | --- | --- | --- |
+|  Fees | Cr |  | 6000  |
+|  Vat | Cr |  | 900  |
 
-Vat Cr 900 
+# Being for Writ
 
-Being Vat for Default Judgment 
+|  Fees | Dr | 1200 |   |
+| --- | --- | --- | --- |
+|  Vat | Dr | 180 |   |
+|  Correspondent | Cr |  | 1380  |
 
-Fees Dr 1200 
+# Being 20% allowance
 
-Vat Dr 180 
+---*LAW SOCIETY OF SOUTH AFRICA  
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™*
 
-Correspondent Cr 1380 
+2
 
-Being 20% allowance 
+|  Correspondent | Dr | 1150 |   |
+| --- | --- | --- | --- |
+|  Fees | Cr |  | 1000  |
+|  Vat | Cr |  | 150  |
 
-Correspondent Dr 6900 
+# Being collection commission
 
-Fees Cr 6000 
+|  Fees | Dr | 200 |   |
+| --- | --- | --- | --- |
+|  Vat | Dr | 30 |   |
+|  Correspondent | Cr |  | 230  |
 
-Vat Cr 900 
+# Being 20% allowance
 
-Being for Writ 
+|  Correspondent | Dr | 17 250 |   |
+| --- | --- | --- | --- |
+|  Fees | Cr |  | 15 000  |
+|  Vat | Cr |  | 2 250  |
 
-Fees Dr 1200 
+# Being fees for MOI
 
-Vat Dr 180 
+|  Fees | Dr | 3000 |   |
+| --- | --- | --- | --- |
+|  Vat | Dr | 450 |   |
+|  Correspondent | Cr |  | 3 450  |
 
-Correspondent Cr 1380 
+# Being 20% allowance
 
-Being 20% allowance LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 
+---*LAW SOCIETY OF SOUTH AFRICA  
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™*
 
-> 3
+3
 
-Correspondent Dr 1150 
+## TRANSFER JOURNAL
 
-Fees Cr 1000 
+|  Business Cash Book | Dr | 38 020 |   |
+| --- | --- | --- | --- |
+|  Trust Cash Book | Cr |  | 38 020  |
+|  Correspondent (T) | Dr | 38 020 |   |
+|  Correspondent (B) | Cr |  | 38 020  |
 
-Vat Cr 150 
+½ mark each for transactions Dr or Cr -No mark for narration and headings
 
-Being collection commission 
+(Total mark 17)
 
-Fees Dr 200 
+## TRUST CASH BOOK
 
-Vat Dr 30 
+|  Correspondent (Green) | 100 000 | Transfer | 38 020  |
+| --- | --- | --- | --- |
+|   |  | Correspondent | 61 980  |
 
-Correspondent Cr 230 
+## BUSINESS CASH BOOK
 
-Being 20% allowance 
+|  Transfer | 38 020 | Sheriff | 1500  |
+| --- | --- | --- | --- |
+|   |  | Sheriff | 3000  |
+|   |  | Co Registered | 5000  |
 
-Correspondent Dr 17 250 
+LAW SOCIETY OF SOUTH AFRICA
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
-Fees Cr 15 000 
+4
 
-Vat Cr 2 250 
+# TRUST LEDGER CORRESPONDENT (ABC ATTORNEYS)
 
-Being fees for MOI 
+|  Transfer | 38 020 | Cash | 100 000  |
+| --- | --- | --- | --- |
+|  Cash | 61 980 |  |   |
 
-Fees Dr 3000 
+# **BUSINESS LEDGER CORRESPONDENT (ABC ATTORNEYS)**
 
-Vat Dr 450 
+|  Fees | 3450 | Fees | 690  |
+| --- | --- | --- | --- |
+|  Cash | 1500 | Fees | 1380  |
+|  Fees | 6900 | Fees | 1380  |
+|  Fees | 6900 | Fees | 230  |
+|  Cash | 3000 | Fees | 3450  |
+|  Fees | 1150 | Transfer | 38 020  |
+|  Fees | 17 250 |  |   |
+|  Cash | 5000 |  |   |
 
-Correspondent Cr 3 450 
+# **FEES**
 
-Being 20% allowance LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 
+|  Correspondent | 600 | Correspondent | 3000  |
+| --- | --- | --- | --- |
+|  Correspondent | 1200 | Correspondent | 6000  |
+|  Correspondent | 1200 | Correspondent | 6000  |
 
-> 4
+LAW SOCIETY OF SOUTH AFRICA
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D.]™
 
-TRANSFER JOURNAL 
+5
 
-Business Cash Book Dr 38 020 
+|  Correspondent | 200 | Correspondent | 1000  |
+| --- | --- | --- | --- |
+|  Correspondent | 3000 | Correspondent | 15000  |
 
-Trust Cash Book Cr 38 020 
+# **VAT**
 
-Correspondent (T) Dr 38 020 
+|  Correspondent | 90 | Correspondent | 450  |
+| --- | --- | --- | --- |
+|  Correspondent | 180 | Correspondent | 900  |
+|  Correspondent | 180 | Correspondent | 900  |
+|  Correspondent | 30 | Correspondent | 150  |
+|  Correspondent | 450 | Correspondent | 2250  |
 
-Correspondent (B) Cr 38 020 
+½ mark each for transactions Dr or Cr = (22)
 
-½ mark each for transactions Dr or Cr -No mark for narration and headings 
+# **ABC ATTORNEYS**
 
-(Total mark 17 )
+Re: RED VS GREEN
 
-TRUST CASH BOOK 
+|  Fee Summons | 3000 | 600  |
+| --- | --- | --- |
+|  Vat | 450 | 90  |
+|  Paid Sheriff | 1500 |   |
+|  Fee Default Judgment | 6000 | 1200  |
+|  Vat | 900 | 180  |
 
-Correspondent (Green) 
+LAW SOCIETY OF SOUTH AFRICA
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
-100 000  Transfer 
+6
 
-Correspondent 
+|  Fee Writ | 6000 | 1200  |
+| --- | --- | --- |
+|  Vat | 900 | 180  |
+|  Paid Sheriff | 3000 |   |
+|  EFT Green |  | 100 000  |
+|  Collection Commission | 1000 | 200  |
+|  VAT | 150 | 30  |
 
-38 020 
+Re: Registration of Company
 
-61 980 
+|  Fee drafting MOI | 15000 | 3000  |
+| --- | --- | --- |
+|  Vat | 2250 | 450  |
+|  Paid Registrar | 5000 |   |
+|  EFT You | 61980 |   |
+|   | 107 130 | 107 130  |
 
-BUSINESS CASH BOOK 
+**6 marks (¼ mark for each entry)**
 
-Transfer  38 020  Sheriff 
+**TOTAL QUESTION 1 [45]**
 
-Sheriff 
+---*LAW SOCIETY OF SOUTH AFRICA  
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™*
 
-Co Registered 
+7
 
-1500 
+QUESTION 2
 
-3000 
+[15]
 
-5000 LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 
+# DR (+) Supplementary Cash book for February 2021 (½) CR (-)
 
-> 5
+|  Balance b/f (1) | 25 000 | Firm error – dep (1) | 18 629  |
+| --- | --- | --- | --- |
+|  Firm error – dep (1) | 18 269 | Bank charges (1) | 500  |
+|  Reverse post dated EFT (1) | 21 600 | Interest overdraft (1) | 1 200  |
+|  EFT payment–client (1) | 15 100 | Stop order (1) | 1 150  |
+|   |  | Debit order (1) | 20 000  |
+|   |  | Balance c/f (1) | 38 490  |
+|   | 79 969 |  | 79 969  |
 
-TRUST LEDGER CORRESPONDENT (ABC ATTORNEYS) 
+# Bank reconciliation statement as at 28 February 2021 (½)
 
-Transfer 
+|   | DR (-) | CR (+)  |
+| --- | --- | --- |
+|  Balance as per bank statement (1) | 15 000 |   |
+|  Outstanding EFT payment from client (1) |  | 38 500  |
+|  Bank error – Trust payment (1) |  | 14 990  |
+|  Balance as per supplementary cash book (1) | 38 490 |   |
+|   | 53 490 | 53 490  |
 
-Cash 
+LAW SOCIETY OF SOUTH AFRICA
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D.]™
 
-38 020 
+8
 
-61 980 
+**QUESTION 3**
 
-Cash  100 000 
+**[40]**
 
-BUSINESS LEDGER CORRESPONDENT (ABC ATTORNEYS) 
+Trust Ledger:
 
-Fees 
+|  TRUST CASH BOOK  |   |   |   |
+| --- | --- | --- | --- |
+|  Madonna(T) | 650 000 | Purchase of shares | 186 000  |
+|  Prince(T) | 300 000 | S86(4) | 650 000  |
+|  Wayne(T) | 200 000 | S86(3) | 100 000  |
+|  Bruno(T) | 150 000 | Interest – Madonna | 4 750  |
+|  Sibiya(T) | 500 000 | Interest – Fidelity Fund | 250  |
+|  Sale of shares | 205 000 | Interest – Fidelity Fund | 10 000  |
+|  S86(4) withdrawal | 655 000 | Balance | 1 819 000  |
+|  S86(3) withdrawal | 110 000 |  |   |
+|   | 2 770 000 |  | 2 770 000  |
+|  Balance | 1 819 000 |  |   |
 
-Cash 
+LAW SOCIETY OF SOUTH AFRICA
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D.]™
 
-Fees 
+9
 
-Fees 
+Madonna (T)
 
-Cash 
+TCB – interest
 
-Fees 
+4 750
 
-Fees 
+TCB – deposit
 
-Cash 
+650 000
 
-3450 
+Section 86(4) -
+Interest
 
-1500 
+4 750
 
-6900 
+Prince (T)
 
-6900 
+TCB – deposit
 
-3000 
+300 000
 
-1150 
+Wayne (T)
 
-17 250 
+TCB – deposit
 
-5000 
+200 000
 
-Fees 
+![img-0.jpeg](../Mistral OCR 2026-10-19/assets/AttExam18Mar2021P4A/pages/page-10/img-0.jpeg)
 
-Fees 
+Bruno (T)
 
-Fees 
+TCB – deposit
 
-Fees 
+150 000
 
-Fees 
+LAW SOCIETY OF SOUTH AFRICA
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
-Transfer 
+10
 
-690 
+# Sibiya (T)
 
-1380 
+|  Purchase of shares | 186 000 | TCB – deposit | 500 000  |
+| --- | --- | --- | --- |
+|   |  | Sale of share | 205 000  |
 
-1380 
+# Section 86(4) – First Bank
 
-230 
+|  TCB | 650 000 | TCB | 655 000  |
+| --- | --- | --- | --- |
+|  Interest – Madonna | 4 750 |  |   |
+|  Interest – Fidelity Fund | 250 |  |   |
 
-3450 
+# Section 86(3)– Second Bank
 
-38 020 
+|  TCB | 100 000 | TCB | 110 000  |
+| --- | --- | --- | --- |
+|  Interest | 10 000 |  |   |
 
-FEES 
+# Legal Practitioner's Fidelity Fund
 
-Correspondent 
+|  TCB | 250 | Interest | 250  |
+| --- | --- | --- | --- |
+|  TCB | 10 000 | Interest | 10 000  |
 
-Correspondent 
+(33)
 
-Correspondent 
+LAW SOCIETY OF SOUTH AFRICA
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D.]™
 
-600 
+11
 
-1200 
+Trust reconciliation of trust creditors:
 
-1200 
+Trust Cash Book : 1 819 000
 
-Correspondent 
+Total Trust Creditors : 1 819 000
 
-Correspondent 
+Madonna - 650 000
 
-Correspondent 
+Prince - 300 000
 
-3000 
+Wayne - 200 000
 
-6000 
+Bruno -150 000
 
-6000 LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 
+Sibiya - 519 000
 
-> 6
+(7)
 
-Correspondent 
+3.1 - (1) mark each for each ledger account = 33 marks
 
-Correspondent 
-
-200 
-
-3000 
-
-Correspondent 
-
-Correspondent 
-
-1000 
-
-15000 
-
-VAT 
-
-Correspondent 
-
-Correspondent 
-
-Correspondent 
-
-Correspondent 
-
-Correspondent 
-
-90 
-
-180 
-
-180 
-
-30 
-
-450 
-
-Correspondent 
-
-Correspondent 
-
-Correspondent 
-
-Correspondent 
-
-Correspondent 
-
-450 
-
-900 
-
-900 
-
-150 
-
-2250 
-
-½ mark each for transactions Dr or Cr = ( 22) 
-
-ABC ATTORNEYS 
-
-Re: RED VS GREEN 
-
-Fee Summons 3000 600 
-
-Vat 450 90 
-
-Paid Sheriff 1500 
-
-Fee Default Judgment 6000 1200 
-
-Vat 900 180 LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 
-
-> 7
-
-Fee Writ 6000 1200 
-
-Vat 900 180 
-
-Paid Sheriff 3000 
-
-EFT Green 100 000 
-
-Collection Commission 1000 200 
-
-VAT 150 30 
-
-Re: Registration of Company 
-
-Fee drafting MOI 15000 3000 
-
-Vat 2250 450 
-
-Paid Registrar 5000 
-
-EFT You 61980 
-
-107 130 107 130 
-
-6 marks (¼ mark for each entry) 
-
-TOTAL QUESTION 1 [45] LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 
-
-> 8
-
-QUESTION 2 _____________ [15] 
-
-DR (+) Supplementary Cash book for February 2021 (½) CR (-) 
-
-Balance b/f (1)  25 000  Firm error – dep (1)  18 629 
-
-Firm error – dep (1)  18 269  Bank charges (1)  500 
-
-Reverse post dated EFT (1) 
-
-EFT payment–client (1) 
-
-21 600  Interest overdraft (1)  1 200 
-
-Stop order (1)  1 150 
-
-Debit order (1)  20 000 
-
-Balance c/f (1)  38 4 90 
-
-79 969  79 969 
-
-Bank reconciliation statement as at 28 February 2021 (½) 
-
-DR (-)  CR (+) 
-
-(1)  15 000 
-
-(1)  38 500 
-
-(1)  14 990 
-
-Balance as per bank statement Outstanding EFT payment from client 
-
-Bank error – Trust payment 
-
-Balance as per supplementary cash book (1)  38 490 
-
-53 490  53 490 
-
-15 100 LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 
-
-> 9
-
-QUESTION 3 ____ [40] 
-
-Trust Ledger: 
-
-TRUST CASH BOOK 
-
-Madonna(T) 
-
-Prince(T) 
-
-Wayne(T) 
-
-Bruno(T) 
-
-Sibiya(T) 
-
-Sale of shares 
-
-S86(4) withdrawal 
-
-S86(3) withdrawal 
-
-Balance 
-
-650 000 
-
-300 000 
-
-200 000 
-
-150 000 
-
-500 000 
-
-205 000 
-
-655 000 
-
-110 000 
-
-____________ 
-
-2 770 000 
-
-____________ 
-
-1 819 000 
-
-Purchase of shares 
-
-S86(4) 
-
-S86(3) 
-
-Interest – Madonna 
-
-Interest – Fidelity Fund 
-
-Interest – Fidelity Fund 
-
-Balance 
-
-186 000 
-
-650 000 
-
-100 000 
-
-4 750 
-
-250 
-
-10 000 
-
-1 819 000 
-
-____________ 
-
-2 770 000 
-
-____________ LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 
-
-10 
-
-Madonna (T) 
-
-TCB – interest  4 750  TCB – deposit 
-
-Section 86(4) -Interest 
-
-650 000 
-
-4 750 
-
-Prince (T) 
-
-TCB – deposit  300 000 
-
-Wayne (T) 
-
-TCB – deposit  200 000 
-
-Bruno (T) 
-
-TCB – deposit  150 000 LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 
-
-> 11
-
-Sibiya (T) 
-
-Purchase of shares  186 000  TCB – deposit 
-
-Sale of share 
-
-500 000 
-
-205 000 
-
-Section 86(4) – First Bank 
-
-TCB 
-
-Interest – Madonna 
-
-Interest – Fidelity Fund 
-
-650 000 
-
-4 750 
-
-250 
-
-TCB  655 000 
-
-Section 86(3)– Second Bank 
-
-TCB 
-
-Interest 
-
-100 000 
-
-10 000 
-
-TCB  110 000 
-
-Legal Practitioner’s Fidelity Fund 
-
-TCB 
-
-TCB 
-
-250 
-
-10 000 
-
-Interest 
-
-Interest 
-
-250 
-
-10 000 
-
-(33) LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 
-
-> 12
-
-Trust reconciliation of trust creditors: 
-
-Trust Cash Book : 1 819 000 
-
-Total Trust Creditors : 1 819 000 
-
-Madonna - 650 000 
-
-Prince - 300 000 
-
-Wayne - 200 000 
-
-Bruno -150 000 
-
-Sibiya - 519 000 
-
-(7) 
-
-TOTAL: [100] 
-
-3.1 - (1) mark each for each ledger account = 33 marks 
-
-3.2 and 3.3 - (1) mark each balance in the trust reconciliation = 7 marks 
+3.2 and 3.3 - (1) mark each balance in the trust reconciliation = 7 marks
 
 Total = 40 marks
+
+TOTAL: [100]
+
+LAW SOCIETY OF SOUTH AFRICA
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
+
+12

@@ -142,7 +142,7 @@ LLB hub/
 **Core Topics:** Jurisdiction (monetary limits), simplified procedure, default judgment, warrants of execution, Rule 18 admissions
 
 **Key Concepts:**
-- Jurisdiction thresholds: District Court (R120,000), Regional Court (R400,000)
+- Jurisdiction thresholds: District Court (up to **R200,000**; older 2010–2012 papers cite R100,000/R120,000), Regional Court (above R200,000 up to **R400,000**)
 - Sections 28-36 of the Act (jurisdiction bases)
 - Small claims procedure (alternative)
 
@@ -152,11 +152,11 @@ LLB hub/
 
 ### COS — Legal Costs (13 files)
 
-**Primary Legislation:** Attorneys Act + Court tariff scales
+**Primary Legislation:** Legal Practice Act 28 of 2014 (formerly Attorneys Act 53 of 1979) + Court tariff scales
 
 **Key Concepts:** Allocatur, taxation, party-and-party costs, attorney-and-client costs, de bonis propriis, drawing fee (6.25%/10.6%), attendance fee (graduated), contingency fee agreements
 
-**Calculation Skills:** VAT 14% on fees (not disbursements), allocatur completion
+**Calculation Skills:** VAT on fees (not disbursements) — **15% since 1 April 2018** (2010–Feb 2018 archive memos use **14%**), allocatur completion
 
 **Exam Pattern:** 25 marks, numerical calculations + definitions
 
@@ -164,9 +164,9 @@ LLB hub/
 
 ### FBE — Forms of Business Enterprise (14 files)
 
-**Entities:** Close Corporations (max 10 members, CK1, limited liability), Partnerships (3 types, joint & several liability), Trusts (inter vivos vs mortis causa, 40% tax), Sole Proprietorships, Private Companies
+**Entities:** Close Corporations (max 10 members, CK1, limited liability — *note: under the Companies Act 71 of 2008, no new CCs may be registered or companies converted into CCs after 1 May 2011, though existing CCs continue*), Partnerships (3 types, joint & several liability), Trusts (inter vivos vs mortis causa), Sole Proprietorships, Private Companies
 
-**Tax Rates:** CC: 28%, Company: 28%, Business Trust: 40%, Individual: 18-40%
+**Tax Rates:** Historical 2010–2012 memos cite CC: 28%, Company: 28%, Business Trust: 40%, Individual: 18-40%. (*Current statutory rates: Companies/CCs **27%** for years ending on/after 31 March 2023; Trusts **45%**; Individuals **18–45%**; VAT registration threshold **R1,000,000**.*)
 
 **Exam Pattern:** 25 marks, true/false + characteristics comparisons + advice letters
 

@@ -9,6 +9,10 @@ tags:
 
 # Professional Ethics and Conduct
 
+> [!important] Statutory Update (Legal Practice Act 28 of 2014)
+> - Since **1 November 2018**, the **Legal Practice Act 28 of 2014 (LPA)**, the **Legal Practice Council (LPC)**, the **LPC Rules**, and the **LPC Code of Conduct** replaced the Attorneys Act 53 of 1979 and the provincial statutory Law Societies.
+> - Where pre-2019 memos refer to the "Statutory Law Society", "Attorneys Fidelity Fund (AFF)", or "Attorneys Insurance Indemnity Fund (AIIF)", current answers should refer to the **Legal Practice Council (LPC)**, the **Legal Practitioners' Fidelity Fund (LPFF)**, and the **Legal Practitioners' Indemnity Insurance Fund (LPIIF)** (while noting historical equivalents if quoting older case law).
+
 The dominant theme of both Part 3 (Attorney's Practice) papers in this sample — a grab-bag of discrete ethics/practice-management questions rather than one integrated scenario. High-yield: short, memorisable, list-based answers.
 
 ## Sources of the rules of professional conduct

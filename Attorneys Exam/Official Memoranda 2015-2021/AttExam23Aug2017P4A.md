@@ -11,10 +11,11 @@ exam-date: '2017-08-23'
 paper-number: 4
 source-url: https://www.lssalead.org.za/wp-content/uploads/courses/ProfessionalExamination/LegalPractitionersBookkeeping/2017_23-AUGUST_PART-4_MEMORANDUM.pdf
 confidence: medium
-extraction-reviewed: false
+extraction-reviewed: true
 text-quality-flags: []
 ocr-corrections-date: '2026-10-19'
 character-corrections-reviewed: true
+tables-reviewed: true
 ---
 
 ## For future agent
@@ -33,127 +34,329 @@ Official guideline model answers for Paper 4, 2017-08-23, recovered on 2026-10-1
 - Pairing and remaining gaps: [[notes/Board Exam Memo Coverage]].
 - Project: [[projects/Board Exam Archive]].
 - Text review: flagged characters corrected against rendered source pages; full transcription has not been proofread.
+- Alternate extraction: [[Attorneys Exam/Mistral OCR 2026-10-19/AttExam23Aug2017P4A]].
 
 ## Extracted guideline answers
 
-ADMISSION EXAMINATIONI TOELATINGSEKSAMEN BOOKKEEPINGI BOEKHOU PART 41 DEEL 4 23 AUGUST/23 AUGUSTUS 2017 ANSWERSIANTWOORDE 
+# ADMISSION EXAMINATION / TOELATINGSEKSAMEN
 
-PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. 
+# BOOKKEEPING / BOEKHOU
 
-NOTE TO EXAMINER: This guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner should apply his discretion in marking the answer. 
+# PART 4 / DEEL 4
 
-QUESTION 1 (151 1.1 
+23 AUGUST / 23 AUGUSTUS 2017
 
-SUPPLEMENTARY BUSINESS CASHBOOK FOR 28 FEB 2016 (1) Deposit Deposit error Balance 
+ANSWERS / ANTWOORDE
 
-# ta 
+PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING.
 
-3 000 (1) Balance 7000 (1) R.D Cheque 40 000 (1) Interest paid Bank charges Stop order 50 000 10 000 (1) 26 000 (1) 3 000 (1) 4 000 (1) 7000 (1) 50 000 
+NOTE TO EXAMINER:
 
-# w
+This guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner should apply his discretion in marking the answer.
 
-BUSINESS BANK RECONCILIATION STATEMENT AT 28 FEB 2016 (1) Balance_ as per Cash book Less Bank error Less Bank error Add outstanding cheques Balance as per Bank Statement 
+QUESTION 1
 
-LEGAL EDUCATION AND DEVELOPMENT /L.E.A.DJCM 
+[15]
 
-(1) 
+1.1
 
-(1) (1) (1) (1) (40 000) 10 000 (30 000) 12 000 (18 000) 10 545 
+SUPPLEMENTARY BUSINESS CASHBOOK FOR 28 FEB 2016 (1)
 
-(28 455) 
+|  Deposit | 3 000 (1) | Balance | 10 000 (1)  |
+| --- | --- | --- | --- |
+|  Deposit error | 7 000 (1) | R.D Cheque | 26 000 (1)  |
+|  Balance | 40 000 (1) | Interest paid | 3 000 (1)  |
+|   |  | Bank charges | 4 000 (1)  |
+|   |  | Stop order | 7 000 (1)  |
+|   | 50 000 |  | 50 000  |
 
-(6) 1Or Format Based on Bank Statement Layout: BUSINESS BANK RECONCILIATION STATEMENT AT 28 FEB 2016 (1) Balance as per Cash Book (1) Add bank error (1) Add bank error (1) Less Outstanding deposit (1) Debit Credit 10 000 12 000 40 000 10 545 Balance as per bank statement (1) 28 455 
+(9)
 
-QUESTION 2 
+1.2
 
-Correspondent (1 )50 545 50 545 
+BUSINESS BANK RECONCILIATION STATEMENT AT 28 FEB 2016 (1)
 
-[30) 
+| Item | Marks | Amount (R) |
+| --- | --- | --- |
+| Balance as per Cash book | (1) | (40 000) |
+| Less: Bank error | (1) | 10 000 |
+| Subtotal | (1) | (30 000) |
+| Less: Bank error | (1) | 12 000 |
+| Subtotal | | (18 000) |
+| Add: Outstanding cheques | (1) | 10 545 |
+| **Balance as per Bank Statement** | | **(28 455)** |
 
-TRUST CASH BOOK 13 352 Black 11 528 (1) -------1 Transfer to business __1_8_2 _ 4___,_(1 ...... )_ 13 352 13 352 BUSINESS CASH BOOK Transfer from trust (1) 1 824 ICORRESPONDENT - TRUST ACCOUNT Black Transfer to business (1) 18 000 Cash 1 824 Black 13 352 (1) 6 472 (1) Correspondent (1) Cash - self (1) 19 820 BLACK - TRUST ACCOUNT 6 472 Correspondent 11 528 18 000 
+(6)
 
-LEGAL EDUCATION AND DEVELOPMENT /L.E.A.DJTM 
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
-19 820 18 000 (1) 18 000 
+1
 
-2CORRESPONDENT- BUSINESS ACCOUNT ½ Allowance (11 
+Or Format Based on Bank Statement Layout:
 
-TRUST JOURNAL (1) 
+|  BUSINESS BANK RECONCILIATION STATEMENT AT 28 FEB 2016 |   |   | (1)  |
+| --- | --- | --- | --- |
+|   |  | Debit | Credit  |
+|  Balance as per Cash Book | (1) |  | 40 000  |
+|  Add bank error | (1) | 10 000 |   |
+|  Add bank error | (1) | 12 000 |   |
+|  Less Outstanding deposit | (1) |  | 10 545  |
+|  Balance as per bank statement | (1) | 28 455 |   |
+|   |  | 50 545 | 50 545  |
 
-Black - Trust Account 1 824 Transfer from Trust FEES 
+QUESTION 2 [30]
 
-# I Correspondent - ½ Allowance VAT·OUTPUT 
+TRUST CASH BOOK
 
-# I Correspondent - ½ Allowance 6 472(1) Correspondent- Trust Account Correspondent fees and disbursements (1) Correspondent - Trust Account Black - Trust Account Transfer collection ex White (1) 
+|  Correspondent (1) | 13 352 | Black | 11 528 (1)  |
+| --- | --- | --- | --- |
+|   |  | Transfer to business | 1 824 (1)  |
+|   | 13 352 |  | 13 352  |
 
-FEES JOURNAL (1) 
+BUSINESS CASH BOOK
 
-Correspondent- Business Account Fees VAT Output ½ Allowance Black vs. White (1) 18 000(1) 1 824 (1) 
+Transfer from trust (1) 1 824
 
-LEGAL EDUCATION AND DEVELOPMENT [L.E.A.DffM 
+CORRESPONDENT – TRUST ACCOUNT
 
-1 824 (1) 1600 (1) 224 (1) 6 472(1) 18 000(1) 1600(1) 224 (1) 
+|  Black | 18 000 | Cash | 13 352 (1)  |
+| --- | --- | --- | --- |
+|  Transfer to business (1) | 1 824 | Black | 6 472 (1)  |
+|   | 19 820 |  | 19 820  |
 
-3TRANSFER JOURNAL (1) 
+BLACK – TRUST ACCOUNT
 
-Correspondent - Trust Account Correspondent - Business Account Transfer½ Allowance (1) 1 824(1) 
+|  Correspondent (1) | 6 472 | Correspondent | 18 000 (1)  |
+| --- | --- | --- | --- |
+|  Cash – self (1) | 11 528 |  |   |
+|   | 18 000 |  | 18 000  |
 
-QUESTION 3 
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
-David½ (1) Transfer to business (1) Bank self (1) Transfer ex trust (1) Revenue stamps (1) 
+2
 
-Fees (1) 
+# CORRESPONDENT – BUSINESS ACCOUNT
 
-TRUST CASH BOOK 50 000 Transfer to business David DAVID (T) 36000 Deposit 14000 BUSINESS CASH BOOK 36000 
+|  ½ Allowance (1) | 1 824 | Transfer from Trust | 1 824 (1)  |
+| --- | --- | --- | --- |
+|  FEES  |   |   |   |
+|   |  | Correspondent - ½ Allowance | 1 600 (1)  |
 
-# I
+# VAT OUTPUT
 
-DAVID (8) 1800 Transfer ex trust 34200 36000 FEES 
+|   | Correspondent - ½ Allowance | 224 (1)  |
+| --- | --- | --- |
+|  TRUST JOURNAL (1)  |   |   |
+|  Black – Trust Account | 6 472 (1) |   |
+|  Correspondent – Trust Account |  | 6 472 (1)  |
+|  Correspondent fees and disbursements (1) |  |   |
+|  Correspondent – Trust Account | 18 000 (1) |   |
+|  Black – Trust Account |  | 18 000 (1)  |
+|  Transfer collection ex White (1) |  |   |
 
-# I David R EVENUE STAMPS I David 
+# FEES JOURNAL (1)
 
-LEGAL EDUCATIONAND DEVELOPMENT /L.E.A.DjfM 
+|  Correspondent – Business Account | 1 824 (1)  |
+| --- | --- |
+|  Fees | 1 600 (1)  |
+|  VAT Output | 224 (1)  |
+|  ½ Allowance Black vs. White (1) |   |
 
-1 824(1) 
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
-[25] 
+3
 
-36000 (1) 14000 (1) 50 000 (1) 36000 (1) 36000 30 000 (1) 1 800 (1) 
+# **TRANSFER JOURNAL (1)**
 
-4FEES JOURNAL David (8) Fees Vat Output VAT OUTPUT I David 34 200 (1) 4 200 (1) 30 000 (1) 4 200 (1) Fees in respect of registration of trust and preparation of estate plan REVENUE/STAMP BUSINESS JOURNAL David (B) Revenue Stamps Stamps issued for registration of trust TRANSFER JOURNAL David (T) David (8) Transfer fees and disbursements ACCOUNTING STATEMENT David 1 800 (1) 36 000 (1) Re: Registration of trust and preparation of estate plan Deposit Revenue stamps Our fees (1) 1 800 (1) 30 000 
+Correspondent – Trust Account
 
-LEGAL EDUCATION AND DEVELOPMENT /L.E.A.DffM 
+1 824 (1)
 
-1 800 (1) 36 000 (1) 50 000 (1) 
+Correspondent – Business Account
 
-5Vat at 14% Cheque herewith QUESTION4 4.1 Reddy Van Der Merwe Ngubane Adams Khoza Nedbank Bank Cash Cash - Law Society TRUST LEDGER (1 ) 4 200 (1) 14 000 50 000 TRUST CASH BOOK 400 000 1000 000 68 5 000 300 000 500 000 1 515 000 422 000 4 822 000 Bank Nedbank Seller Att Fidelity Fund Reddy Balance (½) S78(2)(a) NEDBANK 1 500 000 Cash 15 000 1 515 000 REDDY I Cash VAN DER MERWE I Cash (½) BANK S78(2)(A) (REDDY) Cash 400 000 I Cash 
+1 824 (1)
 
-Reddy 22 000 
+Transfer ½ Allowance (1)
 
-LEGAL EDUCATION AND DEVELOPMENT {L.E.A.DJTM 
+# **QUESTION 3**
 
-50 000 
+**[25]**
 
-> [30]
+TRUST CASH BOOK
 
-400 000 1 500 000 500 000 15 000 22 000 2 38 5 000 4 822 000 1 515 000 1 515 000 400 000 1000 000 422 000 6NGUBANE 
+|  David ½ | (1) | 50 000 | Transfer to business | 36 000 | (1)  |
+| --- | --- | --- | --- | --- | --- |
+|   |  |  | David | 14 000 | (1)  |
+|   |  | DAVID (T) |  |  |   |
+|  Transfer to business | (1) | 36 000 | Deposit | 50 000 | (1)  |
+|  Bank self | (1) | 14 000 |  |  |   |
 
-# ICash 685 000 ADAMS 
+BUSINESS CASH BOOK
 
-# ICash 300 000 KHOZA Seller 500 000 
+|  Transfer ex trust | (1) | 36 000  |
+| --- | --- | --- |
 
-# ICash 500 000 (25) 4.2 TRUST LIABILITIES 
+DAVID (B)
 
-Reddy 400 000 Van Der Merwe 1000 000 Ngubane 685 000 Adams 300 000 2 385 000 
+|  Revenue stamps | (1) | 1800 | Transfer ex trust | 36 000 | (1)  |
+| --- | --- | --- | --- | --- | --- |
+|  Fees | (1) | 34 200 |  |  |   |
+|   |  | 36 000 |  | 36 000 |   |
 
-.@ 
+FEES
 
-TRUST FUNDS AVAILABLE 
+|   | David | 30 000 (1)  |
+| --- | --- | --- |
+|  REVENUE STAMPS  |   |   |
+|   | David | 1 800 (1)  |
 
-Trust cash book 2 385 000 
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
-Note to marker: one mark for each ledger and cash book entry and ½ mark for the bank investment headings. 
+4
 
-TOTAL: [100] 
+# VAT OUTPUT
 
-LEGAL EDUCATION AND DEVELOPMENT /L.E.A.DJTM 7
+|   | David | 4 200 (1)  |
+| --- | --- | --- |
+
+# FEES JOURNAL
+
+David (B) 34 200 (1)
+
+Fees 30 000 (1)
+
+Vat Output 4 200 (1)
+
+Fees in respect of registration of trust and preparation of estate plan
+
+# REVENUE/STAMP BUSINESS JOURNAL
+
+David (B) 1 800 (1)
+
+Revenue Stamps 1 800 (1)
+
+Stamps issued for registration of trust
+
+# TRANSFER JOURNAL
+
+David (T) 36 000 (1)
+
+David (B) 36 000 (1)
+
+Transfer fees and disbursements
+
+# ACCOUNTING STATEMENT
+
+David
+
+Re: Registration of trust and preparation of estate plan
+
+Deposit 50 000 (1)
+
+Revenue stamps (1) 1 800
+
+Our fees (1) 30 000
+
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
+
+5
+
+Vat at 14%
+
+(1) 4 200
+
+Cheque herewith
+
+(1) 14 000
+
+50 000 50 000
+
+# QUESTION 4
+
+[30]
+
+4.1
+
+TRUST CASH BOOK
+
+|  Reddy | 400 000 | Bank | 400 000  |
+| --- | --- | --- | --- |
+|  Van Der Merwe | 1 000 000 | Nedbank | 1 500 000  |
+|  Ngubane | 685 000 | Seller | 500 000  |
+|  Adams | 300 000 | Att Fidelity Fund | 15 000  |
+|  Khoza | 500 000 | Reddy | 22 000  |
+|  Nedbank | 1 515 000 | Balance | 2 385 000  |
+|  Bank | 422 000 |  |   |
+|   | 4 822 000 |  | 4 822 000  |
+
+(½) S78(2)(a) NEDBANK
+
+|  Cash | 1 500 000 | Cash | 1 515 000  |
+| --- | --- | --- | --- |
+|  Cash – Law Society | 15 000 |  |   |
+|   | 1 515 000 |  | 1 515 000  |
+
+# TRUST LEDGER
+
+REDDY
+
+|   | Cash | 400 000  |
+| --- | --- | --- |
+
+VAN DER MERWE
+
+|   | Cash | 1 000 000  |
+| --- | --- | --- |
+
+(½) BANK S78(2)(A) (REDDY)
+
+|  Cash | 400 000 | Cash | 422 000  |
+| --- | --- | --- | --- |
+|  Reddy | 22 000 |  |   |
+
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
+
+6
+
+NGUBANE
+
+|   | Cash | 685 000  |
+| --- | --- | --- |
+
+ADAMS
+
+|   | Cash | 300 000  |
+| --- | --- | --- |
+
+KHOZA
+
+|  Seller | 500 000 | Cash | 500 000  |
+| --- | --- | --- | --- |
+
+(25)
+
+### 4.2 TRUST LIABILITIES
+
+Reddy 400 000
+
+Van Der Merwe 1 000 000
+
+Ngubane 685 000
+
+Adams 300 000
+
+2 385 000
+
+(5)
+
+TRUST FUNDS AVAILABLE
+
+Trust cash book 2 385 000
+
+Note to marker: one mark for each ledger and cash book entry and ½ mark for the bank investment headings.
+
+TOTAL: [100]
+
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
+
+7

@@ -9,6 +9,10 @@ tags:
 
 # Close Corporations
 
+> [!important] Statutory Update (Companies Act 71 of 2008 & Current Tax Rates)
+> - **No New Close Corporations Since 1 May 2011**: Under Schedule 2 of the Companies Act 71 of 2008, **no new CCs may be incorporated** (no new CK1 filings) and **companies may no longer be converted into CCs** after 1 May 2011. Existing CCs continue indefinitely and **can** convert into companies under the 2008 Act.
+> - **Corporate Income Tax Rate**: Reduced from **28% to 27%** for years of assessment ending on or after 31 March 2023 (2009–2012 archive memos cite **28%**).
+
 The default "safe" recommendation across the FBE papers — appears in every sitting, usually as the answer to "which entity avoids personal liability?"
 
 ## Core characteristics

@@ -30,171 +30,299 @@ Official guideline model answers for Paper 4, 2018-10-16, recovered on 2026-10-1
 - Pairing and remaining gaps: [[notes/Board Exam Memo Coverage]].
 - Project: [[projects/Board Exam Archive]].
 - Text review: basic extraction checks passed; not fully proofread.
+- Alternate extraction: [[Attorneys Exam/Mistral OCR 2026-10-19/AttExam16Oct2018P4A]].
 
 ## Extracted guideline answers
 
-> I•')
+# **ADMISSION EXAMINATION / TOELATING SEKSAMEN  
+BOOKKEEPING / BOEKHOU  
+PART 4 / DEEL 4**
 
-## ADMISSION EXAMINATION I TOELATINGSEKSAMEN BOOKKEEPING I BOEKHOU PART4/ DEEL4 16 OCTOBER I OKTOBER 2018 ANSWERSIANTWOORDE PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAJ NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. 
+**16 OCTOBER / OKTOBER 2018**
 
-NOTE TO EXAMINER: This guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner should apply his discretion in marking the answer. 
+**ANSWERS/ANTWOORDE**
 
-QUESTION 1 [15] Supplementary Cash Book for September 2018✓ 
+**PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING.**
 
-Balance Interest 250 000 ✓ Incorrect deposit Correct Deposit 
+**NOTE TO EXAMINER:** This guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner should apply his discretion in marking the answer.
 
-EFT 
+# **QUESTION 1**
 
-33 900 ✓
+**[15]**
 
-120 000 ✓
+|  Supplementary Cash Book for September 2018✓  |   |   |
+| --- | --- | --- |
+|  Balance | 250 000✓ | Incorrect deposit 102 000✓  |
+|  Interest | 33 900✓ |   |
+|  Correct Deposit | 120 000✓ |   |
+|   | 300 |   |
+|  EFT | 000✓ |   |
+|   |  | Balance 601 900✓  |
+|   | 703 900 | 703 900✓  |
 
-300 000✓ 703 900 
+**Bank reconciliation statement as at 30 September 2018 ✓**
 
-Bank reconciliation sta Jment as at 30 September 2018 
+|  Balance as per bank statement Less: | 565 900 ✓  |
+| --- | --- |
+|  Outstanding eft | 24 000✓  |
+|  Subtotal | 541 900  |
+|  Plus: Outstanding deposit | 100 000✓  |
+|  Subtotal | 641 900  |
+|  Add: Outstanding deposit | 50 000✓  |
+|  Subtotal | 691 900  |
+|  Less: Bank error trust deposit | 90 000✓  |
+|  Balance as per cash book | 601 900✓  |
 
-Balance as per bank statement Less: Outstanding eft Subtotal Plus: Outstanding deposit Subtotal Add: Outstanding deposit Subtotal Less: Bank error trust deposit Balance as per cash book Balance 102 000 ✓
+**LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™**
 
-601900 ✓
+1
 
-703 900 ✓565 900 ✓ 24 000 ✓
+QUESTION 2
 
-541 900 100 000✓ 641 900 50 000 ✓
+[25]
 
-691 900 90 000 ✓
+# 2.1 Business Journal
 
-601 900✓ 
+ABC (Pty) Ltd Dr R2500
 
-LEGAL EDUCATION AND DEVELOPMENT [L.E.A.DJT M 1QUESTION 2 
+Disbursements Cr R2500
 
-2.1 Business Journal ABC (Pty) Ltd Disbursements Dr Cr R2500 Being Disbursements for Registration of Company 2.2 Transfer Journal Phumla Trust Phumla Bus Dr Cr Being Transfer of Fees 2.3 Business Journal Correspondent Fees Vat Dr Cr Cr Being 20% allowance on fees 2.4 Trust Journal Carnation Petunia 2.5 
+Being Disbursements for Registration of Company (3)
 
-2.6 
+# 2.2 Transfer Journal
 
-Being correction of error Bus Journal Fees Vat Peter Being reduction of fees Bus Journal Mrs Divorce Counsel Dr Cr Dr Dr Cr Dr Cr Being fees charged by Counsel R9000 R4600 R35000 R1000 R26 000 R2500 R9000 
+Phumla Trust Dr R9000
 
-LEGAL EDUCATION AND DEVELOPMENT [L.E.A.DJCM 
+Phumla Bus Cr R9000
 
-R4000 R 600 R35000 R150 R1150 
+Being Transfer of Fees (3)
 
-> R26 000
+# 2.3 Business Journal
 
-[251 
+Correspondent Dr R4600
 
-(3) (3) 
+Fees Cr R4000
 
-(4) 
+Vat Cr R 600
 
-(3) 
+Being 20% allowance on fees (4)
 
-> (3)
+# 2.4 Trust Journal
 
-(3) 
+Carnation Dr R35000
 
-> 2
+Petunia Cr R35000
 
-2. 7 Bus Journal Mr Debtor Interest Dr Cr 
+Being correction of error (3)
 
-R2200 
+# 2.5 Bus Journal
 
-Being interest on overdue account 2.8 Bus Journal MrX Fees Vat Being fees 
+Fees Dr R1000
 
-QUESTION 3 
+Vat Dr R150
 
-July 26 Cash seller Transfer to Business Dr Cr Cr 
+Peter Cr R1150
 
-R57 500 
+Being reduction of fees (3)
 
-Trust Led er : Mr Purchaser 
+# 2.6 Bus Journal
 
-1500000 July 06 Deposit 
+Mrs Divorce Dr R26 000
 
-105000 Costs 
+Counsel Cr R26 000
 
-R2200 R5 000 R7500 500000 125000 
+Being fees charged by Counsel (3)
 
-Proceeds of guarantee 1000000 
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
-Bank - Self Mr Purchaser 25000 Interest 
+2
 
-1630000 
+# 2.7 Bus Journal
 
-Trust Led er : Purchaser Trust Investment 78 2A 
+Mr Debtor
 
-'uly 11 Bank July 08 Transfer duty 
+Dr
 
-26 Fees 
+R2200
 
-500000 July 26 Cash 
+Interest
 
-Business Ledger : Fees 
+Cr
 
-I July 26 Purchaser 
+R2200
 
-Business Led er : Purchaser 
+Being interest on overdue account
 
-90000 15000 July 26 Transfer from Trust 
+(3)
 
-LEGAL EDUCATION AND DEVELOPMENT [L.E.A.DJCM 
+# 2.8 Bus Journal
 
-5000 1630000 500000 15000 105000 
+Mr X
 
-(3) (3) 
+Dr
 
-£30] 
+R57 500
 
-3July 06 Purchaser - Deposit Purchaser - Costs Trust Investment Bank guarantee July 26 Transfer from Trust 
+Fees
 
-Fees Journal 
+Cr
 
-July 26 Mr Purchaser (B) Fees Transfer and other fees Transfer Journal July 26 Mr Purchaser (T) Mr Purchaser (B) 
+R5 000
 
-Trust Cash Book 
+Vat
 
-500000 July 11 Trust Investment 125000 July 26 Seller 505000 Transfer to business 1000000 Mr Purchaser 
+Cr
 
-213QQQ0 
+R7500
 
-Business Cash Book 
+Being fees
 
-105 000 July 08 Transfer duty 15 000 105 000 Being transfer fees/disbursements 
+(3)
 
-QUESTION4 
+# QUESTION 3
 
-Mohamed Cash TRUST CASH BOOK 50 000 Buthelezi Transfer 
+[30]
 
-BUSINESS CASH BOOK 9 600 
+Trust Ledger : Mr Purchaser
 
-ITracing Agent 
+|  July 26 | Cash seller | 1500000 | July 06 | Deposit | 500000  |
+| --- | --- | --- | --- | --- | --- |
+|   | Transfer to Business | 105000 |  | Costs | 125000  |
+|   |  |  |  | Proceeds of guarantee | 1000000  |
+|   | Bank - Self Mr Purchaser | 25000 |  | Interest | 5000  |
+|   |  | 1630000 |  |  | 1630000  |
 
-LEGAL EDUCATION AND DEVELOPMENT [L.E.A.DJTM 
+Trust Ledger : Purchaser Trust Investment 78(2A)
 
-500000 1500000 105000 25000 
+|  July 11 | Bank | 500000 | July 26 | Cash | 500000  |
+| --- | --- | --- | --- | --- | --- |
 
-> 2:l3QQQQ
+Business Ledger : Fees
 
-90 000 15 000 105 000 40400 9 600 5000 
+July 26 Purchaser
 
-[30] 
+15000
 
-4Cash Cash Fees Cash Fees TRUST LEDGER Buthelezi 9 600 40400 Cash BUSINESS LEDGER Buthelezi 2 300 5000 2 300 Cash 
+Business Ledger : Purchaser
 
-Buthelezi Buthelezi IButhelezi Buthelezi 
+|  July 08 | Transfer duty | 90000 |  |  |   |
+| --- | --- | --- | --- | --- | --- |
+|  26 | Fees | 15000 | July 26 | Transfer from Trust | 105000  |
 
-STATEMENT OF ACCOUNT- BUTHELEZI To fee instructions 2300 To paid Tracing Agent 5000 By Cash Debtor 50 000 To Collection Commission 2300 EFT herewith 40400 50 000 50 000 
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
-LEGAL EDUCATION AND DEVELOPMENT [L.E.A.DJCM 
+3
 
-50 000 9600 2000 2000 300 300 (5 marks)  
+Trust Cash Book
 
-> 5'
+|  July 06 | Purchaser – Deposit | 500000 | July 11 | Trust Investment | 500000  |
+| --- | --- | --- | --- | --- | --- |
+|   | Purchaser – Costs | 125000 | July 26 | Seller | 1500000  |
+|   | Trust Investment | 505000 |  | Transfer to business | 105000  |
+|   | Bank guarantee | 1000000 |  | Mr Purchaser | 25000  |
+|   |  | 2130000 |  |  | 2130000  |
 
-.
+Business Cash Book
 
-FEE JOURNAL Buthelezi Fees Vat Being Fees Buthelezi Fees Vat Being Collection Commission Dr Cr Cr Dr Cr Cr 
+|  July 26 | Transfer from Trust | 105 000 | July 08 | Transfer duty | 90 000  |
+| --- | --- | --- | --- | --- | --- |
 
-2300 2 300 2000 300 2000 300 
+Fees Journal
 
-LEGAL EDUCATION AND DEVELOPMENT [L.E.A.DjfM 
+|  July 26 | Mr Purchaser (B) Fees Transfer and other fees | 15 000 | 15 000  |
+| --- | --- | --- | --- |
+
+Transfer Journal
+
+|  July 26 | Mr Purchaser (T) Mr Purchaser (B) Being transfer fees/disbursements | 105 000 | 105 000  |
+| --- | --- | --- | --- |
+
+# QUESTION 4
+
+[30]
+
+TRUST CASH BOOK
+
+|  Mohamed | 50 000 | Buthelezi Transfer | 40 400 9 600  |
+| --- | --- | --- | --- |
+
+BUSINESS CASH BOOK
+
+|  Cash | 9 600 | Tracing Agent | 5000  |
+| --- | --- | --- | --- |
+
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
+
+4
+
+# TRUST LEDGER
+
+Buthelezi
+
+|  Cash | 9 600 | Cash | 50 000  |
+| --- | --- | --- | --- |
+|  Cash | 40 400 |  |   |
+
+# BUSINESS LEDGER
+
+Buthelezi
+
+|  Fees | 2 300 | Cash | 9600  |
+| --- | --- | --- | --- |
+|  Cash | 5000 |  |   |
+|  Fees | 2 300 |  |   |
+|   |  | FEES |   |
+|   |  | Buthelezi | 2000  |
+|   |  | Buthelezi | 2000  |
+
+# VAT
+
+|   | Buthelezi | 300  |
+| --- | --- | --- |
+|   | Buthelezi | 300  |
+
+# STATEMENT OF ACCOUNT - BUTHELEZI
+
+To fee instructions 2300
+
+To paid Tracing Agent 5000
+
+By Cash Debtor 50 000
+
+To Collection Commission 2300
+
+EFT herewith 40 400
+
+50 000 50 000
+
+(5 marks)
+
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
+
+5
+
+# FEE JOURNAL
+
+|  Buthelezi | Dr | 2300 |   |
+| --- | --- | --- | --- |
+|  Fees | Cr |  | 2000  |
+|  Vat | Cr |  | 300  |
+
+Being Fees
+
+|  Buthelezi | Dr | 2 300 |   |
+| --- | --- | --- | --- |
+|  Fees | Cr |  | 2000  |
+|  Vat | Cr |  | 300  |
+
+Being Collection Commission
 
 TOTAL: [100]
+
+# LAW SOCIETY
+
+# OF SOUTH AFRICA
+
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
+
+6

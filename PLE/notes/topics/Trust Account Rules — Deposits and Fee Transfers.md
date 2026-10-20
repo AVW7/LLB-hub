@@ -9,6 +9,11 @@ tags:
 
 # Trust Account Rules — Deposits and Fee Transfers
 
+> [!important] Statutory Update (Legal Practice Act 28 of 2014 — Section 86)
+> - **Section 86(2) LPA** (formerly s78(1) Attorneys Act): General trust banking account — 100% of interest vests in the **Legal Practitioners' Fidelity Fund (LPFF)**.
+> - **Section 86(3) LPA** (formerly s78(2)(a)): Surplus trust investment account — 100% of interest vests in the **LPFF**.
+> - **Section 86(4) LPA** (formerly s78(2A)): Client-instructed trust investment account — under **s86(5)(b)**, **5%** of interest earned vests in the **LPFF** and **95%** accrues to the client.
+
 Distinct from the trust-theft scenario ([[Trust Account Theft and the Attorneys Fidelity Fund]]): this topic is the mechanics of handling money that is properly in trust — deposits taken in advance, idle trust funds, and when/how fees may be transferred out.
 
 ## Deposits taken in advance of fees

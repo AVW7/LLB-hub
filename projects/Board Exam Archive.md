@@ -36,39 +36,18 @@ This project maintains the recovered attorneys admission exam papers in the LLB 
 
 - [x] Save and index the 66 recovered official PDFs and their extracted Markdown.
 - [x] Correct the 14 affected sidecars and retain recoverable baselines.
-- [x] Save this work as linked Obsidian notes and update the dashboards and daily log.
-- [ ] Complete manual proofreading of bilingual text and financial tables against original PDF pages.
+- [x] Save 50 matching official 2015–2021 marking memoranda (`Official Memoranda 2015-2021`) and 50 structured Mistral OCR extracts (`Mistral OCR 2026-10-19`), and sync structured tables into the canonical memo sidecars.
+- [x] Review and align the flagged Estates (Paper 2) and Bookkeeping (Paper 4) financial tables (`AttExam21Aug2019P2A`, `AttExam6Mar2019P2A`, `AttExam15Oct2018P2A`, `AttExam23Aug2017P4A`, `AttExam9Feb2016P2A`, `AttExam16Aug2016P2A`, `AttExam17Aug2016P4A`, `AttExam19Feb2020P2A`) against the source PDFs.
+- [x] Expand `Attorneys Exam` study layer with 6 new Paper 2 / Paper 4 topic notes and 7 new `notes/qa/` self-test packs (including [[AttExam 2022-2023 Orphan Papers]]).
+- [x] Fix `.reindex.py` question/memo classification and deduplicate `.reindex.py` catalogue output.
+- [ ] Complete manual line-by-line proofreading of remaining unflagged bilingual passages against original PDF pages.
 
-## Recent Activity
+## Summary of 2026-10-19 Archive & OCR Updates
 
-- 2026-10-19: [[Logs/2026-10-19 - Board Exam Archive]] records recovery, OCR improvements and the Obsidian update.
-
-## Sources
-
-- Local verification: `.ocr-audit.json`, `.ocr-audit.md`, `.ocr_harness.py` and `.ocr-backups/20261019T204155/manifest.json` at the vault root.
-- [[notes/Board Exam OCR Audit]] preserves the official source URLs for the corrected papers.
-
-## Matching model answers - 2026-10-19
-
-- As of 2026-10-19, 50 matching official model-answer memos for the 66 newly added question papers are saved with searchable text and original PDFs.
-- [[notes/Board Exam Memo Coverage]] links every question/memo pair and lists the 16 unlocated official memos for 2022-2023.
-- Full proofreading remains open; flagged extracted memo text is identified in the coverage note.
-
-## Memo follow-up - 2026-10-19
-
-- Corrected 24 flagged characters in ten official memo extracts against 14 original PDF pages.
-- [[notes/Board Exam Memo Search - 2026-10-19]] records the follow-up source checks and partial or unofficial leads.
-- As of 2026-10-19, 50 official memos are saved and 16 official 2022-2023 memos remain unlocated; full proofreading is still open.
-
-## Mistral OCR exports - 2026-10-19
-
-- [[notes/Board Exam Mistral OCR - 2026-10-19]] links 50 searchable alternative memo extracts covering 332 pages and the downloaded ZIP exports.
-- Originals and existing corrected extracts are preserved; Mistral financial tables and full transcription still need source review. Official coverage remains 50 memos with 16 recent gaps.
-
-## Mistral local search complete - 2026-10-19
-
-- Local retrieval now includes the 50 Mistral memo extracts and their review report. Three scoped public exam queries returned the intended memos at ranks 1, 3 and 1 among these 50 extracts.
-- See [[notes/Board Exam Mistral OCR - 2026-10-19]] for source completeness checks and remaining transcription-review limits. Official memo coverage remains 50 saved, with 16 recent official memos unlocated.
+- **Question Papers**: 66 official PDFs (2015–2023) with audited sidecars ([[notes/Board Exam OCR Audit]]).
+- **Model-Answer Memoranda**: 50 official 2015–2021 memos paired in [[notes/Board Exam Memo Coverage]] and upgraded with structured tables from [[notes/Board Exam Mistral OCR - 2026-10-19]]; 16 official 2022–2023 memos remain unlocated after publisher catalogue searches ([[notes/Board Exam Memo Search - 2026-10-19]]).
+- **Local RAG Search**: Local retrieval index verified across vault sources via `127.0.0.1:11434` (`embeddinggemma-2:270m`).
+- **Work Log**: [[Logs/2026-10-19 - Board Exam Archive]] and [[Logs/2026-10-19]].
 
 ## Candidate model answers for 2022-2023 (pending verification) - 2026-10-19
 

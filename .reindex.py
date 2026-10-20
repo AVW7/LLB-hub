@@ -63,7 +63,7 @@ def extract(path):
 
 
 def parse_name(fname, rel_path=""):
-    """Return (subject, date_label, role) from the naming convention."""
+    """Return (subject, role) from the naming convention."""
     stem = os.path.splitext(fname)[0]
     subj = None
     up = stem.upper()
@@ -92,6 +92,13 @@ def parse_name(fname, rel_path=""):
                 subj = "Attorneys Exam"
             elif parent_up.startswith("ATTORNEY"):
                 subj = "Attorneys Exam"
+    # Check top-level module folder if still not matched
+    if not subj and rel_path.startswith("./"):
+        top_folder = rel_path[2:].split("/", 1)[0].rstrip()
+        if top_folder in SUBJECTS:
+            subj = top_folder
+        elif top_folder.startswith("LSSA"):
+            subj = "LSSA"
     # Use parent folder name for role detection when dealing with extracted PDF markdown files
     role_stem = pdf_parent if pdf_parent else stem
     role_up = role_stem.upper()
@@ -122,14 +129,12 @@ def detect_type(text, role, fname):
         return "slides"
     if role == "template":
         return "template"
-    if "guideline to markers" in t or "memorandum" in t or "guide" in t and role == "answer":
-        return "marking_memo"
-    if role == "answer":
-        return "marking_memo"
-    if "assignment" in t and role in ("question",):
-        return "assignment"
     if role == "question":
+        if "assignment" in t and ("assq" in fname.lower() or "assignment" in fname.lower()):
+            return "assignment"
         return "exam_question"
+    if (("guideline to markers" in t or "memorandum" in t or "guide" in t) and role == "answer") or role == "answer":
+        return "marking_memo"
     if role == "lecture":
         return "lecture_qa"
     return "general"
@@ -210,7 +215,11 @@ def quality(text, ext, role):
 
 def parse_date_from_filename(filename):
     """Extract date from filename like 'CCP30Jan2010Q.doc' or 'HCP2012(1)Q.doc'"""
-    # Try: DDMMMYYYY pattern first (30Jan2010) - most specific
+    # Try: YYYY-MM-DD pattern first (AttExam 2016-02-09.md)
+    m = re.search(r'(\d{4})-(\d{2})-(\d{2})', filename)
+    if m:
+        return datetime.date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+    # Try: DDMMMYYYY pattern (30Jan2010)
     m = re.search(r'(\d{1,2})(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)(\d{4})', filename, re.I)
     if m:
         day, mon, year = int(m.group(1)), m.group(2).capitalize(), int(m.group(3))
@@ -348,18 +357,30 @@ def generate_subdir_readmes(entries, subjects):
 
 def main():
     entries = []
+    skip_dirs = {"pages", "Mistral OCR 2026-10-19", "exports", "assets", "Logs", "Templates", "people", "projects", "Attachments"}
+    root_skip_files = {"CLAUDE.md", "_CLAUDE.md", "LEARNINGS.md", "MEMORY.md", "brain.md", "decisions.md", "LLB Hub Dashboard.md", "LLB Hub.base"}
     for root, dirs, files in os.walk(HUB):
-        # Skip hidden dirs and PDF page extraction subdirectories
-        dirs[:] = [d for d in dirs if not d.startswith(".") and d != "pages"]
+        # Skip hidden dirs, PDF page extraction subdirectories, and alternate OCR / non-archive root dirs
+        rel_root = os.path.relpath(root, HUB)
+        dirs[:] = [
+            d for d in dirs
+            if not d.startswith(".")
+            and d not in skip_dirs
+            and not (rel_root == "." and d == "notes")
+        ]
         for f in sorted(files):
             if f.startswith(".") or f.startswith("~$") or f in SKIP:
+                continue
+            if rel_root == "." and f in root_skip_files:
+                continue
+            ext = f.lower().rsplit(".", 1)[-1]
+            if ext in ("zip", "json"):
                 continue
             path = os.path.join(root, f)
             rel = "./" + os.path.relpath(path, HUB)
             # Skip if inside a pages/ subdirectory (PDF extraction artifacts)
             if "/pages/" in rel:
                 continue
-            ext = f.lower().rsplit(".", 1)[-1]
             subj, role = parse_name(f, rel)
             # Check folder path for subject assignment (handles LSSA & Miscellaneous / with trailing space)
             if not subj:

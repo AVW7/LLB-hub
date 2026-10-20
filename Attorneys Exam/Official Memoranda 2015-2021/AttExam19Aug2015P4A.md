@@ -33,98 +33,294 @@ Official guideline model answers for Paper 4, 2015-08-19, recovered on 2026-10-1
 - Pairing and remaining gaps: [[notes/Board Exam Memo Coverage]].
 - Project: [[projects/Board Exam Archive]].
 - Text review: flagged characters corrected against rendered source pages; full transcription has not been proofread.
+- Alternate extraction: [[Attorneys Exam/Mistral OCR 2026-10-19/AttExam19Aug2015P4A]].
 
 ## Extracted guideline answers
 
-# ADMISSION EXAMINATIONI TOELATINGSEKSAMEN BOOKKEEPING IBOEKHOU PART4/DEEL4 19 AUGUST I 19 AUGUST 2015 ANSWERS IANTWOORDE 
+# ADMISSION EXAMINATION / TOELATINGSEKSAMEN
 
-PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAWAND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: T!,is guideline records tlie views of tl,e drafters. T!,ere may be justifiable variations in practice whicl, are brought out in the answers. W/1e11 this J,appens the examiner should apply his discretion in marking the answer.  
+# BOOKKEEPING / BOEKHOU
 
-> QUESTION 1 (301
+PART 4 / DEEL 4
 
-Amount to be transferred from Trust Account to Business is R116500 & Business to Trust is R7000 (8) 
+19 AUGUST / 19 AUGUST 2015
 
-Balance after transfer 
+ANSWERS / ANTWOORDE
 
-TRUST BUSINESS Xerox Machines (40 000) Black 99000 White 210 000 Green 9500 Blue 2 000 Red 140 000 Lazarus 37 000 Zulu 34 000 (8) 
+PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING.
 
-TRANSFER JOURNAL 
+NOTE TO EXAMINER:
 
-Black (T) Dr 35 000 White (T) Dr 30 000 Green (T) Dr 6500 Lazarus (T) Dr 45 000 Black (B) Cr 35 000 White (B) Cr 30 000 Green (B) Cr 6500 Lazarus (B) Cr 45 000 Zulu (B) Dr 7 000 
+This guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner should apply his discretion in marking the answer.
 
-Zulu (T) Cr 7 000 
+QUESTION 1
 
-(10) 
+[30]
 
-LEGAL EDUCATION AND DEVELOPMENT [LE.A.DJ© 
+Amount to be transferred from Trust Account to Business is R116 500 & Business to Trust is R7000 (8)
 
-> 1
+Balance after transfer
 
-Debt Business Cash Book Credit Trust Cash Book Debit Trust Cash Book Credit Business Book R116 500 R116 500 R7 000 R7000 
+|   | TRUST | BUSINESS  |
+| --- | --- | --- |
+|  Xerox Machines |  | (40 000)  |
+|  Black | 99 000 | -  |
+|  White | 210 000 | -  |
+|  Green | 9 500 | -  |
+|  Blue | - | 2 000  |
+|  Red | 140 000 | -  |
+|  Lazarus | - | 37 000  |
+|  Zulu | - | 34 000  |
+|   |  | (8)  |
 
-# (4) 
+TRANSFER JOURNAL
 
-> QUESTION 2
+|  Black | (T) | Dr | 35 000 |   |
+| --- | --- | --- | --- | --- |
+|  White | (T) | Dr | 30 000 |   |
+|  Green | (T) | Dr | 6 500 |   |
+|  Lazarus | (T) | Dr | 45 000 |   |
+|  Black | (B) | Cr |  | 35 000  |
+|  White | (B) | Cr |  | 30 000  |
+|  Green | (B) | Cr |  | 6 500  |
+|  Lazarus | (B) | Cr |  | 45 000  |
+|  Zulu | (B) | Dr | 7 000 |   |
+|  Zulu | (T) | Cr |  | 7 000  |
+|   |  |  |  | (10)  |
 
-[1 mark each entry] [40) Green Bank A Mrs Purchaser Various clients Mrs Purchaser Bank C White Stock Broker Cash TRUST CASH BOOK 200 000 Bank A 50 000 Counsel 350 000 Bank B 700 000 Bank C 100 000 Receiver of Rev 403 500 Fidelity Fund 100 000 Stock Broker 66 000 Balance 1969500 GREEN TRUST LEDGER 30 000 I Cash 200 000 30 000 300 000 500 000 40 000 3 500 60 000 836 000 196 9 500 200 000 BANK A - TRUST INV S78 (2) (A} GREEN Cash 200 000 I Cash 50 000 Cash MRS PURCHASER - TRUST LEDGER 40 000 I Cash Cash 350 000 100 000 BANK B - TRUST INV S78 (2) {A) MRS PURCHASER Cash 300 000 j 
+1
 
-LEGAL EDUCATION AND DEVELOPMENT [L.E.A.DJ<O 
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]©
 
-(15) (2) (2) (3) (1) 
+|  Debt Business Cash Book | R116 500  |
+| --- | --- |
+|  Credit Trust Cash Book | R116 500  |
+|  Debit Trust Cash Book | R7 000  |
+|  Credit Business Book | R7000  |
 
-> 2
+(4)
 
-VARIOUS CLIENTS TRUST LEDGER I Cash 700 000 BANK C-TRUST INVEST S78 2 aCash Cash Cash 500 000 Cash 403 500 3 500 WHITE - TRUST LEDGER 60 000 [ Cash Cash 100 000 66 000 LIST OF TRUST CREDITORS Green Mrs Purchaser Various Clients White Total trust Liability Trust Funds Available Trust Cash Book Balance S78 (2)(A) Green S78(2)(A) Mrs Purchaser S78 (2)(a) 170 000 410 000 700 000 10 6 000 1 386000 836000 150 000 300 000 100 000 1 386000 (1) 
+[1 mark each entry]
 
-(3) (3) 
+QUESTION 2 [40]
 
-(5) (5) [1 mark for each correct entry] 
+|  TRUST CASH BOOK  |   |   |   |
+| --- | --- | --- | --- |
+|  Green | 200 000 | Bank A | 200 000  |
+|  Bank A | 50 000 | Counsel | 30 000  |
+|  Mrs Purchaser | 350 000 | Bank B | 300 000  |
+|  Various clients | 700 000 | Bank C | 500 000  |
+|  Mrs Purchaser | 100 000 | Receiver of Rev | 40 000  |
+|  Bank C | 403 500 | Fidelity Fund | 3 500  |
+|  White | 100 000 | Stock Broker | 60 000  |
+|  Stock Broker | 66 000 | Balance | 836 000  |
+|   | 1 969 500 |  | 1 969 500  |
 
-> 3
+(15)
 
-LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D] (C) QUESTION 3 (30] 
+|  GREEN TRUST LEDGER  |   |   |   |
+| --- | --- | --- | --- |
+|  Cash | 30 000 | Cash | 200 000  |
 
-3.1 Debit Trust Cash Book and (Credit Correspondent in the Trust Ledger Account) TRUST CASH BOOK Correspondent 7 500 I3.2 Trust Journal White Correspondent Vat Dr Cr Cr 1140 1000 140 Being Fees charged by Correspondent on collection matter 3.3 3.4 3.5 3.6 3.7 Business Journal/Fee Journal Correspondent Dr 228 
+(2)
 
-Fees Cr 200 Vat Cr 28 
+|  BANK A - TRUST INV S78 (2) (A) GREEN  |   |   |   |
+| --- | --- | --- | --- |
+|  Cash | 200 000 | Cash | 50 000  |
 
-Being allowance on fees received from Correspondent Business Journal XYZ (Pty) Ltd Dr 500 Revenue stamps Cr Being stamps used for company registration Business Journal Revenue stamps Dr XYZ (Pty) Ltd er Being stamps returned - not used Journal/Business Journal XYZ (Pty) Ltd Dr Fees Cr Vat Cr 100 5700 Being fees charged for registration of company Debit Business Cash Book (Credit Ledger) BUSINESS CASH BOOK XYZ (Pty) Ltd 6 100 500 100 5000 700 
+(2)
 
-LEGAL EDUCATION AND DEVELOPMENT {L.E.A.DJ© 
+|  MRS PURCHASER - TRUST LEDGER  |   |   |   |
+| --- | --- | --- | --- |
+|  Cash | 40 000 | Cash | 350 000  |
+|   |  | Cash | 100 000  |
 
-(2) 
+(3)
 
-(2) 
+|  BANK B - TRUST INV S78 (2) (A) MRS PURCHASER  |   |
+| --- | --- |
+|  Cash | 300 000  |
 
-# (2) (2) 
+(1)
 
-(2) 
+2
 
-# (2) 
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]©
 
-> (2)
-> 4
+VARIOUS CLIENTS TRUST LEDGER
 
-3.8 Credit Business Cash Book (Debit Ledger) BUSINESS CASH BOOK I XYZ (Pty) Ltd (RD Cheque) 3.9 Transfer Journal (Trust/Business Cash Books) Green Trust Ledger Dr 5000 6100 Green Business Ledger Cr 5000 Being Transfer of funds from Trust to Business Transfer 3.10 Trust Journal ABDr Cr Being incorrect credit 3.11 Business Journal Counsel Dr Mrs Divorce Cr Being counsel's fees TRUST CASH BOOK I Transfer 5000 BUSINESS CASH BOOK 
+|   | Cash | 700 000  |
+| --- | --- | --- |
 
-# sooo I 
+BANK C - TRUST INVEST S78 (2)(a)
 
-10 000 10 000 5 700 5 700 3.12 Credit Trust Cash Book for R7 500 (Debit Trust Ledger of Black) TRUST CASH BOOK I Black RID 7 500 10 000 
+|  Cash | 500 000 | Cash | 403 500  |
+| --- | --- | --- | --- |
+|  Cash | 3 500 |  |   |
 
-# (2) 
+WHITE - TRUST LEDGER
 
-(4) (2) (2) You credit Trust Cash Book for R10 000 (and debit Black's Trust Ledger). You transfer R10 000 from Business Cash Book to Trust Cash Book 
+|  Cash | 60 000 | Cash | 100 000  |
+| --- | --- | --- | --- |
+|   |  | Cash | 66 000  |
 
-> 5
+(3)
 
-LEGAL EDUCATIONAND DEVELOPMENT [L.E.A.DJ© T/F (Black) TRUST CASH BOOK 10 ooo I
+LIST OF TRUST CREDITORS
 
-BUSINESS CASH BOOK 
+|  Green | 170 000  |
+| --- | --- |
+|  Mrs Purchaser | 410 000  |
+|  Various Clients | 700 000  |
+|  White | 106 000  |
 
-# I T/F (Black) 
+Total trust Liability 1 386 000 (5)
 
-LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D)© 
+Trust Funds Available
 
-10 000 (6) 
+|  Trust Cash Book Balance | 836 000  |
+| --- | --- |
+|  S78 (2)(A) Green | 150 000  |
+|  S78(2)(A) Mrs Purchaser | 300 000  |
+|  S78 (2)(a) | 100 000  |
+
+1 386 000 (5)
+
+[1 mark for each correct entry]
+
+3
+
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]©
+
+QUESTION 3
+
+[30]
+
+3.1 Debit Trust Cash Book and (Credit Correspondent in the Trust Ledger Account)
+
+|  TRUST CASH BOOK  |   |   |
+| --- | --- | --- |
+|  Correspondent | 7 500 |   |
+|   |  | (2)  |
+
+3.2 Trust Journal
+
+|  White | Dr | 1140 |   |
+| --- | --- | --- | --- |
+|  Correspondent | Cr |  | 1000  |
+|  Vat | Cr |  | 140  |
+
+Being Fees charged by Correspondent on collection matter (2)
+
+3.3 Business Journal/Fee Journal
+
+|  Correspondent | Dr | 228 |   |
+| --- | --- | --- | --- |
+|  Fees | Cr |  | 200  |
+|  Vat | Cr |  | 28  |
+
+Being allowance on fees received from Correspondent (2)
+
+3.4 Business Journal
+
+|  XYZ (Pty) Ltd | Dr | 500 |   |
+| --- | --- | --- | --- |
+|  Revenue stamps | Cr |  | 500  |
+|  Being stamps used for company registration |   |   | (2)  |
+
+3.5 Business Journal
+
+|  Revenue stamps | Dr | 100 |   |
+| --- | --- | --- | --- |
+|  XYZ (Pty) Ltd | Cr |  | 100  |
+|  Being stamps returned – not used |   |   | (2)  |
+
+3.6 Journal/Business Journal
+
+|  XYZ (Pty) Ltd | Dr | 5 700 |   |
+| --- | --- | --- | --- |
+|  Fees | Cr |  | 5000  |
+|  Vat | Cr |  | 700  |
+|  Being fees charged for registration of company |   |   | (2)  |
+
+3.7 Debit Business Cash Book (Credit Ledger)
+
+|  BUSINESS CASH BOOK  |   |   |
+| --- | --- | --- |
+|  XYZ (Pty) Ltd | 6 100 |   |
+|   |  | (2)  |
+
+4
+
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]©
+
+# 3.8 Credit Business Cash Book (Debit Ledger)
+
+BUSINESS CASH BOOK
+
+|  XYZ (Pty) Ltd (RD Cheque) | 6 100  |
+| --- | --- |
+
+# 3.9 Transfer Journal (Trust/Business Cash Books)
+
+|  Green Trust Ledger | Dr | 5000  |
+| --- | --- | --- |
+|  Green Business Ledger | Cr | 5000  |
+|  Being Transfer of funds from Trust to Business  |   |   |
+
+TRUST CASH BOOK
+
+|   | Transfer | 5000  |
+| --- | --- | --- |
+|  BUSINESS CASH BOOK  |   |   |
+|  Transfer | 5000 |   |
+
+# 3.10 Trust Journal
+
+|  A | Dr | 10 000  |
+| --- | --- | --- |
+|  B | Cr | 10 000  |
+|  Being incorrect credit |   | (2)  |
+
+# 3.11 Business Journal
+
+|  Counsel | Dr | 5 700  |
+| --- | --- | --- |
+|  Mrs Divorce | Cr | 5 700  |
+|  Being counsel's fees |   | (2)  |
+
+# 3.12 Credit Trust Cash Book for R7 500 (Debit Trust Ledger of Black)
+
+TRUST CASH BOOK
+
+|  Black | 7 500  |
+| --- | --- |
+|  R/D | 10 000  |
+
+You credit Trust Cash Book for R10 000 (and debit Black's Trust Ledger). You transfer R10 000 from Business Cash Book to Trust Cash Book
+
+5
+
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]©
+
+|  TRUST CASH BOOK  |   |
+| --- | --- |
+|  T/F (Black) | 10 000  |
+
+|  BUSINESS CASH BOOK  |   |
+| --- | --- |
+|  T/F (Black) | 10 000  |
+
+(6)
 
 TOTAL: [100]
+
+![img-0.jpeg](../Mistral OCR 2026-10-19/assets/AttExam19Aug2015P4A/pages/page-6/img-0.jpeg)
+
+# LAW SOCIETY
+
+# OF SOUTH AFRICA
+
+6
+
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]©

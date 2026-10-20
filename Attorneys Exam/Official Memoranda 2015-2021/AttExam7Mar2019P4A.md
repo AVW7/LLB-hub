@@ -30,145 +30,269 @@ Official guideline model answers for Paper 4, 2019-03-07, recovered on 2026-10-1
 - Pairing and remaining gaps: [[notes/Board Exam Memo Coverage]].
 - Project: [[projects/Board Exam Archive]].
 - Text review: basic extraction checks passed; not fully proofread.
+- Alternate extraction: [[Attorneys Exam/Mistral OCR 2026-10-19/AttExam7Mar2019P4A]].
 
 ## Extracted guideline answers
 
-## ADMISSION EXAMINATION I TOELATINGSEKSAMEN LEGAL PRACTITIONERS' BOOKKEEPING I REGSPRAKTISYNSBOEKHOU PART4/ DEEL4 
+# ADMISSION EXAMINATION / TOELATINGSEKSAMEN
+LEGAL PRACTITIONERS' BOOKKEEPING / REGSPRAKTISYNSBOEKHOU
+PART 4 / DEEL 4
 
-7 MARCH I MAART 2019 ANSWERSIANTWOORDE PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. 
+7 MARCH / MAART 2019
 
-NOTE TO EXAMINER: This guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner should apply his discretion in marking the answer. 
+ANSWERS/ANTWOORDE
 
-QUESTION 1 [151 Business Cash Book for June 2018✓ 1
+PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING.
 
-150 000✓ (1) Balance Incorrect Deposit error 180 000✓ (1) deposit Bank Balance 99 800 ✓ (1) Charges 429 800 
+NOTE TO EXAMINER:
 
-Bank reconciliation statement as at 30 June 2018 ✓ (1) Balance as per cash book Add: Bank error Subtotal Less: Outstanding eft Balance as per bank statement 
+This guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner should apply his discretion in marking the answer.
 
-LAW SOCIETY OF SOUTH AFRICA 
+QUESTION 1
 
-Interest 
+[15]
 
-LEGAL EDUCATION AND DEVELOPMENT [L.E.A.DffM 
+Supplementary Business Cash Book for June 2018✓ (1)
 
-300 000✓ (1) 108 000✓ (1) 5 600 ✓ (1) 16 200 ✓ (1) 429 800 ✓
+|  Deposit | 150 000✓ (1) | Balance | 300 000✓ (1)  |
+| --- | --- | --- | --- |
+|  Deposit error | 180 000✓ (1) | Incorrect deposit | 108 000✓ (1)  |
+|  Balance | 99 800✓ (1) | Bank Charges | 5 600✓ (1)  |
+|   |  | Interest | 16 200✓ (1)  |
+|   | 429 800 |  | 429 800✓  |
 
-99 800(O/D) ✓ (1) 105 000 ✓ (1) 204 800 ✓ (1) 160 000 ✓ (1) 44 800(O/D) ✓ (2) 
+Bank reconciliation statement as at 30 June 2018✓ (1)
 
-1QUESTION 2 
+Balance as per cash book
 
-2.1 
+Add: Bank error
 
-Nedbank - Sibusiso Nedbank Gloria Various Clients Gloria - Costs ABSA Martin Stock Broker Counsel Cash SARS - Transfer Duty TRUST CASH BOOK 1000 000 Nedbank 250 000 Counsel - Sibusiso 2 500 000 Capitec (Gloria) 3 500 000 ABSA 250 000 Sars 2024 000 Fidelity Fund 500 000 Stock Broker 348 000 Balance 10 372000 TRUST LEDGER SIBUSISO 150 000 
+Subtotal
 
-ICash 
+Less: Outstanding eft
 
-S 86(4) Sibusiso Nedbank 1000 000 
+Balance as per
 
-ICash 
+bank statement
 
-GLORIA 200 000 Cash Cash Costs 
+99 800(O/D)✓ (1)
 
-LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D/rM 
+105 000✓ (1)
 
-[40] 
+204 800✓ (1)
 
-1 000 000 150 000 2 000 000 3 000 000 200 000 24 000 296 000 3 702 000 10 372 000 
+160 000✓ (1)
 
-(15) 1000 000 250 000 2 500 000 250 000 
+44 800(O/D)✓ (2)
 
-2Cash Cash Fidelity Fund Cash (Shares) LIST OF TRUST CREDITORS 2.2 Sibusiso Gloria Sundry clients Martin 
+LAW SOCIETY OF SOUTH AFRICA
 
-Total Trust liabilities 
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
-S 86(4} GLORIA- CAPITEC 2 000 000 VARIOUS CLIENTS 
+1
 
-ICash 
+QUESTION 2
 
-S 86(3) ASSA 3 000 ooo Cash 
+[40]
 
-24 000 MARTIN TRUST LEDGER 296 000 Cash 
+2.1
 
-Cash 
+TRUST CASH BOOK
 
-(1 mark for each cash book and ledger entry) 
+|  Nedbank - Sibusiso | 1 000 000 | Nedbank | 1 000 000  |
+| --- | --- | --- | --- |
+|  Nedbank | 250 000 | Counsel – Sibusiso | 150 000  |
+|  Gloria | 2 500 000 | Capitec (Gloria) | 2 000 000  |
+|  Various Clients | 3 500 000 | ABSA | 3 000 000  |
+|  Gloria - Costs | 250 000 | Sars | 200 000  |
+|  ABSA | 2 024 000 | Fidelity Fund | 24 000  |
+|  Martin | 500 000 | Stock Broker | 296 000  |
+|  Stock Broker | 348 000 | Balance | 3 702 000  |
+|   | 10 372 000 |  | 10 372 000  |
+|   |  |  | (15)  |
 
-850 000 2 550 000 3 500 000 552 000 
+TRUST LEDGER
 
-7 452 000 
+SIBUSISO
 
-LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.DJ™ 
+|  Counsel | 150 000 | Cash | 1 000 000  |
+| --- | --- | --- | --- |
 
-3 500 000 2 024 000 500 000 348 000 
+S 86(4) Sibusiso Nedbank
 
-(33) 
+|  Cash | 1 000 000 | Cash | 250 000  |
+| --- | --- | --- | --- |
 
-(3) 32.3 Trust Funds Available: As Per Trust Cash Book S86(4) Sibusiso S86(4) Gloria S86(3) 
+GLORIA
 
-QUESTION 3 
+|  SARS – Transfer Duty | 200 000 | Cash | 2 500 000  |
+| --- | --- | --- | --- |
+|   |  | Cash Costs | 250 000  |
 
-Patricia Financial Adviser Transfer to Business Bank - Patricia Transfer ex Trust Fees and VAT 3 702 000 750 000 2 000 000 1 000 000 7 452 000 
+LAW SOCIETY OF SOUTH AFRICA
 
-Trust Cash Book 
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
-25000 Financial Adviser Transfer to Business Patricia 
+2
 
-Patricia Trust Account 
+# S 86(4) GLORIA - CAPITEC
 
-3450 Deposit 11500 10050 2.fil)_QQ 
+|  Cash | 2 000 000  |
+| --- | --- |
 
-Business Cash Book 
+# VARIOUS CLIENTS
 
-11500 
+|   | Cash | 3 500 000  |
+| --- | --- | --- |
 
-# I
+# S 86(3) ABSA
 
-Patricia B
+|  Cash | 3 000 000 | Cash | 2 024 000  |
+| --- | --- | --- | --- |
+|  Fidelity Fund | 24 000 |  |   |
 
-115.Q.Q Transfer ex Trust 
+# MARTIN TRUST LEDGER
 
-Fees 
+|  Cash (Shares) | 296 000 | Cash | 500 000  |
+| --- | --- | --- | --- |
+|   |  | Cash | 348 000  |
 
-# I Patricia 
+(1 mark for each cash book and ledger entry) (33)
 
-Output VAT (1 mark for each cashbook and ledger entry) 
+# LIST OF TRUST CREDITORS
 
-LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D/™ 
+|  2.2 | Sibusiso | 850 000  |
+| --- | --- | --- |
+|   | Gloria | 2 550 000  |
+|   | Sundry clients | 3 500 000  |
+|   | Martin | 552 000  |
+|   | **Total Trust liabilities** | **7 452 000**  |
 
-(4) 
+LAW SOCIETY OF SOUTH AFRICA
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
-[301 
+3
 
-3450 11500 10050 2.fil)_QQ 25000 
+# 2.3 Trust Funds Available:
 
-# --
+|  As Per Trust Cash Book | 3 702 000  |
+| --- | --- |
+|  S86(4) Sibusiso | 750 000  |
+|  S86(4) Gloria | 2 000 000  |
+|  S86(3) | 1 000 000  |
+|   | 7 452 000  |
 
-2.fil)_QQ 115.Q.Q 10000 1500 (13) 
+(4)
 
-4Fees Journal Patricia (B) Fees Output VAT Fees and VAT - Trust Transfer Journal Patricia (T) Patricia (B) Fees Transfer Accounting Statement Patricia Deposit Paid Financial Adviser Fees VAT@15% Cheque herewith 11500 10000 1500 (5) 11500 11500 (4) 25000 3450 10000 1500 10050  
+# QUESTION 3
 
-> 2.50.QQ 2.50.QQ
+[30]
 
-(8)  
+Trust Cash Book
 
-> QUESTION 4 [151
+|  Patricia | 25000 | Financial Adviser | 3450  |
+| --- | --- | --- | --- |
+|   |  | Transfer to Business | 11500  |
+|   | — | Patricia | 10050  |
+|   | 25000 |  | 25000  |
 
-4.1.1 At the conclusion of the matter; (1) 4.1.2 Yes (1) 4.1.3 All monies received, all disbursements made, the fee charged plus Vat. (3) 
+Patricia Trust Account
 
-(30) 
+|  Financial Adviser | 3450 | Deposit | 25000  |
+| --- | --- | --- | --- |
+|  Transfer to Business | 11500 |  |   |
+|  Bank - Patricia | 10050 |  | —  |
+|   | 25000 |  | 25000  |
+|  Business Cash Book  |   |   |   |
+|  Transfer ex Trust | 11500 |  |   |
 
-4.2.1 An attorney must open a Trust Banking Account (section 86(2)), and record all transactions in a Trust Cash Book, Journal and Ledger. The attorney must also open a Business Banking Account and record all business transactions in a Business Cash Book, Journal and Ledger. The accounting records must record how ALL Trust monies are dealt with including disbursements, payments to third parties, fee transfers and payments to client. 4.2.2 Section 87 states that the accounting records must contain detail of (a) money received and paid on its own account; (b) money received and paid on account of any person; (c) money invested in terms of section 86; (d) any interest on such investments. 4.2.3 Accounting records include those relating to 
+Patricia (B)
 
-LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.DffM 5(a) money held in trust; (b) money invested (section 86); (c) any estate of which practitioners (or administers on behalf of) is the executor, trustee or curator; (d) The affairs of the practice. 
+|  Fees and VAT | 11500 | Transfer ex Trust | 11500  |
+| --- | --- | --- | --- |
+|  Fees  |   |   |   |
+|   |  | Patricia | 10000  |
 
-NOTE TO EXAMINER: 
+Output VAT
 
-(10) 
+|   | 1500  |
+| --- | --- |
+|  (1 mark for each cashbook and ledger entry) | (13)  |
 
-Since most candidates will not have seen the new manuals do not penalise references to old sections: 78(1) instead of 86(2) 78(2)(a) instead of 86(3) 78 (2A) instead of 86(4) 
+LAW SOCIETY OF SOUTH AFRICA
 
-LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.DffM 
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
-TOTAL: (100] 
+4
+
+|  Fees Journal |  | (30)  |
+| --- | --- | --- |
+|  Patricia (B) | 11500 |   |
+|  Fees |  | 10000  |
+|  Output VAT |  | 1500  |
+|  Fees and VAT - Trust |  | (5)  |
+|  Transfer Journal |  |   |
+|  Patricia (T) | 11500 |   |
+|  Patricia (B) |  | 11500  |
+|  Fees Transfer |  | (4)  |
+|  Accounting Statement |  |   |
+|  Patricia |  |   |
+|  Deposit |  | 25000  |
+|  Paid Financial Adviser | 3450 |   |
+|  Fees | 10000 |   |
+|  VAT @ 15% | 1500 |   |
+|  Cheque herewith | 10050 |   |
+|   | 25000 | 25000  |
+|   |  | (8)  |
+
+# QUESTION 4 [15]
+
+4.1.1 At the conclusion of the matter, (1)
+4.1.2 Yes (1)
+4.1.3 All monies received, all disbursements made, the fee charged plus Vat. (3)
+4.2.1 An attorney must open a Trust Banking Account (section 86(2)), and record all transactions in a Trust Cash Book, Journal and Ledger. The attorney must also open a Business Banking Account and record all business transactions in a Business Cash Book, Journal and Ledger. The accounting records must record how ALL Trust monies are dealt with including disbursements, payments to third parties, fee transfers and payments to client.
+4.2.2 Section 87 states that the accounting records must contain detail of
+
+(a) money received and paid on its own account;
+(b) money received and paid on account of any person;
+(c) money invested in terms of section 86;
+(d) any interest on such investments.
+
+4.2.3 Accounting records include those relating to
+
+LAW SOCIETY OF SOUTH AFRICA
+
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
+
+5
+
+(a) money held in trust;
+(b) money invested (section 86);
+(c) any estate of which practitioners (or administers on behalf of) is the executor, trustee or curator;
+(d) The affairs of the practice.
+
+(10)
+
+# NOTE TO EXAMINER:
+
+Since most candidates will not have seen the new manuals do not penalise references to old sections:
+
+78(1) instead of 86(2)
+
+78(2)(a) instead of 86(3)
+
+78 (2A) instead of 86(4)
+
+![img-0.jpeg](../Mistral OCR 2026-10-19/assets/AttExam7Mar2019P4A/pages/page-6/img-0.jpeg)
+
+TOTAL: [100]
+
+# LAW SOCIETY
+
+# OF SOUTH AFRICA
+
+LAW SOCIETY OF SOUTH AFRICA
+
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
 6

@@ -9,6 +9,12 @@ tags:
 
 # Tax Rates and VAT Registration
 
+> [!important] Statutory Update (Current Tax Rates vs 2009–2012 Archive Memos)
+> - **Companies & Close Corporations**: **27%** (for years of assessment ending on or after 31 March 2023; **28%** in the 2010–2012 memos below).
+> - **Trusts (other than special trusts)**: **45%** flat rate (**40%** in the 2010–2012 memos below).
+> - **Natural Persons (including sole proprietors & partners)**: **18%–45%** progressive sliding scale (**18%–40%** in the 2010–2012 memos below).
+> - **Compulsory VAT Registration Threshold**: **R1 000 000** taxable supplies in any 12-month period; standard VAT rate is **15%** (since 1 April 2018).
+
 True/false and short-answer staples across nearly every FBE paper.
 
 ## Income tax rates by entity (per FBE 2010-05-22 Q3)

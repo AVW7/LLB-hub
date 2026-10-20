@@ -30,399 +30,376 @@ Official guideline model answers for Paper 1, 2021-10-19, recovered on 2026-10-1
 - Pairing and remaining gaps: [[notes/Board Exam Memo Coverage]].
 - Project: [[projects/Board Exam Archive]].
 - Text review: basic extraction checks passed; not fully proofread.
+- Alternate extraction: [[Attorneys Exam/Mistral OCR 2026-10-19/AttExam19Oct2021P1A]].
 
 ## Extracted guideline answers
 
-LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 1
+# ADMISSION EXAMINATION
+COURT PROCEDURES
+PART 1
 
-ADMISSION EXAMINATION COURT PROCEDURES PART 1 19 OCTOBER 2021 
+19 OCTOBER 2021
 
-MEMORANDUM 
+MEMORANDUM
 
-PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. 
+PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING.
 
-NOTE TO EXAMINER: This guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner should apply his discretion in marking the answer. 
+NOTE TO EXAMINER:
 
-QUESTION 1 [10] 
+This guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner should apply his discretion in marking the answer.
 
-1.1 6 November 2021. (½) 
+# QUESTION 1 [10]
 
-1.2 6 November 2023. (½) 
+1.1 6 November 2021. (½)
 
-1.3 
+1.2 6 November 2023. (½)
 
-1. RAF Form 1 (½) 
+1.3
+1. RAF Form 1 (½)
+2. With completed statutory medical report (½)
+3. Section 19(f)(i) affidavit (1)
+4. Power of Attorney (½)
+5. Copy of Client's Identity Document (½)
+6. Accident Report (½)
+7. Hospital / clinical records (½)
 
-2. With completed statutory medical report (½) 
+1.4
+1. Orthopedic surgeon (1)
+2. Occupational therapist (1)
+3. Neurosurgeon (1)
+4. Industrial psychologist (1)
+5. Actuary (1)
+6. The following answers would also be correct: neurologist; neuropsychologist; plastic and reconstructive surgeon.
 
-3. Section 19(f)(i) affidavit (1) 
+# QUESTION 2 [6]
 
-4. Power of Attorney (½) 
+2.1
+1. Motor dealer in relation to unsold motor vehicles; (1)
+2. Transporter of new vehicles from one place to another; (1)
+3. Instalment sale purchaser (hire purchaser); and (1)
+4. Lessee where the period of the lease exceeds 12 months. (1)
 
-5. Copy of Client’s Identity Document (½) 
+LAW SOCIETY OF SOUTH AFRICA
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
-6. Accident Report (½) 
+1
 
-7. Hospital / clinical records (½) 
+2.2 The driver is the person who, for purposes of the RAF Act, drives the vehicle (1) within the meaning of Section 17 of the Act (1).
 
-1.4 
+### QUESTION 3
 
-1. Orthopedic surgeon (1) 
+[5]
 
-2. Occupational therapist (1) 
+Factual questions to be answered to ascertain objectively whether a vehicle is a “motor vehicle:
 
-3. Neurosurgeon (1) 
+- (a) Would the vehicle normally be expected to be seen on the road by the normal ordinary rational driver? (1)
+- (b) Does the vehicle have headlights? (1)
+- (c) Does it have brake lights? (1)
+- (d) Does it have direction indicators? (1)
+- (e) What is the maximum speed limit of the vehicle? (1)
 
-4. Industrial psychologist (1) 
+Other factual questions would be:
 
-5. Actuary (1) 
+- (a) Does the driver of the vehicle have an unobstructed view, e.g., forklifts? (*Chauke’s case*). (1)
+- (b) Does the vehicle steer with the front wheels or back wheels? (*Chauke’s case*). (1)
+- (c) Is the vehicle fitted with a speedometer? (1)
+- (d) Does the vehicle have a hooter? (1)
+- (e) What is the size of the tyres and does the size differ between the front and back wheels? (1)
 
-6. The following answers would also be correct: neurologist; neuropsychologist; plastic and reconstructive surgeon. 
+*Choose any 5 of the above answers.*
 
-QUESTION 2 [6] 
+### QUESTION 4
 
-2.1 
+[4]
 
-1. Motor dealer in relation to unsold motor vehicles; (1) 
+* Please note there was an error in Question 4 in the Afrikaans paper. The question referred to the defendant instead of the Plaintiff. An announcement was made to inform candidates of the correct version being the Plaintiff. The English question is correct.
 
-2. Transporter of new vehicles from one place to another; (1) 
+Further note that the Afrikaans question as it stands cannot be answered as the RAF in accident claims is always the defendant.
 
-3. Instalment sale purchaser (hire purchaser); and (1) 
+In practice, if the Fund refuses to settle the merits formally and refuses to make any interim payment then the Plaintiff must:
 
-4. Lessee where the period of the lease exceeds 12 months. (1) LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 2
+- Serve summons in the High Court; (1)
+- Apply to separate the issues of liability and *quantum* in terms of Rule 33 (4); (1)
+- Obtain an order in the Plaintiff’s favour on liability; (1)
+- Bring a formal application to Court in terms of Rule 34A for an interim payment. (1)
 
-2.2 The driver is the person who, for purposes of the RAF Act, drives the vehicle (1) within the meaning of Section 17 of the Act (1). 
+### QUESTION 5
 
-QUESTION 3 [5] 
+[7]
 
-Factual questions to be answered to ascertain objectively whether a vehicle is a “motor vehicle: 
+- 5.1 Apply to court for an order that Plaintiff pays the costs of the action as well as costs of the application. (1)
+- 5.2 Within 20 court days from the date of receiving of the notice of withdrawal. (1)
+- 5.3 “Take note that application will be made on behalf of the above-named Applicant
 
-(a) Would the vehicle normally be expected to be seen on the road by the normal ordinary rational driver? (1) 
+LAW SOCIETY OF SOUTH AFRICA
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D.]™
 
-(b) Does the vehicle have headlights? (1) 
+2
 
-(c) Does it have brake lights? (1) 
+on (date) and (time) or as soon thereafter as Applicant's legal representative may be heard for an order in the following terms: (1)
 
-(d) Does it have direction indicators? (1) 
+- Plaintiff pays the costs of the withdrawn action (1)
+- Plaintiff pays the costs of this application (1)
 
-(e) What is the maximum speed limit of the vehicle? (1) 
+Further take note that the affidavit of (Applicant) will be used in support of the application. (1)
 
-Other factual questions would be: 
+Kindly enroll the matter accordingly. (1)
 
-(a) Does the driver of the vehicle have an unobstructed view, e.g., forklifts? ( Chauke’s case ). (1) 
+## **QUESTION 6** [8]
 
-(b) Does the vehicle steer with the front wheels or back wheels? ( Chauke’s case ). (1) 
+6.1
 
-(c) Is the vehicle fitted with a speedometer? (1) 
+1. Copy of the summons together with the documents on which the claim rests (½)
+2. The copy of the return of service (½)
+3. The original liquid document (½)
+4. A copy of the Defendant's answering affidavit (½)
+5. A copy of the Plaintiff's replying affidavit (½)
+6. A copy of notice of set down (½)
 
-(d) Does the vehicle have a hooter? (1) 
+6.2
 
-(e) What is the size of the tyres and does the size differ between the front and back wheels? (1) 
+1. Where the Defendant is in default with his Notice of intention to defend. (½)
+2. Where the Defendant failed to plead after service on him/her of Notice of Bar. (½)
+3. Where the Plaintiff failed to deliver a Declaration and was barred from doing so. (½)
+4. Where the Plaintiff or Defendant failed to appear at the hearing. (½)
 
-Choose any 5 of the above answers. 
+6.3 After the Defendant has filed a plea. (1)
 
-QUESTION 4 [4] 
+6.4 - Plaintiff must prove that there is no *bona fide* defence and attach the plea.
+- Plaintiff must identify any point of law relied upon, the facts upon which the Plaintiff's claim is based, and explain briefly why the defence pleaded does not raise any issue for trial. (2)
 
-* Please note there was an error in Question 4 in the Afrikaans paper. The question referred to the defendant instead of the Plaintiff. An announcement was made to inform candidates of the correct version being the Plaintiff. The English question is correct. 
+## **QUESTION 7** [10]
 
-Further note that the Afrikaans question as it stands cannot be answered as the RAF in accident claims is always the defendant. 
+7.1 A special plea does not concern itself with the merits of the case but with some special defence or objection to Plaintiff's case (pleas that could postpone Plaintiff's case i.e. dilatory special pleas or pleas that could destroy Plaintiff's case i.e. special pleas in abatement). (1)
 
-In practice, if the Fund refuses to settle the merits formally and refuses to make any interim payment then the Plaintiff must: 
+7.2 **NOTE TO MARKER** *Any six of the following (½ mark for each correct answer maximum marks 3)*
 
-• Serve summons in the High Court; (1) 
+Arbitration
+Lis Pendens
+Prescription
+Misjoinder/Non-joinder
+Jurisdiction
+Non locus standi in iudicio
+Res judicata
 
-• Apply to separate the issues of liability and quantum in terms of Rule 33 (4); (1) 
+LAW SOCIETY OF SOUTH AFRICA
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
-• Obtain an order in the Plaintiff’s favour on liability; (1) 
+3
 
-• Bring a formal application to Court in terms of Rule 34A for an interim payment. (1) 
+7.3
 
-QUESTION 5 [7] 
+In the High Court of South Africa
+(Eastern Cape Local Division, Port Elizabeth) (1) case no. /2021
 
-5.1 Apply to court for an order that Plaintiff pays the costs of the action as well as costs of the application. (1) 
+In the matter between: Peter Brown (Plaintiff)
+Piet Botha (Defendant)
 
-5.2 Within 20 court days from the date of receiving of the notice of withdrawal. (1) 
+Defendant's Special Plea
 
-5.3 “Take note that application will be made on behalf of the above-named Applicant LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 3
+1.
 
-on (date) and (time) or as soon thereafter as Applicant’s legal representative 
+Defendant specially pleads that the above honourable court lacks jurisdiction to hear the matter as (1):
 
-may be heard for an order in the following terms: (1) 
+The Defendant resides outside the area of jurisdiction of the above honourable court / resides within the area of jurisdiction of the Eastern Cape Main Division, Makanda / Grahamstown and (1)
 
-• Plaintiff pays the costs of the withdrawn action (1) 
+The cause of action arose outside the area of jurisdiction/arose in the area of jurisdiction of the Gauteng Division (1).
 
-• Plaintiff pays the costs of this application (1) 
+Wherefore Defendant prays that the Plaintiff's case be dismissed (1) with costs (1).
 
-Further take note that the affidavit of (Applicant) will be used in support of the application. (1) 
+Note to examiner: Claim has not prescribed, amount only became due and payable on the 30th of April 2018.
 
-Kindly enroll the matter accordingly. (1) 
+QUESTION 8
 
-QUESTION 6 [8] 
+[16]
 
-6.1 
+8.1
 
-1. Copy of the summons together with the documents on which the claim rests (½) 
+(6)
 
-2. The copy of the return of service (½) 
+IN THE REGIONAL COURT FOR THE DISTRICT OF PORT ELIZABETH HELD AT PORT ELIZABETH
 
-3. The original liquid document (½) 
+In the matter between:
 
-4. A copy of the Defendant’s answering affidavit (½) 
+M ACCOUNTANT
 
-5. A copy of the Plaintiff’s replying affidavit (½) 
+APPELLANT
 
-6.  A copy of notice of set down (½) 
+and
 
-6.2 
+THE STATE
 
-1. Where the Defendant is in default with his Notice of intention to defend. (½) 
+RESPONDENT
 
-2. Where the Defendant failed to plead after service on him/her of Notice of Bar. (½) 
+(1)
 
-3. Where the Plaintiff failed to deliver a Declaration and was barred from doing so. (½) 
+NOTICE OF APPEAL
 
-4. Where the Plaintiff or Defendant failed to appear at the hearing. (½) 
+BE PLEASED TO TAKE NOTICE THAT THE APPELLANT hereby notes an appeal to the Eastern Cape Division of the High Court of South Africa against the sentence imposed upon him by the Honourable Magistrate G Masimbi on the 15th day of March 2020. The Appellant hereby appeals on the following grounds: (1)
 
-6.3  After the Defendant has filed a plea. (1) 
+1. The Magistrate erred in not taking the personal circumstances into consideration. (1)
+2. The Magistrate erred in not taking alternative forms of punishment into consideration. (1)
+3. The Magistrate erred in over-emphasising the interests of the public above that of the appellant. (1)
 
-6.4 - Plaintiff must prove that there is no bona fide defence and attach the plea. 
+LAW SOCIETY OF SOUTH AFRICA
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D.]™
 
-- Plaintiff must identify any point of law relied upon, the facts upon which the Plaintiff ’s claim is based, and explain briefly why the defence pleaded does not raise any issue for trial. (2) 
+4
 
-QUESTION 7 [10] 
+4. The Magistrate erred in not finding that there were substantial and compelling circumstances making it possible not to impose a minimum sentence. (1)
+5. The sentence imposed induces a sense of shock. (1)
+6. Etc, etc. (the candidates can provide additional relevant reasons/motivations and markers must use their discretion) (1)
 
-7.1 A special plea does not concern itself with the merits of the case but with some special defence or objection to Plaintiff’s case (pleas that could postpone Plaintiff’s case i.e. dilatory special pleas or pleas that could destroy Plaintiff’s case i.e. special pleas in abatement). (1) 
+Dated at Port Elizabeth on this 16th day of March 2020.
 
-7.2 NOTE TO MARKER Any six of the following (½ mark for each correct answer maximum marks 3) 
+APPELLANT'S ATTORNEY
+12 Graham Street
+PORT ELIZABETH
 
-Arbitration 
+TO: The Clerk of the Regional Court
+PORT ELIZABETH
 
-Lis Pendens 
+AND TO: Regional Magistrate G Masimbi (1)
 
-Prescription 
+(Any six will be marked correct)
 
-Misjoinder/Non-joinder 
+8.2 (10)
 
-Jurisdiction 
+In terms of Section 276 the relevant sentences which may be imposed are:
 
-Non locus standi in iudicio 
+1. Imprisonment
+2. Periodical imprisonment
+3. A fine
+4. Correctional supervision (Section 276(h))
+5. Correctional supervision, that is imprisonment from which such a person may be placed under correctional supervision in his discretion by the Commissioner (Section 276 (i)). (3)
 
-Res judicata LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 4
+Any three would be correct for one mark.
 
-7.3 
+Imprisonment:
 
-In the High Court of South Africa 
+Unsuitable as he will be removed from society, family and business will suffer, the effect of accused being criminalized in prison.
 
-(Eastern Cape Local Division, Port Elizabeth) (1) case no. /2021 
+Remind the court of the general rule that first offenders are to be kept out of prison as far as possible (etc., etc.). (2)
 
-In the matter between: Peter Brown (Plaintiff) 
+Periodical imprisonment:
 
-Piet Botha (Defendant) 
+This should only be resorted to if the court finds it necessary and unavoidable to imprison the accused. The advantage will be that he will be able to continue with his business during the week and will serve a period of imprisonment over weekends. The disadvantage is that he will come into contact with criminals. (2)
 
-Defendant’s Special Plea 
+A fine:
 
-1. 
+This should be seriously considered by the court and could be coupled with a period of imprisonment, alternatively a fine. The court can be addressed on the ability of the accused to pay the amount and requested to allow the accused to repay same by way of monthly instalments. (2)
 
-Defendant specially pleads that the above honourable court lacks jurisdiction to hear the matter as (1): 
+LAW SOCIETY OF SOUTH AFRICA
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
-The Defendant resides outside the area of jurisdiction of the above honourable court / resides within the area of jurisdiction of the Eastern Cape Main Division, Makanda / Grahamstown and (1) 
+5
 
-The cause of action arose outside the area of jurisdiction/arose in the area of jurisdiction of the Gauteng Division (1). 
+### Correctional supervision:
 
-Wherefore Defendant prays that the Plaintiff’s case be dismissed (1) with costs (1). 
+Under Section 276 (h) for a period not exceeding three years. I would attempt to persuade the court that this is the punishment which should be considered. A probation officer or a correctional officer's report is to be obtained and requested in this regard and the matter will have to be postponed until such time as the report is available. In argument in support of this form of punishment, one can argue that: (2)
 
-Note to examiner: Claim has not prescribed, amount only became due and payable on the 30th of April 2018. 
+- (a) Correctional supervision is less intrusive than imprisonment and should be applied in cases where a fine is inappropriate;
+- (b) The family life of the offender can continue;
+- (c) A compulsory training and educational programme recommended by the probation officer can be very beneficial in developing the social skills of the offender;
+- (d) The offender is not exposed to the negative influences of the prison sub-culture;
+- (e) It is cost effective and involves the community in the punishment and rehabilitation;
+- (f) The personal circumstances of the offender, including his family situation and employment, make it possible to maintain effective control and supervision of the offender;
+- (g) The offender is willing to subject himself to correctional supervision. (5)
 
-QUESTION 8 [16] 
+### Imprisonment in terms of Section 276 (i)
 
-8.1 (6) 
+If it becomes clear that the court will impose imprisonment, then this alternative should be requested. (1)
 
-IN THE REGIONAL COURT FOR THE DISTRICT OF PORT ELIZABETH HELD AT PORT ELIZABETH 
+*Any ten of the whole question will be marked correct.*
 
-In the matter between: 
+**Note to examiner:** The reasons for the various sentences are not exhaustive and students are at liberty to present other reasons.
 
-M ACCOUNTANT APPELLANT 
+## QUESTION 9
 
-and 
-
-THE STATE RESPONDENT 
-
-(1) 
-
-NOTICE OF APPEAL 
-
-BE PLEASED TO TAKE NOTICE THAT THE APPELLANT hereby notes an appeal to the Eastern Cape Division of the High Court of South Africa against the sentence imposed upon him by the Honourable Magistrate G Masimbi on the 15th day of March 2020. The Appellant hereby appeals on the following grounds: (1) 
-
-1. The Magistrate erred in not taking the personal circumstances into consideration. (1) 
-
-2. The Magistrate erred in not taking alternative forms of punishment into consideration. (1) 
-
-3. The Magistrate erred in over-emphasising the interests of the public above that of the appellant. (1) LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 5
-
-4. The Magistrate erred in not finding that there were substantial and compelling circumstances making it possible not to impose a minimum sentence. (1) 
-
-5. The sentence imposed induces a sense of shock. (1) 
-
-6. Etc, etc. (the candidates can provide additional relevant reasons/motivations and markers must use their discretion) (1) 
-
-Dated at Port Elizabeth on this 16th day of March 2020. 
-
-APPELLANT’S ATTORNEY 
-
-12 Graham Street 
-
-PORT ELIZABETH 
-
-TO: The Clerk of the Regional Court 
-
-PORT ELIZABETH 
-
-AND TO: Regional Magistrate G Masimbi (1) 
-
-(Any six will be marked correct) 
-
-8.2 (10) 
-
-In terms of Section 276 the relevant sentences which may be imposed are: 
-
-1. Imprisonment 
-
-2. Periodical imprisonment 
-
-3. A fine 
-
-4. Correctional supervision (Section 276(h)) 
-
-5. Correctional supervision, that is imprisonment from which such a person may be placed under correctional supervision in his discretion by the Commissioner (Section 276 (i)). (3) 
-
-Any three would be correct for one mark. 
-
-Imprisonment: 
-
-Unsuitable as he will be removed from society, family and business will suffer, the effect of accused being criminalized in prison. 
-
-Remind the court of the general rule that first offenders are to be kept out of prison as far as possible (etc., etc.). (2) 
-
-Periodical imprisonment: 
-
-This should only be resorted to if the court finds it necessary and unavoidable to imprison the accused. The advantage will be that he will be able to continue with his business during the week and will serve a period of imprisonment over weekends. The disadvantage is that he will come into contact with criminals. (2) 
-
-A fine: 
-
-This should be seriously considered by the court and could be coupled with a period of imprisonment, alternatively a fine. The court can be addressed on the ability of the accused to pay the amount and requested to allow the accused to repay same by way of monthly instalments. (2) LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 6
-
-Correctional supervision: 
-
-Under Section 276 (h) for a period not exceeding three years. I would attempt to persuade the court that this is the punishment which should be considered. A probation officer or a correctional officer’s report is to be obtained and requested in this regard and the matter will have to be postponed until such time as the report is available. In argument in support of this form of punishment, one can argue that: (2) 
-
-(a) Correctional supervision is less intrusive than imprisonment and should be applied in cases where a fine is inappropriate; 
-
-(b) The family life of the offender can continue; 
-
-(c) A compulsory training and educational programme recommended by the probation officer can be very beneficial in developing the social skills of the offender; 
-
-(d) The offender is not exposed to the negative influences of the prison sub-culture; 
-
-(e) It is cost effective and involves the community in the punishment and rehabilitation; 
-
-(f) The personal circumstances of the offender, including his family situation and employment, make it possible to maintain effective control and supervision of the offender; 
-
-(g) The offender is willing to subject himself to correctional supervision. 
-
-(5) 
-
-Imprisonment in terms of Section 276 (i) 
-
-If it becomes clear that the court will impose imprisonment, then this alternative should be requested. (1) 
-
-Any ten of the whole question will be marked correct. 
-
-Note to examiner: The reasons for the various sentences are not exhaustive and students are at liberty to present other reasons. 
-
-QUESTION 9 [9] 
+[9]
 
 9.1 Section 7 of the CPA: In any case in which the National Prosecuting Authority declines to prosecute for an alleged offence-
 
-(a) any private person who proves some substantial and peculiar interest in the issue of the trial arising out of some injury which he individually suffered in consequence of the commission of the said offence; 
+- (a) any private person who proves some substantial and peculiar interest in the issue of the trial arising out of some injury which he individually suffered in consequence of the commission of the said offence;
+- (b) a husband if the said offence was committed in respect of his wife;
+- (c) the wife or child or, if there is no wife or child, any of the next of kin of any deceased person, if the death of such person is alleged to have been caused by the said offence, or
+- (d) the legal guardian or curator of a minor lunatic, if the said offence was committed against his ward either in person or by legal representative, institute and conduct a prosecution in respect of such offence in any court competent to try that offence.
+- (e) above is applicable in this instance. (3)
 
-(b) a husband if the said offence was committed in respect of his wife; 
+*Any three of the above will be marked correct.*
 
-(c) the wife or child or, if there is no wife or child, any of the next of kin of any deceased person, if the death of such person is alleged to have been caused by the said offence, or 
+LAW SOCIETY OF SOUTH AFRICA
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
-(d) the legal guardian or curator of a minor lunatic, if the said offence was committed against his ward either in person or by legal representative, institute and conduct a prosecution in respect of such offence in any court competent to try that offence. 
+6
 
-(e) above is applicable in this instance. 
+Certificate of *nolle prosequi*:
 
-(3) 
+No private prosecutor under this section shall obtain the process of any court for summoning any person to answer any charge unless such private prosecutor produces to the officer authorised by law to issue such process a certificate (1) signed by the National Director of the NPA or the Director of Public Prosecutions (DPP) (senior prosecutor) that he has seen the statements or affidavits on which the charge is based and that he declines to prosecute at the instance of the State (1).
 
-Any three of the above will be marked correct. LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 7
+The National Director of the NPA or the Director of Public Prosecutions (DPP) (senior prosecutor) shall, in any case in which he declines to prosecute, at the request of the person intending to prosecute, grant the certificate referred to above (1).
 
-Certificate of nolle prosequi :
+A certificate issued under this subsection shall lapse unless proceedings in respect of the offence in question are instituted by the issue of the process referred to in paragraph (a) within three months of the date of the certificate (1).
 
-No private prosecutor under this section shall obtain the process of any court for summoning any person to answer any charge unless such private prosecutor produces to the officer authorised by law to issue such process a certificate (1) signed by the National Director of the NPA or the Director of Public Prosecutions (DPP) (senior prosecutor) that he has seen the statements or affidavits on which the charge is based and that he declines to prosecute at the instance of the State (1). 
+***Any six of the whole question will be marked correct.***
 
-The National Director of the NPA or the Director of Public Prosecutions (DPP) (senior prosecutor) shall, in any case in which he declines to prosecute, at the request of the person intending to prosecute, grant the certificate referred to above (1). 
+9.2 Section 12(2): Where the prosecution is instituted under section 7(1) and the accused pleads guilty to the charge, the prosecution shall be continued at the instance of the State (1).
 
-A certificate issued under this subsection shall lapse unless proceedings in respect of the offence in question are instituted by the issue of the process referred to in paragraph (a) within three months of the date of the certificate (1). 
+**The National Director of the NPA** or the Director of Public Prosecutions (DPP) (senior prosecutor) **may intervene:**
 
-Any six of the whole question will be marked correct. 
+The National Director of the NPA or the Director of Public Prosecutions (DPP) (senior prosecutor) may in respect of any private prosecution apply by motion to the court before which the private prosecution is pending to stop all further proceedings (1) in the case in order that a prosecution for the offence in question may be instituted or continued at the instance of the State, and the Court shall make such an order (1). (3)
 
-9.2 Section 12(2): Where the prosecution is instituted under section 7(1) and the accused pleads guilty to the charge, the prosecution shall be continued at the instance of the State (1). 
+**QUESTION 10** [4]
 
-The National Director of the NPA or the Director of Public Prosecutions (DPP) (senior prosecutor) may intervene: 
+Mary is paying out R140 000 (2), i.e. R20 000 (2) more than her contract price.
 
-The National Director of the NPA or the Director of Public Prosecutions (DPP) (senior prosecutor) may in respect of any private prosecution apply by motion to the court before which the private prosecution is pending to stop all further proceedings (1) in the case in order that a prosecution for the offence in question may be instituted or continued at the instance of the State, and the Court shall make such an order (1). (3) 
+**QUESTION 11** [6]
 
-QUESTION 10 [4] 
+11.1 Notice to amend recording that if no objection is made the summons will be amended. (2)
+11.2 Object in ten (10) days giving reasons. (2)
+11.3 File the amended page. (2)
 
-Mary is paying out R140 000 (2), i.e. R20 000 (2) more than her contract price. 
+**QUESTION 12** [4]
 
-QUESTION 11 [6] 
+12.1 Plaintiff must give 10 days' notice that he will be using the photographs. (2)
+12.2 The photographer will have to be called (Award an extra mark if he points out Magistrate may penalise the Defendant with a costs order). (2)
 
-11.1 Notice to amend recording that if no objection is made the summons will be amended. (2) 
+LAW SOCIETY OF SOUTH AFRICA
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
-11.2 Object in ten (10) days giving reasons. (2) 
+7
 
-11.3 File the amended page. (2) 
+# **QUESTION 13**
 
-QUESTION 12 [4] 
+**[7]**
 
-12.1 Plaintiff must give 10 days' notice that he will be using the photographs. (2) 
+In the Magistrate's Court:
 
-12.2 The photographer will have to be called (Award an extra mark if he points out Magistrate may penalise the Defendant with a costs order). (2) LAW SOCIETY OF SOUTH AFRICA LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™ 8
+13.1 Exception:
+13.2 The clerk of the Court and;
+13.3 Defendant's attorney;
+13.4 Please take notice that Plaintiff excepts to the Defendant's plea in that it fails to disclose a defence;
+13.5 Particulars;
+13.6 The fact that apprentice does not have a licence does not excuse his negligence;
+13.7 Prayer;
+13.8 That this exception be upheld with costs.
 
-QUESTION 13 [7] 
+*Any 7 for 1 mark each.*
 
-In the Magistrate's Court: 
+# **QUESTION 14**
 
-13.1 Exception: 
+**[4]**
 
-13.2 The clerk of the Court and; 
+14.1 No, not included. (1)
+14.2 Yes, included. (1)
+14.3 Yes, included. (1)
+14.4 Yes, included. (1)
 
-13.3 Defendant’s attorney; 
+![img-0.jpeg](../Mistral OCR 2026-10-19/assets/AttExam19Oct2021P1A/pages/page-8/img-0.jpeg)
 
-13.4 Please take notice that Plaintiff excepts to the Defendant's plea in that it fails to 
+**TOTAL: [100]**
 
-disclose a defence; 
+LAW SOCIETY OF SOUTH AFRICA
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D.]™
 
-13.5 Particulars; 
-
-13.6 The fact that apprentice does not have a licence does not excuse his negligence; 
-
-13.7 Prayer; 
-
-13.8 That this exception be upheld with costs. 
-
-Any 7 for 1 mark each. 
-
-QUESTION 14 [4] 
-
-14.1 No, not included. (1) 
-
-14.2 Yes, included. (1) 
-
-14.3 Yes, included. (1) 
-
-14.4 Yes, included. (1) 
-
-TOTAL: [100]
+8

@@ -30,81 +30,243 @@ Official guideline model answers for Paper 4, 2015-02-11, recovered on 2026-10-1
 - Pairing and remaining gaps: [[notes/Board Exam Memo Coverage]].
 - Project: [[projects/Board Exam Archive]].
 - Text review: basic extraction checks passed; not fully proofread.
+- Alternate extraction: [[Attorneys Exam/Mistral OCR 2026-10-19/AttExam11Feb2015P4A]].
 
 ## Extracted guideline answers
 
-# ADMISSION EXAMINATION I TOELATINGSEKSAMEN BOOKKEEPING I BOEKHOU PART 4 I DEEL 4 11 FEBRUARY I 11 FEBRUARIE 2015 ANSWERS I ANTWOORDE 
+# ADMISSION EXAMINATION / TOELATINGSEKSAMEN
+BOOKKEEPING / BOEKHOU
+PART 4 / DEEL 4
 
-PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. 
+11 FEBRUARY / 11 FEBRUARIE 2015
 
-NOTE TO EXAMINER: T/1is guideline records t/1e views of tJ,e drafters. Tl,ere may be justifiable variations i11 practice wl,icl, are bro11gl,t out i11 tl,e answers. WJ,e11 tl,is J,appens tJ,e exami11er sl,ould apply /1is discretio11 in marking tJ,e answer. 
+ANSWERS / ANTWOORDE
 
-QUESTION 1 [201 (a) Transfer the amount from Business to Trust Credit Business Cash Book Debit Bank Charges Debit Trust Cash Book Credit Bank charges (b) Transfer amount from Business account to Trust account Credit Trust Cash Book debit client Credit Business Cash Book Debit client Business Debit Trust Cash Book Credit client Trust (c) Debit Trust Cash Book R20 000 Credit Trust Ledger R20 000 Credit Trust Cash Book R200 000 Debit Trust ledger R200 000 ALTERNATIVELY Debit Trust Ledger R 180 000 Credit Trust Cash Book R 180 000 (d) Debit Black Trust Ledger for R500 000 Credit White Trust Ledger for R500 000 (e) Wait for cheque to clear then transfer amount from Trust to Business Credit Trust Cash Book Debit Business Cash Book (f) Transfer R30 000 from Business to Trust Credit Business Cash Book - debit Business Ledger Debit Trust Cash Book - credit Trust Ledger Debit Business Cash Book - credit Business Ledger 
+PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING.
 
-LEGAL EDUCATION AND DEVELOPMENT /L.E.A.D/™ 
+NOTE TO EXAMINER:
 
-(4) (5) (4) (2) (2) (3) 
+This guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner should apply his discretion in marking the answer.
 
-1I
+QUESTION 1
 
-QUESTION 2 
+[20]
 
-2.1 Discussion:-
+(a) Transfer the amount from Business to Trust
 
-(201 
+Credit Business Cash Book
 
-The account in the Trust Ledger has business entries, eg - fees and disbursement to Counsel when there was insufficient funds in trust and fees are debited in the business account. You will be required to transfer R50 000 from the Business account to Trust account. 
+Debit Bank Charges
 
-(8) 
+Debit Trust Cash Book
 
-2.2 Transfer R50 000 from Business to Trust (counsel paid from Trust when there was insufficient funds) (2) 2.3 Fees cannot be debited in Trust - must be debited in Business account. Cancel entry in Trust account (2) 2.4. You can transfer the debit balance of R75 000 in Business account from Trust account. 
+Credit Bank charges
 
-# (2) 
+(4)
 
-Balance Cash Fees 
+(b) Transfer amount from Business account to Trust account
 
-QUESTION 3 
+Credit Trust Cash Book debit client
 
-GREEN - (TRUST) 76 900 76 900 Balance Cash Error Balance GREEN (BUSINESS) 50 000 25 000 TRUST CASH BOOK 1 900 50 000 25 000 76 900 76 900 
+Credit Business Cash Book
 
-(6) [401 
+Debit client Business
 
-Jan 2 Green - Cash Green - Cheque Green - Cheque 8 Green - Cash 30 Nedbank Nedbank 1 500 000 250 000 150 000 250 000 6 500 000 1550 000 
+Debit Trust Cash Book
 
-# 10 200 000 
+Credit client Trust
 
-Jan 3 730 ASSA Bank R/D Cheque Seller - Zama Green Transfer to business 1 500 000 250 000 8 000 000 50 000 400 000 
+(5)
 
-# 10 200 000 
+(c) Debit Trust Cash Book R20 000
 
-LEGAL EDUCATION AND DEVELOPMENT {L.E.A.DffM 2Jan 31 Transfer Trust Jan 7 Cheque - RD 30 Cheque - Zama Transfer to business Cash BUSINESS CASH BOOK 400 000 Jan 4 Transfer Duty TRUST LEDGER - (GREEN) 250 000 8 000 000 400 000 50 000 
+Credit Trust Ledger R20 000
 
-# 8 700 000 
+Credit Trust Cash Book R200 000
 
-Jan 2 Cash - Deposit Cheque - Transfer Cheque - Bond 8 Cash 30 Guarantee Interest TRUST INVESTMENT S78 (2A) -ASSA (GREEN) 150 000 1 500 000 250 000 150 000 250 000 6 500 000 50 000 
+Debit Trust ledger R200 000
 
-# 8 700 000 
+ALTERNATIVELY
 
-Jan 3 Cash 1500000 Jan 30 Cash 1500000 
+Debit Trust Ledger R180 000
 
-BUSINESS LEDGER - GREEN Jan 4 Cash - Transfer duty 30 Fees - Transfer Fees- Bond Journal (Fee) Jan 30 Green (B) Dr Fees Cr Being transfer Fees 150 000 100 000 150 000 
+Credit Trust Cash Book R180 000
 
-# 400 000 
+(4)
 
-FEES 100 000 100 000 Jan 30 Green (B) Dr Fees Cr 150 000 150 000 Being Bond fees Transfer Journal Jan 30 Green (T) Dr 400 000 Green (8) Cr 400 000 Transfer fees + Disbursements Jan 30 Transfer Trust Jan 30 Green - Transfer Green - Bond 400 000 
+(d) Debit Black Trust Ledger for R500 000
 
-# 400 000 
+Credit White Trust Ledger for R500 000
 
-100 000 150 000 (1 mark each entry in the cash & ledger books - (31) and 3 marks each for journal entry (9) 
+(2)
 
-LEGAL EDUCATION AND DEVELOPMENT {L.E.A.DJ™ 3(
+(e) Wait for cheque to clear then transfer amount from Trust to Business
 
-QUESTION 4 
+Credit Trust Cash Book
 
-Cash (Unit Trust) Cheque-RD Cheque - Interest Cash Balance Rich Investment Unit Trust TRUST LEDGER - (RICH) 500 000 500 000 150 000 Balance Cheque - Business Cash (Unit Trust) Interest TRUST INVESTMENT S78 {2A) - RICH 1000000 Cash TRUST CASH BOOK - RICH 2 000 000 500 000 1 150 000 550 000 Investment Rich RID Rich 1. You are required to obtain a written mandate from Mrs Rich; 1.1 to invest the monies in a section 78 2(A) account and; 1.2 to purchase Unit Trust on her behalf 2. Credit the trust cash book and debit Mrs Rich's Trust Ledger Account 
+Debit Business Cash Book
 
-(20] 
+(2)
 
-2 000 000 500 000 550 000 150 000 1000000 1 000 000 500 000 500 000 150 000 (1 mark for each entry in cash and ledger book (17) and 3 marks for explanations 
+(f) Transfer R30 000 from Business to Trust
 
-LEGAL EDUCATION AND DEVELOPMENT [L.E.A.DJ™ 4
+Credit Business Cash Book - debit Business Ledger
+
+Debit Trust Cash Book – credit Trust Ledger
+
+Debit Business Cash Book – credit Business Ledger
+
+(3)
+
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
+
+1
+
+QUESTION 2
+
+[20]
+
+# 2.1 Discussion:-
+
+The account in the Trust Ledger has business entries, eg - fees and disbursement to Counsel when there was insufficient funds in trust and fees are debited in the business account.
+
+You will be required to transfer R50 000 from the Business account to Trust account. (8)
+
+2.2 Transfer R50 000 from Business to Trust (counsel paid from Trust when there was insufficient funds) (2)
+2.3 Fees cannot be debited in Trust - must be debited in Business account. Cancel entry in Trust account (2)
+2.4. You can transfer the debit balance of R75 000 in Business account from Trust account. (2)
+
+GREEN - (TRUST)
+
+|  Balance | 76 900 | Balance | 1 900  |
+| --- | --- | --- | --- |
+|   |  | Cash | 50 000  |
+|   |  | Error | 25 000  |
+|   | 76 900 |  | 76 900  |
+|   |  | Balance | 76 900  |
+
+GREEN (BUSINESS)
+
+|  Cash | 50 000  |
+| --- | --- |
+|  Fees | 25 000  |
+
+QUESTION 3
+
+[40]
+
+TRUST CASH BOOK
+
+|  Jan 2 | Green - Cash | 1 500 000 | Jan 3 | ABSA Bank | 1 500 000  |
+| --- | --- | --- | --- | --- | --- |
+|   | Green - Cheque | 250 000 | 7 | R/D Cheque | 250 000  |
+|   | Green - Cheque | 150 000 | 30 | Seller - Zama | 8 000 000  |
+|  8 | Green - Cash | 250 000 |  | Green | 50 000  |
+|  30 | Nedbank | 6 500 000 |  | Transfer to business | 400 000  |
+|   | Nedbank | 1 550 000 |  |  |   |
+|   |  | 10 200 000 |  |  | 10 200 000  |
+
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
+
+2
+
+# BUSINESS CASH BOOK
+
+|  Jan 31 Transfer Trust | 400 000 | Jan 4 Transfer Duty | 150 000  |
+| --- | --- | --- | --- |
+
+# TRUST LEDGER – (GREEN)
+
+|  Jan 7 Cheque - RD | 250 000 | Jan 2 Cash - Deposit | 1 500 000  |
+| --- | --- | --- | --- |
+|  30 Cheque - Zama | 8 000 000 | Cheque - Transfer | 250 000  |
+|  Transfer to business | 400 000 | Cheque - Bond | 150 000  |
+|  Cash | 50 000 | 8 Cash | 250 000  |
+|   |  | 30 Guarantee | 6 500 000  |
+|   |  | Interest | 50 000  |
+|   | 8 700 000 |  | 8 700 000  |
+
+# TRUST INVESTMENT S78 (2A) – ABSA (GREEN)
+
+|  Jan 3 Cash | 1 500 000 | Jan 30 Cash | 1 500 000  |
+| --- | --- | --- | --- |
+
+# BUSINESS LEDGER - GREEN
+
+|  Jan 4 Cash - Transfer duty | 150 000 | Jan 30 Transfer Trust | 400 000  |
+| --- | --- | --- | --- |
+|  30 Fees - Transfer | 100 000 |  |   |
+|  Fees - Bond | 150 000 |  |   |
+|   | 400 000 |  | 400 000  |
+
+# FEES
+
+|   | Jan 30 Green - Transfer | 100 000  |
+| --- | --- | --- |
+|   | Green - Bond | 150 000  |
+
+# Journal (Fee)
+
+|  Jan 30 Green (B) | Dr | 100 000  |
+| --- | --- | --- |
+|  Fees | Cr | 100 000  |
+
+# Being transfer Fees
+
+|  Jan 30 Green (B) | Dr | 150 000  |
+| --- | --- | --- |
+|  Fees | Cr | 150 000  |
+
+# Being Bond fees
+
+# Transfer Journal
+
+|  Jan 30 Green (T) | Dr | 400 000  |
+| --- | --- | --- |
+|  Green (B) | Cr | 400 000  |
+
+Transfer fees + Disbursements
+
+(1 mark each entry in the cash & ledger books – (31)
+
+and 3 marks each for journal entry (9)
+
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
+
+3
+
+QUESTION 4
+
+[20]
+
+TRUST LEDGER – (RICH)
+
+|  Cash (Unit Trust) | 500 000 | Balance | 2 000 000  |
+| --- | --- | --- | --- |
+|  Cheque - RD | 500 000 | Cheque - Business | 500 000  |
+|  Cheque - Interest | 150 000 | Cash (Unit Trust) | 550 000  |
+|   |  | Interest | 150 000  |
+
+TRUST INVESTMENT S78 (2A) – RICH
+
+|  Cash | 1 000 000 | Cash | 1 000 000  |
+| --- | --- | --- | --- |
+
+TRUST CASH BOOK - RICH
+
+|  Balance | 2 000 000 | Investment | 1 000 000  |
+| --- | --- | --- | --- |
+|  Rich | 500 000 | Rich | 500 000  |
+|  Investment | 1 150 000 | R/D | 500 000  |
+|  Unit Trust | 550 000 | Rich | 150 000  |
+
+1. You are required to obtain a written mandate from Mrs Rich;
+1.1 to invest the monies in a section 78 2(A) account and;
+1.2 to purchase Unit Trust on her behalf
+2. Credit the trust cash book and debit Mrs Rich's Trust Ledger Account
+
+(1 mark for each entry in cash and ledger book (17) and 3 marks for explanations
+
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
+
+4

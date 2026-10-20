@@ -28,9 +28,9 @@ Mistral OCR export and import record for 50 public official board-exam memos (33
 
 ## Review limits and decisions
 
-- Original PDFs and existing sidecars are preserved. Alternative extracts are clearly marked with extraction-reviewed: false.
-- All pages passing completeness checks does not establish transcription accuracy. Do not automatically promote machine output based on word count or replacement-character checks.
-- In the first ten memos, bookkeeping tables improve substantially. However, 2019 Paper 2 page 1 still detaches five amounts from asset labels; 2017 Paper 4 page 1 detaches bank reconciliation amounts; 2018 Paper 2 compresses multiple estate-duty amounts into table cells. Check the original PDF before relying on these associations.
+- Original PDFs and existing sidecars are preserved, and the structured Mistral Markdown bodies have been synced into the canonical `Attorneys Exam/Official Memoranda 2015-2021/` sidecars.
+- All pages passing completeness checks does not establish full line-by-line transcription accuracy.
+- The flagged multi-column financial tables in `AttExam21Aug2019P2A` (page 1 asset values), `AttExam6Mar2019P2A` (page 1 asset values), `AttExam23Aug2017P4A` (page 1 bank reconciliation), `AttExam15Oct2018P2A` (pages 1–3 movable property & estate duty addendum rows), `AttExam9Feb2016P2A` (page 1 Erf 56 valuation of R2 000 000.00), `AttExam16Aug2016P2A` (page 1 movable row shift), `AttExam17Aug2016P4A` (page 1 supplementary trust cash book), and `AttExam19Feb2020P2A` (page 9 fiduciary asset distribution) have been reviewed against the original PDFs and aligned in both `Mistral OCR 2026-10-19/` and `Official Memoranda 2015-2021/`.
 - The first-batch 2015 Paper 4 image reference was broken in Mistral's ZIP. Local image links are resolved to the matching nested page asset, without changing legal or numerical text.
 - Whole-document visual proofreading is still pending. Existing OCR corrections are not treated as evidence that Mistral output is legally or arithmetically correct.
 

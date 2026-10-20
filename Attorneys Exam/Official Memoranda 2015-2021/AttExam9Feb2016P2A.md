@@ -30,111 +30,236 @@ Official guideline model answers for Paper 2, 2016-02-09, recovered on 2026-10-1
 - Pairing and remaining gaps: [[notes/Board Exam Memo Coverage]].
 - Project: [[projects/Board Exam Archive]].
 - Text review: basic extraction checks passed; not fully proofread.
+- Alternate extraction: [[Attorneys Exam/Mistral OCR 2026-10-19/AttExam9Feb2016P2A]].
 
 ## Extracted guideline answers
 
-# ADMISSION EXAMINATION I TOELATINGSEKSAMEN ESTATES I BOEDELS PART 2 I DEEL 2 09 FEBRUARY I FEBRUARIE 2016 ANSWERS I ANTWOORDE 
+# ADMISSION EXAMINATION / TOELATINGSEKSAMEN
+ESTATES / BOEDELS
+PART 2 / DEEL 2
 
-PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING. NOTE TO EXAMINER: TJ,is guideline records tl,e views of tl,e drafters. TJ,ere may be justifiable variations in practice wlticl, are brougltt out in tl,e answers. WJ,en ti,is l,appens tl,e examiner sl,ould apply !,is discretion ill marking tl,e answer. 
+09 FEBRUARY / FEBRUARIE 2016
 
-QUESTION 1 LIQUIDATION ACCOUNT ASSETS IMMOVABLE PROPERTY 
+ANSWERS / ANTWOORDE
 
-Erf 56 Mooi River, Registration Division FT, Province of Kwazulu Natal In extent 1012 square metres Held under Deed of Transfer No. T672/2002 [1] Valued at Awarded to the Intestate Heirs in terms of Act No.81 of 1987 [1] 
+PLEASE NOTE THAT THE GUIDELINE ANSWERS TO PREVIOUS PAPERS MAY NOT BE A CORRECT REFLECTION OF THE LAW AND/OR PRACTICE AT THE MOMENT OF READING.
 
-MOVABLE PROPERTY 
+NOTE TO EXAMINER:
 
-BMW car NR 21578 Norinco Firearm (SFG 27416A) valued at 2000 Shares in Going Down (Pty) Ltd: Realised Absa Fixed Deposit Account No. 542874 Interest accrued to date of death 
+This guideline records the views of the drafters. There may be justifiable variations in practice which are brought out in the answers. When this happens the examiner should apply his discretion in marking the answer.
 
-1
+QUESTION 1
 
-2345Household furniture valued at 6400 Shares in Fertile Farms Limited Realised 7Proceeds of Sanlam Policy No. X117428: 8
+[67]
 
-LEGAL EDUCATION AND DEVELOPMENT [L.E.A.DJ ™
+LIQUIDATION ACCOUNT
 
-[67] 2 000 000.00 [1] 95 000.00 [1] 15 000.00 [1] 80 000.00 [1] 150 000.00 [1] 20 000.00 [1] 160 000.00 [1] 60 000.00 [1] 300 000.00 [1] 
+| Assets | Item | Amount (R) |
+| --- | --- | --- |
+| **IMMOVABLE PROPERTY** | | |
+| Erf 56 Mooi River, Registration Division FT, Province of Kwazulu Natal, In extent 1012 square metres, Held under Deed of Transfer No. T672/2002 [1] — Valued at *(Awarded to the Intestate Heirs in terms of Act No. 81 of 1987)* [1] | 1 | 2 000 000.00 [1] |
+| **MOVABLE PROPERTY** | | |
+| BMW car NR 21578 | 2 | 95 000.00 [1] |
+| Norinco Firearm (SFG 27416A) valued at | 3 | 15 000.00 [1] |
+| 2000 Shares in Going Down (Pty) Ltd: Realised | 4 | 80 000.00 [1] |
+| Absa Fixed Deposit Account No. 542874 | 5 | 150 000.00 [1] |
+| Interest accrued to date of death | | 20 000.00 [1] |
+| Household furniture valued at | 6 | 160 000.00 [1] |
+| 400 Shares in Fertile Farms Limited Realised | 7 | 60 000.00 [1] |
+| Proceeds of Sanlam Policy No. X117428: Surrender Value | 8 | 300 000.00 [1] |
+| XYZ Bank – Savings Account No. 224317 | 9 | 200 000.00 [1] |
+| Proceeds of First Life Insurance Policy *(Awarded to the Intestate Heirs in terms of Act No. 81 of 1987)* [1] | 10 | 600 000.00 [1] |
+| **TOTAL ASSETS** | | **3 680 000.00** |
 
-Page 1 Surrender Value XYZ Bank-Savings Account No. 224317 9Proceeds of First Life Insurance Policy 10 Awarded to the Intestate Heirs in terms of Act No.81 of 1987 [1] TOTAL ASSETS LIABILITIES Administration Expenses 11 Masters fees (maximum} 12 Executors Renumeration (3.5% of 13 R3 680 00.00} KZN Funerals: Funeral costs 14 SARS final tax assessment 15 Dr Fine: Medical Expenses 16 Absa Bond Account No. 3721740 17 Fair & Square Attorneys: 18 Bond Cancellation Costs Transfer fees 19 Ryan Valuers : Valuation Costs 20 Total Liabilies Estate duty Balance available for Distribution RECAPITULATION STATEMENT Total assets reduced to cash Liabilities Estate Duty Cash Surplus 
+LIABILITIES
 
-LEGAL EDUCATION AND DEVELOPMENT [L.E.A.DJ TM 
+|  Administration Expenses | 11 | 12 000.00 [1]  |
+| --- | --- | --- |
+|  Masters fees (maximum) | 12 | 600.00 [1]  |
+|  Executors Renumeration (3.5% of R3 680 00.00) | 13 | 128 800.00 [2]  |
+|  KZN Funerals: Funeral costs | 14 | 28 000.00 [1]  |
+|  SARS final tax assessment | 15 | 36 000.00 [1]  |
+|  Dr Fine: Medical Expenses | 16 | 7 500.00 [1]  |
+|  Absa Bond Account No. 3721740 | 17 | 700 000.00 [1]  |
+|  Fair & Square Attorneys: | 18 | 2 500.00 [1]  |
+|  Bond Cancellation Costs |  |   |
+|  Transfer fees | 19 | 24 000.00 [1]  |
+|  Ryan Valuers : Valuation Costs | 20 | 2 500.00 [1]  |
+|  Total Liabilities |  | 941 900.00  |
+|  Estate duty |  | Nil [1]  |
+|  Balance available for Distribution |  | 2 738 100.00  |
+|   |  | 3 680 000.00  |
 
-200 000.00 [1] 600 000.0 [1] 3 680 000.00 12 000.00 [1] 600.00 [1] 128 800.00 [2] 28 000.00 [1] 36 000.00 [1] 7 500.00 [1] 700 000.00 [1] 2 500.00 [1] 24 000.00 [1] 2 500.00 [1] 941 900.00 Nil [1] 2 738 100.00 3 680 000.00 1 410 000.00 [2] 941 900.00 [1] NIL 468 100.00 [1] 1 410 000.00 
+RECAPITULATION STATEMENT
 
-Page 2 DISTRIBUTION ACCOUNT 
+|  Total assets reduced to cash | 1 410 000.00 [2]  |
+| --- | --- |
+|  Liabilities | 941 900.00 [1]  |
+|  Estate Duty | NIL  |
+|  Cash Surplus | 468 100.00 [1]  |
+|   | 1 410 000.00  |
 
-Balance available for distribution Add Funeral Expenses Awarded to surviving spouse ½ share by virtue of her marriage in Community of Property Less Funeral Expenses Balance for distribution to intestate heirs Awarded to B surviving spouse in terms of Section 1(1)(c)(i) [1] Awarded to C major, in terms of Section 1(1)(c)(ii) [1] Awarded to D major in terms of Section 1(1)(c)(ii)[1] The above awards consist of an undivided share in the immovable property item 1 and movable assets items 2 and 3 [2] INCOME AND EXPENDITURE ACCOUNT 
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
-Interest on Fixed Deposit Executors Fees (6%) Interest on mortgage bond Balance for distribution 
+Page 2
 
-LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D] ™
+# DISTRIBUTION ACCOUNT
 
-451 683.33 [1] 
+|  Balance available for distribution | 2 738 100.00 [1]  |
+| --- | --- |
+|  Add Funeral Expenses | 28 000.00 [2]  |
+|   | 2 766 100.00  |
+|  Awarded to surviving spouse ½ share by virtue of her marriage in Community of Property | 1 383 050.00 [2]  |
+|   | 1 383 050.00  |
+|  Less Funeral Expenses | 28 000.00 [1]  |
+|  Balance for distribution to intestate heirs | 1 383 050.00 [1]  |
+|  Awarded to B surviving spouse in terms of Section 1(1)(c)(i) [1] | 451 683.33 [1]  |
+|  Awarded to C major, in terms of Section 1(1)(c)(ii) [1] | 451 683.33 [1]  |
+|  Awarded to D major in terms of Section 1(1)(c)(ii)[1] | 451 683.34 [1]  |
+|  The above awards consist of an undivided share in the immovable property item 1 and movable assets items 2 and 3 [2] |   |
+|   | 1 355 050.00  |
+|   | 1 355 050.00  |
 
-451 683.33 [1] 
+# INCOME AND EXPENDITURE ACCOUNT
 
-451 683.34 [1] 
+|  Interest on Fixed Deposit | 10 000.00 [1]  |
+| --- | --- |
+|  Executors Fees (6%) | 600.00 [1]  |
+|  Interest on mortgage bond | 9 400.00 [1]  |
+|  Balance for distribution | Nil  |
+|   | 10 000.00  |
+|   | 10 000.00  |
 
-1 355 050.00 600.00 [1] 
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
-9 400.00 [1] 
+Page 3
 
-Nil 10 000.00 2 738 100.00 [1] 28 000.00 [2] 2 766100.00 1 383 050.00 [2] 1 383 050.00 28 000.00 [1] 
+# **ESTATE DUTY ADDENDUM**
 
-1 383 050.00 [1] 
+|  Assets as per Liquidation Account | 3 680 000.00 [1]  |
+| --- | --- |
+|  Less Deemed property included in Estate Account (First Life Policy) | 600 000.00 [2]  |
+|   | 3 080 000.00  |
+|  Less Difference in Value of Shares in Going Down (Pty) Ltd | 14 000.00 [2]  |
+|   | 3 066 000.00  |
+|  Less Liabilities (excluding Funeral expenses) R941 900 – R28 000 | 913 900.00 [2]  |
+|   | 2 152 100.00  |
+|  Less ½ share of surviving spouse | 1 076 050.00 [2]  |
+|   | 1 076 050.00  |
+|  Less Funeral Expenses | 28 000.00 [1]  |
+|   | 1 048 050.00  |
+|  Add Deemed Property |   |
+|  First Life Policy | 600 000.00 [1]  |
+|  Old Mutual Policy | 1 000 000.00 [1]  |
+|   | 1 600 000.00  |
+|  Gross Value of Estate | 2 648 050.00 [1]  |
+|  Less Deductions |   |
+|  Section 4Q: Inheritance | 451 683.33 [1]  |
+|  Deemed property | 1 000 000.00 [1]  |
+|   | 1 451 683.33  |
+|   | 1 196 366.67 [2]  |
+|  Less Rebate in terms of Section 4A | 3 500 000.00 [1]  |
+|   | NIL [1]  |
 
-1 355 050.00 10 000.00 [1] 
+Therefore no Estate Duty Payable
 
-10 000.00 
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
-> Page3
+Page 4
 
-ESTATE DUTY ADDENDUM Assets as per Liquidation Account Less Deemed property included in Estate Account (First Life Policy) Less Difference in Value of Shares in Going Down (Pty) Ltd Less Liabilities (excluding Funeral expenses) R941900 - R28 000 Less ½ share of surviving spouse Less Funeral Expenses Add Deemed Property First Life Policy Old Mutual Policy Gross Value of Estate Less Deductions Section 40: Inheritance Deemed property Less Rebate in terms of Section 4A Therefore no Estate Duty Payable 
+QUESTION 2
 
-LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D) .,,.. 
+[13]
 
-600 000.00 [1] 1000 000.00 [1] 451 683.33 [1] 3 680 000.00 [1] 600 000.00 [2] 3 080 000.00 14 000.00 [2] 3 066 000.00 913 900.00 [2] 2 152 100.00 1076 050.00 [2] 1076 050.00 28 000.00 [1] 1048 050.00 1600 000.00 2 648 050.00 [1] 1 000 000.00 [1] ______,:_1....:....45 :....;. 1_;; 6....::... 83 c:....;_ ..;:_;33 =--
+# REDISTRIBUTION AGREEMENT
 
-1 196 366.67 [2] 3 500 000.00 [1] NIL [1] 
+ESTATE LATE NORAH BAM
 
-Page4 QUESTION 2 
+MASTER'S REFERENCE NO. : 2345/2015 [1]
 
-REDISTRIBUTION AGREEMENT ESTATE LATE NORAH BAM MASTER'S REFERENCE NO. : 2345/2015 [11 [131 WHEREAS in terms of Clauses 6, 7 and 8 of the Last Will and Testament dated 17 August 2012 of the late Norah Barn, the deceased bequeathed: [11 1. Her immovable property to her major daughter, ELIZABETH BAM, which property is valued at R700 000.00; [11 2. Her JSE Share Portfolio to her major son, ERIC BAM, which portfolio is valued at R700 ODO.DO; [11 3. Cash in the amount of R1 400 000.00 to her surviving spouse, DAVID BAM, to whom she was married out of community of property; [11 AND WHEREAS the heirs ELIZABETH BAM and ERIC BAM would prefer to receive cash in place of the specific items bequeathed to them and the surviving spouse, DAVID BAM, would prefer to receive the aforesaid specific assets; [1] AND WHEREAS the heirs, all majors, have agreed to redistribute the assets. [1] NOW THEREFORE the heirs agree as follows 1. In place of the immovable property (Item 1 in the Liquidation Account), ELIZABETH BAM shall receive the equivalent value thereof of CASH in the amount of R700 000.00. [1] 2. In place of the Share Portfolio (Item 2 in the Liquidation Account), ERIC BAM shall receive the equivalent value thereof of CASH in the amount of R700 ODO.DO. [11 3. In place of the cash in the sum of R1 400 000.00, DAVID BAM shall receive the said immovable property valued at R700 000.00 and the share portfolio valued at R700 000.00. [11 4. The parties acknowledge that this Redistribution Agreement is subject to confirmation by the Master of the High Court. [1] DATED AT AS WITNESSES : 1. 2. THIS DAY OF 
+WHEREAS in terms of Clauses 6, 7 and 8 of the Last Will and Testament dated 17 August 2012 of the late Norah Bam, the deceased bequeathed: [1]
 
-LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D] "' 
+1. Her immovable property to her major daughter, ELIZABETH BAM, which property is valued at R700 000.00; [1]
+2. Her JSE Share Portfolio to her major son, ERIC BAM, which portfolio is valued at R700 000.00; [1]
+3. Cash in the amount of R1 400 000.00 to her surviving spouse, DAVID BAM, to whom she was married out of community of property; [1]
 
-2015. [11 DAVID BAM ELIZABETH BAM ERIC BAM [1] 
+AND WHEREAS the heirs ELIZABETH BAM and ERIC BAM would prefer to receive cash in place of the specific items bequeathed to them and the surviving spouse, DAVID BAM, would prefer to receive the aforesaid specific assets; [1]
 
-Page 5 QUESTION 3 
+AND WHEREAS the heirs, all majors, have agreed to redistribute the assets. [1]
 
-## 1. 
+NOW THEREFORE the heirs agree as follows :
 
-# 2. 
+1. In place of the immovable property (Item 1 in the Liquidation Account), ELIZABETH BAM shall receive the equivalent value thereof of CASH in the amount of R700 000.00. [1]
+2. In place of the Share Portfolio (Item 2 in the Liquidation Account), ERIC BAM shall receive the equivalent value thereof of CASH in the amount of R700 000.00. [1]
+3. In place of the cash in the sum of R1 400 000.00, DAVID BAM shall receive the said immovable property valued at R700 000.00 and the share portfolio valued at R700 000.00. [1]
+4. The parties acknowledge that this Redistribution Agreement is subject to confirmation by the Master of the High Court. [1]
 
-# 3. 
+DATED AT
 
-The testators signatures at the end of the will and in the middle of the first page is in compliance with the Wills Act No. 7 of 1953: Section 2(1 )(a)(iv) If the Will consists more than one page, the witnesses are only required to sign the second page The fact that the will is not dated does not affect its validity I would advise that the Will is valid. QUESTION4 
+THIS
 
-[51 
+DAY OF
 
-[2] 
+2015. [1]
 
-# [2] 
+AS WITNESSES :
 
-[1] 
+1.
+2.
 
-[51 
+DAVID BAM
 
-a. Deposit assessed amount into the specified banking account of the Department of Justice and Constitutional Development [1]; and b. Submit proof of payment to the Master [1] 1. 3 Marks a. Prepare payment on e-filing [1]; b. Deposit assessed amount, by EFT, into the specified banking account of SARS [1]; and c. Submit proof of payment to the Master [11 NOTE: 1 mark may be given for paying cheque directly to SARS office instead paying by EFT if payment is R500 000.00 or below. QUESTIONS [101   
+ELIZABETH BAM
 
-> 1. W
+ERIC BAM
 
-= R250000 accrual [2] and R375 000 (surviving spouse's share) [1] and R375000 (C's share); [1] A = nil because Ws adopted daughter; [1] 
+[1]
 
-B = R375000 because H's illegitimate child; [1] C = nothing because she renounced [1] - devolves on W: [11 E and F = R187500 each as represent D (illegitimate and adopted); [1] 
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
 
-G = nothing as excluded [1] 
+Page 5
 
-LEGAL EDUCATION AND DEVELOPMENT [L.E.A.DJ ™
+# QUESTION 3
 
-TOTAL: [100] 
+[5]
 
-Page6
+1. The testators signatures at the end of the will and in the middle of the first page is in compliance with the Wills Act No. 7 of 1953: Section 2(1)(a)(iv) [2]
+2. If the Will consists more than one page, the witnesses are only required to sign the second page [2]
+3. The fact that the will is not dated does not affect its validity [1]
+
+I would advise that the Will is valid.
+
+# QUESTION 4
+
+[5]
+
+a. Deposit assessed amount into the specified banking account of the Department of Justice and Constitutional Development [1]; and
+b. Submit proof of payment to the Master [1]
+1. 3 Marks
+a. Prepare payment on e-filing [1];
+b. Deposit assessed amount, by EFT, into the specified banking account of SARS [1]; and
+c. Submit proof of payment to the Master [1]
+
+NOTE: 1 mark may be given for paying cheque directly to SARS office instead paying by EFT if payment is R500 000.00 or below.
+
+# QUESTION 5
+
+[10]
+
+1. W = R250000 accrual [2] and R375 000 (surviving spouse's share) [1] and R375000 (C's share); [1]
+
+A = nil because W's adopted daughter; [1]
+
+B = R375000 because H's illegitimate child; [1]
+
+C = nothing because she renounced [1] – devolves on W: [1]
+
+E and F = R187500 each as represent D (illegitimate and adopted); [1]
+
+G = nothing as excluded [1]
+
+TOTAL: [100]
+
+LEGAL EDUCATION AND DEVELOPMENT [L.E.A.D]™
+
+Page 6

@@ -51,26 +51,10 @@ Use **LLB Second Brain: Notes: Index notes for RAG** to build the local index, t
 
 ## Board exam archive update - 2026-10-19
 
-- [[projects/Board Exam Archive]] - recovered papers, current state and remaining proofreading.
-- [[notes/Board Exam OCR Audit]] - verified corrections, original PDF links and recovery evidence.
-- [[Logs/2026-10-19 - Board Exam Archive]] - dated work record.
-
-## Matching model answers - 2026-10-19
-
-- As of 2026-10-19, 50 matching official model-answer memos for the 66 newly added question papers are saved with searchable text and original PDFs.
-- [[notes/Board Exam Memo Coverage]] links every question/memo pair and lists the 16 unlocated official memos for 2022-2023.
-- Full proofreading remains open; flagged extracted memo text is identified in the coverage note.
-
-## Memo follow-up - 2026-10-19
-
-- Corrected 24 flagged characters in ten official memo extracts against 14 original PDF pages.
-- [[notes/Board Exam Memo Search - 2026-10-19]] records the follow-up source checks and partial or unofficial leads.
-- As of 2026-10-19, 50 official memos are saved and 16 official 2022-2023 memos remain unlocated; full proofreading is still open.
-
-## Mistral OCR exports - 2026-10-19
-
-- [[notes/Board Exam Mistral OCR - 2026-10-19]] links 50 searchable alternative memo extracts covering 332 pages and the downloaded ZIP exports.
-- Originals and existing corrected extracts are preserved; Mistral financial tables and full transcription still need source review. Official coverage remains 50 memos with 16 recent gaps.
+- [[projects/Board Exam Archive]] — 66 official 2015–2023 question papers and 50 official 2015–2021 model-answer memos saved with original PDFs, structured Markdown sidecars, and expanded Paper 2 (Estates) and Paper 4 (Bookkeeping) study notes.
+- [[notes/Board Exam Memo Coverage]] & [[notes/Board Exam Memo Search - 2026-10-19]] — complete question/memo pair map and search record for the 16 unlocated 2022–2023 official memos.
+- [[notes/Board Exam OCR Audit]] & [[notes/Board Exam Mistral OCR - 2026-10-19]] — OCR verification, financial table alignment, and 50 Mistral OCR exports.
+- [[Logs/2026-10-19 - Board Exam Archive]] — dated work record.
 
 ## Candidate model answers for 2022-2023 (pending verification) - 2026-10-19
 
